@@ -135,6 +135,7 @@ async fn test_suggestions() -> Result<()> {
 
 async fn interactive_demo() -> Result<()> {
     use crate::speech::SpeechManager;
+    use crate::core::user_profile::{UserProfile, UserType};
     use std::io::{self, Write};
     use tokio::sync::mpsc;
     
@@ -143,9 +144,50 @@ async fn interactive_demo() -> Result<()> {
     let mut speech_manager = SpeechManager::new(tx).await?;
     let has_tts = speech_manager.can_speak();
     
-    println!("\n👶🗣️  TinkyBink AAC - Simple Communication System");
-    println!("================================================");
-    println!("Parent asks questions → Child taps to respond");
+    println!("\n👶🗣️  TinkyBink AAC - Adaptive Communication System");
+    println!("==================================================");
+    
+    // User type selection
+    println!("\n👥 Choose user type:");
+    println!("  1. Child (ages 2-12)");
+    println!("  2. Adult");
+    println!("  3. Stroke survivor");
+    println!("  4. Medical patient");
+    
+    print!("\nSelect (1-4): ");
+    io::stdout().flush()?;
+    
+    let mut choice = String::new();
+    io::stdin().read_line(&mut choice)?;
+    let choice = choice.trim();
+    
+    let user_profile = match choice {
+        "1" => {
+            println!("\n👶 Selected: Child user");
+            UserProfile::child("Demo Child".to_string(), 6)
+        },
+        "2" => {
+            println!("\n👨 Selected: Adult user");
+            UserProfile::adult("Demo Adult".to_string(), None)
+        },
+        "3" => {
+            println!("\n🏥 Selected: Stroke survivor");
+            UserProfile::stroke_survivor("Demo Patient".to_string(), Some(6))
+        },
+        "4" => {
+            println!("\n🏥 Selected: Medical patient");
+            UserProfile::adult("Demo Patient".to_string(), None) // Could add medical-specific profile
+        },
+        _ => {
+            println!("\n👶 Default: Child user");
+            UserProfile::child("Demo Child".to_string(), 6)
+        }
+    };
+    
+    println!("\n{:?} asks questions → {:?} taps to respond", 
+        if matches!(user_profile.user_type, UserType::Child { .. }) { "Parent" } else { "Caregiver" },
+        user_profile.name
+    );
     
     if has_tts {
         println!("\n🔊 VOICE: ON - Child's response will be spoken");
@@ -194,30 +236,43 @@ async fn interactive_demo() -> Result<()> {
                 }
                 
                 
-                println!("\n👶 Child can tap these to communicate:");
+                println!("\n{} can tap these to communicate:", user_profile.name);
+                
+                // Create suggestion engine with user profile
+                let mut engine = crate::suggestions::SuggestionEngine::new();
+                engine.set_user_profile(user_profile.clone());
                 
                 // Try AI-powered suggestions first, fallback to simple tiles
-                let tiles = {
-                    use crate::suggestions::SuggestionEngine;
-                    
-                    // Create suggestion engine (will try to load Ollama)
-                    let engine = SuggestionEngine::new();
-                    
-                    // Try to get AI suggestions
-                    match tokio::task::block_in_place(|| {
-                        tokio::runtime::Handle::current().block_on(
-                            engine.generate_suggestions(input)
-                        )
-                    }) {
-                        Ok(ai_tiles) if !ai_tiles.is_empty() => {
-                            println!("🤖 Using AI-powered suggestions");
-                            ai_tiles
-                        }
-                        _ => {
-                            println!("📝 Using pattern-based suggestions");
-                            use crate::suggestions::simple_tiles;
-                            simple_tiles::get_contextual_tiles(input)
-                        }
+                let tiles = match tokio::task::block_in_place(|| {
+                    tokio::runtime::Handle::current().block_on(
+                        engine.generate_suggestions(input)
+                    )
+                }) {
+                    Ok(ai_tiles) if !ai_tiles.is_empty() => {
+                        println!("🤖 Using adaptive AI suggestions for {:?}", user_profile.user_type);
+                        ai_tiles
+                    }
+                    _ => {
+                        println!("📝 Using default responses for {:?}", user_profile.user_type);
+                        user_profile.get_contextual_responses(input)
+                            .into_iter()
+                            .enumerate()
+                            .map(|(i, response)| {
+                                let emoji = match i {
+                                    0 => "✅",
+                                    1 => "❌", 
+                                    2 => "🤔",
+                                    3 => "💭",
+                                    _ => "💬"
+                                }.to_string();
+                                crate::core::events::SuggestionTile {
+                                    emoji,
+                                    text: response,
+                                    category: crate::core::events::TileCategory::Default,
+                                    confidence: 0.9,
+                                }
+                            })
+                            .collect()
                     }
                 };
                 
@@ -230,7 +285,7 @@ async fn interactive_demo() -> Result<()> {
                     );
                 }
                         
-                        println!("\n💬 Child taps number (1-{}) to speak:", tiles.len());
+                        println!("\n💬 {} taps number (1-{}) to speak:", user_profile.name, tiles.len());
                         
                         // Let user select a response to build conversation history
                         print!("👆 Your choice (or new question): ");

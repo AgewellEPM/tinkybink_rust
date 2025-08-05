@@ -8,6 +8,7 @@ pub mod child_ai_engine;
 pub mod simple_tiles;
 
 use crate::core::events::{SuggestionTile, TileCategory};
+use crate::core::user_profile::{UserProfile, UserType, ResponseComplexity, ResponseStyle as UserResponseStyle};
 use crate::memory::TinkyMemoryCore;
 use crate::ai::{AiEngine, AiEngineFactory, AiContext, ResponseStyle};
 use choice_detector::ChoiceDetector;
@@ -23,6 +24,7 @@ pub struct SuggestionEngine {
     child_ai_engine: std::cell::RefCell<ChildAiEngine>,
     memory_core: std::cell::RefCell<TinkyMemoryCore>,
     ai_engine: Option<Box<dyn AiEngine>>,
+    user_profile: Option<UserProfile>,
 }
 
 impl SuggestionEngine {
@@ -59,7 +61,14 @@ impl SuggestionEngine {
             child_ai_engine: std::cell::RefCell::new(ChildAiEngine::new()),
             memory_core: std::cell::RefCell::new(TinkyMemoryCore::new()),
             ai_engine,
+            user_profile: None,
         }
+    }
+    
+    /// Set user profile for adaptive responses
+    pub fn set_user_profile(&mut self, profile: UserProfile) {
+        info!("👤 Setting user profile: {} ({:?})", profile.name, profile.user_type);
+        self.user_profile = Some(profile);
     }
     
     /// Generate 4 emotionally intelligent suggestions based on input text and memory
@@ -74,6 +83,29 @@ impl SuggestionEngine {
             if memory.should_avoid_topic(&text_lower) {
                 debug!("🚫 Topic flagged for avoidance, generating gentle alternatives");
                 return Ok(self.get_gentle_alternatives());
+            }
+        }
+        
+        // Check if we have a user profile for adaptive responses
+        if let Some(ref profile) = self.user_profile {
+            debug!("👤 Using adaptive responses for user type: {:?}", profile.user_type);
+            let contextual_responses = profile.get_contextual_responses(&text_lower);
+            if !contextual_responses.is_empty() {
+                let adaptive_suggestions: Vec<SuggestionTile> = contextual_responses
+                    .into_iter()
+                    .take(4)
+                    .map(|response| {
+                        let emoji = self.emoji_mapper.get_emoji(&response);
+                        SuggestionTile {
+                            emoji,
+                            text: response,
+                            category: TileCategory::Default,
+                            confidence: 0.9,
+                        }
+                    })
+                    .collect();
+                info!("✅ Generated {} adaptive suggestions for user type", adaptive_suggestions.len());
+                return Ok(adaptive_suggestions);
             }
         }
         
@@ -204,6 +236,24 @@ impl SuggestionEngine {
     }
     
     fn get_default_suggestions(&self) -> Vec<SuggestionTile> {
+        // Use user profile defaults if available
+        if let Some(ref profile) = self.user_profile {
+            let default_responses = profile.get_default_responses();
+            return default_responses
+                .into_iter()
+                .map(|response| {
+                    let emoji = self.emoji_mapper.get_emoji(&response);
+                    SuggestionTile {
+                        emoji,
+                        text: response,
+                        category: TileCategory::BasicResponse,
+                        confidence: 1.0,
+                    }
+                })
+                .collect();
+        }
+        
+        // Fallback to generic defaults
         vec![
             SuggestionTile {
                 emoji: "👋".to_string(),

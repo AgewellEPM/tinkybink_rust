@@ -6,6 +6,7 @@ use uuid::Uuid;
 
 pub mod events;
 pub mod state;
+pub mod user_profile;
 
 use crate::speech::SpeechManager;
 use crate::suggestions::SuggestionEngine;
