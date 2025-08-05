@@ -24,7 +24,11 @@ impl SimpleOllamaEngine {
                 info!("🦙 Available Ollama models:\n{}", models);
                 
                 // Check for preferred models
-                let model_name = if models.contains("tinyllama") {
+                // Check for our custom TinkyBink model first!
+                let model_name = if models.contains("tinkybink") {
+                    info!("🎉 Found custom TinkyBink AAC model!");
+                    "tinkybink".to_string()
+                } else if models.contains("tinyllama") {
                     "tinyllama".to_string()
                 } else if models.contains("phi3") {
                     "phi3".to_string()
@@ -45,10 +49,16 @@ impl SimpleOllamaEngine {
     }
     
     async fn generate_with_ollama(&self, input: &str, _context: &AiContext) -> Result<Vec<AiResponse>> {
-        let prompt = format!(
-            "You are a nonverbal child. The parent said: '{}'. Give 4 short responses the child might want to say, separated by commas. Be emotional and child-like.",
-            input
-        );
+        let prompt = if self.model_name == "tinkybink" {
+            // Our custom model expects this format
+            input.to_string()
+        } else {
+            // Generic models need more instruction
+            format!(
+                "You are a nonverbal child. The parent said: '{}'. Give 4 short responses the child might want to say, separated by commas. Be emotional and child-like.",
+                input
+            )
+        };
         
         // Run ollama command
         let output = Command::new("ollama")

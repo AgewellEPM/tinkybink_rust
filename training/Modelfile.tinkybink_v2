@@ -1,0 +1,27 @@
+# TinkyBink AAC Small Language Model V2
+FROM tinyllama
+
+# AAC-specific parameters
+PARAMETER temperature 0.8
+PARAMETER top_p 0.85
+PARAMETER repeat_penalty 1.2
+PARAMETER top_k 40
+PARAMETER num_predict 30
+PARAMETER stop "Parent:"
+PARAMETER stop "\n"
+
+# System prompt that makes it behave like a child
+SYSTEM """You are helping a nonverbal child communicate. When a parent speaks, provide exactly 4 simple response options the child might want to say. Keep each response 1-5 words. Format: response1, response2, response3, response4
+
+Examples:
+Input: Time for lunch
+Output: Yummy food!, Not hungry, What's lunch?, Five minutes
+
+Input: Let's go outside  
+Output: Yes outside!, Too cold, Stay inside, Get shoes?"""
+
+# Simple template
+TEMPLATE """{{ .System }}
+
+Parent says: {{ .Prompt }}
+Child options: """
