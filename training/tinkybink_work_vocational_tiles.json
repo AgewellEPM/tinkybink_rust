@@ -1,0 +1,1105 @@
+{
+  "category": "💼 Work & Vocational",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Clock in at work",
+      "steps": [
+        {"word": "arrive", "emoji": "👋"},
+        {"word": "work", "emoji": "💼"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "clock", "emoji": "🕐"},
+        {"word": "in", "emoji": "📥"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Put on uniform",
+      "steps": [
+        {"word": "uniform", "emoji": "👕"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "put", "emoji": "👕"},
+        {"word": "on", "emoji": "⬇️"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Greet coworkers",
+      "steps": [
+        {"word": "coworkers", "emoji": "👥"},
+        {"word": "hello", "emoji": "👋"},
+        {"word": "good", "emoji": "👍"},
+        {"word": "morning", "emoji": "🌅"},
+        {"word": "friendly", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Check work schedule",
+      "steps": [
+        {"word": "schedule", "emoji": "📅"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "today", "emoji": "📅"},
+        {"word": "tasks", "emoji": "📋"},
+        {"word": "plan", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Wash hands",
+      "steps": [
+        {"word": "hands", "emoji": "🙌"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "scrub", "emoji": "🤲"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Stock shelves",
+      "steps": [
+        {"word": "products", "emoji": "📦"},
+        {"word": "shelves", "emoji": "🏪"},
+        {"word": "organize", "emoji": "📊"},
+        {"word": "neat", "emoji": "✨"},
+        {"word": "full", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Help customers",
+      "steps": [
+        {"word": "customer", "emoji": "👤"},
+        {"word": "need", "emoji": "❗"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "assist", "emoji": "🤝"},
+        {"word": "smile", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Operate cash register",
+      "steps": [
+        {"word": "cash", "emoji": "💰"},
+        {"word": "register", "emoji": "🏧"},
+        {"word": "scan", "emoji": "📱"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "total", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Count money",
+      "steps": [
+        {"word": "money", "emoji": "💰"},
+        {"word": "bills", "emoji": "💵"},
+        {"word": "coins", "emoji": "🪙"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "correct", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Give change",
+      "steps": [
+        {"word": "customer", "emoji": "👤"},
+        {"word": "payment", "emoji": "💳"},
+        {"word": "change", "emoji": "💰"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "back", "emoji": "⬅️"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bag groceries",
+      "steps": [
+        {"word": "groceries", "emoji": "🛒"},
+        {"word": "bag", "emoji": "🛍️"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "heavy", "emoji": "⚖️"},
+        {"word": "bottom", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Clean work area",
+      "steps": [
+        {"word": "work", "emoji": "💼"},
+        {"word": "area", "emoji": "📍"},
+        {"word": "clean", "emoji": "🧹"},
+        {"word": "wipe", "emoji": "🧽"},
+        {"word": "tidy", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Take inventory",
+      "steps": [
+        {"word": "inventory", "emoji": "📋"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "list", "emoji": "📋"},
+        {"word": "record", "emoji": "📝"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Receive delivery",
+      "steps": [
+        {"word": "delivery", "emoji": "🚚"},
+        {"word": "truck", "emoji": "🚚"},
+        {"word": "boxes", "emoji": "📦"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "sign", "emoji": "✍️"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Price items",
+      "steps": [
+        {"word": "items", "emoji": "📦"},
+        {"word": "price", "emoji": "💰"},
+        {"word": "tags", "emoji": "🏷️"},
+        {"word": "sticker", "emoji": "🏷️"},
+        {"word": "correct", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Answer phone",
+      "steps": [
+        {"word": "phone", "emoji": "📞"},
+        {"word": "ring", "emoji": "🔔"},
+        {"word": "answer", "emoji": "📞"},
+        {"word": "hello", "emoji": "👋"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Take message",
+      "steps": [
+        {"word": "message", "emoji": "💬"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "name", "emoji": "📛"},
+        {"word": "number", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "File papers",
+      "steps": [
+        {"word": "papers", "emoji": "📄"},
+        {"word": "file", "emoji": "📁"},
+        {"word": "cabinet", "emoji": "🗄️"},
+        {"word": "alphabetical", "emoji": "🔤"},
+        {"word": "organize", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Make copies",
+      "steps": [
+        {"word": "papers", "emoji": "📄"},
+        {"word": "copy", "emoji": "📋"},
+        {"word": "machine", "emoji": "🖨️"},
+        {"word": "button", "emoji": "🔴"},
+        {"word": "press", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Send fax",
+      "steps": [
+        {"word": "fax", "emoji": "📠"},
+        {"word": "machine", "emoji": "📠"},
+        {"word": "number", "emoji": "🔢"},
+        {"word": "dial", "emoji": "☎️"},
+        {"word": "send", "emoji": "📤"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Sort mail",
+      "steps": [
+        {"word": "mail", "emoji": "📬"},
+        {"word": "letters", "emoji": "💌"},
+        {"word": "sort", "emoji": "📊"},
+        {"word": "departments", "emoji": "🏢"},
+        {"word": "deliver", "emoji": "📬"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Update computer",
+      "steps": [
+        {"word": "computer", "emoji": "💻"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "type", "emoji": "⌨️"},
+        {"word": "update", "emoji": "🔄"},
+        {"word": "save", "emoji": "💾"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Attend meeting",
+      "steps": [
+        {"word": "meeting", "emoji": "🤝"},
+        {"word": "room", "emoji": "🏠"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "notes", "emoji": "📝"},
+        {"word": "participate", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Follow safety rules",
+      "steps": [
+        {"word": "safety", "emoji": "🛡️"},
+        {"word": "rules", "emoji": "📋"},
+        {"word": "follow", "emoji": "👣"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Wear safety gear",
+      "steps": [
+        {"word": "safety", "emoji": "🛡️"},
+        {"word": "gear", "emoji": "🦺"},
+        {"word": "helmet", "emoji": "⛑️"},
+        {"word": "gloves", "emoji": "🧤"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Use tools safely",
+      "steps": [
+        {"word": "tools", "emoji": "🔧"},
+        {"word": "safely", "emoji": "🛡️"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "proper", "emoji": "✅"},
+        {"word": "way", "emoji": "🛤️"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Report problems",
+      "steps": [
+        {"word": "problem", "emoji": "❓"},
+        {"word": "see", "emoji": "👀"},
+        {"word": "report", "emoji": "📋"},
+        {"word": "supervisor", "emoji": "👩‍💼"},
+        {"word": "tell", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Ask for help",
+      "steps": [
+        {"word": "need", "emoji": "❗"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "ask", "emoji": "❓"},
+        {"word": "supervisor", "emoji": "👩‍💼"},
+        {"word": "question", "emoji": "❓"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Work as team",
+      "steps": [
+        {"word": "team", "emoji": "👥"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "cooperate", "emoji": "🤝"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "others", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Take break",
+      "steps": [
+        {"word": "break", "emoji": "⏸️"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "rest", "emoji": "💤"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "return", "emoji": "⬅️"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Eat lunch",
+      "steps": [
+        {"word": "lunch", "emoji": "🍽️"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "eat", "emoji": "🍽️"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "energy", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Stay focused",
+      "steps": [
+        {"word": "work", "emoji": "💼"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "pay", "emoji": "💰"},
+        {"word": "attention", "emoji": "👀"},
+        {"word": "concentrate", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Complete tasks",
+      "steps": [
+        {"word": "tasks", "emoji": "📋"},
+        {"word": "finish", "emoji": "🏁"},
+        {"word": "complete", "emoji": "✅"},
+        {"word": "done", "emoji": "✅"},
+        {"word": "check", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Check quality",
+      "steps": [
+        {"word": "work", "emoji": "💼"},
+        {"word": "quality", "emoji": "⭐"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "good", "emoji": "👍"},
+        {"word": "standard", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Meet deadlines",
+      "steps": [
+        {"word": "deadline", "emoji": "⏰"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "finish", "emoji": "🏁"},
+        {"word": "on", "emoji": "⏰"},
+        {"word": "schedule", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Document work",
+      "steps": [
+        {"word": "work", "emoji": "💼"},
+        {"word": "document", "emoji": "📋"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "record", "emoji": "📝"},
+        {"word": "notes", "emoji": "📝"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Train new employee",
+      "steps": [
+        {"word": "new", "emoji": "🆕"},
+        {"word": "employee", "emoji": "👤"},
+        {"word": "train", "emoji": "🚂"},
+        {"word": "teach", "emoji": "📚"},
+        {"word": "show", "emoji": "🫵"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Learn new skill",
+      "steps": [
+        {"word": "new", "emoji": "🆕"},
+        {"word": "skill", "emoji": "💪"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Attend training",
+      "steps": [
+        {"word": "training", "emoji": "📚"},
+        {"word": "session", "emoji": "🕐"},
+        {"word": "attend", "emoji": "🚪"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "skills", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Use equipment",
+      "steps": [
+        {"word": "equipment", "emoji": "🔧"},
+        {"word": "machine", "emoji": "🤖"},
+        {"word": "operate", "emoji": "🎮"},
+        {"word": "correctly", "emoji": "✅"},
+        {"word": "safely", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Maintain equipment",
+      "steps": [
+        {"word": "equipment", "emoji": "🔧"},
+        {"word": "maintain", "emoji": "🔧"},
+        {"word": "clean", "emoji": "🧹"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "repair", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Monitor production",
+      "steps": [
+        {"word": "production", "emoji": "🏭"},
+        {"word": "monitor", "emoji": "📺"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "quality", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Package products",
+      "steps": [
+        {"word": "products", "emoji": "📦"},
+        {"word": "package", "emoji": "📦"},
+        {"word": "box", "emoji": "📦"},
+        {"word": "wrap", "emoji": "🎁"},
+        {"word": "label", "emoji": "🏷️"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Load truck",
+      "steps": [
+        {"word": "truck", "emoji": "🚚"},
+        {"word": "boxes", "emoji": "📦"},
+        {"word": "load", "emoji": "📦"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "secure", "emoji": "🔒"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Drive vehicle",
+      "steps": [
+        {"word": "vehicle", "emoji": "🚗"},
+        {"word": "drive", "emoji": "🚗"},
+        {"word": "safely", "emoji": "🛡️"},
+        {"word": "follow", "emoji": "👣"},
+        {"word": "rules", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Make delivery",
+      "steps": [
+        {"word": "delivery", "emoji": "📦"},
+        {"word": "address", "emoji": "📍"},
+        {"word": "correct", "emoji": "✅"},
+        {"word": "customer", "emoji": "👤"},
+        {"word": "sign", "emoji": "✍️"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Collect payment",
+      "steps": [
+        {"word": "payment", "emoji": "💰"},
+        {"word": "customer", "emoji": "👤"},
+        {"word": "money", "emoji": "💰"},
+        {"word": "receipt", "emoji": "🧾"},
+        {"word": "thank", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Serve food",
+      "steps": [
+        {"word": "food", "emoji": "🍽️"},
+        {"word": "plate", "emoji": "🍽️"},
+        {"word": "serve", "emoji": "🍽️"},
+        {"word": "customer", "emoji": "👤"},
+        {"word": "hot", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Take order",
+      "steps": [
+        {"word": "customer", "emoji": "👤"},
+        {"word": "order", "emoji": "📋"},
+        {"word": "menu", "emoji": "📋"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "kitchen", "emoji": "👨‍🍳"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Prepare food",
+      "steps": [
+        {"word": "food", "emoji": "🍎"},
+        {"word": "prepare", "emoji": "👨‍🍳"},
+        {"word": "cook", "emoji": "🔥"},
+        {"word": "recipe", "emoji": "📋"},
+        {"word": "fresh", "emoji": "🍃"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Clean dishes",
+      "steps": [
+        {"word": "dishes", "emoji": "🍽️"},
+        {"word": "wash", "emoji": "🧽"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "rinse", "emoji": "🚿"},
+        {"word": "dry", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Sanitize surfaces",
+      "steps": [
+        {"word": "surfaces", "emoji": "🪑"},
+        {"word": "sanitizer", "emoji": "🧴"},
+        {"word": "clean", "emoji": "🧹"},
+        {"word": "germs", "emoji": "🦠"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Mop floor",
+      "steps": [
+        {"word": "floor", "emoji": "🟫"},
+        {"word": "mop", "emoji": "🧽"},
+        {"word": "bucket", "emoji": "🪣"},
+        {"word": "clean", "emoji": "🧹"},
+        {"word": "dry", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Empty trash",
+      "steps": [
+        {"word": "trash", "emoji": "🗑️"},
+        {"word": "bin", "emoji": "🗑️"},
+        {"word": "empty", "emoji": "⭕"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "bag", "emoji": "🛍️"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Vacuum carpet",
+      "steps": [
+        {"word": "carpet", "emoji": "🧽"},
+        {"word": "vacuum", "emoji": "🧹"},
+        {"word": "cleaner", "emoji": "🧹"},
+        {"word": "dirt", "emoji": "🟫"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Dust furniture",
+      "steps": [
+        {"word": "furniture", "emoji": "🪑"},
+        {"word": "dust", "emoji": "💨"},
+        {"word": "cloth", "emoji": "🧽"},
+        {"word": "wipe", "emoji": "🧽"},
+        {"word": "polish", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Water plants",
+      "steps": [
+        {"word": "plants", "emoji": "🌱"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "can", "emoji": "🪣"},
+        {"word": "soil", "emoji": "🌍"},
+        {"word": "grow", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Trim grass",
+      "steps": [
+        {"word": "grass", "emoji": "🌱"},
+        {"word": "mower", "emoji": "🚜"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "even", "emoji": "📐"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Plant flowers",
+      "steps": [
+        {"word": "flowers", "emoji": "🌸"},
+        {"word": "seeds", "emoji": "🌱"},
+        {"word": "soil", "emoji": "🌍"},
+        {"word": "plant", "emoji": "🌱"},
+        {"word": "beautiful", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Rake leaves",
+      "steps": [
+        {"word": "leaves", "emoji": "🍃"},
+        {"word": "rake", "emoji": "🧹"},
+        {"word": "pile", "emoji": "🥞"},
+        {"word": "bag", "emoji": "🛍️"},
+        {"word": "yard", "emoji": "🏡"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Paint walls",
+      "steps": [
+        {"word": "walls", "emoji": "🧱"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "brush", "emoji": "🖌️"},
+        {"word": "roller", "emoji": "🖌️"},
+        {"word": "color", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Fix plumbing",
+      "steps": [
+        {"word": "plumbing", "emoji": "🔧"},
+        {"word": "pipes", "emoji": "🔧"},
+        {"word": "leak", "emoji": "💧"},
+        {"word": "tools", "emoji": "🔧"},
+        {"word": "repair", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Install electrical",
+      "steps": [
+        {"word": "electrical", "emoji": "⚡"},
+        {"word": "wires", "emoji": "🔌"},
+        {"word": "switch", "emoji": "🔄"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "power", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Build furniture",
+      "steps": [
+        {"word": "furniture", "emoji": "🪑"},
+        {"word": "wood", "emoji": "🪵"},
+        {"word": "tools", "emoji": "🔧"},
+        {"word": "build", "emoji": "🏗️"},
+        {"word": "sturdy", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Measure materials",
+      "steps": [
+        {"word": "materials", "emoji": "🪵"},
+        {"word": "ruler", "emoji": "📏"},
+        {"word": "measure", "emoji": "📏"},
+        {"word": "accurate", "emoji": "🎯"},
+        {"word": "cut", "emoji": "✂️"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Cut materials",
+      "steps": [
+        {"word": "materials", "emoji": "🪵"},
+        {"word": "saw", "emoji": "🪚"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "straight", "emoji": "📐"},
+        {"word": "careful", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Assemble parts",
+      "steps": [
+        {"word": "parts", "emoji": "🧩"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "screws", "emoji": "🔩"},
+        {"word": "assemble", "emoji": "🔧"},
+        {"word": "tight", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Test product",
+      "steps": [
+        {"word": "product", "emoji": "📦"},
+        {"word": "test", "emoji": "🧪"},
+        {"word": "works", "emoji": "✅"},
+        {"word": "properly", "emoji": "👌"},
+        {"word": "quality", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Ship order",
+      "steps": [
+        {"word": "order", "emoji": "📦"},
+        {"word": "box", "emoji": "📦"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "ship", "emoji": "🚢"},
+        {"word": "tracking", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Handle returns",
+      "steps": [
+        {"word": "returns", "emoji": "↩️"},
+        {"word": "customer", "emoji": "👤"},
+        {"word": "refund", "emoji": "💰"},
+        {"word": "exchange", "emoji": "🔄"},
+        {"word": "policy", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Update inventory",
+      "steps": [
+        {"word": "inventory", "emoji": "📋"},
+        {"word": "computer", "emoji": "💻"},
+        {"word": "numbers", "emoji": "🔢"},
+        {"word": "update", "emoji": "🔄"},
+        {"word": "accurate", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Order supplies",
+      "steps": [
+        {"word": "supplies", "emoji": "📦"},
+        {"word": "low", "emoji": "⬇️"},
+        {"word": "order", "emoji": "📋"},
+        {"word": "vendor", "emoji": "🏪"},
+        {"word": "restock", "emoji": "📦"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Process paperwork",
+      "steps": [
+        {"word": "paperwork", "emoji": "📄"},
+        {"word": "forms", "emoji": "📋"},
+        {"word": "complete", "emoji": "✅"},
+        {"word": "file", "emoji": "📁"},
+        {"word": "organize", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Schedule appointments",
+      "steps": [
+        {"word": "appointments", "emoji": "📅"},
+        {"word": "calendar", "emoji": "📅"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "schedule", "emoji": "📅"},
+        {"word": "confirm", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Follow procedures",
+      "steps": [
+        {"word": "procedures", "emoji": "📋"},
+        {"word": "rules", "emoji": "📋"},
+        {"word": "follow", "emoji": "👣"},
+        {"word": "step", "emoji": "👣"},
+        {"word": "order", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Work independently",
+      "steps": [
+        {"word": "work", "emoji": "💼"},
+        {"word": "independently", "emoji": "🙋"},
+        {"word": "self", "emoji": "🙋"},
+        {"word": "motivated", "emoji": "💪"},
+        {"word": "responsible", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Manage time",
+      "steps": [
+        {"word": "time", "emoji": "🕐"},
+        {"word": "manage", "emoji": "⚖️"},
+        {"word": "priorities", "emoji": "📋"},
+        {"word": "efficient", "emoji": "⚡"},
+        {"word": "productive", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Set goals",
+      "steps": [
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "set", "emoji": "✅"},
+        {"word": "achieve", "emoji": "🏆"},
+        {"word": "plan", "emoji": "📋"},
+        {"word": "success", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Track progress",
+      "steps": [
+        {"word": "progress", "emoji": "📈"},
+        {"word": "track", "emoji": "📊"},
+        {"word": "measure", "emoji": "📏"},
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Solve problems",
+      "steps": [
+        {"word": "problem", "emoji": "❓"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "solution", "emoji": "💡"},
+        {"word": "try", "emoji": "💪"},
+        {"word": "fix", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Make decisions",
+      "steps": [
+        {"word": "decision", "emoji": "🤔"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "options", "emoji": "🔄"},
+        {"word": "choose", "emoji": "✅"},
+        {"word": "best", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Communicate clearly",
+      "steps": [
+        {"word": "communicate", "emoji": "💬"},
+        {"word": "clearly", "emoji": "💡"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "speak", "emoji": "🗣️"},
+        {"word": "understand", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Be professional",
+      "steps": [
+        {"word": "professional", "emoji": "👔"},
+        {"word": "polite", "emoji": "😊"},
+        {"word": "respectful", "emoji": "🙏"},
+        {"word": "appropriate", "emoji": "👌"},
+        {"word": "behavior", "emoji": "👤"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Dress appropriately",
+      "steps": [
+        {"word": "dress", "emoji": "👗"},
+        {"word": "appropriately", "emoji": "👌"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "professional", "emoji": "👔"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Arrive on time",
+      "steps": [
+        {"word": "arrive", "emoji": "👋"},
+        {"word": "on", "emoji": "⏰"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "punctual", "emoji": "⏰"},
+        {"word": "reliable", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Handle stress",
+      "steps": [
+        {"word": "stress", "emoji": "😰"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "breathe", "emoji": "🫁"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "manage", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Stay organized",
+      "steps": [
+        {"word": "organized", "emoji": "📊"},
+        {"word": "tidy", "emoji": "✨"},
+        {"word": "system", "emoji": "🗂️"},
+        {"word": "files", "emoji": "📁"},
+        {"word": "efficient", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Keep learning",
+      "steps": [
+        {"word": "learning", "emoji": "📚"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "skills", "emoji": "💪"},
+        {"word": "grow", "emoji": "🌿"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Give feedback",
+      "steps": [
+        {"word": "feedback", "emoji": "💬"},
+        {"word": "helpful", "emoji": "🆘"},
+        {"word": "constructive", "emoji": "🏗️"},
+        {"word": "honest", "emoji": "✅"},
+        {"word": "kind", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Receive feedback",
+      "steps": [
+        {"word": "feedback", "emoji": "💬"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "accept", "emoji": "✅"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Performance review",
+      "steps": [
+        {"word": "performance", "emoji": "📊"},
+        {"word": "review", "emoji": "📋"},
+        {"word": "meeting", "emoji": "🤝"},
+        {"word": "discuss", "emoji": "💬"},
+        {"word": "goals", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Request raise",
+      "steps": [
+        {"word": "raise", "emoji": "⬆️"},
+        {"word": "salary", "emoji": "💰"},
+        {"word": "request", "emoji": "❓"},
+        {"word": "meeting", "emoji": "🤝"},
+        {"word": "discuss", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Apply for promotion",
+      "steps": [
+        {"word": "promotion", "emoji": "⬆️"},
+        {"word": "apply", "emoji": "📋"},
+        {"word": "qualifications", "emoji": "🎓"},
+        {"word": "interview", "emoji": "🗣️"},
+        {"word": "advance", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Change jobs",
+      "steps": [
+        {"word": "job", "emoji": "💼"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "search", "emoji": "🔍"},
+        {"word": "interview", "emoji": "🗣️"},
+        {"word": "new", "emoji": "🆕"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Retire from work",
+      "steps": [
+        {"word": "retire", "emoji": "🧓"},
+        {"word": "work", "emoji": "💼"},
+        {"word": "finished", "emoji": "🏁"},
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "enjoy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Work from home",
+      "steps": [
+        {"word": "work", "emoji": "💼"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "computer", "emoji": "💻"},
+        {"word": "video", "emoji": "📹"},
+        {"word": "calls", "emoji": "📞"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Use technology",
+      "steps": [
+        {"word": "technology", "emoji": "💻"},
+        {"word": "computer", "emoji": "💻"},
+        {"word": "software", "emoji": "💻"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "efficient", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Network professionally",
+      "steps": [
+        {"word": "network", "emoji": "🌐"},
+        {"word": "professional", "emoji": "👔"},
+        {"word": "contacts", "emoji": "📞"},
+        {"word": "relationships", "emoji": "🤝"},
+        {"word": "career", "emoji": "💼"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Clock out",
+      "steps": [
+        {"word": "work", "emoji": "💼"},
+        {"word": "day", "emoji": "📅"},
+        {"word": "finished", "emoji": "🏁"},
+        {"word": "clock", "emoji": "🕐"},
+        {"word": "out", "emoji": "📤"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Go home",
+      "steps": [
+        {"word": "work", "emoji": "💼"},
+        {"word": "done", "emoji": "✅"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"}
+      ]
+    }
+  ]
+}

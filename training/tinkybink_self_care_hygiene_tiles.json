@@ -1,0 +1,1108 @@
+{
+  "category": {
+    "emoji": "🧼",
+    "name": "Self-Care & Hygiene"
+  },
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Washing face",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "warm", "emoji": "♨️"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "scrub", "emoji": "🫧"},
+        {"word": "dry", "emoji": "🏖️"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Brushing teeth morning",
+      "steps": [
+        {"word": "toothbrush", "emoji": "🪥"},
+        {"word": "paste", "emoji": "🧴"},
+        {"word": "circles", "emoji": "🔄"},
+        {"word": "spit", "emoji": "💦"},
+        {"word": "rinse", "emoji": "🚿"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Shower routine",
+      "steps": [
+        {"word": "undress", "emoji": "👕"},
+        {"word": "water", "emoji": "🚿"},
+        {"word": "shampoo", "emoji": "🧴"},
+        {"word": "body", "emoji": "🧼"},
+        {"word": "towel", "emoji": "🏖️"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Hair washing",
+      "steps": [
+        {"word": "wet", "emoji": "💧"},
+        {"word": "shampoo", "emoji": "🧴"},
+        {"word": "lather", "emoji": "🫧"},
+        {"word": "rinse", "emoji": "🚿"},
+        {"word": "condition", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Hand washing steps",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "scrub", "emoji": "🤲"},
+        {"word": "rinse", "emoji": "🚿"},
+        {"word": "dry", "emoji": "🫴"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Nail care",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "nails", "emoji": "💅"},
+        {"word": "trim", "emoji": "✂️"},
+        {"word": "file", "emoji": "📄"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Flossing teeth",
+      "steps": [
+        {"word": "floss", "emoji": "🦷"},
+        {"word": "between", "emoji": "↔️"},
+        {"word": "teeth", "emoji": "😁"},
+        {"word": "gentle", "emoji": "🤲"},
+        {"word": "rinse", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Deodorant application",
+      "steps": [
+        {"word": "lift", "emoji": "💪"},
+        {"word": "arms", "emoji": "🙌"},
+        {"word": "apply", "emoji": "➡️"},
+        {"word": "both", "emoji": "2️⃣"},
+        {"word": "fresh", "emoji": "🌺"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Hair brushing",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "brush", "emoji": "🪮"},
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "smooth", "emoji": "✋"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bathing routine",
+      "steps": [
+        {"word": "fill", "emoji": "🛁"},
+        {"word": "tub", "emoji": "🛀"},
+        {"word": "wash", "emoji": "🧼"},
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "out", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Ear cleaning",
+      "steps": [
+        {"word": "cotton", "emoji": "🏐"},
+        {"word": "swab", "emoji": "🔧"},
+        {"word": "gentle", "emoji": "🤲"},
+        {"word": "outside", "emoji": "👂"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Nose blowing",
+      "steps": [
+        {"word": "tissue", "emoji": "🧻"},
+        {"word": "hold", "emoji": "✋"},
+        {"word": "blow", "emoji": "💨"},
+        {"word": "wipe", "emoji": "🫴"},
+        {"word": "trash", "emoji": "🗑️"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Lotion application",
+      "steps": [
+        {"word": "pump", "emoji": "🧴"},
+        {"word": "lotion", "emoji": "💧"},
+        {"word": "rub", "emoji": "🤲"},
+        {"word": "skin", "emoji": "✋"},
+        {"word": "soft", "emoji": "☁️"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Sunscreen routine",
+      "steps": [
+        {"word": "squeeze", "emoji": "🤏"},
+        {"word": "sunscreen", "emoji": "🧴"},
+        {"word": "face", "emoji": "😊"},
+        {"word": "arms", "emoji": "💪"},
+        {"word": "protect", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Toilet hygiene",
+      "steps": [
+        {"word": "use", "emoji": "🚽"},
+        {"word": "toilet", "emoji": "🚽"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "flush", "emoji": "🌊"},
+        {"word": "wash", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Shaving face",
+      "steps": [
+        {"word": "cream", "emoji": "🧴"},
+        {"word": "apply", "emoji": "✋"},
+        {"word": "razor", "emoji": "🪒"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "rinse", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Mouthwash use",
+      "steps": [
+        {"word": "pour", "emoji": "🫗"},
+        {"word": "cup", "emoji": "🥤"},
+        {"word": "swish", "emoji": "🔄"},
+        {"word": "spit", "emoji": "💦"},
+        {"word": "fresh", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Foot care",
+      "steps": [
+        {"word": "wash", "emoji": "🧼"},
+        {"word": "feet", "emoji": "🦶"},
+        {"word": "dry", "emoji": "🏖️"},
+        {"word": "between", "emoji": "↔️"},
+        {"word": "toes", "emoji": "🦶"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Clean clothes",
+      "steps": [
+        {"word": "dirty", "emoji": "👕"},
+        {"word": "hamper", "emoji": "🧺"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "clothes", "emoji": "👗"},
+        {"word": "wear", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Tissue use",
+      "steps": [
+        {"word": "need", "emoji": "🤧"},
+        {"word": "tissue", "emoji": "🧻"},
+        {"word": "use", "emoji": "✋"},
+        {"word": "throw", "emoji": "🗑️"},
+        {"word": "away", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Cough etiquette",
+      "steps": [
+        {"word": "cough", "emoji": "🤧"},
+        {"word": "coming", "emoji": "➡️"},
+        {"word": "elbow", "emoji": "💪"},
+        {"word": "cover", "emoji": "🫴"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Sneeze etiquette",
+      "steps": [
+        {"word": "sneeze", "emoji": "🤧"},
+        {"word": "tissue", "emoji": "🧻"},
+        {"word": "cover", "emoji": "🫴"},
+        {"word": "throw", "emoji": "🗑️"},
+        {"word": "wash", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Hair styling",
+      "steps": [
+        {"word": "brush", "emoji": "🪮"},
+        {"word": "style", "emoji": "💇"},
+        {"word": "gel", "emoji": "🧴"},
+        {"word": "shape", "emoji": "✋"},
+        {"word": "done", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Lip care",
+      "steps": [
+        {"word": "dry", "emoji": "👄"},
+        {"word": "lips", "emoji": "💋"},
+        {"word": "balm", "emoji": "💄"},
+        {"word": "apply", "emoji": "➡️"},
+        {"word": "soft", "emoji": "☁️"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Body spray",
+      "steps": [
+        {"word": "hold", "emoji": "✋"},
+        {"word": "away", "emoji": "↔️"},
+        {"word": "spray", "emoji": "💨"},
+        {"word": "light", "emoji": "✨"},
+        {"word": "fresh", "emoji": "🌸"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Contact lens care",
+      "steps": [
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "hands", "emoji": "👐"},
+        {"word": "remove", "emoji": "👁️"},
+        {"word": "clean", "emoji": "💧"},
+        {"word": "store", "emoji": "📦"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Glasses cleaning",
+      "steps": [
+        {"word": "remove", "emoji": "👓"},
+        {"word": "spray", "emoji": "💨"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "wear", "emoji": "👓"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Acne care",
+      "steps": [
+        {"word": "wash", "emoji": "🧼"},
+        {"word": "face", "emoji": "😊"},
+        {"word": "medicine", "emoji": "🧴"},
+        {"word": "apply", "emoji": "✋"},
+        {"word": "gentle", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Hair removal",
+      "steps": [
+        {"word": "cream", "emoji": "🧴"},
+        {"word": "apply", "emoji": "✋"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "remove", "emoji": "❌"},
+        {"word": "rinse", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Feminine hygiene",
+      "steps": [
+        {"word": "change", "emoji": "🔄"},
+        {"word": "product", "emoji": "📦"},
+        {"word": "dispose", "emoji": "🗑️"},
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "hands", "emoji": "👐"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Beard grooming",
+      "steps": [
+        {"word": "wash", "emoji": "🧼"},
+        {"word": "beard", "emoji": "🧔"},
+        {"word": "oil", "emoji": "🧴"},
+        {"word": "comb", "emoji": "🪮"},
+        {"word": "trim", "emoji": "✂️"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Makeup removal",
+      "steps": [
+        {"word": "cleanser", "emoji": "🧴"},
+        {"word": "cotton", "emoji": "🏐"},
+        {"word": "wipe", "emoji": "🫴"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "moisturize", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Hand sanitizer",
+      "steps": [
+        {"word": "pump", "emoji": "👆"},
+        {"word": "gel", "emoji": "🧴"},
+        {"word": "rub", "emoji": "🤲"},
+        {"word": "all", "emoji": "💯"},
+        {"word": "dry", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Wound care",
+      "steps": [
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "wound", "emoji": "🩹"},
+        {"word": "medicine", "emoji": "💊"},
+        {"word": "bandage", "emoji": "🩹"},
+        {"word": "cover", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Eye drops",
+      "steps": [
+        {"word": "tilt", "emoji": "⬆️"},
+        {"word": "head", "emoji": "😊"},
+        {"word": "drop", "emoji": "💧"},
+        {"word": "eye", "emoji": "👁️"},
+        {"word": "blink", "emoji": "😉"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Nasal spray",
+      "steps": [
+        {"word": "blow", "emoji": "💨"},
+        {"word": "nose", "emoji": "👃"},
+        {"word": "spray", "emoji": "💨"},
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "clear", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Denture care",
+      "steps": [
+        {"word": "remove", "emoji": "🦷"},
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "soak", "emoji": "💧"},
+        {"word": "rinse", "emoji": "🚿"},
+        {"word": "wear", "emoji": "😁"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Hearing aid care",
+      "steps": [
+        {"word": "remove", "emoji": "👂"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "battery", "emoji": "🔋"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "wear", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Retainer cleaning",
+      "steps": [
+        {"word": "remove", "emoji": "😁"},
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "case", "emoji": "📦"},
+        {"word": "store", "emoji": "💼"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Hair conditioner",
+      "steps": [
+        {"word": "after", "emoji": "➡️"},
+        {"word": "shampoo", "emoji": "🧴"},
+        {"word": "apply", "emoji": "✋"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "rinse", "emoji": "🚿"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Body moisturizer",
+      "steps": [
+        {"word": "after", "emoji": "➡️"},
+        {"word": "shower", "emoji": "🚿"},
+        {"word": "lotion", "emoji": "🧴"},
+        {"word": "all", "emoji": "💯"},
+        {"word": "over", "emoji": "🧍"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Toenail trimming",
+      "steps": [
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "clipper", "emoji": "✂️"},
+        {"word": "straight", "emoji": "📏"},
+        {"word": "across", "emoji": "↔️"},
+        {"word": "file", "emoji": "📄"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Shampoo routine",
+      "steps": [
+        {"word": "wet", "emoji": "💧"},
+        {"word": "hair", "emoji": "💇"},
+        {"word": "shampoo", "emoji": "🧴"},
+        {"word": "massage", "emoji": "🤲"},
+        {"word": "rinse", "emoji": "🚿"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Face mask",
+      "steps": [
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "face", "emoji": "😊"},
+        {"word": "apply", "emoji": "🎭"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "rinse", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Bubble bath",
+      "steps": [
+        {"word": "run", "emoji": "🚿"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "bubbles", "emoji": "🫧"},
+        {"word": "soak", "emoji": "🛁"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Quick wash",
+      "steps": [
+        {"word": "face", "emoji": "😊"},
+        {"word": "hands", "emoji": "🤲"},
+        {"word": "quick", "emoji": "⚡"},
+        {"word": "wash", "emoji": "🧼"},
+        {"word": "fresh", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Dry shampoo",
+      "steps": [
+        {"word": "spray", "emoji": "💨"},
+        {"word": "roots", "emoji": "🌱"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "brush", "emoji": "🪮"},
+        {"word": "fresh", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Tongue cleaning",
+      "steps": [
+        {"word": "stick", "emoji": "👅"},
+        {"word": "out", "emoji": "➡️"},
+        {"word": "scrape", "emoji": "🔧"},
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "fresh", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Exfoliating skin",
+      "steps": [
+        {"word": "wet", "emoji": "💧"},
+        {"word": "scrub", "emoji": "🧽"},
+        {"word": "gentle", "emoji": "🤲"},
+        {"word": "circles", "emoji": "🔄"},
+        {"word": "rinse", "emoji": "🚿"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Hair drying",
+      "steps": [
+        {"word": "towel", "emoji": "🏖️"},
+        {"word": "squeeze", "emoji": "🤏"},
+        {"word": "dryer", "emoji": "💨"},
+        {"word": "warm", "emoji": "🔥"},
+        {"word": "style", "emoji": "💇"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Perfume application",
+      "steps": [
+        {"word": "pulse", "emoji": "❤️"},
+        {"word": "points", "emoji": "📍"},
+        {"word": "spray", "emoji": "💨"},
+        {"word": "light", "emoji": "✨"},
+        {"word": "smell", "emoji": "🌸"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Nail polish",
+      "steps": [
+        {"word": "base", "emoji": "🎨"},
+        {"word": "coat", "emoji": "💅"},
+        {"word": "color", "emoji": "🌈"},
+        {"word": "dry", "emoji": "💨"},
+        {"word": "top", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Cuticle care",
+      "steps": [
+        {"word": "soak", "emoji": "💧"},
+        {"word": "push", "emoji": "⬆️"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "oil", "emoji": "🧴"},
+        {"word": "massage", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Callus removal",
+      "steps": [
+        {"word": "soak", "emoji": "💧"},
+        {"word": "feet", "emoji": "🦶"},
+        {"word": "file", "emoji": "📄"},
+        {"word": "smooth", "emoji": "✋"},
+        {"word": "lotion", "emoji": "🧴"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Waxing prep",
+      "steps": [
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "area", "emoji": "📍"},
+        {"word": "powder", "emoji": "🧂"},
+        {"word": "apply", "emoji": "✋"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "After sun care",
+      "steps": [
+        {"word": "cool", "emoji": "❄️"},
+        {"word": "shower", "emoji": "🚿"},
+        {"word": "aloe", "emoji": "🌿"},
+        {"word": "apply", "emoji": "✋"},
+        {"word": "soothe", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Braces cleaning",
+      "steps": [
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "around", "emoji": "🔄"},
+        {"word": "brackets", "emoji": "🦷"},
+        {"word": "floss", "emoji": "🧵"},
+        {"word": "rinse", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Medication routine",
+      "steps": [
+        {"word": "time", "emoji": "⏰"},
+        {"word": "pills", "emoji": "💊"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "swallow", "emoji": "😮"},
+        {"word": "done", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Skin check",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "skin", "emoji": "🤲"},
+        {"word": "changes", "emoji": "🔄"},
+        {"word": "moles", "emoji": "🟤"},
+        {"word": "doctor", "emoji": "👨‍⚕️"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Stretching routine",
+      "steps": [
+        {"word": "morning", "emoji": "🌅"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "arms", "emoji": "💪"},
+        {"word": "legs", "emoji": "🦵"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Sleep hygiene",
+      "steps": [
+        {"word": "pajamas", "emoji": "👔"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "sheets", "emoji": "🛏️"},
+        {"word": "dark", "emoji": "🌑"},
+        {"word": "sleep", "emoji": "😴"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Morning routine",
+      "steps": [
+        {"word": "wake", "emoji": "⏰"},
+        {"word": "bathroom", "emoji": "🚽"},
+        {"word": "wash", "emoji": "🧼"},
+        {"word": "dress", "emoji": "👕"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Night routine",
+      "steps": [
+        {"word": "wash", "emoji": "🧼"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "pajamas", "emoji": "👔"},
+        {"word": "bed", "emoji": "🛏️"},
+        {"word": "sleep", "emoji": "😴"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Exercise hygiene",
+      "steps": [
+        {"word": "workout", "emoji": "🏋️"},
+        {"word": "sweat", "emoji": "💦"},
+        {"word": "shower", "emoji": "🚿"},
+        {"word": "change", "emoji": "👕"},
+        {"word": "fresh", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Pool hygiene",
+      "steps": [
+        {"word": "shower", "emoji": "🚿"},
+        {"word": "before", "emoji": "⏰"},
+        {"word": "swim", "emoji": "🏊"},
+        {"word": "after", "emoji": "➡️"},
+        {"word": "rinse", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Travel hygiene",
+      "steps": [
+        {"word": "pack", "emoji": "🧳"},
+        {"word": "toiletries", "emoji": "🧴"},
+        {"word": "wipes", "emoji": "🧻"},
+        {"word": "sanitizer", "emoji": "🧴"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Sick day care",
+      "steps": [
+        {"word": "rest", "emoji": "😴"},
+        {"word": "fluids", "emoji": "💧"},
+        {"word": "tissues", "emoji": "🧻"},
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "often", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Allergy care",
+      "steps": [
+        {"word": "medicine", "emoji": "💊"},
+        {"word": "avoid", "emoji": "🚫"},
+        {"word": "triggers", "emoji": "⚠️"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "air", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Orthodontic care",
+      "steps": [
+        {"word": "special", "emoji": "⭐"},
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "threader", "emoji": "🧵"},
+        {"word": "floss", "emoji": "🦷"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Cast care",
+      "steps": [
+        {"word": "keep", "emoji": "🛡️"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "cover", "emoji": "🛍️"},
+        {"word": "shower", "emoji": "🚿"},
+        {"word": "protect", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Bandage change",
+      "steps": [
+        {"word": "remove", "emoji": "❌"},
+        {"word": "old", "emoji": "🗑️"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "bandage", "emoji": "🩹"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Splinter removal",
+      "steps": [
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "tweezers", "emoji": "🔧"},
+        {"word": "pull", "emoji": "⬆️"},
+        {"word": "out", "emoji": "➡️"},
+        {"word": "bandaid", "emoji": "🩹"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Bug bite care",
+      "steps": [
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "scratch", "emoji": "✋"},
+        {"word": "cream", "emoji": "🧴"},
+        {"word": "apply", "emoji": "👆"},
+        {"word": "relief", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Burn care",
+      "steps": [
+        {"word": "cool", "emoji": "❄️"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "cover", "emoji": "🩹"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "heal", "emoji": "❤️‍🩹"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Blister care",
+      "steps": [
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "cushion", "emoji": "🟦"},
+        {"word": "bandage", "emoji": "🩹"},
+        {"word": "heal", "emoji": "❤️‍🩹"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Rash care",
+      "steps": [
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "scratch", "emoji": "✋"},
+        {"word": "cool", "emoji": "❄️"},
+        {"word": "lotion", "emoji": "🧴"},
+        {"word": "doctor", "emoji": "👨‍⚕️"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Eczema care",
+      "steps": [
+        {"word": "gentle", "emoji": "🤲"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "moisturize", "emoji": "🧴"},
+        {"word": "daily", "emoji": "📅"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Diabetic foot care",
+      "steps": [
+        {"word": "check", "emoji": "👀"},
+        {"word": "feet", "emoji": "🦶"},
+        {"word": "daily", "emoji": "📅"},
+        {"word": "moisturize", "emoji": "🧴"},
+        {"word": "doctor", "emoji": "👨‍⚕️"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Catheter care",
+      "steps": [
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "hands", "emoji": "👐"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "area", "emoji": "📍"},
+        {"word": "check", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Stoma care",
+      "steps": [
+        {"word": "gentle", "emoji": "🤲"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "bag", "emoji": "📦"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Compression stockings",
+      "steps": [
+        {"word": "morning", "emoji": "🌅"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "smooth", "emoji": "✋"},
+        {"word": "comfortable", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Inhaler use",
+      "steps": [
+        {"word": "shake", "emoji": "🤝"},
+        {"word": "exhale", "emoji": "💨"},
+        {"word": "press", "emoji": "👆"},
+        {"word": "inhale", "emoji": "🌬️"},
+        {"word": "hold", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Blood sugar check",
+      "steps": [
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "prick", "emoji": "💉"},
+        {"word": "test", "emoji": "🩸"},
+        {"word": "read", "emoji": "👀"},
+        {"word": "record", "emoji": "📝"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Temperature check",
+      "steps": [
+        {"word": "thermometer", "emoji": "🌡️"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "beep", "emoji": "🔊"},
+        {"word": "read", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Blood pressure",
+      "steps": [
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "arm", "emoji": "💪"},
+        {"word": "cuff", "emoji": "⭕"},
+        {"word": "pump", "emoji": "💨"},
+        {"word": "read", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Oxygen check",
+      "steps": [
+        {"word": "finger", "emoji": "👆"},
+        {"word": "clip", "emoji": "📎"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "number", "emoji": "🔢"},
+        {"word": "check", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "CPAP cleaning",
+      "steps": [
+        {"word": "mask", "emoji": "😷"},
+        {"word": "wash", "emoji": "🧼"},
+        {"word": "tubing", "emoji": "🔧"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "reassemble", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Nebulizer use",
+      "steps": [
+        {"word": "medicine", "emoji": "💊"},
+        {"word": "cup", "emoji": "🥤"},
+        {"word": "mask", "emoji": "😷"},
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "done", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Injection prep",
+      "steps": [
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "alcohol", "emoji": "🧴"},
+        {"word": "swab", "emoji": "🔄"},
+        {"word": "inject", "emoji": "💉"},
+        {"word": "dispose", "emoji": "🗑️"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Pill organizer",
+      "steps": [
+        {"word": "weekly", "emoji": "📅"},
+        {"word": "box", "emoji": "📦"},
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "pills", "emoji": "💊"},
+        {"word": "organized", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Wheelchair hygiene",
+      "steps": [
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "handles", "emoji": "🤲"},
+        {"word": "seat", "emoji": "🪑"},
+        {"word": "wheels", "emoji": "⚙️"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Walker cleaning",
+      "steps": [
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "frame", "emoji": "🔲"},
+        {"word": "handles", "emoji": "🤲"},
+        {"word": "tips", "emoji": "🟦"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Prosthetic care",
+      "steps": [
+        {"word": "remove", "emoji": "❌"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "check", "emoji": "👀"},
+        {"word": "wear", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Brace care",
+      "steps": [
+        {"word": "remove", "emoji": "❌"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "skin", "emoji": "🤲"},
+        {"word": "check", "emoji": "👀"},
+        {"word": "reapply", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Tracheostomy care",
+      "steps": [
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "hands", "emoji": "👐"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "site", "emoji": "📍"},
+        {"word": "sterile", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Feeding tube care",
+      "steps": [
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "site", "emoji": "📍"},
+        {"word": "flush", "emoji": "💧"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "secure", "emoji": "🔒"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Dialysis prep",
+      "steps": [
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "access", "emoji": "📍"},
+        {"word": "site", "emoji": "🎯"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Port care",
+      "steps": [
+        {"word": "check", "emoji": "👀"},
+        {"word": "site", "emoji": "📍"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "cover", "emoji": "🩹"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Drain care",
+      "steps": [
+        {"word": "measure", "emoji": "📏"},
+        {"word": "output", "emoji": "💧"},
+        {"word": "empty", "emoji": "🗑️"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "record", "emoji": "📝"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Hygiene checklist",
+      "steps": [
+        {"word": "shower", "emoji": "🚿"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "hair", "emoji": "💇"},
+        {"word": "clothes", "emoji": "👕"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1032 @@
+{
+  "communication_general": {
+    "type": "communication_classifier",
+    "classification": "general",
+    "tile_options": [
+      "metadata",
+      "tinkybink_aac_tiles",
+      "tinkybink_adaptive_skills_tiles",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "triggers": [
+      "3tier",
+      "vocabulary",
+      "metadata",
+      "core",
+      "aac"
+    ]
+  },
+  "communication_social": {
+    "type": "communication_classifier",
+    "classification": "social",
+    "tile_options": [
+      "tinkybink_behavioral_social_tiles",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "triggers": [
+      "3tier",
+      "vocabulary",
+      "metadata",
+      "core",
+      "aac"
+    ]
+  },
+  "communication_medical": {
+    "type": "communication_classifier",
+    "classification": "medical",
+    "tile_options": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "triggers": [
+      "3tier",
+      "vocabulary",
+      "metadata",
+      "core",
+      "aac"
+    ]
+  },
+  "communication_educational": {
+    "type": "communication_classifier",
+    "classification": "educational",
+    "tile_options": [
+      "tinkybink_classroom_tiles",
+      "tinkybink_school_tiles"
+    ],
+    "triggers": [
+      "3tier",
+      "vocabulary",
+      "metadata",
+      "core",
+      "aac"
+    ]
+  },
+  "communication_emergency": {
+    "type": "communication_classifier",
+    "classification": "emergency",
+    "tile_options": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "triggers": [
+      "3tier",
+      "vocabulary",
+      "metadata",
+      "core",
+      "aac"
+    ]
+  },
+  "context_aac": {
+    "type": "context_responder",
+    "trigger_word": "aac",
+    "relevant_categories": [
+      "3tier_aac_core_vocabulary",
+      "aac"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_skills": {
+    "type": "context_responder",
+    "trigger_word": "skills",
+    "relevant_categories": [
+      "adaptive_skills",
+      "life_skills_independence"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_pets": {
+    "type": "context_responder",
+    "trigger_word": "pets",
+    "relevant_categories": [
+      "animals_pets",
+      "pets_trips"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_social": {
+    "type": "context_responder",
+    "trigger_word": "social",
+    "relevant_categories": [
+      "behavioral_social",
+      "social_emotional_learning"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_health": {
+    "type": "context_responder",
+    "trigger_word": "health",
+    "relevant_categories": [
+      "health",
+      "body_parts_health"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_communication": {
+    "type": "context_responder",
+    "trigger_word": "communication",
+    "relevant_categories": [
+      "communication_language",
+      "functional_communication",
+      "cognitive_communication"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_safety": {
+    "type": "context_responder",
+    "trigger_word": "safety",
+    "relevant_categories": [
+      "safety_emergency",
+      "emergency_safety"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_emergency": {
+    "type": "context_responder",
+    "trigger_word": "emergency",
+    "relevant_categories": [
+      "safety_emergency",
+      "emergency_safety"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_feel": {
+    "type": "context_responder",
+    "trigger_word": "feel",
+    "relevant_categories": [
+      "emotions_feelings",
+      "social_emotional_learning"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_happy": {
+    "type": "context_responder",
+    "trigger_word": "happy",
+    "relevant_categories": [
+      "emotions_feelings",
+      "social_emotional_learning"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_sad": {
+    "type": "context_responder",
+    "trigger_word": "sad",
+    "relevant_categories": [
+      "emotions_feelings",
+      "social_emotional_learning"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_mood": {
+    "type": "context_responder",
+    "trigger_word": "mood",
+    "relevant_categories": [
+      "emotions_feelings",
+      "social_emotional_learning"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_angry": {
+    "type": "context_responder",
+    "trigger_word": "angry",
+    "relevant_categories": [
+      "emotions_feelings",
+      "social_emotional_learning"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "context_transportation": {
+    "type": "context_responder",
+    "trigger_word": "transportation",
+    "relevant_categories": [
+      "transportation_vehicles",
+      "transportation_travel"
+    ],
+    "response_strategy": "context_aware"
+  },
+  "scenario_3tier_aac_core_vocabulary": {
+    "type": "scenario_handler",
+    "category": "3tier_aac_core_vocabulary",
+    "common_inputs": [
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "metadata"
+    ]
+  },
+  "scenario_aac": {
+    "type": "scenario_handler",
+    "category": "aac",
+    "common_inputs": [
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "tinkybink_aac_tiles"
+    ]
+  },
+  "scenario_adaptive_skills": {
+    "type": "scenario_handler",
+    "category": "adaptive_skills",
+    "common_inputs": [
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "tinkybink_adaptive_skills_tiles"
+    ]
+  },
+  "scenario_animals_pets": {
+    "type": "scenario_handler",
+    "category": "animals_pets",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_articulation_phonology": {
+    "type": "scenario_handler",
+    "category": "articulation_phonology",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_arts_creativity": {
+    "type": "scenario_handler",
+    "category": "arts_creativity",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_behavioral_social": {
+    "type": "scenario_handler",
+    "category": "behavioral_social",
+    "common_inputs": [
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "tinkybink_behavioral_social_tiles"
+    ]
+  },
+  "scenario_body_parts_health": {
+    "type": "scenario_handler",
+    "category": "body_parts_health",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_classroom": {
+    "type": "scenario_handler",
+    "category": "classroom",
+    "common_inputs": [
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "tinkybink_classroom_tiles"
+    ]
+  },
+  "scenario_clothing_fashion": {
+    "type": "scenario_handler",
+    "category": "clothing_fashion",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_cognitive_communication": {
+    "type": "scenario_handler",
+    "category": "cognitive_communication",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_communication_language": {
+    "type": "scenario_handler",
+    "category": "communication_language",
+    "common_inputs": [
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "tinkybink_communication_language_tiles"
+    ]
+  },
+  "scenario_community_recreation": {
+    "type": "scenario_handler",
+    "category": "community_recreation",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_cooking_kitchen": {
+    "type": "scenario_handler",
+    "category": "cooking_kitchen",
+    "common_inputs": [
+      "What would you like to eat?",
+      "What would you like to eat?",
+      "What would you like to eat?",
+      "What would you like to eat?",
+      "What would you like to eat?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_early_intervention": {
+    "type": "scenario_handler",
+    "category": "early_intervention",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_emergency_safety": {
+    "type": "scenario_handler",
+    "category": "emergency_safety",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_emotions_feelings": {
+    "type": "scenario_handler",
+    "category": "emotions_feelings",
+    "common_inputs": [
+      "How are you feeling?",
+      "How are you feeling?",
+      "How are you feeling?",
+      "How are you feeling?",
+      "How are you feeling?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_finemotor_academic": {
+    "type": "scenario_handler",
+    "category": "finemotor_academic",
+    "common_inputs": [
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "tinkybink_finemotor_academic_tiles"
+    ]
+  },
+  "scenario_fluency_stuttering": {
+    "type": "scenario_handler",
+    "category": "fluency_stuttering",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_food_nutrition": {
+    "type": "scenario_handler",
+    "category": "food_nutrition",
+    "common_inputs": [
+      "What would you like to eat?",
+      "What would you like to eat?",
+      "What would you like to eat?",
+      "What would you like to eat?",
+      "What would you like to eat?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_friendship_relationships": {
+    "type": "scenario_handler",
+    "category": "friendship_relationships",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_functional_communication": {
+    "type": "scenario_handler",
+    "category": "functional_communication",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_games_toys": {
+    "type": "scenario_handler",
+    "category": "games_toys",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_health": {
+    "type": "scenario_handler",
+    "category": "health",
+    "common_inputs": [
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "tinkybink_health_tiles"
+    ]
+  },
+  "scenario_hobbies_crafts": {
+    "type": "scenario_handler",
+    "category": "hobbies_crafts",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_household_chores": {
+    "type": "scenario_handler",
+    "category": "household_chores",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_life_skills_independence": {
+    "type": "scenario_handler",
+    "category": "life_skills_independence",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_medical_healthcare": {
+    "type": "scenario_handler",
+    "category": "medical_healthcare",
+    "common_inputs": [
+      "How can I help you?",
+      "How can I help you?",
+      "How can I help you?",
+      "How can I help you?",
+      "How can I help you?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_money_shopping": {
+    "type": "scenario_handler",
+    "category": "money_shopping",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_music_instruments": {
+    "type": "scenario_handler",
+    "category": "music_instruments",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_nature_environment": {
+    "type": "scenario_handler",
+    "category": "nature_environment",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_personal_information": {
+    "type": "scenario_handler",
+    "category": "personal_information",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_pets_trips": {
+    "type": "scenario_handler",
+    "category": "pets_trips",
+    "common_inputs": [
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "tinkybink_pets_trips_tiles"
+    ]
+  },
+  "scenario_reallife_activities": {
+    "type": "scenario_handler",
+    "category": "reallife_activities",
+    "common_inputs": [
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "tinkybink_reallife_activities_tiles"
+    ]
+  },
+  "scenario_safety_emergency": {
+    "type": "scenario_handler",
+    "category": "safety_emergency",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_school": {
+    "type": "scenario_handler",
+    "category": "school",
+    "common_inputs": [
+      "What do you want to do at school?"
+    ],
+    "expected_responses": [
+      "tinkybink_school_tiles"
+    ]
+  },
+  "scenario_science_exploration": {
+    "type": "scenario_handler",
+    "category": "science_exploration",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_seasonal_holidays": {
+    "type": "scenario_handler",
+    "category": "seasonal_holidays",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_self_care_hygiene": {
+    "type": "scenario_handler",
+    "category": "self_care_hygiene",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_sensory_feeding": {
+    "type": "scenario_handler",
+    "category": "sensory_feeding",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_social_emotional_learning": {
+    "type": "scenario_handler",
+    "category": "social_emotional_learning",
+    "common_inputs": [
+      "How are you feeling?",
+      "How are you feeling?",
+      "How are you feeling?",
+      "How are you feeling?",
+      "How are you feeling?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_sports": {
+    "type": "scenario_handler",
+    "category": "sports",
+    "common_inputs": [
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "tinkybink_sports_tiles"
+    ]
+  },
+  "scenario_swallowing_dysphagia": {
+    "type": "scenario_handler",
+    "category": "swallowing_dysphagia",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_technology_devices": {
+    "type": "scenario_handler",
+    "category": "technology_devices",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_transitions_routines": {
+    "type": "scenario_handler",
+    "category": "transitions_routines",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_transportation_travel": {
+    "type": "scenario_handler",
+    "category": "transportation_travel",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_transportation_vehicles": {
+    "type": "scenario_handler",
+    "category": "transportation_vehicles",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_voice_resonance": {
+    "type": "scenario_handler",
+    "category": "voice_resonance",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_weather_seasons": {
+    "type": "scenario_handler",
+    "category": "weather_seasons",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "scenario_work_vocational": {
+    "type": "scenario_handler",
+    "category": "work_vocational",
+    "common_inputs": [
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?",
+      "What do you need?"
+    ],
+    "expected_responses": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+}

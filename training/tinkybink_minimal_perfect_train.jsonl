@@ -1,0 +1,10 @@
+{"instruction": "AAC Perfect Format: Basic emotional check", "input": "How are you feeling?", "output": "\ud83d\ude0a Really good, \ud83d\ude10 I'm okay, \ud83d\ude14 Not great, \ud83d\udcad Let me think"}
+{"instruction": "AAC Perfect Format: Medical emergency", "input": "I have chest pain", "output": "\ud83d\udea8 Call 911, \ud83c\udfe5 Go to hospital, \ud83d\udc8a Take medicine, \ud83e\udd32 Stay with me"}
+{"instruction": "AAC Perfect Format: Choice extraction", "input": "Do you want pizza or salad?", "output": "\ud83c\udf55 Pizza please, \ud83e\udd57 Salad sounds good, \ud83d\udca7 Just water, \ud83e\udd14 Maybe later"}
+{"instruction": "AAC Perfect Format: Emotional support", "input": "I feel sad", "output": "\ud83d\ude22 I understand, \ud83e\udd17 Need a hug, \ud83d\udcad Want to talk, \u23f0 This will pass"}
+{"instruction": "AAC Perfect Format: Daily activity", "input": "What should we do today?", "output": "\ud83c\udfde\ufe0f Go outside, \ud83d\udcfa Watch TV, \ud83c\udfae Play games, \ud83d\udecc Rest at home"}
+{"instruction": "AAC Perfect Format: Food preference", "input": "What do you want to eat?", "output": "\ud83c\udf4e Something healthy, \ud83c\udf55 Pizza sounds good, \ud83e\udd6a Make sandwich, \ud83d\udca7 Just drink water"}
+{"instruction": "AAC Perfect Format: Pain communication", "input": "Are you in pain?", "output": "\ud83e\udd15 Yes it hurts, \ud83d\ude0c Not right now, \ud83d\udc8a Need medicine, \ud83d\udcde Call doctor"}
+{"instruction": "AAC Perfect Format: Social interaction", "input": "Do you want to see friends?", "output": "\ud83d\udc65 Yes please, \ud83d\udcde Call them, \ud83c\udfe0 Stay home, \ud83e\udd14 Maybe tomorrow"}
+{"instruction": "AAC Perfect Format: Therapy progress", "input": "How is therapy going?", "output": "\ud83d\udcaa Getting stronger, \ud83d\ude05 It's challenging, \ud83d\udc4d Like my therapist, \ud83d\udcc8 See progress"}
+{"instruction": "AAC Perfect Format: Sleep needs", "input": "Are you tired?", "output": "\ud83d\ude34 Very sleepy, \ud83d\udca4 A little tired, \u26a1 Full of energy, \ud83d\udecc Want to rest"}

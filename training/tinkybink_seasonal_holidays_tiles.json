@@ -1,0 +1,1105 @@
+{
+  "category": "🎄 Seasonal & Holidays",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Decorate Christmas tree",
+      "steps": [
+        {"word": "tree", "emoji": "🎄"},
+        {"word": "ornaments", "emoji": "🎗️"},
+        {"word": "lights", "emoji": "💡"},
+        {"word": "hang", "emoji": "🪝"},
+        {"word": "beautiful", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Wrap presents",
+      "steps": [
+        {"word": "gift", "emoji": "🎁"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "tape", "emoji": "📎"},
+        {"word": "wrap", "emoji": "🎁"},
+        {"word": "bow", "emoji": "🎀"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bake Christmas cookies",
+      "steps": [
+        {"word": "cookies", "emoji": "🍪"},
+        {"word": "dough", "emoji": "🟡"},
+        {"word": "shapes", "emoji": "⭐"},
+        {"word": "bake", "emoji": "🔥"},
+        {"word": "decorate", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Sing Christmas carols",
+      "steps": [
+        {"word": "carols", "emoji": "🎵"},
+        {"word": "Christmas", "emoji": "🎄"},
+        {"word": "songs", "emoji": "🎶"},
+        {"word": "sing", "emoji": "🎤"},
+        {"word": "together", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Build snowman",
+      "steps": [
+        {"word": "snow", "emoji": "❄️"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "balls", "emoji": "⚪"},
+        {"word": "stack", "emoji": "🥞"},
+        {"word": "snowman", "emoji": "⛄"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Make snow angels",
+      "steps": [
+        {"word": "snow", "emoji": "❄️"},
+        {"word": "lie", "emoji": "😴"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "arms", "emoji": "💪"},
+        {"word": "angel", "emoji": "👼"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Go sledding",
+      "steps": [
+        {"word": "sled", "emoji": "🛷"},
+        {"word": "hill", "emoji": "⛰️"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "slide", "emoji": "⬇️"},
+        {"word": "fun", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Ice skating",
+      "steps": [
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "skates", "emoji": "⛸️"},
+        {"word": "rink", "emoji": "🏟️"},
+        {"word": "glide", "emoji": "➡️"},
+        {"word": "balance", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Drink hot chocolate",
+      "steps": [
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "chocolate", "emoji": "🍫"},
+        {"word": "warm", "emoji": "☀️"},
+        {"word": "marshmallows", "emoji": "⚪"},
+        {"word": "cozy", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Halloween costume",
+      "steps": [
+        {"word": "costume", "emoji": "🎭"},
+        {"word": "dress", "emoji": "👗"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "character", "emoji": "👤"},
+        {"word": "fun", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Trick or treat",
+      "steps": [
+        {"word": "trick", "emoji": "🎃"},
+        {"word": "treat", "emoji": "🍭"},
+        {"word": "door", "emoji": "🚪"},
+        {"word": "candy", "emoji": "🍬"},
+        {"word": "bag", "emoji": "👜"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Carve pumpkin",
+      "steps": [
+        {"word": "pumpkin", "emoji": "🎃"},
+        {"word": "knife", "emoji": "🔪"},
+        {"word": "carve", "emoji": "✂️"},
+        {"word": "face", "emoji": "😊"},
+        {"word": "candle", "emoji": "🕯️"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Decorate for Halloween",
+      "steps": [
+        {"word": "Halloween", "emoji": "🎃"},
+        {"word": "decorations", "emoji": "🎗️"},
+        {"word": "spooky", "emoji": "👻"},
+        {"word": "house", "emoji": "🏠"},
+        {"word": "scary", "emoji": "😱"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Easter egg hunt",
+      "steps": [
+        {"word": "Easter", "emoji": "🐰"},
+        {"word": "eggs", "emoji": "🥚"},
+        {"word": "hide", "emoji": "🫣"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "basket", "emoji": "🧺"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Color Easter eggs",
+      "steps": [
+        {"word": "eggs", "emoji": "🥚"},
+        {"word": "dye", "emoji": "🎨"},
+        {"word": "colors", "emoji": "🌈"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "patterns", "emoji": "🌀"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Visit Easter bunny",
+      "steps": [
+        {"word": "Easter", "emoji": "🐰"},
+        {"word": "bunny", "emoji": "🐰"},
+        {"word": "visit", "emoji": "🚪"},
+        {"word": "photo", "emoji": "📸"},
+        {"word": "smile", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Fourth of July parade",
+      "steps": [
+        {"word": "parade", "emoji": "🎪"},
+        {"word": "July", "emoji": "🇺🇸"},
+        {"word": "flags", "emoji": "🇺🇸"},
+        {"word": "march", "emoji": "🚶"},
+        {"word": "patriotic", "emoji": "🇺🇸"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Watch fireworks",
+      "steps": [
+        {"word": "fireworks", "emoji": "🎆"},
+        {"word": "night", "emoji": "🌙"},
+        {"word": "sky", "emoji": "🌌"},
+        {"word": "colors", "emoji": "🌈"},
+        {"word": "boom", "emoji": "💥"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Barbecue picnic",
+      "steps": [
+        {"word": "barbecue", "emoji": "🔥"},
+        {"word": "grill", "emoji": "🔥"},
+        {"word": "food", "emoji": "🍖"},
+        {"word": "outside", "emoji": "🌳"},
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Thanksgiving dinner",
+      "steps": [
+        {"word": "Thanksgiving", "emoji": "🦃"},
+        {"word": "turkey", "emoji": "🦃"},
+        {"word": "dinner", "emoji": "🍽️"},
+        {"word": "grateful", "emoji": "🙏"},
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Make pie",
+      "steps": [
+        {"word": "pie", "emoji": "🥧"},
+        {"word": "crust", "emoji": "🥧"},
+        {"word": "filling", "emoji": "🍎"},
+        {"word": "bake", "emoji": "🔥"},
+        {"word": "dessert", "emoji": "🍰"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Give thanks",
+      "steps": [
+        {"word": "thankful", "emoji": "🙏"},
+        {"word": "grateful", "emoji": "🙏"},
+        {"word": "blessings", "emoji": "✨"},
+        {"word": "share", "emoji": "🤝"},
+        {"word": "appreciate", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "New Year countdown",
+      "steps": [
+        {"word": "New", "emoji": "🆕"},
+        {"word": "Year", "emoji": "📅"},
+        {"word": "countdown", "emoji": "🕛"},
+        {"word": "midnight", "emoji": "🌙"},
+        {"word": "celebrate", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Make resolutions",
+      "steps": [
+        {"word": "resolutions", "emoji": "📋"},
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "year", "emoji": "📅"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Valentine's Day cards",
+      "steps": [
+        {"word": "Valentine", "emoji": "💝"},
+        {"word": "cards", "emoji": "💌"},
+        {"word": "hearts", "emoji": "❤️"},
+        {"word": "love", "emoji": "💕"},
+        {"word": "friends", "emoji": "👫"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Give flowers",
+      "steps": [
+        {"word": "flowers", "emoji": "🌸"},
+        {"word": "bouquet", "emoji": "💐"},
+        {"word": "give", "emoji": "🤲"},
+        {"word": "special", "emoji": "⭐"},
+        {"word": "person", "emoji": "👤"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Spring cleaning",
+      "steps": [
+        {"word": "spring", "emoji": "🌸"},
+        {"word": "cleaning", "emoji": "🧹"},
+        {"word": "house", "emoji": "🏠"},
+        {"word": "organize", "emoji": "📊"},
+        {"word": "fresh", "emoji": "🍃"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Plant garden",
+      "steps": [
+        {"word": "garden", "emoji": "🌱"},
+        {"word": "seeds", "emoji": "🌱"},
+        {"word": "soil", "emoji": "🌍"},
+        {"word": "plant", "emoji": "🌱"},
+        {"word": "grow", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Mother's Day gift",
+      "steps": [
+        {"word": "Mother's", "emoji": "👩"},
+        {"word": "Day", "emoji": "📅"},
+        {"word": "gift", "emoji": "🎁"},
+        {"word": "special", "emoji": "⭐"},
+        {"word": "love", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Father's Day gift",
+      "steps": [
+        {"word": "Father's", "emoji": "👨"},
+        {"word": "Day", "emoji": "📅"},
+        {"word": "gift", "emoji": "🎁"},
+        {"word": "appreciate", "emoji": "🙏"},
+        {"word": "dad", "emoji": "👨"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Summer vacation",
+      "steps": [
+        {"word": "summer", "emoji": "☀️"},
+        {"word": "vacation", "emoji": "🏖️"},
+        {"word": "travel", "emoji": "✈️"},
+        {"word": "fun", "emoji": "😄"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Go to beach",
+      "steps": [
+        {"word": "beach", "emoji": "🏖️"},
+        {"word": "sand", "emoji": "🏖️"},
+        {"word": "waves", "emoji": "🌊"},
+        {"word": "swim", "emoji": "🏊"},
+        {"word": "sunshine", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Build sandcastle",
+      "steps": [
+        {"word": "sand", "emoji": "🏖️"},
+        {"word": "bucket", "emoji": "🪣"},
+        {"word": "shovel", "emoji": "⛏️"},
+        {"word": "build", "emoji": "🏗️"},
+        {"word": "castle", "emoji": "🏰"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Go camping",
+      "steps": [
+        {"word": "camping", "emoji": "🏕️"},
+        {"word": "tent", "emoji": "⛺"},
+        {"word": "nature", "emoji": "🌳"},
+        {"word": "outdoors", "emoji": "🌲"},
+        {"word": "adventure", "emoji": "🗺️"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Make s'mores",
+      "steps": [
+        {"word": "s'mores", "emoji": "🔥"},
+        {"word": "marshmallow", "emoji": "⚪"},
+        {"word": "chocolate", "emoji": "🍫"},
+        {"word": "graham", "emoji": "🍪"},
+        {"word": "campfire", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Tell ghost stories",
+      "steps": [
+        {"word": "ghost", "emoji": "👻"},
+        {"word": "stories", "emoji": "📖"},
+        {"word": "campfire", "emoji": "🔥"},
+        {"word": "scary", "emoji": "😱"},
+        {"word": "dark", "emoji": "🌙"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Fall leaves",
+      "steps": [
+        {"word": "fall", "emoji": "🍂"},
+        {"word": "leaves", "emoji": "🍃"},
+        {"word": "colors", "emoji": "🌈"},
+        {"word": "rake", "emoji": "🧹"},
+        {"word": "pile", "emoji": "🍂"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Jump in leaves",
+      "steps": [
+        {"word": "leaf", "emoji": "🍂"},
+        {"word": "pile", "emoji": "🥞"},
+        {"word": "jump", "emoji": "🦘"},
+        {"word": "fun", "emoji": "😄"},
+        {"word": "autumn", "emoji": "🍂"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Pick apples",
+      "steps": [
+        {"word": "apple", "emoji": "🍎"},
+        {"word": "orchard", "emoji": "🌳"},
+        {"word": "tree", "emoji": "🌳"},
+        {"word": "pick", "emoji": "🤏"},
+        {"word": "basket", "emoji": "🧺"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Make apple pie",
+      "steps": [
+        {"word": "apples", "emoji": "🍎"},
+        {"word": "pie", "emoji": "🥧"},
+        {"word": "crust", "emoji": "🥧"},
+        {"word": "bake", "emoji": "🔥"},
+        {"word": "cinnamon", "emoji": "🌰"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Harvest festival",
+      "steps": [
+        {"word": "harvest", "emoji": "🌾"},
+        {"word": "festival", "emoji": "🎪"},
+        {"word": "corn", "emoji": "🌽"},
+        {"word": "maze", "emoji": "🌀"},
+        {"word": "hayride", "emoji": "🚜"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Back to school",
+      "steps": [
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "school", "emoji": "🏫"},
+        {"word": "supplies", "emoji": "📚"},
+        {"word": "backpack", "emoji": "🎒"},
+        {"word": "learn", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Winter solstice",
+      "steps": [
+        {"word": "winter", "emoji": "❄️"},
+        {"word": "solstice", "emoji": "🌙"},
+        {"word": "longest", "emoji": "📏"},
+        {"word": "night", "emoji": "🌙"},
+        {"word": "shortest", "emoji": "📐"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Summer solstice",
+      "steps": [
+        {"word": "summer", "emoji": "☀️"},
+        {"word": "solstice", "emoji": "☀️"},
+        {"word": "longest", "emoji": "📏"},
+        {"word": "day", "emoji": "🌅"},
+        {"word": "sunshine", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Earth Day",
+      "steps": [
+        {"word": "Earth", "emoji": "🌍"},
+        {"word": "Day", "emoji": "📅"},
+        {"word": "recycle", "emoji": "♻️"},
+        {"word": "planet", "emoji": "🌍"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Plant trees",
+      "steps": [
+        {"word": "trees", "emoji": "🌳"},
+        {"word": "plant", "emoji": "🌱"},
+        {"word": "dig", "emoji": "⛏️"},
+        {"word": "hole", "emoji": "⭕"},
+        {"word": "grow", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Memorial Day",
+      "steps": [
+        {"word": "Memorial", "emoji": "🇺🇸"},
+        {"word": "Day", "emoji": "📅"},
+        {"word": "remember", "emoji": "🧠"},
+        {"word": "heroes", "emoji": "🦸"},
+        {"word": "honor", "emoji": "🎖️"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Labor Day",
+      "steps": [
+        {"word": "Labor", "emoji": "👷"},
+        {"word": "Day", "emoji": "📅"},
+        {"word": "workers", "emoji": "👷"},
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "weekend", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Birthday party",
+      "steps": [
+        {"word": "birthday", "emoji": "🎂"},
+        {"word": "party", "emoji": "🎉"},
+        {"word": "cake", "emoji": "🎂"},
+        {"word": "candles", "emoji": "🕯️"},
+        {"word": "celebrate", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Blow out candles",
+      "steps": [
+        {"word": "candles", "emoji": "🕯️"},
+        {"word": "wish", "emoji": "⭐"},
+        {"word": "blow", "emoji": "💨"},
+        {"word": "out", "emoji": "📤"},
+        {"word": "birthday", "emoji": "🎂"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Sing happy birthday",
+      "steps": [
+        {"word": "happy", "emoji": "😊"},
+        {"word": "birthday", "emoji": "🎂"},
+        {"word": "song", "emoji": "🎵"},
+        {"word": "sing", "emoji": "🎤"},
+        {"word": "together", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Open presents",
+      "steps": [
+        {"word": "presents", "emoji": "🎁"},
+        {"word": "unwrap", "emoji": "📦"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "surprise", "emoji": "😲"},
+        {"word": "gifts", "emoji": "🎁"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Wear party hat",
+      "steps": [
+        {"word": "party", "emoji": "🎉"},
+        {"word": "hat", "emoji": "🎩"},
+        {"word": "head", "emoji": "🗣️"},
+        {"word": "festive", "emoji": "🎊"},
+        {"word": "celebrate", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Play party games",
+      "steps": [
+        {"word": "party", "emoji": "🎉"},
+        {"word": "games", "emoji": "🎮"},
+        {"word": "friends", "emoji": "👫"},
+        {"word": "fun", "emoji": "😄"},
+        {"word": "play", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Wedding ceremony",
+      "steps": [
+        {"word": "wedding", "emoji": "💒"},
+        {"word": "ceremony", "emoji": "💍"},
+        {"word": "bride", "emoji": "👰"},
+        {"word": "groom", "emoji": "🤵"},
+        {"word": "love", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Anniversary celebration",
+      "steps": [
+        {"word": "anniversary", "emoji": "💍"},
+        {"word": "years", "emoji": "📅"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "love", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Graduation ceremony",
+      "steps": [
+        {"word": "graduation", "emoji": "🎓"},
+        {"word": "ceremony", "emoji": "🎪"},
+        {"word": "cap", "emoji": "🎓"},
+        {"word": "gown", "emoji": "👗"},
+        {"word": "achievement", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Baby shower",
+      "steps": [
+        {"word": "baby", "emoji": "👶"},
+        {"word": "shower", "emoji": "🚿"},
+        {"word": "gifts", "emoji": "🎁"},
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "new", "emoji": "🆕"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Retirement party",
+      "steps": [
+        {"word": "retirement", "emoji": "🧓"},
+        {"word": "party", "emoji": "🎉"},
+        {"word": "work", "emoji": "💼"},
+        {"word": "finished", "emoji": "🏁"},
+        {"word": "celebrate", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Housewarming party",
+      "steps": [
+        {"word": "housewarming", "emoji": "🏠"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "friends", "emoji": "👫"},
+        {"word": "visit", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Chinese New Year",
+      "steps": [
+        {"word": "Chinese", "emoji": "🇨🇳"},
+        {"word": "New", "emoji": "🆕"},
+        {"word": "Year", "emoji": "📅"},
+        {"word": "dragon", "emoji": "🐉"},
+        {"word": "celebration", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Diwali festival",
+      "steps": [
+        {"word": "Diwali", "emoji": "🪔"},
+        {"word": "lights", "emoji": "💡"},
+        {"word": "festival", "emoji": "🎪"},
+        {"word": "lamps", "emoji": "🪔"},
+        {"word": "celebration", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Kwanzaa celebration",
+      "steps": [
+        {"word": "Kwanzaa", "emoji": "🕯️"},
+        {"word": "candles", "emoji": "🕯️"},
+        {"word": "seven", "emoji": "7️⃣"},
+        {"word": "principles", "emoji": "📋"},
+        {"word": "heritage", "emoji": "🏛️"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Hanukkah celebration",
+      "steps": [
+        {"word": "Hanukkah", "emoji": "🕎"},
+        {"word": "menorah", "emoji": "🕎"},
+        {"word": "eight", "emoji": "8️⃣"},
+        {"word": "nights", "emoji": "🌙"},
+        {"word": "miracle", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Cinco de Mayo",
+      "steps": [
+        {"word": "Cinco", "emoji": "5️⃣"},
+        {"word": "Mayo", "emoji": "📅"},
+        {"word": "Mexican", "emoji": "🇲🇽"},
+        {"word": "culture", "emoji": "🎭"},
+        {"word": "celebrate", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "St. Patrick's Day",
+      "steps": [
+        {"word": "St.", "emoji": "☘️"},
+        {"word": "Patrick's", "emoji": "☘️"},
+        {"word": "green", "emoji": "💚"},
+        {"word": "shamrock", "emoji": "☘️"},
+        {"word": "Irish", "emoji": "🍀"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Mardi Gras",
+      "steps": [
+        {"word": "Mardi", "emoji": "🎭"},
+        {"word": "Gras", "emoji": "🎪"},
+        {"word": "parade", "emoji": "🎪"},
+        {"word": "beads", "emoji": "📿"},
+        {"word": "masks", "emoji": "🎭"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Day of the Dead",
+      "steps": [
+        {"word": "Day", "emoji": "💀"},
+        {"word": "Dead", "emoji": "💀"},
+        {"word": "remember", "emoji": "🧠"},
+        {"word": "ancestors", "emoji": "👴"},
+        {"word": "honor", "emoji": "🎖️"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Oktoberfest",
+      "steps": [
+        {"word": "Oktoberfest", "emoji": "🍺"},
+        {"word": "German", "emoji": "🇩🇪"},
+        {"word": "festival", "emoji": "🎪"},
+        {"word": "music", "emoji": "🎵"},
+        {"word": "food", "emoji": "🥨"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Carnival celebration",
+      "steps": [
+        {"word": "carnival", "emoji": "🎪"},
+        {"word": "masks", "emoji": "🎭"},
+        {"word": "costumes", "emoji": "👗"},
+        {"word": "parade", "emoji": "🎪"},
+        {"word": "music", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Winter Olympics",
+      "steps": [
+        {"word": "Winter", "emoji": "❄️"},
+        {"word": "Olympics", "emoji": "🏅"},
+        {"word": "snow", "emoji": "❄️"},
+        {"word": "sports", "emoji": "⛷️"},
+        {"word": "competition", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Summer Olympics",
+      "steps": [
+        {"word": "Summer", "emoji": "☀️"},
+        {"word": "Olympics", "emoji": "🏅"},
+        {"word": "sports", "emoji": "🏃"},
+        {"word": "athletes", "emoji": "🏃"},
+        {"word": "medals", "emoji": "🥇"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "World Cup",
+      "steps": [
+        {"word": "World", "emoji": "🌍"},
+        {"word": "Cup", "emoji": "🏆"},
+        {"word": "soccer", "emoji": "⚽"},
+        {"word": "teams", "emoji": "👥"},
+        {"word": "championship", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Music festival",
+      "steps": [
+        {"word": "music", "emoji": "🎵"},
+        {"word": "festival", "emoji": "🎪"},
+        {"word": "bands", "emoji": "🎸"},
+        {"word": "outdoor", "emoji": "🌳"},
+        {"word": "concert", "emoji": "🎤"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Art festival",
+      "steps": [
+        {"word": "art", "emoji": "🎨"},
+        {"word": "festival", "emoji": "🎪"},
+        {"word": "artists", "emoji": "👩‍🎨"},
+        {"word": "paintings", "emoji": "🖼️"},
+        {"word": "creative", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Food festival",
+      "steps": [
+        {"word": "food", "emoji": "🍎"},
+        {"word": "festival", "emoji": "🎪"},
+        {"word": "vendors", "emoji": "🏪"},
+        {"word": "taste", "emoji": "👅"},
+        {"word": "variety", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Book fair",
+      "steps": [
+        {"word": "book", "emoji": "📚"},
+        {"word": "fair", "emoji": "🎪"},
+        {"word": "authors", "emoji": "✍️"},
+        {"word": "reading", "emoji": "📖"},
+        {"word": "stories", "emoji": "📖"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Science fair",
+      "steps": [
+        {"word": "science", "emoji": "🔬"},
+        {"word": "fair", "emoji": "🎪"},
+        {"word": "experiments", "emoji": "🧪"},
+        {"word": "projects", "emoji": "📋"},
+        {"word": "learning", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "County fair",
+      "steps": [
+        {"word": "county", "emoji": "🌾"},
+        {"word": "fair", "emoji": "🎪"},
+        {"word": "rides", "emoji": "🎢"},
+        {"word": "games", "emoji": "🎮"},
+        {"word": "animals", "emoji": "🐄"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "State fair",
+      "steps": [
+        {"word": "state", "emoji": "🗺️"},
+        {"word": "fair", "emoji": "🎪"},
+        {"word": "exhibits", "emoji": "🏛️"},
+        {"word": "contests", "emoji": "🏆"},
+        {"word": "fun", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Farmer's market",
+      "steps": [
+        {"word": "farmer's", "emoji": "👨‍🌾"},
+        {"word": "market", "emoji": "🏪"},
+        {"word": "fresh", "emoji": "🍃"},
+        {"word": "vegetables", "emoji": "🥕"},
+        {"word": "local", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Craft fair",
+      "steps": [
+        {"word": "craft", "emoji": "🎨"},
+        {"word": "fair", "emoji": "🎪"},
+        {"word": "handmade", "emoji": "🤲"},
+        {"word": "artists", "emoji": "👩‍🎨"},
+        {"word": "unique", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Car show",
+      "steps": [
+        {"word": "car", "emoji": "🚗"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "classic", "emoji": "🏛️"},
+        {"word": "vintage", "emoji": "⏰"},
+        {"word": "display", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Flower show",
+      "steps": [
+        {"word": "flower", "emoji": "🌸"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "garden", "emoji": "🌱"},
+        {"word": "beautiful", "emoji": "✨"},
+        {"word": "colors", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Dog show",
+      "steps": [
+        {"word": "dog", "emoji": "🐕"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "breeds", "emoji": "🐕"},
+        {"word": "competition", "emoji": "🏆"},
+        {"word": "best", "emoji": "🥇"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Talent show",
+      "steps": [
+        {"word": "talent", "emoji": "⭐"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "perform", "emoji": "🎭"},
+        {"word": "stage", "emoji": "🎭"},
+        {"word": "skills", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Fashion show",
+      "steps": [
+        {"word": "fashion", "emoji": "👗"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "runway", "emoji": "🛤️"},
+        {"word": "models", "emoji": "👩"},
+        {"word": "clothes", "emoji": "👗"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Air show",
+      "steps": [
+        {"word": "air", "emoji": "✈️"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "planes", "emoji": "✈️"},
+        {"word": "flying", "emoji": "✈️"},
+        {"word": "sky", "emoji": "🌌"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Boat show",
+      "steps": [
+        {"word": "boat", "emoji": "⛵"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "marina", "emoji": "⚓"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "sailing", "emoji": "⛵"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Horse show",
+      "steps": [
+        {"word": "horse", "emoji": "🐎"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "riding", "emoji": "🐎"},
+        {"word": "jumping", "emoji": "🦘"},
+        {"word": "equestrian", "emoji": "🐎"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Rodeo",
+      "steps": [
+        {"word": "rodeo", "emoji": "🤠"},
+        {"word": "cowboys", "emoji": "🤠"},
+        {"word": "bulls", "emoji": "🐂"},
+        {"word": "horses", "emoji": "🐎"},
+        {"word": "western", "emoji": "🤠"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Circus",
+      "steps": [
+        {"word": "circus", "emoji": "🎪"},
+        {"word": "clowns", "emoji": "🤡"},
+        {"word": "animals", "emoji": "🐘"},
+        {"word": "acrobats", "emoji": "🤸"},
+        {"word": "tent", "emoji": "⛺"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Magic show",
+      "steps": [
+        {"word": "magic", "emoji": "🎩"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "magician", "emoji": "🎩"},
+        {"word": "tricks", "emoji": "✨"},
+        {"word": "disappear", "emoji": "👻"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Comedy show",
+      "steps": [
+        {"word": "comedy", "emoji": "😄"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "funny", "emoji": "😂"},
+        {"word": "jokes", "emoji": "😄"},
+        {"word": "laugh", "emoji": "😂"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Concert",
+      "steps": [
+        {"word": "concert", "emoji": "🎤"},
+        {"word": "music", "emoji": "🎵"},
+        {"word": "band", "emoji": "🎸"},
+        {"word": "stage", "emoji": "🎭"},
+        {"word": "audience", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Theater play",
+      "steps": [
+        {"word": "theater", "emoji": "🎭"},
+        {"word": "play", "emoji": "🎭"},
+        {"word": "actors", "emoji": "🎭"},
+        {"word": "stage", "emoji": "🎭"},
+        {"word": "drama", "emoji": "🎭"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Movie premiere",
+      "steps": [
+        {"word": "movie", "emoji": "🎬"},
+        {"word": "premiere", "emoji": "🎬"},
+        {"word": "first", "emoji": "1️⃣"},
+        {"word": "showing", "emoji": "🫵"},
+        {"word": "special", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Award ceremony",
+      "steps": [
+        {"word": "award", "emoji": "🏆"},
+        {"word": "ceremony", "emoji": "🎪"},
+        {"word": "winners", "emoji": "🥇"},
+        {"word": "recognition", "emoji": "👏"},
+        {"word": "achievement", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Festival parade",
+      "steps": [
+        {"word": "festival", "emoji": "🎪"},
+        {"word": "parade", "emoji": "🎪"},
+        {"word": "floats", "emoji": "🎠"},
+        {"word": "march", "emoji": "🚶"},
+        {"word": "celebrate", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Community celebration",
+      "steps": [
+        {"word": "community", "emoji": "🏘️"},
+        {"word": "celebration", "emoji": "🎉"},
+        {"word": "neighbors", "emoji": "👥"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "unity", "emoji": "🤝"}
+      ]
+    }
+  ]
+}

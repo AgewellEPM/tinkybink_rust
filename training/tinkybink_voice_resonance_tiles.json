@@ -1,0 +1,1105 @@
+{
+  "category": "🎵 Voice & Resonance",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Vocal warm-up",
+      "steps": [
+        {"word": "warm", "emoji": "🔥"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "sounds", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Humming exercises",
+      "steps": [
+        {"word": "hum", "emoji": "🎵"},
+        {"word": "lips", "emoji": "👄"},
+        {"word": "closed", "emoji": "😐"},
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "vibration", "emoji": "📳"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lip trills",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "loose", "emoji": "🤗"},
+        {"word": "trill", "emoji": "🎵"},
+        {"word": "bubble", "emoji": "🫧"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Tongue trills",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "tip", "emoji": "☝️"},
+        {"word": "trill", "emoji": "🎵"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "vibrate", "emoji": "📳"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Sirens",
+      "steps": [
+        {"word": "siren", "emoji": "🚨"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "glide", "emoji": "⬇️"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "low", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Vocal fry",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "fry", "emoji": "🔥"},
+        {"word": "low", "emoji": "⬇️"},
+        {"word": "creaky", "emoji": "🪚"},
+        {"word": "voice", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Breathy voice",
+      "steps": [
+        {"word": "breathy", "emoji": "🫁"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "air", "emoji": "🌬️"},
+        {"word": "escape", "emoji": "📤"},
+        {"word": "soft", "emoji": "🧸"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Clear voice",
+      "steps": [
+        {"word": "clear", "emoji": "💡"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "strong", "emoji": "💪"},
+        {"word": "vibration", "emoji": "📳"},
+        {"word": "quality", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Pitch control",
+      "steps": [
+        {"word": "pitch", "emoji": "🎵"},
+        {"word": "control", "emoji": "🎮"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "low", "emoji": "⬇️"},
+        {"word": "adjust", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Volume control",
+      "steps": [
+        {"word": "volume", "emoji": "🔊"},
+        {"word": "control", "emoji": "🎮"},
+        {"word": "loud", "emoji": "📢"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "adjust", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Breath support",
+      "steps": [
+        {"word": "breath", "emoji": "🫁"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "diaphragm", "emoji": "🤰"},
+        {"word": "deep", "emoji": "⬇️"},
+        {"word": "steady", "emoji": "📐"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Diaphragmatic breathing",
+      "steps": [
+        {"word": "diaphragm", "emoji": "🤰"},
+        {"word": "breathe", "emoji": "🫁"},
+        {"word": "belly", "emoji": "🤰"},
+        {"word": "expand", "emoji": "📏"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Posture alignment",
+      "steps": [
+        {"word": "posture", "emoji": "🧍"},
+        {"word": "straight", "emoji": "📐"},
+        {"word": "tall", "emoji": "📏"},
+        {"word": "aligned", "emoji": "📐"},
+        {"word": "balanced", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Neck relaxation",
+      "steps": [
+        {"word": "neck", "emoji": "🦒"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "tension", "emoji": "😤"},
+        {"word": "release", "emoji": "🤗"},
+        {"word": "loose", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Shoulder relaxation",
+      "steps": [
+        {"word": "shoulders", "emoji": "🤷"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "drop", "emoji": "⬇️"},
+        {"word": "tension", "emoji": "😤"},
+        {"word": "loose", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Jaw relaxation",
+      "steps": [
+        {"word": "jaw", "emoji": "😬"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "drop", "emoji": "⬇️"},
+        {"word": "loose", "emoji": "🤗"},
+        {"word": "tension", "emoji": "😤"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Tongue relaxation",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "rest", "emoji": "💤"},
+        {"word": "floor", "emoji": "🟫"},
+        {"word": "mouth", "emoji": "👄"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Laryngeal massage",
+      "steps": [
+        {"word": "larynx", "emoji": "🗣️"},
+        {"word": "massage", "emoji": "🫴"},
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "circular", "emoji": "⭕"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Yawn-sigh",
+      "steps": [
+        {"word": "yawn", "emoji": "🥱"},
+        {"word": "open", "emoji": "😮"},
+        {"word": "wide", "emoji": "📏"},
+        {"word": "sigh", "emoji": "😔"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Chant therapy",
+      "steps": [
+        {"word": "chant", "emoji": "🎵"},
+        {"word": "monotone", "emoji": "📊"},
+        {"word": "rhythm", "emoji": "🥁"},
+        {"word": "resonance", "emoji": "🔊"},
+        {"word": "vibration", "emoji": "📳"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Resonant voice",
+      "steps": [
+        {"word": "resonant", "emoji": "🔊"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "vibration", "emoji": "📳"},
+        {"word": "face", "emoji": "😊"},
+        {"word": "chest", "emoji": "🫁"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Forward focus",
+      "steps": [
+        {"word": "forward", "emoji": "➡️"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "vibration", "emoji": "📳"},
+        {"word": "face", "emoji": "😊"},
+        {"word": "mask", "emoji": "🎭"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Chest resonance",
+      "steps": [
+        {"word": "chest", "emoji": "🫁"},
+        {"word": "resonance", "emoji": "🔊"},
+        {"word": "low", "emoji": "⬇️"},
+        {"word": "vibration", "emoji": "📳"},
+        {"word": "feel", "emoji": "🫳"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Head resonance",
+      "steps": [
+        {"word": "head", "emoji": "🗣️"},
+        {"word": "resonance", "emoji": "🔊"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "vibration", "emoji": "📳"},
+        {"word": "skull", "emoji": "💀"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Mixed resonance",
+      "steps": [
+        {"word": "mixed", "emoji": "🌀"},
+        {"word": "resonance", "emoji": "🔊"},
+        {"word": "blend", "emoji": "🌀"},
+        {"word": "chest", "emoji": "🫁"},
+        {"word": "head", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Nasal resonance",
+      "steps": [
+        {"word": "nasal", "emoji": "👃"},
+        {"word": "resonance", "emoji": "🔊"},
+        {"word": "nose", "emoji": "👃"},
+        {"word": "vibration", "emoji": "📳"},
+        {"word": "buzz", "emoji": "🐝"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Oral resonance",
+      "steps": [
+        {"word": "oral", "emoji": "👄"},
+        {"word": "resonance", "emoji": "🔊"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "space", "emoji": "🏠"},
+        {"word": "clear", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Hypernasality",
+      "steps": [
+        {"word": "too", "emoji": "➕"},
+        {"word": "much", "emoji": "📊"},
+        {"word": "nasal", "emoji": "👃"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "reduce", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Hyponasality",
+      "steps": [
+        {"word": "not", "emoji": "❌"},
+        {"word": "enough", "emoji": "📊"},
+        {"word": "nasal", "emoji": "👃"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "increase", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Vocal hygiene",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "hygiene", "emoji": "🧼"},
+        {"word": "care", "emoji": "🤗"},
+        {"word": "healthy", "emoji": "💪"},
+        {"word": "habits", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Hydration",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "drink", "emoji": "🥤"},
+        {"word": "hydrate", "emoji": "💧"},
+        {"word": "moist", "emoji": "💧"},
+        {"word": "vocal", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Avoid clearing",
+      "steps": [
+        {"word": "avoid", "emoji": "🚫"},
+        {"word": "clearing", "emoji": "🧹"},
+        {"word": "throat", "emoji": "🫱"},
+        {"word": "harsh", "emoji": "💥"},
+        {"word": "damage", "emoji": "💔"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Gentle cough",
+      "steps": [
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "cough", "emoji": "😷"},
+        {"word": "soft", "emoji": "🧸"},
+        {"word": "clear", "emoji": "💡"},
+        {"word": "throat", "emoji": "🫱"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Steam inhalation",
+      "steps": [
+        {"word": "steam", "emoji": "☁️"},
+        {"word": "inhale", "emoji": "🫁"},
+        {"word": "warm", "emoji": "☀️"},
+        {"word": "moist", "emoji": "💧"},
+        {"word": "soothe", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Vocal rest",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "rest", "emoji": "💤"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "heal", "emoji": "🩹"},
+        {"word": "recover", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Whisper avoidance",
+      "steps": [
+        {"word": "avoid", "emoji": "🚫"},
+        {"word": "whisper", "emoji": "🤫"},
+        {"word": "harsh", "emoji": "💥"},
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "cords", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Shouting avoidance",
+      "steps": [
+        {"word": "avoid", "emoji": "🚫"},
+        {"word": "shouting", "emoji": "📢"},
+        {"word": "yelling", "emoji": "😤"},
+        {"word": "damage", "emoji": "💔"},
+        {"word": "voice", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Caffeine reduction",
+      "steps": [
+        {"word": "reduce", "emoji": "⬇️"},
+        {"word": "caffeine", "emoji": "☕"},
+        {"word": "dehydrating", "emoji": "🏜️"},
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "cords", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Alcohol reduction",
+      "steps": [
+        {"word": "reduce", "emoji": "⬇️"},
+        {"word": "alcohol", "emoji": "🍺"},
+        {"word": "dehydrating", "emoji": "🏜️"},
+        {"word": "irritating", "emoji": "😣"},
+        {"word": "voice", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Smoking cessation",
+      "steps": [
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "smoking", "emoji": "🚬"},
+        {"word": "harmful", "emoji": "☠️"},
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "health", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "GERD management",
+      "steps": [
+        {"word": "acid", "emoji": "🧪"},
+        {"word": "reflux", "emoji": "⬆️"},
+        {"word": "manage", "emoji": "⚖️"},
+        {"word": "irritation", "emoji": "😣"},
+        {"word": "voice", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Sleep positioning",
+      "steps": [
+        {"word": "sleep", "emoji": "😴"},
+        {"word": "head", "emoji": "🗣️"},
+        {"word": "elevated", "emoji": "⬆️"},
+        {"word": "reduce", "emoji": "⬇️"},
+        {"word": "reflux", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Diet modification",
+      "steps": [
+        {"word": "diet", "emoji": "🥗"},
+        {"word": "modify", "emoji": "🔧"},
+        {"word": "avoid", "emoji": "🚫"},
+        {"word": "spicy", "emoji": "🌶️"},
+        {"word": "foods", "emoji": "🍎"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Environmental factors",
+      "steps": [
+        {"word": "environment", "emoji": "🌍"},
+        {"word": "air", "emoji": "🌬️"},
+        {"word": "quality", "emoji": "⭐"},
+        {"word": "humidity", "emoji": "💧"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Voice therapy",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "therapy", "emoji": "💬"},
+        {"word": "exercises", "emoji": "💪"},
+        {"word": "improve", "emoji": "⬆️"},
+        {"word": "quality", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Vocal nodules",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "nodules", "emoji": "⚫"},
+        {"word": "growths", "emoji": "🌱"},
+        {"word": "benign", "emoji": "✅"},
+        {"word": "treatment", "emoji": "💊"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Vocal polyps",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "polyps", "emoji": "🫧"},
+        {"word": "growths", "emoji": "🌱"},
+        {"word": "soft", "emoji": "🧸"},
+        {"word": "treatment", "emoji": "💊"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Vocal cysts",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "cysts", "emoji": "🫧"},
+        {"word": "fluid", "emoji": "💧"},
+        {"word": "filled", "emoji": "📊"},
+        {"word": "treatment", "emoji": "💊"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Vocal hemorrhage",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "hemorrhage", "emoji": "🩸"},
+        {"word": "bleeding", "emoji": "🩸"},
+        {"word": "rest", "emoji": "💤"},
+        {"word": "heal", "emoji": "🩹"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Laryngitis",
+      "steps": [
+        {"word": "laryngitis", "emoji": "🗣️"},
+        {"word": "inflammation", "emoji": "🔥"},
+        {"word": "swollen", "emoji": "📈"},
+        {"word": "hoarse", "emoji": "🐸"},
+        {"word": "rest", "emoji": "💤"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Vocal fold paralysis",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "fold", "emoji": "📄"},
+        {"word": "paralysis", "emoji": "🚫"},
+        {"word": "weak", "emoji": "😞"},
+        {"word": "therapy", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Spasmodic dysphonia",
+      "steps": [
+        {"word": "spasmodic", "emoji": "⚡"},
+        {"word": "dysphonia", "emoji": "🗣️"},
+        {"word": "spasms", "emoji": "⚡"},
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "muscles", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Muscle tension",
+      "steps": [
+        {"word": "muscle", "emoji": "💪"},
+        {"word": "tension", "emoji": "😤"},
+        {"word": "dysphonia", "emoji": "🗣️"},
+        {"word": "tight", "emoji": "💪"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Puberphonia",
+      "steps": [
+        {"word": "puberphonia", "emoji": "👦"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "pitch", "emoji": "🎵"},
+        {"word": "adolescent", "emoji": "👦"},
+        {"word": "lower", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Voice feminization",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "feminization", "emoji": "👩"},
+        {"word": "higher", "emoji": "⬆️"},
+        {"word": "pitch", "emoji": "🎵"},
+        {"word": "resonance", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Voice masculinization",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "masculinization", "emoji": "👨"},
+        {"word": "lower", "emoji": "⬇️"},
+        {"word": "pitch", "emoji": "🎵"},
+        {"word": "resonance", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Professional voice",
+      "steps": [
+        {"word": "professional", "emoji": "👔"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "singer", "emoji": "🎤"},
+        {"word": "teacher", "emoji": "👩‍🏫"},
+        {"word": "care", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Singing voice",
+      "steps": [
+        {"word": "singing", "emoji": "🎤"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "technique", "emoji": "🎯"},
+        {"word": "training", "emoji": "📚"},
+        {"word": "healthy", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Performance anxiety",
+      "steps": [
+        {"word": "performance", "emoji": "🎭"},
+        {"word": "anxiety", "emoji": "😰"},
+        {"word": "nervous", "emoji": "😰"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "calm", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Stage fright",
+      "steps": [
+        {"word": "stage", "emoji": "🎭"},
+        {"word": "fright", "emoji": "😨"},
+        {"word": "fear", "emoji": "😨"},
+        {"word": "overcome", "emoji": "💪"},
+        {"word": "confident", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Breathing for voice",
+      "steps": [
+        {"word": "breathing", "emoji": "🫁"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "control", "emoji": "🎮"},
+        {"word": "power", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Glottal attacks",
+      "steps": [
+        {"word": "glottal", "emoji": "🗣️"},
+        {"word": "attack", "emoji": "💥"},
+        {"word": "harsh", "emoji": "💥"},
+        {"word": "start", "emoji": "🏁"},
+        {"word": "gentle", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Vocal registers",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "registers", "emoji": "📊"},
+        {"word": "chest", "emoji": "🫁"},
+        {"word": "head", "emoji": "🗣️"},
+        {"word": "mixed", "emoji": "🌀"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Falsetto",
+      "steps": [
+        {"word": "falsetto", "emoji": "🎵"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "light", "emoji": "🪶"},
+        {"word": "register", "emoji": "📊"},
+        {"word": "practice", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Modal voice",
+      "steps": [
+        {"word": "modal", "emoji": "📊"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "normal", "emoji": "😊"},
+        {"word": "speaking", "emoji": "🗣️"},
+        {"word": "register", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Vocal breaks",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "breaks", "emoji": "💥"},
+        {"word": "cracks", "emoji": "💥"},
+        {"word": "register", "emoji": "📊"},
+        {"word": "smooth", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Passaggio",
+      "steps": [
+        {"word": "passaggio", "emoji": "🎵"},
+        {"word": "bridge", "emoji": "🌉"},
+        {"word": "registers", "emoji": "📊"},
+        {"word": "smooth", "emoji": "✨"},
+        {"word": "transition", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Vibrato",
+      "steps": [
+        {"word": "vibrato", "emoji": "🌀"},
+        {"word": "oscillation", "emoji": "🌀"},
+        {"word": "pitch", "emoji": "🎵"},
+        {"word": "natural", "emoji": "🌿"},
+        {"word": "beautiful", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Tremor control",
+      "steps": [
+        {"word": "tremor", "emoji": "📳"},
+        {"word": "control", "emoji": "🎮"},
+        {"word": "shaky", "emoji": "📳"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "steady", "emoji": "📐"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Vocal endurance",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "endurance", "emoji": "💪"},
+        {"word": "stamina", "emoji": "💪"},
+        {"word": "long", "emoji": "📏"},
+        {"word": "speaking", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Vocal fatigue",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "fatigue", "emoji": "😴"},
+        {"word": "tired", "emoji": "😴"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "rest", "emoji": "💤"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Voice loading",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "loading", "emoji": "📦"},
+        {"word": "challenge", "emoji": "💪"},
+        {"word": "strengthen", "emoji": "💪"},
+        {"word": "gradually", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Laryngeal manipulation",
+      "steps": [
+        {"word": "laryngeal", "emoji": "🗣️"},
+        {"word": "manipulation", "emoji": "🫴"},
+        {"word": "massage", "emoji": "🫴"},
+        {"word": "position", "emoji": "📍"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "SOVT exercises",
+      "steps": [
+        {"word": "SOVT", "emoji": "🎵"},
+        {"word": "semi", "emoji": "📊"},
+        {"word": "occluded", "emoji": "🚫"},
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "tract", "emoji": "🛤️"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Straw phonation",
+      "steps": [
+        {"word": "straw", "emoji": "🥤"},
+        {"word": "phonation", "emoji": "🗣️"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "through", "emoji": "➡️"},
+        {"word": "gentle", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Water bubbles",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "bubbles", "emoji": "🫧"},
+        {"word": "straw", "emoji": "🥤"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "through", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Kazoo exercises",
+      "steps": [
+        {"word": "kazoo", "emoji": "🎺"},
+        {"word": "buzz", "emoji": "🐝"},
+        {"word": "lips", "emoji": "👄"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "resonance", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Cup bubbles",
+      "steps": [
+        {"word": "cup", "emoji": "🥤"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "bubbles", "emoji": "🫧"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "gentle", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "B9 exercise",
+      "steps": [
+        {"word": "B9", "emoji": "🎵"},
+        {"word": "lip", "emoji": "👄"},
+        {"word": "trill", "emoji": "🎵"},
+        {"word": "pitch", "emoji": "🎵"},
+        {"word": "glide", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Pitch glides",
+      "steps": [
+        {"word": "pitch", "emoji": "🎵"},
+        {"word": "glides", "emoji": "⬇️"},
+        {"word": "smooth", "emoji": "✨"},
+        {"word": "transition", "emoji": "➡️"},
+        {"word": "range", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Vocal range",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "range", "emoji": "📊"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "low", "emoji": "⬇️"},
+        {"word": "expand", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Pitch accuracy",
+      "steps": [
+        {"word": "pitch", "emoji": "🎵"},
+        {"word": "accuracy", "emoji": "🎯"},
+        {"word": "correct", "emoji": "✅"},
+        {"word": "match", "emoji": "🔥"},
+        {"word": "target", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Intonation patterns",
+      "steps": [
+        {"word": "intonation", "emoji": "🎵"},
+        {"word": "patterns", "emoji": "🌀"},
+        {"word": "melody", "emoji": "🎵"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "expressive", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Prosody training",
+      "steps": [
+        {"word": "prosody", "emoji": "🎵"},
+        {"word": "rhythm", "emoji": "🥁"},
+        {"word": "stress", "emoji": "⭐"},
+        {"word": "intonation", "emoji": "🎵"},
+        {"word": "natural", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Voice monitoring",
+      "steps": [
+        {"word": "monitor", "emoji": "📺"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "self", "emoji": "🙋"},
+        {"word": "aware", "emoji": "👁️"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Biofeedback",
+      "steps": [
+        {"word": "biofeedback", "emoji": "📊"},
+        {"word": "visual", "emoji": "👁️"},
+        {"word": "feedback", "emoji": "💬"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "learn", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Voice apps",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "apps", "emoji": "📱"},
+        {"word": "technology", "emoji": "💻"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "feedback", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Recording practice",
+      "steps": [
+        {"word": "record", "emoji": "🔴"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "analyze", "emoji": "🔍"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Progress tracking",
+      "steps": [
+        {"word": "track", "emoji": "📊"},
+        {"word": "progress", "emoji": "📈"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "measure", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Voice diary",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "diary", "emoji": "📔"},
+        {"word": "log", "emoji": "📋"},
+        {"word": "daily", "emoji": "📅"},
+        {"word": "symptoms", "emoji": "🤒"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Laryngoscopy",
+      "steps": [
+        {"word": "laryngoscopy", "emoji": "🔍"},
+        {"word": "examine", "emoji": "👁️"},
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "cords", "emoji": "🎵"},
+        {"word": "doctor", "emoji": "👩‍⚕️"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Stroboscopy",
+      "steps": [
+        {"word": "stroboscopy", "emoji": "💡"},
+        {"word": "flashing", "emoji": "💡"},
+        {"word": "light", "emoji": "💡"},
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "vibration", "emoji": "📳"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Voice analysis",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "analysis", "emoji": "🔍"},
+        {"word": "computer", "emoji": "💻"},
+        {"word": "measure", "emoji": "📏"},
+        {"word": "objective", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Acoustic measures",
+      "steps": [
+        {"word": "acoustic", "emoji": "🔊"},
+        {"word": "measures", "emoji": "📏"},
+        {"word": "pitch", "emoji": "🎵"},
+        {"word": "loudness", "emoji": "🔊"},
+        {"word": "quality", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Perceptual rating",
+      "steps": [
+        {"word": "perceptual", "emoji": "👂"},
+        {"word": "rating", "emoji": "📊"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "judge", "emoji": "⚖️"},
+        {"word": "quality", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Voice handicap",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "handicap", "emoji": "♿"},
+        {"word": "index", "emoji": "📊"},
+        {"word": "impact", "emoji": "💥"},
+        {"word": "life", "emoji": "💖"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Quality of life",
+      "steps": [
+        {"word": "quality", "emoji": "⭐"},
+        {"word": "life", "emoji": "💖"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "impact", "emoji": "💥"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Communication effectiveness",
+      "steps": [
+        {"word": "communication", "emoji": "💬"},
+        {"word": "effective", "emoji": "✅"},
+        {"word": "clear", "emoji": "💡"},
+        {"word": "understood", "emoji": "🧠"},
+        {"word": "confident", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Voice confidence",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "confidence", "emoji": "💪"},
+        {"word": "strong", "emoji": "💪"},
+        {"word": "self", "emoji": "🙋"},
+        {"word": "assured", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Vocal success",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "success", "emoji": "🏆"},
+        {"word": "healthy", "emoji": "💪"},
+        {"word": "strong", "emoji": "💪"},
+        {"word": "voice", "emoji": "🗣️"}
+      ]
+    }
+  ]
+}

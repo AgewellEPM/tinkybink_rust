@@ -1,0 +1,1108 @@
+{
+  "category": {
+    "emoji": "💰",
+    "name": "Money & Shopping"
+  },
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Counting pennies",
+      "steps": [
+        {"word": "penny", "emoji": "🪙"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "cent", "emoji": "💰"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "total", "emoji": "➕"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Counting nickels",
+      "steps": [
+        {"word": "nickel", "emoji": "🪙"},
+        {"word": "five", "emoji": "5️⃣"},
+        {"word": "cents", "emoji": "💰"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "total", "emoji": "➕"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Counting dimes",
+      "steps": [
+        {"word": "dime", "emoji": "🪙"},
+        {"word": "ten", "emoji": "🔟"},
+        {"word": "cents", "emoji": "💰"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "total", "emoji": "➕"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Counting quarters",
+      "steps": [
+        {"word": "quarter", "emoji": "🪙"},
+        {"word": "twenty", "emoji": "2️⃣"},
+        {"word": "five", "emoji": "5️⃣"},
+        {"word": "cents", "emoji": "💰"},
+        {"word": "total", "emoji": "➕"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Dollar bills",
+      "steps": [
+        {"word": "dollar", "emoji": "💵"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "bill", "emoji": "💸"},
+        {"word": "green", "emoji": "🟢"},
+        {"word": "money", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Making change",
+      "steps": [
+        {"word": "price", "emoji": "🏷️"},
+        {"word": "pay", "emoji": "💵"},
+        {"word": "subtract", "emoji": "➖"},
+        {"word": "change", "emoji": "🪙"},
+        {"word": "back", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Shopping list",
+      "steps": [
+        {"word": "write", "emoji": "✍️"},
+        {"word": "items", "emoji": "📋"},
+        {"word": "need", "emoji": "📝"},
+        {"word": "remember", "emoji": "🧠"},
+        {"word": "buy", "emoji": "🛒"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Grocery shopping",
+      "steps": [
+        {"word": "cart", "emoji": "🛒"},
+        {"word": "aisles", "emoji": "🏪"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "checkout", "emoji": "💳"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Using wallet",
+      "steps": [
+        {"word": "open", "emoji": "📂"},
+        {"word": "wallet", "emoji": "👛"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "money", "emoji": "💵"},
+        {"word": "pay", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Price comparison",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "prices", "emoji": "🏷️"},
+        {"word": "compare", "emoji": "↔️"},
+        {"word": "cheaper", "emoji": "⬇️"},
+        {"word": "save", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Using coupons",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "coupon", "emoji": "🎟️"},
+        {"word": "save", "emoji": "💰"},
+        {"word": "give", "emoji": "🤲"},
+        {"word": "cashier", "emoji": "👤"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Checkout line",
+      "steps": [
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "line", "emoji": "👥"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "pay", "emoji": "💳"},
+        {"word": "receipt", "emoji": "🧾"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Using ATM",
+      "steps": [
+        {"word": "card", "emoji": "💳"},
+        {"word": "insert", "emoji": "➡️"},
+        {"word": "PIN", "emoji": "🔢"},
+        {"word": "cash", "emoji": "💵"},
+        {"word": "take", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Saving money",
+      "steps": [
+        {"word": "piggy", "emoji": "🐷"},
+        {"word": "bank", "emoji": "🏦"},
+        {"word": "coins", "emoji": "🪙"},
+        {"word": "save", "emoji": "💰"},
+        {"word": "grow", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bank account",
+      "steps": [
+        {"word": "bank", "emoji": "🏦"},
+        {"word": "deposit", "emoji": "📥"},
+        {"word": "money", "emoji": "💵"},
+        {"word": "safe", "emoji": "🔒"},
+        {"word": "save", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Debit card use",
+      "steps": [
+        {"word": "swipe", "emoji": "💳"},
+        {"word": "card", "emoji": "💳"},
+        {"word": "PIN", "emoji": "🔢"},
+        {"word": "enter", "emoji": "⌨️"},
+        {"word": "approved", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Credit card basics",
+      "steps": [
+        {"word": "borrow", "emoji": "💳"},
+        {"word": "money", "emoji": "💰"},
+        {"word": "pay", "emoji": "💵"},
+        {"word": "back", "emoji": "🔄"},
+        {"word": "later", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Online shopping",
+      "steps": [
+        {"word": "computer", "emoji": "💻"},
+        {"word": "browse", "emoji": "🔍"},
+        {"word": "cart", "emoji": "🛒"},
+        {"word": "checkout", "emoji": "💳"},
+        {"word": "deliver", "emoji": "📦"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Sales tax",
+      "steps": [
+        {"word": "price", "emoji": "🏷️"},
+        {"word": "plus", "emoji": "➕"},
+        {"word": "tax", "emoji": "📊"},
+        {"word": "total", "emoji": "💰"},
+        {"word": "pay", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Budget planning",
+      "steps": [
+        {"word": "income", "emoji": "💵"},
+        {"word": "expenses", "emoji": "📊"},
+        {"word": "plan", "emoji": "📋"},
+        {"word": "spend", "emoji": "💸"},
+        {"word": "save", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Earning money",
+      "steps": [
+        {"word": "work", "emoji": "💼"},
+        {"word": "job", "emoji": "👷"},
+        {"word": "earn", "emoji": "💵"},
+        {"word": "paycheck", "emoji": "💰"},
+        {"word": "deposit", "emoji": "🏦"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Chores for money",
+      "steps": [
+        {"word": "chores", "emoji": "🧹"},
+        {"word": "complete", "emoji": "✅"},
+        {"word": "earn", "emoji": "💵"},
+        {"word": "allowance", "emoji": "💰"},
+        {"word": "save", "emoji": "🐷"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Shopping cart",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "cart", "emoji": "🛒"},
+        {"word": "push", "emoji": "➡️"},
+        {"word": "fill", "emoji": "📦"},
+        {"word": "checkout", "emoji": "💳"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Store departments",
+      "steps": [
+        {"word": "produce", "emoji": "🍎"},
+        {"word": "dairy", "emoji": "🥛"},
+        {"word": "meat", "emoji": "🥩"},
+        {"word": "bakery", "emoji": "🍞"},
+        {"word": "frozen", "emoji": "🧊"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Reading prices",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "tag", "emoji": "🏷️"},
+        {"word": "dollar", "emoji": "💵"},
+        {"word": "cents", "emoji": "🪙"},
+        {"word": "cost", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Sale shopping",
+      "steps": [
+        {"word": "sale", "emoji": "🏷️"},
+        {"word": "sign", "emoji": "📋"},
+        {"word": "discount", "emoji": "⬇️"},
+        {"word": "save", "emoji": "💰"},
+        {"word": "buy", "emoji": "🛒"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Returning items",
+      "steps": [
+        {"word": "receipt", "emoji": "🧾"},
+        {"word": "item", "emoji": "📦"},
+        {"word": "return", "emoji": "🔄"},
+        {"word": "counter", "emoji": "🏪"},
+        {"word": "refund", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Gift shopping",
+      "steps": [
+        {"word": "think", "emoji": "🤔"},
+        {"word": "person", "emoji": "👤"},
+        {"word": "like", "emoji": "❤️"},
+        {"word": "buy", "emoji": "🛒"},
+        {"word": "wrap", "emoji": "🎁"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Window shopping",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "windows", "emoji": "🪟"},
+        {"word": "browse", "emoji": "🔍"},
+        {"word": "no", "emoji": "🚫"},
+        {"word": "buy", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Mall shopping",
+      "steps": [
+        {"word": "mall", "emoji": "🏪"},
+        {"word": "stores", "emoji": "🏬"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "shop", "emoji": "🛍️"},
+        {"word": "fun", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Farmers market",
+      "steps": [
+        {"word": "fresh", "emoji": "🥬"},
+        {"word": "local", "emoji": "📍"},
+        {"word": "vendors", "emoji": "👥"},
+        {"word": "buy", "emoji": "💰"},
+        {"word": "produce", "emoji": "🥕"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Yard sale",
+      "steps": [
+        {"word": "used", "emoji": "♻️"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "cheap", "emoji": "💰"},
+        {"word": "bargain", "emoji": "🤝"},
+        {"word": "buy", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Thrift shopping",
+      "steps": [
+        {"word": "secondhand", "emoji": "♻️"},
+        {"word": "store", "emoji": "🏪"},
+        {"word": "treasures", "emoji": "💎"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "save", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Self checkout",
+      "steps": [
+        {"word": "scan", "emoji": "📷"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "bag", "emoji": "🛍️"},
+        {"word": "pay", "emoji": "💳"},
+        {"word": "receipt", "emoji": "🧾"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Money goals",
+      "steps": [
+        {"word": "want", "emoji": "💭"},
+        {"word": "item", "emoji": "🎯"},
+        {"word": "save", "emoji": "💰"},
+        {"word": "money", "emoji": "💵"},
+        {"word": "buy", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Counting bills",
+      "steps": [
+        {"word": "ones", "emoji": "1️⃣"},
+        {"word": "fives", "emoji": "5️⃣"},
+        {"word": "tens", "emoji": "🔟"},
+        {"word": "twenties", "emoji": "💵"},
+        {"word": "total", "emoji": "➕"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Cash register",
+      "steps": [
+        {"word": "items", "emoji": "📦"},
+        {"word": "scan", "emoji": "📷"},
+        {"word": "total", "emoji": "💰"},
+        {"word": "pay", "emoji": "💵"},
+        {"word": "change", "emoji": "🪙"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Shopping bag",
+      "steps": [
+        {"word": "reusable", "emoji": "♻️"},
+        {"word": "bag", "emoji": "🛍️"},
+        {"word": "fill", "emoji": "📦"},
+        {"word": "carry", "emoji": "🤲"},
+        {"word": "home", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Price matching",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "lower", "emoji": "⬇️"},
+        {"word": "price", "emoji": "🏷️"},
+        {"word": "show", "emoji": "📱"},
+        {"word": "match", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Layaway plan",
+      "steps": [
+        {"word": "choose", "emoji": "👆"},
+        {"word": "item", "emoji": "📦"},
+        {"word": "pay", "emoji": "💵"},
+        {"word": "slowly", "emoji": "🐌"},
+        {"word": "get", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Gift card use",
+      "steps": [
+        {"word": "card", "emoji": "💳"},
+        {"word": "balance", "emoji": "💰"},
+        {"word": "shop", "emoji": "🛒"},
+        {"word": "swipe", "emoji": "💳"},
+        {"word": "done", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Store loyalty",
+      "steps": [
+        {"word": "card", "emoji": "💳"},
+        {"word": "scan", "emoji": "📷"},
+        {"word": "points", "emoji": "🔢"},
+        {"word": "earn", "emoji": "⭐"},
+        {"word": "rewards", "emoji": "🎁"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Clearance shopping",
+      "steps": [
+        {"word": "clearance", "emoji": "🏷️"},
+        {"word": "rack", "emoji": "🛒"},
+        {"word": "big", "emoji": "📏"},
+        {"word": "discount", "emoji": "⬇️"},
+        {"word": "deal", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Holiday shopping",
+      "steps": [
+        {"word": "list", "emoji": "📋"},
+        {"word": "gifts", "emoji": "🎁"},
+        {"word": "budget", "emoji": "💰"},
+        {"word": "shop", "emoji": "🛒"},
+        {"word": "wrap", "emoji": "🎀"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Back to school",
+      "steps": [
+        {"word": "supplies", "emoji": "✏️"},
+        {"word": "list", "emoji": "📋"},
+        {"word": "shop", "emoji": "🛒"},
+        {"word": "backpack", "emoji": "🎒"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Grocery budget",
+      "steps": [
+        {"word": "weekly", "emoji": "📅"},
+        {"word": "amount", "emoji": "💰"},
+        {"word": "plan", "emoji": "📋"},
+        {"word": "meals", "emoji": "🍽️"},
+        {"word": "save", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Comparison shop",
+      "steps": [
+        {"word": "store", "emoji": "🏪"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "store", "emoji": "🏬"},
+        {"word": "two", "emoji": "2️⃣"},
+        {"word": "best", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Unit price",
+      "steps": [
+        {"word": "price", "emoji": "💰"},
+        {"word": "per", "emoji": "➗"},
+        {"word": "ounce", "emoji": "⚖️"},
+        {"word": "compare", "emoji": "↔️"},
+        {"word": "value", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Bulk buying",
+      "steps": [
+        {"word": "big", "emoji": "📏"},
+        {"word": "package", "emoji": "📦"},
+        {"word": "cheaper", "emoji": "⬇️"},
+        {"word": "store", "emoji": "🏠"},
+        {"word": "save", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Shopping app",
+      "steps": [
+        {"word": "phone", "emoji": "📱"},
+        {"word": "app", "emoji": "📲"},
+        {"word": "browse", "emoji": "🔍"},
+        {"word": "order", "emoji": "🛒"},
+        {"word": "pickup", "emoji": "🚗"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Money math",
+      "steps": [
+        {"word": "add", "emoji": "➕"},
+        {"word": "subtract", "emoji": "➖"},
+        {"word": "multiply", "emoji": "✖️"},
+        {"word": "divide", "emoji": "➗"},
+        {"word": "total", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Tip calculation",
+      "steps": [
+        {"word": "bill", "emoji": "🧾"},
+        {"word": "amount", "emoji": "💰"},
+        {"word": "percent", "emoji": "💯"},
+        {"word": "tip", "emoji": "💵"},
+        {"word": "add", "emoji": "➕"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Splitting bill",
+      "steps": [
+        {"word": "total", "emoji": "💰"},
+        {"word": "divide", "emoji": "➗"},
+        {"word": "people", "emoji": "👥"},
+        {"word": "each", "emoji": "👤"},
+        {"word": "pays", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Vending machine",
+      "steps": [
+        {"word": "insert", "emoji": "💵"},
+        {"word": "money", "emoji": "💰"},
+        {"word": "press", "emoji": "👆"},
+        {"word": "button", "emoji": "🔘"},
+        {"word": "snack", "emoji": "🍫"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Parking meter",
+      "steps": [
+        {"word": "coins", "emoji": "🪙"},
+        {"word": "insert", "emoji": "➡️"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "display", "emoji": "🔢"},
+        {"word": "park", "emoji": "🚗"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Drive thru",
+      "steps": [
+        {"word": "menu", "emoji": "📋"},
+        {"word": "order", "emoji": "🗣️"},
+        {"word": "window", "emoji": "🪟"},
+        {"word": "pay", "emoji": "💵"},
+        {"word": "food", "emoji": "🍔"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Delivery fee",
+      "steps": [
+        {"word": "order", "emoji": "📱"},
+        {"word": "food", "emoji": "🍕"},
+        {"word": "fee", "emoji": "💰"},
+        {"word": "tip", "emoji": "💵"},
+        {"word": "pay", "emoji": "💳"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Subscription service",
+      "steps": [
+        {"word": "monthly", "emoji": "📅"},
+        {"word": "payment", "emoji": "💳"},
+        {"word": "automatic", "emoji": "🔄"},
+        {"word": "service", "emoji": "📦"},
+        {"word": "cancel", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Bill payment",
+      "steps": [
+        {"word": "bill", "emoji": "📄"},
+        {"word": "due", "emoji": "📅"},
+        {"word": "date", "emoji": "⏰"},
+        {"word": "pay", "emoji": "💵"},
+        {"word": "receipt", "emoji": "🧾"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Money transfer",
+      "steps": [
+        {"word": "send", "emoji": "📤"},
+        {"word": "money", "emoji": "💵"},
+        {"word": "person", "emoji": "👤"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "done", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Check writing",
+      "steps": [
+        {"word": "date", "emoji": "📅"},
+        {"word": "payee", "emoji": "👤"},
+        {"word": "amount", "emoji": "💰"},
+        {"word": "sign", "emoji": "✍️"},
+        {"word": "give", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Money order",
+      "steps": [
+        {"word": "buy", "emoji": "💵"},
+        {"word": "order", "emoji": "📄"},
+        {"word": "fill", "emoji": "✍️"},
+        {"word": "out", "emoji": "📝"},
+        {"word": "mail", "emoji": "✉️"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Cashback option",
+      "steps": [
+        {"word": "debit", "emoji": "💳"},
+        {"word": "card", "emoji": "💳"},
+        {"word": "cashback", "emoji": "💵"},
+        {"word": "yes", "emoji": "✅"},
+        {"word": "amount", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Price scanning",
+      "steps": [
+        {"word": "barcode", "emoji": "📷"},
+        {"word": "scanner", "emoji": "🔍"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "price", "emoji": "🏷️"},
+        {"word": "display", "emoji": "💻"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Rain check",
+      "steps": [
+        {"word": "out", "emoji": "❌"},
+        {"word": "stock", "emoji": "📦"},
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "check", "emoji": "🎟️"},
+        {"word": "later", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Store credit",
+      "steps": [
+        {"word": "return", "emoji": "🔄"},
+        {"word": "no", "emoji": "🚫"},
+        {"word": "receipt", "emoji": "🧾"},
+        {"word": "store", "emoji": "🏪"},
+        {"word": "credit", "emoji": "💳"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Express lane",
+      "steps": [
+        {"word": "ten", "emoji": "🔟"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "less", "emoji": "⬇️"},
+        {"word": "quick", "emoji": "⚡"},
+        {"word": "checkout", "emoji": "💳"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "BOGO deal",
+      "steps": [
+        {"word": "buy", "emoji": "💰"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "get", "emoji": "🎁"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "free", "emoji": "🆓"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Rebate form",
+      "steps": [
+        {"word": "buy", "emoji": "💰"},
+        {"word": "item", "emoji": "📦"},
+        {"word": "mail", "emoji": "✉️"},
+        {"word": "form", "emoji": "📄"},
+        {"word": "money", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Store hours",
+      "steps": [
+        {"word": "check", "emoji": "👀"},
+        {"word": "hours", "emoji": "⏰"},
+        {"word": "open", "emoji": "🔓"},
+        {"word": "close", "emoji": "🔒"},
+        {"word": "time", "emoji": "🕐"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Customer service",
+      "steps": [
+        {"word": "problem", "emoji": "❓"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "desk", "emoji": "🏪"},
+        {"word": "ask", "emoji": "🗣️"},
+        {"word": "help", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Product review",
+      "steps": [
+        {"word": "read", "emoji": "📖"},
+        {"word": "reviews", "emoji": "⭐"},
+        {"word": "good", "emoji": "👍"},
+        {"word": "bad", "emoji": "👎"},
+        {"word": "decide", "emoji": "🤔"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Warranty check",
+      "steps": [
+        {"word": "buy", "emoji": "💰"},
+        {"word": "warranty", "emoji": "📄"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "broken", "emoji": "💔"},
+        {"word": "replace", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Store pickup",
+      "steps": [
+        {"word": "order", "emoji": "📱"},
+        {"word": "online", "emoji": "💻"},
+        {"word": "ready", "emoji": "✅"},
+        {"word": "pickup", "emoji": "🤲"},
+        {"word": "counter", "emoji": "🏪"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Membership card",
+      "steps": [
+        {"word": "join", "emoji": "🤝"},
+        {"word": "club", "emoji": "👥"},
+        {"word": "card", "emoji": "💳"},
+        {"word": "discounts", "emoji": "⬇️"},
+        {"word": "save", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Digital wallet",
+      "steps": [
+        {"word": "phone", "emoji": "📱"},
+        {"word": "tap", "emoji": "👆"},
+        {"word": "pay", "emoji": "💳"},
+        {"word": "quick", "emoji": "⚡"},
+        {"word": "easy", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Contactless pay",
+      "steps": [
+        {"word": "card", "emoji": "💳"},
+        {"word": "tap", "emoji": "👆"},
+        {"word": "reader", "emoji": "📡"},
+        {"word": "beep", "emoji": "🔊"},
+        {"word": "done", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "QR code pay",
+      "steps": [
+        {"word": "scan", "emoji": "📱"},
+        {"word": "code", "emoji": "⬛"},
+        {"word": "app", "emoji": "📲"},
+        {"word": "pay", "emoji": "💰"},
+        {"word": "confirm", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Crypto basics",
+      "steps": [
+        {"word": "digital", "emoji": "💻"},
+        {"word": "money", "emoji": "💰"},
+        {"word": "bitcoin", "emoji": "₿"},
+        {"word": "wallet", "emoji": "👛"},
+        {"word": "trade", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Stock market",
+      "steps": [
+        {"word": "buy", "emoji": "💰"},
+        {"word": "shares", "emoji": "📊"},
+        {"word": "company", "emoji": "🏢"},
+        {"word": "grow", "emoji": "📈"},
+        {"word": "sell", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Interest earning",
+      "steps": [
+        {"word": "save", "emoji": "💰"},
+        {"word": "bank", "emoji": "🏦"},
+        {"word": "interest", "emoji": "📈"},
+        {"word": "grow", "emoji": "🌱"},
+        {"word": "more", "emoji": "➕"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Loan basics",
+      "steps": [
+        {"word": "borrow", "emoji": "🤲"},
+        {"word": "money", "emoji": "💰"},
+        {"word": "pay", "emoji": "💵"},
+        {"word": "back", "emoji": "🔄"},
+        {"word": "interest", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Mortgage concept",
+      "steps": [
+        {"word": "house", "emoji": "🏠"},
+        {"word": "loan", "emoji": "💰"},
+        {"word": "monthly", "emoji": "📅"},
+        {"word": "payment", "emoji": "💵"},
+        {"word": "own", "emoji": "🔑"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Insurance basics",
+      "steps": [
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "pay", "emoji": "💰"},
+        {"word": "monthly", "emoji": "📅"},
+        {"word": "covered", "emoji": "☂️"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Emergency fund",
+      "steps": [
+        {"word": "save", "emoji": "💰"},
+        {"word": "money", "emoji": "💵"},
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "ready", "emoji": "✅"},
+        {"word": "safe", "emoji": "🔒"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Retirement saving",
+      "steps": [
+        {"word": "work", "emoji": "💼"},
+        {"word": "save", "emoji": "💰"},
+        {"word": "retire", "emoji": "🏖️"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "enjoy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "College fund",
+      "steps": [
+        {"word": "save", "emoji": "💰"},
+        {"word": "early", "emoji": "⏰"},
+        {"word": "college", "emoji": "🎓"},
+        {"word": "education", "emoji": "📚"},
+        {"word": "future", "emoji": "🔮"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Charity giving",
+      "steps": [
+        {"word": "share", "emoji": "🤝"},
+        {"word": "money", "emoji": "💰"},
+        {"word": "help", "emoji": "❤️"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "good", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Fundraising",
+      "steps": [
+        {"word": "raise", "emoji": "⬆️"},
+        {"word": "money", "emoji": "💰"},
+        {"word": "cause", "emoji": "🎯"},
+        {"word": "donate", "emoji": "🎁"},
+        {"word": "help", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Auction bidding",
+      "steps": [
+        {"word": "item", "emoji": "📦"},
+        {"word": "bid", "emoji": "🙋"},
+        {"word": "higher", "emoji": "⬆️"},
+        {"word": "win", "emoji": "🏆"},
+        {"word": "pay", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Flea market",
+      "steps": [
+        {"word": "tables", "emoji": "🏪"},
+        {"word": "browse", "emoji": "🔍"},
+        {"word": "negotiate", "emoji": "🤝"},
+        {"word": "price", "emoji": "💰"},
+        {"word": "deal", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Consignment shop",
+      "steps": [
+        {"word": "sell", "emoji": "💰"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "store", "emoji": "🏪"},
+        {"word": "splits", "emoji": "✂️"},
+        {"word": "profit", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Pawn shop",
+      "steps": [
+        {"word": "item", "emoji": "💍"},
+        {"word": "sell", "emoji": "💰"},
+        {"word": "loan", "emoji": "💵"},
+        {"word": "buy", "emoji": "🔄"},
+        {"word": "back", "emoji": "🔙"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Currency exchange",
+      "steps": [
+        {"word": "dollars", "emoji": "💵"},
+        {"word": "exchange", "emoji": "🔄"},
+        {"word": "euros", "emoji": "💶"},
+        {"word": "rate", "emoji": "📊"},
+        {"word": "travel", "emoji": "✈️"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Price negotiation",
+      "steps": [
+        {"word": "ask", "emoji": "🗣️"},
+        {"word": "lower", "emoji": "⬇️"},
+        {"word": "price", "emoji": "💰"},
+        {"word": "offer", "emoji": "🤝"},
+        {"word": "deal", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Budget tracking",
+      "steps": [
+        {"word": "write", "emoji": "✍️"},
+        {"word": "spending", "emoji": "💸"},
+        {"word": "track", "emoji": "📊"},
+        {"word": "save", "emoji": "💰"},
+        {"word": "goals", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Financial planning",
+      "steps": [
+        {"word": "future", "emoji": "🔮"},
+        {"word": "money", "emoji": "💰"},
+        {"word": "plan", "emoji": "📋"},
+        {"word": "save", "emoji": "🏦"},
+        {"word": "secure", "emoji": "🔒"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Money counting",
+      "steps": [
+        {"word": "stack", "emoji": "📚"},
+        {"word": "bills", "emoji": "💵"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "coins", "emoji": "🪙"},
+        {"word": "total", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Cash handling",
+      "steps": [
+        {"word": "receive", "emoji": "🤲"},
+        {"word": "money", "emoji": "💵"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "safe", "emoji": "🔒"},
+        {"word": "secure", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Smart shopping",
+      "steps": [
+        {"word": "list", "emoji": "📋"},
+        {"word": "budget", "emoji": "💰"},
+        {"word": "compare", "emoji": "↔️"},
+        {"word": "save", "emoji": "💵"},
+        {"word": "happy", "emoji": "😊"}
+      ]
+    }
+  ]
+}

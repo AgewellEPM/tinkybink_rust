@@ -1,0 +1,1105 @@
+{
+  "category": "🎵 Music & Instruments",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Play piano",
+      "steps": [
+        {"word": "sit", "emoji": "💺"},
+        {"word": "bench", "emoji": "🎹"},
+        {"word": "press", "emoji": "👆"},
+        {"word": "keys", "emoji": "🎵"},
+        {"word": "music", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Strum guitar",
+      "steps": [
+        {"word": "hold", "emoji": "🎸"},
+        {"word": "guitar", "emoji": "🤏"},
+        {"word": "fingers", "emoji": "🧵"},
+        {"word": "strings", "emoji": "🎵"},
+        {"word": "strum", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Beat drums",
+      "steps": [
+        {"word": "hold", "emoji": "🥁"},
+        {"word": "drumsticks", "emoji": "⬇️"},
+        {"word": "hit", "emoji": "🥁"},
+        {"word": "drum", "emoji": "🎵"},
+        {"word": "rhythm", "emoji": "🥁"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Blow trumpet",
+      "steps": [
+        {"word": "hold", "emoji": "🎺"},
+        {"word": "trumpet", "emoji": "👄"},
+        {"word": "lips", "emoji": "💨"},
+        {"word": "blow", "emoji": "🎵"},
+        {"word": "sound", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Shake maracas",
+      "steps": [
+        {"word": "hold", "emoji": "🥇"},
+        {"word": "maracas", "emoji": "🤲"},
+        {"word": "both", "emoji": "🔄"},
+        {"word": "hands", "emoji": "🎵"},
+        {"word": "shake", "emoji": "🌀"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Ring bells",
+      "steps": [
+        {"word": "pick", "emoji": "🔔"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "bell", "emoji": "🔄"},
+        {"word": "shake", "emoji": "🎵"},
+        {"word": "ring", "emoji": "🔔"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Play xylophone",
+      "steps": [
+        {"word": "hold", "emoji": "🎼"},
+        {"word": "mallets", "emoji": "⬇️"},
+        {"word": "tap", "emoji": "🌈"},
+        {"word": "bars", "emoji": "🎵"},
+        {"word": "notes", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Blow whistle",
+      "steps": [
+        {"word": "put", "emoji": "🥇"},
+        {"word": "whistle", "emoji": "👄"},
+        {"word": "lips", "emoji": "💨"},
+        {"word": "blow", "emoji": "🎵"},
+        {"word": "sharp", "emoji": "📢"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Pluck harp",
+      "steps": [
+        {"word": "reach", "emoji": "🎵"},
+        {"word": "fingers", "emoji": "🧵"},
+        {"word": "strings", "emoji": "👆"},
+        {"word": "pluck", "emoji": "🎶"},
+        {"word": "gentle", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bow violin",
+      "steps": [
+        {"word": "hold", "emoji": "🎻"},
+        {"word": "violin", "emoji": "🏹"},
+        {"word": "bow", "emoji": "➡️"},
+        {"word": "across", "emoji": "🧵"},
+        {"word": "strings", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Tap triangle",
+      "steps": [
+        {"word": "hold", "emoji": "🔺"},
+        {"word": "triangle", "emoji": "🥄"},
+        {"word": "striker", "emoji": "⬇️"},
+        {"word": "tap", "emoji": "🎵"},
+        {"word": "ding", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Blow flute",
+      "steps": [
+        {"word": "hold", "emoji": "🪈"},
+        {"word": "flute", "emoji": "👄"},
+        {"word": "sideways", "emoji": "💨"},
+        {"word": "blow", "emoji": "🎵"},
+        {"word": "across", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Crash cymbals",
+      "steps": [
+        {"word": "hold", "emoji": "🥏"},
+        {"word": "cymbals", "emoji": "🤲"},
+        {"word": "both", "emoji": "💥"},
+        {"word": "hands", "emoji": "🔊"},
+        {"word": "crash", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Play harmonica",
+      "steps": [
+        {"word": "hold", "emoji": "🎵"},
+        {"word": "harmonica", "emoji": "👄"},
+        {"word": "lips", "emoji": "💨"},
+        {"word": "blow", "emoji": "🎶"},
+        {"word": "suck", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Sing a song",
+      "steps": [
+        {"word": "open", "emoji": "👄"},
+        {"word": "mouth", "emoji": "🗣️"},
+        {"word": "make", "emoji": "🎵"},
+        {"word": "sounds", "emoji": "🎤"},
+        {"word": "sing", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Hum melody",
+      "steps": [
+        {"word": "close", "emoji": "👄"},
+        {"word": "lips", "emoji": "🎵"},
+        {"word": "make", "emoji": "🔊"},
+        {"word": "sound", "emoji": "🎶"},
+        {"word": "hum", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Clap rhythm",
+      "steps": [
+        {"word": "put", "emoji": "🤲"},
+        {"word": "hands", "emoji": "👏"},
+        {"word": "together", "emoji": "🎵"},
+        {"word": "clap", "emoji": "🥁"},
+        {"word": "beat", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Stomp feet",
+      "steps": [
+        {"word": "lift", "emoji": "🦶"},
+        {"word": "foot", "emoji": "⬇️"},
+        {"word": "stomp", "emoji": "🥁"},
+        {"word": "ground", "emoji": "🎵"},
+        {"word": "rhythm", "emoji": "👠"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Play kazoo",
+      "steps": [
+        {"word": "hold", "emoji": "🎺"},
+        {"word": "kazoo", "emoji": "👄"},
+        {"word": "lips", "emoji": "🗣️"},
+        {"word": "hum", "emoji": "🎵"},
+        {"word": "buzzy", "emoji": "🐝"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Blow recorder",
+      "steps": [
+        {"word": "hold", "emoji": "🪈"},
+        {"word": "recorder", "emoji": "👄"},
+        {"word": "mouth", "emoji": "💨"},
+        {"word": "blow", "emoji": "🎵"},
+        {"word": "gently", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Play accordion",
+      "steps": [
+        {"word": "hold", "emoji": "🪗"},
+        {"word": "accordion", "emoji": "↔️"},
+        {"word": "push", "emoji": "🎹"},
+        {"word": "pull", "emoji": "🎵"},
+        {"word": "keys", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Strum banjo",
+      "steps": [
+        {"word": "hold", "emoji": "🪕"},
+        {"word": "banjo", "emoji": "👆"},
+        {"word": "fingers", "emoji": "🧵"},
+        {"word": "strings", "emoji": "🎵"},
+        {"word": "twang", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Play ukulele",
+      "steps": [
+        {"word": "hold", "emoji": "🎸"},
+        {"word": "small", "emoji": "👆"},
+        {"word": "guitar", "emoji": "🧵"},
+        {"word": "strum", "emoji": "🎵"},
+        {"word": "happy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Strike gong",
+      "steps": [
+        {"word": "hold", "emoji": "🥇"},
+        {"word": "mallet", "emoji": "⬇️"},
+        {"word": "strike", "emoji": "🥁"},
+        {"word": "gong", "emoji": "🔊"},
+        {"word": "loud", "emoji": "📢"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Play bongos",
+      "steps": [
+        {"word": "sit", "emoji": "🥁"},
+        {"word": "drums", "emoji": "👐"},
+        {"word": "between", "emoji": "🥁"},
+        {"word": "legs", "emoji": "🎵"},
+        {"word": "tap", "emoji": "👏"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Blow saxophone",
+      "steps": [
+        {"word": "hold", "emoji": "🎷"},
+        {"word": "saxophone", "emoji": "👄"},
+        {"word": "reed", "emoji": "💨"},
+        {"word": "blow", "emoji": "🎵"},
+        {"word": "smooth", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Play tuba",
+      "steps": [
+        {"word": "hold", "emoji": "🎺"},
+        {"word": "big", "emoji": "👄"},
+        {"word": "horn", "emoji": "💨"},
+        {"word": "blow", "emoji": "🎵"},
+        {"word": "deep", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Ring handbell",
+      "steps": [
+        {"word": "hold", "emoji": "🔔"},
+        {"word": "handle", "emoji": "🔄"},
+        {"word": "gentle", "emoji": "🎵"},
+        {"word": "shake", "emoji": "✨"},
+        {"word": "clear", "emoji": "🔔"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Play organ",
+      "steps": [
+        {"word": "sit", "emoji": "🎹"},
+        {"word": "bench", "emoji": "👆"},
+        {"word": "press", "emoji": "🦶"},
+        {"word": "keys", "emoji": "🎵"},
+        {"word": "pedals", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Blow trombone",
+      "steps": [
+        {"word": "hold", "emoji": "🎺"},
+        {"word": "trombone", "emoji": "👄"},
+        {"word": "lips", "emoji": "↔️"},
+        {"word": "slide", "emoji": "🎵"},
+        {"word": "blow", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Play cello",
+      "steps": [
+        {"word": "sit", "emoji": "🎻"},
+        {"word": "hold", "emoji": "🏹"},
+        {"word": "cello", "emoji": "➡️"},
+        {"word": "bow", "emoji": "🧵"},
+        {"word": "strings", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Strike timpani",
+      "steps": [
+        {"word": "hold", "emoji": "🥁"},
+        {"word": "mallets", "emoji": "⬇️"},
+        {"word": "strike", "emoji": "🔊"},
+        {"word": "drum", "emoji": "🎵"},
+        {"word": "boom", "emoji": "💥"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Play piccolo",
+      "steps": [
+        {"word": "hold", "emoji": "🪈"},
+        {"word": "small", "emoji": "👄"},
+        {"word": "flute", "emoji": "💨"},
+        {"word": "blow", "emoji": "🎵"},
+        {"word": "high", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Blow french horn",
+      "steps": [
+        {"word": "hold", "emoji": "🎺"},
+        {"word": "round", "emoji": "👄"},
+        {"word": "horn", "emoji": "💨"},
+        {"word": "blow", "emoji": "🎵"},
+        {"word": "mellow", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Play clarinet",
+      "steps": [
+        {"word": "hold", "emoji": "🎶"},
+        {"word": "clarinet", "emoji": "👄"},
+        {"word": "reed", "emoji": "💨"},
+        {"word": "blow", "emoji": "🎵"},
+        {"word": "smooth", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Play bassoon",
+      "steps": [
+        {"word": "hold", "emoji": "🎶"},
+        {"word": "long", "emoji": "👄"},
+        {"word": "wood", "emoji": "💨"},
+        {"word": "blow", "emoji": "🎵"},
+        {"word": "low", "emoji": "📉"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Play oboe",
+      "steps": [
+        {"word": "hold", "emoji": "🎶"},
+        {"word": "oboe", "emoji": "👄"},
+        {"word": "double", "emoji": "💨"},
+        {"word": "reed", "emoji": "🎵"},
+        {"word": "nasal", "emoji": "👃"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Shake tambourine",
+      "steps": [
+        {"word": "hold", "emoji": "🥁"},
+        {"word": "tambourine", "emoji": "🔄"},
+        {"word": "shake", "emoji": "🎵"},
+        {"word": "jingles", "emoji": "✨"},
+        {"word": "bright", "emoji": "🔔"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Scrape guiro",
+      "steps": [
+        {"word": "hold", "emoji": "🥒"},
+        {"word": "guiro", "emoji": "🥄"},
+        {"word": "stick", "emoji": "↔️"},
+        {"word": "scrape", "emoji": "🎵"},
+        {"word": "ridges", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Play cowbell",
+      "steps": [
+        {"word": "hold", "emoji": "🔔"},
+        {"word": "cowbell", "emoji": "🥄"},
+        {"word": "stick", "emoji": "⬇️"},
+        {"word": "strike", "emoji": "🎵"},
+        {"word": "clank", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Play woodblock",
+      "steps": [
+        {"word": "hold", "emoji": "🧱"},
+        {"word": "woodblock", "emoji": "🥄"},
+        {"word": "mallet", "emoji": "⬇️"},
+        {"word": "tap", "emoji": "🎵"},
+        {"word": "click", "emoji": "📢"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Shake egg shaker",
+      "steps": [
+        {"word": "hold", "emoji": "🥚"},
+        {"word": "egg", "emoji": "🔄"},
+        {"word": "shaker", "emoji": "🎵"},
+        {"word": "gentle", "emoji": "🌀"},
+        {"word": "rhythm", "emoji": "🥁"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Play rain stick",
+      "steps": [
+        {"word": "hold", "emoji": "🌧️"},
+        {"word": "rain", "emoji": "🔄"},
+        {"word": "stick", "emoji": "💧"},
+        {"word": "turn", "emoji": "🎵"},
+        {"word": "over", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Beat cajon",
+      "steps": [
+        {"word": "sit", "emoji": "📦"},
+        {"word": "on", "emoji": "👐"},
+        {"word": "box", "emoji": "🥁"},
+        {"word": "drum", "emoji": "🎵"},
+        {"word": "hands", "emoji": "👏"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Play djembe",
+      "steps": [
+        {"word": "sit", "emoji": "🥁"},
+        {"word": "drum", "emoji": "👐"},
+        {"word": "between", "emoji": "🦵"},
+        {"word": "legs", "emoji": "🎵"},
+        {"word": "slap", "emoji": "👏"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Strike chimes",
+      "steps": [
+        {"word": "hold", "emoji": "🎋"},
+        {"word": "mallet", "emoji": "⬇️"},
+        {"word": "tap", "emoji": "🔔"},
+        {"word": "chimes", "emoji": "🎵"},
+        {"word": "ring", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Play synthesizer",
+      "steps": [
+        {"word": "turn", "emoji": "🎹"},
+        {"word": "on", "emoji": "👆"},
+        {"word": "keys", "emoji": "🔊"},
+        {"word": "press", "emoji": "🎵"},
+        {"word": "electronic", "emoji": "🤖"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Strum mandolin",
+      "steps": [
+        {"word": "hold", "emoji": "🎸"},
+        {"word": "small", "emoji": "👆"},
+        {"word": "strings", "emoji": "🧵"},
+        {"word": "strum", "emoji": "🎵"},
+        {"word": "fast", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Play steel drums",
+      "steps": [
+        {"word": "hold", "emoji": "🥁"},
+        {"word": "mallets", "emoji": "⬇️"},
+        {"word": "tap", "emoji": "🔊"},
+        {"word": "metal", "emoji": "🎵"},
+        {"word": "tropical", "emoji": "🌴"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Blow didgeridoo",
+      "steps": [
+        {"word": "hold", "emoji": "🎺"},
+        {"word": "long", "emoji": "👄"},
+        {"word": "tube", "emoji": "💨"},
+        {"word": "buzz", "emoji": "🎵"},
+        {"word": "lips", "emoji": "🌀"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Conduct orchestra",
+      "steps": [
+        {"word": "hold", "emoji": "🎼"},
+        {"word": "baton", "emoji": "👥"},
+        {"word": "face", "emoji": "🎵"},
+        {"word": "musicians", "emoji": "🔄"},
+        {"word": "wave", "emoji": "👋"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Read music",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "at", "emoji": "🎼"},
+        {"word": "notes", "emoji": "🎵"},
+        {"word": "on", "emoji": "📏"},
+        {"word": "staff", "emoji": "📖"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Practice scales",
+      "steps": [
+        {"word": "play", "emoji": "🎹"},
+        {"word": "notes", "emoji": "⬆️"},
+        {"word": "up", "emoji": "⬇️"},
+        {"word": "down", "emoji": "🎵"},
+        {"word": "order", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Tune instrument",
+      "steps": [
+        {"word": "turn", "emoji": "🔧"},
+        {"word": "tuning", "emoji": "👂"},
+        {"word": "pegs", "emoji": "🎵"},
+        {"word": "listen", "emoji": "✅"},
+        {"word": "pitch", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Warm up voice",
+      "steps": [
+        {"word": "do", "emoji": "🎵"},
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "exercises", "emoji": "💨"},
+        {"word": "breathe", "emoji": "🎤"},
+        {"word": "prepare", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Play duet",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "with", "emoji": "👥"},
+        {"word": "partner", "emoji": "🎶"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "harmony", "emoji": "🎼"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Improvise music",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "without", "emoji": "🚫"},
+        {"word": "sheet", "emoji": "🎼"},
+        {"word": "music", "emoji": "💭"},
+        {"word": "create", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Record music",
+      "steps": [
+        {"word": "set", "emoji": "🎤"},
+        {"word": "up", "emoji": "📱"},
+        {"word": "microphone", "emoji": "▶️"},
+        {"word": "press", "emoji": "🎵"},
+        {"word": "record", "emoji": "💾"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Mix sounds",
+      "steps": [
+        {"word": "adjust", "emoji": "🎚️"},
+        {"word": "volume", "emoji": "🔊"},
+        {"word": "levels", "emoji": "🎵"},
+        {"word": "blend", "emoji": "🎶"},
+        {"word": "sounds", "emoji": "🎼"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Perform solo",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "or", "emoji": "🎤"},
+        {"word": "sing", "emoji": "👤"},
+        {"word": "alone", "emoji": "🌟"},
+        {"word": "spotlight", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Join band",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "with", "emoji": "👥"},
+        {"word": "group", "emoji": "🎶"},
+        {"word": "musicians", "emoji": "🤝"},
+        {"word": "together", "emoji": "🎸"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Learn new song",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "to", "emoji": "🎵"},
+        {"word": "music", "emoji": "🧠"},
+        {"word": "practice", "emoji": "🔄"},
+        {"word": "repeat", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Memorize melody",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "song", "emoji": "🔄"},
+        {"word": "many", "emoji": "⏰"},
+        {"word": "times", "emoji": "🧠"},
+        {"word": "remember", "emoji": "💭"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Count beats",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "for", "emoji": "🥁"},
+        {"word": "rhythm", "emoji": "🔢"},
+        {"word": "count", "emoji": "🎵"},
+        {"word": "1234", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Keep tempo",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "steady", "emoji": "⏰"},
+        {"word": "speed", "emoji": "🎶"},
+        {"word": "same", "emoji": "📏"},
+        {"word": "timing", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Use metronome",
+      "steps": [
+        {"word": "set", "emoji": "⏰"},
+        {"word": "tempo", "emoji": "🔊"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "click", "emoji": "🎵"},
+        {"word": "match", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Change dynamics",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "loud", "emoji": "🔊"},
+        {"word": "and", "emoji": "🔄"},
+        {"word": "soft", "emoji": "🔇"},
+        {"word": "volume", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Add vibrato",
+      "steps": [
+        {"word": "shake", "emoji": "🎵"},
+        {"word": "note", "emoji": "🌀"},
+        {"word": "slightly", "emoji": "✨"},
+        {"word": "wobble", "emoji": "🎶"},
+        {"word": "sound", "emoji": "🎼"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Play staccato",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "short", "emoji": "📍"},
+        {"word": "choppy", "emoji": "✂️"},
+        {"word": "notes", "emoji": "🎶"},
+        {"word": "detached", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Play legato",
+      "steps": [
+        {"word": "connect", "emoji": "🎵"},
+        {"word": "notes", "emoji": "🔗"},
+        {"word": "smoothly", "emoji": "🌊"},
+        {"word": "flowing", "emoji": "🎶"},
+        {"word": "together", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Transpose music",
+      "steps": [
+        {"word": "change", "emoji": "🎵"},
+        {"word": "key", "emoji": "⬆️"},
+        {"word": "higher", "emoji": "⬇️"},
+        {"word": "lower", "emoji": "🎶"},
+        {"word": "pitch", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Write music",
+      "steps": [
+        {"word": "create", "emoji": "✍️"},
+        {"word": "notes", "emoji": "🎼"},
+        {"word": "on", "emoji": "📏"},
+        {"word": "staff", "emoji": "🎵"},
+        {"word": "compose", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Arrange harmony",
+      "steps": [
+        {"word": "add", "emoji": "🎵"},
+        {"word": "different", "emoji": "🎶"},
+        {"word": "notes", "emoji": "🎼"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "blend", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Practice daily",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "instrument", "emoji": "📅"},
+        {"word": "every", "emoji": "☀️"},
+        {"word": "day", "emoji": "💪"},
+        {"word": "improve", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Listen actively",
+      "steps": [
+        {"word": "focus", "emoji": "👂"},
+        {"word": "on", "emoji": "🎵"},
+        {"word": "music", "emoji": "🧠"},
+        {"word": "hear", "emoji": "🎶"},
+        {"word": "details", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Appreciate music",
+      "steps": [
+        {"word": "enjoy", "emoji": "😊"},
+        {"word": "different", "emoji": "🎵"},
+        {"word": "styles", "emoji": "🌍"},
+        {"word": "music", "emoji": "❤️"},
+        {"word": "love", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Share music",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "for", "emoji": "👥"},
+        {"word": "others", "emoji": "🎶"},
+        {"word": "enjoy", "emoji": "😊"},
+        {"word": "together", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Attend concert",
+      "steps": [
+        {"word": "go", "emoji": "🎭"},
+        {"word": "to", "emoji": "➡️"},
+        {"word": "concert", "emoji": "👂"},
+        {"word": "listen", "emoji": "🎵"},
+        {"word": "live", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Sing in choir",
+      "steps": [
+        {"word": "join", "emoji": "👥"},
+        {"word": "group", "emoji": "🎤"},
+        {"word": "singers", "emoji": "🎵"},
+        {"word": "sing", "emoji": "🎶"},
+        {"word": "together", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "March in band",
+      "steps": [
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "in", "emoji": "📏"},
+        {"word": "formation", "emoji": "🎵"},
+        {"word": "play", "emoji": "🥁"},
+        {"word": "marching", "emoji": "👟"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Dance to music",
+      "steps": [
+        {"word": "move", "emoji": "💃"},
+        {"word": "body", "emoji": "🎵"},
+        {"word": "to", "emoji": "🕺"},
+        {"word": "rhythm", "emoji": "🎶"},
+        {"word": "dance", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Feel the beat",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "for", "emoji": "🥁"},
+        {"word": "pulse", "emoji": "💓"},
+        {"word": "feel", "emoji": "❤️"},
+        {"word": "rhythm", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Express emotion",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "with", "emoji": "❤️"},
+        {"word": "feeling", "emoji": "😊"},
+        {"word": "show", "emoji": "🎭"},
+        {"word": "emotion", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Build confidence",
+      "steps": [
+        {"word": "practice", "emoji": "🎵"},
+        {"word": "music", "emoji": "💪"},
+        {"word": "feel", "emoji": "😊"},
+        {"word": "proud", "emoji": "🌟"},
+        {"word": "confident", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Make friends",
+      "steps": [
+        {"word": "music", "emoji": "🎵"},
+        {"word": "brings", "emoji": "👥"},
+        {"word": "people", "emoji": "🤝"},
+        {"word": "together", "emoji": "❤️"},
+        {"word": "friends", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Relax with music",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "to", "emoji": "🎵"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "music", "emoji": "🧘"},
+        {"word": "peaceful", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Energize with music",
+      "steps": [
+        {"word": "play", "emoji": "🎵"},
+        {"word": "upbeat", "emoji": "⚡"},
+        {"word": "music", "emoji": "🎶"},
+        {"word": "feel", "emoji": "💪"},
+        {"word": "energized", "emoji": "🚀"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Create playlist",
+      "steps": [
+        {"word": "choose", "emoji": "🎵"},
+        {"word": "favorite", "emoji": "❤️"},
+        {"word": "songs", "emoji": "📋"},
+        {"word": "make", "emoji": "📱"},
+        {"word": "list", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Discover genres",
+      "steps": [
+        {"word": "try", "emoji": "🎵"},
+        {"word": "different", "emoji": "🎭"},
+        {"word": "types", "emoji": "🌍"},
+        {"word": "music", "emoji": "🔍"},
+        {"word": "explore", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Support musicians",
+      "steps": [
+        {"word": "buy", "emoji": "💿"},
+        {"word": "music", "emoji": "🎵"},
+        {"word": "attend", "emoji": "🎭"},
+        {"word": "shows", "emoji": "👏"},
+        {"word": "support", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Teach music",
+      "steps": [
+        {"word": "share", "emoji": "🎵"},
+        {"word": "knowledge", "emoji": "🧠"},
+        {"word": "help", "emoji": "👥"},
+        {"word": "others", "emoji": "📚"},
+        {"word": "learn", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Learn history",
+      "steps": [
+        {"word": "study", "emoji": "📚"},
+        {"word": "music", "emoji": "🎵"},
+        {"word": "from", "emoji": "📅"},
+        {"word": "past", "emoji": "🏛️"},
+        {"word": "history", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Use technology",
+      "steps": [
+        {"word": "apps", "emoji": "📱"},
+        {"word": "help", "emoji": "🎵"},
+        {"word": "learn", "emoji": "💻"},
+        {"word": "music", "emoji": "🎶"},
+        {"word": "digital", "emoji": "🤖"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Care for instrument",
+      "steps": [
+        {"word": "clean", "emoji": "🧽"},
+        {"word": "instrument", "emoji": "🎵"},
+        {"word": "store", "emoji": "📦"},
+        {"word": "safely", "emoji": "🛡️"},
+        {"word": "maintain", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Set goals",
+      "steps": [
+        {"word": "decide", "emoji": "🎯"},
+        {"word": "what", "emoji": "🎵"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "practice", "emoji": "💪"},
+        {"word": "achieve", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Celebrate progress",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "improvement", "emoji": "📈"},
+        {"word": "feel", "emoji": "😊"},
+        {"word": "proud", "emoji": "🎉"},
+        {"word": "celebrate", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Overcome challenges",
+      "steps": [
+        {"word": "difficult", "emoji": "⚠️"},
+        {"word": "parts", "emoji": "💪"},
+        {"word": "practice", "emoji": "🔄"},
+        {"word": "more", "emoji": "✅"},
+        {"word": "succeed", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Find inspiration",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "to", "emoji": "🎵"},
+        {"word": "great", "emoji": "🌟"},
+        {"word": "musicians", "emoji": "✨"},
+        {"word": "inspired", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Have patience",
+      "steps": [
+        {"word": "learning", "emoji": "📚"},
+        {"word": "music", "emoji": "🎵"},
+        {"word": "takes", "emoji": "⏰"},
+        {"word": "time", "emoji": "😌"},
+        {"word": "patient", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Enjoy music",
+      "steps": [
+        {"word": "music", "emoji": "🎵"},
+        {"word": "brings", "emoji": "😊"},
+        {"word": "joy", "emoji": "❤️"},
+        {"word": "love", "emoji": "🎶"},
+        {"word": "happiness", "emoji": "✨"}
+      ]
+    }
+  ]
+}

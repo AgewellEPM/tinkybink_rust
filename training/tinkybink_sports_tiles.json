@@ -1,0 +1,1134 @@
+{
+  "tinkybink_sports_tiles": {
+    "sports_activities": {
+      "category_emoji": "⚽️🏀",
+      "category_name": "Sports Activities & Actions",
+      "tiles": [
+        {
+          "id": 1,
+          "title": "Kick the ball",
+          "steps": [
+            {"word": "Ready", "emoji": "🦵"},
+            {"word": "Run", "emoji": "🏃"},
+            {"word": "Swing", "emoji": "💨"},
+            {"word": "Kick", "emoji": "⚽"},
+            {"word": "Go", "emoji": "🚀"}
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Throw the ball",
+          "steps": [
+            {"word": "Hold", "emoji": "🤲"},
+            {"word": "Aim", "emoji": "🎯"},
+            {"word": "Back", "emoji": "↩️"},
+            {"word": "Throw", "emoji": "🤾"},
+            {"word": "Fly", "emoji": "✈️"}
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Catch the ball",
+          "steps": [
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Ready", "emoji": "🤲"},
+            {"word": "Move", "emoji": "🏃"},
+            {"word": "Catch", "emoji": "🙌"},
+            {"word": "Got", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Bounce the ball",
+          "steps": [
+            {"word": "Hold", "emoji": "🏀"},
+            {"word": "Down", "emoji": "⬇️"},
+            {"word": "Bounce", "emoji": "⏫"},
+            {"word": "Up", "emoji": "⬆️"},
+            {"word": "Again", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Hit the ball",
+          "steps": [
+            {"word": "Ready", "emoji": "🏏"},
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Swing", "emoji": "💨"},
+            {"word": "Hit", "emoji": "💥"},
+            {"word": "Run", "emoji": "🏃"}
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Pass the ball",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Friend", "emoji": "👤"},
+            {"word": "Aim", "emoji": "🎯"},
+            {"word": "Pass", "emoji": "➡️"},
+            {"word": "Teamwork", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Block the ball",
+          "steps": [
+            {"word": "Ready", "emoji": "🛡️"},
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Hands", "emoji": "🙌"},
+            {"word": "Block", "emoji": "🚫"},
+            {"word": "Stop", "emoji": "✋"}
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Dribble",
+          "steps": [
+            {"word": "Ball", "emoji": "🏀"},
+            {"word": "Bounce", "emoji": "⏬"},
+            {"word": "Control", "emoji": "🤏"},
+            {"word": "Move", "emoji": "🏃"},
+            {"word": "Go", "emoji": "➡️"}
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Shoot the ball",
+          "steps": [
+            {"word": "Aim", "emoji": "🎯"},
+            {"word": "Bend", "emoji": "🦵"},
+            {"word": "Jump", "emoji": "🦘"},
+            {"word": "Shoot", "emoji": "🏀"},
+            {"word": "Score", "emoji": "🎉"}
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Serve the ball",
+          "steps": [
+            {"word": "Hold", "emoji": "🏐"},
+            {"word": "Toss", "emoji": "⬆️"},
+            {"word": "Hit", "emoji": "👋"},
+            {"word": "Over", "emoji": "🔝"},
+            {"word": "Net", "emoji": "🥅"}
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Swing the bat",
+          "steps": [
+            {"word": "Hold", "emoji": "🏏"},
+            {"word": "Ready", "emoji": "💪"},
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Swing", "emoji": "💨"},
+            {"word": "Connect", "emoji": "💥"}
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Run the bases",
+          "steps": [
+            {"word": "Hit", "emoji": "⚾"},
+            {"word": "Drop", "emoji": "🏏"},
+            {"word": "Run", "emoji": "🏃"},
+            {"word": "Touch", "emoji": "🟦"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Slide on the ground",
+          "steps": [
+            {"word": "Run", "emoji": "🏃"},
+            {"word": "Down", "emoji": "⬇️"},
+            {"word": "Slide", "emoji": "🛷"},
+            {"word": "Reach", "emoji": "🤲"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Tackle softly",
+          "steps": [
+            {"word": "Gentle", "emoji": "💝"},
+            {"word": "Wrap", "emoji": "🤗"},
+            {"word": "Pull", "emoji": "👐"},
+            {"word": "Down", "emoji": "⬇️"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Jump to score",
+          "steps": [
+            {"word": "Ready", "emoji": "🦵"},
+            {"word": "Bend", "emoji": "📐"},
+            {"word": "Jump", "emoji": "🦘"},
+            {"word": "High", "emoji": "⬆️"},
+            {"word": "Score", "emoji": "🎯"}
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Dunk the ball",
+          "steps": [
+            {"word": "Jump", "emoji": "🦘"},
+            {"word": "High", "emoji": "🔝"},
+            {"word": "Ball", "emoji": "🏀"},
+            {"word": "Down", "emoji": "⬇️"},
+            {"word": "Slam", "emoji": "💥"}
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Guard the goal",
+          "steps": [
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Ready", "emoji": "🥅"},
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Block", "emoji": "🛡️"},
+            {"word": "Save", "emoji": "✋"}
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Chase the ball",
+          "steps": [
+            {"word": "See", "emoji": "👀"},
+            {"word": "Ball", "emoji": "⚽"},
+            {"word": "Run", "emoji": "🏃"},
+            {"word": "Fast", "emoji": "💨"},
+            {"word": "Get", "emoji": "🤲"}
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Steal the ball",
+          "steps": [
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Move", "emoji": "🏃"},
+            {"word": "Quick", "emoji": "⚡"},
+            {"word": "Take", "emoji": "🤏"},
+            {"word": "Mine", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Tag the player",
+          "steps": [
+            {"word": "Chase", "emoji": "🏃"},
+            {"word": "Close", "emoji": "📍"},
+            {"word": "Reach", "emoji": "🤲"},
+            {"word": "Tag", "emoji": "👉"},
+            {"word": "You're it", "emoji": "🎯"}
+          ]
+        },
+        {
+          "id": 21,
+          "title": "Skate on ice",
+          "steps": [
+            {"word": "Balance", "emoji": "⚖️"},
+            {"word": "Push", "emoji": "🦵"},
+            {"word": "Glide", "emoji": "⛸️"},
+            {"word": "Smooth", "emoji": "❄️"},
+            {"word": "Fun", "emoji": "😄"}
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Swim laps",
+          "steps": [
+            {"word": "Dive", "emoji": "🤿"},
+            {"word": "Arms", "emoji": "💪"},
+            {"word": "Kick", "emoji": "🦵"},
+            {"word": "Breathe", "emoji": "💨"},
+            {"word": "Turn", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Do jumping jacks",
+          "steps": [
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Jump", "emoji": "🦘"},
+            {"word": "Arms", "emoji": "🙌"},
+            {"word": "Legs", "emoji": "🦵"},
+            {"word": "Repeat", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Do pushups",
+          "steps": [
+            {"word": "Down", "emoji": "⬇️"},
+            {"word": "Hands", "emoji": "🤲"},
+            {"word": "Push", "emoji": "💪"},
+            {"word": "Up", "emoji": "⬆️"},
+            {"word": "Strong", "emoji": "💯"}
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Stretch arms",
+          "steps": [
+            {"word": "Arms", "emoji": "💪"},
+            {"word": "Up", "emoji": "⬆️"},
+            {"word": "Reach", "emoji": "🙌"},
+            {"word": "Hold", "emoji": "⏰"},
+            {"word": "Relax", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Stretch legs",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Reach", "emoji": "🤲"},
+            {"word": "Toes", "emoji": "🦶"},
+            {"word": "Hold", "emoji": "⏰"},
+            {"word": "Good", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Bend knees",
+          "steps": [
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Bend", "emoji": "📐"},
+            {"word": "Down", "emoji": "⬇️"},
+            {"word": "Up", "emoji": "⬆️"},
+            {"word": "Exercise", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Clap for others",
+          "steps": [
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Good", "emoji": "👍"},
+            {"word": "Hands", "emoji": "🤲"},
+            {"word": "Clap", "emoji": "👏"},
+            {"word": "Cheer", "emoji": "📣"}
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Wait your turn",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Patient", "emoji": "😊"},
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "Go", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Cheer for the team",
+          "steps": [
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Yell", "emoji": "📣"},
+            {"word": "Go", "emoji": "💨"},
+            {"word": "Team", "emoji": "👥"},
+            {"word": "Loud", "emoji": "🔊"}
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Shake hands",
+          "steps": [
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Hand", "emoji": "🤲"},
+            {"word": "Shake", "emoji": "🤝"},
+            {"word": "Smile", "emoji": "😊"},
+            {"word": "Sportsmanship", "emoji": "🏆"}
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Line up",
+          "steps": [
+            {"word": "Hear", "emoji": "👂"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Behind", "emoji": "⬇️"},
+            {"word": "Straight", "emoji": "📏"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Go to the bench",
+          "steps": [
+            {"word": "Sub", "emoji": "🔄"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Rest", "emoji": "😴"},
+            {"word": "Watch", "emoji": "👀"}
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Listen to coach",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Coach", "emoji": "🧑‍🏫"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Understand", "emoji": "💡"}
+          ]
+        },
+        {
+          "id": 35,
+          "title": "Follow the whistle",
+          "steps": [
+            {"word": "Hear", "emoji": "👂"},
+            {"word": "Whistle", "emoji": "🎵"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Do", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 36,
+          "title": "Take a water break",
+          "steps": [
+            {"word": "Hot", "emoji": "🥵"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Bottle", "emoji": "🍼"},
+            {"word": "Drink", "emoji": "💧"},
+            {"word": "Better", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 37,
+          "title": "Help pick teams",
+          "steps": [
+            {"word": "Captain", "emoji": "👑"},
+            {"word": "Point", "emoji": "👉"},
+            {"word": "You", "emoji": "👤"},
+            {"word": "Team", "emoji": "👥"},
+            {"word": "Fair", "emoji": "⚖️"}
+          ]
+        },
+        {
+          "id": 38,
+          "title": "Say \"good game\"",
+          "steps": [
+            {"word": "End", "emoji": "🏁"},
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Good", "emoji": "👍"},
+            {"word": "Game", "emoji": "🎮"}
+          ]
+        },
+        {
+          "id": 39,
+          "title": "Try again",
+          "steps": [
+            {"word": "Miss", "emoji": "❌"},
+            {"word": "OK", "emoji": "👍"},
+            {"word": "Again", "emoji": "🔄"},
+            {"word": "Try", "emoji": "💪"},
+            {"word": "Better", "emoji": "📈"}
+          ]
+        },
+        {
+          "id": 40,
+          "title": "High five",
+          "steps": [
+            {"word": "Good", "emoji": "👍"},
+            {"word": "Hand", "emoji": "✋"},
+            {"word": "Up", "emoji": "⬆️"},
+            {"word": "Slap", "emoji": "🙏"},
+            {"word": "Yeah", "emoji": "🎉"}
+          ]
+        }
+      ]
+    },
+    "sports_gear": {
+      "category_emoji": "🧢🏃",
+      "category_name": "Sports Gear / Setup",
+      "tiles": [
+        {
+          "id": 41,
+          "title": "Wear jersey",
+          "steps": [
+            {"word": "Get", "emoji": "👕"},
+            {"word": "Arms", "emoji": "🙌"},
+            {"word": "Head", "emoji": "🔽"},
+            {"word": "Pull", "emoji": "⬇️"},
+            {"word": "Team", "emoji": "🏆"}
+          ]
+        },
+        {
+          "id": 42,
+          "title": "Put on helmet",
+          "steps": [
+            {"word": "Get", "emoji": "⛑️"},
+            {"word": "Head", "emoji": "👤"},
+            {"word": "On", "emoji": "⬇️"},
+            {"word": "Strap", "emoji": "🔒"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 43,
+          "title": "Tie cleats",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Laces", "emoji": "👟"},
+            {"word": "Cross", "emoji": "❌"},
+            {"word": "Pull", "emoji": "💪"},
+            {"word": "Tight", "emoji": "🔒"}
+          ]
+        },
+        {
+          "id": 44,
+          "title": "Wear shin guards",
+          "steps": [
+            {"word": "Get", "emoji": "🛡️"},
+            {"word": "Leg", "emoji": "🦵"},
+            {"word": "Slide", "emoji": "⬇️"},
+            {"word": "Strap", "emoji": "🔗"},
+            {"word": "Protected", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 45,
+          "title": "Put on mouthguard",
+          "steps": [
+            {"word": "Get", "emoji": "🦷"},
+            {"word": "Open", "emoji": "👄"},
+            {"word": "Bite", "emoji": "😬"},
+            {"word": "Fit", "emoji": "📏"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 46,
+          "title": "Wear goggles",
+          "steps": [
+            {"word": "Get", "emoji": "🥽"},
+            {"word": "Eyes", "emoji": "👀"},
+            {"word": "Over", "emoji": "⭕"},
+            {"word": "Adjust", "emoji": "👋"},
+            {"word": "Clear", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 47,
+          "title": "Put on skates",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Foot", "emoji": "🦶"},
+            {"word": "In", "emoji": "⬇️"},
+            {"word": "Lace", "emoji": "🔗"},
+            {"word": "Stand", "emoji": "⛸️"}
+          ]
+        },
+        {
+          "id": 48,
+          "title": "Get your racket",
+          "steps": [
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Racket", "emoji": "🎾"},
+            {"word": "Hold", "emoji": "✊"},
+            {"word": "Grip", "emoji": "🤏"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 49,
+          "title": "Grab a ball",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Choose", "emoji": "⚽"},
+            {"word": "Pick", "emoji": "🤏"},
+            {"word": "Hold", "emoji": "🤲"},
+            {"word": "Play", "emoji": "🎮"}
+          ]
+        },
+        {
+          "id": 50,
+          "title": "Fill water bottle",
+          "steps": [
+            {"word": "Empty", "emoji": "🍼"},
+            {"word": "Sink", "emoji": "🚰"},
+            {"word": "Fill", "emoji": "💧"},
+            {"word": "Cap", "emoji": "🧢"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 51,
+          "title": "Use towel",
+          "steps": [
+            {"word": "Sweat", "emoji": "💦"},
+            {"word": "Get", "emoji": "🏖️"},
+            {"word": "Wipe", "emoji": "🤲"},
+            {"word": "Face", "emoji": "😊"},
+            {"word": "Dry", "emoji": "☀️"}
+          ]
+        },
+        {
+          "id": 52,
+          "title": "Put on elbow pads",
+          "steps": [
+            {"word": "Get", "emoji": "🛡️"},
+            {"word": "Arm", "emoji": "💪"},
+            {"word": "Slide", "emoji": "⬆️"},
+            {"word": "Elbow", "emoji": "📐"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 53,
+          "title": "Put on knee pads",
+          "steps": [
+            {"word": "Get", "emoji": "🛡️"},
+            {"word": "Knee", "emoji": "🦵"},
+            {"word": "Pull", "emoji": "⬆️"},
+            {"word": "Secure", "emoji": "🔒"},
+            {"word": "Protected", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 54,
+          "title": "Bring the net",
+          "steps": [
+            {"word": "Find", "emoji": "🥅"},
+            {"word": "Carry", "emoji": "💪"},
+            {"word": "Field", "emoji": "🏟️"},
+            {"word": "Set", "emoji": "📍"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 55,
+          "title": "Set up cones",
+          "steps": [
+            {"word": "Get", "emoji": "🔺"},
+            {"word": "Place", "emoji": "📍"},
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Space", "emoji": "↔️"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 56,
+          "title": "Hold a bat",
+          "steps": [
+            {"word": "Get", "emoji": "🏏"},
+            {"word": "Hands", "emoji": "🤲"},
+            {"word": "Together", "emoji": "🤝"},
+            {"word": "Grip", "emoji": "✊"},
+            {"word": "Ready", "emoji": "⚾"}
+          ]
+        },
+        {
+          "id": 57,
+          "title": "Wear swim cap",
+          "steps": [
+            {"word": "Get", "emoji": "🏊"},
+            {"word": "Stretch", "emoji": "↔️"},
+            {"word": "Head", "emoji": "👤"},
+            {"word": "Pull", "emoji": "⬇️"},
+            {"word": "Smooth", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 58,
+          "title": "Bring sports bag",
+          "steps": [
+            {"word": "Pack", "emoji": "🎒"},
+            {"word": "Zip", "emoji": "🤐"},
+            {"word": "Carry", "emoji": "💪"},
+            {"word": "Field", "emoji": "🏟️"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 59,
+          "title": "Inflate the ball",
+          "steps": [
+            {"word": "Flat", "emoji": "🟦"},
+            {"word": "Pump", "emoji": "💨"},
+            {"word": "Push", "emoji": "👇"},
+            {"word": "Full", "emoji": "⚽"},
+            {"word": "Bounce", "emoji": "⏫"}
+          ]
+        },
+        {
+          "id": 60,
+          "title": "Carry the scoreboard",
+          "steps": [
+            {"word": "Get", "emoji": "🔢"},
+            {"word": "Lift", "emoji": "💪"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Place", "emoji": "📍"},
+            {"word": "See", "emoji": "👀"}
+          ]
+        }
+      ]
+    },
+    "rules_directions": {
+      "category_emoji": "🧠📣",
+      "category_name": "Understanding Rules & Directions",
+      "tiles": [
+        {
+          "id": 61,
+          "title": "Listen to rules",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Coach", "emoji": "🧑‍🏫"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Remember", "emoji": "🧠"}
+          ]
+        },
+        {
+          "id": 62,
+          "title": "Follow directions",
+          "steps": [
+            {"word": "Hear", "emoji": "👂"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Understand", "emoji": "💡"},
+            {"word": "Do", "emoji": "✅"},
+            {"word": "Right", "emoji": "👍"}
+          ]
+        },
+        {
+          "id": 63,
+          "title": "Ask \"What's next?\"",
+          "steps": [
+            {"word": "Confused", "emoji": "😕"},
+            {"word": "Raise", "emoji": "🙋"},
+            {"word": "Ask", "emoji": "❓"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Know", "emoji": "💡"}
+          ]
+        },
+        {
+          "id": 64,
+          "title": "Watch the ball",
+          "steps": [
+            {"word": "Eyes", "emoji": "👀"},
+            {"word": "Ball", "emoji": "⚽"},
+            {"word": "Follow", "emoji": "➡️"},
+            {"word": "Focus", "emoji": "🎯"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 65,
+          "title": "Stay in bounds",
+          "steps": [
+            {"word": "Lines", "emoji": "📏"},
+            {"word": "Inside", "emoji": "🟦"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Don't", "emoji": "❌"},
+            {"word": "Out", "emoji": "🚫"}
+          ]
+        },
+        {
+          "id": 66,
+          "title": "Don't push",
+          "steps": [
+            {"word": "Hands", "emoji": "🤲"},
+            {"word": "No", "emoji": "❌"},
+            {"word": "Push", "emoji": "👐"},
+            {"word": "Gentle", "emoji": "💝"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 67,
+          "title": "Don't bite",
+          "steps": [
+            {"word": "Mouth", "emoji": "👄"},
+            {"word": "No", "emoji": "❌"},
+            {"word": "Bite", "emoji": "🦷"},
+            {"word": "Nice", "emoji": "😊"},
+            {"word": "Friends", "emoji": "👥"}
+          ]
+        },
+        {
+          "id": 68,
+          "title": "Don't yell",
+          "steps": [
+            {"word": "Voice", "emoji": "🗣️"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "No", "emoji": "❌"},
+            {"word": "Yell", "emoji": "📢"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 69,
+          "title": "Stop when whistle blows",
+          "steps": [
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Hear", "emoji": "👂"},
+            {"word": "Whistle", "emoji": "🎵"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Freeze", "emoji": "🧊"}
+          ]
+        },
+        {
+          "id": 70,
+          "title": "Freeze when told",
+          "steps": [
+            {"word": "Moving", "emoji": "🏃"},
+            {"word": "Hear", "emoji": "👂"},
+            {"word": "Freeze", "emoji": "🧊"},
+            {"word": "Still", "emoji": "🗿"},
+            {"word": "Wait", "emoji": "⏰"}
+          ]
+        },
+        {
+          "id": 71,
+          "title": "Try your best",
+          "steps": [
+            {"word": "Ready", "emoji": "💪"},
+            {"word": "Try", "emoji": "🎯"},
+            {"word": "Hard", "emoji": "💯"},
+            {"word": "Best", "emoji": "⭐"},
+            {"word": "Proud", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 72,
+          "title": "Use kind words",
+          "steps": [
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Nice", "emoji": "💝"},
+            {"word": "Words", "emoji": "💬"},
+            {"word": "Say", "emoji": "🗣️"},
+            {"word": "Kind", "emoji": "❤️"}
+          ]
+        },
+        {
+          "id": 73,
+          "title": "Ask for help",
+          "steps": [
+            {"word": "Stuck", "emoji": "😕"},
+            {"word": "Hand", "emoji": "🙋"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Help", "emoji": "🆘"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 74,
+          "title": "Be safe",
+          "steps": [
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Careful", "emoji": "⚠️"},
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Safe", "emoji": "🛡️"},
+            {"word": "Good", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 75,
+          "title": "Respect the coach",
+          "steps": [
+            {"word": "Coach", "emoji": "🧑‍🏫"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Yes", "emoji": "👍"},
+            {"word": "Respect", "emoji": "🙏"},
+            {"word": "Learn", "emoji": "🧠"}
+          ]
+        },
+        {
+          "id": 76,
+          "title": "Don't argue",
+          "steps": [
+            {"word": "Disagree", "emoji": "😤"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Accept", "emoji": "👍"},
+            {"word": "Move", "emoji": "➡️"}
+          ]
+        },
+        {
+          "id": 77,
+          "title": "Say sorry",
+          "steps": [
+            {"word": "Oops", "emoji": "😳"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Sorry", "emoji": "😔"},
+            {"word": "Better", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 78,
+          "title": "Say \"I'm tired\"",
+          "steps": [
+            {"word": "Feel", "emoji": "😴"},
+            {"word": "Tired", "emoji": "😓"},
+            {"word": "Tell", "emoji": "💬"},
+            {"word": "Coach", "emoji": "🧑‍🏫"},
+            {"word": "Rest", "emoji": "🪑"}
+          ]
+        },
+        {
+          "id": 79,
+          "title": "Say \"I'm done\"",
+          "steps": [
+            {"word": "Enough", "emoji": "✋"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Done", "emoji": "🏁"},
+            {"word": "OK", "emoji": "👍"},
+            {"word": "Stop", "emoji": "🛑"}
+          ]
+        },
+        {
+          "id": 80,
+          "title": "Take turns",
+          "steps": [
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Your", "emoji": "👉"},
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "Fair", "emoji": "⚖️"}
+          ]
+        }
+      ]
+    },
+    "teamwork_sportsmanship": {
+      "category_emoji": "🤝🏅",
+      "category_name": "Teamwork & Sportsmanship",
+      "tiles": [
+        {
+          "id": 81,
+          "title": "Join the team",
+          "steps": [
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Group", "emoji": "👥"},
+            {"word": "Join", "emoji": "🤝"},
+            {"word": "Team", "emoji": "🏆"},
+            {"word": "Together", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 82,
+          "title": "Choose a teammate",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Friend", "emoji": "👤"},
+            {"word": "Point", "emoji": "👉"},
+            {"word": "You", "emoji": "🫵"},
+            {"word": "Team", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 83,
+          "title": "Pass to a friend",
+          "steps": [
+            {"word": "Ball", "emoji": "⚽"},
+            {"word": "See", "emoji": "👀"},
+            {"word": "Friend", "emoji": "👤"},
+            {"word": "Pass", "emoji": "➡️"},
+            {"word": "Share", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 84,
+          "title": "Ask to play",
+          "steps": [
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Can", "emoji": "❓"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Join", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 85,
+          "title": "Share equipment",
+          "steps": [
+            {"word": "Have", "emoji": "🤲"},
+            {"word": "See", "emoji": "👀"},
+            {"word": "Need", "emoji": "🆘"},
+            {"word": "Share", "emoji": "🤝"},
+            {"word": "Nice", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 86,
+          "title": "Take a sub break",
+          "steps": [
+            {"word": "Tired", "emoji": "😓"},
+            {"word": "Out", "emoji": "👉"},
+            {"word": "Friend", "emoji": "👤"},
+            {"word": "In", "emoji": "👈"},
+            {"word": "Rest", "emoji": "🪑"}
+          ]
+        },
+        {
+          "id": 87,
+          "title": "Be a helper",
+          "steps": [
+            {"word": "See", "emoji": "👀"},
+            {"word": "Need", "emoji": "🆘"},
+            {"word": "Help", "emoji": "🤲"},
+            {"word": "Do", "emoji": "✅"},
+            {"word": "Kind", "emoji": "❤️"}
+          ]
+        },
+        {
+          "id": 88,
+          "title": "Take a group photo",
+          "steps": [
+            {"word": "Together", "emoji": "👥"},
+            {"word": "Close", "emoji": "🤗"},
+            {"word": "Smile", "emoji": "😊"},
+            {"word": "Click", "emoji": "📸"},
+            {"word": "Memory", "emoji": "🖼️"}
+          ]
+        },
+        {
+          "id": 89,
+          "title": "Clap for other team",
+          "steps": [
+            {"word": "They", "emoji": "👥"},
+            {"word": "Good", "emoji": "👍"},
+            {"word": "Clap", "emoji": "👏"},
+            {"word": "Nice", "emoji": "😊"},
+            {"word": "Respect", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 90,
+          "title": "Say \"good try\"",
+          "steps": [
+            {"word": "Miss", "emoji": "❌"},
+            {"word": "OK", "emoji": "👍"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Good", "emoji": "✨"},
+            {"word": "Try", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 91,
+          "title": "Try again",
+          "steps": [
+            {"word": "Fail", "emoji": "😔"},
+            {"word": "OK", "emoji": "👍"},
+            {"word": "Again", "emoji": "🔄"},
+            {"word": "Try", "emoji": "💪"},
+            {"word": "Learn", "emoji": "📈"}
+          ]
+        },
+        {
+          "id": 92,
+          "title": "Watch the game",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Eyes", "emoji": "👀"},
+            {"word": "Game", "emoji": "🎮"},
+            {"word": "Learn", "emoji": "🧠"},
+            {"word": "Cheer", "emoji": "📣"}
+          ]
+        },
+        {
+          "id": 93,
+          "title": "Give thumbs up",
+          "steps": [
+            {"word": "See", "emoji": "👀"},
+            {"word": "Good", "emoji": "✨"},
+            {"word": "Hand", "emoji": "✋"},
+            {"word": "Thumb", "emoji": "👍"},
+            {"word": "Encourage", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 94,
+          "title": "Give team chant",
+          "steps": [
+            {"word": "Circle", "emoji": "⭕"},
+            {"word": "Hands", "emoji": "🤝"},
+            {"word": "Yell", "emoji": "📣"},
+            {"word": "Team", "emoji": "👥"},
+            {"word": "Go", "emoji": "🚀"}
+          ]
+        },
+        {
+          "id": 95,
+          "title": "Smile and play",
+          "steps": [
+            {"word": "Happy", "emoji": "😊"},
+            {"word": "Smile", "emoji": "😄"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Fun", "emoji": "🎉"},
+            {"word": "Enjoy", "emoji": "❤️"}
+          ]
+        }
+      ]
+    },
+    "self_regulation": {
+      "category_emoji": "🧘‍♂️🥶",
+      "category_name": "Self-Regulation in Sports",
+      "tiles": [
+        {
+          "id": 96,
+          "title": "Take a deep breath",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "In", "emoji": "👃"},
+            {"word": "Hold", "emoji": "⏸️"},
+            {"word": "Out", "emoji": "💨"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 97,
+          "title": "Sit and rest",
+          "steps": [
+            {"word": "Tired", "emoji": "😓"},
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Bench", "emoji": "🪑"},
+            {"word": "Sit", "emoji": "⬇️"},
+            {"word": "Rest", "emoji": "😴"}
+          ]
+        },
+        {
+          "id": 98,
+          "title": "Drink water",
+          "steps": [
+            {"word": "Hot", "emoji": "🥵"},
+            {"word": "Bottle", "emoji": "🍼"},
+            {"word": "Sip", "emoji": "💧"},
+            {"word": "Cool", "emoji": "❄️"},
+            {"word": "Better", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 99,
+          "title": "Go to cool-down corner",
+          "steps": [
+            {"word": "Mad", "emoji": "😠"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Corner", "emoji": "📐"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Better", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 100,
+          "title": "Say how you feel",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Feel", "emoji": "❤️"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Help", "emoji": "🤝"}
+          ]
+        }
+      ]
+    }
+  }
+}

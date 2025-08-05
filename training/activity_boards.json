@@ -1,0 +1,432 @@
+{
+  "walk_dog": {
+    "title": "How to Walk the Dog",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "\ud83e\uddae Get the leash",
+        "emoji": "\ud83e\uddae",
+        "action": "find leash"
+      },
+      {
+        "step": 2,
+        "instruction": "\ud83d\udc15 Get the dog",
+        "emoji": "\ud83d\udc15",
+        "action": "call dog"
+      },
+      {
+        "step": 3,
+        "instruction": "\ud83d\udd17 Clip leash to collar",
+        "emoji": "\ud83d\udd17",
+        "action": "attach leash"
+      },
+      {
+        "step": 4,
+        "instruction": "\ud83d\udeaa Walk to the door",
+        "emoji": "\ud83d\udeaa",
+        "action": "go to door"
+      },
+      {
+        "step": 5,
+        "instruction": "\ud83d\udd13 Open the door",
+        "emoji": "\ud83d\udd13",
+        "action": "open door"
+      },
+      {
+        "step": 6,
+        "instruction": "\ud83d\udc63 Step outside",
+        "emoji": "\ud83d\udc63",
+        "action": "go outside"
+      },
+      {
+        "step": 7,
+        "instruction": "\ud83d\udeb6 Walk with dog",
+        "emoji": "\ud83d\udeb6",
+        "action": "start walking"
+      },
+      {
+        "step": 8,
+        "instruction": "\ud83c\udfe0 Come back home",
+        "emoji": "\ud83c\udfe0",
+        "action": "return home"
+      }
+    ]
+  },
+  "feed_pet": {
+    "title": "How to Feed Your Pet",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "\ud83e\udd63 Get the food bowl",
+        "emoji": "\ud83e\udd63",
+        "action": "find bowl"
+      },
+      {
+        "step": 2,
+        "instruction": "\ud83e\udd6b Get the pet food",
+        "emoji": "\ud83e\udd6b",
+        "action": "get food"
+      },
+      {
+        "step": 3,
+        "instruction": "\ud83e\udd44 Pour food in bowl",
+        "emoji": "\ud83e\udd44",
+        "action": "fill bowl"
+      },
+      {
+        "step": 4,
+        "instruction": "\ud83d\udca7 Add fresh water",
+        "emoji": "\ud83d\udca7",
+        "action": "fill water"
+      },
+      {
+        "step": 5,
+        "instruction": "\ud83d\udccd Put bowl down",
+        "emoji": "\ud83d\udccd",
+        "action": "place bowl"
+      },
+      {
+        "step": 6,
+        "instruction": "\ud83d\udc15 Call your pet",
+        "emoji": "\ud83d\udc15",
+        "action": "call pet"
+      },
+      {
+        "step": 7,
+        "instruction": "\ud83d\udc40 Watch them eat",
+        "emoji": "\ud83d\udc40",
+        "action": "supervise"
+      }
+    ]
+  },
+  "grocery_shopping": {
+    "title": "How to Go Grocery Shopping",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "\ud83d\udcdd Make shopping list",
+        "emoji": "\ud83d\udcdd",
+        "action": "write list"
+      },
+      {
+        "step": 2,
+        "instruction": "\ud83d\udc5b Get money/card",
+        "emoji": "\ud83d\udc5b",
+        "action": "get payment"
+      },
+      {
+        "step": 3,
+        "instruction": "\ud83d\udecd\ufe0f Get shopping bags",
+        "emoji": "\ud83d\udecd\ufe0f",
+        "action": "get bags"
+      },
+      {
+        "step": 4,
+        "instruction": "\ud83d\ude97 Go to store",
+        "emoji": "\ud83d\ude97",
+        "action": "travel to store"
+      },
+      {
+        "step": 5,
+        "instruction": "\ud83d\uded2 Get shopping cart",
+        "emoji": "\ud83d\uded2",
+        "action": "get cart"
+      },
+      {
+        "step": 6,
+        "instruction": "\ud83e\udd6c Shop for items",
+        "emoji": "\ud83e\udd6c",
+        "action": "collect items"
+      },
+      {
+        "step": 7,
+        "instruction": "\ud83d\udcb3 Pay at checkout",
+        "emoji": "\ud83d\udcb3",
+        "action": "pay for items"
+      },
+      {
+        "step": 8,
+        "instruction": "\ud83d\udce6 Take bags home",
+        "emoji": "\ud83d\udce6",
+        "action": "carry home"
+      }
+    ]
+  },
+  "buy_clothes": {
+    "title": "How to Buy New Clothes",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "\ud83d\udcad Think what you need",
+        "emoji": "\ud83d\udcad",
+        "action": "plan purchase"
+      },
+      {
+        "step": 2,
+        "instruction": "\ud83d\udcb0 Check your budget",
+        "emoji": "\ud83d\udcb0",
+        "action": "check money"
+      },
+      {
+        "step": 3,
+        "instruction": "\ud83c\udfea Go to clothing store",
+        "emoji": "\ud83c\udfea",
+        "action": "go to store"
+      },
+      {
+        "step": 4,
+        "instruction": "\ud83d\udc55 Look at clothes",
+        "emoji": "\ud83d\udc55",
+        "action": "browse items"
+      },
+      {
+        "step": 5,
+        "instruction": "\ud83d\udccf Check the size",
+        "emoji": "\ud83d\udccf",
+        "action": "find size"
+      },
+      {
+        "step": 6,
+        "instruction": "\ud83e\ude9e Try clothes on",
+        "emoji": "\ud83e\ude9e",
+        "action": "try on"
+      },
+      {
+        "step": 7,
+        "instruction": "\ud83d\udcb3 Buy if you like",
+        "emoji": "\ud83d\udcb3",
+        "action": "purchase"
+      },
+      {
+        "step": 8,
+        "instruction": "\ud83d\udecd\ufe0f Take home",
+        "emoji": "\ud83d\udecd\ufe0f",
+        "action": "bring home"
+      }
+    ]
+  },
+  "make_sandwich": {
+    "title": "How to Make a Sandwich",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "\ud83c\udf5e Get bread slices",
+        "emoji": "\ud83c\udf5e",
+        "action": "get bread"
+      },
+      {
+        "step": 2,
+        "instruction": "\ud83e\uddc8 Spread butter/mayo",
+        "emoji": "\ud83e\uddc8",
+        "action": "add spread"
+      },
+      {
+        "step": 3,
+        "instruction": "\ud83e\udd69 Add meat or protein",
+        "emoji": "\ud83e\udd69",
+        "action": "add protein"
+      },
+      {
+        "step": 4,
+        "instruction": "\ud83e\uddc0 Add cheese",
+        "emoji": "\ud83e\uddc0",
+        "action": "add cheese"
+      },
+      {
+        "step": 5,
+        "instruction": "\ud83e\udd6c Add lettuce/veggies",
+        "emoji": "\ud83e\udd6c",
+        "action": "add vegetables"
+      },
+      {
+        "step": 6,
+        "instruction": "\ud83c\udf5e Put top bread on",
+        "emoji": "\ud83c\udf5e",
+        "action": "close sandwich"
+      },
+      {
+        "step": 7,
+        "instruction": "\ud83d\udd2a Cut in half",
+        "emoji": "\ud83d\udd2a",
+        "action": "cut sandwich"
+      },
+      {
+        "step": 8,
+        "instruction": "\ud83c\udf7d\ufe0f Put on plate",
+        "emoji": "\ud83c\udf7d\ufe0f",
+        "action": "serve"
+      }
+    ]
+  },
+  "brush_teeth": {
+    "title": "How to Brush Your Teeth",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "\ud83e\udea5 Get your toothbrush",
+        "emoji": "\ud83e\udea5",
+        "action": "get brush"
+      },
+      {
+        "step": 2,
+        "instruction": "\ud83e\uddf4 Get toothpaste",
+        "emoji": "\ud83e\uddf4",
+        "action": "get paste"
+      },
+      {
+        "step": 3,
+        "instruction": "\ud83d\udca7 Wet the toothbrush",
+        "emoji": "\ud83d\udca7",
+        "action": "wet brush"
+      },
+      {
+        "step": 4,
+        "instruction": "\ud83e\udee7 Put paste on brush",
+        "emoji": "\ud83e\udee7",
+        "action": "add paste"
+      },
+      {
+        "step": 5,
+        "instruction": "\ud83e\uddb7 Brush all teeth",
+        "emoji": "\ud83e\uddb7",
+        "action": "brush teeth"
+      },
+      {
+        "step": 6,
+        "instruction": "\ud83d\udca6 Rinse your mouth",
+        "emoji": "\ud83d\udca6",
+        "action": "rinse mouth"
+      },
+      {
+        "step": 7,
+        "instruction": "\ud83e\uddfd Clean toothbrush",
+        "emoji": "\ud83e\uddfd",
+        "action": "clean brush"
+      },
+      {
+        "step": 8,
+        "instruction": "\ud83d\udccd Put brush away",
+        "emoji": "\ud83d\udccd",
+        "action": "store brush"
+      }
+    ]
+  },
+  "get_dressed": {
+    "title": "How to Get Dressed",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "\ud83d\udc55 Pick out shirt",
+        "emoji": "\ud83d\udc55",
+        "action": "choose shirt"
+      },
+      {
+        "step": 2,
+        "instruction": "\ud83d\udc56 Pick out pants",
+        "emoji": "\ud83d\udc56",
+        "action": "choose pants"
+      },
+      {
+        "step": 3,
+        "instruction": "\ud83e\udde6 Get socks",
+        "emoji": "\ud83e\udde6",
+        "action": "get socks"
+      },
+      {
+        "step": 4,
+        "instruction": "\ud83e\ude72 Put on underwear",
+        "emoji": "\ud83e\ude72",
+        "action": "put on underwear"
+      },
+      {
+        "step": 5,
+        "instruction": "\ud83d\udc55 Put on shirt",
+        "emoji": "\ud83d\udc55",
+        "action": "put on shirt"
+      },
+      {
+        "step": 6,
+        "instruction": "\ud83d\udc56 Put on pants",
+        "emoji": "\ud83d\udc56",
+        "action": "put on pants"
+      },
+      {
+        "step": 7,
+        "instruction": "\ud83e\udde6 Put on socks",
+        "emoji": "\ud83e\udde6",
+        "action": "put on socks"
+      },
+      {
+        "step": 8,
+        "instruction": "\ud83d\udc5f Put on shoes",
+        "emoji": "\ud83d\udc5f",
+        "action": "put on shoes"
+      }
+    ]
+  },
+  "take_bus": {
+    "title": "How to Take the Bus",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "\ud83d\udcf1 Check bus schedule",
+        "emoji": "\ud83d\udcf1",
+        "action": "check times"
+      },
+      {
+        "step": 2,
+        "instruction": "\ud83d\udcb0 Get bus fare ready",
+        "emoji": "\ud83d\udcb0",
+        "action": "prepare money"
+      },
+      {
+        "step": 3,
+        "instruction": "\ud83d\ude8f Go to bus stop",
+        "emoji": "\ud83d\ude8f",
+        "action": "go to stop"
+      },
+      {
+        "step": 4,
+        "instruction": "\u23f0 Wait for bus",
+        "emoji": "\u23f0",
+        "action": "wait"
+      },
+      {
+        "step": 5,
+        "instruction": "\ud83d\udc4b Signal the bus",
+        "emoji": "\ud83d\udc4b",
+        "action": "wave to bus"
+      },
+      {
+        "step": 6,
+        "instruction": "\ud83d\ude8c Get on bus",
+        "emoji": "\ud83d\ude8c",
+        "action": "board bus"
+      },
+      {
+        "step": 7,
+        "instruction": "\ud83d\udcb3 Pay the fare",
+        "emoji": "\ud83d\udcb3",
+        "action": "pay driver"
+      },
+      {
+        "step": 8,
+        "instruction": "\ud83d\udcba Find a seat",
+        "emoji": "\ud83d\udcba",
+        "action": "sit down"
+      },
+      {
+        "step": 9,
+        "instruction": "\ud83d\udd14 Ring bell for stop",
+        "emoji": "\ud83d\udd14",
+        "action": "signal stop"
+      },
+      {
+        "step": 10,
+        "instruction": "\ud83d\udeaa Exit at your stop",
+        "emoji": "\ud83d\udeaa",
+        "action": "get off"
+      }
+    ]
+  }
+}

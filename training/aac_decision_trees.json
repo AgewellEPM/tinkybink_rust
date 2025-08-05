@@ -1,0 +1,181 @@
+{
+  "general_question": {
+    "type": "question_classifier",
+    "question_type": "general_question",
+    "decision_logic": {},
+    "fallback_responses": []
+  },
+  "yes_no_question": {
+    "type": "question_classifier",
+    "question_type": "yes_no_question",
+    "decision_logic": {
+      "primary_responses": [
+        "Yes",
+        "No"
+      ],
+      "elaboration_responses": [
+        "I'm doing quite well today",
+        "Having a difficult day",
+        "Could I have some water please?",
+        "I need assistance with this",
+        "I'd like to rest for a bit"
+      ],
+      "emotional_responses": [
+        "Very happy!",
+        "Very happy!",
+        "Very happy!",
+        "Very happy!",
+        "Very happy!",
+        "Scared",
+        "Scared.",
+        "Scared",
+        "Tired",
+        "Feeling tired"
+      ]
+    },
+    "fallback_responses": []
+  },
+  "preference_question": {
+    "type": "question_classifier",
+    "question_type": "preference_question",
+    "decision_logic": {},
+    "fallback_responses": []
+  },
+  "medical_question": {
+    "type": "question_classifier",
+    "question_type": "medical_question",
+    "decision_logic": {},
+    "fallback_responses": []
+  },
+  "emotion_question": {
+    "type": "question_classifier",
+    "question_type": "emotion_question",
+    "decision_logic": {
+      "emotion_scale": [
+        "Great",
+        "Good",
+        "Okay",
+        "Not good",
+        "Bad"
+      ],
+      "specific_emotions": []
+    },
+    "fallback_responses": []
+  },
+  "choice_question": {
+    "type": "question_classifier",
+    "question_type": "choice_question",
+    "decision_logic": {
+      "extract_choices": true,
+      "add_maybe_option": true,
+      "add_none_option": true
+    },
+    "fallback_responses": []
+  },
+  "timing_question": {
+    "type": "question_classifier",
+    "question_type": "timing_question",
+    "decision_logic": {},
+    "fallback_responses": []
+  },
+  "activity_question": {
+    "type": "question_classifier",
+    "question_type": "activity_question",
+    "decision_logic": {},
+    "fallback_responses": []
+  },
+  "context_happy": {
+    "type": "context_responder",
+    "context_word": "happy",
+    "response_patterns": [
+      "Very happy!",
+      "I'm silly",
+      "Feel good",
+      "Love you"
+    ]
+  },
+  "context_friend": {
+    "type": "context_responder",
+    "context_word": "friend",
+    "response_patterns": [
+      "Hide and seek?",
+      "Show my room",
+      "Play together!",
+      "My toys"
+    ]
+  },
+  "context_bath": {
+    "type": "context_responder",
+    "context_word": "bath",
+    "response_patterns": [
+      "Right now.",
+      "Can wait.",
+      "Need help.",
+      "Emergency."
+    ]
+  },
+  "context_pain": {
+    "type": "context_responder",
+    "context_word": "pain",
+    "response_patterns": [
+      "No pain",
+      "Mild pain",
+      "Moderate",
+      "Severe pain"
+    ]
+  },
+  "context_doctor": {
+    "type": "context_responder",
+    "context_word": "doctor",
+    "response_patterns": [
+      "What for?",
+      "Okay",
+      "Not ready",
+      "Need family here"
+    ]
+  },
+  "context_therapy": {
+    "type": "context_responder",
+    "context_word": "therapy",
+    "response_patterns": [
+      "Yes",
+      "Good progress",
+      "Very hard",
+      "Exhausting"
+    ]
+  },
+  "context_eat": {
+    "type": "context_responder",
+    "context_word": "eat",
+    "response_patterns": [
+      "Something soft",
+      "Not hungry",
+      "You choose",
+      "Same as yesterday"
+    ]
+  },
+  "context_bed": {
+    "type": "context_responder",
+    "context_word": "bed",
+    "response_patterns": [
+      "Yes",
+      "Not tired",
+      "Read first",
+      "In a bit"
+    ]
+  },
+  "user_adult": {
+    "type": "user_adaptation",
+    "user_type": "adult",
+    "complexity_level": "high",
+    "vocabulary_style": "professional",
+    "response_length": "medium"
+  },
+  "user_general": {
+    "type": "user_adaptation",
+    "user_type": "general",
+    "complexity_level": "medium",
+    "vocabulary_style": "neutral",
+    "response_length": "short"
+  }
+}

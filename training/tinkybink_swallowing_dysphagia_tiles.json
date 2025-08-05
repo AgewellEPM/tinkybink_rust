@@ -1,0 +1,1105 @@
+{
+  "category": "🍽️ Swallowing & Dysphagia",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Oral preparation",
+      "steps": [
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "prepare", "emoji": "📋"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "ready", "emoji": "✅"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chewing practice",
+      "steps": [
+        {"word": "chew", "emoji": "😬"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "grind", "emoji": "⚙️"},
+        {"word": "small", "emoji": "🤏"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Tongue movement",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "move", "emoji": "↔️"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "around", "emoji": "🔄"},
+        {"word": "mouth", "emoji": "👄"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bolus formation",
+      "steps": [
+        {"word": "food", "emoji": "🍎"},
+        {"word": "ball", "emoji": "⚪"},
+        {"word": "form", "emoji": "📐"},
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Saliva mixing",
+      "steps": [
+        {"word": "saliva", "emoji": "💧"},
+        {"word": "mix", "emoji": "🌀"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "moist", "emoji": "💧"},
+        {"word": "easier", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Oral transit",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "push", "emoji": "🫸"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "throat", "emoji": "🫱"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Swallow trigger",
+      "steps": [
+        {"word": "trigger", "emoji": "⚡"},
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "reflex", "emoji": "⚡"},
+        {"word": "automatic", "emoji": "🤖"},
+        {"word": "response", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Pharyngeal phase",
+      "steps": [
+        {"word": "pharynx", "emoji": "🫱"},
+        {"word": "throat", "emoji": "🫱"},
+        {"word": "muscles", "emoji": "💪"},
+        {"word": "squeeze", "emoji": "🤗"},
+        {"word": "down", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Laryngeal elevation",
+      "steps": [
+        {"word": "larynx", "emoji": "🗣️"},
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "close", "emoji": "📪"},
+        {"word": "airway", "emoji": "🫁"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Esophageal phase",
+      "steps": [
+        {"word": "esophagus", "emoji": "🫁"},
+        {"word": "tube", "emoji": "🔗"},
+        {"word": "squeeze", "emoji": "🤗"},
+        {"word": "stomach", "emoji": "🤰"},
+        {"word": "food", "emoji": "🍎"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Chin tuck",
+      "steps": [
+        {"word": "chin", "emoji": "😊"},
+        {"word": "tuck", "emoji": "⬇️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "airway", "emoji": "🫁"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Head turn",
+      "steps": [
+        {"word": "head", "emoji": "🗣️"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "side", "emoji": "↔️"},
+        {"word": "weak", "emoji": "😞"},
+        {"word": "stronger", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Head tilt",
+      "steps": [
+        {"word": "head", "emoji": "🗣️"},
+        {"word": "tilt", "emoji": "📐"},
+        {"word": "side", "emoji": "↔️"},
+        {"word": "gravity", "emoji": "⬇️"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Supraglottic swallow",
+      "steps": [
+        {"word": "breath", "emoji": "🫁"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "cough", "emoji": "😷"},
+        {"word": "clear", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Super-supraglottic",
+      "steps": [
+        {"word": "breath", "emoji": "🫁"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "bear", "emoji": "🐻"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Effortful swallow",
+      "steps": [
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "hard", "emoji": "💪"},
+        {"word": "effort", "emoji": "💪"},
+        {"word": "squeeze", "emoji": "🤗"},
+        {"word": "muscles", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Mendelsohn maneuver",
+      "steps": [
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "larynx", "emoji": "🗣️"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "longer", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Masako maneuver",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "between", "emoji": "↔️"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Shaker exercise",
+      "steps": [
+        {"word": "lie", "emoji": "😴"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "head", "emoji": "🗣️"},
+        {"word": "strengthen", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Thermal stimulation",
+      "steps": [
+        {"word": "cold", "emoji": "🧊"},
+        {"word": "spoon", "emoji": "🥄"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "trigger", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Tongue exercises",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "exercises", "emoji": "💪"},
+        {"word": "strong", "emoji": "💪"},
+        {"word": "flexible", "emoji": "🤸"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Tongue protrusion",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "stick", "emoji": "📍"},
+        {"word": "out", "emoji": "📤"},
+        {"word": "far", "emoji": "↔️"},
+        {"word": "hold", "emoji": "✊"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Tongue lateralization",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "move", "emoji": "↔️"},
+        {"word": "side", "emoji": "↔️"},
+        {"word": "side", "emoji": "↔️"},
+        {"word": "corner", "emoji": "📐"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Tongue elevation",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "roof", "emoji": "🏠"},
+        {"word": "mouth", "emoji": "👄"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Tongue depression",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "push", "emoji": "🫸"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "floor", "emoji": "🟫"},
+        {"word": "mouth", "emoji": "👄"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Tongue resistance",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "push", "emoji": "🫸"},
+        {"word": "against", "emoji": "🚧"},
+        {"word": "spoon", "emoji": "🥄"},
+        {"word": "resist", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Jaw exercises",
+      "steps": [
+        {"word": "jaw", "emoji": "😬"},
+        {"word": "open", "emoji": "😮"},
+        {"word": "close", "emoji": "😐"},
+        {"word": "move", "emoji": "↔️"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Jaw range of motion",
+      "steps": [
+        {"word": "jaw", "emoji": "😬"},
+        {"word": "range", "emoji": "📊"},
+        {"word": "motion", "emoji": "🏃"},
+        {"word": "wide", "emoji": "📏"},
+        {"word": "open", "emoji": "😮"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Lip exercises",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "pucker", "emoji": "😗"},
+        {"word": "spread", "emoji": "📏"},
+        {"word": "strong", "emoji": "💪"},
+        {"word": "seal", "emoji": "🔒"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Lip closure",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "close", "emoji": "📪"},
+        {"word": "tight", "emoji": "🤏"},
+        {"word": "seal", "emoji": "🔒"},
+        {"word": "prevent", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Cheek exercises",
+      "steps": [
+        {"word": "cheeks", "emoji": "😊"},
+        {"word": "puff", "emoji": "💨"},
+        {"word": "out", "emoji": "📤"},
+        {"word": "air", "emoji": "🌬️"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Laryngeal elevation",
+      "steps": [
+        {"word": "larynx", "emoji": "🗣️"},
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "Adam's", "emoji": "🍎"},
+        {"word": "apple", "emoji": "🍎"},
+        {"word": "up", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Falsetto exercise",
+      "steps": [
+        {"word": "falsetto", "emoji": "🎵"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "larynx", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Vocal cord closure",
+      "steps": [
+        {"word": "vocal", "emoji": "🗣️"},
+        {"word": "cords", "emoji": "🎵"},
+        {"word": "close", "emoji": "📪"},
+        {"word": "tight", "emoji": "🤏"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Cough reflex",
+      "steps": [
+        {"word": "cough", "emoji": "😷"},
+        {"word": "reflex", "emoji": "⚡"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "airway", "emoji": "🫁"},
+        {"word": "clear", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Voluntary cough",
+      "steps": [
+        {"word": "cough", "emoji": "😷"},
+        {"word": "purpose", "emoji": "🎯"},
+        {"word": "clear", "emoji": "💡"},
+        {"word": "throat", "emoji": "🫱"},
+        {"word": "strong", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Throat clearing",
+      "steps": [
+        {"word": "throat", "emoji": "🫱"},
+        {"word": "clear", "emoji": "💡"},
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "remove", "emoji": "🗑️"},
+        {"word": "residue", "emoji": "🍽️"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Multiple swallows",
+      "steps": [
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "twice", "emoji": "2️⃣"},
+        {"word": "clear", "emoji": "💡"},
+        {"word": "residue", "emoji": "🍽️"},
+        {"word": "complete", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Dry swallow",
+      "steps": [
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "saliva", "emoji": "💧"},
+        {"word": "only", "emoji": "1️⃣"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Liquid consistency",
+      "steps": [
+        {"word": "liquid", "emoji": "💧"},
+        {"word": "thin", "emoji": "📐"},
+        {"word": "thick", "emoji": "🫗"},
+        {"word": "nectar", "emoji": "🍯"},
+        {"word": "honey", "emoji": "🍯"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Nectar thick",
+      "steps": [
+        {"word": "nectar", "emoji": "🍯"},
+        {"word": "thick", "emoji": "🫗"},
+        {"word": "liquid", "emoji": "💧"},
+        {"word": "slower", "emoji": "🐌"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Honey thick",
+      "steps": [
+        {"word": "honey", "emoji": "🍯"},
+        {"word": "thick", "emoji": "🫗"},
+        {"word": "liquid", "emoji": "💧"},
+        {"word": "very", "emoji": "➕"},
+        {"word": "slow", "emoji": "🐌"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Pudding thick",
+      "steps": [
+        {"word": "pudding", "emoji": "🍮"},
+        {"word": "thick", "emoji": "🫗"},
+        {"word": "spoon", "emoji": "🥄"},
+        {"word": "thick", "emoji": "🫗"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Texture modification",
+      "steps": [
+        {"word": "texture", "emoji": "🤚"},
+        {"word": "modify", "emoji": "🔧"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "easier", "emoji": "😌"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Pureed food",
+      "steps": [
+        {"word": "pureed", "emoji": "🥄"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "smooth", "emoji": "✨"},
+        {"word": "no", "emoji": "❌"},
+        {"word": "lumps", "emoji": "⚫"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Minced food",
+      "steps": [
+        {"word": "minced", "emoji": "✂️"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "small", "emoji": "🤏"},
+        {"word": "pieces", "emoji": "🧩"},
+        {"word": "moist", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Soft food",
+      "steps": [
+        {"word": "soft", "emoji": "🧸"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "fork", "emoji": "🍴"},
+        {"word": "mash", "emoji": "🥔"},
+        {"word": "easy", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Regular diet",
+      "steps": [
+        {"word": "regular", "emoji": "😊"},
+        {"word": "diet", "emoji": "🥗"},
+        {"word": "normal", "emoji": "😊"},
+        {"word": "texture", "emoji": "🤚"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Safe swallowing",
+      "steps": [
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "swallowing", "emoji": "😋"},
+        {"word": "no", "emoji": "❌"},
+        {"word": "aspiration", "emoji": "🫁"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Aspiration risk",
+      "steps": [
+        {"word": "aspiration", "emoji": "🫁"},
+        {"word": "risk", "emoji": "⚠️"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "lungs", "emoji": "🫁"},
+        {"word": "dangerous", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Silent aspiration",
+      "steps": [
+        {"word": "silent", "emoji": "🤫"},
+        {"word": "aspiration", "emoji": "🫁"},
+        {"word": "no", "emoji": "❌"},
+        {"word": "cough", "emoji": "😷"},
+        {"word": "hidden", "emoji": "🫣"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Penetration",
+      "steps": [
+        {"word": "penetration", "emoji": "📍"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "airway", "emoji": "🫁"},
+        {"word": "above", "emoji": "⬆️"},
+        {"word": "cords", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Residue management",
+      "steps": [
+        {"word": "residue", "emoji": "🍽️"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "left", "emoji": "⬅️"},
+        {"word": "throat", "emoji": "🫱"},
+        {"word": "clear", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Oral hygiene",
+      "steps": [
+        {"word": "oral", "emoji": "👄"},
+        {"word": "hygiene", "emoji": "🧼"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "healthy", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Denture care",
+      "steps": [
+        {"word": "dentures", "emoji": "🦷"},
+        {"word": "fit", "emoji": "🧩"},
+        {"word": "properly", "emoji": "👌"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "secure", "emoji": "🔒"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Positioning",
+      "steps": [
+        {"word": "sitting", "emoji": "🪑"},
+        {"word": "upright", "emoji": "🧍"},
+        {"word": "90", "emoji": "🔢"},
+        {"word": "degrees", "emoji": "📐"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Meal pacing",
+      "steps": [
+        {"word": "eat", "emoji": "🍽️"},
+        {"word": "slowly", "emoji": "🐌"},
+        {"word": "small", "emoji": "🤏"},
+        {"word": "bites", "emoji": "😬"},
+        {"word": "pace", "emoji": "👣"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Environmental setup",
+      "steps": [
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "environment", "emoji": "🌍"},
+        {"word": "no", "emoji": "❌"},
+        {"word": "distractions", "emoji": "📱"},
+        {"word": "focus", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Feeding assistance",
+      "steps": [
+        {"word": "help", "emoji": "🆘"},
+        {"word": "feeding", "emoji": "🍽️"},
+        {"word": "caregiver", "emoji": "👩‍⚕️"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Swallow study",
+      "steps": [
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "study", "emoji": "📚"},
+        {"word": "x-ray", "emoji": "📷"},
+        {"word": "video", "emoji": "📹"},
+        {"word": "evaluate", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Barium swallow",
+      "steps": [
+        {"word": "barium", "emoji": "🧪"},
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "liquid", "emoji": "💧"},
+        {"word": "x-ray", "emoji": "📷"},
+        {"word": "visible", "emoji": "👁️"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "FEES evaluation",
+      "steps": [
+        {"word": "FEES", "emoji": "📷"},
+        {"word": "camera", "emoji": "📷"},
+        {"word": "nose", "emoji": "👃"},
+        {"word": "throat", "emoji": "🫱"},
+        {"word": "evaluate", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Clinical assessment",
+      "steps": [
+        {"word": "clinical", "emoji": "🏥"},
+        {"word": "assessment", "emoji": "📊"},
+        {"word": "examine", "emoji": "👁️"},
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "function", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Oral motor exam",
+      "steps": [
+        {"word": "oral", "emoji": "👄"},
+        {"word": "motor", "emoji": "🏃"},
+        {"word": "exam", "emoji": "📊"},
+        {"word": "muscles", "emoji": "💪"},
+        {"word": "movement", "emoji": "🏃"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Cognitive screening",
+      "steps": [
+        {"word": "cognitive", "emoji": "🧠"},
+        {"word": "screening", "emoji": "🔍"},
+        {"word": "thinking", "emoji": "🤔"},
+        {"word": "memory", "emoji": "🧠"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Nutritional status",
+      "steps": [
+        {"word": "nutrition", "emoji": "🥗"},
+        {"word": "status", "emoji": "📊"},
+        {"word": "weight", "emoji": "⚖️"},
+        {"word": "health", "emoji": "💪"},
+        {"word": "monitor", "emoji": "📺"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Hydration status",
+      "steps": [
+        {"word": "hydration", "emoji": "💧"},
+        {"word": "status", "emoji": "📊"},
+        {"word": "fluids", "emoji": "💧"},
+        {"word": "enough", "emoji": "📊"},
+        {"word": "monitor", "emoji": "📺"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Weight monitoring",
+      "steps": [
+        {"word": "weight", "emoji": "⚖️"},
+        {"word": "monitor", "emoji": "📺"},
+        {"word": "track", "emoji": "📊"},
+        {"word": "changes", "emoji": "🔄"},
+        {"word": "nutrition", "emoji": "🥗"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Tube feeding",
+      "steps": [
+        {"word": "tube", "emoji": "🔗"},
+        {"word": "feeding", "emoji": "🍽️"},
+        {"word": "nutrition", "emoji": "🥗"},
+        {"word": "bypass", "emoji": "↔️"},
+        {"word": "mouth", "emoji": "👄"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "PEG tube",
+      "steps": [
+        {"word": "PEG", "emoji": "🔗"},
+        {"word": "tube", "emoji": "🔗"},
+        {"word": "stomach", "emoji": "🤰"},
+        {"word": "direct", "emoji": "➡️"},
+        {"word": "feeding", "emoji": "🍽️"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "NG tube",
+      "steps": [
+        {"word": "NG", "emoji": "🔗"},
+        {"word": "tube", "emoji": "🔗"},
+        {"word": "nose", "emoji": "👃"},
+        {"word": "stomach", "emoji": "🤰"},
+        {"word": "temporary", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Oral stimulation",
+      "steps": [
+        {"word": "oral", "emoji": "👄"},
+        {"word": "stimulation", "emoji": "⚡"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "wake", "emoji": "👋"},
+        {"word": "up", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Sensory awareness",
+      "steps": [
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "awareness", "emoji": "👁️"},
+        {"word": "feel", "emoji": "🫳"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "mouth", "emoji": "👄"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Taste enhancement",
+      "steps": [
+        {"word": "taste", "emoji": "👅"},
+        {"word": "enhance", "emoji": "⬆️"},
+        {"word": "flavor", "emoji": "😋"},
+        {"word": "stronger", "emoji": "💪"},
+        {"word": "enjoy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Temperature variation",
+      "steps": [
+        {"word": "temperature", "emoji": "🌡️"},
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "cold", "emoji": "🧊"},
+        {"word": "stimulate", "emoji": "⚡"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Carbonated drinks",
+      "steps": [
+        {"word": "carbonated", "emoji": "🫧"},
+        {"word": "drinks", "emoji": "🥤"},
+        {"word": "bubbles", "emoji": "🫧"},
+        {"word": "stimulate", "emoji": "⚡"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Sour bolus",
+      "steps": [
+        {"word": "sour", "emoji": "😝"},
+        {"word": "taste", "emoji": "👅"},
+        {"word": "lemon", "emoji": "🍋"},
+        {"word": "stimulate", "emoji": "⚡"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Oral care",
+      "steps": [
+        {"word": "oral", "emoji": "👄"},
+        {"word": "care", "emoji": "🤗"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "healthy", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Secretion management",
+      "steps": [
+        {"word": "secretions", "emoji": "💧"},
+        {"word": "saliva", "emoji": "💧"},
+        {"word": "manage", "emoji": "⚖️"},
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "clear", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Drooling control",
+      "steps": [
+        {"word": "drooling", "emoji": "🤤"},
+        {"word": "control", "emoji": "🎮"},
+        {"word": "lips", "emoji": "👄"},
+        {"word": "closed", "emoji": "📪"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Medication effects",
+      "steps": [
+        {"word": "medication", "emoji": "💊"},
+        {"word": "effects", "emoji": "💥"},
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "function", "emoji": "🔧"},
+        {"word": "review", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Thickening agents",
+      "steps": [
+        {"word": "thickening", "emoji": "🫗"},
+        {"word": "agents", "emoji": "🧪"},
+        {"word": "powder", "emoji": "🧂"},
+        {"word": "liquids", "emoji": "💧"},
+        {"word": "safer", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Adaptive equipment",
+      "steps": [
+        {"word": "adaptive", "emoji": "🔧"},
+        {"word": "equipment", "emoji": "🔧"},
+        {"word": "spoons", "emoji": "🥄"},
+        {"word": "cups", "emoji": "🥤"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Dysphagia diet",
+      "steps": [
+        {"word": "dysphagia", "emoji": "😋"},
+        {"word": "diet", "emoji": "🥗"},
+        {"word": "levels", "emoji": "📊"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "IDDSI levels",
+      "steps": [
+        {"word": "IDDSI", "emoji": "📊"},
+        {"word": "levels", "emoji": "📊"},
+        {"word": "international", "emoji": "🌍"},
+        {"word": "standards", "emoji": "📋"},
+        {"word": "dysphagia", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Family education",
+      "steps": [
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "education", "emoji": "📚"},
+        {"word": "teach", "emoji": "📚"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "feeding", "emoji": "🍽️"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Caregiver training",
+      "steps": [
+        {"word": "caregiver", "emoji": "👩‍⚕️"},
+        {"word": "training", "emoji": "📚"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "techniques", "emoji": "🔧"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Signs of aspiration",
+      "steps": [
+        {"word": "signs", "emoji": "⚠️"},
+        {"word": "aspiration", "emoji": "🫁"},
+        {"word": "coughing", "emoji": "😷"},
+        {"word": "choking", "emoji": "😵"},
+        {"word": "watch", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Emergency procedures",
+      "steps": [
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "procedures", "emoji": "📋"},
+        {"word": "choking", "emoji": "😵"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "quickly", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Progress monitoring",
+      "steps": [
+        {"word": "progress", "emoji": "📈"},
+        {"word": "monitor", "emoji": "📺"},
+        {"word": "track", "emoji": "📊"},
+        {"word": "improvement", "emoji": "⬆️"},
+        {"word": "goals", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Swallow goals",
+      "steps": [
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "efficient", "emoji": "⚡"},
+        {"word": "functional", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Quality of life",
+      "steps": [
+        {"word": "quality", "emoji": "⭐"},
+        {"word": "life", "emoji": "💖"},
+        {"word": "eating", "emoji": "🍽️"},
+        {"word": "enjoyment", "emoji": "😊"},
+        {"word": "social", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Social eating",
+      "steps": [
+        {"word": "social", "emoji": "👥"},
+        {"word": "eating", "emoji": "🍽️"},
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "friends", "emoji": "👫"},
+        {"word": "together", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Meal enjoyment",
+      "steps": [
+        {"word": "meal", "emoji": "🍽️"},
+        {"word": "enjoyment", "emoji": "😊"},
+        {"word": "pleasure", "emoji": "😄"},
+        {"word": "taste", "emoji": "👅"},
+        {"word": "happy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Independence",
+      "steps": [
+        {"word": "independence", "emoji": "💪"},
+        {"word": "self", "emoji": "🙋"},
+        {"word": "feeding", "emoji": "🍽️"},
+        {"word": "confidence", "emoji": "💪"},
+        {"word": "autonomy", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Swallow safety",
+      "steps": [
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "safety", "emoji": "🛡️"},
+        {"word": "first", "emoji": "1️⃣"},
+        {"word": "priority", "emoji": "🎯"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Therapy compliance",
+      "steps": [
+        {"word": "therapy", "emoji": "💬"},
+        {"word": "compliance", "emoji": "✅"},
+        {"word": "follow", "emoji": "👣"},
+        {"word": "recommendations", "emoji": "📋"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Home program",
+      "steps": [
+        {"word": "home", "emoji": "🏠"},
+        {"word": "program", "emoji": "📋"},
+        {"word": "exercises", "emoji": "💪"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "daily", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Long-term management",
+      "steps": [
+        {"word": "long", "emoji": "📏"},
+        {"word": "term", "emoji": "📅"},
+        {"word": "management", "emoji": "⚖️"},
+        {"word": "ongoing", "emoji": "🔄"},
+        {"word": "care", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Swallow success",
+      "steps": [
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "success", "emoji": "🏆"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "functional", "emoji": "🔧"},
+        {"word": "happy", "emoji": "😊"}
+      ]
+    }
+  ]
+}

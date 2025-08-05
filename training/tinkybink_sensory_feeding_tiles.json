@@ -1,0 +1,1105 @@
+{
+  "category": "🌟 Sensory & Feeding",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Explore textured foods",
+      "steps": [
+        {"word": "food", "emoji": "🍎"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "feel", "emoji": "🫳"},
+        {"word": "texture", "emoji": "🤚"},
+        {"word": "explore", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Try new taste",
+      "steps": [
+        {"word": "new", "emoji": "🆕"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "small", "emoji": "🤏"},
+        {"word": "taste", "emoji": "👅"},
+        {"word": "try", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Smell before eating",
+      "steps": [
+        {"word": "food", "emoji": "🍎"},
+        {"word": "nose", "emoji": "👃"},
+        {"word": "smell", "emoji": "👃"},
+        {"word": "sniff", "emoji": "👃"},
+        {"word": "then", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chew slowly",
+      "steps": [
+        {"word": "food", "emoji": "🍎"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "chew", "emoji": "😬"},
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Use utensils",
+      "steps": [
+        {"word": "fork", "emoji": "🍴"},
+        {"word": "spoon", "emoji": "🥄"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "scoop", "emoji": "🥄"},
+        {"word": "eat", "emoji": "🍽️"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Drink from cup",
+      "steps": [
+        {"word": "cup", "emoji": "🥤"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "tilt", "emoji": "🔄"},
+        {"word": "sip", "emoji": "🥤"},
+        {"word": "swallow", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Use straw",
+      "steps": [
+        {"word": "straw", "emoji": "🥤"},
+        {"word": "lips", "emoji": "👄"},
+        {"word": "suck", "emoji": "💨"},
+        {"word": "drink", "emoji": "🥤"},
+        {"word": "up", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Wipe mouth",
+      "steps": [
+        {"word": "messy", "emoji": "🫨"},
+        {"word": "napkin", "emoji": "🧻"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "wipe", "emoji": "🫱"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Deep pressure input",
+      "steps": [
+        {"word": "squeeze", "emoji": "🤗"},
+        {"word": "tight", "emoji": "💪"},
+        {"word": "hug", "emoji": "🤗"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "pressure", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Fidget with toy",
+      "steps": [
+        {"word": "fidget", "emoji": "🎯"},
+        {"word": "toy", "emoji": "🧸"},
+        {"word": "squeeze", "emoji": "✊"},
+        {"word": "focus", "emoji": "🧠"},
+        {"word": "calm", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Listen to calming music",
+      "steps": [
+        {"word": "music", "emoji": "🎵"},
+        {"word": "quiet", "emoji": "🔇"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "calm", "emoji": "🧘"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Use noise-canceling headphones",
+      "steps": [
+        {"word": "loud", "emoji": "🔊"},
+        {"word": "headphones", "emoji": "🎧"},
+        {"word": "on", "emoji": "⬇️"},
+        {"word": "quiet", "emoji": "🔇"},
+        {"word": "better", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Rock back and forth",
+      "steps": [
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "rock", "emoji": "↔️"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "forth", "emoji": "➡️"},
+        {"word": "soothe", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Swing for input",
+      "steps": [
+        {"word": "swing", "emoji": "🎠"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "move", "emoji": "↔️"},
+        {"word": "vestibular", "emoji": "🌀"},
+        {"word": "calm", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bounce on ball",
+      "steps": [
+        {"word": "ball", "emoji": "⚪"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "bounce", "emoji": "⬆️⬇️"},
+        {"word": "movement", "emoji": "🏃"},
+        {"word": "regulate", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Spin in chair",
+      "steps": [
+        {"word": "chair", "emoji": "🪑"},
+        {"word": "spin", "emoji": "🌀"},
+        {"word": "round", "emoji": "🔄"},
+        {"word": "dizzy", "emoji": "😵‍💫"},
+        {"word": "stop", "emoji": "🛑"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Play with playdough",
+      "steps": [
+        {"word": "dough", "emoji": "🟡"},
+        {"word": "squeeze", "emoji": "✊"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "input", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Use sensory bin",
+      "steps": [
+        {"word": "bin", "emoji": "📦"},
+        {"word": "rice", "emoji": "🍚"},
+        {"word": "hands", "emoji": "🙌"},
+        {"word": "dig", "emoji": "⛏️"},
+        {"word": "explore", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Brush skin",
+      "steps": [
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "soft", "emoji": "🧸"},
+        {"word": "arm", "emoji": "💪"},
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "sensory", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Use weighted blanket",
+      "steps": [
+        {"word": "blanket", "emoji": "🛌"},
+        {"word": "heavy", "emoji": "⚖️"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "pressure", "emoji": "⬇️"},
+        {"word": "calm", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Temperature exploration",
+      "steps": [
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "cold", "emoji": "🧊"},
+        {"word": "warm", "emoji": "☀️"},
+        {"word": "feel", "emoji": "🫳"},
+        {"word": "different", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Light dimming",
+      "steps": [
+        {"word": "bright", "emoji": "💡"},
+        {"word": "lights", "emoji": "💡"},
+        {"word": "dim", "emoji": "🌙"},
+        {"word": "soft", "emoji": "🌙"},
+        {"word": "comfortable", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Use sunglasses",
+      "steps": [
+        {"word": "bright", "emoji": "☀️"},
+        {"word": "sunglasses", "emoji": "🕶️"},
+        {"word": "eyes", "emoji": "👀"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "better", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Jump on trampoline",
+      "steps": [
+        {"word": "trampoline", "emoji": "🦘"},
+        {"word": "jump", "emoji": "🦘"},
+        {"word": "bounce", "emoji": "⬆️⬇️"},
+        {"word": "sensory", "emoji": "🧠"},
+        {"word": "input", "emoji": "💥"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Crash into pillows",
+      "steps": [
+        {"word": "pillows", "emoji": "🛏️"},
+        {"word": "soft", "emoji": "🧸"},
+        {"word": "run", "emoji": "🏃"},
+        {"word": "crash", "emoji": "💥"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Push heavy object",
+      "steps": [
+        {"word": "heavy", "emoji": "⚖️"},
+        {"word": "box", "emoji": "📦"},
+        {"word": "push", "emoji": "🫸"},
+        {"word": "work", "emoji": "💪"},
+        {"word": "proprioception", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Pull rope",
+      "steps": [
+        {"word": "rope", "emoji": "🧵"},
+        {"word": "grab", "emoji": "✊"},
+        {"word": "pull", "emoji": "⬅️"},
+        {"word": "strong", "emoji": "💪"},
+        {"word": "resistance", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Carry heavy items",
+      "steps": [
+        {"word": "heavy", "emoji": "⚖️"},
+        {"word": "books", "emoji": "📚"},
+        {"word": "carry", "emoji": "🎒"},
+        {"word": "work", "emoji": "💪"},
+        {"word": "muscles", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Animal walks",
+      "steps": [
+        {"word": "bear", "emoji": "🐻"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "hands", "emoji": "🙌"},
+        {"word": "feet", "emoji": "🦶"},
+        {"word": "crawl", "emoji": "👶"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Wall pushes",
+      "steps": [
+        {"word": "wall", "emoji": "🧱"},
+        {"word": "hands", "emoji": "🙌"},
+        {"word": "push", "emoji": "🫸"},
+        {"word": "hard", "emoji": "💪"},
+        {"word": "strong", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Finger foods practice",
+      "steps": [
+        {"word": "small", "emoji": "🤏"},
+        {"word": "pieces", "emoji": "🧩"},
+        {"word": "fingers", "emoji": "🖐️"},
+        {"word": "pick", "emoji": "🤏"},
+        {"word": "eat", "emoji": "🍽️"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Self-feed with spoon",
+      "steps": [
+        {"word": "spoon", "emoji": "🥄"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "scoop", "emoji": "🥄"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "independent", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Drink without help",
+      "steps": [
+        {"word": "cup", "emoji": "🥤"},
+        {"word": "both", "emoji": "🙌"},
+        {"word": "hands", "emoji": "🙌"},
+        {"word": "drink", "emoji": "🥤"},
+        {"word": "myself", "emoji": "🙋"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Chew tough foods",
+      "steps": [
+        {"word": "chewy", "emoji": "😬"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "jaw", "emoji": "😬"},
+        {"word": "work", "emoji": "💪"},
+        {"word": "strong", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Blow bubbles",
+      "steps": [
+        {"word": "bubbles", "emoji": "🫧"},
+        {"word": "lips", "emoji": "👄"},
+        {"word": "blow", "emoji": "💨"},
+        {"word": "gentle", "emoji": "🌬️"},
+        {"word": "oral", "emoji": "👄"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Use sippy cup",
+      "steps": [
+        {"word": "sippy", "emoji": "🧃"},
+        {"word": "cup", "emoji": "🥤"},
+        {"word": "suck", "emoji": "💨"},
+        {"word": "drink", "emoji": "🥤"},
+        {"word": "practice", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Lick lollipop",
+      "steps": [
+        {"word": "lollipop", "emoji": "🍭"},
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "lick", "emoji": "👅"},
+        {"word": "taste", "emoji": "😋"},
+        {"word": "oral", "emoji": "👄"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Bite and chew",
+      "steps": [
+        {"word": "food", "emoji": "🍎"},
+        {"word": "bite", "emoji": "😬"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "chew", "emoji": "😬"},
+        {"word": "swallow", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Texture tolerance",
+      "steps": [
+        {"word": "bumpy", "emoji": "🥒"},
+        {"word": "smooth", "emoji": "🍌"},
+        {"word": "rough", "emoji": "🥕"},
+        {"word": "try", "emoji": "💪"},
+        {"word": "tolerate", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Mixed textures",
+      "steps": [
+        {"word": "soup", "emoji": "🍲"},
+        {"word": "chunks", "emoji": "🥕"},
+        {"word": "liquid", "emoji": "💧"},
+        {"word": "both", "emoji": "2️⃣"},
+        {"word": "together", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Messy play",
+      "steps": [
+        {"word": "messy", "emoji": "🫨"},
+        {"word": "hands", "emoji": "🙌"},
+        {"word": "dirty", "emoji": "🤚"},
+        {"word": "okay", "emoji": "👌"},
+        {"word": "explore", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Finger painting",
+      "steps": [
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "fingers", "emoji": "🖐️"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "create", "emoji": "✏️"},
+        {"word": "art", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Sand play",
+      "steps": [
+        {"word": "sand", "emoji": "🏖️"},
+        {"word": "hands", "emoji": "🙌"},
+        {"word": "dig", "emoji": "⛏️"},
+        {"word": "feel", "emoji": "🫳"},
+        {"word": "grainy", "emoji": "🏖️"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Water play",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "splash", "emoji": "💦"},
+        {"word": "wet", "emoji": "💧"},
+        {"word": "pour", "emoji": "🫗"},
+        {"word": "sensory", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Foam sensory",
+      "steps": [
+        {"word": "foam", "emoji": "🧽"},
+        {"word": "soft", "emoji": "🧸"},
+        {"word": "squeeze", "emoji": "✊"},
+        {"word": "fluffy", "emoji": "☁️"},
+        {"word": "touch", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Gel sensory bags",
+      "steps": [
+        {"word": "bag", "emoji": "🎒"},
+        {"word": "gel", "emoji": "🧴"},
+        {"word": "squishy", "emoji": "🤗"},
+        {"word": "press", "emoji": "👆"},
+        {"word": "tactile", "emoji": "🫳"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Vibrating toys",
+      "steps": [
+        {"word": "toy", "emoji": "🧸"},
+        {"word": "vibrate", "emoji": "📳"},
+        {"word": "buzz", "emoji": "🐝"},
+        {"word": "feel", "emoji": "🫳"},
+        {"word": "input", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Rough textures",
+      "steps": [
+        {"word": "rough", "emoji": "🪨"},
+        {"word": "sandpaper", "emoji": "📄"},
+        {"word": "bumpy", "emoji": "⛰️"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "explore", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Smooth textures",
+      "steps": [
+        {"word": "smooth", "emoji": "🏐"},
+        {"word": "silk", "emoji": "🧣"},
+        {"word": "soft", "emoji": "🧸"},
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "calm", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Cold therapy",
+      "steps": [
+        {"word": "cold", "emoji": "🧊"},
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "pack", "emoji": "📦"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "alert", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Warm therapy",
+      "steps": [
+        {"word": "warm", "emoji": "☀️"},
+        {"word": "blanket", "emoji": "🛌"},
+        {"word": "cozy", "emoji": "🤗"},
+        {"word": "comfort", "emoji": "😌"},
+        {"word": "calm", "emoji": "🧘"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Compression vest",
+      "steps": [
+        {"word": "vest", "emoji": "🦺"},
+        {"word": "tight", "emoji": "💪"},
+        {"word": "squeeze", "emoji": "🤗"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "organize", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Sensory diet",
+      "steps": [
+        {"word": "schedule", "emoji": "📅"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "breaks", "emoji": "⏸️"},
+        {"word": "planned", "emoji": "📋"},
+        {"word": "regulate", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Movement breaks",
+      "steps": [
+        {"word": "move", "emoji": "🏃"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "wiggle", "emoji": "🪱"},
+        {"word": "reset", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Alerting activities",
+      "steps": [
+        {"word": "wake", "emoji": "⏰"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "alert", "emoji": "⚡"},
+        {"word": "ready", "emoji": "✅"},
+        {"word": "focus", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Calming activities",
+      "steps": [
+        {"word": "calm", "emoji": "😌"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "relax", "emoji": "🧘"},
+        {"word": "peaceful", "emoji": "☮️"},
+        {"word": "breathe", "emoji": "🫁"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Oral motor exercises",
+      "steps": [
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "exercises", "emoji": "💪"},
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "lips", "emoji": "👄"},
+        {"word": "practice", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Straw drinking",
+      "steps": [
+        {"word": "straw", "emoji": "🥤"},
+        {"word": "lips", "emoji": "👄"},
+        {"word": "seal", "emoji": "🔒"},
+        {"word": "suck", "emoji": "💨"},
+        {"word": "up", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Chewy tube",
+      "steps": [
+        {"word": "tube", "emoji": "🔴"},
+        {"word": "chew", "emoji": "😬"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "oral", "emoji": "👄"},
+        {"word": "input", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Texture introduction",
+      "steps": [
+        {"word": "new", "emoji": "🆕"},
+        {"word": "texture", "emoji": "🤚"},
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "gradual", "emoji": "📈"},
+        {"word": "exposure", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Food chaining",
+      "steps": [
+        {"word": "similar", "emoji": "🟰"},
+        {"word": "foods", "emoji": "🍎"},
+        {"word": "bridge", "emoji": "🌉"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "variety", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Mealtime routine",
+      "steps": [
+        {"word": "same", "emoji": "🟰"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "place", "emoji": "📍"},
+        {"word": "routine", "emoji": "🔄"},
+        {"word": "predictable", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Social eating",
+      "steps": [
+        {"word": "together", "emoji": "🤝"},
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "eat", "emoji": "🍽️"},
+        {"word": "model", "emoji": "👀"},
+        {"word": "copy", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Food exploration",
+      "steps": [
+        {"word": "explore", "emoji": "🔍"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "smell", "emoji": "👃"},
+        {"word": "play", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Portion control",
+      "steps": [
+        {"word": "small", "emoji": "🤏"},
+        {"word": "amount", "emoji": "📏"},
+        {"word": "start", "emoji": "▶️"},
+        {"word": "success", "emoji": "✅"},
+        {"word": "build", "emoji": "🏗️"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Positive association",
+      "steps": [
+        {"word": "food", "emoji": "🍎"},
+        {"word": "fun", "emoji": "😄"},
+        {"word": "happy", "emoji": "😊"},
+        {"word": "good", "emoji": "👍"},
+        {"word": "experience", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "No pressure eating",
+      "steps": [
+        {"word": "no", "emoji": "❌"},
+        {"word": "pressure", "emoji": "⬇️"},
+        {"word": "choice", "emoji": "🤔"},
+        {"word": "respect", "emoji": "🙏"},
+        {"word": "comfort", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Sensory preparation",
+      "steps": [
+        {"word": "prepare", "emoji": "📋"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "before", "emoji": "⏮️"},
+        {"word": "meal", "emoji": "🍽️"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Environment modification",
+      "steps": [
+        {"word": "quiet", "emoji": "🔇"},
+        {"word": "space", "emoji": "🏠"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "comfortable", "emoji": "🛋️"},
+        {"word": "eating", "emoji": "🍽️"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Visual supports",
+      "steps": [
+        {"word": "pictures", "emoji": "🖼️"},
+        {"word": "schedule", "emoji": "📅"},
+        {"word": "visual", "emoji": "👀"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "understand", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Proprioceptive input",
+      "steps": [
+        {"word": "heavy", "emoji": "⚖️"},
+        {"word": "work", "emoji": "💪"},
+        {"word": "muscles", "emoji": "💪"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "awareness", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Vestibular input",
+      "steps": [
+        {"word": "movement", "emoji": "🏃"},
+        {"word": "balance", "emoji": "⚖️"},
+        {"word": "spin", "emoji": "🌀"},
+        {"word": "swing", "emoji": "🎠"},
+        {"word": "regulation", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Tactile defensiveness",
+      "steps": [
+        {"word": "avoid", "emoji": "🚫"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "gradual", "emoji": "📈"},
+        {"word": "exposure", "emoji": "👀"},
+        {"word": "tolerance", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Sensory seeking",
+      "steps": [
+        {"word": "need", "emoji": "❗"},
+        {"word": "more", "emoji": "➕"},
+        {"word": "input", "emoji": "🧠"},
+        {"word": "intense", "emoji": "⚡"},
+        {"word": "stimulation", "emoji": "💥"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Sensory avoiding",
+      "steps": [
+        {"word": "too", "emoji": "➕"},
+        {"word": "much", "emoji": "📊"},
+        {"word": "overwhelm", "emoji": "😵‍💫"},
+        {"word": "need", "emoji": "❗"},
+        {"word": "less", "emoji": "➖"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Self-regulation",
+      "steps": [
+        {"word": "recognize", "emoji": "🧠"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "signals", "emoji": "📡"},
+        {"word": "self", "emoji": "🙋"},
+        {"word": "regulate", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Sensory breaks",
+      "steps": [
+        {"word": "need", "emoji": "❗"},
+        {"word": "break", "emoji": "⏸️"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "room", "emoji": "🏠"},
+        {"word": "reset", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Transition preparation",
+      "steps": [
+        {"word": "change", "emoji": "🔄"},
+        {"word": "coming", "emoji": "📅"},
+        {"word": "prepare", "emoji": "📋"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Sensory tools",
+      "steps": [
+        {"word": "tools", "emoji": "🧰"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "regulate", "emoji": "⚖️"},
+        {"word": "available", "emoji": "✅"},
+        {"word": "use", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Deep breathing",
+      "steps": [
+        {"word": "breathe", "emoji": "🫁"},
+        {"word": "in", "emoji": "⬇️"},
+        {"word": "out", "emoji": "⬆️"},
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "calm", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Progressive muscle",
+      "steps": [
+        {"word": "tense", "emoji": "💪"},
+        {"word": "muscles", "emoji": "💪"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "release", "emoji": "🤗"},
+        {"word": "calm", "emoji": "🧘"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Mindfulness",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "feelings", "emoji": "💭"},
+        {"word": "present", "emoji": "⏰"},
+        {"word": "moment", "emoji": "⏳"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Yoga poses",
+      "steps": [
+        {"word": "yoga", "emoji": "🧘"},
+        {"word": "pose", "emoji": "🤸"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "balance", "emoji": "⚖️"},
+        {"word": "calm", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Nature sounds",
+      "steps": [
+        {"word": "nature", "emoji": "🌳"},
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "birds", "emoji": "🐦"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "peaceful", "emoji": "☮️"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Aromatherapy",
+      "steps": [
+        {"word": "smell", "emoji": "👃"},
+        {"word": "lavender", "emoji": "💜"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "relax", "emoji": "🧘"},
+        {"word": "scent", "emoji": "🌸"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Safe space",
+      "steps": [
+        {"word": "quiet", "emoji": "🔇"},
+        {"word": "corner", "emoji": "📐"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "retreat", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Sensory schedule",
+      "steps": [
+        {"word": "plan", "emoji": "📋"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "day", "emoji": "🌅"},
+        {"word": "routine", "emoji": "🔄"},
+        {"word": "success", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Alert program",
+      "steps": [
+        {"word": "engine", "emoji": "🚗"},
+        {"word": "speed", "emoji": "💨"},
+        {"word": "just", "emoji": "👌"},
+        {"word": "right", "emoji": "✅"},
+        {"word": "regulate", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Zones regulation",
+      "steps": [
+        {"word": "zone", "emoji": "🎯"},
+        {"word": "color", "emoji": "🌈"},
+        {"word": "feeling", "emoji": "💭"},
+        {"word": "tools", "emoji": "🧰"},
+        {"word": "change", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Sensory profile",
+      "steps": [
+        {"word": "my", "emoji": "🙋"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "needs", "emoji": "❗"},
+        {"word": "profile", "emoji": "📋"},
+        {"word": "understand", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Communication device",
+      "steps": [
+        {"word": "device", "emoji": "📱"},
+        {"word": "talk", "emoji": "🗣️"},
+        {"word": "needs", "emoji": "❗"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Visual cues",
+      "steps": [
+        {"word": "picture", "emoji": "🖼️"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "what", "emoji": "❓"},
+        {"word": "need", "emoji": "❗"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Sensory story",
+      "steps": [
+        {"word": "story", "emoji": "📖"},
+        {"word": "explain", "emoji": "💬"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "body", "emoji": "🧍"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Peer support",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "help", "emoji": "🤝"},
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "needs", "emoji": "❗"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Teacher support",
+      "steps": [
+        {"word": "teacher", "emoji": "👩‍🏫"},
+        {"word": "knows", "emoji": "🧠"},
+        {"word": "my", "emoji": "🙋"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "needs", "emoji": "❗"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Family understanding",
+      "steps": [
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "understands", "emoji": "🧠"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "supports", "emoji": "🤝"},
+        {"word": "me", "emoji": "🙋"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Sensory education",
+      "steps": [
+        {"word": "learn", "emoji": "📚"},
+        {"word": "about", "emoji": "💬"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "system", "emoji": "🧠"},
+        {"word": "body", "emoji": "🧍"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Advocacy skills",
+      "steps": [
+        {"word": "speak", "emoji": "🗣️"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "for", "emoji": "🙋"},
+        {"word": "needs", "emoji": "❗"},
+        {"word": "self", "emoji": "🙋"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Sensory success",
+      "steps": [
+        {"word": "proud", "emoji": "😤"},
+        {"word": "managing", "emoji": "⚖️"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "needs", "emoji": "❗"},
+        {"word": "well", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Future planning",
+      "steps": [
+        {"word": "plan", "emoji": "📋"},
+        {"word": "future", "emoji": "🔮"},
+        {"word": "sensory", "emoji": "👆"},
+        {"word": "strategies", "emoji": "🧰"},
+        {"word": "success", "emoji": "🏆"}
+      ]
+    }
+  ]
+}

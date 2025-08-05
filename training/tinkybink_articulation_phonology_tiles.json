@@ -1,0 +1,1105 @@
+{
+  "category": "🗣️ Articulation & Phonology",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Practice P sound",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "puff", "emoji": "💨"},
+        {"word": "air", "emoji": "🌬️"},
+        {"word": "pop", "emoji": "💥"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Practice B sound",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "buzz", "emoji": "🐝"},
+        {"word": "balloon", "emoji": "🎈"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Practice T sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "tip", "emoji": "☝️"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "tap", "emoji": "👆"},
+        {"word": "turtle", "emoji": "🐢"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Practice D sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "tip", "emoji": "☝️"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "dog", "emoji": "🐕"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Practice K sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "pop", "emoji": "💥"},
+        {"word": "cat", "emoji": "🐱"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Practice G sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "go", "emoji": "🚦"},
+        {"word": "goat", "emoji": "🐐"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Practice F sound",
+      "steps": [
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "lip", "emoji": "👄"},
+        {"word": "bite", "emoji": "😬"},
+        {"word": "blow", "emoji": "💨"},
+        {"word": "fish", "emoji": "🐟"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Practice V sound",
+      "steps": [
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "lip", "emoji": "👄"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "buzz", "emoji": "🐝"},
+        {"word": "van", "emoji": "🚐"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Practice S sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "groove", "emoji": "🎵"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "hiss", "emoji": "🐍"},
+        {"word": "snake", "emoji": "🐍"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Practice Z sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "groove", "emoji": "🎵"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "buzz", "emoji": "🐝"},
+        {"word": "zebra", "emoji": "🦓"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Practice SH sound",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "round", "emoji": "⭕"},
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "shoe", "emoji": "👟"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Practice ZH sound",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "round", "emoji": "⭕"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "measure", "emoji": "📏"},
+        {"word": "garage", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Practice TH sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "between", "emoji": "↔️"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "blow", "emoji": "💨"},
+        {"word": "think", "emoji": "🤔"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Practice voiced TH",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "between", "emoji": "↔️"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "buzz", "emoji": "🐝"},
+        {"word": "this", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Practice CH sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "roof", "emoji": "🏠"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "chop", "emoji": "🪓"},
+        {"word": "chair", "emoji": "🪑"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Practice J sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "roof", "emoji": "🏠"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "jump", "emoji": "🦘"},
+        {"word": "jelly", "emoji": "🍇"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Practice L sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "tip", "emoji": "☝️"},
+        {"word": "roof", "emoji": "🏠"},
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "lion", "emoji": "🦁"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Practice R sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "curl", "emoji": "🌀"},
+        {"word": "growl", "emoji": "🦁"},
+        {"word": "rabbit", "emoji": "🐰"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Practice W sound",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "round", "emoji": "⭕"},
+        {"word": "small", "emoji": "🤏"},
+        {"word": "wind", "emoji": "💨"},
+        {"word": "water", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Practice Y sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "narrow", "emoji": "📐"},
+        {"word": "yes", "emoji": "✅"},
+        {"word": "yellow", "emoji": "💛"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Practice M sound",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "hum", "emoji": "🎵"},
+        {"word": "nose", "emoji": "👃"},
+        {"word": "mom", "emoji": "👩"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Practice N sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "tip", "emoji": "☝️"},
+        {"word": "roof", "emoji": "🏠"},
+        {"word": "nose", "emoji": "👃"},
+        {"word": "no", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Practice NG sound",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "sing", "emoji": "🎤"},
+        {"word": "ring", "emoji": "💍"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Practice H sound",
+      "steps": [
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "open", "emoji": "😮"},
+        {"word": "breath", "emoji": "🫁"},
+        {"word": "fog", "emoji": "🌫️"},
+        {"word": "house", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Minimal pairs P/B",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "pop", "emoji": "💥"},
+        {"word": "bob", "emoji": "👤"},
+        {"word": "choose", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Minimal pairs T/D",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "toe", "emoji": "🦶"},
+        {"word": "dough", "emoji": "🍞"},
+        {"word": "point", "emoji": "👉"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Minimal pairs K/G",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "coat", "emoji": "🧥"},
+        {"word": "goat", "emoji": "🐐"},
+        {"word": "pick", "emoji": "🤏"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Minimal pairs F/V",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "fan", "emoji": "🪭"},
+        {"word": "van", "emoji": "🚐"},
+        {"word": "show", "emoji": "🫵"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Minimal pairs S/Z",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "sip", "emoji": "🥤"},
+        {"word": "zip", "emoji": "🤐"},
+        {"word": "match", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Minimal pairs TH/F",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "fink", "emoji": "🐀"},
+        {"word": "repeat", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Initial consonants",
+      "steps": [
+        {"word": "beginning", "emoji": "🏁"},
+        {"word": "word", "emoji": "📝"},
+        {"word": "first", "emoji": "1️⃣"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "clear", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Final consonants",
+      "steps": [
+        {"word": "end", "emoji": "🔚"},
+        {"word": "word", "emoji": "📝"},
+        {"word": "last", "emoji": "🔚"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "finish", "emoji": "🏁"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Consonant clusters",
+      "steps": [
+        {"word": "two", "emoji": "2️⃣"},
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "blend", "emoji": "🌀"},
+        {"word": "smooth", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "ST blend",
+      "steps": [
+        {"word": "s", "emoji": "🐍"},
+        {"word": "t", "emoji": "🐢"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "star", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "SP blend",
+      "steps": [
+        {"word": "s", "emoji": "🐍"},
+        {"word": "p", "emoji": "💥"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "spin", "emoji": "🌀"},
+        {"word": "spoon", "emoji": "🥄"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "SC blend",
+      "steps": [
+        {"word": "s", "emoji": "🐍"},
+        {"word": "k", "emoji": "🐱"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "scare", "emoji": "😱"},
+        {"word": "school", "emoji": "🏫"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "BL blend",
+      "steps": [
+        {"word": "b", "emoji": "🎈"},
+        {"word": "l", "emoji": "🦁"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "blow", "emoji": "💨"},
+        {"word": "blue", "emoji": "🔵"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "BR blend",
+      "steps": [
+        {"word": "b", "emoji": "🎈"},
+        {"word": "r", "emoji": "🐰"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "brown", "emoji": "🤎"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "CL blend",
+      "steps": [
+        {"word": "k", "emoji": "🐱"},
+        {"word": "l", "emoji": "🦁"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "clap", "emoji": "👏"},
+        {"word": "close", "emoji": "📪"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "CR blend",
+      "steps": [
+        {"word": "k", "emoji": "🐱"},
+        {"word": "r", "emoji": "🐰"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "cry", "emoji": "😭"},
+        {"word": "crab", "emoji": "🦀"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "DR blend",
+      "steps": [
+        {"word": "d", "emoji": "🐕"},
+        {"word": "r", "emoji": "🐰"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "drum", "emoji": "🥁"},
+        {"word": "drive", "emoji": "🚗"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "FL blend",
+      "steps": [
+        {"word": "f", "emoji": "🐟"},
+        {"word": "l", "emoji": "🦁"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "fly", "emoji": "✈️"},
+        {"word": "flower", "emoji": "🌸"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "FR blend",
+      "steps": [
+        {"word": "f", "emoji": "🐟"},
+        {"word": "r", "emoji": "🐰"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "frog", "emoji": "🐸"},
+        {"word": "friend", "emoji": "👫"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "GL blend",
+      "steps": [
+        {"word": "g", "emoji": "🐐"},
+        {"word": "l", "emoji": "🦁"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "glad", "emoji": "😊"},
+        {"word": "glue", "emoji": "🧴"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "GR blend",
+      "steps": [
+        {"word": "g", "emoji": "🐐"},
+        {"word": "r", "emoji": "🐰"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "green", "emoji": "💚"},
+        {"word": "grow", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "PL blend",
+      "steps": [
+        {"word": "p", "emoji": "💥"},
+        {"word": "l", "emoji": "🦁"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "play", "emoji": "🎮"},
+        {"word": "plane", "emoji": "✈️"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "PR blend",
+      "steps": [
+        {"word": "p", "emoji": "💥"},
+        {"word": "r", "emoji": "🐰"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "proud", "emoji": "😤"},
+        {"word": "present", "emoji": "🎁"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "SL blend",
+      "steps": [
+        {"word": "s", "emoji": "🐍"},
+        {"word": "l", "emoji": "🦁"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "sleep", "emoji": "😴"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "SM blend",
+      "steps": [
+        {"word": "s", "emoji": "🐍"},
+        {"word": "m", "emoji": "👩"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "smile", "emoji": "😊"},
+        {"word": "small", "emoji": "🤏"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "SN blend",
+      "steps": [
+        {"word": "s", "emoji": "🐍"},
+        {"word": "n", "emoji": "❌"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "snow", "emoji": "❄️"},
+        {"word": "snack", "emoji": "🍪"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "SW blend",
+      "steps": [
+        {"word": "s", "emoji": "🐍"},
+        {"word": "w", "emoji": "💧"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "swim", "emoji": "🏊"},
+        {"word": "sweet", "emoji": "🍯"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "TH blend",
+      "steps": [
+        {"word": "th", "emoji": "🤔"},
+        {"word": "r", "emoji": "🐰"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "three", "emoji": "3️⃣"},
+        {"word": "throw", "emoji": "🤾"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "TR blend",
+      "steps": [
+        {"word": "t", "emoji": "🐢"},
+        {"word": "r", "emoji": "🐰"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "tree", "emoji": "🌳"},
+        {"word": "train", "emoji": "🚂"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "TW blend",
+      "steps": [
+        {"word": "t", "emoji": "🐢"},
+        {"word": "w", "emoji": "💧"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "twelve", "emoji": "🕛"},
+        {"word": "twist", "emoji": "🌀"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Vowel A sound",
+      "steps": [
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "open", "emoji": "😮"},
+        {"word": "wide", "emoji": "📏"},
+        {"word": "apple", "emoji": "🍎"},
+        {"word": "cat", "emoji": "🐱"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Vowel E sound",
+      "steps": [
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "middle", "emoji": "📍"},
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "egg", "emoji": "🥚"},
+        {"word": "red", "emoji": "🔴"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Vowel I sound",
+      "steps": [
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "small", "emoji": "🤏"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "igloo", "emoji": "🏔️"},
+        {"word": "pig", "emoji": "🐷"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Vowel O sound",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "round", "emoji": "⭕"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "octopus", "emoji": "🐙"},
+        {"word": "hot", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Vowel U sound",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "round", "emoji": "⭕"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "umbrella", "emoji": "☂️"},
+        {"word": "cup", "emoji": "🥤"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Long A sound",
+      "steps": [
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "smile", "emoji": "😊"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "ape", "emoji": "🦍"},
+        {"word": "cake", "emoji": "🎂"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Long E sound",
+      "steps": [
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "smile", "emoji": "😊"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "eagle", "emoji": "🦅"},
+        {"word": "feet", "emoji": "🦶"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Long I sound",
+      "steps": [
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "wide", "emoji": "📏"},
+        {"word": "glide", "emoji": "⬇️"},
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "kite", "emoji": "🪁"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Long O sound",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "round", "emoji": "⭕"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "ocean", "emoji": "🌊"},
+        {"word": "boat", "emoji": "⛵"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Long U sound",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "round", "emoji": "⭕"},
+        {"word": "tight", "emoji": "🤏"},
+        {"word": "uniform", "emoji": "👕"},
+        {"word": "flute", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Diphthong OW",
+      "steps": [
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "round", "emoji": "⭕"},
+        {"word": "glide", "emoji": "⬇️"},
+        {"word": "owl", "emoji": "🦉"},
+        {"word": "cow", "emoji": "🐄"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Diphthong OY",
+      "steps": [
+        {"word": "round", "emoji": "⭕"},
+        {"word": "then", "emoji": "➡️"},
+        {"word": "smile", "emoji": "😊"},
+        {"word": "boy", "emoji": "👦"},
+        {"word": "toy", "emoji": "🧸"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "R-controlled ER",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "curl", "emoji": "🌀"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "her", "emoji": "👩"},
+        {"word": "bird", "emoji": "🐦"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "R-controlled AR",
+      "steps": [
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "open", "emoji": "😮"},
+        {"word": "curl", "emoji": "🌀"},
+        {"word": "car", "emoji": "🚗"},
+        {"word": "star", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "R-controlled OR",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "round", "emoji": "⭕"},
+        {"word": "curl", "emoji": "🌀"},
+        {"word": "for", "emoji": "➡️"},
+        {"word": "horn", "emoji": "📯"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Syllable counting",
+      "steps": [
+        {"word": "word", "emoji": "📝"},
+        {"word": "parts", "emoji": "🧩"},
+        {"word": "clap", "emoji": "👏"},
+        {"word": "beats", "emoji": "🥁"},
+        {"word": "count", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Stress patterns",
+      "steps": [
+        {"word": "syllable", "emoji": "🧩"},
+        {"word": "loud", "emoji": "🔊"},
+        {"word": "soft", "emoji": "🔇"},
+        {"word": "pattern", "emoji": "🌀"},
+        {"word": "rhythm", "emoji": "🥁"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Rhyming words",
+      "steps": [
+        {"word": "words", "emoji": "📝"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "same", "emoji": "🟰"},
+        {"word": "ending", "emoji": "🔚"},
+        {"word": "match", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Phoneme substitution",
+      "steps": [
+        {"word": "change", "emoji": "🔄"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "word", "emoji": "📝"},
+        {"word": "different", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Phoneme deletion",
+      "steps": [
+        {"word": "remove", "emoji": "🗑️"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "word", "emoji": "📝"},
+        {"word": "shorter", "emoji": "📐"},
+        {"word": "new", "emoji": "🆕"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Phoneme addition",
+      "steps": [
+        {"word": "add", "emoji": "➕"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "word", "emoji": "📝"},
+        {"word": "longer", "emoji": "📏"},
+        {"word": "new", "emoji": "🆕"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Sound segmentation",
+      "steps": [
+        {"word": "word", "emoji": "📝"},
+        {"word": "break", "emoji": "💥"},
+        {"word": "apart", "emoji": "↔️"},
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "separate", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Sound blending",
+      "steps": [
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "put", "emoji": "📍"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "blend", "emoji": "🌀"},
+        {"word": "word", "emoji": "📝"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Alliteration",
+      "steps": [
+        {"word": "same", "emoji": "🟰"},
+        {"word": "beginning", "emoji": "🏁"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "words", "emoji": "📝"},
+        {"word": "pattern", "emoji": "🌀"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Onset and rime",
+      "steps": [
+        {"word": "beginning", "emoji": "🏁"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "ending", "emoji": "🔚"},
+        {"word": "part", "emoji": "🧩"},
+        {"word": "split", "emoji": "✂️"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Phonological awareness",
+      "steps": [
+        {"word": "hear", "emoji": "👂"},
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "words", "emoji": "📝"},
+        {"word": "patterns", "emoji": "🌀"},
+        {"word": "recognize", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Speech clarity",
+      "steps": [
+        {"word": "clear", "emoji": "💡"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "precise", "emoji": "🎯"},
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "understand", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Articulation practice",
+      "steps": [
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "correct", "emoji": "✅"},
+        {"word": "placement", "emoji": "📍"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Mirror practice",
+      "steps": [
+        {"word": "mirror", "emoji": "🪞"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "see", "emoji": "👁️"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Tongue exercises",
+      "steps": [
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "exercises", "emoji": "💪"},
+        {"word": "strong", "emoji": "💪"},
+        {"word": "flexible", "emoji": "🤸"},
+        {"word": "practice", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Lip exercises",
+      "steps": [
+        {"word": "lips", "emoji": "👄"},
+        {"word": "exercises", "emoji": "💪"},
+        {"word": "pucker", "emoji": "😗"},
+        {"word": "spread", "emoji": "📏"},
+        {"word": "strong", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Jaw exercises",
+      "steps": [
+        {"word": "jaw", "emoji": "😬"},
+        {"word": "open", "emoji": "😮"},
+        {"word": "close", "emoji": "😐"},
+        {"word": "move", "emoji": "↔️"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Breath support",
+      "steps": [
+        {"word": "breath", "emoji": "🫁"},
+        {"word": "deep", "emoji": "⬇️"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "steady", "emoji": "📐"},
+        {"word": "speech", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Rate of speech",
+      "steps": [
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "speed", "emoji": "💨"},
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "clear", "emoji": "💡"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Speech precision",
+      "steps": [
+        {"word": "precise", "emoji": "🎯"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "accurate", "emoji": "🎯"},
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "quality", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Coarticulation",
+      "steps": [
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "connect", "emoji": "🔗"},
+        {"word": "smooth", "emoji": "✨"},
+        {"word": "flowing", "emoji": "🌊"},
+        {"word": "natural", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Word positions",
+      "steps": [
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "beginning", "emoji": "🏁"},
+        {"word": "middle", "emoji": "📍"},
+        {"word": "end", "emoji": "🔚"},
+        {"word": "practice", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Sentence level",
+      "steps": [
+        {"word": "sentence", "emoji": "📝"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "connected", "emoji": "🔗"},
+        {"word": "speech", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Conversation practice",
+      "steps": [
+        {"word": "conversation", "emoji": "💬"},
+        {"word": "natural", "emoji": "🌿"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "clear", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Generalization",
+      "steps": [
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "everywhere", "emoji": "🌍"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "school", "emoji": "🏫"},
+        {"word": "community", "emoji": "🏘️"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Self-monitoring",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "own", "emoji": "🙋"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "correct", "emoji": "✅"},
+        {"word": "mistakes", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Error correction",
+      "steps": [
+        {"word": "mistake", "emoji": "❌"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "fix", "emoji": "🔧"},
+        {"word": "try", "emoji": "💪"},
+        {"word": "again", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Speech homework",
+      "steps": [
+        {"word": "homework", "emoji": "📚"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "daily", "emoji": "📅"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Progress tracking",
+      "steps": [
+        {"word": "progress", "emoji": "📈"},
+        {"word": "track", "emoji": "📊"},
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "chart", "emoji": "📊"},
+        {"word": "celebrate", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Speech goals",
+      "steps": [
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "targets", "emoji": "🎯"},
+        {"word": "achieve", "emoji": "🏆"},
+        {"word": "success", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Celebrate progress",
+      "steps": [
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "progress", "emoji": "📈"},
+        {"word": "proud", "emoji": "😤"},
+        {"word": "success", "emoji": "🏆"},
+        {"word": "continue", "emoji": "➡️"}
+      ]
+    }
+  ]
+}

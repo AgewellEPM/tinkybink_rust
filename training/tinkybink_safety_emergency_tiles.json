@@ -1,0 +1,1105 @@
+{
+  "category": "🚨 Safety & Emergency",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Call 911",
+      "steps": [
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "phone", "emoji": "📱"},
+        {"word": "911", "emoji": "🚨"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "now", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Fire drill",
+      "steps": [
+        {"word": "alarm", "emoji": "🔔"},
+        {"word": "fire", "emoji": "🔥"},
+        {"word": "exit", "emoji": "🚪"},
+        {"word": "outside", "emoji": "🌳"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Stop drop roll",
+      "steps": [
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "drop", "emoji": "⬇️"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "fire", "emoji": "🔥"},
+        {"word": "out", "emoji": "📤"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Earthquake safety",
+      "steps": [
+        {"word": "drop", "emoji": "⬇️"},
+        {"word": "cover", "emoji": "🫣"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "table", "emoji": "🪑"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Tornado drill",
+      "steps": [
+        {"word": "tornado", "emoji": "🌪️"},
+        {"word": "basement", "emoji": "⬇️"},
+        {"word": "low", "emoji": "⬇️"},
+        {"word": "cover", "emoji": "🫣"},
+        {"word": "head", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Stranger danger",
+      "steps": [
+        {"word": "stranger", "emoji": "❓"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "go", "emoji": "🚶"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "adult", "emoji": "👨"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Lost child",
+      "steps": [
+        {"word": "lost", "emoji": "😟"},
+        {"word": "stay", "emoji": "🛑"},
+        {"word": "place", "emoji": "📍"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "find", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Cross street safely",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "left", "emoji": "⬅️"},
+        {"word": "right", "emoji": "➡️"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "cross", "emoji": "🚶"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Wear seatbelt",
+      "steps": [
+        {"word": "car", "emoji": "🚗"},
+        {"word": "seatbelt", "emoji": "🔒"},
+        {"word": "click", "emoji": "🔗"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "buckle", "emoji": "🔗"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bike helmet",
+      "steps": [
+        {"word": "bike", "emoji": "🚲"},
+        {"word": "helmet", "emoji": "⛑️"},
+        {"word": "head", "emoji": "🗣️"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Pool safety",
+      "steps": [
+        {"word": "pool", "emoji": "🏊"},
+        {"word": "adult", "emoji": "👨"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "swim", "emoji": "🏊"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Water safety",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "deep", "emoji": "⬇️"},
+        {"word": "adult", "emoji": "👨"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Kitchen safety",
+      "steps": [
+        {"word": "kitchen", "emoji": "🍳"},
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "sharp", "emoji": "🔪"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "adult", "emoji": "👨"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Poison control",
+      "steps": [
+        {"word": "poison", "emoji": "☠️"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "call", "emoji": "📞"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Electrical safety",
+      "steps": [
+        {"word": "electrical", "emoji": "⚡"},
+        {"word": "outlet", "emoji": "🔌"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "danger", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "First aid kit",
+      "steps": [
+        {"word": "first", "emoji": "1️⃣"},
+        {"word": "aid", "emoji": "🩹"},
+        {"word": "kit", "emoji": "🧰"},
+        {"word": "bandages", "emoji": "🩹"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Clean wound",
+      "steps": [
+        {"word": "cut", "emoji": "🩸"},
+        {"word": "clean", "emoji": "🧽"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "bandage", "emoji": "🩹"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Apply pressure",
+      "steps": [
+        {"word": "bleeding", "emoji": "🩸"},
+        {"word": "cloth", "emoji": "🧻"},
+        {"word": "press", "emoji": "⬇️"},
+        {"word": "hard", "emoji": "💪"},
+        {"word": "stop", "emoji": "🛑"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "CPR basics",
+      "steps": [
+        {"word": "chest", "emoji": "🫁"},
+        {"word": "push", "emoji": "⬇️"},
+        {"word": "hard", "emoji": "💪"},
+        {"word": "fast", "emoji": "💨"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Choking help",
+      "steps": [
+        {"word": "choking", "emoji": "😵"},
+        {"word": "back", "emoji": "🫲"},
+        {"word": "hit", "emoji": "💥"},
+        {"word": "cough", "emoji": "😷"},
+        {"word": "out", "emoji": "📤"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Emergency contacts",
+      "steps": [
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "phone", "emoji": "📱"},
+        {"word": "numbers", "emoji": "🔢"},
+        {"word": "call", "emoji": "📞"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Home address",
+      "steps": [
+        {"word": "home", "emoji": "🏠"},
+        {"word": "address", "emoji": "📍"},
+        {"word": "street", "emoji": "🛣️"},
+        {"word": "number", "emoji": "🔢"},
+        {"word": "remember", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Full name",
+      "steps": [
+        {"word": "first", "emoji": "1️⃣"},
+        {"word": "last", "emoji": "🔚"},
+        {"word": "name", "emoji": "📛"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "helper", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Parent phone",
+      "steps": [
+        {"word": "parent", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "phone", "emoji": "📱"},
+        {"word": "number", "emoji": "🔢"},
+        {"word": "call", "emoji": "📞"},
+        {"word": "emergency", "emoji": "🚨"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Medical information",
+      "steps": [
+        {"word": "medical", "emoji": "🏥"},
+        {"word": "allergy", "emoji": "🤧"},
+        {"word": "medicine", "emoji": "💊"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "helper", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Find safe adult",
+      "steps": [
+        {"word": "need", "emoji": "❗"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "adult", "emoji": "👨"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Police officer",
+      "steps": [
+        {"word": "police", "emoji": "👮"},
+        {"word": "officer", "emoji": "👮"},
+        {"word": "badge", "emoji": "🪪"},
+        {"word": "uniform", "emoji": "👕"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Firefighter",
+      "steps": [
+        {"word": "firefighter", "emoji": "👩‍🚒"},
+        {"word": "truck", "emoji": "🚒"},
+        {"word": "helmet", "emoji": "⛑️"},
+        {"word": "uniform", "emoji": "👕"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Store employee",
+      "steps": [
+        {"word": "store", "emoji": "🏪"},
+        {"word": "employee", "emoji": "👩‍💼"},
+        {"word": "name tag", "emoji": "📛"},
+        {"word": "uniform", "emoji": "👕"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "School safety",
+      "steps": [
+        {"word": "school", "emoji": "🏫"},
+        {"word": "rules", "emoji": "📋"},
+        {"word": "follow", "emoji": "👣"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "everyone", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Playground safety",
+      "steps": [
+        {"word": "playground", "emoji": "🛝"},
+        {"word": "take", "emoji": "🔄"},
+        {"word": "turns", "emoji": "🔄"},
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Bus safety",
+      "steps": [
+        {"word": "bus", "emoji": "🚌"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Internet safety",
+      "steps": [
+        {"word": "internet", "emoji": "🌐"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "share", "emoji": "🤝"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "strangers", "emoji": "❓"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Cyberbullying",
+      "steps": [
+        {"word": "mean", "emoji": "😠"},
+        {"word": "messages", "emoji": "💬"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "adult", "emoji": "👨"},
+        {"word": "block", "emoji": "🚫"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Password safety",
+      "steps": [
+        {"word": "password", "emoji": "🔒"},
+        {"word": "secret", "emoji": "🤫"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "others", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Medication safety",
+      "steps": [
+        {"word": "medicine", "emoji": "💊"},
+        {"word": "only", "emoji": "1️⃣"},
+        {"word": "adult", "emoji": "👨"},
+        {"word": "gives", "emoji": "🤲"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Tool safety",
+      "steps": [
+        {"word": "tools", "emoji": "🔧"},
+        {"word": "sharp", "emoji": "🔪"},
+        {"word": "adult", "emoji": "👨"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "careful", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Chemical safety",
+      "steps": [
+        {"word": "chemicals", "emoji": "🧪"},
+        {"word": "dangerous", "emoji": "⚠️"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "adult", "emoji": "👨"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Animal safety",
+      "steps": [
+        {"word": "unknown", "emoji": "❓"},
+        {"word": "animal", "emoji": "🐕"},
+        {"word": "ask", "emoji": "❓"},
+        {"word": "owner", "emoji": "👨"},
+        {"word": "pet", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Weather safety",
+      "steps": [
+        {"word": "weather", "emoji": "🌦️"},
+        {"word": "dangerous", "emoji": "⚠️"},
+        {"word": "inside", "emoji": "🏠"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "wait", "emoji": "⏳"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Sun safety",
+      "steps": [
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "sunscreen", "emoji": "🧴"},
+        {"word": "hat", "emoji": "🧢"},
+        {"word": "shade", "emoji": "🌳"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Cold weather",
+      "steps": [
+        {"word": "cold", "emoji": "🥶"},
+        {"word": "coat", "emoji": "🧥"},
+        {"word": "hat", "emoji": "🧢"},
+        {"word": "gloves", "emoji": "🧤"},
+        {"word": "warm", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Hot weather",
+      "steps": [
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "drink", "emoji": "🥤"},
+        {"word": "shade", "emoji": "🌳"},
+        {"word": "cool", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Lightning safety",
+      "steps": [
+        {"word": "lightning", "emoji": "⚡"},
+        {"word": "inside", "emoji": "🏠"},
+        {"word": "away", "emoji": "↔️"},
+        {"word": "windows", "emoji": "🪟"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Flood safety",
+      "steps": [
+        {"word": "flood", "emoji": "🌊"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "ground", "emoji": "🌍"},
+        {"word": "move", "emoji": "🏃"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Hurricane safety",
+      "steps": [
+        {"word": "hurricane", "emoji": "🌀"},
+        {"word": "strong", "emoji": "💪"},
+        {"word": "winds", "emoji": "💨"},
+        {"word": "inside", "emoji": "🏠"},
+        {"word": "stay", "emoji": "🛑"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Smoke detector",
+      "steps": [
+        {"word": "smoke", "emoji": "💨"},
+        {"word": "detector", "emoji": "🔔"},
+        {"word": "beep", "emoji": "🔔"},
+        {"word": "fire", "emoji": "🔥"},
+        {"word": "exit", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Carbon monoxide",
+      "steps": [
+        {"word": "carbon", "emoji": "💨"},
+        {"word": "monoxide", "emoji": "☠️"},
+        {"word": "alarm", "emoji": "🔔"},
+        {"word": "outside", "emoji": "🌳"},
+        {"word": "fresh air", "emoji": "🍃"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Gas leak",
+      "steps": [
+        {"word": "gas", "emoji": "💨"},
+        {"word": "smell", "emoji": "👃"},
+        {"word": "leave", "emoji": "🚪"},
+        {"word": "call", "emoji": "📞"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Home security",
+      "steps": [
+        {"word": "doors", "emoji": "🚪"},
+        {"word": "lock", "emoji": "🔒"},
+        {"word": "windows", "emoji": "🪟"},
+        {"word": "close", "emoji": "📪"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Emergency supplies",
+      "steps": [
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "supplies", "emoji": "📦"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Flashlight",
+      "steps": [
+        {"word": "power", "emoji": "⚡"},
+        {"word": "out", "emoji": "📤"},
+        {"word": "flashlight", "emoji": "🔦"},
+        {"word": "light", "emoji": "💡"},
+        {"word": "see", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Emergency radio",
+      "steps": [
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "radio", "emoji": "📻"},
+        {"word": "news", "emoji": "📰"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "listen", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Family meeting spot",
+      "steps": [
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "meeting", "emoji": "🤝"},
+        {"word": "spot", "emoji": "📍"},
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "together", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Out of town contact",
+      "steps": [
+        {"word": "out", "emoji": "📤"},
+        {"word": "town", "emoji": "🏘️"},
+        {"word": "contact", "emoji": "📞"},
+        {"word": "phone", "emoji": "📱"},
+        {"word": "emergency", "emoji": "🚨"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Practice drills",
+      "steps": [
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "drills", "emoji": "🚨"},
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "ready", "emoji": "✅"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Stay calm",
+      "steps": [
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "stay", "emoji": "🛑"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Follow instructions",
+      "steps": [
+        {"word": "adult", "emoji": "👨"},
+        {"word": "instructions", "emoji": "📋"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "follow", "emoji": "👣"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Trust instincts",
+      "steps": [
+        {"word": "feels", "emoji": "💭"},
+        {"word": "wrong", "emoji": "❌"},
+        {"word": "trust", "emoji": "🤝"},
+        {"word": "instincts", "emoji": "🧠"},
+        {"word": "leave", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Body safety",
+      "steps": [
+        {"word": "body", "emoji": "🧍"},
+        {"word": "private", "emoji": "🔒"},
+        {"word": "parts", "emoji": "🫵"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "tell", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Good touch bad touch",
+      "steps": [
+        {"word": "good", "emoji": "👍"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "bad", "emoji": "👎"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "tell", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Say no",
+      "steps": [
+        {"word": "uncomfortable", "emoji": "😣"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "no", "emoji": "❌"},
+        {"word": "loud", "emoji": "📢"},
+        {"word": "strong", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Run away",
+      "steps": [
+        {"word": "danger", "emoji": "⚠️"},
+        {"word": "run", "emoji": "🏃"},
+        {"word": "away", "emoji": "↔️"},
+        {"word": "fast", "emoji": "💨"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Yell for help",
+      "steps": [
+        {"word": "danger", "emoji": "⚠️"},
+        {"word": "yell", "emoji": "📢"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "loud", "emoji": "🔊"},
+        {"word": "attention", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Tell trusted adult",
+      "steps": [
+        {"word": "something", "emoji": "❓"},
+        {"word": "wrong", "emoji": "❌"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "trusted", "emoji": "🤝"},
+        {"word": "adult", "emoji": "👨"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Bullying response",
+      "steps": [
+        {"word": "bullying", "emoji": "😠"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "away", "emoji": "↔️"},
+        {"word": "tell", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Peer pressure",
+      "steps": [
+        {"word": "friends", "emoji": "👫"},
+        {"word": "pressure", "emoji": "⬇️"},
+        {"word": "wrong", "emoji": "❌"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "no", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Alcohol safety",
+      "steps": [
+        {"word": "alcohol", "emoji": "🍺"},
+        {"word": "adults", "emoji": "👨"},
+        {"word": "only", "emoji": "1️⃣"},
+        {"word": "kids", "emoji": "👶"},
+        {"word": "no", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Drug safety",
+      "steps": [
+        {"word": "drugs", "emoji": "💊"},
+        {"word": "illegal", "emoji": "🚫"},
+        {"word": "dangerous", "emoji": "⚠️"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "no", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Weapon safety",
+      "steps": [
+        {"word": "weapon", "emoji": "🔫"},
+        {"word": "see", "emoji": "👀"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "tell", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Sharp objects",
+      "steps": [
+        {"word": "sharp", "emoji": "🔪"},
+        {"word": "objects", "emoji": "🔧"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "adult", "emoji": "👨"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Hot surfaces",
+      "steps": [
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "surface", "emoji": "🟫"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "burn", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Stairs safety",
+      "steps": [
+        {"word": "stairs", "emoji": "🪜"},
+        {"word": "handrail", "emoji": "🤚"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "step", "emoji": "👣"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Window safety",
+      "steps": [
+        {"word": "window", "emoji": "🪟"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "lean", "emoji": "📐"},
+        {"word": "fall", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Balcony safety",
+      "steps": [
+        {"word": "balcony", "emoji": "🏢"},
+        {"word": "railing", "emoji": "🚧"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "climb", "emoji": "🧗"},
+        {"word": "dangerous", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Elevator safety",
+      "steps": [
+        {"word": "elevator", "emoji": "🛗"},
+        {"word": "wait", "emoji": "⏳"},
+        {"word": "doors", "emoji": "🚪"},
+        {"word": "open", "emoji": "📭"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Escalator safety",
+      "steps": [
+        {"word": "escalator", "emoji": "⬆️"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "handrail", "emoji": "🤚"},
+        {"word": "feet", "emoji": "🦶"},
+        {"word": "center", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Public transport",
+      "steps": [
+        {"word": "public", "emoji": "👥"},
+        {"word": "transport", "emoji": "🚌"},
+        {"word": "seat", "emoji": "🪑"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Crowd safety",
+      "steps": [
+        {"word": "crowd", "emoji": "👥"},
+        {"word": "stay", "emoji": "🛑"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "adult", "emoji": "👨"},
+        {"word": "close", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Event safety",
+      "steps": [
+        {"word": "event", "emoji": "🎪"},
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "exits", "emoji": "🚪"},
+        {"word": "know", "emoji": "🧠"},
+        {"word": "location", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Sports safety",
+      "steps": [
+        {"word": "sports", "emoji": "⚽"},
+        {"word": "equipment", "emoji": "🛡️"},
+        {"word": "wear", "emoji": "👕"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "body", "emoji": "🧍"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Hiking safety",
+      "steps": [
+        {"word": "hiking", "emoji": "🥾"},
+        {"word": "trail", "emoji": "🛤️"},
+        {"word": "stay", "emoji": "🛑"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "path", "emoji": "🛤️"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Camping safety",
+      "steps": [
+        {"word": "camping", "emoji": "🏕️"},
+        {"word": "fire", "emoji": "🔥"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "adult", "emoji": "👨"},
+        {"word": "supervise", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Beach safety",
+      "steps": [
+        {"word": "beach", "emoji": "🏖️"},
+        {"word": "lifeguard", "emoji": "🏊‍♂️"},
+        {"word": "area", "emoji": "📍"},
+        {"word": "swim", "emoji": "🏊"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Mountain safety",
+      "steps": [
+        {"word": "mountain", "emoji": "⛰️"},
+        {"word": "weather", "emoji": "🌦️"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "prepared", "emoji": "✅"},
+        {"word": "stay", "emoji": "🛑"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Wild animal",
+      "steps": [
+        {"word": "wild", "emoji": "🦌"},
+        {"word": "animal", "emoji": "🐻"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "approach", "emoji": "🚶"},
+        {"word": "distance", "emoji": "↔️"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Insect safety",
+      "steps": [
+        {"word": "insects", "emoji": "🐝"},
+        {"word": "bite", "emoji": "😬"},
+        {"word": "sting", "emoji": "💥"},
+        {"word": "repellent", "emoji": "🧴"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Plant safety",
+      "steps": [
+        {"word": "plants", "emoji": "🌿"},
+        {"word": "poisonous", "emoji": "☠️"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "eat", "emoji": "🍽️"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Travel safety",
+      "steps": [
+        {"word": "travel", "emoji": "✈️"},
+        {"word": "documents", "emoji": "📋"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "place", "emoji": "📍"},
+        {"word": "keep", "emoji": "🔒"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Hotel safety",
+      "steps": [
+        {"word": "hotel", "emoji": "🏨"},
+        {"word": "room", "emoji": "🏠"},
+        {"word": "door", "emoji": "🚪"},
+        {"word": "lock", "emoji": "🔒"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Airport security",
+      "steps": [
+        {"word": "airport", "emoji": "✈️"},
+        {"word": "security", "emoji": "🛡️"},
+        {"word": "follow", "emoji": "👣"},
+        {"word": "rules", "emoji": "📋"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Money safety",
+      "steps": [
+        {"word": "money", "emoji": "💰"},
+        {"word": "wallet", "emoji": "👛"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "place", "emoji": "📍"},
+        {"word": "hide", "emoji": "🫣"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "ATM safety",
+      "steps": [
+        {"word": "ATM", "emoji": "🏧"},
+        {"word": "machine", "emoji": "🤖"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "area", "emoji": "📍"},
+        {"word": "aware", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Photo safety",
+      "steps": [
+        {"word": "photos", "emoji": "📸"},
+        {"word": "online", "emoji": "🌐"},
+        {"word": "private", "emoji": "🔒"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "careful", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Social media",
+      "steps": [
+        {"word": "social", "emoji": "👥"},
+        {"word": "media", "emoji": "📱"},
+        {"word": "privacy", "emoji": "🔒"},
+        {"word": "settings", "emoji": "⚙️"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Meeting online friends",
+      "steps": [
+        {"word": "online", "emoji": "🌐"},
+        {"word": "friends", "emoji": "👫"},
+        {"word": "never", "emoji": "❌"},
+        {"word": "meet", "emoji": "🤝"},
+        {"word": "alone", "emoji": "🙋"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Personal information",
+      "steps": [
+        {"word": "personal", "emoji": "🙋"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "private", "emoji": "🔒"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "share", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Emergency plan",
+      "steps": [
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "plan", "emoji": "📋"},
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Safety first",
+      "steps": [
+        {"word": "safety", "emoji": "🛡️"},
+        {"word": "first", "emoji": "1️⃣"},
+        {"word": "always", "emoji": "🔄"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Help others safely",
+      "steps": [
+        {"word": "help", "emoji": "🆘"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "safely", "emoji": "🛡️"},
+        {"word": "get", "emoji": "🤲"},
+        {"word": "adult", "emoji": "👨"}
+      ]
+    }
+  ]
+}

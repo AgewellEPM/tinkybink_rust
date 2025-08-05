@@ -1,0 +1,1105 @@
+{
+  "category": "🔬 Science & Exploration",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Mix colors",
+      "steps": [
+        {"word": "red", "emoji": "🔴"},
+        {"word": "blue", "emoji": "🔵"},
+        {"word": "mix", "emoji": "🎨"},
+        {"word": "make", "emoji": "👐"},
+        {"word": "purple", "emoji": "🟣"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Use a magnifying glass",
+      "steps": [
+        {"word": "hold", "emoji": "🔍"},
+        {"word": "glass", "emoji": "🔎"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "close", "emoji": "🎯"},
+        {"word": "bigger", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Plant seeds",
+      "steps": [
+        {"word": "soil", "emoji": "🟫"},
+        {"word": "hole", "emoji": "🕳️"},
+        {"word": "seed", "emoji": "🌱"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "grow", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Make bubbles",
+      "steps": [
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "mix", "emoji": "🌊"},
+        {"word": "blow", "emoji": "💨"},
+        {"word": "bubbles", "emoji": "🫧"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Observe weather",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "sky", "emoji": "☁️"},
+        {"word": "feel", "emoji": "✋"},
+        {"word": "air", "emoji": "💨"},
+        {"word": "weather", "emoji": "🌤️"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Float or sink",
+      "steps": [
+        {"word": "fill", "emoji": "🪣"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "drop", "emoji": "👇"},
+        {"word": "object", "emoji": "📦"},
+        {"word": "watch", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Make a volcano",
+      "steps": [
+        {"word": "baking", "emoji": "🥄"},
+        {"word": "soda", "emoji": "⚪"},
+        {"word": "vinegar", "emoji": "🍾"},
+        {"word": "mix", "emoji": "🌊"},
+        {"word": "erupt", "emoji": "🌋"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Watch ice melt",
+      "steps": [
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "cube", "emoji": "🟦"},
+        {"word": "warm", "emoji": "🌡️"},
+        {"word": "melt", "emoji": "💧"},
+        {"word": "water", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Use a telescope",
+      "steps": [
+        {"word": "point", "emoji": "👆"},
+        {"word": "telescope", "emoji": "🔭"},
+        {"word": "sky", "emoji": "🌌"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "stars", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Make slime",
+      "steps": [
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "borax", "emoji": "⚪"},
+        {"word": "mix", "emoji": "🌊"},
+        {"word": "slime", "emoji": "🟢"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Build with magnets",
+      "steps": [
+        {"word": "north", "emoji": "🧲"},
+        {"word": "south", "emoji": "🧲"},
+        {"word": "attract", "emoji": "➡️"},
+        {"word": "repel", "emoji": "⬅️"},
+        {"word": "stick", "emoji": "📎"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Study insects",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "bug", "emoji": "🐛"},
+        {"word": "observe", "emoji": "👀"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "legs", "emoji": "🦵"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Make a rainbow",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "light", "emoji": "💡"},
+        {"word": "prism", "emoji": "🔺"},
+        {"word": "shine", "emoji": "✨"},
+        {"word": "rainbow", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Sort objects",
+      "steps": [
+        {"word": "gather", "emoji": "🤲"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "group", "emoji": "🔵"},
+        {"word": "by", "emoji": "➡️"},
+        {"word": "size", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Make shadows",
+      "steps": [
+        {"word": "light", "emoji": "💡"},
+        {"word": "on", "emoji": "🔦"},
+        {"word": "block", "emoji": "✋"},
+        {"word": "light", "emoji": "💡"},
+        {"word": "shadow", "emoji": "👤"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Mix oil and water",
+      "steps": [
+        {"word": "pour", "emoji": "🍶"},
+        {"word": "oil", "emoji": "🛢️"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "shake", "emoji": "🌊"},
+        {"word": "separate", "emoji": "🔀"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Use a microscope",
+      "steps": [
+        {"word": "slide", "emoji": "🔬"},
+        {"word": "in", "emoji": "➡️"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "lens", "emoji": "🔍"},
+        {"word": "see", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Make crystals",
+      "steps": [
+        {"word": "salt", "emoji": "🧂"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "string", "emoji": "🧵"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "crystals", "emoji": "💎"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Measure things",
+      "steps": [
+        {"word": "get", "emoji": "✋"},
+        {"word": "ruler", "emoji": "📏"},
+        {"word": "place", "emoji": "📐"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "inches", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Make a compass",
+      "steps": [
+        {"word": "needle", "emoji": "🪡"},
+        {"word": "magnet", "emoji": "🧲"},
+        {"word": "float", "emoji": "💧"},
+        {"word": "point", "emoji": "👆"},
+        {"word": "north", "emoji": "🧭"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Study rocks",
+      "steps": [
+        {"word": "collect", "emoji": "🪨"},
+        {"word": "rocks", "emoji": "🗿"},
+        {"word": "sort", "emoji": "📦"},
+        {"word": "smooth", "emoji": "⚪"},
+        {"word": "rough", "emoji": "🟫"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Make static electricity",
+      "steps": [
+        {"word": "rub", "emoji": "🎈"},
+        {"word": "balloon", "emoji": "🎈"},
+        {"word": "hair", "emoji": "💇"},
+        {"word": "stick", "emoji": "⚡"},
+        {"word": "up", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Watch plants grow",
+      "steps": [
+        {"word": "seed", "emoji": "🌱"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "grow", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Make a sundial",
+      "steps": [
+        {"word": "stick", "emoji": "📍"},
+        {"word": "ground", "emoji": "🟫"},
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "shadow", "emoji": "👤"},
+        {"word": "time", "emoji": "🕐"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Test magnets",
+      "steps": [
+        {"word": "magnet", "emoji": "🧲"},
+        {"word": "metal", "emoji": "🔩"},
+        {"word": "wood", "emoji": "🪵"},
+        {"word": "plastic", "emoji": "🟦"},
+        {"word": "test", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Make a paper airplane",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "paper", "emoji": "📃"},
+        {"word": "wings", "emoji": "✈️"},
+        {"word": "throw", "emoji": "🤾"},
+        {"word": "fly", "emoji": "🛩️"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Study leaves",
+      "steps": [
+        {"word": "collect", "emoji": "🍃"},
+        {"word": "leaves", "emoji": "🍂"},
+        {"word": "compare", "emoji": "🔍"},
+        {"word": "shapes", "emoji": "🍁"},
+        {"word": "colors", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Make ice cream",
+      "steps": [
+        {"word": "milk", "emoji": "🥛"},
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "salt", "emoji": "🧂"},
+        {"word": "shake", "emoji": "🌊"},
+        {"word": "freeze", "emoji": "🍦"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Build a bridge",
+      "steps": [
+        {"word": "blocks", "emoji": "🧱"},
+        {"word": "span", "emoji": "🌉"},
+        {"word": "gap", "emoji": "⬛"},
+        {"word": "strong", "emoji": "💪"},
+        {"word": "test", "emoji": "🚗"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Make a thermometer",
+      "steps": [
+        {"word": "bottle", "emoji": "🍾"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "straw", "emoji": "🥤"},
+        {"word": "heat", "emoji": "🔥"},
+        {"word": "rise", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Study clouds",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "clouds", "emoji": "☁️"},
+        {"word": "shapes", "emoji": "🌫️"},
+        {"word": "types", "emoji": "⛅"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Make a kite",
+      "steps": [
+        {"word": "paper", "emoji": "📄"},
+        {"word": "sticks", "emoji": "🪵"},
+        {"word": "string", "emoji": "🧵"},
+        {"word": "wind", "emoji": "💨"},
+        {"word": "fly", "emoji": "🪁"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Test materials",
+      "steps": [
+        {"word": "hard", "emoji": "🪨"},
+        {"word": "soft", "emoji": "🧸"},
+        {"word": "rough", "emoji": "🟫"},
+        {"word": "smooth", "emoji": "⚪"},
+        {"word": "feel", "emoji": "✋"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Make a boat",
+      "steps": [
+        {"word": "cork", "emoji": "🟫"},
+        {"word": "sail", "emoji": "⛵"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "float", "emoji": "🚢"},
+        {"word": "move", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Study animals",
+      "steps": [
+        {"word": "observe", "emoji": "👀"},
+        {"word": "animals", "emoji": "🦁"},
+        {"word": "how", "emoji": "❓"},
+        {"word": "move", "emoji": "🏃"},
+        {"word": "eat", "emoji": "🍖"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Make a wind vane",
+      "steps": [
+        {"word": "arrow", "emoji": "➡️"},
+        {"word": "spin", "emoji": "🔄"},
+        {"word": "wind", "emoji": "💨"},
+        {"word": "direction", "emoji": "🧭"},
+        {"word": "point", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Mix baking soda",
+      "steps": [
+        {"word": "baking", "emoji": "🥄"},
+        {"word": "soda", "emoji": "⚪"},
+        {"word": "liquid", "emoji": "💧"},
+        {"word": "fizz", "emoji": "🫧"},
+        {"word": "bubble", "emoji": "💭"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Study the moon",
+      "steps": [
+        {"word": "night", "emoji": "🌙"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "moon", "emoji": "🌕"},
+        {"word": "shape", "emoji": "🌗"},
+        {"word": "changes", "emoji": "🌘"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Make a pulley",
+      "steps": [
+        {"word": "wheel", "emoji": "⚙️"},
+        {"word": "rope", "emoji": "🪢"},
+        {"word": "pull", "emoji": "⬇️"},
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "easy", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Study seeds",
+      "steps": [
+        {"word": "open", "emoji": "👐"},
+        {"word": "fruit", "emoji": "🍎"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "seeds", "emoji": "🌱"},
+        {"word": "count", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Make a lever",
+      "steps": [
+        {"word": "board", "emoji": "📏"},
+        {"word": "fulcrum", "emoji": "🔺"},
+        {"word": "push", "emoji": "👇"},
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "heavy", "emoji": "🪨"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Study birds",
+      "steps": [
+        {"word": "watch", "emoji": "👀"},
+        {"word": "birds", "emoji": "🦅"},
+        {"word": "fly", "emoji": "🕊️"},
+        {"word": "nest", "emoji": "🪺"},
+        {"word": "sing", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Make a periscope",
+      "steps": [
+        {"word": "mirrors", "emoji": "🪞"},
+        {"word": "tube", "emoji": "🧻"},
+        {"word": "angle", "emoji": "📐"},
+        {"word": "see", "emoji": "👀"},
+        {"word": "around", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Test sounds",
+      "steps": [
+        {"word": "tap", "emoji": "🥁"},
+        {"word": "different", "emoji": "🔵"},
+        {"word": "materials", "emoji": "📦"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "sounds", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Study trees",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "bark", "emoji": "🟫"},
+        {"word": "leaves", "emoji": "🍃"},
+        {"word": "branches", "emoji": "🌳"},
+        {"word": "roots", "emoji": "🌱"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Make a balloon rocket",
+      "steps": [
+        {"word": "blow", "emoji": "🎈"},
+        {"word": "balloon", "emoji": "🎈"},
+        {"word": "tape", "emoji": "📏"},
+        {"word": "string", "emoji": "🧵"},
+        {"word": "zoom", "emoji": "🚀"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Study flowers",
+      "steps": [
+        {"word": "petals", "emoji": "🌸"},
+        {"word": "stem", "emoji": "🌱"},
+        {"word": "smell", "emoji": "👃"},
+        {"word": "color", "emoji": "🌈"},
+        {"word": "pollen", "emoji": "🌻"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Make a water cycle",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "heat", "emoji": "☀️"},
+        {"word": "evaporate", "emoji": "💨"},
+        {"word": "cloud", "emoji": "☁️"},
+        {"word": "rain", "emoji": "🌧️"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Study shapes",
+      "steps": [
+        {"word": "circle", "emoji": "⭕"},
+        {"word": "square", "emoji": "🟦"},
+        {"word": "triangle", "emoji": "🔺"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "sides", "emoji": "📐"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Make a windmill",
+      "steps": [
+        {"word": "paper", "emoji": "📄"},
+        {"word": "pin", "emoji": "📌"},
+        {"word": "stick", "emoji": "📍"},
+        {"word": "blow", "emoji": "💨"},
+        {"word": "spin", "emoji": "🌀"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Study soil",
+      "steps": [
+        {"word": "dig", "emoji": "🕳️"},
+        {"word": "soil", "emoji": "🟫"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "worms", "emoji": "🪱"},
+        {"word": "layers", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Make a rain gauge",
+      "steps": [
+        {"word": "jar", "emoji": "🫙"},
+        {"word": "ruler", "emoji": "📏"},
+        {"word": "outside", "emoji": "🏞️"},
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "measure", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Study stars",
+      "steps": [
+        {"word": "night", "emoji": "🌃"},
+        {"word": "sky", "emoji": "🌌"},
+        {"word": "stars", "emoji": "⭐"},
+        {"word": "patterns", "emoji": "✨"},
+        {"word": "constellation", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Make a catapult",
+      "steps": [
+        {"word": "spoon", "emoji": "🥄"},
+        {"word": "rubber", "emoji": "🟦"},
+        {"word": "band", "emoji": "⭕"},
+        {"word": "launch", "emoji": "🚀"},
+        {"word": "fly", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Study water",
+      "steps": [
+        {"word": "liquid", "emoji": "💧"},
+        {"word": "freeze", "emoji": "🧊"},
+        {"word": "solid", "emoji": "🟦"},
+        {"word": "heat", "emoji": "🔥"},
+        {"word": "steam", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Make a parachute",
+      "steps": [
+        {"word": "plastic", "emoji": "🛍️"},
+        {"word": "string", "emoji": "🧵"},
+        {"word": "weight", "emoji": "⚖️"},
+        {"word": "drop", "emoji": "👇"},
+        {"word": "float", "emoji": "🪂"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Study seasons",
+      "steps": [
+        {"word": "spring", "emoji": "🌸"},
+        {"word": "summer", "emoji": "☀️"},
+        {"word": "fall", "emoji": "🍂"},
+        {"word": "winter", "emoji": "❄️"},
+        {"word": "change", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Make a balance",
+      "steps": [
+        {"word": "stick", "emoji": "📏"},
+        {"word": "string", "emoji": "🧵"},
+        {"word": "cups", "emoji": "🥤"},
+        {"word": "weigh", "emoji": "⚖️"},
+        {"word": "compare", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Study light",
+      "steps": [
+        {"word": "flashlight", "emoji": "🔦"},
+        {"word": "beam", "emoji": "💡"},
+        {"word": "straight", "emoji": "➡️"},
+        {"word": "reflect", "emoji": "🪞"},
+        {"word": "bend", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Make oobleck",
+      "steps": [
+        {"word": "cornstarch", "emoji": "⚪"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "mix", "emoji": "🌊"},
+        {"word": "solid", "emoji": "🪨"},
+        {"word": "liquid", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Study fossils",
+      "steps": [
+        {"word": "look", "emoji": "🔍"},
+        {"word": "rock", "emoji": "🪨"},
+        {"word": "imprint", "emoji": "🦴"},
+        {"word": "ancient", "emoji": "🦕"},
+        {"word": "life", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Make a phone",
+      "steps": [
+        {"word": "cups", "emoji": "🥤"},
+        {"word": "string", "emoji": "🧵"},
+        {"word": "tight", "emoji": "📏"},
+        {"word": "talk", "emoji": "🗣️"},
+        {"word": "hear", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Study gravity",
+      "steps": [
+        {"word": "drop", "emoji": "👇"},
+        {"word": "objects", "emoji": "📦"},
+        {"word": "fall", "emoji": "⬇️"},
+        {"word": "same", "emoji": "⏱️"},
+        {"word": "time", "emoji": "🕐"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Make a circuit",
+      "steps": [
+        {"word": "battery", "emoji": "🔋"},
+        {"word": "wire", "emoji": "🔌"},
+        {"word": "bulb", "emoji": "💡"},
+        {"word": "connect", "emoji": "🔗"},
+        {"word": "light", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Study wind",
+      "steps": [
+        {"word": "feel", "emoji": "✋"},
+        {"word": "air", "emoji": "💨"},
+        {"word": "move", "emoji": "🌊"},
+        {"word": "direction", "emoji": "➡️"},
+        {"word": "strength", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Make a filter",
+      "steps": [
+        {"word": "sand", "emoji": "🏖️"},
+        {"word": "rocks", "emoji": "🪨"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "pour", "emoji": "🍶"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Study minerals",
+      "steps": [
+        {"word": "rocks", "emoji": "🪨"},
+        {"word": "crystals", "emoji": "💎"},
+        {"word": "shine", "emoji": "✨"},
+        {"word": "hard", "emoji": "💪"},
+        {"word": "soft", "emoji": "🟫"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Make a ramp",
+      "steps": [
+        {"word": "board", "emoji": "📏"},
+        {"word": "angle", "emoji": "📐"},
+        {"word": "roll", "emoji": "⚪"},
+        {"word": "car", "emoji": "🚗"},
+        {"word": "speed", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Study erosion",
+      "steps": [
+        {"word": "sand", "emoji": "🏖️"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "pour", "emoji": "🌊"},
+        {"word": "wash", "emoji": "➡️"},
+        {"word": "away", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Make a spinner",
+      "steps": [
+        {"word": "paper", "emoji": "📄"},
+        {"word": "pencil", "emoji": "✏️"},
+        {"word": "push", "emoji": "👇"},
+        {"word": "spin", "emoji": "🌀"},
+        {"word": "colors", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Study reflection",
+      "steps": [
+        {"word": "mirror", "emoji": "🪞"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "see", "emoji": "😊"},
+        {"word": "self", "emoji": "👤"},
+        {"word": "backwards", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Make a weather station",
+      "steps": [
+        {"word": "thermometer", "emoji": "🌡️"},
+        {"word": "wind", "emoji": "💨"},
+        {"word": "vane", "emoji": "🧭"},
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "gauge", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Study electricity",
+      "steps": [
+        {"word": "static", "emoji": "⚡"},
+        {"word": "current", "emoji": "🔌"},
+        {"word": "power", "emoji": "💡"},
+        {"word": "safe", "emoji": "⚠️"},
+        {"word": "careful", "emoji": "🛑"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Make a maze",
+      "steps": [
+        {"word": "draw", "emoji": "✏️"},
+        {"word": "paths", "emoji": "🛤️"},
+        {"word": "dead", "emoji": "🚫"},
+        {"word": "ends", "emoji": "⬛"},
+        {"word": "solve", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Study habitats",
+      "steps": [
+        {"word": "ocean", "emoji": "🌊"},
+        {"word": "forest", "emoji": "🌲"},
+        {"word": "desert", "emoji": "🏜️"},
+        {"word": "animals", "emoji": "🦁"},
+        {"word": "live", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Make a pendulum",
+      "steps": [
+        {"word": "string", "emoji": "🧵"},
+        {"word": "weight", "emoji": "⚖️"},
+        {"word": "swing", "emoji": "🔄"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "forth", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Study food chains",
+      "steps": [
+        {"word": "plants", "emoji": "🌿"},
+        {"word": "herbivore", "emoji": "🦌"},
+        {"word": "carnivore", "emoji": "🦁"},
+        {"word": "eat", "emoji": "🍖"},
+        {"word": "energy", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Make a wheel",
+      "steps": [
+        {"word": "circle", "emoji": "⭕"},
+        {"word": "axle", "emoji": "📍"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "roll", "emoji": "🛞"},
+        {"word": "move", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Study heat",
+      "steps": [
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "cold", "emoji": "🧊"},
+        {"word": "transfer", "emoji": "➡️"},
+        {"word": "conduct", "emoji": "🔗"},
+        {"word": "insulate", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Make a timer",
+      "steps": [
+        {"word": "sand", "emoji": "⏳"},
+        {"word": "bottles", "emoji": "🍾"},
+        {"word": "flow", "emoji": "⬇️"},
+        {"word": "measure", "emoji": "⏱️"},
+        {"word": "time", "emoji": "🕐"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Study pollution",
+      "steps": [
+        {"word": "clean", "emoji": "✨"},
+        {"word": "dirty", "emoji": "🟫"},
+        {"word": "air", "emoji": "💨"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Make a seesaw",
+      "steps": [
+        {"word": "board", "emoji": "📏"},
+        {"word": "middle", "emoji": "🔺"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "balance", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Study bones",
+      "steps": [
+        {"word": "skeleton", "emoji": "💀"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "organs", "emoji": "❤️"},
+        {"word": "move", "emoji": "🏃"},
+        {"word": "joints", "emoji": "🦴"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Make a dam",
+      "steps": [
+        {"word": "blocks", "emoji": "🧱"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "flow", "emoji": "🌊"},
+        {"word": "hold", "emoji": "🚧"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Study machines",
+      "steps": [
+        {"word": "simple", "emoji": "⚙️"},
+        {"word": "complex", "emoji": "🏭"},
+        {"word": "work", "emoji": "💪"},
+        {"word": "easier", "emoji": "✅"},
+        {"word": "help", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Make a gear",
+      "steps": [
+        {"word": "circles", "emoji": "⚙️"},
+        {"word": "teeth", "emoji": "🔧"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "together", "emoji": "🔗"},
+        {"word": "move", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Study muscles",
+      "steps": [
+        {"word": "flex", "emoji": "💪"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "move", "emoji": "🏃"},
+        {"word": "bones", "emoji": "🦴"},
+        {"word": "strong", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Make a spring",
+      "steps": [
+        {"word": "coil", "emoji": "🌀"},
+        {"word": "wire", "emoji": "🔗"},
+        {"word": "compress", "emoji": "⬇️"},
+        {"word": "release", "emoji": "⬆️"},
+        {"word": "bounce", "emoji": "🏀"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Study senses",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "hear", "emoji": "👂"},
+        {"word": "smell", "emoji": "👃"},
+        {"word": "taste", "emoji": "👅"},
+        {"word": "touch", "emoji": "✋"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Make a battery",
+      "steps": [
+        {"word": "lemon", "emoji": "🍋"},
+        {"word": "copper", "emoji": "🟫"},
+        {"word": "zinc", "emoji": "⚪"},
+        {"word": "electricity", "emoji": "⚡"},
+        {"word": "power", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Study ecosystems",
+      "steps": [
+        {"word": "living", "emoji": "🌿"},
+        {"word": "nonliving", "emoji": "🪨"},
+        {"word": "interact", "emoji": "🔗"},
+        {"word": "depend", "emoji": "🤝"},
+        {"word": "balance", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Make a turbine",
+      "steps": [
+        {"word": "blades", "emoji": "🔧"},
+        {"word": "spin", "emoji": "🌀"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "wind", "emoji": "💨"},
+        {"word": "power", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Study adaptation",
+      "steps": [
+        {"word": "animals", "emoji": "🦁"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "survive", "emoji": "✅"},
+        {"word": "environment", "emoji": "🌍"},
+        {"word": "fit", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Make a hinge",
+      "steps": [
+        {"word": "fold", "emoji": "📐"},
+        {"word": "tape", "emoji": "📏"},
+        {"word": "open", "emoji": "📂"},
+        {"word": "close", "emoji": "📕"},
+        {"word": "door", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Study energy",
+      "steps": [
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "fuel", "emoji": "⛽"},
+        {"word": "use", "emoji": "💡"},
+        {"word": "save", "emoji": "🔋"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Make a trap",
+      "steps": [
+        {"word": "box", "emoji": "📦"},
+        {"word": "prop", "emoji": "📍"},
+        {"word": "bait", "emoji": "🧀"},
+        {"word": "trigger", "emoji": "⚡"},
+        {"word": "catch", "emoji": "🪤"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Study recycling",
+      "steps": [
+        {"word": "sort", "emoji": "♻️"},
+        {"word": "plastic", "emoji": "🍾"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "metal", "emoji": "🥫"},
+        {"word": "reuse", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Make a valve",
+      "steps": [
+        {"word": "tube", "emoji": "🧻"},
+        {"word": "flap", "emoji": "📄"},
+        {"word": "open", "emoji": "⬆️"},
+        {"word": "close", "emoji": "⬇️"},
+        {"word": "control", "emoji": "🎛️"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Study conservation",
+      "steps": [
+        {"word": "save", "emoji": "💾"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "energy", "emoji": "⚡"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "Earth", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Make a robot arm",
+      "steps": [
+        {"word": "cardboard", "emoji": "📦"},
+        {"word": "joints", "emoji": "🔗"},
+        {"word": "strings", "emoji": "🧵"},
+        {"word": "pull", "emoji": "⬇️"},
+        {"word": "grab", "emoji": "🤏"}
+      ]
+    }
+  ]
+}

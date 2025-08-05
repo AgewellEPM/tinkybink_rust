@@ -1,0 +1,1105 @@
+{
+  "category": "🌤️ Weather & Seasons",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Look at clouds",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "at", "emoji": "☁️"},
+        {"word": "sky", "emoji": "🌤️"},
+        {"word": "clouds", "emoji": "☁️"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Feel the rain",
+      "steps": [
+        {"word": "hold", "emoji": "✋"},
+        {"word": "out", "emoji": "➡️"},
+        {"word": "hand", "emoji": "🌧️"},
+        {"word": "feel", "emoji": "💧"},
+        {"word": "raindrops", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Watch lightning",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "bright", "emoji": "⚡"},
+        {"word": "flash", "emoji": "✨"},
+        {"word": "in", "emoji": "🌩️"},
+        {"word": "storm", "emoji": "⛈️"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Hear thunder",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "for", "emoji": "🌩️"},
+        {"word": "loud", "emoji": "🔊"},
+        {"word": "boom", "emoji": "💥"},
+        {"word": "sound", "emoji": "📢"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "See rainbow",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "for", "emoji": "🌈"},
+        {"word": "colors", "emoji": "🌦️"},
+        {"word": "after", "emoji": "🌧️"},
+        {"word": "rain", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Feel sunshine",
+      "steps": [
+        {"word": "step", "emoji": "🚶"},
+        {"word": "into", "emoji": "☀️"},
+        {"word": "sunlight", "emoji": "🌞"},
+        {"word": "feel", "emoji": "🔥"},
+        {"word": "warm", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Watch snow fall",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "white", "emoji": "❄️"},
+        {"word": "snowflakes", "emoji": "⬇️"},
+        {"word": "falling", "emoji": "🌨️"},
+        {"word": "down", "emoji": "☃️"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Feel wind blow",
+      "steps": [
+        {"word": "feel", "emoji": "💨"},
+        {"word": "air", "emoji": "🌬️"},
+        {"word": "moving", "emoji": "🍃"},
+        {"word": "leaves", "emoji": "🌪️"},
+        {"word": "blowing", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "See morning dew",
+      "steps": [
+        {"word": "early", "emoji": "🌅"},
+        {"word": "morning", "emoji": "👀"},
+        {"word": "see", "emoji": "💧"},
+        {"word": "water", "emoji": "🌿"},
+        {"word": "drops", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Watch sunset",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "go", "emoji": "⬇️"},
+        {"word": "down", "emoji": "🌅"},
+        {"word": "beautiful", "emoji": "😍"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Measure temperature",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "at", "emoji": "🌡️"},
+        {"word": "thermometer", "emoji": "🔢"},
+        {"word": "read", "emoji": "📊"},
+        {"word": "number", "emoji": "🌡️"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Check humidity",
+      "steps": [
+        {"word": "feel", "emoji": "💧"},
+        {"word": "moisture", "emoji": "🌫️"},
+        {"word": "in", "emoji": "💨"},
+        {"word": "air", "emoji": "🌊"},
+        {"word": "sticky", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "See fog",
+      "steps": [
+        {"word": "thick", "emoji": "🌫️"},
+        {"word": "clouds", "emoji": "☁️"},
+        {"word": "on", "emoji": "🌍"},
+        {"word": "ground", "emoji": "👀"},
+        {"word": "hard", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Watch hail",
+      "steps": [
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "balls", "emoji": "⬇️"},
+        {"word": "fall", "emoji": "☁️"},
+        {"word": "from", "emoji": "💥"},
+        {"word": "clouds", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "See frost",
+      "steps": [
+        {"word": "cold", "emoji": "🧊"},
+        {"word": "morning", "emoji": "🌅"},
+        {"word": "white", "emoji": "❄️"},
+        {"word": "ice", "emoji": "🌿"},
+        {"word": "crystals", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Feel hot",
+      "steps": [
+        {"word": "very", "emoji": "🔥"},
+        {"word": "warm", "emoji": "🌡️"},
+        {"word": "temperature", "emoji": "🥵"},
+        {"word": "sweat", "emoji": "💦"},
+        {"word": "thirsty", "emoji": "🥤"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Feel cold",
+      "steps": [
+        {"word": "low", "emoji": "🧊"},
+        {"word": "temperature", "emoji": "🌡️"},
+        {"word": "shiver", "emoji": "🥶"},
+        {"word": "cold", "emoji": "🧥"},
+        {"word": "coat", "emoji": "❄️"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "See icicles",
+      "steps": [
+        {"word": "hanging", "emoji": "🧊"},
+        {"word": "ice", "emoji": "⬇️"},
+        {"word": "long", "emoji": "📏"},
+        {"word": "pointed", "emoji": "🏠"},
+        {"word": "house", "emoji": "❄️"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Watch tornado",
+      "steps": [
+        {"word": "spinning", "emoji": "🌪️"},
+        {"word": "wind", "emoji": "🌀"},
+        {"word": "funnel", "emoji": "⚠️"},
+        {"word": "dangerous", "emoji": "🏃"},
+        {"word": "shelter", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "See hurricane",
+      "steps": [
+        {"word": "big", "emoji": "🌀"},
+        {"word": "storm", "emoji": "🌊"},
+        {"word": "strong", "emoji": "💨"},
+        {"word": "winds", "emoji": "⛈️"},
+        {"word": "rain", "emoji": "🌧️"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Spring arrives",
+      "steps": [
+        {"word": "flowers", "emoji": "🌸"},
+        {"word": "bloom", "emoji": "🌱"},
+        {"word": "trees", "emoji": "🍃"},
+        {"word": "green", "emoji": "☀️"},
+        {"word": "warmer", "emoji": "🌷"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Summer heat",
+      "steps": [
+        {"word": "very", "emoji": "☀️"},
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "sun", "emoji": "🌡️"},
+        {"word": "long", "emoji": "📅"},
+        {"word": "days", "emoji": "🏖️"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Fall leaves",
+      "steps": [
+        {"word": "leaves", "emoji": "🍂"},
+        {"word": "change", "emoji": "🟡"},
+        {"word": "colors", "emoji": "🟠"},
+        {"word": "fall", "emoji": "⬇️"},
+        {"word": "down", "emoji": "🍁"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Winter snow",
+      "steps": [
+        {"word": "cold", "emoji": "❄️"},
+        {"word": "season", "emoji": "🌨️"},
+        {"word": "snow", "emoji": "☃️"},
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "frozen", "emoji": "🥶"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Plant seeds",
+      "steps": [
+        {"word": "spring", "emoji": "🌸"},
+        {"word": "time", "emoji": "🌱"},
+        {"word": "plant", "emoji": "🌿"},
+        {"word": "seeds", "emoji": "🌻"},
+        {"word": "grow", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Go swimming",
+      "steps": [
+        {"word": "hot", "emoji": "☀️"},
+        {"word": "summer", "emoji": "🏊"},
+        {"word": "day", "emoji": "💦"},
+        {"word": "swim", "emoji": "🌊"},
+        {"word": "cool", "emoji": "😎"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Rake leaves",
+      "steps": [
+        {"word": "fall", "emoji": "🍂"},
+        {"word": "leaves", "emoji": "🍁"},
+        {"word": "on", "emoji": "🌍"},
+        {"word": "ground", "emoji": "🧹"},
+        {"word": "rake", "emoji": "🧺"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Build snowman",
+      "steps": [
+        {"word": "roll", "emoji": "❄️"},
+        {"word": "snow", "emoji": "⚪"},
+        {"word": "balls", "emoji": "📚"},
+        {"word": "stack", "emoji": "☃️"},
+        {"word": "snowman", "emoji": "⛄"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Wear sunscreen",
+      "steps": [
+        {"word": "protect", "emoji": "🧴"},
+        {"word": "skin", "emoji": "☀️"},
+        {"word": "from", "emoji": "🛡️"},
+        {"word": "sun", "emoji": "🧴"},
+        {"word": "lotion", "emoji": "✋"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Use umbrella",
+      "steps": [
+        {"word": "rainy", "emoji": "🌧️"},
+        {"word": "day", "emoji": "☂️"},
+        {"word": "open", "emoji": "👐"},
+        {"word": "umbrella", "emoji": "🛡️"},
+        {"word": "dry", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Wear jacket",
+      "steps": [
+        {"word": "cold", "emoji": "🧥"},
+        {"word": "weather", "emoji": "❄️"},
+        {"word": "put", "emoji": "👔"},
+        {"word": "on", "emoji": "🔥"},
+        {"word": "warm", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Drink water",
+      "steps": [
+        {"word": "hot", "emoji": "☀️"},
+        {"word": "day", "emoji": "🥤"},
+        {"word": "drink", "emoji": "💧"},
+        {"word": "water", "emoji": "🌊"},
+        {"word": "hydrate", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Stay inside",
+      "steps": [
+        {"word": "bad", "emoji": "⛈️"},
+        {"word": "storm", "emoji": "🏠"},
+        {"word": "stay", "emoji": "🛡️"},
+        {"word": "safe", "emoji": "🔒"},
+        {"word": "inside", "emoji": "🏡"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Check forecast",
+      "steps": [
+        {"word": "look", "emoji": "📱"},
+        {"word": "at", "emoji": "🌤️"},
+        {"word": "weather", "emoji": "📊"},
+        {"word": "app", "emoji": "🔮"},
+        {"word": "predict", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Watch barometer",
+      "steps": [
+        {"word": "measure", "emoji": "📊"},
+        {"word": "air", "emoji": "🌫️"},
+        {"word": "pressure", "emoji": "⬆️"},
+        {"word": "high", "emoji": "⬇️"},
+        {"word": "low", "emoji": "🌤️"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Feel breeze",
+      "steps": [
+        {"word": "gentle", "emoji": "💨"},
+        {"word": "wind", "emoji": "🌬️"},
+        {"word": "soft", "emoji": "🍃"},
+        {"word": "air", "emoji": "😌"},
+        {"word": "pleasant", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "See drizzle",
+      "steps": [
+        {"word": "light", "emoji": "🌧️"},
+        {"word": "rain", "emoji": "💧"},
+        {"word": "tiny", "emoji": "🌦️"},
+        {"word": "drops", "emoji": "☁️"},
+        {"word": "mist", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Watch sleet",
+      "steps": [
+        {"word": "frozen", "emoji": "🧊"},
+        {"word": "rain", "emoji": "❄️"},
+        {"word": "ice", "emoji": "💧"},
+        {"word": "pellets", "emoji": "⬇️"},
+        {"word": "fall", "emoji": "🌨️"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "See blizzard",
+      "steps": [
+        {"word": "heavy", "emoji": "🌨️"},
+        {"word": "snow", "emoji": "💨"},
+        {"word": "strong", "emoji": "❄️"},
+        {"word": "wind", "emoji": "🌪️"},
+        {"word": "white", "emoji": "⚪"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Notice drought",
+      "steps": [
+        {"word": "no", "emoji": "🚫"},
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "dry", "emoji": "🏜️"},
+        {"word": "land", "emoji": "🌿"},
+        {"word": "plants", "emoji": "😔"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Watch sunrise",
+      "steps": [
+        {"word": "early", "emoji": "🌅"},
+        {"word": "morning", "emoji": "☀️"},
+        {"word": "sun", "emoji": "⬆️"},
+        {"word": "comes", "emoji": "🌞"},
+        {"word": "up", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "See moonlight",
+      "steps": [
+        {"word": "night", "emoji": "🌙"},
+        {"word": "time", "emoji": "🌝"},
+        {"word": "moon", "emoji": "✨"},
+        {"word": "bright", "emoji": "🌛"},
+        {"word": "light", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Count stars",
+      "steps": [
+        {"word": "dark", "emoji": "🌃"},
+        {"word": "night", "emoji": "⭐"},
+        {"word": "see", "emoji": "👀"},
+        {"word": "stars", "emoji": "🔢"},
+        {"word": "count", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Feel humidity",
+      "steps": [
+        {"word": "air", "emoji": "💨"},
+        {"word": "feels", "emoji": "💧"},
+        {"word": "thick", "emoji": "🌊"},
+        {"word": "wet", "emoji": "💦"},
+        {"word": "sticky", "emoji": "🤤"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "See puddles",
+      "steps": [
+        {"word": "after", "emoji": "🌧️"},
+        {"word": "rain", "emoji": "💧"},
+        {"word": "water", "emoji": "🌊"},
+        {"word": "collects", "emoji": "🕳️"},
+        {"word": "puddles", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Hear wind chimes",
+      "steps": [
+        {"word": "wind", "emoji": "💨"},
+        {"word": "blows", "emoji": "🎋"},
+        {"word": "chimes", "emoji": "🔔"},
+        {"word": "make", "emoji": "🎵"},
+        {"word": "music", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "See weathervane",
+      "steps": [
+        {"word": "points", "emoji": "➡️"},
+        {"word": "direction", "emoji": "🧭"},
+        {"word": "wind", "emoji": "💨"},
+        {"word": "blowing", "emoji": "🐓"},
+        {"word": "rooster", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Use rain gauge",
+      "steps": [
+        {"word": "measure", "emoji": "📏"},
+        {"word": "how", "emoji": "💧"},
+        {"word": "much", "emoji": "🌧️"},
+        {"word": "rain", "emoji": "📊"},
+        {"word": "fell", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "See aurora",
+      "steps": [
+        {"word": "northern", "emoji": "🌌"},
+        {"word": "lights", "emoji": "💚"},
+        {"word": "colorful", "emoji": "🟢"},
+        {"word": "sky", "emoji": "✨"},
+        {"word": "dancing", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Watch meteor",
+      "steps": [
+        {"word": "shooting", "emoji": "⭐"},
+        {"word": "star", "emoji": "💫"},
+        {"word": "streak", "emoji": "🌠"},
+        {"word": "across", "emoji": "➡️"},
+        {"word": "sky", "emoji": "🌌"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Prepare for storm",
+      "steps": [
+        {"word": "bring", "emoji": "📦"},
+        {"word": "things", "emoji": "🏠"},
+        {"word": "inside", "emoji": "🔋"},
+        {"word": "flashlight", "emoji": "💧"},
+        {"word": "water", "emoji": "🥫"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Dress for weather",
+      "steps": [
+        {"word": "check", "emoji": "🌤️"},
+        {"word": "weather", "emoji": "👔"},
+        {"word": "choose", "emoji": "👗"},
+        {"word": "clothes", "emoji": "✅"},
+        {"word": "appropriate", "emoji": "👍"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Open windows",
+      "steps": [
+        {"word": "nice", "emoji": "🌤️"},
+        {"word": "day", "emoji": "🪟"},
+        {"word": "open", "emoji": "💨"},
+        {"word": "windows", "emoji": "🏠"},
+        {"word": "fresh", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Close windows",
+      "steps": [
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "coming", "emoji": "🪟"},
+        {"word": "close", "emoji": "🔒"},
+        {"word": "windows", "emoji": "🏠"},
+        {"word": "keep", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Turn on heat",
+      "steps": [
+        {"word": "cold", "emoji": "❄️"},
+        {"word": "day", "emoji": "🔥"},
+        {"word": "turn", "emoji": "🌡️"},
+        {"word": "on", "emoji": "🏠"},
+        {"word": "heater", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Turn on fan",
+      "steps": [
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "day", "emoji": "🌀"},
+        {"word": "turn", "emoji": "💨"},
+        {"word": "on", "emoji": "😎"},
+        {"word": "fan", "emoji": "❄️"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Water plants",
+      "steps": [
+        {"word": "dry", "emoji": "🏜️"},
+        {"word": "weather", "emoji": "🌿"},
+        {"word": "plants", "emoji": "💧"},
+        {"word": "need", "emoji": "🚿"},
+        {"word": "water", "emoji": "🌱"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Shovel snow",
+      "steps": [
+        {"word": "heavy", "emoji": "❄️"},
+        {"word": "snow", "emoji": "⛄"},
+        {"word": "use", "emoji": "🏗️"},
+        {"word": "shovel", "emoji": "➡️"},
+        {"word": "clear", "emoji": "🛤️"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Salt sidewalks",
+      "steps": [
+        {"word": "icy", "emoji": "🧊"},
+        {"word": "walkway", "emoji": "🧂"},
+        {"word": "spread", "emoji": "❄️"},
+        {"word": "salt", "emoji": "🌡️"},
+        {"word": "melt", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Make hot chocolate",
+      "steps": [
+        {"word": "cold", "emoji": "❄️"},
+        {"word": "day", "emoji": "☕"},
+        {"word": "warm", "emoji": "🍫"},
+        {"word": "drink", "emoji": "🔥"},
+        {"word": "cozy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Have picnic",
+      "steps": [
+        {"word": "sunny", "emoji": "☀️"},
+        {"word": "day", "emoji": "🧺"},
+        {"word": "pack", "emoji": "🌳"},
+        {"word": "food", "emoji": "🥪"},
+        {"word": "outside", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Fly kite",
+      "steps": [
+        {"word": "windy", "emoji": "💨"},
+        {"word": "day", "emoji": "🪁"},
+        {"word": "kite", "emoji": "⬆️"},
+        {"word": "flies", "emoji": "🌤️"},
+        {"word": "high", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Jump in leaves",
+      "steps": [
+        {"word": "pile", "emoji": "🍂"},
+        {"word": "of", "emoji": "🍁"},
+        {"word": "leaves", "emoji": "🦘"},
+        {"word": "jump", "emoji": "😄"},
+        {"word": "fun", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Go sledding",
+      "steps": [
+        {"word": "snowy", "emoji": "❄️"},
+        {"word": "hill", "emoji": "🛷"},
+        {"word": "sled", "emoji": "⬇️"},
+        {"word": "slide", "emoji": "💨"},
+        {"word": "fast", "emoji": "😆"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Chase rainbows",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "rainbow", "emoji": "🌈"},
+        {"word": "try", "emoji": "🏃"},
+        {"word": "get", "emoji": "➡️"},
+        {"word": "closer", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Listen to rain",
+      "steps": [
+        {"word": "hear", "emoji": "👂"},
+        {"word": "raindrops", "emoji": "💧"},
+        {"word": "on", "emoji": "🏠"},
+        {"word": "roof", "emoji": "🎵"},
+        {"word": "peaceful", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Watch clouds move",
+      "steps": [
+        {"word": "lie", "emoji": "🛏️"},
+        {"word": "down", "emoji": "👀"},
+        {"word": "watch", "emoji": "☁️"},
+        {"word": "clouds", "emoji": "🔄"},
+        {"word": "change", "emoji": "🌤️"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Predict weather",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "at", "emoji": "☁️"},
+        {"word": "clouds", "emoji": "🤔"},
+        {"word": "guess", "emoji": "🌧️"},
+        {"word": "rain", "emoji": "🔮"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Make snow angels",
+      "steps": [
+        {"word": "lie", "emoji": "❄️"},
+        {"word": "in", "emoji": "🛏️"},
+        {"word": "snow", "emoji": "👐"},
+        {"word": "move", "emoji": "👼"},
+        {"word": "arms", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Ice skating",
+      "steps": [
+        {"word": "frozen", "emoji": "🧊"},
+        {"word": "pond", "emoji": "⛸️"},
+        {"word": "ice", "emoji": "🏒"},
+        {"word": "skates", "emoji": "⛸️"},
+        {"word": "glide", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Sun protection",
+      "steps": [
+        {"word": "bright", "emoji": "☀️"},
+        {"word": "sun", "emoji": "🕶️"},
+        {"word": "wear", "emoji": "👒"},
+        {"word": "hat", "emoji": "🛡️"},
+        {"word": "protect", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Storm warning",
+      "steps": [
+        {"word": "dangerous", "emoji": "⚠️"},
+        {"word": "weather", "emoji": "📻"},
+        {"word": "listen", "emoji": "📺"},
+        {"word": "news", "emoji": "🏠"},
+        {"word": "stay", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Weather patterns",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "weather", "emoji": "🔄"},
+        {"word": "changes", "emoji": "📊"},
+        {"word": "patterns", "emoji": "📅"},
+        {"word": "seasons", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Climate zones",
+      "steps": [
+        {"word": "different", "emoji": "🌍"},
+        {"word": "places", "emoji": "🌡️"},
+        {"word": "have", "emoji": "🌴"},
+        {"word": "different", "emoji": "❄️"},
+        {"word": "weather", "emoji": "🏜️"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Weather instruments",
+      "steps": [
+        {"word": "tools", "emoji": "🔧"},
+        {"word": "measure", "emoji": "📊"},
+        {"word": "weather", "emoji": "🌡️"},
+        {"word": "thermometer", "emoji": "📏"},
+        {"word": "barometer", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Weather safety",
+      "steps": [
+        {"word": "know", "emoji": "🧠"},
+        {"word": "how", "emoji": "🛡️"},
+        {"word": "stay", "emoji": "⚠️"},
+        {"word": "safe", "emoji": "🌪️"},
+        {"word": "storms", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Seasonal activities",
+      "steps": [
+        {"word": "each", "emoji": "🌸"},
+        {"word": "season", "emoji": "🎯"},
+        {"word": "has", "emoji": "🏊"},
+        {"word": "special", "emoji": "🍂"},
+        {"word": "activities", "emoji": "⛷️"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Weather journal",
+      "steps": [
+        {"word": "write", "emoji": "📝"},
+        {"word": "down", "emoji": "🌤️"},
+        {"word": "weather", "emoji": "📅"},
+        {"word": "each", "emoji": "📊"},
+        {"word": "day", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Cloud types",
+      "steps": [
+        {"word": "different", "emoji": "☁️"},
+        {"word": "clouds", "emoji": "⛅"},
+        {"word": "have", "emoji": "🌩️"},
+        {"word": "different", "emoji": "📚"},
+        {"word": "names", "emoji": "🔤"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Weather affects mood",
+      "steps": [
+        {"word": "sunny", "emoji": "☀️"},
+        {"word": "days", "emoji": "😊"},
+        {"word": "happy", "emoji": "🌧️"},
+        {"word": "rain", "emoji": "😔"},
+        {"word": "sad", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Animals and weather",
+      "steps": [
+        {"word": "animals", "emoji": "🐻"},
+        {"word": "prepare", "emoji": "❄️"},
+        {"word": "for", "emoji": "🏠"},
+        {"word": "winter", "emoji": "🐿️"},
+        {"word": "hibernate", "emoji": "😴"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Plants and seasons",
+      "steps": [
+        {"word": "plants", "emoji": "🌱"},
+        {"word": "grow", "emoji": "🌸"},
+        {"word": "in", "emoji": "🍂"},
+        {"word": "spring", "emoji": "❄️"},
+        {"word": "rest", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Global weather",
+      "steps": [
+        {"word": "weather", "emoji": "🌍"},
+        {"word": "is", "emoji": "🔄"},
+        {"word": "different", "emoji": "🌏"},
+        {"word": "around", "emoji": "🌎"},
+        {"word": "world", "emoji": "🌐"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Weather myths",
+      "steps": [
+        {"word": "old", "emoji": "👴"},
+        {"word": "stories", "emoji": "📚"},
+        {"word": "about", "emoji": "🌧️"},
+        {"word": "weather", "emoji": "🌈"},
+        {"word": "legends", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Emergency kit",
+      "steps": [
+        {"word": "prepare", "emoji": "📦"},
+        {"word": "supplies", "emoji": "⚠️"},
+        {"word": "for", "emoji": "🌪️"},
+        {"word": "bad", "emoji": "🔋"},
+        {"word": "weather", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Weather technology",
+      "steps": [
+        {"word": "satellites", "emoji": "🛰️"},
+        {"word": "help", "emoji": "🌍"},
+        {"word": "predict", "emoji": "📡"},
+        {"word": "weather", "emoji": "📱"},
+        {"word": "apps", "emoji": "💻"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Extreme weather",
+      "steps": [
+        {"word": "very", "emoji": "⚠️"},
+        {"word": "dangerous", "emoji": "🌪️"},
+        {"word": "weather", "emoji": "🌊"},
+        {"word": "like", "emoji": "🔥"},
+        {"word": "hurricanes", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Weather folklore",
+      "steps": [
+        {"word": "old", "emoji": "👴"},
+        {"word": "sayings", "emoji": "🗣️"},
+        {"word": "about", "emoji": "🌤️"},
+        {"word": "weather", "emoji": "📜"},
+        {"word": "wisdom", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Air quality",
+      "steps": [
+        {"word": "check", "emoji": "💨"},
+        {"word": "how", "emoji": "🌫️"},
+        {"word": "clean", "emoji": "😷"},
+        {"word": "air", "emoji": "🏭"},
+        {"word": "pollution", "emoji": "🤧"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "UV index",
+      "steps": [
+        {"word": "measure", "emoji": "☀️"},
+        {"word": "sun's", "emoji": "🔥"},
+        {"word": "strength", "emoji": "📊"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "skin", "emoji": "🧴"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Wind power",
+      "steps": [
+        {"word": "wind", "emoji": "💨"},
+        {"word": "can", "emoji": "⚡"},
+        {"word": "make", "emoji": "🌀"},
+        {"word": "electricity", "emoji": "🏭"},
+        {"word": "turbines", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Solar energy",
+      "steps": [
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "gives", "emoji": "⚡"},
+        {"word": "energy", "emoji": "📱"},
+        {"word": "solar", "emoji": "🔋"},
+        {"word": "panels", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Water cycle",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "evaporates", "emoji": "☁️"},
+        {"word": "becomes", "emoji": "🌧️"},
+        {"word": "clouds", "emoji": "💦"},
+        {"word": "rain", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Climate change",
+      "steps": [
+        {"word": "earth's", "emoji": "🌍"},
+        {"word": "weather", "emoji": "🌡️"},
+        {"word": "is", "emoji": "📈"},
+        {"word": "changing", "emoji": "🔥"},
+        {"word": "warming", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Weather station",
+      "steps": [
+        {"word": "place", "emoji": "📍"},
+        {"word": "where", "emoji": "📊"},
+        {"word": "scientists", "emoji": "👩‍🔬"},
+        {"word": "study", "emoji": "🌤️"},
+        {"word": "weather", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Meteorologist",
+      "steps": [
+        {"word": "person", "emoji": "👨‍🔬"},
+        {"word": "who", "emoji": "📊"},
+        {"word": "studies", "emoji": "🌤️"},
+        {"word": "weather", "emoji": "📺"},
+        {"word": "forecasts", "emoji": "🔮"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Weather map",
+      "steps": [
+        {"word": "picture", "emoji": "🗺️"},
+        {"word": "shows", "emoji": "🌤️"},
+        {"word": "weather", "emoji": "🌍"},
+        {"word": "across", "emoji": "📊"},
+        {"word": "region", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Weather radar",
+      "steps": [
+        {"word": "technology", "emoji": "📡"},
+        {"word": "sees", "emoji": "🌧️"},
+        {"word": "rain", "emoji": "☁️"},
+        {"word": "storms", "emoji": "📺"},
+        {"word": "coming", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Respect nature",
+      "steps": [
+        {"word": "weather", "emoji": "🌍"},
+        {"word": "is", "emoji": "💪"},
+        {"word": "powerful", "emoji": "🙏"},
+        {"word": "respect", "emoji": "🌿"},
+        {"word": "nature", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Enjoy weather",
+      "steps": [
+        {"word": "every", "emoji": "🌤️"},
+        {"word": "type", "emoji": "🌈"},
+        {"word": "of", "emoji": "😊"},
+        {"word": "weather", "emoji": "✨"},
+        {"word": "beautiful", "emoji": "💕"}
+      ]
+    }
+  ]
+}

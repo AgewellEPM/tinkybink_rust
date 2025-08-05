@@ -1,0 +1,1108 @@
+{
+  "category": {
+    "emoji": "💝",
+    "name": "Social Emotional Learning"
+  },
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Identify feelings",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "inside", "emoji": "💭"},
+        {"word": "what", "emoji": "❓"},
+        {"word": "feeling", "emoji": "😊"},
+        {"word": "now", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Happy face",
+      "steps": [
+        {"word": "smile", "emoji": "😊"},
+        {"word": "big", "emoji": "🤗"},
+        {"word": "eyes", "emoji": "👀"},
+        {"word": "bright", "emoji": "✨"},
+        {"word": "happy", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sad feelings",
+      "steps": [
+        {"word": "tears", "emoji": "😢"},
+        {"word": "might", "emoji": "💧"},
+        {"word": "fall", "emoji": "⬇️"},
+        {"word": "it's", "emoji": "✅"},
+        {"word": "okay", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Angry management",
+      "steps": [
+        {"word": "feel", "emoji": "😠"},
+        {"word": "mad", "emoji": "😤"},
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "ten", "emoji": "🔟"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Scared comfort",
+      "steps": [
+        {"word": "feeling", "emoji": "😨"},
+        {"word": "afraid", "emoji": "😰"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "person", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Excited energy",
+      "steps": [
+        {"word": "jumping", "emoji": "🦘"},
+        {"word": "happy", "emoji": "😊"},
+        {"word": "can't", "emoji": "🚫"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "excited", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Calm down",
+      "steps": [
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "slowly", "emoji": "🐌"},
+        {"word": "feel", "emoji": "😌"},
+        {"word": "better", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Share feelings",
+      "steps": [
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "someone", "emoji": "👤"},
+        {"word": "how", "emoji": "❓"},
+        {"word": "you", "emoji": "👆"},
+        {"word": "feel", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Empathy practice",
+      "steps": [
+        {"word": "how", "emoji": "❓"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "might", "emoji": "💭"},
+        {"word": "be", "emoji": "🤔"},
+        {"word": "feeling", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Kind words",
+      "steps": [
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "nice", "emoji": "😊"},
+        {"word": "things", "emoji": "💝"},
+        {"word": "make", "emoji": "✨"},
+        {"word": "smile", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Friendship skills",
+      "steps": [
+        {"word": "share", "emoji": "🤝"},
+        {"word": "toys", "emoji": "🧸"},
+        {"word": "take", "emoji": "🔄"},
+        {"word": "turns", "emoji": "⏰"},
+        {"word": "friends", "emoji": "👫"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Say sorry",
+      "steps": [
+        {"word": "made", "emoji": "😔"},
+        {"word": "mistake", "emoji": "❌"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "sorry", "emoji": "🙏"},
+        {"word": "mean", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Good listener",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "at", "emoji": "👉"},
+        {"word": "speaker", "emoji": "🗣️"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "listen", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Personal space",
+      "steps": [
+        {"word": "arm's", "emoji": "💪"},
+        {"word": "length", "emoji": "📏"},
+        {"word": "away", "emoji": "↔️"},
+        {"word": "respect", "emoji": "🤝"},
+        {"word": "space", "emoji": "⭕"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Waiting turns",
+      "steps": [
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "your", "emoji": "👆"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "be", "emoji": "😌"},
+        {"word": "patient", "emoji": "⏳"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Compliments giving",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "good", "emoji": "👍"},
+        {"word": "things", "emoji": "✨"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "them", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Conflict resolution",
+      "steps": [
+        {"word": "problem", "emoji": "❓"},
+        {"word": "talk", "emoji": "💬"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "solution", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Self confidence",
+      "steps": [
+        {"word": "I", "emoji": "👆"},
+        {"word": "can", "emoji": "💪"},
+        {"word": "do", "emoji": "✅"},
+        {"word": "hard", "emoji": "💎"},
+        {"word": "things", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Positive thoughts",
+      "steps": [
+        {"word": "think", "emoji": "💭"},
+        {"word": "good", "emoji": "👍"},
+        {"word": "thoughts", "emoji": "🌈"},
+        {"word": "feel", "emoji": "😊"},
+        {"word": "better", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Body awareness",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "feels", "emoji": "🤲"},
+        {"word": "tight", "emoji": "😬"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Gratitude practice",
+      "steps": [
+        {"word": "think", "emoji": "💭"},
+        {"word": "three", "emoji": "3️⃣"},
+        {"word": "good", "emoji": "👍"},
+        {"word": "things", "emoji": "✨"},
+        {"word": "thankful", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Mindful breathing",
+      "steps": [
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "in", "emoji": "⬇️"},
+        {"word": "slowly", "emoji": "🐌"},
+        {"word": "out", "emoji": "⬆️"},
+        {"word": "calm", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Emotion check-in",
+      "steps": [
+        {"word": "how", "emoji": "❓"},
+        {"word": "am", "emoji": "👆"},
+        {"word": "I", "emoji": "😊"},
+        {"word": "feeling", "emoji": "❤️"},
+        {"word": "today", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Coping strategies",
+      "steps": [
+        {"word": "feeling", "emoji": "😔"},
+        {"word": "upset", "emoji": "😢"},
+        {"word": "try", "emoji": "💪"},
+        {"word": "coping", "emoji": "🛠️"},
+        {"word": "skill", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Ask for help",
+      "steps": [
+        {"word": "need", "emoji": "🆘"},
+        {"word": "help", "emoji": "🤝"},
+        {"word": "ask", "emoji": "🗣️"},
+        {"word": "trusted", "emoji": "💙"},
+        {"word": "adult", "emoji": "👨"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Celebrate success",
+      "steps": [
+        {"word": "did", "emoji": "✅"},
+        {"word": "something", "emoji": "🎯"},
+        {"word": "great", "emoji": "⭐"},
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "proud", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Handle disappointment",
+      "steps": [
+        {"word": "didn't", "emoji": "❌"},
+        {"word": "work", "emoji": "💔"},
+        {"word": "out", "emoji": "😔"},
+        {"word": "that's", "emoji": "🤷"},
+        {"word": "okay", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Practice patience",
+      "steps": [
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "calmly", "emoji": "😌"},
+        {"word": "without", "emoji": "🚫"},
+        {"word": "getting", "emoji": "😤"},
+        {"word": "upset", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Express needs",
+      "steps": [
+        {"word": "I", "emoji": "👆"},
+        {"word": "need", "emoji": "📢"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "what", "emoji": "❓"},
+        {"word": "helps", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Respect differences",
+      "steps": [
+        {"word": "everyone", "emoji": "👥"},
+        {"word": "is", "emoji": "✨"},
+        {"word": "different", "emoji": "🌈"},
+        {"word": "that's", "emoji": "👍"},
+        {"word": "good", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Include others",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "someone", "emoji": "👤"},
+        {"word": "alone", "emoji": "😔"},
+        {"word": "invite", "emoji": "🤝"},
+        {"word": "play", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Handle teasing",
+      "steps": [
+        {"word": "someone", "emoji": "👤"},
+        {"word": "teasing", "emoji": "😢"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "away", "emoji": "➡️"},
+        {"word": "tell", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Emotion regulation",
+      "steps": [
+        {"word": "big", "emoji": "🌊"},
+        {"word": "feelings", "emoji": "😤"},
+        {"word": "use", "emoji": "🛠️"},
+        {"word": "tools", "emoji": "🧰"},
+        {"word": "calm", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Self awareness",
+      "steps": [
+        {"word": "know", "emoji": "🧠"},
+        {"word": "my", "emoji": "👆"},
+        {"word": "strengths", "emoji": "💪"},
+        {"word": "and", "emoji": "➕"},
+        {"word": "challenges", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Growth mindset",
+      "steps": [
+        {"word": "mistakes", "emoji": "❌"},
+        {"word": "help", "emoji": "🤝"},
+        {"word": "me", "emoji": "👆"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "grow", "emoji": "🌱"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Responsibility taking",
+      "steps": [
+        {"word": "my", "emoji": "👆"},
+        {"word": "actions", "emoji": "🎯"},
+        {"word": "my", "emoji": "👆"},
+        {"word": "choices", "emoji": "🤔"},
+        {"word": "responsible", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Problem solving",
+      "steps": [
+        {"word": "what's", "emoji": "❓"},
+        {"word": "problem", "emoji": "🧩"},
+        {"word": "think", "emoji": "💭"},
+        {"word": "solutions", "emoji": "💡"},
+        {"word": "try", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Teamwork skills",
+      "steps": [
+        {"word": "work", "emoji": "🤝"},
+        {"word": "together", "emoji": "👥"},
+        {"word": "share", "emoji": "🎁"},
+        {"word": "ideas", "emoji": "💡"},
+        {"word": "succeed", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Following rules",
+      "steps": [
+        {"word": "rules", "emoji": "📋"},
+        {"word": "keep", "emoji": "🛡️"},
+        {"word": "us", "emoji": "👥"},
+        {"word": "safe", "emoji": "✅"},
+        {"word": "follow", "emoji": "👣"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Making choices",
+      "steps": [
+        {"word": "think", "emoji": "🤔"},
+        {"word": "about", "emoji": "💭"},
+        {"word": "options", "emoji": "🔢"},
+        {"word": "choose", "emoji": "👆"},
+        {"word": "best", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Stress management",
+      "steps": [
+        {"word": "feeling", "emoji": "😰"},
+        {"word": "stressed", "emoji": "🌊"},
+        {"word": "take", "emoji": "🤲"},
+        {"word": "break", "emoji": "☕"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Setting boundaries",
+      "steps": [
+        {"word": "it's", "emoji": "✅"},
+        {"word": "okay", "emoji": "👍"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "no", "emoji": "🚫"},
+        {"word": "sometimes", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Perspective taking",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "from", "emoji": "👉"},
+        {"word": "their", "emoji": "👥"},
+        {"word": "point", "emoji": "📍"},
+        {"word": "view", "emoji": "👁️"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Emotional vocabulary",
+      "steps": [
+        {"word": "learn", "emoji": "📚"},
+        {"word": "words", "emoji": "💬"},
+        {"word": "describe", "emoji": "📝"},
+        {"word": "different", "emoji": "🌈"},
+        {"word": "feelings", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Impulse control",
+      "steps": [
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "before", "emoji": "⏰"},
+        {"word": "you", "emoji": "👆"},
+        {"word": "act", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Active listening",
+      "steps": [
+        {"word": "ears", "emoji": "👂"},
+        {"word": "open", "emoji": "📂"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "closed", "emoji": "🤐"},
+        {"word": "focus", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Expressing gratitude",
+      "steps": [
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "thank", "emoji": "🙏"},
+        {"word": "you", "emoji": "👆"},
+        {"word": "show", "emoji": "✨"},
+        {"word": "appreciation", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Building resilience",
+      "steps": [
+        {"word": "bounce", "emoji": "⚽"},
+        {"word": "back", "emoji": "🔄"},
+        {"word": "from", "emoji": "👉"},
+        {"word": "hard", "emoji": "💎"},
+        {"word": "times", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Recognizing triggers",
+      "steps": [
+        {"word": "what", "emoji": "❓"},
+        {"word": "makes", "emoji": "🛠️"},
+        {"word": "me", "emoji": "👆"},
+        {"word": "feel", "emoji": "😤"},
+        {"word": "upset", "emoji": "😢"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Positive self-talk",
+      "steps": [
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "myself", "emoji": "👆"},
+        {"word": "kind", "emoji": "💝"},
+        {"word": "encouraging", "emoji": "💪"},
+        {"word": "words", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Managing anxiety",
+      "steps": [
+        {"word": "worried", "emoji": "😟"},
+        {"word": "thoughts", "emoji": "💭"},
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "ground", "emoji": "🌍"},
+        {"word": "yourself", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Showing compassion",
+      "steps": [
+        {"word": "care", "emoji": "❤️"},
+        {"word": "about", "emoji": "💭"},
+        {"word": "others'", "emoji": "👥"},
+        {"word": "feelings", "emoji": "😊"},
+        {"word": "help", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Understanding consequences",
+      "steps": [
+        {"word": "actions", "emoji": "🎯"},
+        {"word": "have", "emoji": "🤲"},
+        {"word": "results", "emoji": "📊"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "ahead", "emoji": "⏭️"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Celebrating diversity",
+      "steps": [
+        {"word": "different", "emoji": "🌈"},
+        {"word": "cultures", "emoji": "🌍"},
+        {"word": "traditions", "emoji": "🎭"},
+        {"word": "make", "emoji": "✨"},
+        {"word": "beautiful", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Managing transitions",
+      "steps": [
+        {"word": "change", "emoji": "🔄"},
+        {"word": "coming", "emoji": "➡️"},
+        {"word": "prepare", "emoji": "📋"},
+        {"word": "adjust", "emoji": "🔧"},
+        {"word": "adapt", "emoji": "🦎"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Peer pressure",
+      "steps": [
+        {"word": "friends", "emoji": "👥"},
+        {"word": "want", "emoji": "💭"},
+        {"word": "different", "emoji": "↔️"},
+        {"word": "stay", "emoji": "💪"},
+        {"word": "true", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Goal setting",
+      "steps": [
+        {"word": "what", "emoji": "❓"},
+        {"word": "want", "emoji": "💭"},
+        {"word": "achieve", "emoji": "🎯"},
+        {"word": "make", "emoji": "📝"},
+        {"word": "plan", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Accepting feedback",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "to", "emoji": "👉"},
+        {"word": "feedback", "emoji": "💬"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "improve", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Expressing disagreement",
+      "steps": [
+        {"word": "disagree", "emoji": "🚫"},
+        {"word": "respectfully", "emoji": "🤝"},
+        {"word": "share", "emoji": "💬"},
+        {"word": "my", "emoji": "👆"},
+        {"word": "view", "emoji": "👁️"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Building trust",
+      "steps": [
+        {"word": "keep", "emoji": "🔒"},
+        {"word": "promises", "emoji": "🤝"},
+        {"word": "be", "emoji": "✅"},
+        {"word": "honest", "emoji": "💯"},
+        {"word": "reliable", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Handling criticism",
+      "steps": [
+        {"word": "hear", "emoji": "👂"},
+        {"word": "criticism", "emoji": "💬"},
+        {"word": "stay", "emoji": "😌"},
+        {"word": "calm", "emoji": "🧘"},
+        {"word": "learn", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Showing respect",
+      "steps": [
+        {"word": "treat", "emoji": "🤝"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "kindly", "emoji": "💝"},
+        {"word": "use", "emoji": "🗣️"},
+        {"word": "manners", "emoji": "🎩"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Managing jealousy",
+      "steps": [
+        {"word": "feeling", "emoji": "😒"},
+        {"word": "jealous", "emoji": "💚"},
+        {"word": "acknowledge", "emoji": "✅"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "gratitude", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Developing empathy",
+      "steps": [
+        {"word": "imagine", "emoji": "💭"},
+        {"word": "how", "emoji": "❓"},
+        {"word": "they", "emoji": "👥"},
+        {"word": "might", "emoji": "🤔"},
+        {"word": "feel", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Conflict avoidance",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "trouble", "emoji": "⚠️"},
+        {"word": "coming", "emoji": "➡️"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "away", "emoji": "↩️"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Emotional boundaries",
+      "steps": [
+        {"word": "my", "emoji": "👆"},
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "are", "emoji": "✅"},
+        {"word": "mine", "emoji": "🤲"},
+        {"word": "own", "emoji": "💯"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Seeking support",
+      "steps": [
+        {"word": "need", "emoji": "🆘"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "ask", "emoji": "🗣️"},
+        {"word": "trusted", "emoji": "💙"},
+        {"word": "people", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Managing expectations",
+      "steps": [
+        {"word": "realistic", "emoji": "✅"},
+        {"word": "expectations", "emoji": "📊"},
+        {"word": "avoid", "emoji": "🚫"},
+        {"word": "disappointment", "emoji": "😔"},
+        {"word": "happy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Emotional awareness",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "signals", "emoji": "🚦"},
+        {"word": "emotion", "emoji": "❤️"},
+        {"word": "clues", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Social situations",
+      "steps": [
+        {"word": "read", "emoji": "📖"},
+        {"word": "social", "emoji": "👥"},
+        {"word": "cues", "emoji": "💡"},
+        {"word": "respond", "emoji": "💬"},
+        {"word": "appropriately", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Forgiveness practice",
+      "steps": [
+        {"word": "someone", "emoji": "👤"},
+        {"word": "hurt", "emoji": "💔"},
+        {"word": "me", "emoji": "👆"},
+        {"word": "forgive", "emoji": "🤗"},
+        {"word": "heal", "emoji": "❤️‍🩹"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Self forgiveness",
+      "steps": [
+        {"word": "made", "emoji": "😔"},
+        {"word": "mistake", "emoji": "❌"},
+        {"word": "forgive", "emoji": "🤗"},
+        {"word": "myself", "emoji": "👆"},
+        {"word": "learn", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Emotional support",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "sad", "emoji": "😢"},
+        {"word": "be", "emoji": "🤝"},
+        {"word": "there", "emoji": "📍"},
+        {"word": "comfort", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Managing change",
+      "steps": [
+        {"word": "things", "emoji": "🔄"},
+        {"word": "change", "emoji": "🌊"},
+        {"word": "adapt", "emoji": "🦎"},
+        {"word": "stay", "emoji": "💪"},
+        {"word": "flexible", "emoji": "🤸"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Building confidence",
+      "steps": [
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "skills", "emoji": "🎯"},
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "progress", "emoji": "📈"},
+        {"word": "confident", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Healthy relationships",
+      "steps": [
+        {"word": "respect", "emoji": "🤝"},
+        {"word": "trust", "emoji": "💙"},
+        {"word": "communicate", "emoji": "💬"},
+        {"word": "support", "emoji": "🤲"},
+        {"word": "care", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Digital citizenship",
+      "steps": [
+        {"word": "online", "emoji": "💻"},
+        {"word": "be", "emoji": "✅"},
+        {"word": "kind", "emoji": "💝"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "respectful", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Managing frustration",
+      "steps": [
+        {"word": "frustrated", "emoji": "😤"},
+        {"word": "pause", "emoji": "⏸️"},
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "try", "emoji": "🔄"},
+        {"word": "again", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Emotional intelligence",
+      "steps": [
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "emotions", "emoji": "❤️"},
+        {"word": "manage", "emoji": "🎮"},
+        {"word": "them", "emoji": "✅"},
+        {"word": "wisely", "emoji": "🦉"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Social awareness",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "group", "emoji": "👥"},
+        {"word": "dynamics", "emoji": "🔄"},
+        {"word": "fit", "emoji": "🧩"},
+        {"word": "in", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Self motivation",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "inner", "emoji": "💭"},
+        {"word": "drive", "emoji": "🚗"},
+        {"word": "keep", "emoji": "➡️"},
+        {"word": "going", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Handling rejection",
+      "steps": [
+        {"word": "not", "emoji": "🚫"},
+        {"word": "chosen", "emoji": "❌"},
+        {"word": "it's", "emoji": "✅"},
+        {"word": "okay", "emoji": "🤷"},
+        {"word": "move", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Expressing joy",
+      "steps": [
+        {"word": "happy", "emoji": "😊"},
+        {"word": "feelings", "emoji": "🎉"},
+        {"word": "share", "emoji": "🤝"},
+        {"word": "spread", "emoji": "✨"},
+        {"word": "joy", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Managing worry",
+      "steps": [
+        {"word": "worried", "emoji": "😟"},
+        {"word": "thoughts", "emoji": "💭"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "them", "emoji": "📝"},
+        {"word": "down", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Emotional safety",
+      "steps": [
+        {"word": "feel", "emoji": "❤️"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "express", "emoji": "🗣️"},
+        {"word": "true", "emoji": "💯"},
+        {"word": "feelings", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Understanding others",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "understand", "emoji": "💡"},
+        {"word": "before", "emoji": "⏰"},
+        {"word": "being", "emoji": "👤"},
+        {"word": "understood", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Managing excitement",
+      "steps": [
+        {"word": "super", "emoji": "🚀"},
+        {"word": "excited", "emoji": "🎉"},
+        {"word": "channel", "emoji": "📡"},
+        {"word": "energy", "emoji": "⚡"},
+        {"word": "positively", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Dealing with loss",
+      "steps": [
+        {"word": "lost", "emoji": "💔"},
+        {"word": "something", "emoji": "😢"},
+        {"word": "grieve", "emoji": "🕊️"},
+        {"word": "remember", "emoji": "💭"},
+        {"word": "heal", "emoji": "❤️‍🩹"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Social confidence",
+      "steps": [
+        {"word": "meet", "emoji": "👋"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "people", "emoji": "👥"},
+        {"word": "be", "emoji": "😊"},
+        {"word": "yourself", "emoji": "💯"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Emotional expression",
+      "steps": [
+        {"word": "show", "emoji": "✨"},
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "healthy", "emoji": "✅"},
+        {"word": "appropriate", "emoji": "👍"},
+        {"word": "ways", "emoji": "🛤️"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Managing boredom",
+      "steps": [
+        {"word": "feeling", "emoji": "😑"},
+        {"word": "bored", "emoji": "🥱"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "creative", "emoji": "🎨"},
+        {"word": "activity", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Showing courage",
+      "steps": [
+        {"word": "feel", "emoji": "😨"},
+        {"word": "scared", "emoji": "😰"},
+        {"word": "be", "emoji": "💪"},
+        {"word": "brave", "emoji": "🦁"},
+        {"word": "anyway", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Emotional resilience",
+      "steps": [
+        {"word": "tough", "emoji": "💎"},
+        {"word": "times", "emoji": "⛈️"},
+        {"word": "bounce", "emoji": "⚽"},
+        {"word": "back", "emoji": "🔄"},
+        {"word": "stronger", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Managing loneliness",
+      "steps": [
+        {"word": "feeling", "emoji": "😔"},
+        {"word": "lonely", "emoji": "👤"},
+        {"word": "reach", "emoji": "🤲"},
+        {"word": "out", "emoji": "📞"},
+        {"word": "connect", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Celebrating others",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "succeeds", "emoji": "🏆"},
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "with", "emoji": "🤝"},
+        {"word": "them", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Managing guilt",
+      "steps": [
+        {"word": "feeling", "emoji": "😔"},
+        {"word": "guilty", "emoji": "💔"},
+        {"word": "make", "emoji": "🛠️"},
+        {"word": "amends", "emoji": "🤝"},
+        {"word": "forgive", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Social problem solving",
+      "steps": [
+        {"word": "social", "emoji": "👥"},
+        {"word": "problem", "emoji": "❓"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "solutions", "emoji": "💡"},
+        {"word": "resolve", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Emotional balance",
+      "steps": [
+        {"word": "balance", "emoji": "⚖️"},
+        {"word": "different", "emoji": "🌈"},
+        {"word": "emotions", "emoji": "❤️"},
+        {"word": "stay", "emoji": "😌"},
+        {"word": "centered", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Managing pride",
+      "steps": [
+        {"word": "proud", "emoji": "🏆"},
+        {"word": "achievement", "emoji": "⭐"},
+        {"word": "stay", "emoji": "😊"},
+        {"word": "humble", "emoji": "🙏"},
+        {"word": "kind", "emoji": "💝"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Emotional growth",
+      "steps": [
+        {"word": "learn", "emoji": "📚"},
+        {"word": "from", "emoji": "👉"},
+        {"word": "experiences", "emoji": "🎭"},
+        {"word": "grow", "emoji": "🌱"},
+        {"word": "emotionally", "emoji": "❤️"}
+      ]
+    }
+  ]
+}

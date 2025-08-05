@@ -1,0 +1,1105 @@
+{
+  "category": "🌊 Fluency & Stuttering",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Slow speech",
+      "steps": [
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "turtle", "emoji": "🐢"},
+        {"word": "pace", "emoji": "👣"},
+        {"word": "smooth", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Easy onset",
+      "steps": [
+        {"word": "start", "emoji": "🏁"},
+        {"word": "gently", "emoji": "🤗"},
+        {"word": "soft", "emoji": "🧸"},
+        {"word": "easy", "emoji": "😌"},
+        {"word": "begin", "emoji": "▶️"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Light contact",
+      "steps": [
+        {"word": "touch", "emoji": "👆"},
+        {"word": "lightly", "emoji": "🪶"},
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "feather", "emoji": "🪶"},
+        {"word": "soft", "emoji": "🧸"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Continuous phonation",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "keep", "emoji": "🔄"},
+        {"word": "going", "emoji": "➡️"},
+        {"word": "smooth", "emoji": "✨"},
+        {"word": "flowing", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Pausing",
+      "steps": [
+        {"word": "pause", "emoji": "⏸️"},
+        {"word": "breath", "emoji": "🫁"},
+        {"word": "rest", "emoji": "💤"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "continue", "emoji": "▶️"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Breathing exercises",
+      "steps": [
+        {"word": "breathe", "emoji": "🫁"},
+        {"word": "deep", "emoji": "⬇️"},
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "relax", "emoji": "🧘"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Diaphragmatic breathing",
+      "steps": [
+        {"word": "belly", "emoji": "🤰"},
+        {"word": "breathe", "emoji": "🫁"},
+        {"word": "expand", "emoji": "📏"},
+        {"word": "deep", "emoji": "⬇️"},
+        {"word": "support", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Relaxation",
+      "steps": [
+        {"word": "relax", "emoji": "😌"},
+        {"word": "muscles", "emoji": "💪"},
+        {"word": "calm", "emoji": "🧘"},
+        {"word": "peaceful", "emoji": "☮️"},
+        {"word": "tension", "emoji": "😤"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Progressive relaxation",
+      "steps": [
+        {"word": "tense", "emoji": "💪"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "muscles", "emoji": "💪"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "calm", "emoji": "🧘"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Gentle voice",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "soft", "emoji": "🧸"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "smooth", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Pullouts",
+      "steps": [
+        {"word": "stuck", "emoji": "🚫"},
+        {"word": "pull", "emoji": "⬅️"},
+        {"word": "out", "emoji": "📤"},
+        {"word": "slowly", "emoji": "🐌"},
+        {"word": "continue", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Cancellations",
+      "steps": [
+        {"word": "stutter", "emoji": "🔄"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "pause", "emoji": "⏸️"},
+        {"word": "try", "emoji": "💪"},
+        {"word": "again", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Preparatory sets",
+      "steps": [
+        {"word": "prepare", "emoji": "📋"},
+        {"word": "before", "emoji": "⏮️"},
+        {"word": "word", "emoji": "📝"},
+        {"word": "ready", "emoji": "✅"},
+        {"word": "smooth", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Voluntary stuttering",
+      "steps": [
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "stutter", "emoji": "🔄"},
+        {"word": "purpose", "emoji": "🎯"},
+        {"word": "control", "emoji": "🎮"},
+        {"word": "fear", "emoji": "😨"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Identify triggers",
+      "steps": [
+        {"word": "triggers", "emoji": "⚡"},
+        {"word": "identify", "emoji": "🔍"},
+        {"word": "situations", "emoji": "📍"},
+        {"word": "words", "emoji": "📝"},
+        {"word": "aware", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Reduce tension",
+      "steps": [
+        {"word": "tension", "emoji": "😤"},
+        {"word": "reduce", "emoji": "⬇️"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "muscles", "emoji": "💪"},
+        {"word": "loose", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Self-monitoring",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "monitor", "emoji": "📺"},
+        {"word": "notice", "emoji": "👀"},
+        {"word": "adjust", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Rate control",
+      "steps": [
+        {"word": "speed", "emoji": "💨"},
+        {"word": "control", "emoji": "🎮"},
+        {"word": "slower", "emoji": "🐌"},
+        {"word": "steady", "emoji": "📐"},
+        {"word": "pace", "emoji": "👣"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Phrasing",
+      "steps": [
+        {"word": "phrase", "emoji": "📝"},
+        {"word": "groups", "emoji": "👥"},
+        {"word": "words", "emoji": "📝"},
+        {"word": "pause", "emoji": "⏸️"},
+        {"word": "breath", "emoji": "🫁"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Chunking",
+      "steps": [
+        {"word": "break", "emoji": "💥"},
+        {"word": "sentence", "emoji": "📝"},
+        {"word": "chunks", "emoji": "🧩"},
+        {"word": "smaller", "emoji": "🤏"},
+        {"word": "pieces", "emoji": "🧩"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Stretching sounds",
+      "steps": [
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "longer", "emoji": "📏"},
+        {"word": "smooth", "emoji": "✨"},
+        {"word": "flow", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Bouncing",
+      "steps": [
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "bounce", "emoji": "⬆️⬇️"},
+        {"word": "repeat", "emoji": "🔁"},
+        {"word": "gently", "emoji": "🤗"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Sliding",
+      "steps": [
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "slide", "emoji": "🛝"},
+        {"word": "into", "emoji": "📥"},
+        {"word": "next", "emoji": "➡️"},
+        {"word": "smooth", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Fluency shaping",
+      "steps": [
+        {"word": "shape", "emoji": "📐"},
+        {"word": "fluency", "emoji": "🌊"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "skills", "emoji": "💪"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Stuttering modification",
+      "steps": [
+        {"word": "modify", "emoji": "🔧"},
+        {"word": "stuttering", "emoji": "🔄"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "easier", "emoji": "😌"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Acceptance",
+      "steps": [
+        {"word": "accept", "emoji": "✅"},
+        {"word": "stuttering", "emoji": "🔄"},
+        {"word": "okay", "emoji": "👌"},
+        {"word": "normal", "emoji": "😊"},
+        {"word": "me", "emoji": "🙋"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Confidence building",
+      "steps": [
+        {"word": "confidence", "emoji": "💪"},
+        {"word": "build", "emoji": "🏗️"},
+        {"word": "strong", "emoji": "💪"},
+        {"word": "brave", "emoji": "🦸"},
+        {"word": "speak", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Fear reduction",
+      "steps": [
+        {"word": "fear", "emoji": "😨"},
+        {"word": "reduce", "emoji": "⬇️"},
+        {"word": "brave", "emoji": "🦸"},
+        {"word": "courage", "emoji": "💪"},
+        {"word": "speak", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Desensitization",
+      "steps": [
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "gradually", "emoji": "📈"},
+        {"word": "less", "emoji": "⬇️"},
+        {"word": "sensitive", "emoji": "🤗"},
+        {"word": "comfortable", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Positive self-talk",
+      "steps": [
+        {"word": "positive", "emoji": "👍"},
+        {"word": "thoughts", "emoji": "💭"},
+        {"word": "good", "emoji": "👌"},
+        {"word": "speaker", "emoji": "🗣️"},
+        {"word": "capable", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Hierarchy practice",
+      "steps": [
+        {"word": "hierarchy", "emoji": "📊"},
+        {"word": "easy", "emoji": "😌"},
+        {"word": "hard", "emoji": "💪"},
+        {"word": "gradually", "emoji": "📈"},
+        {"word": "progress", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Eye contact",
+      "steps": [
+        {"word": "eyes", "emoji": "👀"},
+        {"word": "look", "emoji": "👁️"},
+        {"word": "listener", "emoji": "👂"},
+        {"word": "connect", "emoji": "🔗"},
+        {"word": "confident", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Turn-taking",
+      "steps": [
+        {"word": "wait", "emoji": "⏳"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "speak", "emoji": "🗣️"},
+        {"word": "polite", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Disclosure",
+      "steps": [
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "stutter", "emoji": "🔄"},
+        {"word": "open", "emoji": "😊"},
+        {"word": "honest", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Advertising",
+      "steps": [
+        {"word": "share", "emoji": "🤝"},
+        {"word": "stuttering", "emoji": "🔄"},
+        {"word": "education", "emoji": "📚"},
+        {"word": "awareness", "emoji": "👀"},
+        {"word": "normalize", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Pseudo-stuttering",
+      "steps": [
+        {"word": "fake", "emoji": "🎭"},
+        {"word": "stutter", "emoji": "🔄"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "control", "emoji": "🎮"},
+        {"word": "comfort", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Catch stutters",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "stutter", "emoji": "🔄"},
+        {"word": "catch", "emoji": "🤲"},
+        {"word": "aware", "emoji": "👁️"},
+        {"word": "moment", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Freezing",
+      "steps": [
+        {"word": "stuck", "emoji": "🚫"},
+        {"word": "freeze", "emoji": "🧊"},
+        {"word": "pause", "emoji": "⏸️"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "continue", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Flexible rate",
+      "steps": [
+        {"word": "rate", "emoji": "💨"},
+        {"word": "flexible", "emoji": "🤸"},
+        {"word": "adjust", "emoji": "🔧"},
+        {"word": "situation", "emoji": "📍"},
+        {"word": "appropriate", "emoji": "👌"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Fluency enhancing",
+      "steps": [
+        {"word": "enhance", "emoji": "⬆️"},
+        {"word": "fluency", "emoji": "🌊"},
+        {"word": "techniques", "emoji": "🔧"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "improve", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Environmental modifications",
+      "steps": [
+        {"word": "environment", "emoji": "🌍"},
+        {"word": "modify", "emoji": "🔧"},
+        {"word": "reduce", "emoji": "⬇️"},
+        {"word": "pressure", "emoji": "⬇️"},
+        {"word": "supportive", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Listener reactions",
+      "steps": [
+        {"word": "listener", "emoji": "👂"},
+        {"word": "reactions", "emoji": "😊"},
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "patient", "emoji": "⏳"},
+        {"word": "kind", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Time pressure",
+      "steps": [
+        {"word": "time", "emoji": "🕐"},
+        {"word": "pressure", "emoji": "⬇️"},
+        {"word": "reduce", "emoji": "⬇️"},
+        {"word": "patience", "emoji": "⏳"},
+        {"word": "calm", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Speaking situations",
+      "steps": [
+        {"word": "situations", "emoji": "📍"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "variety", "emoji": "🌈"},
+        {"word": "confident", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Phone calls",
+      "steps": [
+        {"word": "phone", "emoji": "📞"},
+        {"word": "calls", "emoji": "📞"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "strategies", "emoji": "🧠"},
+        {"word": "confident", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Presentations",
+      "steps": [
+        {"word": "presentation", "emoji": "📊"},
+        {"word": "public", "emoji": "👥"},
+        {"word": "speaking", "emoji": "🗣️"},
+        {"word": "prepare", "emoji": "📋"},
+        {"word": "practice", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Reading aloud",
+      "steps": [
+        {"word": "reading", "emoji": "📖"},
+        {"word": "aloud", "emoji": "🔊"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "smooth", "emoji": "✨"},
+        {"word": "fluent", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Conversation starters",
+      "steps": [
+        {"word": "conversation", "emoji": "💬"},
+        {"word": "start", "emoji": "🏁"},
+        {"word": "easy", "emoji": "😌"},
+        {"word": "topics", "emoji": "💭"},
+        {"word": "practice", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Word substitution",
+      "steps": [
+        {"word": "difficult", "emoji": "💪"},
+        {"word": "word", "emoji": "📝"},
+        {"word": "substitute", "emoji": "🔄"},
+        {"word": "easier", "emoji": "😌"},
+        {"word": "synonym", "emoji": "📝"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Circumlocution",
+      "steps": [
+        {"word": "around", "emoji": "🔄"},
+        {"word": "word", "emoji": "📝"},
+        {"word": "describe", "emoji": "💬"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "way", "emoji": "🛤️"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Postponement",
+      "steps": [
+        {"word": "delay", "emoji": "⏳"},
+        {"word": "word", "emoji": "📝"},
+        {"word": "wait", "emoji": "⏸️"},
+        {"word": "prepare", "emoji": "📋"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Starter techniques",
+      "steps": [
+        {"word": "starter", "emoji": "🏁"},
+        {"word": "phrase", "emoji": "📝"},
+        {"word": "begin", "emoji": "▶️"},
+        {"word": "easier", "emoji": "😌"},
+        {"word": "flow", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Rhythm techniques",
+      "steps": [
+        {"word": "rhythm", "emoji": "🥁"},
+        {"word": "beat", "emoji": "🥁"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "pattern", "emoji": "🌀"},
+        {"word": "smooth", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Singing speech",
+      "steps": [
+        {"word": "sing", "emoji": "🎤"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "melody", "emoji": "🎵"},
+        {"word": "fluent", "emoji": "🌊"},
+        {"word": "practice", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Choral reading",
+      "steps": [
+        {"word": "together", "emoji": "🤝"},
+        {"word": "reading", "emoji": "📖"},
+        {"word": "group", "emoji": "👥"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "fluent", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Masking noise",
+      "steps": [
+        {"word": "noise", "emoji": "🔊"},
+        {"word": "background", "emoji": "🎵"},
+        {"word": "mask", "emoji": "🎭"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "fluent", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Delayed feedback",
+      "steps": [
+        {"word": "delayed", "emoji": "⏳"},
+        {"word": "feedback", "emoji": "💬"},
+        {"word": "hear", "emoji": "👂"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "slower", "emoji": "🐌"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Frequency feedback",
+      "steps": [
+        {"word": "frequency", "emoji": "📡"},
+        {"word": "feedback", "emoji": "💬"},
+        {"word": "alter", "emoji": "🔄"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "fluency", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Metronome pacing",
+      "steps": [
+        {"word": "metronome", "emoji": "🥁"},
+        {"word": "beat", "emoji": "🥁"},
+        {"word": "pace", "emoji": "👣"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "rhythm", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Stress management",
+      "steps": [
+        {"word": "stress", "emoji": "😰"},
+        {"word": "manage", "emoji": "⚖️"},
+        {"word": "reduce", "emoji": "⬇️"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "fluency", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Anxiety reduction",
+      "steps": [
+        {"word": "anxiety", "emoji": "😰"},
+        {"word": "reduce", "emoji": "⬇️"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "confident", "emoji": "💪"},
+        {"word": "speak", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Mindfulness",
+      "steps": [
+        {"word": "mindful", "emoji": "🧘"},
+        {"word": "present", "emoji": "⏰"},
+        {"word": "aware", "emoji": "👁️"},
+        {"word": "moment", "emoji": "⏰"},
+        {"word": "calm", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Cognitive restructuring",
+      "steps": [
+        {"word": "thoughts", "emoji": "💭"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "negative", "emoji": "❌"},
+        {"word": "positive", "emoji": "✅"},
+        {"word": "helpful", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Support groups",
+      "steps": [
+        {"word": "support", "emoji": "🤝"},
+        {"word": "group", "emoji": "👥"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "stutter", "emoji": "🔄"},
+        {"word": "understanding", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Therapy homework",
+      "steps": [
+        {"word": "homework", "emoji": "📚"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "daily", "emoji": "📅"},
+        {"word": "skills", "emoji": "💪"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Maintenance",
+      "steps": [
+        {"word": "maintain", "emoji": "🔧"},
+        {"word": "skills", "emoji": "💪"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "continue", "emoji": "➡️"},
+        {"word": "progress", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Relapse prevention",
+      "steps": [
+        {"word": "prevent", "emoji": "🛡️"},
+        {"word": "relapse", "emoji": "⬇️"},
+        {"word": "strategies", "emoji": "🧠"},
+        {"word": "maintain", "emoji": "🔧"},
+        {"word": "progress", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Generalization",
+      "steps": [
+        {"word": "use", "emoji": "🔧"},
+        {"word": "skills", "emoji": "💪"},
+        {"word": "everywhere", "emoji": "🌍"},
+        {"word": "situations", "emoji": "📍"},
+        {"word": "transfer", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Family involvement",
+      "steps": [
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "encourage", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Teacher education",
+      "steps": [
+        {"word": "teacher", "emoji": "👩‍🏫"},
+        {"word": "educate", "emoji": "📚"},
+        {"word": "stuttering", "emoji": "🔄"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "classroom", "emoji": "🏫"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Peer education",
+      "steps": [
+        {"word": "peers", "emoji": "👫"},
+        {"word": "educate", "emoji": "📚"},
+        {"word": "stuttering", "emoji": "🔄"},
+        {"word": "acceptance", "emoji": "✅"},
+        {"word": "inclusion", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Bullying prevention",
+      "steps": [
+        {"word": "bullying", "emoji": "😠"},
+        {"word": "prevent", "emoji": "🛡️"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "advocate", "emoji": "📢"},
+        {"word": "safety", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Self-advocacy",
+      "steps": [
+        {"word": "advocate", "emoji": "📢"},
+        {"word": "self", "emoji": "🙋"},
+        {"word": "speak", "emoji": "🗣️"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "rights", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Fluency goals",
+      "steps": [
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "fluency", "emoji": "🌊"},
+        {"word": "set", "emoji": "✅"},
+        {"word": "achieve", "emoji": "🏆"},
+        {"word": "progress", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Progress monitoring",
+      "steps": [
+        {"word": "monitor", "emoji": "📺"},
+        {"word": "progress", "emoji": "📈"},
+        {"word": "track", "emoji": "📊"},
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "data", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Fluency counts",
+      "steps": [
+        {"word": "count", "emoji": "🔢"},
+        {"word": "fluent", "emoji": "🌊"},
+        {"word": "words", "emoji": "📝"},
+        {"word": "measure", "emoji": "📏"},
+        {"word": "progress", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Stuttering frequency",
+      "steps": [
+        {"word": "count", "emoji": "🔢"},
+        {"word": "stutters", "emoji": "🔄"},
+        {"word": "frequency", "emoji": "📡"},
+        {"word": "measure", "emoji": "📏"},
+        {"word": "change", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Severity rating",
+      "steps": [
+        {"word": "rate", "emoji": "📊"},
+        {"word": "severity", "emoji": "📊"},
+        {"word": "mild", "emoji": "🤏"},
+        {"word": "severe", "emoji": "💪"},
+        {"word": "scale", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Video analysis",
+      "steps": [
+        {"word": "video", "emoji": "📹"},
+        {"word": "record", "emoji": "🔴"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "analyze", "emoji": "🔍"},
+        {"word": "learn", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Audio analysis",
+      "steps": [
+        {"word": "audio", "emoji": "🔊"},
+        {"word": "record", "emoji": "🔴"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "analyze", "emoji": "🔍"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Technology tools",
+      "steps": [
+        {"word": "technology", "emoji": "💻"},
+        {"word": "tools", "emoji": "🔧"},
+        {"word": "apps", "emoji": "📱"},
+        {"word": "devices", "emoji": "📱"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Fluency apps",
+      "steps": [
+        {"word": "apps", "emoji": "📱"},
+        {"word": "fluency", "emoji": "🌊"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "portable", "emoji": "🎒"},
+        {"word": "convenient", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Speech devices",
+      "steps": [
+        {"word": "devices", "emoji": "📱"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "alter", "emoji": "🔄"},
+        {"word": "feedback", "emoji": "💬"},
+        {"word": "fluency", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Online therapy",
+      "steps": [
+        {"word": "online", "emoji": "🌐"},
+        {"word": "therapy", "emoji": "💬"},
+        {"word": "video", "emoji": "📹"},
+        {"word": "convenient", "emoji": "✅"},
+        {"word": "accessible", "emoji": "♿"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Intensive therapy",
+      "steps": [
+        {"word": "intensive", "emoji": "💪"},
+        {"word": "therapy", "emoji": "💬"},
+        {"word": "concentrated", "emoji": "🎯"},
+        {"word": "focused", "emoji": "🎯"},
+        {"word": "results", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Group therapy",
+      "steps": [
+        {"word": "group", "emoji": "👥"},
+        {"word": "therapy", "emoji": "💬"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "practice", "emoji": "🔁"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Individual therapy",
+      "steps": [
+        {"word": "individual", "emoji": "🙋"},
+        {"word": "therapy", "emoji": "💬"},
+        {"word": "personal", "emoji": "👤"},
+        {"word": "focused", "emoji": "🎯"},
+        {"word": "goals", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Therapy outcomes",
+      "steps": [
+        {"word": "outcomes", "emoji": "📊"},
+        {"word": "results", "emoji": "📊"},
+        {"word": "success", "emoji": "🏆"},
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "achieved", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Long-term goals",
+      "steps": [
+        {"word": "long", "emoji": "📏"},
+        {"word": "term", "emoji": "📅"},
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "future", "emoji": "🔮"},
+        {"word": "planning", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Short-term goals",
+      "steps": [
+        {"word": "short", "emoji": "📐"},
+        {"word": "term", "emoji": "📅"},
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "immediate", "emoji": "⏰"},
+        {"word": "steps", "emoji": "👣"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Discharge planning",
+      "steps": [
+        {"word": "discharge", "emoji": "🏠"},
+        {"word": "planning", "emoji": "📋"},
+        {"word": "transition", "emoji": "➡️"},
+        {"word": "independent", "emoji": "💪"},
+        {"word": "success", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Follow-up care",
+      "steps": [
+        {"word": "follow", "emoji": "👣"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "care", "emoji": "🤗"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "progress", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Booster sessions",
+      "steps": [
+        {"word": "booster", "emoji": "🚀"},
+        {"word": "sessions", "emoji": "🕐"},
+        {"word": "refresh", "emoji": "🔄"},
+        {"word": "skills", "emoji": "💪"},
+        {"word": "maintain", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Lifestyle integration",
+      "steps": [
+        {"word": "integrate", "emoji": "🔗"},
+        {"word": "lifestyle", "emoji": "🧬"},
+        {"word": "daily", "emoji": "📅"},
+        {"word": "routine", "emoji": "🔄"},
+        {"word": "natural", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Quality of life",
+      "steps": [
+        {"word": "quality", "emoji": "⭐"},
+        {"word": "life", "emoji": "💖"},
+        {"word": "improve", "emoji": "⬆️"},
+        {"word": "happiness", "emoji": "😊"},
+        {"word": "fulfillment", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Communication success",
+      "steps": [
+        {"word": "communication", "emoji": "💬"},
+        {"word": "success", "emoji": "🏆"},
+        {"word": "effective", "emoji": "✅"},
+        {"word": "confident", "emoji": "💪"},
+        {"word": "fluent", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Personal growth",
+      "steps": [
+        {"word": "personal", "emoji": "👤"},
+        {"word": "growth", "emoji": "🌿"},
+        {"word": "develop", "emoji": "📈"},
+        {"word": "stronger", "emoji": "💪"},
+        {"word": "confident", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Celebrate success",
+      "steps": [
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "success", "emoji": "🏆"},
+        {"word": "proud", "emoji": "😤"},
+        {"word": "achievement", "emoji": "🎯"},
+        {"word": "joy", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Inspire others",
+      "steps": [
+        {"word": "inspire", "emoji": "✨"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "share", "emoji": "🤝"},
+        {"word": "story", "emoji": "📖"},
+        {"word": "hope", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Fluency journey",
+      "steps": [
+        {"word": "journey", "emoji": "🛤️"},
+        {"word": "fluency", "emoji": "🌊"},
+        {"word": "progress", "emoji": "📈"},
+        {"word": "growth", "emoji": "🌿"},
+        {"word": "continue", "emoji": "➡️"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1158 @@
+{
+  "tinkybink_school_tiles": {
+    "academic_learning": {
+      "category_emoji": "📚",
+      "category_name": "Academic Learning Activities",
+      "tiles": [
+        {
+          "id": 1,
+          "title": "Read a book",
+          "steps": [
+            {"word": "Pick", "emoji": "📖"},
+            {"word": "Open", "emoji": "📄"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Turn", "emoji": "👉"},
+            {"word": "Close", "emoji": "📕"}
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Look at pictures",
+          "steps": [
+            {"word": "Find", "emoji": "🖼️"},
+            {"word": "Point", "emoji": "👆"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Share", "emoji": "💬"}
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Write my name",
+          "steps": [
+            {"word": "Hold", "emoji": "✏️"},
+            {"word": "Start", "emoji": "📍"},
+            {"word": "Write", "emoji": "✍️"},
+            {"word": "Finish", "emoji": "✅"},
+            {"word": "Show", "emoji": "👋"}
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Use a pencil",
+          "steps": [
+            {"word": "Grab", "emoji": "✏️"},
+            {"word": "Hold", "emoji": "✊"},
+            {"word": "Press", "emoji": "👇"},
+            {"word": "Move", "emoji": "➡️"},
+            {"word": "Lift", "emoji": "⬆️"}
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Sharpen a pencil",
+          "steps": [
+            {"word": "Get", "emoji": "✏️"},
+            {"word": "Insert", "emoji": "🔽"},
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "Check", "emoji": "👀"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Draw a picture",
+          "steps": [
+            {"word": "Think", "emoji": "💭"},
+            {"word": "Hold", "emoji": "🖍️"},
+            {"word": "Draw", "emoji": "✏️"},
+            {"word": "Color", "emoji": "🎨"},
+            {"word": "Sign", "emoji": "✍️"}
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Cut with scissors",
+          "steps": [
+            {"word": "Hold", "emoji": "✂️"},
+            {"word": "Open", "emoji": "👐"},
+            {"word": "Close", "emoji": "🤏"},
+            {"word": "Follow", "emoji": "➖"},
+            {"word": "Stop", "emoji": "✋"}
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Glue on paper",
+          "steps": [
+            {"word": "Squeeze", "emoji": "🧴"},
+            {"word": "Dot", "emoji": "⚪"},
+            {"word": "Place", "emoji": "📄"},
+            {"word": "Press", "emoji": "👇"},
+            {"word": "Hold", "emoji": "⏰"}
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Match letters",
+          "steps": [
+            {"word": "Look", "emoji": "🔤"},
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Same", "emoji": "🟰"},
+            {"word": "Put", "emoji": "👇"},
+            {"word": "Check", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Match numbers",
+          "steps": [
+            {"word": "See", "emoji": "🔢"},
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Same", "emoji": "🟰"},
+            {"word": "Match", "emoji": "🎯"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Trace letters",
+          "steps": [
+            {"word": "Start", "emoji": "🟢"},
+            {"word": "Follow", "emoji": "➡️"},
+            {"word": "Slow", "emoji": "🐌"},
+            {"word": "End", "emoji": "🔴"},
+            {"word": "Next", "emoji": "⏭️"}
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Count objects",
+          "steps": [
+            {"word": "Touch", "emoji": "👆"},
+            {"word": "Say", "emoji": "1️⃣"},
+            {"word": "Move", "emoji": "➡️"},
+            {"word": "Count", "emoji": "2️⃣"},
+            {"word": "Total", "emoji": "🔢"}
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Add numbers",
+          "steps": [
+            {"word": "Count", "emoji": "🔢"},
+            {"word": "Plus", "emoji": "➕"},
+            {"word": "Count", "emoji": "🔢"},
+            {"word": "Total", "emoji": "🟰"},
+            {"word": "Write", "emoji": "✏️"}
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Subtract numbers",
+          "steps": [
+            {"word": "Start", "emoji": "🔢"},
+            {"word": "Take", "emoji": "➖"},
+            {"word": "Away", "emoji": "👋"},
+            {"word": "Count", "emoji": "🔢"},
+            {"word": "Answer", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Match shapes",
+          "steps": [
+            {"word": "Look", "emoji": "🔷"},
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Same", "emoji": "🟰"},
+            {"word": "Put", "emoji": "📍"},
+            {"word": "Match", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Sort by color",
+          "steps": [
+            {"word": "Look", "emoji": "🌈"},
+            {"word": "Pick", "emoji": "🤏"},
+            {"word": "Match", "emoji": "🎨"},
+            {"word": "Group", "emoji": "📦"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Do a worksheet",
+          "steps": [
+            {"word": "Read", "emoji": "📄"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Write", "emoji": "✏️"},
+            {"word": "Check", "emoji": "👀"},
+            {"word": "Turn", "emoji": "📋"}
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Use a computer",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "On", "emoji": "💻"},
+            {"word": "Click", "emoji": "🖱️"},
+            {"word": "Type", "emoji": "⌨️"},
+            {"word": "Off", "emoji": "❌"}
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Spell words",
+          "steps": [
+            {"word": "Look", "emoji": "📝"},
+            {"word": "Say", "emoji": "🔤"},
+            {"word": "Write", "emoji": "✏️"},
+            {"word": "Check", "emoji": "👀"},
+            {"word": "Fix", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Learn a new word",
+          "steps": [
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Repeat", "emoji": "🔄"},
+            {"word": "Picture", "emoji": "🖼️"},
+            {"word": "Practice", "emoji": "💬"},
+            {"word": "Remember", "emoji": "🧠"}
+          ]
+        }
+      ]
+    },
+    "classroom_routines": {
+      "category_emoji": "🧍‍♂️",
+      "category_name": "Classroom Routines",
+      "tiles": [
+        {
+          "id": 21,
+          "title": "Hang up backpack",
+          "steps": [
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Lift", "emoji": "🎒"},
+            {"word": "Hook", "emoji": "🪝"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Put lunch away",
+          "steps": [
+            {"word": "Open", "emoji": "🎒"},
+            {"word": "Take", "emoji": "🍱"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Place", "emoji": "📦"},
+            {"word": "Close", "emoji": "🚪"}
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Take out folder",
+          "steps": [
+            {"word": "Open", "emoji": "🎒"},
+            {"word": "Find", "emoji": "📁"},
+            {"word": "Pull", "emoji": "⬆️"},
+            {"word": "Hold", "emoji": "🤲"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Sit on the rug",
+          "steps": [
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Find", "emoji": "🟦"},
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Criss-cross", "emoji": "❌"}
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Go to your seat",
+          "steps": [
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Find", "emoji": "🪑"},
+            {"word": "Sit", "emoji": "⬇️"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Wait for teacher",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Wait", "emoji": "⏰"}
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Raise my hand",
+          "steps": [
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Lift", "emoji": "🙋"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Called", "emoji": "👉"},
+            {"word": "Speak", "emoji": "💬"}
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Line up",
+          "steps": [
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Behind", "emoji": "⬇️"},
+            {"word": "Straight", "emoji": "📏"},
+            {"word": "Quiet", "emoji": "🤫"}
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Put away supplies",
+          "steps": [
+            {"word": "Gather", "emoji": "🤲"},
+            {"word": "Sort", "emoji": "📦"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Place", "emoji": "📍"},
+            {"word": "Return", "emoji": "↩️"}
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Clean up table",
+          "steps": [
+            {"word": "Clear", "emoji": "🧹"},
+            {"word": "Wipe", "emoji": "🧽"},
+            {"word": "Trash", "emoji": "🗑️"},
+            {"word": "Check", "emoji": "👀"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        }
+      ]
+    },
+    "schedule_transitions": {
+      "category_emoji": "🕘",
+      "category_name": "Schedule & Transitions",
+      "tiles": [
+        {
+          "id": 31,
+          "title": "Morning meeting",
+          "steps": [
+            {"word": "Circle", "emoji": "⭕"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Greet", "emoji": "👋"},
+            {"word": "Share", "emoji": "💬"},
+            {"word": "Listen", "emoji": "👂"}
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Calendar time",
+          "steps": [
+            {"word": "Look", "emoji": "📅"},
+            {"word": "Today", "emoji": "📍"},
+            {"word": "Count", "emoji": "🔢"},
+            {"word": "Weather", "emoji": "☀️"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Centers",
+          "steps": [
+            {"word": "Choose", "emoji": "🎯"},
+            {"word": "Go", "emoji": "🚶"},
+            {"word": "Work", "emoji": "✏️"},
+            {"word": "Clean", "emoji": "🧹"},
+            {"word": "Switch", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Small group",
+          "steps": [
+            {"word": "Name", "emoji": "📢"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Work", "emoji": "📝"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 35,
+          "title": "Large group",
+          "steps": [
+            {"word": "Together", "emoji": "👥"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Participate", "emoji": "🙋"}
+          ]
+        },
+        {
+          "id": 36,
+          "title": "Free choice",
+          "steps": [
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Choose", "emoji": "👉"},
+            {"word": "Get", "emoji": "🤲"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Clean", "emoji": "🧹"}
+          ]
+        },
+        {
+          "id": 37,
+          "title": "Snack time",
+          "steps": [
+            {"word": "Wash", "emoji": "🧼"},
+            {"word": "Get", "emoji": "🍎"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Eat", "emoji": "😋"},
+            {"word": "Clean", "emoji": "🧹"}
+          ]
+        },
+        {
+          "id": 38,
+          "title": "Recess",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Outside", "emoji": "🌳"},
+            {"word": "Play", "emoji": "⚽"},
+            {"word": "Line", "emoji": "📏"}
+          ]
+        },
+        {
+          "id": 39,
+          "title": "Lunch time",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Get", "emoji": "🍱"},
+            {"word": "Eat", "emoji": "🍽️"},
+            {"word": "Clean", "emoji": "🧹"}
+          ]
+        },
+        {
+          "id": 40,
+          "title": "Pack up time",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Gather", "emoji": "📚"},
+            {"word": "Pack", "emoji": "🎒"},
+            {"word": "Check", "emoji": "👀"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 41,
+          "title": "Dismissal",
+          "steps": [
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Name", "emoji": "📢"},
+            {"word": "Get", "emoji": "🎒"},
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Go", "emoji": "🚶"}
+          ]
+        },
+        {
+          "id": 42,
+          "title": "Fire drill",
+          "steps": [
+            {"word": "Alarm", "emoji": "🚨"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Outside", "emoji": "🌳"}
+          ]
+        },
+        {
+          "id": 43,
+          "title": "Go to nurse",
+          "steps": [
+            {"word": "Tell", "emoji": "💬"},
+            {"word": "Pass", "emoji": "🎫"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Return", "emoji": "↩️"}
+          ]
+        },
+        {
+          "id": 44,
+          "title": "Go to bathroom",
+          "steps": [
+            {"word": "Ask", "emoji": "🙋"},
+            {"word": "Pass", "emoji": "🎫"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Use", "emoji": "🚽"},
+            {"word": "Return", "emoji": "↩️"}
+          ]
+        },
+        {
+          "id": 45,
+          "title": "Switch classes",
+          "steps": [
+            {"word": "Pack", "emoji": "🎒"},
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Enter", "emoji": "🚪"},
+            {"word": "Sit", "emoji": "🪑"}
+          ]
+        }
+      ]
+    },
+    "executive_function": {
+      "category_emoji": "🧠",
+      "category_name": "Executive Function / Planning",
+      "tiles": [
+        {
+          "id": 46,
+          "title": "Follow directions",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Do", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 47,
+          "title": "Look at the board",
+          "steps": [
+            {"word": "Eyes", "emoji": "👀"},
+            {"word": "Up", "emoji": "⬆️"},
+            {"word": "Board", "emoji": "🟦"},
+            {"word": "Read", "emoji": "📖"},
+            {"word": "Understand", "emoji": "💡"}
+          ]
+        },
+        {
+          "id": 48,
+          "title": "Start my work",
+          "steps": [
+            {"word": "Ready", "emoji": "📝"},
+            {"word": "Read", "emoji": "👀"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Begin", "emoji": "✏️"},
+            {"word": "Work", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 49,
+          "title": "Ask for help",
+          "steps": [
+            {"word": "Try", "emoji": "💪"},
+            {"word": "Stuck", "emoji": "❓"},
+            {"word": "Raise", "emoji": "🙋"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Listen", "emoji": "👂"}
+          ]
+        },
+        {
+          "id": 50,
+          "title": "Finish my work",
+          "steps": [
+            {"word": "Check", "emoji": "👀"},
+            {"word": "Complete", "emoji": "✏️"},
+            {"word": "Review", "emoji": "🔍"},
+            {"word": "Done", "emoji": "✅"},
+            {"word": "Turn", "emoji": "📋"}
+          ]
+        },
+        {
+          "id": 51,
+          "title": "Turn in paper",
+          "steps": [
+            {"word": "Name", "emoji": "✍️"},
+            {"word": "Hold", "emoji": "📄"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Place", "emoji": "📥"},
+            {"word": "Return", "emoji": "↩️"}
+          ]
+        },
+        {
+          "id": 52,
+          "title": "Use checklist",
+          "steps": [
+            {"word": "Look", "emoji": "📋"},
+            {"word": "Read", "emoji": "👀"},
+            {"word": "Do", "emoji": "✏️"},
+            {"word": "Check", "emoji": "✅"},
+            {"word": "Next", "emoji": "⏭️"}
+          ]
+        },
+        {
+          "id": 53,
+          "title": "Take a break",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Move", "emoji": "🚶"},
+            {"word": "Calm", "emoji": "😌"},
+            {"word": "Return", "emoji": "↩️"}
+          ]
+        },
+        {
+          "id": 54,
+          "title": "Transition to next task",
+          "steps": [
+            {"word": "Finish", "emoji": "✅"},
+            {"word": "Clean", "emoji": "🧹"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Move", "emoji": "➡️"},
+            {"word": "Start", "emoji": "🆕"}
+          ]
+        },
+        {
+          "id": 55,
+          "title": "Use a timer",
+          "steps": [
+            {"word": "Set", "emoji": "⏲️"},
+            {"word": "Start", "emoji": "▶️"},
+            {"word": "Work", "emoji": "✏️"},
+            {"word": "Ring", "emoji": "🔔"},
+            {"word": "Stop", "emoji": "⏹️"}
+          ]
+        }
+      ]
+    },
+    "specials_enrichment": {
+      "category_emoji": "🎨",
+      "category_name": "Specials / Enrichment",
+      "tiles": [
+        {
+          "id": 56,
+          "title": "Art class",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Create", "emoji": "🎨"},
+            {"word": "Clean", "emoji": "🧹"},
+            {"word": "Return", "emoji": "↩️"}
+          ]
+        },
+        {
+          "id": 57,
+          "title": "Music class",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Sing", "emoji": "🎵"},
+            {"word": "Play", "emoji": "🎶"},
+            {"word": "Return", "emoji": "↩️"}
+          ]
+        },
+        {
+          "id": 58,
+          "title": "Gym / PE",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Exercise", "emoji": "🏃"},
+            {"word": "Play", "emoji": "⚽"},
+            {"word": "Return", "emoji": "↩️"}
+          ]
+        },
+        {
+          "id": 59,
+          "title": "Library",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Browse", "emoji": "📚"},
+            {"word": "Choose", "emoji": "📖"},
+            {"word": "Check", "emoji": "💳"}
+          ]
+        },
+        {
+          "id": 60,
+          "title": "Computer lab",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Login", "emoji": "💻"},
+            {"word": "Work", "emoji": "⌨️"},
+            {"word": "Logout", "emoji": "🔒"}
+          ]
+        },
+        {
+          "id": 61,
+          "title": "STEM class",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Build", "emoji": "🔧"},
+            {"word": "Test", "emoji": "🧪"},
+            {"word": "Clean", "emoji": "🧹"}
+          ]
+        },
+        {
+          "id": 62,
+          "title": "Assembly",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Clap", "emoji": "👏"}
+          ]
+        },
+        {
+          "id": 63,
+          "title": "Field trip",
+          "steps": [
+            {"word": "Bus", "emoji": "🚌"},
+            {"word": "Ride", "emoji": "🪑"},
+            {"word": "Explore", "emoji": "🔍"},
+            {"word": "Learn", "emoji": "🧠"},
+            {"word": "Return", "emoji": "🚌"}
+          ]
+        },
+        {
+          "id": 64,
+          "title": "Book fair",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Look", "emoji": "📚"},
+            {"word": "Choose", "emoji": "👉"},
+            {"word": "Buy", "emoji": "💵"}
+          ]
+        },
+        {
+          "id": 65,
+          "title": "Science project",
+          "steps": [
+            {"word": "Plan", "emoji": "📝"},
+            {"word": "Gather", "emoji": "🧪"},
+            {"word": "Test", "emoji": "🔬"},
+            {"word": "Record", "emoji": "📊"},
+            {"word": "Present", "emoji": "🗣️"}
+          ]
+        }
+      ]
+    },
+    "social_interaction": {
+      "category_emoji": "🗣️",
+      "category_name": "Social Interaction Activities",
+      "tiles": [
+        {
+          "id": 66,
+          "title": "Say good morning",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Smile", "emoji": "😊"},
+            {"word": "Wave", "emoji": "👋"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Nice", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 67,
+          "title": "Greet a friend",
+          "steps": [
+            {"word": "See", "emoji": "👀"},
+            {"word": "Smile", "emoji": "😊"},
+            {"word": "Wave", "emoji": "👋"},
+            {"word": "Hi", "emoji": "💬"},
+            {"word": "Happy", "emoji": "😄"}
+          ]
+        },
+        {
+          "id": 68,
+          "title": "Take turns",
+          "steps": [
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Your", "emoji": "👉"},
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "Share", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 69,
+          "title": "Ask to play",
+          "steps": [
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Tap", "emoji": "👉"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Play", "emoji": "🎮"}
+          ]
+        },
+        {
+          "id": 70,
+          "title": "Share a toy",
+          "steps": [
+            {"word": "Hold", "emoji": "🧸"},
+            {"word": "Offer", "emoji": "🤲"},
+            {"word": "Give", "emoji": "👐"},
+            {"word": "Take", "emoji": "🔄"},
+            {"word": "Happy", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 71,
+          "title": "Listen to others",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Ears", "emoji": "👂"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Nod", "emoji": "👍"}
+          ]
+        },
+        {
+          "id": 72,
+          "title": "Say sorry",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Sorry", "emoji": "😔"},
+            {"word": "Better", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 73,
+          "title": "Give a compliment",
+          "steps": [
+            {"word": "Notice", "emoji": "👀"},
+            {"word": "Think", "emoji": "💭"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Nice", "emoji": "✨"},
+            {"word": "Smile", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 74,
+          "title": "Ask a question",
+          "steps": [
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Raise", "emoji": "🙋"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Ask", "emoji": "❓"},
+            {"word": "Listen", "emoji": "👂"}
+          ]
+        },
+        {
+          "id": 75,
+          "title": "Work with a partner",
+          "steps": [
+            {"word": "Together", "emoji": "👥"},
+            {"word": "Share", "emoji": "🤝"},
+            {"word": "Talk", "emoji": "💬"},
+            {"word": "Help", "emoji": "🤲"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        }
+      ]
+    },
+    "regulation_coping": {
+      "category_emoji": "🧘",
+      "category_name": "Regulation & Coping Tools",
+      "tiles": [
+        {
+          "id": 76,
+          "title": "Go to calm corner",
+          "steps": [
+            {"word": "Feel", "emoji": "😟"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Better", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 77,
+          "title": "Use a fidget",
+          "steps": [
+            {"word": "Get", "emoji": "🤲"},
+            {"word": "Hold", "emoji": "✊"},
+            {"word": "Squeeze", "emoji": "🤏"},
+            {"word": "Focus", "emoji": "🎯"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 78,
+          "title": "Ask for space",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Space", "emoji": "📍"},
+            {"word": "Move", "emoji": "🚶"},
+            {"word": "Breathe", "emoji": "🌬️"}
+          ]
+        },
+        {
+          "id": 79,
+          "title": "Do deep breathing",
+          "steps": [
+            {"word": "Smell", "emoji": "🌺"},
+            {"word": "Hold", "emoji": "⏸️"},
+            {"word": "Blow", "emoji": "🕯️"},
+            {"word": "Again", "emoji": "🔄"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 80,
+          "title": "Do chair pushups",
+          "steps": [
+            {"word": "Hands", "emoji": "🤲"},
+            {"word": "Push", "emoji": "💪"},
+            {"word": "Up", "emoji": "⬆️"},
+            {"word": "Down", "emoji": "⬇️"},
+            {"word": "Repeat", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 81,
+          "title": "Use a weighted lap pad",
+          "steps": [
+            {"word": "Get", "emoji": "🟦"},
+            {"word": "Place", "emoji": "👇"},
+            {"word": "Lap", "emoji": "🦵"},
+            {"word": "Feel", "emoji": "🤗"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 82,
+          "title": "Use a timer break",
+          "steps": [
+            {"word": "Set", "emoji": "⏲️"},
+            {"word": "Break", "emoji": "⏸️"},
+            {"word": "Rest", "emoji": "😴"},
+            {"word": "Ring", "emoji": "🔔"},
+            {"word": "Return", "emoji": "↩️"}
+          ]
+        },
+        {
+          "id": 83,
+          "title": "Hug my stuffed animal",
+          "steps": [
+            {"word": "Get", "emoji": "🧸"},
+            {"word": "Hold", "emoji": "🤗"},
+            {"word": "Squeeze", "emoji": "💪"},
+            {"word": "Feel", "emoji": "❤️"},
+            {"word": "Better", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 84,
+          "title": "Talk to teacher",
+          "steps": [
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Tap", "emoji": "👉"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Better", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 85,
+          "title": "Drink water",
+          "steps": [
+            {"word": "Get", "emoji": "🚰"},
+            {"word": "Fill", "emoji": "💧"},
+            {"word": "Sip", "emoji": "🥤"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Better", "emoji": "😌"}
+          ]
+        }
+      ]
+    },
+    "personal_care_school": {
+      "category_emoji": "🧼",
+      "category_name": "Personal Care at School",
+      "tiles": [
+        {
+          "id": 86,
+          "title": "Wash hands",
+          "steps": [
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Soap", "emoji": "🧼"},
+            {"word": "Rub", "emoji": "🤲"},
+            {"word": "Rinse", "emoji": "🚰"},
+            {"word": "Dry", "emoji": "🫴"}
+          ]
+        },
+        {
+          "id": 87,
+          "title": "Use hand sanitizer",
+          "steps": [
+            {"word": "Push", "emoji": "👇"},
+            {"word": "Squirt", "emoji": "💧"},
+            {"word": "Rub", "emoji": "🤲"},
+            {"word": "All", "emoji": "🔄"},
+            {"word": "Dry", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 88,
+          "title": "Wipe face",
+          "steps": [
+            {"word": "Get", "emoji": "🧻"},
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Wipe", "emoji": "😊"},
+            {"word": "Clean", "emoji": "✨"},
+            {"word": "Trash", "emoji": "🗑️"}
+          ]
+        },
+        {
+          "id": 89,
+          "title": "Blow nose",
+          "steps": [
+            {"word": "Tissue", "emoji": "🤧"},
+            {"word": "Cover", "emoji": "👃"},
+            {"word": "Blow", "emoji": "💨"},
+            {"word": "Wipe", "emoji": "🧻"},
+            {"word": "Trash", "emoji": "🗑️"}
+          ]
+        },
+        {
+          "id": 90,
+          "title": "Zip up coat",
+          "steps": [
+            {"word": "Hold", "emoji": "🧥"},
+            {"word": "Connect", "emoji": "🔗"},
+            {"word": "Pull", "emoji": "⬆️"},
+            {"word": "Up", "emoji": "🔝"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 91,
+          "title": "Tie shoes",
+          "steps": [
+            {"word": "Cross", "emoji": "❌"},
+            {"word": "Loop", "emoji": "🔄"},
+            {"word": "Wrap", "emoji": "🌀"},
+            {"word": "Pull", "emoji": "👈"},
+            {"word": "Tight", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 92,
+          "title": "Put on gloves",
+          "steps": [
+            {"word": "Hold", "emoji": "🧤"},
+            {"word": "Open", "emoji": "👐"},
+            {"word": "Push", "emoji": "👇"},
+            {"word": "Fingers", "emoji": "🖐️"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 93,
+          "title": "Wear my mask (if needed)",
+          "steps": [
+            {"word": "Hold", "emoji": "😷"},
+            {"word": "Ears", "emoji": "👂"},
+            {"word": "Cover", "emoji": "👃"},
+            {"word": "Adjust", "emoji": "👋"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 94,
+          "title": "Use tissue",
+          "steps": [
+            {"word": "Pull", "emoji": "🤧"},
+            {"word": "Hold", "emoji": "🤏"},
+            {"word": "Use", "emoji": "👃"},
+            {"word": "Fold", "emoji": "📄"},
+            {"word": "Trash", "emoji": "🗑️"}
+          ]
+        },
+        {
+          "id": 95,
+          "title": "Use bathroom pass",
+          "steps": [
+            {"word": "Raise", "emoji": "🙋"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Take", "emoji": "🎫"},
+            {"word": "Go", "emoji": "🚽"},
+            {"word": "Return", "emoji": "↩️"}
+          ]
+        }
+      ]
+    },
+    "communication_activities": {
+      "category_emoji": "🧾",
+      "category_name": "Communication Activities",
+      "tiles": [
+        {
+          "id": 96,
+          "title": "Ask for help",
+          "steps": [
+            {"word": "Try", "emoji": "💪"},
+            {"word": "Stuck", "emoji": "❓"},
+            {"word": "Raise", "emoji": "🙋"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 97,
+          "title": "Say \"I don't know\"",
+          "steps": [
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Confused", "emoji": "😕"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "OK", "emoji": "👍"},
+            {"word": "Learn", "emoji": "🧠"}
+          ]
+        },
+        {
+          "id": 98,
+          "title": "Say \"I need a break\"",
+          "steps": [
+            {"word": "Feel", "emoji": "😓"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Break", "emoji": "⏸️"},
+            {"word": "Rest", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 99,
+          "title": "Tell how I feel",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Feel", "emoji": "❤️"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Better", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 100,
+          "title": "Say \"I'm ready\"",
+          "steps": [
+            {"word": "Done", "emoji": "✅"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Ready", "emoji": "💪"},
+            {"word": "Go", "emoji": "➡️"}
+          ]
+        }
+      ]
+    }
+  }
+}

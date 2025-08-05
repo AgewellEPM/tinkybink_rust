@@ -1,0 +1,1146 @@
+{
+  "tinkybink_health_tiles": {
+    "personal_hygiene": {
+      "category_emoji": "🧼",
+      "category_name": "Personal Hygiene & Body Awareness",
+      "tiles": [
+        {
+          "id": 1,
+          "title": "Brush teeth",
+          "steps": [
+            {"word": "Squeeze", "emoji": "🧴"},
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Brush", "emoji": "🪥"},
+            {"word": "Spit", "emoji": "💦"},
+            {"word": "Rinse", "emoji": "🚰"}
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Wash hands",
+          "steps": [
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Soap", "emoji": "🧼"},
+            {"word": "Rub", "emoji": "🤲"},
+            {"word": "Rinse", "emoji": "🚰"},
+            {"word": "Dry", "emoji": "🫴"}
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Use toilet",
+          "steps": [
+            {"word": "Lift", "emoji": "🚽"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Go", "emoji": "💩"},
+            {"word": "Wipe", "emoji": "🧻"},
+            {"word": "Flush", "emoji": "🌊"}
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Wipe after going",
+          "steps": [
+            {"word": "Grab", "emoji": "🧻"},
+            {"word": "Fold", "emoji": "📄"},
+            {"word": "Wipe", "emoji": "👇"},
+            {"word": "Drop", "emoji": "🗑️"},
+            {"word": "Clean", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Take a shower",
+          "steps": [
+            {"word": "Undress", "emoji": "👕"},
+            {"word": "Turn", "emoji": "🚿"},
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Wash", "emoji": "🧼"},
+            {"word": "Rinse", "emoji": "🌊"}
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Wash hair",
+          "steps": [
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Shampoo", "emoji": "🧴"},
+            {"word": "Rub", "emoji": "🤲"},
+            {"word": "Rinse", "emoji": "🚿"},
+            {"word": "Done", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Dry off",
+          "steps": [
+            {"word": "Grab", "emoji": "🏖️"},
+            {"word": "Pat", "emoji": "🫴"},
+            {"word": "Rub", "emoji": "🔄"},
+            {"word": "All", "emoji": "🧍"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Brush hair",
+          "steps": [
+            {"word": "Hold", "emoji": "🪮"},
+            {"word": "Start", "emoji": "🔝"},
+            {"word": "Pull", "emoji": "👇"},
+            {"word": "Gentle", "emoji": "💝"},
+            {"word": "Smooth", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Put on deodorant",
+          "steps": [
+            {"word": "Remove", "emoji": "🧢"},
+            {"word": "Lift", "emoji": "💪"},
+            {"word": "Swipe", "emoji": "↔️"},
+            {"word": "Both", "emoji": "🔄"},
+            {"word": "Cap", "emoji": "🧢"}
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Trim fingernails",
+          "steps": [
+            {"word": "Get", "emoji": "✂️"},
+            {"word": "Position", "emoji": "📍"},
+            {"word": "Clip", "emoji": "💥"},
+            {"word": "File", "emoji": "📐"},
+            {"word": "Clean", "emoji": "🧹"}
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Blow nose",
+          "steps": [
+            {"word": "Get", "emoji": "🤧"},
+            {"word": "Cover", "emoji": "👃"},
+            {"word": "Blow", "emoji": "💨"},
+            {"word": "Wipe", "emoji": "🧻"},
+            {"word": "Trash", "emoji": "🗑️"}
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Wipe face",
+          "steps": [
+            {"word": "Get", "emoji": "🧻"},
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Wipe", "emoji": "😊"},
+            {"word": "Clean", "emoji": "✨"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Change clothes",
+          "steps": [
+            {"word": "Off", "emoji": "👕"},
+            {"word": "Get", "emoji": "👔"},
+            {"word": "On", "emoji": "🙌"},
+            {"word": "Adjust", "emoji": "👍"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Use lotion",
+          "steps": [
+            {"word": "Squeeze", "emoji": "🧴"},
+            {"word": "Dot", "emoji": "🔵"},
+            {"word": "Rub", "emoji": "🤲"},
+            {"word": "Spread", "emoji": "🌊"},
+            {"word": "Soft", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Put on chapstick",
+          "steps": [
+            {"word": "Twist", "emoji": "🔄"},
+            {"word": "Apply", "emoji": "👄"},
+            {"word": "Press", "emoji": "👇"},
+            {"word": "Smooth", "emoji": "↔️"},
+            {"word": "Cap", "emoji": "🧢"}
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Wear clean underwear",
+          "steps": [
+            {"word": "Check", "emoji": "👀"},
+            {"word": "Get", "emoji": "🩲"},
+            {"word": "Change", "emoji": "🔄"},
+            {"word": "On", "emoji": "⬆️"},
+            {"word": "Fresh", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Clean private parts",
+          "steps": [
+            {"word": "Private", "emoji": "🔒"},
+            {"word": "Wash", "emoji": "🧼"},
+            {"word": "Gentle", "emoji": "💝"},
+            {"word": "Rinse", "emoji": "💧"},
+            {"word": "Dry", "emoji": "🫴"}
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Use sanitary pad",
+          "steps": [
+            {"word": "Unwrap", "emoji": "📦"},
+            {"word": "Peel", "emoji": "📄"},
+            {"word": "Place", "emoji": "👇"},
+            {"word": "Secure", "emoji": "🔒"},
+            {"word": "Comfortable", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Put on sunscreen",
+          "steps": [
+            {"word": "Squeeze", "emoji": "🧴"},
+            {"word": "Dot", "emoji": "☀️"},
+            {"word": "Rub", "emoji": "🤲"},
+            {"word": "Face", "emoji": "😊"},
+            {"word": "Protected", "emoji": "🛡️"}
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Check if body hurts",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Feel", "emoji": "🤲"},
+            {"word": "Where", "emoji": "📍"},
+            {"word": "Hurt", "emoji": "😣"},
+            {"word": "Tell", "emoji": "💬"}
+          ]
+        }
+      ]
+    },
+    "doctor_medical": {
+      "category_emoji": "🩺",
+      "category_name": "Doctor & Medical Visits",
+      "tiles": [
+        {
+          "id": 21,
+          "title": "Go to the doctor",
+          "steps": [
+            {"word": "Car", "emoji": "🚗"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Enter", "emoji": "🏥"},
+            {"word": "Check", "emoji": "📋"},
+            {"word": "Wait", "emoji": "⏰"}
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Sit in waiting room",
+          "steps": [
+            {"word": "Find", "emoji": "🪑"},
+            {"word": "Sit", "emoji": "⬇️"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Called", "emoji": "📢"}
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Step on scale",
+          "steps": [
+            {"word": "Shoes", "emoji": "👟"},
+            {"word": "Off", "emoji": "❌"},
+            {"word": "Step", "emoji": "👣"},
+            {"word": "Still", "emoji": "🛑"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Get height measured",
+          "steps": [
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Straight", "emoji": "📏"},
+            {"word": "Against", "emoji": "🚪"},
+            {"word": "Still", "emoji": "🛑"},
+            {"word": "Measured", "emoji": "📐"}
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Open mouth and say \"Ahh\"",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Open", "emoji": "👄"},
+            {"word": "Wide", "emoji": "😮"},
+            {"word": "Say", "emoji": "🗣️"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Get ears checked",
+          "steps": [
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "Still", "emoji": "🛑"},
+            {"word": "Light", "emoji": "🔦"},
+            {"word": "Look", "emoji": "👂"},
+            {"word": "Other", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Get eyes checked",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Follow", "emoji": "👉"},
+            {"word": "Light", "emoji": "🔦"},
+            {"word": "Read", "emoji": "📖"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Take deep breaths",
+          "steps": [
+            {"word": "In", "emoji": "👃"},
+            {"word": "Deep", "emoji": "🫁"},
+            {"word": "Out", "emoji": "💨"},
+            {"word": "Again", "emoji": "🔄"},
+            {"word": "Good", "emoji": "👍"}
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Get blood pressure checked",
+          "steps": [
+            {"word": "Arm", "emoji": "💪"},
+            {"word": "Wrap", "emoji": "🔄"},
+            {"word": "Squeeze", "emoji": "🤏"},
+            {"word": "Still", "emoji": "🛑"},
+            {"word": "Release", "emoji": "✋"}
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Get a shot",
+          "steps": [
+            {"word": "Roll", "emoji": "👕"},
+            {"word": "Clean", "emoji": "🧽"},
+            {"word": "Quick", "emoji": "💉"},
+            {"word": "Done", "emoji": "✅"},
+            {"word": "Bandaid", "emoji": "🩹"}
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Wear a hospital gown",
+          "steps": [
+            {"word": "Undress", "emoji": "👕"},
+            {"word": "Put", "emoji": "🏥"},
+            {"word": "Arms", "emoji": "🙌"},
+            {"word": "Tie", "emoji": "🎀"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Talk to the doctor",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Answer", "emoji": "💬"},
+            {"word": "Questions", "emoji": "❓"},
+            {"word": "Understand", "emoji": "💡"}
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Ask questions",
+          "steps": [
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Raise", "emoji": "🙋"},
+            {"word": "Ask", "emoji": "❓"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Say what hurts",
+          "steps": [
+            {"word": "Point", "emoji": "👉"},
+            {"word": "Where", "emoji": "📍"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Hurt", "emoji": "😣"},
+            {"word": "Help", "emoji": "🆘"}
+          ]
+        },
+        {
+          "id": 35,
+          "title": "Take off clothes for checkup",
+          "steps": [
+            {"word": "Privacy", "emoji": "🚪"},
+            {"word": "Undress", "emoji": "👕"},
+            {"word": "Gown", "emoji": "🏥"},
+            {"word": "Ready", "emoji": "✅"},
+            {"word": "Covered", "emoji": "🛡️"}
+          ]
+        },
+        {
+          "id": 36,
+          "title": "Hold still for test",
+          "steps": [
+            {"word": "Position", "emoji": "📍"},
+            {"word": "Freeze", "emoji": "🧊"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Count", "emoji": "🔢"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 37,
+          "title": "Give a urine sample",
+          "steps": [
+            {"word": "Cup", "emoji": "🥤"},
+            {"word": "Bathroom", "emoji": "🚽"},
+            {"word": "Fill", "emoji": "💧"},
+            {"word": "Cap", "emoji": "🧢"},
+            {"word": "Give", "emoji": "🤲"}
+          ]
+        },
+        {
+          "id": 38,
+          "title": "Give a blood sample",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Arm", "emoji": "💪"},
+            {"word": "Squeeze", "emoji": "✊"},
+            {"word": "Poke", "emoji": "💉"},
+            {"word": "Bandaid", "emoji": "🩹"}
+          ]
+        },
+        {
+          "id": 39,
+          "title": "Wait for results",
+          "steps": [
+            {"word": "Done", "emoji": "✅"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Patient", "emoji": "😌"},
+            {"word": "Doctor", "emoji": "👨‍⚕️"},
+            {"word": "News", "emoji": "📋"}
+          ]
+        },
+        {
+          "id": 40,
+          "title": "Get a Band-Aid",
+          "steps": [
+            {"word": "Show", "emoji": "👉"},
+            {"word": "Clean", "emoji": "🧽"},
+            {"word": "Open", "emoji": "🩹"},
+            {"word": "Stick", "emoji": "📍"},
+            {"word": "Better", "emoji": "😊"}
+          ]
+        }
+      ]
+    },
+    "medicine_treatment": {
+      "category_emoji": "💊",
+      "category_name": "Medicine & Treatment",
+      "tiles": [
+        {
+          "id": 41,
+          "title": "Take morning medicine",
+          "steps": [
+            {"word": "Wake", "emoji": "☀️"},
+            {"word": "Get", "emoji": "💊"},
+            {"word": "Water", "emoji": "💧"},
+            {"word": "Swallow", "emoji": "👄"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 42,
+          "title": "Take evening medicine",
+          "steps": [
+            {"word": "Night", "emoji": "🌙"},
+            {"word": "Get", "emoji": "💊"},
+            {"word": "Water", "emoji": "💧"},
+            {"word": "Swallow", "emoji": "👄"},
+            {"word": "Sleep", "emoji": "😴"}
+          ]
+        },
+        {
+          "id": 43,
+          "title": "Take medicine with food",
+          "steps": [
+            {"word": "Eat", "emoji": "🍽️"},
+            {"word": "Get", "emoji": "💊"},
+            {"word": "Together", "emoji": "🤝"},
+            {"word": "Swallow", "emoji": "👄"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 44,
+          "title": "Use an inhaler",
+          "steps": [
+            {"word": "Shake", "emoji": "🤏"},
+            {"word": "Breathe", "emoji": "💨"},
+            {"word": "Press", "emoji": "👇"},
+            {"word": "Inhale", "emoji": "👃"},
+            {"word": "Hold", "emoji": "⏸️"}
+          ]
+        },
+        {
+          "id": 45,
+          "title": "Use a pillbox",
+          "steps": [
+            {"word": "Open", "emoji": "📦"},
+            {"word": "Day", "emoji": "📅"},
+            {"word": "Take", "emoji": "💊"},
+            {"word": "Close", "emoji": "📦"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 46,
+          "title": "Get help with pills",
+          "steps": [
+            {"word": "Ask", "emoji": "🙋"},
+            {"word": "Adult", "emoji": "👤"},
+            {"word": "Help", "emoji": "🤲"},
+            {"word": "Take", "emoji": "💊"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 47,
+          "title": "Take chewable tablet",
+          "steps": [
+            {"word": "Get", "emoji": "💊"},
+            {"word": "Mouth", "emoji": "👄"},
+            {"word": "Chew", "emoji": "🦷"},
+            {"word": "Swallow", "emoji": "👇"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 48,
+          "title": "Drink liquid medicine",
+          "steps": [
+            {"word": "Shake", "emoji": "🧴"},
+            {"word": "Pour", "emoji": "🥄"},
+            {"word": "Measure", "emoji": "📏"},
+            {"word": "Drink", "emoji": "👄"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 49,
+          "title": "Apply cream or ointment",
+          "steps": [
+            {"word": "Clean", "emoji": "🧼"},
+            {"word": "Squeeze", "emoji": "🧴"},
+            {"word": "Dot", "emoji": "🔵"},
+            {"word": "Rub", "emoji": "🤲"},
+            {"word": "Cover", "emoji": "🩹"}
+          ]
+        },
+        {
+          "id": 50,
+          "title": "Put on medical patch",
+          "steps": [
+            {"word": "Clean", "emoji": "🧼"},
+            {"word": "Peel", "emoji": "📄"},
+            {"word": "Stick", "emoji": "🩹"},
+            {"word": "Press", "emoji": "👇"},
+            {"word": "Secure", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 51,
+          "title": "Use thermometer",
+          "steps": [
+            {"word": "Get", "emoji": "🌡️"},
+            {"word": "Under", "emoji": "👅"},
+            {"word": "Close", "emoji": "👄"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Read", "emoji": "🔢"}
+          ]
+        },
+        {
+          "id": 52,
+          "title": "Check blood sugar",
+          "steps": [
+            {"word": "Clean", "emoji": "🧼"},
+            {"word": "Prick", "emoji": "💉"},
+            {"word": "Drop", "emoji": "🩸"},
+            {"word": "Test", "emoji": "📊"},
+            {"word": "Read", "emoji": "🔢"}
+          ]
+        },
+        {
+          "id": 53,
+          "title": "Use medical device",
+          "steps": [
+            {"word": "Get", "emoji": "🔧"},
+            {"word": "Turn", "emoji": "🔘"},
+            {"word": "Place", "emoji": "📍"},
+            {"word": "Use", "emoji": "⚡"},
+            {"word": "Store", "emoji": "📦"}
+          ]
+        },
+        {
+          "id": 54,
+          "title": "Follow treatment schedule",
+          "steps": [
+            {"word": "Check", "emoji": "📅"},
+            {"word": "Time", "emoji": "⏰"},
+            {"word": "Do", "emoji": "✅"},
+            {"word": "Mark", "emoji": "✏️"},
+            {"word": "Next", "emoji": "➡️"}
+          ]
+        },
+        {
+          "id": 55,
+          "title": "Store medicine safely",
+          "steps": [
+            {"word": "Close", "emoji": "🧴"},
+            {"word": "High", "emoji": "⬆️"},
+            {"word": "Cool", "emoji": "❄️"},
+            {"word": "Dark", "emoji": "🌑"},
+            {"word": "Safe", "emoji": "🔒"}
+          ]
+        }
+      ]
+    },
+    "rest_recovery": {
+      "category_emoji": "🛌",
+      "category_name": "Rest & Recovery",
+      "tiles": [
+        {
+          "id": 56,
+          "title": "Lie in bed",
+          "steps": [
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Bed", "emoji": "🛏️"},
+            {"word": "Lie", "emoji": "⬇️"},
+            {"word": "Comfy", "emoji": "😌"},
+            {"word": "Rest", "emoji": "😴"}
+          ]
+        },
+        {
+          "id": 57,
+          "title": "Use a heating pad",
+          "steps": [
+            {"word": "Get", "emoji": "🔥"},
+            {"word": "Plug", "emoji": "🔌"},
+            {"word": "Place", "emoji": "📍"},
+            {"word": "Warm", "emoji": "♨️"},
+            {"word": "Better", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 58,
+          "title": "Rest eyes",
+          "steps": [
+            {"word": "Close", "emoji": "😑"},
+            {"word": "Dark", "emoji": "🌑"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Relax", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 59,
+          "title": "Nap during day",
+          "steps": [
+            {"word": "Tired", "emoji": "😴"},
+            {"word": "Lie", "emoji": "🛏️"},
+            {"word": "Close", "emoji": "😑"},
+            {"word": "Sleep", "emoji": "💤"},
+            {"word": "Wake", "emoji": "⏰"}
+          ]
+        },
+        {
+          "id": 60,
+          "title": "Elevate legs",
+          "steps": [
+            {"word": "Lie", "emoji": "🛏️"},
+            {"word": "Pillow", "emoji": "🟦"},
+            {"word": "Under", "emoji": "⬇️"},
+            {"word": "Up", "emoji": "🦵"},
+            {"word": "Rest", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 61,
+          "title": "Use a blanket",
+          "steps": [
+            {"word": "Cold", "emoji": "🥶"},
+            {"word": "Get", "emoji": "🟦"},
+            {"word": "Cover", "emoji": "📦"},
+            {"word": "Warm", "emoji": "🔥"},
+            {"word": "Cozy", "emoji": "🤗"}
+          ]
+        },
+        {
+          "id": 62,
+          "title": "Stay home from school",
+          "steps": [
+            {"word": "Sick", "emoji": "🤒"},
+            {"word": "Tell", "emoji": "💬"},
+            {"word": "Stay", "emoji": "🏠"},
+            {"word": "Rest", "emoji": "🛏️"},
+            {"word": "Better", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 63,
+          "title": "Say \"I'm too sick\"",
+          "steps": [
+            {"word": "Feel", "emoji": "🤒"},
+            {"word": "Bad", "emoji": "😔"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Sick", "emoji": "🤧"},
+            {"word": "Rest", "emoji": "🛏️"}
+          ]
+        },
+        {
+          "id": 64,
+          "title": "Skip activities",
+          "steps": [
+            {"word": "Sick", "emoji": "🤒"},
+            {"word": "No", "emoji": "❌"},
+            {"word": "Play", "emoji": "🏃"},
+            {"word": "Rest", "emoji": "🛏️"},
+            {"word": "Heal", "emoji": "💚"}
+          ]
+        },
+        {
+          "id": 65,
+          "title": "Ask for help resting",
+          "steps": [
+            {"word": "Need", "emoji": "🆘"},
+            {"word": "Ask", "emoji": "🙋"},
+            {"word": "Help", "emoji": "🤲"},
+            {"word": "Rest", "emoji": "🛏️"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        }
+      ]
+    },
+    "nutrition_eating": {
+      "category_emoji": "🍎",
+      "category_name": "Nutrition & Eating for Health",
+      "tiles": [
+        {
+          "id": 66,
+          "title": "Eat fruits",
+          "steps": [
+            {"word": "Choose", "emoji": "🍎"},
+            {"word": "Wash", "emoji": "💧"},
+            {"word": "Bite", "emoji": "🦷"},
+            {"word": "Chew", "emoji": "😋"},
+            {"word": "Healthy", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 67,
+          "title": "Eat vegetables",
+          "steps": [
+            {"word": "Get", "emoji": "🥕"},
+            {"word": "Wash", "emoji": "💧"},
+            {"word": "Cut", "emoji": "🔪"},
+            {"word": "Eat", "emoji": "🥗"},
+            {"word": "Strong", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 68,
+          "title": "Drink water",
+          "steps": [
+            {"word": "Get", "emoji": "🥤"},
+            {"word": "Fill", "emoji": "💧"},
+            {"word": "Sip", "emoji": "👄"},
+            {"word": "More", "emoji": "🔄"},
+            {"word": "Hydrated", "emoji": "💙"}
+          ]
+        },
+        {
+          "id": 69,
+          "title": "Drink juice",
+          "steps": [
+            {"word": "Pour", "emoji": "🧃"},
+            {"word": "Cup", "emoji": "🥤"},
+            {"word": "Sip", "emoji": "👄"},
+            {"word": "Taste", "emoji": "😋"},
+            {"word": "Vitamins", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 70,
+          "title": "Eat breakfast",
+          "steps": [
+            {"word": "Morning", "emoji": "☀️"},
+            {"word": "Get", "emoji": "🥣"},
+            {"word": "Eat", "emoji": "🥄"},
+            {"word": "Energy", "emoji": "⚡"},
+            {"word": "Ready", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 71,
+          "title": "Eat a healthy snack",
+          "steps": [
+            {"word": "Hungry", "emoji": "🤤"},
+            {"word": "Choose", "emoji": "🍎"},
+            {"word": "Get", "emoji": "🤲"},
+            {"word": "Eat", "emoji": "😋"},
+            {"word": "Good", "emoji": "👍"}
+          ]
+        },
+        {
+          "id": 72,
+          "title": "Avoid sugar",
+          "steps": [
+            {"word": "See", "emoji": "🍬"},
+            {"word": "No", "emoji": "❌"},
+            {"word": "Choose", "emoji": "🍎"},
+            {"word": "Better", "emoji": "✅"},
+            {"word": "Healthy", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 73,
+          "title": "Chew slowly",
+          "steps": [
+            {"word": "Bite", "emoji": "🦷"},
+            {"word": "Small", "emoji": "🤏"},
+            {"word": "Chew", "emoji": "😊"},
+            {"word": "Count", "emoji": "🔢"},
+            {"word": "Swallow", "emoji": "👇"}
+          ]
+        },
+        {
+          "id": 74,
+          "title": "Ask for a healthy food",
+          "steps": [
+            {"word": "Want", "emoji": "🤔"},
+            {"word": "Healthy", "emoji": "🥗"},
+            {"word": "Ask", "emoji": "🙋"},
+            {"word": "Please", "emoji": "🙏"},
+            {"word": "Get", "emoji": "🍎"}
+          ]
+        },
+        {
+          "id": 75,
+          "title": "Take vitamins",
+          "steps": [
+            {"word": "Morning", "emoji": "☀️"},
+            {"word": "Get", "emoji": "💊"},
+            {"word": "Chew", "emoji": "🦷"},
+            {"word": "Swallow", "emoji": "👄"},
+            {"word": "Strong", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 76,
+          "title": "Ask what food is healthy",
+          "steps": [
+            {"word": "Question", "emoji": "❓"},
+            {"word": "Point", "emoji": "👉"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Learn", "emoji": "🧠"},
+            {"word": "Choose", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 77,
+          "title": "Try a new healthy food",
+          "steps": [
+            {"word": "New", "emoji": "🆕"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Taste", "emoji": "👅"},
+            {"word": "Try", "emoji": "😋"},
+            {"word": "Like", "emoji": "👍"}
+          ]
+        },
+        {
+          "id": 78,
+          "title": "Eat when hungry",
+          "steps": [
+            {"word": "Feel", "emoji": "🤔"},
+            {"word": "Hungry", "emoji": "🤤"},
+            {"word": "Get", "emoji": "🍽️"},
+            {"word": "Eat", "emoji": "😋"},
+            {"word": "Better", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 79,
+          "title": "Stop when full",
+          "steps": [
+            {"word": "Eating", "emoji": "🍽️"},
+            {"word": "Feel", "emoji": "🤔"},
+            {"word": "Full", "emoji": "🟢"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 80,
+          "title": "Wash fruit before eating",
+          "steps": [
+            {"word": "Get", "emoji": "🍎"},
+            {"word": "Water", "emoji": "💧"},
+            {"word": "Rub", "emoji": "🤲"},
+            {"word": "Clean", "emoji": "✨"},
+            {"word": "Eat", "emoji": "😋"}
+          ]
+        }
+      ]
+    },
+    "emotional_health": {
+      "category_emoji": "🧠",
+      "category_name": "Emotional Health",
+      "tiles": [
+        {
+          "id": 81,
+          "title": "Say how I feel",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Feel", "emoji": "❤️"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Better", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 82,
+          "title": "Ask for a break",
+          "steps": [
+            {"word": "Overwhelmed", "emoji": "😰"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Ask", "emoji": "🙋"},
+            {"word": "Break", "emoji": "⏸️"},
+            {"word": "Rest", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 83,
+          "title": "Use a calm-down tool",
+          "steps": [
+            {"word": "Upset", "emoji": "😟"},
+            {"word": "Get", "emoji": "🤲"},
+            {"word": "Squeeze", "emoji": "🤏"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 84,
+          "title": "Take deep breaths",
+          "steps": [
+            {"word": "In", "emoji": "👃"},
+            {"word": "Hold", "emoji": "⏸️"},
+            {"word": "Out", "emoji": "💨"},
+            {"word": "Again", "emoji": "🔄"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 85,
+          "title": "Ask for help",
+          "steps": [
+            {"word": "Need", "emoji": "🆘"},
+            {"word": "Find", "emoji": "👤"},
+            {"word": "Ask", "emoji": "🙋"},
+            {"word": "Help", "emoji": "🤲"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 86,
+          "title": "Go to a quiet space",
+          "steps": [
+            {"word": "Loud", "emoji": "📢"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Peace", "emoji": "☮️"}
+          ]
+        },
+        {
+          "id": 87,
+          "title": "Talk to counselor",
+          "steps": [
+            {"word": "Sad", "emoji": "😢"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Office", "emoji": "🚪"},
+            {"word": "Talk", "emoji": "💬"},
+            {"word": "Better", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 88,
+          "title": "Draw how I feel",
+          "steps": [
+            {"word": "Paper", "emoji": "📄"},
+            {"word": "Crayon", "emoji": "🖍️"},
+            {"word": "Draw", "emoji": "✏️"},
+            {"word": "Feelings", "emoji": "❤️"},
+            {"word": "Show", "emoji": "👀"}
+          ]
+        },
+        {
+          "id": 89,
+          "title": "Cry in a safe space",
+          "steps": [
+            {"word": "Sad", "emoji": "😢"},
+            {"word": "Safe", "emoji": "🏠"},
+            {"word": "Cry", "emoji": "😭"},
+            {"word": "Let", "emoji": "💧"},
+            {"word": "Better", "emoji": "🤗"}
+          ]
+        },
+        {
+          "id": 90,
+          "title": "Use weighted blanket",
+          "steps": [
+            {"word": "Anxious", "emoji": "😰"},
+            {"word": "Get", "emoji": "🟦"},
+            {"word": "Cover", "emoji": "📦"},
+            {"word": "Heavy", "emoji": "⚖️"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        }
+      ]
+    },
+    "safety_independence": {
+      "category_emoji": "🆘",
+      "category_name": "Safety & Health Independence",
+      "tiles": [
+        {
+          "id": 91,
+          "title": "Tell an adult I feel sick",
+          "steps": [
+            {"word": "Feel", "emoji": "🤒"},
+            {"word": "Find", "emoji": "👤"},
+            {"word": "Tell", "emoji": "💬"},
+            {"word": "Sick", "emoji": "🤧"},
+            {"word": "Help", "emoji": "🆘"}
+          ]
+        },
+        {
+          "id": 92,
+          "title": "Say \"I need help\"",
+          "steps": [
+            {"word": "Problem", "emoji": "❓"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Help", "emoji": "🆘"},
+            {"word": "Wait", "emoji": "⏰"}
+          ]
+        },
+        {
+          "id": 93,
+          "title": "Show emergency card",
+          "steps": [
+            {"word": "Emergency", "emoji": "🚨"},
+            {"word": "Get", "emoji": "💳"},
+            {"word": "Show", "emoji": "👀"},
+            {"word": "Point", "emoji": "👉"},
+            {"word": "Help", "emoji": "🆘"}
+          ]
+        },
+        {
+          "id": 94,
+          "title": "Call 911",
+          "steps": [
+            {"word": "Emergency", "emoji": "🚨"},
+            {"word": "Phone", "emoji": "📱"},
+            {"word": "Dial", "emoji": "9️⃣"},
+            {"word": "Talk", "emoji": "💬"},
+            {"word": "Help", "emoji": "🚑"}
+          ]
+        },
+        {
+          "id": 95,
+          "title": "Use a help button",
+          "steps": [
+            {"word": "Need", "emoji": "🆘"},
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Press", "emoji": "🔘"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Help", "emoji": "👤"}
+          ]
+        },
+        {
+          "id": 96,
+          "title": "Show my health alert bracelet",
+          "steps": [
+            {"word": "Emergency", "emoji": "🚨"},
+            {"word": "Wrist", "emoji": "⌚"},
+            {"word": "Show", "emoji": "👀"},
+            {"word": "Point", "emoji": "👉"},
+            {"word": "Read", "emoji": "📖"}
+          ]
+        },
+        {
+          "id": 97,
+          "title": "Use medical ID app",
+          "steps": [
+            {"word": "Phone", "emoji": "📱"},
+            {"word": "Open", "emoji": "📲"},
+            {"word": "Medical", "emoji": "🏥"},
+            {"word": "Show", "emoji": "👀"},
+            {"word": "Info", "emoji": "ℹ️"}
+          ]
+        },
+        {
+          "id": 98,
+          "title": "Tell someone about allergy",
+          "steps": [
+            {"word": "Food", "emoji": "🍽️"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Allergy", "emoji": "⚠️"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 99,
+          "title": "Wear helmet when biking",
+          "steps": [
+            {"word": "Bike", "emoji": "🚴"},
+            {"word": "Get", "emoji": "⛑️"},
+            {"word": "On", "emoji": "👇"},
+            {"word": "Strap", "emoji": "🔒"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 100,
+          "title": "Follow safety rules",
+          "steps": [
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Rules", "emoji": "📋"},
+            {"word": "Follow", "emoji": "✅"},
+            {"word": "Safe", "emoji": "🛡️"},
+            {"word": "Good", "emoji": "👍"}
+          ]
+        }
+      ]
+    }
+  }
+}

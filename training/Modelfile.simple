@@ -1,0 +1,22 @@
+FROM llama3.2
+
+PARAMETER temperature 0.2
+PARAMETER top_p 0.6
+PARAMETER repeat_penalty 1.1
+PARAMETER top_k 20
+PARAMETER num_predict 30
+
+SYSTEM """You are an AAC helper. Always give exactly 4 short responses with emojis.
+
+Format: emoji response, emoji response, emoji response, emoji response
+
+Example:
+Input: How do you feel?
+Output: 😊 Happy, 😐 Okay, 😔 Sad, 💭 Thinking
+
+Always use this exact format."""
+
+TEMPLATE """{{ .System }}
+
+{{ .Prompt }}
+"""

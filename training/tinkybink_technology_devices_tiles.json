@@ -1,0 +1,1105 @@
+{
+  "category": "📱 Technology & Devices",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Turn on computer",
+      "steps": [
+        {"word": "computer", "emoji": "💻"},
+        {"word": "power", "emoji": "⚡"},
+        {"word": "button", "emoji": "🔴"},
+        {"word": "press", "emoji": "👆"},
+        {"word": "on", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Use mouse",
+      "steps": [
+        {"word": "mouse", "emoji": "🖱️"},
+        {"word": "cursor", "emoji": "➡️"},
+        {"word": "point", "emoji": "👉"},
+        {"word": "click", "emoji": "👆"},
+        {"word": "move", "emoji": "↔️"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Type on keyboard",
+      "steps": [
+        {"word": "keyboard", "emoji": "⌨️"},
+        {"word": "fingers", "emoji": "🖐️"},
+        {"word": "keys", "emoji": "🔤"},
+        {"word": "press", "emoji": "👆"},
+        {"word": "type", "emoji": "✍️"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Open application",
+      "steps": [
+        {"word": "icon", "emoji": "📱"},
+        {"word": "desktop", "emoji": "🖥️"},
+        {"word": "double", "emoji": "2️⃣"},
+        {"word": "click", "emoji": "👆"},
+        {"word": "open", "emoji": "📭"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Close application",
+      "steps": [
+        {"word": "window", "emoji": "🪟"},
+        {"word": "X", "emoji": "❌"},
+        {"word": "button", "emoji": "🔴"},
+        {"word": "click", "emoji": "👆"},
+        {"word": "close", "emoji": "📪"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Save document",
+      "steps": [
+        {"word": "file", "emoji": "📁"},
+        {"word": "save", "emoji": "💾"},
+        {"word": "name", "emoji": "📛"},
+        {"word": "location", "emoji": "📍"},
+        {"word": "click", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Print document",
+      "steps": [
+        {"word": "file", "emoji": "📁"},
+        {"word": "print", "emoji": "🖨️"},
+        {"word": "printer", "emoji": "🖨️"},
+        {"word": "button", "emoji": "🔴"},
+        {"word": "paper", "emoji": "📄"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Send email",
+      "steps": [
+        {"word": "email", "emoji": "📧"},
+        {"word": "compose", "emoji": "✍️"},
+        {"word": "address", "emoji": "📮"},
+        {"word": "message", "emoji": "💬"},
+        {"word": "send", "emoji": "📤"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Attach file",
+      "steps": [
+        {"word": "email", "emoji": "📧"},
+        {"word": "attach", "emoji": "📎"},
+        {"word": "file", "emoji": "📁"},
+        {"word": "browse", "emoji": "🔍"},
+        {"word": "select", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Browse internet",
+      "steps": [
+        {"word": "browser", "emoji": "🌐"},
+        {"word": "address", "emoji": "📍"},
+        {"word": "bar", "emoji": "📊"},
+        {"word": "type", "emoji": "✍️"},
+        {"word": "enter", "emoji": "⏎"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Search online",
+      "steps": [
+        {"word": "search", "emoji": "🔍"},
+        {"word": "engine", "emoji": "🚗"},
+        {"word": "keywords", "emoji": "🔤"},
+        {"word": "type", "emoji": "✍️"},
+        {"word": "results", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Download file",
+      "steps": [
+        {"word": "file", "emoji": "📁"},
+        {"word": "download", "emoji": "⬇️"},
+        {"word": "link", "emoji": "🔗"},
+        {"word": "click", "emoji": "👆"},
+        {"word": "save", "emoji": "💾"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Upload file",
+      "steps": [
+        {"word": "upload", "emoji": "⬆️"},
+        {"word": "button", "emoji": "🔴"},
+        {"word": "browse", "emoji": "🔍"},
+        {"word": "select", "emoji": "✅"},
+        {"word": "file", "emoji": "📁"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Use smartphone",
+      "steps": [
+        {"word": "phone", "emoji": "📱"},
+        {"word": "screen", "emoji": "📱"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "swipe", "emoji": "↔️"},
+        {"word": "tap", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Make phone call",
+      "steps": [
+        {"word": "phone", "emoji": "📱"},
+        {"word": "contacts", "emoji": "📞"},
+        {"word": "number", "emoji": "🔢"},
+        {"word": "dial", "emoji": "☎️"},
+        {"word": "call", "emoji": "📞"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Send text message",
+      "steps": [
+        {"word": "messages", "emoji": "💬"},
+        {"word": "contact", "emoji": "👤"},
+        {"word": "type", "emoji": "✍️"},
+        {"word": "text", "emoji": "📝"},
+        {"word": "send", "emoji": "📤"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Take photo",
+      "steps": [
+        {"word": "camera", "emoji": "📷"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "point", "emoji": "👉"},
+        {"word": "subject", "emoji": "👤"},
+        {"word": "capture", "emoji": "📸"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Record video",
+      "steps": [
+        {"word": "camera", "emoji": "📷"},
+        {"word": "video", "emoji": "📹"},
+        {"word": "mode", "emoji": "🔄"},
+        {"word": "record", "emoji": "🔴"},
+        {"word": "button", "emoji": "🔴"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Share photo",
+      "steps": [
+        {"word": "photo", "emoji": "📸"},
+        {"word": "share", "emoji": "🤝"},
+        {"word": "button", "emoji": "🔴"},
+        {"word": "contact", "emoji": "👤"},
+        {"word": "send", "emoji": "📤"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Install app",
+      "steps": [
+        {"word": "app", "emoji": "📱"},
+        {"word": "store", "emoji": "🏪"},
+        {"word": "search", "emoji": "🔍"},
+        {"word": "install", "emoji": "⬇️"},
+        {"word": "button", "emoji": "🔴"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Delete app",
+      "steps": [
+        {"word": "app", "emoji": "📱"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "icon", "emoji": "📱"},
+        {"word": "delete", "emoji": "🗑️"},
+        {"word": "confirm", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Charge device",
+      "steps": [
+        {"word": "device", "emoji": "📱"},
+        {"word": "cable", "emoji": "🔌"},
+        {"word": "charger", "emoji": "🔋"},
+        {"word": "plug", "emoji": "🔌"},
+        {"word": "in", "emoji": "📥"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Check battery",
+      "steps": [
+        {"word": "battery", "emoji": "🔋"},
+        {"word": "icon", "emoji": "📱"},
+        {"word": "percentage", "emoji": "💯"},
+        {"word": "level", "emoji": "📊"},
+        {"word": "charge", "emoji": "🔋"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Turn on WiFi",
+      "steps": [
+        {"word": "settings", "emoji": "⚙️"},
+        {"word": "WiFi", "emoji": "📶"},
+        {"word": "toggle", "emoji": "🔄"},
+        {"word": "on", "emoji": "✅"},
+        {"word": "connect", "emoji": "🔗"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Connect to WiFi",
+      "steps": [
+        {"word": "WiFi", "emoji": "📶"},
+        {"word": "network", "emoji": "🌐"},
+        {"word": "password", "emoji": "🔒"},
+        {"word": "enter", "emoji": "⏎"},
+        {"word": "connect", "emoji": "🔗"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Turn on Bluetooth",
+      "steps": [
+        {"word": "settings", "emoji": "⚙️"},
+        {"word": "Bluetooth", "emoji": "📱"},
+        {"word": "toggle", "emoji": "🔄"},
+        {"word": "on", "emoji": "✅"},
+        {"word": "pair", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Pair Bluetooth device",
+      "steps": [
+        {"word": "Bluetooth", "emoji": "📱"},
+        {"word": "device", "emoji": "📱"},
+        {"word": "discoverable", "emoji": "🔍"},
+        {"word": "select", "emoji": "✅"},
+        {"word": "pair", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Adjust volume",
+      "steps": [
+        {"word": "volume", "emoji": "🔊"},
+        {"word": "buttons", "emoji": "🔴"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "adjust", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Set alarm",
+      "steps": [
+        {"word": "clock", "emoji": "🕐"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "alarm", "emoji": "⏰"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "set", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Use calculator",
+      "steps": [
+        {"word": "calculator", "emoji": "🧮"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "numbers", "emoji": "🔢"},
+        {"word": "operations", "emoji": "➕"},
+        {"word": "equals", "emoji": "🟰"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Use GPS navigation",
+      "steps": [
+        {"word": "maps", "emoji": "🗺️"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "destination", "emoji": "📍"},
+        {"word": "directions", "emoji": "🧭"},
+        {"word": "navigate", "emoji": "🧭"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Play music",
+      "steps": [
+        {"word": "music", "emoji": "🎵"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "song", "emoji": "🎵"},
+        {"word": "play", "emoji": "▶️"},
+        {"word": "button", "emoji": "🔴"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Pause music",
+      "steps": [
+        {"word": "music", "emoji": "🎵"},
+        {"word": "playing", "emoji": "▶️"},
+        {"word": "pause", "emoji": "⏸️"},
+        {"word": "button", "emoji": "🔴"},
+        {"word": "stop", "emoji": "🛑"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Skip song",
+      "steps": [
+        {"word": "song", "emoji": "🎵"},
+        {"word": "skip", "emoji": "⏭️"},
+        {"word": "next", "emoji": "➡️"},
+        {"word": "button", "emoji": "🔴"},
+        {"word": "forward", "emoji": "⏭️"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Watch video",
+      "steps": [
+        {"word": "video", "emoji": "📹"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "select", "emoji": "✅"},
+        {"word": "play", "emoji": "▶️"},
+        {"word": "watch", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Use tablet",
+      "steps": [
+        {"word": "tablet", "emoji": "📱"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "screen", "emoji": "📱"},
+        {"word": "swipe", "emoji": "↔️"},
+        {"word": "navigate", "emoji": "🧭"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Use TV remote",
+      "steps": [
+        {"word": "remote", "emoji": "📺"},
+        {"word": "control", "emoji": "🎮"},
+        {"word": "buttons", "emoji": "🔴"},
+        {"word": "channel", "emoji": "📺"},
+        {"word": "volume", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Change TV channel",
+      "steps": [
+        {"word": "remote", "emoji": "📺"},
+        {"word": "channel", "emoji": "📺"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "number", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Stream content",
+      "steps": [
+        {"word": "streaming", "emoji": "📺"},
+        {"word": "service", "emoji": "🌐"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "select", "emoji": "✅"},
+        {"word": "watch", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Use gaming console",
+      "steps": [
+        {"word": "gaming", "emoji": "🎮"},
+        {"word": "console", "emoji": "📱"},
+        {"word": "controller", "emoji": "🎮"},
+        {"word": "game", "emoji": "🎯"},
+        {"word": "play", "emoji": "▶️"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Play video game",
+      "steps": [
+        {"word": "game", "emoji": "🎮"},
+        {"word": "controller", "emoji": "🎮"},
+        {"word": "buttons", "emoji": "🔴"},
+        {"word": "joystick", "emoji": "🕹️"},
+        {"word": "play", "emoji": "▶️"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Use headphones",
+      "steps": [
+        {"word": "headphones", "emoji": "🎧"},
+        {"word": "head", "emoji": "🗣️"},
+        {"word": "ears", "emoji": "👂"},
+        {"word": "audio", "emoji": "🔊"},
+        {"word": "listen", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Connect headphones",
+      "steps": [
+        {"word": "headphones", "emoji": "🎧"},
+        {"word": "jack", "emoji": "🔌"},
+        {"word": "plug", "emoji": "🔌"},
+        {"word": "device", "emoji": "📱"},
+        {"word": "connect", "emoji": "🔗"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Use microphone",
+      "steps": [
+        {"word": "microphone", "emoji": "🎤"},
+        {"word": "speak", "emoji": "🗣️"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "record", "emoji": "🔴"},
+        {"word": "sound", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Video call",
+      "steps": [
+        {"word": "video", "emoji": "📹"},
+        {"word": "call", "emoji": "📞"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "contact", "emoji": "👤"},
+        {"word": "connect", "emoji": "🔗"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Screen sharing",
+      "steps": [
+        {"word": "screen", "emoji": "📱"},
+        {"word": "share", "emoji": "🤝"},
+        {"word": "button", "emoji": "🔴"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "others", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Use webcam",
+      "steps": [
+        {"word": "webcam", "emoji": "📷"},
+        {"word": "camera", "emoji": "📷"},
+        {"word": "video", "emoji": "📹"},
+        {"word": "face", "emoji": "😊"},
+        {"word": "show", "emoji": "🫵"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Update software",
+      "steps": [
+        {"word": "software", "emoji": "💻"},
+        {"word": "update", "emoji": "🔄"},
+        {"word": "download", "emoji": "⬇️"},
+        {"word": "install", "emoji": "⬇️"},
+        {"word": "restart", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Backup data",
+      "steps": [
+        {"word": "data", "emoji": "💾"},
+        {"word": "backup", "emoji": "💾"},
+        {"word": "cloud", "emoji": "☁️"},
+        {"word": "save", "emoji": "💾"},
+        {"word": "copy", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Use voice assistant",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "assistant", "emoji": "🤖"},
+        {"word": "wake", "emoji": "👋"},
+        {"word": "word", "emoji": "📝"},
+        {"word": "command", "emoji": "📢"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Smart home control",
+      "steps": [
+        {"word": "smart", "emoji": "🤖"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "devices", "emoji": "💡"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Turn on smart lights",
+      "steps": [
+        {"word": "smart", "emoji": "🤖"},
+        {"word": "lights", "emoji": "💡"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "switch", "emoji": "🔄"},
+        {"word": "on", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Adjust thermostat",
+      "steps": [
+        {"word": "thermostat", "emoji": "🌡️"},
+        {"word": "temperature", "emoji": "🌡️"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "set", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Use smart speaker",
+      "steps": [
+        {"word": "smart", "emoji": "🤖"},
+        {"word": "speaker", "emoji": "🔊"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "command", "emoji": "📢"},
+        {"word": "respond", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Set timer",
+      "steps": [
+        {"word": "timer", "emoji": "⏲️"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "minutes", "emoji": "🕐"},
+        {"word": "set", "emoji": "✅"},
+        {"word": "alarm", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Ask weather",
+      "steps": [
+        {"word": "weather", "emoji": "🌦️"},
+        {"word": "today", "emoji": "📅"},
+        {"word": "ask", "emoji": "❓"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "assistant", "emoji": "🤖"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Use QR code",
+      "steps": [
+        {"word": "QR", "emoji": "📱"},
+        {"word": "code", "emoji": "🔲"},
+        {"word": "camera", "emoji": "📷"},
+        {"word": "scan", "emoji": "🔍"},
+        {"word": "open", "emoji": "📭"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Use NFC",
+      "steps": [
+        {"word": "NFC", "emoji": "📱"},
+        {"word": "near", "emoji": "📍"},
+        {"word": "field", "emoji": "🌐"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "connect", "emoji": "🔗"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Mobile payment",
+      "steps": [
+        {"word": "mobile", "emoji": "📱"},
+        {"word": "payment", "emoji": "💳"},
+        {"word": "app", "emoji": "📱"},
+        {"word": "tap", "emoji": "👆"},
+        {"word": "pay", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Use fitness tracker",
+      "steps": [
+        {"word": "fitness", "emoji": "💪"},
+        {"word": "tracker", "emoji": "⌚"},
+        {"word": "wrist", "emoji": "🤏"},
+        {"word": "steps", "emoji": "👣"},
+        {"word": "monitor", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Check notifications",
+      "steps": [
+        {"word": "notifications", "emoji": "🔔"},
+        {"word": "screen", "emoji": "📱"},
+        {"word": "swipe", "emoji": "↔️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "read", "emoji": "📖"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Clear notifications",
+      "steps": [
+        {"word": "notifications", "emoji": "🔔"},
+        {"word": "swipe", "emoji": "↔️"},
+        {"word": "away", "emoji": "↔️"},
+        {"word": "clear", "emoji": "🧹"},
+        {"word": "all", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Use cloud storage",
+      "steps": [
+        {"word": "cloud", "emoji": "☁️"},
+        {"word": "storage", "emoji": "💾"},
+        {"word": "files", "emoji": "📁"},
+        {"word": "upload", "emoji": "⬆️"},
+        {"word": "access", "emoji": "🔓"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Sync devices",
+      "steps": [
+        {"word": "sync", "emoji": "🔄"},
+        {"word": "devices", "emoji": "📱"},
+        {"word": "account", "emoji": "👤"},
+        {"word": "same", "emoji": "🟰"},
+        {"word": "data", "emoji": "💾"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Use two-factor authentication",
+      "steps": [
+        {"word": "two", "emoji": "2️⃣"},
+        {"word": "factor", "emoji": "🔒"},
+        {"word": "code", "emoji": "🔢"},
+        {"word": "phone", "emoji": "📱"},
+        {"word": "enter", "emoji": "⏎"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Set up parental controls",
+      "steps": [
+        {"word": "parental", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "controls", "emoji": "🎮"},
+        {"word": "settings", "emoji": "⚙️"},
+        {"word": "restrict", "emoji": "🚫"},
+        {"word": "content", "emoji": "📱"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Use screen time controls",
+      "steps": [
+        {"word": "screen", "emoji": "📱"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "limits", "emoji": "⏰"},
+        {"word": "set", "emoji": "✅"},
+        {"word": "hours", "emoji": "🕐"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Enable dark mode",
+      "steps": [
+        {"word": "dark", "emoji": "🌙"},
+        {"word": "mode", "emoji": "🔄"},
+        {"word": "settings", "emoji": "⚙️"},
+        {"word": "display", "emoji": "📱"},
+        {"word": "toggle", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Adjust brightness",
+      "steps": [
+        {"word": "brightness", "emoji": "💡"},
+        {"word": "screen", "emoji": "📱"},
+        {"word": "slider", "emoji": "📊"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "down", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Enable accessibility",
+      "steps": [
+        {"word": "accessibility", "emoji": "♿"},
+        {"word": "settings", "emoji": "⚙️"},
+        {"word": "features", "emoji": "🎯"},
+        {"word": "enable", "emoji": "✅"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Use voice control",
+      "steps": [
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "control", "emoji": "🎮"},
+        {"word": "settings", "emoji": "⚙️"},
+        {"word": "commands", "emoji": "📢"},
+        {"word": "speak", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Use magnifier",
+      "steps": [
+        {"word": "magnifier", "emoji": "🔍"},
+        {"word": "zoom", "emoji": "🔍"},
+        {"word": "text", "emoji": "📝"},
+        {"word": "larger", "emoji": "🔍"},
+        {"word": "see", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Text to speech",
+      "steps": [
+        {"word": "text", "emoji": "📝"},
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "read", "emoji": "📖"},
+        {"word": "aloud", "emoji": "🔊"},
+        {"word": "voice", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Speech to text",
+      "steps": [
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "text", "emoji": "📝"},
+        {"word": "dictate", "emoji": "🎤"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "type", "emoji": "✍️"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Use switch control",
+      "steps": [
+        {"word": "switch", "emoji": "🔄"},
+        {"word": "control", "emoji": "🎮"},
+        {"word": "external", "emoji": "📱"},
+        {"word": "button", "emoji": "🔴"},
+        {"word": "navigate", "emoji": "🧭"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Customize interface",
+      "steps": [
+        {"word": "customize", "emoji": "🎨"},
+        {"word": "interface", "emoji": "📱"},
+        {"word": "layout", "emoji": "📋"},
+        {"word": "colors", "emoji": "🌈"},
+        {"word": "fonts", "emoji": "🔤"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Create shortcuts",
+      "steps": [
+        {"word": "shortcuts", "emoji": "⚡"},
+        {"word": "create", "emoji": "✏️"},
+        {"word": "actions", "emoji": "⚡"},
+        {"word": "quick", "emoji": "⚡"},
+        {"word": "access", "emoji": "🔓"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Use widgets",
+      "steps": [
+        {"word": "widgets", "emoji": "📱"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "screen", "emoji": "📱"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "quick", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Organize apps",
+      "steps": [
+        {"word": "apps", "emoji": "📱"},
+        {"word": "organize", "emoji": "📊"},
+        {"word": "folders", "emoji": "📁"},
+        {"word": "categories", "emoji": "📊"},
+        {"word": "group", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Clear storage",
+      "steps": [
+        {"word": "storage", "emoji": "💾"},
+        {"word": "full", "emoji": "📊"},
+        {"word": "clear", "emoji": "🧹"},
+        {"word": "delete", "emoji": "🗑️"},
+        {"word": "files", "emoji": "📁"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Manage downloads",
+      "steps": [
+        {"word": "downloads", "emoji": "⬇️"},
+        {"word": "folder", "emoji": "📁"},
+        {"word": "manage", "emoji": "📊"},
+        {"word": "delete", "emoji": "🗑️"},
+        {"word": "old", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Clear browser cache",
+      "steps": [
+        {"word": "browser", "emoji": "🌐"},
+        {"word": "cache", "emoji": "💾"},
+        {"word": "clear", "emoji": "🧹"},
+        {"word": "data", "emoji": "💾"},
+        {"word": "settings", "emoji": "⚙️"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Manage cookies",
+      "steps": [
+        {"word": "cookies", "emoji": "🍪"},
+        {"word": "browser", "emoji": "🌐"},
+        {"word": "privacy", "emoji": "🔒"},
+        {"word": "settings", "emoji": "⚙️"},
+        {"word": "clear", "emoji": "🧹"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Use incognito mode",
+      "steps": [
+        {"word": "incognito", "emoji": "🕵️"},
+        {"word": "private", "emoji": "🔒"},
+        {"word": "browsing", "emoji": "🌐"},
+        {"word": "mode", "emoji": "🔄"},
+        {"word": "history", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Bookmark website",
+      "steps": [
+        {"word": "bookmark", "emoji": "🔖"},
+        {"word": "website", "emoji": "🌐"},
+        {"word": "save", "emoji": "💾"},
+        {"word": "favorites", "emoji": "⭐"},
+        {"word": "quick", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Manage passwords",
+      "steps": [
+        {"word": "passwords", "emoji": "🔒"},
+        {"word": "manager", "emoji": "📊"},
+        {"word": "save", "emoji": "💾"},
+        {"word": "secure", "emoji": "🛡️"},
+        {"word": "access", "emoji": "🔓"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Enable firewall",
+      "steps": [
+        {"word": "firewall", "emoji": "🛡️"},
+        {"word": "security", "emoji": "🔒"},
+        {"word": "settings", "emoji": "⚙️"},
+        {"word": "enable", "emoji": "✅"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Install antivirus",
+      "steps": [
+        {"word": "antivirus", "emoji": "🛡️"},
+        {"word": "software", "emoji": "💻"},
+        {"word": "install", "emoji": "⬇️"},
+        {"word": "scan", "emoji": "🔍"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Run virus scan",
+      "steps": [
+        {"word": "virus", "emoji": "🦠"},
+        {"word": "scan", "emoji": "🔍"},
+        {"word": "computer", "emoji": "💻"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "clean", "emoji": "🧹"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Update antivirus",
+      "steps": [
+        {"word": "antivirus", "emoji": "🛡️"},
+        {"word": "update", "emoji": "🔄"},
+        {"word": "definitions", "emoji": "📋"},
+        {"word": "latest", "emoji": "🆕"},
+        {"word": "protection", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Use VPN",
+      "steps": [
+        {"word": "VPN", "emoji": "🌐"},
+        {"word": "virtual", "emoji": "💻"},
+        {"word": "network", "emoji": "🌐"},
+        {"word": "connect", "emoji": "🔗"},
+        {"word": "secure", "emoji": "🔒"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Monitor data usage",
+      "steps": [
+        {"word": "data", "emoji": "💾"},
+        {"word": "usage", "emoji": "📊"},
+        {"word": "monitor", "emoji": "📺"},
+        {"word": "limit", "emoji": "⏰"},
+        {"word": "track", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Set data limit",
+      "steps": [
+        {"word": "data", "emoji": "💾"},
+        {"word": "limit", "emoji": "⏰"},
+        {"word": "set", "emoji": "✅"},
+        {"word": "warning", "emoji": "⚠️"},
+        {"word": "overage", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Use airplane mode",
+      "steps": [
+        {"word": "airplane", "emoji": "✈️"},
+        {"word": "mode", "emoji": "🔄"},
+        {"word": "toggle", "emoji": "🔄"},
+        {"word": "wireless", "emoji": "📶"},
+        {"word": "off", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Reset network settings",
+      "steps": [
+        {"word": "network", "emoji": "🌐"},
+        {"word": "settings", "emoji": "⚙️"},
+        {"word": "reset", "emoji": "🔄"},
+        {"word": "default", "emoji": "📋"},
+        {"word": "restart", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Factory reset device",
+      "steps": [
+        {"word": "factory", "emoji": "🏭"},
+        {"word": "reset", "emoji": "🔄"},
+        {"word": "erase", "emoji": "🧹"},
+        {"word": "all", "emoji": "🔄"},
+        {"word": "data", "emoji": "💾"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Troubleshoot problems",
+      "steps": [
+        {"word": "troubleshoot", "emoji": "🔧"},
+        {"word": "problems", "emoji": "❓"},
+        {"word": "restart", "emoji": "🔄"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "fix", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Contact tech support",
+      "steps": [
+        {"word": "tech", "emoji": "💻"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "call", "emoji": "📞"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "problem", "emoji": "❓"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Learn new technology",
+      "steps": [
+        {"word": "learn", "emoji": "📚"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "technology", "emoji": "💻"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "improve", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Stay updated",
+      "steps": [
+        {"word": "stay", "emoji": "🛑"},
+        {"word": "updated", "emoji": "🔄"},
+        {"word": "technology", "emoji": "💻"},
+        {"word": "trends", "emoji": "📈"},
+        {"word": "current", "emoji": "⏰"}
+      ]
+    }
+  ]
+}

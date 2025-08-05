@@ -1,0 +1,1108 @@
+{
+  "category": {
+    "emoji": "🏠",
+    "name": "Life Skills & Independence"
+  },
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Making bed",
+      "steps": [
+        {"word": "pull", "emoji": "🤏"},
+        {"word": "sheets", "emoji": "🛏️"},
+        {"word": "smooth", "emoji": "✋"},
+        {"word": "pillow", "emoji": "🟦"},
+        {"word": "done", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Brushing teeth",
+      "steps": [
+        {"word": "toothbrush", "emoji": "🪥"},
+        {"word": "toothpaste", "emoji": "🧴"},
+        {"word": "brush", "emoji": "🔄"},
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "smile", "emoji": "😁"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Getting dressed",
+      "steps": [
+        {"word": "underwear", "emoji": "🩲"},
+        {"word": "shirt", "emoji": "👕"},
+        {"word": "pants", "emoji": "👖"},
+        {"word": "socks", "emoji": "🧦"},
+        {"word": "shoes", "emoji": "👟"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Packing backpack",
+      "steps": [
+        {"word": "open", "emoji": "🎒"},
+        {"word": "books", "emoji": "📚"},
+        {"word": "lunch", "emoji": "🍱"},
+        {"word": "homework", "emoji": "📝"},
+        {"word": "zip", "emoji": "🤐"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Setting table",
+      "steps": [
+        {"word": "placemat", "emoji": "🟦"},
+        {"word": "plate", "emoji": "🍽️"},
+        {"word": "fork", "emoji": "🍴"},
+        {"word": "cup", "emoji": "🥤"},
+        {"word": "napkin", "emoji": "🧻"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Washing hands",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "scrub", "emoji": "🤲"},
+        {"word": "rinse", "emoji": "🚿"},
+        {"word": "dry", "emoji": "🫴"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Tying shoes",
+      "steps": [
+        {"word": "laces", "emoji": "👟"},
+        {"word": "cross", "emoji": "❌"},
+        {"word": "loop", "emoji": "➰"},
+        {"word": "pull", "emoji": "🤏"},
+        {"word": "tight", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Cleaning room",
+      "steps": [
+        {"word": "pick", "emoji": "🤏"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "toys", "emoji": "🧸"},
+        {"word": "organize", "emoji": "📦"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Making snack",
+      "steps": [
+        {"word": "choose", "emoji": "🤔"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "get", "emoji": "🤲"},
+        {"word": "plate", "emoji": "🍽️"},
+        {"word": "eat", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Feeding pet",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "food", "emoji": "🥫"},
+        {"word": "pour", "emoji": "🫗"},
+        {"word": "bowl", "emoji": "🥣"},
+        {"word": "water", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Using phone",
+      "steps": [
+        {"word": "pick", "emoji": "🤏"},
+        {"word": "up", "emoji": "📱"},
+        {"word": "dial", "emoji": "🔢"},
+        {"word": "talk", "emoji": "🗣️"},
+        {"word": "hang", "emoji": "📵"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Sorting laundry",
+      "steps": [
+        {"word": "darks", "emoji": "⚫"},
+        {"word": "lights", "emoji": "⚪"},
+        {"word": "separate", "emoji": "↔️"},
+        {"word": "basket", "emoji": "🧺"},
+        {"word": "wash", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Watering plants",
+      "steps": [
+        {"word": "fill", "emoji": "🚰"},
+        {"word": "watering", "emoji": "💧"},
+        {"word": "can", "emoji": "🫗"},
+        {"word": "pour", "emoji": "💦"},
+        {"word": "plants", "emoji": "🌱"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Taking medicine",
+      "steps": [
+        {"word": "check", "emoji": "👀"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "get", "emoji": "💊"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "swallow", "emoji": "😮"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Crossing street",
+      "steps": [
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "both", "emoji": "↔️"},
+        {"word": "ways", "emoji": "🚗"},
+        {"word": "cross", "emoji": "🚶"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Using calendar",
+      "steps": [
+        {"word": "check", "emoji": "👀"},
+        {"word": "date", "emoji": "📅"},
+        {"word": "mark", "emoji": "✏️"},
+        {"word": "events", "emoji": "🎉"},
+        {"word": "remember", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Making list",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "items", "emoji": "📝"},
+        {"word": "check", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Using microwave",
+      "steps": [
+        {"word": "put", "emoji": "🤲"},
+        {"word": "food", "emoji": "🍕"},
+        {"word": "set", "emoji": "🔢"},
+        {"word": "time", "emoji": "⏱️"},
+        {"word": "start", "emoji": "▶️"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Locking door",
+      "steps": [
+        {"word": "key", "emoji": "🔑"},
+        {"word": "insert", "emoji": "➡️"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "locked", "emoji": "🔒"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Checking weather",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "outside", "emoji": "🪟"},
+        {"word": "check", "emoji": "📱"},
+        {"word": "forecast", "emoji": "🌤️"},
+        {"word": "dress", "emoji": "👕"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Using scissors",
+      "steps": [
+        {"word": "hold", "emoji": "✋"},
+        {"word": "carefully", "emoji": "⚠️"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "straight", "emoji": "📏"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Cleaning spill",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "towel", "emoji": "🧻"},
+        {"word": "wipe", "emoji": "🫴"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "dry", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Taking shower",
+      "steps": [
+        {"word": "water", "emoji": "🚿"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "wash", "emoji": "🧽"},
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "towel", "emoji": "🏖️"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Combing hair",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "comb", "emoji": "🪮"},
+        {"word": "brush", "emoji": "⬇️"},
+        {"word": "smooth", "emoji": "✋"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Putting on coat",
+      "steps": [
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "arm", "emoji": "💪"},
+        {"word": "other", "emoji": "2️⃣"},
+        {"word": "arm", "emoji": "💪"},
+        {"word": "zip", "emoji": "🤐"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Using toilet",
+      "steps": [
+        {"word": "go", "emoji": "🚶"},
+        {"word": "bathroom", "emoji": "🚽"},
+        {"word": "use", "emoji": "✅"},
+        {"word": "flush", "emoji": "🌊"},
+        {"word": "wash", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Folding clothes",
+      "steps": [
+        {"word": "lay", "emoji": "📐"},
+        {"word": "flat", "emoji": "➖"},
+        {"word": "fold", "emoji": "📁"},
+        {"word": "half", "emoji": "✂️"},
+        {"word": "stack", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Using computer",
+      "steps": [
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "on", "emoji": "💻"},
+        {"word": "click", "emoji": "🖱️"},
+        {"word": "type", "emoji": "⌨️"},
+        {"word": "save", "emoji": "💾"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Counting money",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "coins", "emoji": "🪙"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "add", "emoji": "➕"},
+        {"word": "total", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Reading clock",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "hour", "emoji": "🕐"},
+        {"word": "hand", "emoji": "👉"},
+        {"word": "minutes", "emoji": "⏱️"},
+        {"word": "time", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Using elevator",
+      "steps": [
+        {"word": "press", "emoji": "👆"},
+        {"word": "button", "emoji": "🔘"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "enter", "emoji": "🚪"},
+        {"word": "floor", "emoji": "🏢"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Preparing lunch",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "bread", "emoji": "🍞"},
+        {"word": "add", "emoji": "➕"},
+        {"word": "filling", "emoji": "🥪"},
+        {"word": "pack", "emoji": "🍱"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Using ATM",
+      "steps": [
+        {"word": "insert", "emoji": "💳"},
+        {"word": "card", "emoji": "💳"},
+        {"word": "PIN", "emoji": "🔢"},
+        {"word": "amount", "emoji": "💵"},
+        {"word": "take", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Riding bus",
+      "steps": [
+        {"word": "wait", "emoji": "🚏"},
+        {"word": "bus", "emoji": "🚌"},
+        {"word": "pay", "emoji": "💳"},
+        {"word": "sit", "emoji": "💺"},
+        {"word": "exit", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Emergency call",
+      "steps": [
+        {"word": "dial", "emoji": "📱"},
+        {"word": "911", "emoji": "🆘"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "problem", "emoji": "⚠️"},
+        {"word": "address", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Shopping list",
+      "steps": [
+        {"word": "write", "emoji": "✍️"},
+        {"word": "needs", "emoji": "📝"},
+        {"word": "go", "emoji": "🚶"},
+        {"word": "store", "emoji": "🏪"},
+        {"word": "buy", "emoji": "🛒"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Taking trash out",
+      "steps": [
+        {"word": "tie", "emoji": "🎀"},
+        {"word": "bag", "emoji": "🗑️"},
+        {"word": "carry", "emoji": "🤲"},
+        {"word": "outside", "emoji": "🚪"},
+        {"word": "bin", "emoji": "🗑️"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Charging device",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "charger", "emoji": "🔌"},
+        {"word": "plug", "emoji": "🔌"},
+        {"word": "connect", "emoji": "📱"},
+        {"word": "wait", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Using remote",
+      "steps": [
+        {"word": "point", "emoji": "👉"},
+        {"word": "TV", "emoji": "📺"},
+        {"word": "press", "emoji": "👆"},
+        {"word": "button", "emoji": "🔘"},
+        {"word": "watch", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Mailing letter",
+      "steps": [
+        {"word": "write", "emoji": "✍️"},
+        {"word": "address", "emoji": "📮"},
+        {"word": "stamp", "emoji": "📬"},
+        {"word": "mailbox", "emoji": "📪"},
+        {"word": "send", "emoji": "✉️"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Using library",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "book", "emoji": "📚"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "out", "emoji": "📤"},
+        {"word": "return", "emoji": "📥"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Grocery shopping",
+      "steps": [
+        {"word": "cart", "emoji": "🛒"},
+        {"word": "aisles", "emoji": "🏪"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "checkout", "emoji": "💳"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Answering door",
+      "steps": [
+        {"word": "hear", "emoji": "👂"},
+        {"word": "knock", "emoji": "🚪"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "who", "emoji": "❓"},
+        {"word": "open", "emoji": "🔓"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Setting alarm",
+      "steps": [
+        {"word": "clock", "emoji": "⏰"},
+        {"word": "set", "emoji": "🔧"},
+        {"word": "time", "emoji": "⏱️"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "on", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Using map",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "location", "emoji": "📍"},
+        {"word": "follow", "emoji": "👣"},
+        {"word": "directions", "emoji": "➡️"},
+        {"word": "arrive", "emoji": "🏁"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Recycling items",
+      "steps": [
+        {"word": "sort", "emoji": "♻️"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "plastic", "emoji": "🥤"},
+        {"word": "glass", "emoji": "🍾"},
+        {"word": "bin", "emoji": "🗑️"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Using vending machine",
+      "steps": [
+        {"word": "insert", "emoji": "💵"},
+        {"word": "money", "emoji": "💰"},
+        {"word": "press", "emoji": "👆"},
+        {"word": "selection", "emoji": "🔢"},
+        {"word": "take", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Packing suitcase",
+      "steps": [
+        {"word": "open", "emoji": "🧳"},
+        {"word": "fold", "emoji": "👕"},
+        {"word": "clothes", "emoji": "👗"},
+        {"word": "toiletries", "emoji": "🧴"},
+        {"word": "zip", "emoji": "🤐"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Using umbrella",
+      "steps": [
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "open", "emoji": "🌂"},
+        {"word": "hold", "emoji": "✋"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "dry", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Ordering food",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "menu", "emoji": "📋"},
+        {"word": "choose", "emoji": "👆"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "waiter", "emoji": "🤵"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Using escalator",
+      "steps": [
+        {"word": "approach", "emoji": "🚶"},
+        {"word": "step", "emoji": "👣"},
+        {"word": "on", "emoji": "✅"},
+        {"word": "hold", "emoji": "🤲"},
+        {"word": "rail", "emoji": "🚇"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Washing dishes",
+      "steps": [
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "sponge", "emoji": "🧽"},
+        {"word": "scrub", "emoji": "🔄"},
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "dry", "emoji": "🫧"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Using flashlight",
+      "steps": [
+        {"word": "dark", "emoji": "🌑"},
+        {"word": "get", "emoji": "🤲"},
+        {"word": "flashlight", "emoji": "🔦"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "on", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Making appointment",
+      "steps": [
+        {"word": "call", "emoji": "📞"},
+        {"word": "office", "emoji": "🏢"},
+        {"word": "ask", "emoji": "🗣️"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "write", "emoji": "✍️"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Using thermometer",
+      "steps": [
+        {"word": "place", "emoji": "📍"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "beep", "emoji": "🔊"},
+        {"word": "read", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Organizing drawer",
+      "steps": [
+        {"word": "empty", "emoji": "📤"},
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "arrange", "emoji": "📐"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Using bandaid",
+      "steps": [
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "cut", "emoji": "🩹"},
+        {"word": "open", "emoji": "📂"},
+        {"word": "bandaid", "emoji": "🩹"},
+        {"word": "stick", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Checking mail",
+      "steps": [
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "mailbox", "emoji": "📬"},
+        {"word": "open", "emoji": "📪"},
+        {"word": "take", "emoji": "🤲"},
+        {"word": "mail", "emoji": "✉️"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Using sunscreen",
+      "steps": [
+        {"word": "squeeze", "emoji": "🤏"},
+        {"word": "lotion", "emoji": "🧴"},
+        {"word": "spread", "emoji": "👐"},
+        {"word": "skin", "emoji": "🤲"},
+        {"word": "protect", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Paying bill",
+      "steps": [
+        {"word": "get", "emoji": "📄"},
+        {"word": "bill", "emoji": "💵"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "check", "emoji": "💳"},
+        {"word": "mail", "emoji": "✉️"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Using taxi",
+      "steps": [
+        {"word": "wave", "emoji": "👋"},
+        {"word": "taxi", "emoji": "🚕"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "address", "emoji": "📍"},
+        {"word": "pay", "emoji": "💳"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Vacuuming floor",
+      "steps": [
+        {"word": "plug", "emoji": "🔌"},
+        {"word": "vacuum", "emoji": "🔲"},
+        {"word": "push", "emoji": "➡️"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Using oven",
+      "steps": [
+        {"word": "preheat", "emoji": "🔥"},
+        {"word": "oven", "emoji": "🔲"},
+        {"word": "put", "emoji": "🤲"},
+        {"word": "food", "emoji": "🍕"},
+        {"word": "timer", "emoji": "⏱️"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Sewing button",
+      "steps": [
+        {"word": "thread", "emoji": "🧵"},
+        {"word": "needle", "emoji": "📍"},
+        {"word": "push", "emoji": "➡️"},
+        {"word": "through", "emoji": "⭕"},
+        {"word": "knot", "emoji": "🪢"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Using ice pack",
+      "steps": [
+        {"word": "hurt", "emoji": "🤕"},
+        {"word": "get", "emoji": "🤲"},
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "wrap", "emoji": "🏖️"},
+        {"word": "apply", "emoji": "✋"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Reading recipe",
+      "steps": [
+        {"word": "get", "emoji": "📖"},
+        {"word": "recipe", "emoji": "📄"},
+        {"word": "read", "emoji": "👀"},
+        {"word": "ingredients", "emoji": "🥕"},
+        {"word": "follow", "emoji": "👣"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Using parking meter",
+      "steps": [
+        {"word": "park", "emoji": "🚗"},
+        {"word": "car", "emoji": "🚙"},
+        {"word": "insert", "emoji": "🪙"},
+        {"word": "coins", "emoji": "💰"},
+        {"word": "time", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Changing battery",
+      "steps": [
+        {"word": "open", "emoji": "📂"},
+        {"word": "compartment", "emoji": "🔲"},
+        {"word": "remove", "emoji": "🔋"},
+        {"word": "old", "emoji": "🗑️"},
+        {"word": "new", "emoji": "🆕"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Using coupon",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "coupon", "emoji": "🎟️"},
+        {"word": "shop", "emoji": "🛒"},
+        {"word": "give", "emoji": "🤲"},
+        {"word": "cashier", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Checking ID",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "wallet", "emoji": "👛"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "ID", "emoji": "🪪"},
+        {"word": "show", "emoji": "✋"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Using locker",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "number", "emoji": "🔢"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "combination", "emoji": "🔐"},
+        {"word": "open", "emoji": "📂"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Measuring ingredients",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "cup", "emoji": "🥤"},
+        {"word": "fill", "emoji": "🫗"},
+        {"word": "level", "emoji": "📏"},
+        {"word": "pour", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Using debit card",
+      "steps": [
+        {"word": "swipe", "emoji": "💳"},
+        {"word": "card", "emoji": "💳"},
+        {"word": "enter", "emoji": "🔢"},
+        {"word": "PIN", "emoji": "🔐"},
+        {"word": "approved", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Changing lightbulb",
+      "steps": [
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "off", "emoji": "🚫"},
+        {"word": "remove", "emoji": "💡"},
+        {"word": "old", "emoji": "🗑️"},
+        {"word": "new", "emoji": "🆕"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Using first aid",
+      "steps": [
+        {"word": "injury", "emoji": "🤕"},
+        {"word": "get", "emoji": "🤲"},
+        {"word": "kit", "emoji": "🏥"},
+        {"word": "treat", "emoji": "🩹"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Reading label",
+      "steps": [
+        {"word": "pick", "emoji": "🤏"},
+        {"word": "item", "emoji": "📦"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "read", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Using public restroom",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "restroom", "emoji": "🚻"},
+        {"word": "use", "emoji": "🚽"},
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "dry", "emoji": "🫴"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Checking expiration",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "date", "emoji": "📅"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "expired", "emoji": "❌"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Using drive-thru",
+      "steps": [
+        {"word": "car", "emoji": "🚗"},
+        {"word": "menu", "emoji": "📋"},
+        {"word": "order", "emoji": "🗣️"},
+        {"word": "pay", "emoji": "💳"},
+        {"word": "receive", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Pumping gas",
+      "steps": [
+        {"word": "insert", "emoji": "💳"},
+        {"word": "card", "emoji": "💳"},
+        {"word": "select", "emoji": "👆"},
+        {"word": "pump", "emoji": "⛽"},
+        {"word": "fill", "emoji": "🚗"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Using self-checkout",
+      "steps": [
+        {"word": "scan", "emoji": "📷"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "bag", "emoji": "🛍️"},
+        {"word": "pay", "emoji": "💳"},
+        {"word": "receipt", "emoji": "🧾"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Making copy",
+      "steps": [
+        {"word": "place", "emoji": "📄"},
+        {"word": "paper", "emoji": "📃"},
+        {"word": "close", "emoji": "📕"},
+        {"word": "press", "emoji": "👆"},
+        {"word": "copy", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Using hand sanitizer",
+      "steps": [
+        {"word": "pump", "emoji": "👆"},
+        {"word": "gel", "emoji": "🧴"},
+        {"word": "rub", "emoji": "🤲"},
+        {"word": "hands", "emoji": "👐"},
+        {"word": "dry", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Reading bus schedule",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "route", "emoji": "🗺️"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "times", "emoji": "⏰"},
+        {"word": "wait", "emoji": "🚏"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Using coffee maker",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "filter", "emoji": "📄"},
+        {"word": "coffee", "emoji": "☕"},
+        {"word": "press", "emoji": "👆"},
+        {"word": "brew", "emoji": "♨️"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Returning item",
+      "steps": [
+        {"word": "bring", "emoji": "🤲"},
+        {"word": "item", "emoji": "📦"},
+        {"word": "receipt", "emoji": "🧾"},
+        {"word": "explain", "emoji": "🗣️"},
+        {"word": "refund", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Using fire extinguisher",
+      "steps": [
+        {"word": "pull", "emoji": "🤏"},
+        {"word": "pin", "emoji": "📍"},
+        {"word": "aim", "emoji": "🎯"},
+        {"word": "squeeze", "emoji": "✊"},
+        {"word": "sweep", "emoji": "🧹"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Reading instructions",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "read", "emoji": "👀"},
+        {"word": "steps", "emoji": "👣"},
+        {"word": "follow", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Using rewards card",
+      "steps": [
+        {"word": "shop", "emoji": "🛒"},
+        {"word": "checkout", "emoji": "💳"},
+        {"word": "scan", "emoji": "📷"},
+        {"word": "card", "emoji": "💳"},
+        {"word": "save", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Organizing calendar",
+      "steps": [
+        {"word": "get", "emoji": "📅"},
+        {"word": "calendar", "emoji": "🗓️"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "events", "emoji": "🎉"},
+        {"word": "plan", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Using measuring tape",
+      "steps": [
+        {"word": "pull", "emoji": "🤏"},
+        {"word": "tape", "emoji": "📏"},
+        {"word": "measure", "emoji": "📐"},
+        {"word": "read", "emoji": "👀"},
+        {"word": "number", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Signing name",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "pen", "emoji": "✒️"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "line", "emoji": "➖"},
+        {"word": "sign", "emoji": "✍️"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Using shopping app",
+      "steps": [
+        {"word": "open", "emoji": "📱"},
+        {"word": "app", "emoji": "📲"},
+        {"word": "search", "emoji": "🔍"},
+        {"word": "add", "emoji": "➕"},
+        {"word": "checkout", "emoji": "💳"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Reading medication",
+      "steps": [
+        {"word": "bottle", "emoji": "💊"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "dose", "emoji": "💊"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "instructions", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Using doorbell",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "button", "emoji": "🔘"},
+        {"word": "press", "emoji": "👆"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "answer", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Checking receipt",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "receipt", "emoji": "🧾"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "total", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Using hand dryer",
+      "steps": [
+        {"word": "wet", "emoji": "💧"},
+        {"word": "hands", "emoji": "🤲"},
+        {"word": "place", "emoji": "📍"},
+        {"word": "under", "emoji": "⬇️"},
+        {"word": "dry", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Making budget",
+      "steps": [
+        {"word": "income", "emoji": "💵"},
+        {"word": "expenses", "emoji": "📊"},
+        {"word": "subtract", "emoji": "➖"},
+        {"word": "save", "emoji": "🏦"},
+        {"word": "plan", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Using crosswalk",
+      "steps": [
+        {"word": "wait", "emoji": "🚦"},
+        {"word": "signal", "emoji": "🚶"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "cross", "emoji": "➡️"},
+        {"word": "safely", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Emergency exit",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "exit", "emoji": "🚪"},
+        {"word": "sign", "emoji": "🟢"},
+        {"word": "go", "emoji": "🏃"},
+        {"word": "outside", "emoji": "🌍"}
+      ]
+    }
+  ]
+}

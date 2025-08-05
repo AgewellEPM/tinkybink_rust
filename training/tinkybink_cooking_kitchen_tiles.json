@@ -1,0 +1,1105 @@
+{
+  "category": "👨‍🍳 Cooking & Kitchen",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Wash vegetables",
+      "steps": [
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "vegetables", "emoji": "🥕"},
+        {"word": "under", "emoji": "🚿"},
+        {"word": "cold", "emoji": "🧊"},
+        {"word": "water", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Crack an egg",
+      "steps": [
+        {"word": "tap", "emoji": "🥚"},
+        {"word": "egg", "emoji": "🔨"},
+        {"word": "on", "emoji": "📍"},
+        {"word": "bowl", "emoji": "🥣"},
+        {"word": "open", "emoji": "👐"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Stir ingredients",
+      "steps": [
+        {"word": "hold", "emoji": "🥄"},
+        {"word": "spoon", "emoji": "🤲"},
+        {"word": "mix", "emoji": "🌀"},
+        {"word": "round", "emoji": "🔄"},
+        {"word": "circles", "emoji": "⭕"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Pour milk",
+      "steps": [
+        {"word": "hold", "emoji": "🥛"},
+        {"word": "carton", "emoji": "📦"},
+        {"word": "tip", "emoji": "↗️"},
+        {"word": "pour", "emoji": "🍶"},
+        {"word": "slowly", "emoji": "🐌"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Cut with knife",
+      "steps": [
+        {"word": "hold", "emoji": "🔪"},
+        {"word": "knife", "emoji": "✋"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "slice", "emoji": "➡️"},
+        {"word": "food", "emoji": "🍎"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Boil water",
+      "steps": [
+        {"word": "fill", "emoji": "🫖"},
+        {"word": "pot", "emoji": "💧"},
+        {"word": "water", "emoji": "🔥"},
+        {"word": "heat", "emoji": "🌊"},
+        {"word": "bubble", "emoji": "💭"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Fry in pan",
+      "steps": [
+        {"word": "heat", "emoji": "🍳"},
+        {"word": "pan", "emoji": "🔥"},
+        {"word": "add", "emoji": "🛢️"},
+        {"word": "oil", "emoji": "🥚"},
+        {"word": "cook", "emoji": "👨‍🍳"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bake in oven",
+      "steps": [
+        {"word": "preheat", "emoji": "🔥"},
+        {"word": "oven", "emoji": "⏰"},
+        {"word": "place", "emoji": "📍"},
+        {"word": "food", "emoji": "🍞"},
+        {"word": "bake", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Microwave food",
+      "steps": [
+        {"word": "place", "emoji": "📍"},
+        {"word": "dish", "emoji": "🍽️"},
+        {"word": "microwave", "emoji": "📺"},
+        {"word": "set", "emoji": "⏱️"},
+        {"word": "timer", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Grate cheese",
+      "steps": [
+        {"word": "hold", "emoji": "🧀"},
+        {"word": "cheese", "emoji": "🤲"},
+        {"word": "rub", "emoji": "↕️"},
+        {"word": "grater", "emoji": "🧈"},
+        {"word": "shred", "emoji": "🧀"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Peel potatoes",
+      "steps": [
+        {"word": "hold", "emoji": "🥔"},
+        {"word": "potato", "emoji": "🔪"},
+        {"word": "peeler", "emoji": "↕️"},
+        {"word": "scrape", "emoji": "🗑️"},
+        {"word": "skin", "emoji": "📴"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Chop onions",
+      "steps": [
+        {"word": "cut", "emoji": "🧅"},
+        {"word": "onion", "emoji": "➗"},
+        {"word": "half", "emoji": "🔪"},
+        {"word": "dice", "emoji": "🧊"},
+        {"word": "small", "emoji": "🤏"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Season food",
+      "steps": [
+        {"word": "sprinkle", "emoji": "🧂"},
+        {"word": "salt", "emoji": "⚫"},
+        {"word": "pepper", "emoji": "🌿"},
+        {"word": "herbs", "emoji": "🥄"},
+        {"word": "taste", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Make toast",
+      "steps": [
+        {"word": "put", "emoji": "🍞"},
+        {"word": "bread", "emoji": "📍"},
+        {"word": "toaster", "emoji": "⬇️"},
+        {"word": "push", "emoji": "⏰"},
+        {"word": "wait", "emoji": "🍞"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Spread butter",
+      "steps": [
+        {"word": "get", "emoji": "🧈"},
+        {"word": "butter", "emoji": "🔪"},
+        {"word": "knife", "emoji": "↔️"},
+        {"word": "spread", "emoji": "🍞"},
+        {"word": "bread", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Make sandwich",
+      "steps": [
+        {"word": "lay", "emoji": "🍞"},
+        {"word": "bread", "emoji": "🥪"},
+        {"word": "add", "emoji": "🧀"},
+        {"word": "filling", "emoji": "📚"},
+        {"word": "close", "emoji": "🥪"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Open can",
+      "steps": [
+        {"word": "use", "emoji": "🥫"},
+        {"word": "can", "emoji": "🔓"},
+        {"word": "opener", "emoji": "🔄"},
+        {"word": "turn", "emoji": "🍲"},
+        {"word": "open", "emoji": "👐"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Drain pasta",
+      "steps": [
+        {"word": "pour", "emoji": "🍝"},
+        {"word": "pasta", "emoji": "🫗"},
+        {"word": "colander", "emoji": "💧"},
+        {"word": "drain", "emoji": "⬇️"},
+        {"word": "water", "emoji": "🚰"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Whisk eggs",
+      "steps": [
+        {"word": "crack", "emoji": "🥚"},
+        {"word": "eggs", "emoji": "🥣"},
+        {"word": "bowl", "emoji": "🥄"},
+        {"word": "whisk", "emoji": "🌀"},
+        {"word": "fast", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Knead dough",
+      "steps": [
+        {"word": "push", "emoji": "👐"},
+        {"word": "dough", "emoji": "💪"},
+        {"word": "hands", "emoji": "🔄"},
+        {"word": "fold", "emoji": "📄"},
+        {"word": "repeat", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Roll dough",
+      "steps": [
+        {"word": "use", "emoji": "🥖"},
+        {"word": "rolling", "emoji": "📍"},
+        {"word": "pin", "emoji": "↔️"},
+        {"word": "roll", "emoji": "📏"},
+        {"word": "flat", "emoji": "⬜"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Flip pancake",
+      "steps": [
+        {"word": "slide", "emoji": "🥞"},
+        {"word": "spatula", "emoji": "⬇️"},
+        {"word": "under", "emoji": "🔄"},
+        {"word": "flip", "emoji": "⬆️"},
+        {"word": "over", "emoji": "🥞"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Mash potatoes",
+      "steps": [
+        {"word": "cook", "emoji": "🥔"},
+        {"word": "potatoes", "emoji": "🥄"},
+        {"word": "masher", "emoji": "⬇️"},
+        {"word": "press", "emoji": "🥔"},
+        {"word": "smooth", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Steam vegetables",
+      "steps": [
+        {"word": "boil", "emoji": "💧"},
+        {"word": "water", "emoji": "🥬"},
+        {"word": "place", "emoji": "🍄"},
+        {"word": "steamer", "emoji": "💨"},
+        {"word": "steam", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Sauté onions",
+      "steps": [
+        {"word": "heat", "emoji": "🍳"},
+        {"word": "pan", "emoji": "🧅"},
+        {"word": "add", "emoji": "🔥"},
+        {"word": "onions", "emoji": "🥄"},
+        {"word": "stir", "emoji": "↔️"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Simmer soup",
+      "steps": [
+        {"word": "bring", "emoji": "🍲"},
+        {"word": "to", "emoji": "🔥"},
+        {"word": "boil", "emoji": "⬇️"},
+        {"word": "reduce", "emoji": "🐌"},
+        {"word": "simmer", "emoji": "💭"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Marinate meat",
+      "steps": [
+        {"word": "mix", "emoji": "🍖"},
+        {"word": "meat", "emoji": "🥄"},
+        {"word": "sauce", "emoji": "⏰"},
+        {"word": "let", "emoji": "🧊"},
+        {"word": "sit", "emoji": "❄️"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Grill food",
+      "steps": [
+        {"word": "heat", "emoji": "🔥"},
+        {"word": "grill", "emoji": "🍖"},
+        {"word": "place", "emoji": "📍"},
+        {"word": "food", "emoji": "🔥"},
+        {"word": "cook", "emoji": "👨‍🍳"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Blend smoothie",
+      "steps": [
+        {"word": "add", "emoji": "🍓"},
+        {"word": "fruit", "emoji": "🥤"},
+        {"word": "blender", "emoji": "⚡"},
+        {"word": "blend", "emoji": "💨"},
+        {"word": "smooth", "emoji": "🥤"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Juice fruit",
+      "steps": [
+        {"word": "cut", "emoji": "🍊"},
+        {"word": "fruit", "emoji": "➗"},
+        {"word": "half", "emoji": "💪"},
+        {"word": "squeeze", "emoji": "🥤"},
+        {"word": "juice", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Brew coffee",
+      "steps": [
+        {"word": "add", "emoji": "☕"},
+        {"word": "coffee", "emoji": "💧"},
+        {"word": "water", "emoji": "☕"},
+        {"word": "maker", "emoji": "⏰"},
+        {"word": "brew", "emoji": "☕"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Make tea",
+      "steps": [
+        {"word": "boil", "emoji": "💧"},
+        {"word": "water", "emoji": "🫖"},
+        {"word": "add", "emoji": "🍵"},
+        {"word": "tea", "emoji": "⏱️"},
+        {"word": "steep", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Frost cake",
+      "steps": [
+        {"word": "spread", "emoji": "🎂"},
+        {"word": "frosting", "emoji": "🔪"},
+        {"word": "knife", "emoji": "↔️"},
+        {"word": "smooth", "emoji": "🌊"},
+        {"word": "even", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Decorate cookies",
+      "steps": [
+        {"word": "make", "emoji": "🍪"},
+        {"word": "icing", "emoji": "🎨"},
+        {"word": "pipe", "emoji": "✨"},
+        {"word": "design", "emoji": "🍪"},
+        {"word": "pretty", "emoji": "😍"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Measure flour",
+      "steps": [
+        {"word": "use", "emoji": "🥄"},
+        {"word": "measuring", "emoji": "🥣"},
+        {"word": "cup", "emoji": "⚖️"},
+        {"word": "level", "emoji": "🔪"},
+        {"word": "off", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Sift flour",
+      "steps": [
+        {"word": "use", "emoji": "🥄"},
+        {"word": "sifter", "emoji": "⬇️"},
+        {"word": "shake", "emoji": "🌪️"},
+        {"word": "flour", "emoji": "☁️"},
+        {"word": "light", "emoji": "🪶"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Separate eggs",
+      "steps": [
+        {"word": "crack", "emoji": "🥚"},
+        {"word": "egg", "emoji": "🟡"},
+        {"word": "separate", "emoji": "⚪"},
+        {"word": "yolk", "emoji": "🥣"},
+        {"word": "white", "emoji": "🥣"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Beat egg whites",
+      "steps": [
+        {"word": "whisk", "emoji": "⚪"},
+        {"word": "whites", "emoji": "💨"},
+        {"word": "fast", "emoji": "⬆️"},
+        {"word": "peaks", "emoji": "⛰️"},
+        {"word": "fluffy", "emoji": "☁️"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Fold ingredients",
+      "steps": [
+        {"word": "gentle", "emoji": "🥄"},
+        {"word": "spoon", "emoji": "⬇️"},
+        {"word": "under", "emoji": "⬆️"},
+        {"word": "over", "emoji": "🔄"},
+        {"word": "fold", "emoji": "📄"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Grease pan",
+      "steps": [
+        {"word": "rub", "emoji": "🧈"},
+        {"word": "butter", "emoji": "🍳"},
+        {"word": "pan", "emoji": "↔️"},
+        {"word": "coat", "emoji": "✨"},
+        {"word": "evenly", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Line baking sheet",
+      "steps": [
+        {"word": "cut", "emoji": "📄"},
+        {"word": "parchment", "emoji": "✂️"},
+        {"word": "paper", "emoji": "📍"},
+        {"word": "place", "emoji": "🍪"},
+        {"word": "sheet", "emoji": "📄"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Check doneness",
+      "steps": [
+        {"word": "insert", "emoji": "🪡"},
+        {"word": "toothpick", "emoji": "🎂"},
+        {"word": "center", "emoji": "⬆️"},
+        {"word": "comes", "emoji": "✨"},
+        {"word": "clean", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Cool completely",
+      "steps": [
+        {"word": "remove", "emoji": "🔥"},
+        {"word": "from", "emoji": "🍰"},
+        {"word": "oven", "emoji": "🧊"},
+        {"word": "cool", "emoji": "⏰"},
+        {"word": "rack", "emoji": "❄️"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Store leftovers",
+      "steps": [
+        {"word": "put", "emoji": "🍽️"},
+        {"word": "food", "emoji": "📦"},
+        {"word": "container", "emoji": "🧊"},
+        {"word": "refrigerate", "emoji": "❄️"},
+        {"word": "save", "emoji": "💾"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Wash dishes",
+      "steps": [
+        {"word": "fill", "emoji": "🧽"},
+        {"word": "sink", "emoji": "💧"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "scrub", "emoji": "🍽️"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Dry dishes",
+      "steps": [
+        {"word": "use", "emoji": "🧻"},
+        {"word": "towel", "emoji": "🍽️"},
+        {"word": "wipe", "emoji": "💧"},
+        {"word": "dry", "emoji": "📚"},
+        {"word": "stack", "emoji": "🥞"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Set timer",
+      "steps": [
+        {"word": "look", "emoji": "📖"},
+        {"word": "recipe", "emoji": "⏰"},
+        {"word": "time", "emoji": "⏱️"},
+        {"word": "set", "emoji": "⏰"},
+        {"word": "timer", "emoji": "🔔"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Preheat oven",
+      "steps": [
+        {"word": "turn", "emoji": "🔥"},
+        {"word": "on", "emoji": "🌡️"},
+        {"word": "temperature", "emoji": "⏰"},
+        {"word": "wait", "emoji": "🔔"},
+        {"word": "beep", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Read recipe",
+      "steps": [
+        {"word": "get", "emoji": "📖"},
+        {"word": "recipe", "emoji": "📋"},
+        {"word": "book", "emoji": "👀"},
+        {"word": "read", "emoji": "📝"},
+        {"word": "ingredients", "emoji": "🥄"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Gather ingredients",
+      "steps": [
+        {"word": "check", "emoji": "📋"},
+        {"word": "list", "emoji": "🔍"},
+        {"word": "find", "emoji": "🥄"},
+        {"word": "ingredients", "emoji": "🧺"},
+        {"word": "collect", "emoji": "📦"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Taste test",
+      "steps": [
+        {"word": "use", "emoji": "🥄"},
+        {"word": "small", "emoji": "👅"},
+        {"word": "spoon", "emoji": "😋"},
+        {"word": "taste", "emoji": "🤔"},
+        {"word": "adjust", "emoji": "➕"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Add more salt",
+      "steps": [
+        {"word": "taste", "emoji": "😋"},
+        {"word": "food", "emoji": "🧂"},
+        {"word": "needs", "emoji": "🤏"},
+        {"word": "pinch", "emoji": "🥄"},
+        {"word": "salt", "emoji": "🧂"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Reduce heat",
+      "steps": [
+        {"word": "turn", "emoji": "🔥"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "burner", "emoji": "🔽"},
+        {"word": "lower", "emoji": "🌡️"},
+        {"word": "temperature", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Increase heat",
+      "steps": [
+        {"word": "turn", "emoji": "🔥"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "burner", "emoji": "🔼"},
+        {"word": "higher", "emoji": "🌡️"},
+        {"word": "temperature", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Cover pot",
+      "steps": [
+        {"word": "place", "emoji": "🫖"},
+        {"word": "lid", "emoji": "📍"},
+        {"word": "on", "emoji": "🍲"},
+        {"word": "pot", "emoji": "🔒"},
+        {"word": "trap", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Remove lid",
+      "steps": [
+        {"word": "carefully", "emoji": "⚠️"},
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "lid", "emoji": "🫖"},
+        {"word": "away", "emoji": "➡️"},
+        {"word": "steam", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Strain liquid",
+      "steps": [
+        {"word": "pour", "emoji": "🍲"},
+        {"word": "through", "emoji": "🫗"},
+        {"word": "strainer", "emoji": "💧"},
+        {"word": "catch", "emoji": "🥣"},
+        {"word": "bowl", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Thicken sauce",
+      "steps": [
+        {"word": "mix", "emoji": "🌾"},
+        {"word": "flour", "emoji": "💧"},
+        {"word": "water", "emoji": "🥄"},
+        {"word": "stir", "emoji": "🍲"},
+        {"word": "sauce", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Thin sauce",
+      "steps": [
+        {"word": "add", "emoji": "💧"},
+        {"word": "liquid", "emoji": "🥄"},
+        {"word": "slowly", "emoji": "🐌"},
+        {"word": "stir", "emoji": "🔄"},
+        {"word": "thin", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Garnish plate",
+      "steps": [
+        {"word": "add", "emoji": "🌿"},
+        {"word": "herbs", "emoji": "📍"},
+        {"word": "on", "emoji": "🍽️"},
+        {"word": "top", "emoji": "✨"},
+        {"word": "pretty", "emoji": "😍"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Plate food",
+      "steps": [
+        {"word": "arrange", "emoji": "🍽️"},
+        {"word": "food", "emoji": "📍"},
+        {"word": "on", "emoji": "🎨"},
+        {"word": "plate", "emoji": "✨"},
+        {"word": "nice", "emoji": "😍"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Serve hot",
+      "steps": [
+        {"word": "food", "emoji": "🔥"},
+        {"word": "is", "emoji": "🌡️"},
+        {"word": "hot", "emoji": "🏃"},
+        {"word": "serve", "emoji": "⚡"},
+        {"word": "quickly", "emoji": "🍽️"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Let cool",
+      "steps": [
+        {"word": "food", "emoji": "🔥"},
+        {"word": "too", "emoji": "⏰"},
+        {"word": "hot", "emoji": "❄️"},
+        {"word": "wait", "emoji": "🧊"},
+        {"word": "cool", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Pack lunch",
+      "steps": [
+        {"word": "make", "emoji": "🥪"},
+        {"word": "sandwich", "emoji": "🧊"},
+        {"word": "pack", "emoji": "🥤"},
+        {"word": "drink", "emoji": "🎒"},
+        {"word": "bag", "emoji": "🍎"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Meal prep",
+      "steps": [
+        {"word": "cook", "emoji": "🍗"},
+        {"word": "large", "emoji": "📦"},
+        {"word": "batch", "emoji": "📅"},
+        {"word": "divide", "emoji": "🍱"},
+        {"word": "containers", "emoji": "❄️"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Freeze portions",
+      "steps": [
+        {"word": "wrap", "emoji": "🍗"},
+        {"word": "food", "emoji": "🧊"},
+        {"word": "tightly", "emoji": "📦"},
+        {"word": "label", "emoji": "📝"},
+        {"word": "freeze", "emoji": "❄️"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Thaw frozen food",
+      "steps": [
+        {"word": "move", "emoji": "🧊"},
+        {"word": "from", "emoji": "❄️"},
+        {"word": "freezer", "emoji": "➡️"},
+        {"word": "to", "emoji": "🧊"},
+        {"word": "fridge", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Check expiration",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "at", "emoji": "📅"},
+        {"word": "date", "emoji": "📦"},
+        {"word": "on", "emoji": "✅"},
+        {"word": "package", "emoji": "🗑️"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Clean as you go",
+      "steps": [
+        {"word": "wash", "emoji": "🧽"},
+        {"word": "dishes", "emoji": "🍽️"},
+        {"word": "while", "emoji": "👨‍🍳"},
+        {"word": "cooking", "emoji": "✨"},
+        {"word": "tidy", "emoji": "🧹"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Wipe counters",
+      "steps": [
+        {"word": "spray", "emoji": "🧴"},
+        {"word": "cleaner", "emoji": "🧻"},
+        {"word": "use", "emoji": "↔️"},
+        {"word": "towel", "emoji": "✨"},
+        {"word": "wipe", "emoji": "🧽"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Organize pantry",
+      "steps": [
+        {"word": "group", "emoji": "🥫"},
+        {"word": "similar", "emoji": "📦"},
+        {"word": "items", "emoji": "🏷️"},
+        {"word": "label", "emoji": "📋"},
+        {"word": "shelves", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Stock refrigerator",
+      "steps": [
+        {"word": "put", "emoji": "🥛"},
+        {"word": "dairy", "emoji": "🧊"},
+        {"word": "cold", "emoji": "🥬"},
+        {"word": "vegetables", "emoji": "📦"},
+        {"word": "organize", "emoji": "🗂️"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Sharpen knives",
+      "steps": [
+        {"word": "use", "emoji": "🔪"},
+        {"word": "knife", "emoji": "🪨"},
+        {"word": "sharpener", "emoji": "↔️"},
+        {"word": "slide", "emoji": "⚡"},
+        {"word": "sharp", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Season cast iron",
+      "steps": [
+        {"word": "rub", "emoji": "🍳"},
+        {"word": "pan", "emoji": "🛢️"},
+        {"word": "oil", "emoji": "🔥"},
+        {"word": "heat", "emoji": "✨"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Make stock",
+      "steps": [
+        {"word": "simmer", "emoji": "🦴"},
+        {"word": "bones", "emoji": "🥕"},
+        {"word": "vegetables", "emoji": "💧"},
+        {"word": "water", "emoji": "⏰"},
+        {"word": "hours", "emoji": "🍲"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Can vegetables",
+      "steps": [
+        {"word": "sterilize", "emoji": "🥫"},
+        {"word": "jars", "emoji": "🥕"},
+        {"word": "pack", "emoji": "💧"},
+        {"word": "vegetables", "emoji": "🔒"},
+        {"word": "seal", "emoji": "🏷️"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Pickle cucumbers",
+      "steps": [
+        {"word": "slice", "emoji": "🥒"},
+        {"word": "cucumbers", "emoji": "🧂"},
+        {"word": "salt", "emoji": "🍾"},
+        {"word": "vinegar", "emoji": "🫙"},
+        {"word": "jar", "emoji": "🥒"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Make jam",
+      "steps": [
+        {"word": "cook", "emoji": "🍓"},
+        {"word": "fruit", "emoji": "🍯"},
+        {"word": "sugar", "emoji": "🔥"},
+        {"word": "heat", "emoji": "🍓"},
+        {"word": "thick", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Bake bread",
+      "steps": [
+        {"word": "mix", "emoji": "🌾"},
+        {"word": "flour", "emoji": "🧬"},
+        {"word": "yeast", "emoji": "💧"},
+        {"word": "water", "emoji": "👐"},
+        {"word": "knead", "emoji": "🍞"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Proof dough",
+      "steps": [
+        {"word": "let", "emoji": "🍞"},
+        {"word": "dough", "emoji": "⬆️"},
+        {"word": "rise", "emoji": "🌡️"},
+        {"word": "warm", "emoji": "⏰"},
+        {"word": "place", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Score bread",
+      "steps": [
+        {"word": "use", "emoji": "🔪"},
+        {"word": "sharp", "emoji": "🍞"},
+        {"word": "knife", "emoji": "❌"},
+        {"word": "slash", "emoji": "📏"},
+        {"word": "top", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Make pizza dough",
+      "steps": [
+        {"word": "mix", "emoji": "🌾"},
+        {"word": "flour", "emoji": "🧬"},
+        {"word": "yeast", "emoji": "👐"},
+        {"word": "knead", "emoji": "⭕"},
+        {"word": "round", "emoji": "🍕"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Stretch pizza",
+      "steps": [
+        {"word": "hold", "emoji": "🍕"},
+        {"word": "dough", "emoji": "👐"},
+        {"word": "stretch", "emoji": "↔️"},
+        {"word": "gently", "emoji": "⭕"},
+        {"word": "circle", "emoji": "🍕"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Top pizza",
+      "steps": [
+        {"word": "spread", "emoji": "🍕"},
+        {"word": "sauce", "emoji": "🧀"},
+        {"word": "cheese", "emoji": "🍅"},
+        {"word": "toppings", "emoji": "✨"},
+        {"word": "delicious", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Make salad",
+      "steps": [
+        {"word": "wash", "emoji": "🥬"},
+        {"word": "lettuce", "emoji": "🔪"},
+        {"word": "chop", "emoji": "🥕"},
+        {"word": "vegetables", "emoji": "🥗"},
+        {"word": "toss", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Make dressing",
+      "steps": [
+        {"word": "mix", "emoji": "🛢️"},
+        {"word": "oil", "emoji": "🍾"},
+        {"word": "vinegar", "emoji": "🧂"},
+        {"word": "salt", "emoji": "🥄"},
+        {"word": "whisk", "emoji": "🌀"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Roast vegetables",
+      "steps": [
+        {"word": "cut", "emoji": "🥕"},
+        {"word": "vegetables", "emoji": "🛢️"},
+        {"word": "oil", "emoji": "🧂"},
+        {"word": "salt", "emoji": "🔥"},
+        {"word": "roast", "emoji": "🥕"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Caramelize onions",
+      "steps": [
+        {"word": "cook", "emoji": "🧅"},
+        {"word": "onions", "emoji": "🐌"},
+        {"word": "slowly", "emoji": "🔥"},
+        {"word": "low", "emoji": "🟫"},
+        {"word": "brown", "emoji": "🍯"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Deglaze pan",
+      "steps": [
+        {"word": "add", "emoji": "🍷"},
+        {"word": "liquid", "emoji": "🍳"},
+        {"word": "hot", "emoji": "🥄"},
+        {"word": "pan", "emoji": "🔄"},
+        {"word": "scrape", "emoji": "🍲"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Make gravy",
+      "steps": [
+        {"word": "cook", "emoji": "🌾"},
+        {"word": "flour", "emoji": "🧈"},
+        {"word": "butter", "emoji": "🥛"},
+        {"word": "add", "emoji": "🥄"},
+        {"word": "milk", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Stuff turkey",
+      "steps": [
+        {"word": "prepare", "emoji": "🦃"},
+        {"word": "stuffing", "emoji": "🦃"},
+        {"word": "fill", "emoji": "📍"},
+        {"word": "cavity", "emoji": "🧵"},
+        {"word": "tie", "emoji": "🪢"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Baste meat",
+      "steps": [
+        {"word": "spoon", "emoji": "🥄"},
+        {"word": "juices", "emoji": "🍖"},
+        {"word": "over", "emoji": "💧"},
+        {"word": "meat", "emoji": "🔄"},
+        {"word": "repeat", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Rest meat",
+      "steps": [
+        {"word": "remove", "emoji": "🍖"},
+        {"word": "from", "emoji": "🔥"},
+        {"word": "heat", "emoji": "⏰"},
+        {"word": "let", "emoji": "💧"},
+        {"word": "rest", "emoji": "🔪"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Carve meat",
+      "steps": [
+        {"word": "use", "emoji": "🔪"},
+        {"word": "sharp", "emoji": "🍖"},
+        {"word": "knife", "emoji": "➡️"},
+        {"word": "slice", "emoji": "📏"},
+        {"word": "against", "emoji": "🧵"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Make broth",
+      "steps": [
+        {"word": "simmer", "emoji": "🥕"},
+        {"word": "vegetables", "emoji": "💧"},
+        {"word": "water", "emoji": "⏰"},
+        {"word": "long", "emoji": "🍲"},
+        {"word": "time", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Reduce sauce",
+      "steps": [
+        {"word": "cook", "emoji": "🍲"},
+        {"word": "sauce", "emoji": "🔥"},
+        {"word": "high", "emoji": "💧"},
+        {"word": "heat", "emoji": "💨"},
+        {"word": "evaporate", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Temper chocolate",
+      "steps": [
+        {"word": "heat", "emoji": "🍫"},
+        {"word": "chocolate", "emoji": "🌡️"},
+        {"word": "carefully", "emoji": "⚠️"},
+        {"word": "cool", "emoji": "🧊"},
+        {"word": "reheat", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Make custard",
+      "steps": [
+        {"word": "heat", "emoji": "🥛"},
+        {"word": "milk", "emoji": "🥚"},
+        {"word": "whisk", "emoji": "🌀"},
+        {"word": "eggs", "emoji": "🍯"},
+        {"word": "sugar", "emoji": "🍮"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Pipe frosting",
+      "steps": [
+        {"word": "fill", "emoji": "🧁"},
+        {"word": "piping", "emoji": "💼"},
+        {"word": "bag", "emoji": "🌀"},
+        {"word": "squeeze", "emoji": "✨"},
+        {"word": "decorate", "emoji": "🎂"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Enjoy cooking",
+      "steps": [
+        {"word": "have", "emoji": "😊"},
+        {"word": "fun", "emoji": "👨‍🍳"},
+        {"word": "cooking", "emoji": "❤️"},
+        {"word": "share", "emoji": "🍽️"},
+        {"word": "food", "emoji": "😋"}
+      ]
+    }
+  ]
+}

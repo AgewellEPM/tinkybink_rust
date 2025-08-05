@@ -1,0 +1,1158 @@
+{
+  "tinkybink_aac_tiles": {
+    "self_care_hygiene": {
+      "category_emoji": "🧼",
+      "category_name": "Self-Care / Hygiene",
+      "tiles": [
+        {
+          "id": 1,
+          "title": "How to brush teeth",
+          "steps": [
+            {"word": "Squeeze", "emoji": "🧴"},
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Brush", "emoji": "🪥"},
+            {"word": "Spit", "emoji": "💦"},
+            {"word": "Rinse", "emoji": "🚰"}
+          ]
+        },
+        {
+          "id": 2,
+          "title": "How to wash hands",
+          "steps": [
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Soap", "emoji": "🧼"},
+            {"word": "Rub", "emoji": "🤲"},
+            {"word": "Rinse", "emoji": "🚰"},
+            {"word": "Dry", "emoji": "🫴"}
+          ]
+        },
+        {
+          "id": 3,
+          "title": "How to use the toilet",
+          "steps": [
+            {"word": "Lift", "emoji": "🚽"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Go", "emoji": "💩"},
+            {"word": "Wipe", "emoji": "🧻"},
+            {"word": "Flush", "emoji": "🌊"}
+          ]
+        },
+        {
+          "id": 4,
+          "title": "How to wipe after going potty",
+          "steps": [
+            {"word": "Grab", "emoji": "🧻"},
+            {"word": "Fold", "emoji": "📄"},
+            {"word": "Wipe", "emoji": "👇"},
+            {"word": "Drop", "emoji": "🗑️"},
+            {"word": "Repeat", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 5,
+          "title": "How to flush the toilet",
+          "steps": [
+            {"word": "Close", "emoji": "🚽"},
+            {"word": "Press", "emoji": "👆"},
+            {"word": "Watch", "emoji": "🌊"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Check", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 6,
+          "title": "How to wash face",
+          "steps": [
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Soap", "emoji": "🧼"},
+            {"word": "Rub", "emoji": "😊"},
+            {"word": "Rinse", "emoji": "🚰"},
+            {"word": "Pat", "emoji": "🫴"}
+          ]
+        },
+        {
+          "id": 7,
+          "title": "How to brush hair",
+          "steps": [
+            {"word": "Hold", "emoji": "🪮"},
+            {"word": "Start", "emoji": "🔝"},
+            {"word": "Pull", "emoji": "👇"},
+            {"word": "Repeat", "emoji": "🔄"},
+            {"word": "Done", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 8,
+          "title": "How to put on deodorant",
+          "steps": [
+            {"word": "Remove", "emoji": "🧢"},
+            {"word": "Lift", "emoji": "💪"},
+            {"word": "Swipe", "emoji": "↔️"},
+            {"word": "Switch", "emoji": "🔄"},
+            {"word": "Cap", "emoji": "🧢"}
+          ]
+        },
+        {
+          "id": 9,
+          "title": "How to take a shower",
+          "steps": [
+            {"word": "Undress", "emoji": "👕"},
+            {"word": "Turn", "emoji": "🚿"},
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Wash", "emoji": "🧼"},
+            {"word": "Rinse", "emoji": "🌊"}
+          ]
+        },
+        {
+          "id": 10,
+          "title": "How to dry off",
+          "steps": [
+            {"word": "Grab", "emoji": "🏖️"},
+            {"word": "Pat", "emoji": "🫴"},
+            {"word": "Rub", "emoji": "🔄"},
+            {"word": "Wrap", "emoji": "🌯"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 11,
+          "title": "How to trim fingernails",
+          "steps": [
+            {"word": "Position", "emoji": "✂️"},
+            {"word": "Squeeze", "emoji": "👌"},
+            {"word": "Clip", "emoji": "💥"},
+            {"word": "File", "emoji": "📐"},
+            {"word": "Clean", "emoji": "🧹"}
+          ]
+        },
+        {
+          "id": 12,
+          "title": "How to blow your nose",
+          "steps": [
+            {"word": "Grab", "emoji": "🤧"},
+            {"word": "Cover", "emoji": "👃"},
+            {"word": "Blow", "emoji": "💨"},
+            {"word": "Wipe", "emoji": "🧻"},
+            {"word": "Toss", "emoji": "🗑️"}
+          ]
+        },
+        {
+          "id": 13,
+          "title": "How to change a pad/diaper",
+          "steps": [
+            {"word": "Remove", "emoji": "🩲"},
+            {"word": "Clean", "emoji": "🧻"},
+            {"word": "Position", "emoji": "📍"},
+            {"word": "Secure", "emoji": "🔒"},
+            {"word": "Dispose", "emoji": "🗑️"}
+          ]
+        },
+        {
+          "id": 14,
+          "title": "How to put on lotion",
+          "steps": [
+            {"word": "Squeeze", "emoji": "🧴"},
+            {"word": "Dot", "emoji": "🔵"},
+            {"word": "Rub", "emoji": "🤲"},
+            {"word": "Spread", "emoji": "🌊"},
+            {"word": "Absorb", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 15,
+          "title": "How to put on chapstick",
+          "steps": [
+            {"word": "Twist", "emoji": "🔄"},
+            {"word": "Apply", "emoji": "👄"},
+            {"word": "Press", "emoji": "👇"},
+            {"word": "Smooth", "emoji": "↔️"},
+            {"word": "Cap", "emoji": "🧢"}
+          ]
+        }
+      ]
+    },
+    "getting_dressed": {
+      "category_emoji": "👕",
+      "category_name": "Getting Dressed",
+      "tiles": [
+        {
+          "id": 16,
+          "title": "How to put on socks",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Scrunch", "emoji": "🤏"},
+            {"word": "Point", "emoji": "👣"},
+            {"word": "Pull", "emoji": "⬆️"},
+            {"word": "Adjust", "emoji": "👍"}
+          ]
+        },
+        {
+          "id": 17,
+          "title": "How to put on underwear",
+          "steps": [
+            {"word": "Hold", "emoji": "🩲"},
+            {"word": "Step", "emoji": "👣"},
+            {"word": "Step", "emoji": "👣"},
+            {"word": "Pull", "emoji": "⬆️"},
+            {"word": "Adjust", "emoji": "👍"}
+          ]
+        },
+        {
+          "id": 18,
+          "title": "How to choose clothes for weather",
+          "steps": [
+            {"word": "Look", "emoji": "🪟"},
+            {"word": "Check", "emoji": "☀️"},
+            {"word": "Pick", "emoji": "👕"},
+            {"word": "Match", "emoji": "🧥"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 19,
+          "title": "How to put on pants",
+          "steps": [
+            {"word": "Hold", "emoji": "👖"},
+            {"word": "Step", "emoji": "👣"},
+            {"word": "Step", "emoji": "👣"},
+            {"word": "Pull", "emoji": "⬆️"},
+            {"word": "Button", "emoji": "🔘"}
+          ]
+        },
+        {
+          "id": 20,
+          "title": "How to put on shirt",
+          "steps": [
+            {"word": "Hold", "emoji": "👕"},
+            {"word": "Arms", "emoji": "⬆️"},
+            {"word": "Head", "emoji": "🔽"},
+            {"word": "Pull", "emoji": "👇"},
+            {"word": "Smooth", "emoji": "👋"}
+          ]
+        },
+        {
+          "id": 21,
+          "title": "How to zip a jacket",
+          "steps": [
+            {"word": "Align", "emoji": "🧲"},
+            {"word": "Insert", "emoji": "🔽"},
+            {"word": "Grip", "emoji": "🤏"},
+            {"word": "Pull", "emoji": "⬆️"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 22,
+          "title": "How to tie shoes",
+          "steps": [
+            {"word": "Cross", "emoji": "❌"},
+            {"word": "Loop", "emoji": "🔄"},
+            {"word": "Wrap", "emoji": "🌀"},
+            {"word": "Pull", "emoji": "👈"},
+            {"word": "Tighten", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 23,
+          "title": "How to button a shirt",
+          "steps": [
+            {"word": "Hold", "emoji": "🔘"},
+            {"word": "Align", "emoji": "🎯"},
+            {"word": "Push", "emoji": "👇"},
+            {"word": "Through", "emoji": "🕳️"},
+            {"word": "Next", "emoji": "➡️"}
+          ]
+        },
+        {
+          "id": 24,
+          "title": "How to take off clothes",
+          "steps": [
+            {"word": "Unbutton", "emoji": "🔘"},
+            {"word": "Arms", "emoji": "🙌"},
+            {"word": "Lift", "emoji": "⬆️"},
+            {"word": "Pull", "emoji": "👇"},
+            {"word": "Off", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 25,
+          "title": "How to fold clothes",
+          "steps": [
+            {"word": "Flat", "emoji": "🟦"},
+            {"word": "Half", "emoji": "📏"},
+            {"word": "Half", "emoji": "📐"},
+            {"word": "Stack", "emoji": "📚"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 26,
+          "title": "How to put clothes in hamper",
+          "steps": [
+            {"word": "Grab", "emoji": "👕"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Lift", "emoji": "🗑️"},
+            {"word": "Drop", "emoji": "👇"},
+            {"word": "Close", "emoji": "🎯"}
+          ]
+        },
+        {
+          "id": 27,
+          "title": "How to check if clothes are clean",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Sniff", "emoji": "👃"},
+            {"word": "Check", "emoji": "🔍"},
+            {"word": "Decide", "emoji": "🤔"},
+            {"word": "Sort", "emoji": "📦"}
+          ]
+        },
+        {
+          "id": 28,
+          "title": "How to get ready for bed",
+          "steps": [
+            {"word": "Undress", "emoji": "👕"},
+            {"word": "Pajamas", "emoji": "🩳"},
+            {"word": "Brush", "emoji": "🪥"},
+            {"word": "Potty", "emoji": "🚽"},
+            {"word": "Bed", "emoji": "🛏️"}
+          ]
+        }
+      ]
+    },
+    "mealtime_routines": {
+      "category_emoji": "🍽",
+      "category_name": "Mealtime Routines",
+      "tiles": [
+        {
+          "id": 29,
+          "title": "How to wash hands before eating",
+          "steps": [
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Wet", "emoji": "💧"},
+            {"word": "Soap", "emoji": "🧼"},
+            {"word": "Rinse", "emoji": "🚰"},
+            {"word": "Dry", "emoji": "🫴"}
+          ]
+        },
+        {
+          "id": 30,
+          "title": "How to get a plate",
+          "steps": [
+            {"word": "Open", "emoji": "🚪"},
+            {"word": "Reach", "emoji": "🤲"},
+            {"word": "Grab", "emoji": "🍽️"},
+            {"word": "Carry", "emoji": "🚶"},
+            {"word": "Set", "emoji": "📍"}
+          ]
+        },
+        {
+          "id": 31,
+          "title": "How to pour a drink",
+          "steps": [
+            {"word": "Hold", "emoji": "🥤"},
+            {"word": "Tilt", "emoji": "📐"},
+            {"word": "Pour", "emoji": "💧"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Cap", "emoji": "🧢"}
+          ]
+        },
+        {
+          "id": 32,
+          "title": "How to use a fork",
+          "steps": [
+            {"word": "Hold", "emoji": "🍴"},
+            {"word": "Stab", "emoji": "📍"},
+            {"word": "Lift", "emoji": "⬆️"},
+            {"word": "Mouth", "emoji": "👄"},
+            {"word": "Chew", "emoji": "😋"}
+          ]
+        },
+        {
+          "id": 33,
+          "title": "How to use a spoon",
+          "steps": [
+            {"word": "Grip", "emoji": "🥄"},
+            {"word": "Scoop", "emoji": "🔄"},
+            {"word": "Lift", "emoji": "⬆️"},
+            {"word": "Mouth", "emoji": "👄"},
+            {"word": "Swallow", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 34,
+          "title": "How to chew food slowly",
+          "steps": [
+            {"word": "Bite", "emoji": "🦷"},
+            {"word": "Close", "emoji": "👄"},
+            {"word": "Chew", "emoji": "😊"},
+            {"word": "Count", "emoji": "🔢"},
+            {"word": "Swallow", "emoji": "👇"}
+          ]
+        },
+        {
+          "id": 35,
+          "title": "How to swallow safely",
+          "steps": [
+            {"word": "Chew", "emoji": "😊"},
+            {"word": "Small", "emoji": "🤏"},
+            {"word": "Swallow", "emoji": "👇"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Next", "emoji": "🍴"}
+          ]
+        },
+        {
+          "id": 36,
+          "title": "How to open a snack",
+          "steps": [
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Tear", "emoji": "💥"},
+            {"word": "Pull", "emoji": "👈"},
+            {"word": "Open", "emoji": "📂"},
+            {"word": "Eat", "emoji": "😋"}
+          ]
+        },
+        {
+          "id": 37,
+          "title": "How to clean up after eating",
+          "steps": [
+            {"word": "Stack", "emoji": "🍽️"},
+            {"word": "Carry", "emoji": "🚶"},
+            {"word": "Sink", "emoji": "🚰"},
+            {"word": "Wipe", "emoji": "🧽"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 38,
+          "title": "How to pack a lunch",
+          "steps": [
+            {"word": "Box", "emoji": "📦"},
+            {"word": "Food", "emoji": "🥪"},
+            {"word": "Drink", "emoji": "🧃"},
+            {"word": "Zip", "emoji": "🤐"},
+            {"word": "Bag", "emoji": "🎒"}
+          ]
+        },
+        {
+          "id": 39,
+          "title": "How to ask for more",
+          "steps": [
+            {"word": "Point", "emoji": "👉"},
+            {"word": "Sign", "emoji": "🤲"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 40,
+          "title": "How to say \"I'm done\"",
+          "steps": [
+            {"word": "Push", "emoji": "🍽️"},
+            {"word": "Sign", "emoji": "✋"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Leave", "emoji": "🚶"}
+          ]
+        }
+      ]
+    },
+    "household_tasks": {
+      "category_emoji": "🧹",
+      "category_name": "Household Tasks",
+      "tiles": [
+        {
+          "id": 41,
+          "title": "How to throw trash away",
+          "steps": [
+            {"word": "Pick", "emoji": "🤏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Open", "emoji": "🗑️"},
+            {"word": "Drop", "emoji": "👇"},
+            {"word": "Close", "emoji": "🎯"}
+          ]
+        },
+        {
+          "id": 42,
+          "title": "How to wipe a table",
+          "steps": [
+            {"word": "Spray", "emoji": "💦"},
+            {"word": "Grab", "emoji": "🧽"},
+            {"word": "Wipe", "emoji": "🔄"},
+            {"word": "Dry", "emoji": "🌬️"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 43,
+          "title": "How to use a vacuum",
+          "steps": [
+            {"word": "Plug", "emoji": "🔌"},
+            {"word": "Push", "emoji": "🔘"},
+            {"word": "Move", "emoji": "🔄"},
+            {"word": "Cover", "emoji": "📍"},
+            {"word": "Off", "emoji": "❌"}
+          ]
+        },
+        {
+          "id": 44,
+          "title": "How to load the dishwasher",
+          "steps": [
+            {"word": "Rinse", "emoji": "🚰"},
+            {"word": "Open", "emoji": "🚪"},
+            {"word": "Place", "emoji": "🍽️"},
+            {"word": "Close", "emoji": "🚪"},
+            {"word": "Start", "emoji": "▶️"}
+          ]
+        },
+        {
+          "id": 45,
+          "title": "How to unload the dishwasher",
+          "steps": [
+            {"word": "Open", "emoji": "🚪"},
+            {"word": "Check", "emoji": "🔍"},
+            {"word": "Grab", "emoji": "🤲"},
+            {"word": "Stack", "emoji": "📚"},
+            {"word": "Close", "emoji": "🚪"}
+          ]
+        },
+        {
+          "id": 46,
+          "title": "How to wash dishes",
+          "steps": [
+            {"word": "Fill", "emoji": "🚰"},
+            {"word": "Soap", "emoji": "🧼"},
+            {"word": "Scrub", "emoji": "🧽"},
+            {"word": "Rinse", "emoji": "💧"},
+            {"word": "Dry", "emoji": "🫴"}
+          ]
+        },
+        {
+          "id": 47,
+          "title": "How to do laundry",
+          "steps": [
+            {"word": "Sort", "emoji": "👕"},
+            {"word": "Load", "emoji": "🚪"},
+            {"word": "Soap", "emoji": "🧴"},
+            {"word": "Button", "emoji": "▶️"},
+            {"word": "Wait", "emoji": "⏰"}
+          ]
+        },
+        {
+          "id": 48,
+          "title": "How to sweep the floor",
+          "steps": [
+            {"word": "Grab", "emoji": "🧹"},
+            {"word": "Push", "emoji": "👇"},
+            {"word": "Gather", "emoji": "🔄"},
+            {"word": "Pan", "emoji": "🗑️"},
+            {"word": "Dump", "emoji": "💥"}
+          ]
+        },
+        {
+          "id": 49,
+          "title": "How to make the bed",
+          "steps": [
+            {"word": "Pull", "emoji": "🛏️"},
+            {"word": "Smooth", "emoji": "👋"},
+            {"word": "Tuck", "emoji": "📐"},
+            {"word": "Pillow", "emoji": "🟦"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 50,
+          "title": "How to clean a spill",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Paper", "emoji": "🧻"},
+            {"word": "Press", "emoji": "👇"},
+            {"word": "Wipe", "emoji": "🔄"},
+            {"word": "Trash", "emoji": "🗑️"}
+          ]
+        },
+        {
+          "id": 51,
+          "title": "How to turn lights on/off",
+          "steps": [
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Reach", "emoji": "🤲"},
+            {"word": "Flip", "emoji": "🔄"},
+            {"word": "Check", "emoji": "💡"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 52,
+          "title": "How to use a microwave",
+          "steps": [
+            {"word": "Open", "emoji": "🚪"},
+            {"word": "Place", "emoji": "🍽️"},
+            {"word": "Close", "emoji": "🚪"},
+            {"word": "Press", "emoji": "🔢"},
+            {"word": "Start", "emoji": "▶️"}
+          ]
+        },
+        {
+          "id": 53,
+          "title": "How to set a timer",
+          "steps": [
+            {"word": "Press", "emoji": "⏲️"},
+            {"word": "Numbers", "emoji": "🔢"},
+            {"word": "Start", "emoji": "▶️"},
+            {"word": "Wait", "emoji": "🔔"},
+            {"word": "Stop", "emoji": "✋"}
+          ]
+        }
+      ]
+    },
+    "shopping_outings": {
+      "category_emoji": "🛍",
+      "category_name": "Shopping / Outings",
+      "tiles": [
+        {
+          "id": 54,
+          "title": "How to make a shopping list",
+          "steps": [
+            {"word": "Paper", "emoji": "📝"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Write", "emoji": "✏️"},
+            {"word": "Check", "emoji": "✅"},
+            {"word": "Take", "emoji": "🤲"}
+          ]
+        },
+        {
+          "id": 55,
+          "title": "How to hold hands in parking lot",
+          "steps": [
+            {"word": "Stop", "emoji": "🛑"},
+            {"word": "Reach", "emoji": "🤲"},
+            {"word": "Hold", "emoji": "🤝"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 56,
+          "title": "How to enter a store",
+          "steps": [
+            {"word": "Door", "emoji": "🚪"},
+            {"word": "Push", "emoji": "👋"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Cart", "emoji": "🛒"},
+            {"word": "Go", "emoji": "➡️"}
+          ]
+        },
+        {
+          "id": 57,
+          "title": "How to find what you need",
+          "steps": [
+            {"word": "List", "emoji": "📝"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Grab", "emoji": "🤲"}
+          ]
+        },
+        {
+          "id": 58,
+          "title": "How to wait in line",
+          "steps": [
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Move", "emoji": "🚶"},
+            {"word": "Still", "emoji": "🛑"},
+            {"word": "Turn", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 59,
+          "title": "How to pay with card/cash",
+          "steps": [
+            {"word": "Give", "emoji": "💳"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Sign", "emoji": "✍️"},
+            {"word": "Take", "emoji": "🤲"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 60,
+          "title": "How to thank cashier",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Smile", "emoji": "😊"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Wave", "emoji": "👋"},
+            {"word": "Leave", "emoji": "🚶"}
+          ]
+        },
+        {
+          "id": 61,
+          "title": "How to use a shopping cart",
+          "steps": [
+            {"word": "Grab", "emoji": "🛒"},
+            {"word": "Push", "emoji": "👐"},
+            {"word": "Steer", "emoji": "🔄"},
+            {"word": "Stop", "emoji": "🛑"},
+            {"word": "Park", "emoji": "📍"}
+          ]
+        },
+        {
+          "id": 62,
+          "title": "How to ask for help in store",
+          "steps": [
+            {"word": "Find", "emoji": "👤"},
+            {"word": "Tap", "emoji": "👉"},
+            {"word": "Point", "emoji": "👆"},
+            {"word": "Ask", "emoji": "❓"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 63,
+          "title": "How to go to the bathroom in public",
+          "steps": [
+            {"word": "Find", "emoji": "🚻"},
+            {"word": "Enter", "emoji": "🚪"},
+            {"word": "Lock", "emoji": "🔒"},
+            {"word": "Go", "emoji": "🚽"},
+            {"word": "Wash", "emoji": "🧼"}
+          ]
+        },
+        {
+          "id": 64,
+          "title": "How to stay close to caregiver",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Stay", "emoji": "🛑"},
+            {"word": "Follow", "emoji": "🚶"},
+            {"word": "Hold", "emoji": "🤝"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 65,
+          "title": "How to put on a mask (if needed)",
+          "steps": [
+            {"word": "Hold", "emoji": "😷"},
+            {"word": "Ears", "emoji": "👂"},
+            {"word": "Cover", "emoji": "👃"},
+            {"word": "Adjust", "emoji": "👋"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        }
+      ]
+    },
+    "community_transportation": {
+      "category_emoji": "🚌",
+      "category_name": "Community / Transportation",
+      "tiles": [
+        {
+          "id": 66,
+          "title": "How to ride the bus",
+          "steps": [
+            {"word": "Wait", "emoji": "🚏"},
+            {"word": "Board", "emoji": "🚪"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Ring", "emoji": "🔔"},
+            {"word": "Exit", "emoji": "🚶"}
+          ]
+        },
+        {
+          "id": 67,
+          "title": "How to buckle seatbelt",
+          "steps": [
+            {"word": "Grab", "emoji": "🤲"},
+            {"word": "Pull", "emoji": "➡️"},
+            {"word": "Click", "emoji": "🔒"},
+            {"word": "Tug", "emoji": "💪"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 68,
+          "title": "How to wait at bus stop",
+          "steps": [
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "See", "emoji": "🚌"},
+            {"word": "Ready", "emoji": "👋"}
+          ]
+        },
+        {
+          "id": 69,
+          "title": "How to ride safely in car",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Buckle", "emoji": "🔒"},
+            {"word": "Still", "emoji": "🛑"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 70,
+          "title": "How to cross the street",
+          "steps": [
+            {"word": "Stop", "emoji": "🛑"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Quick", "emoji": "⚡"}
+          ]
+        },
+        {
+          "id": 71,
+          "title": "How to ask for directions",
+          "steps": [
+            {"word": "Stop", "emoji": "🛑"},
+            {"word": "Tap", "emoji": "👉"},
+            {"word": "Point", "emoji": "👆"},
+            {"word": "Ask", "emoji": "❓"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 72,
+          "title": "How to call 911 (emergency tile)",
+          "steps": [
+            {"word": "Press", "emoji": "📱"},
+            {"word": "Dial", "emoji": "9️⃣"},
+            {"word": "Talk", "emoji": "💬"},
+            {"word": "Wait", "emoji": "🚨"},
+            {"word": "Help", "emoji": "🆘"}
+          ]
+        },
+        {
+          "id": 73,
+          "title": "How to use a crosswalk",
+          "steps": [
+            {"word": "Button", "emoji": "🔘"},
+            {"word": "Wait", "emoji": "🚦"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Hurry", "emoji": "⚡"}
+          ]
+        },
+        {
+          "id": 74,
+          "title": "How to ask someone for help",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Tap", "emoji": "👉"},
+            {"word": "Point", "emoji": "👆"},
+            {"word": "Ask", "emoji": "❓"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 75,
+          "title": "How to tell someone you're lost",
+          "steps": [
+            {"word": "Stop", "emoji": "🛑"},
+            {"word": "Find", "emoji": "👤"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Show", "emoji": "📱"},
+            {"word": "Wait", "emoji": "🆘"}
+          ]
+        }
+      ]
+    },
+    "emotions_regulation": {
+      "category_emoji": "🧠",
+      "category_name": "Emotions / Regulation",
+      "tiles": [
+        {
+          "id": 76,
+          "title": "How to ask for a break",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Point", "emoji": "🛑"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Breathe", "emoji": "🌬️"}
+          ]
+        },
+        {
+          "id": 77,
+          "title": "How to say \"I'm overwhelmed\"",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Hands", "emoji": "🙌"},
+            {"word": "Say", "emoji": "😰"},
+            {"word": "Space", "emoji": "📍"},
+            {"word": "Breathe", "emoji": "🌬️"}
+          ]
+        },
+        {
+          "id": 78,
+          "title": "How to ask for quiet",
+          "steps": [
+            {"word": "Ears", "emoji": "👂"},
+            {"word": "Cover", "emoji": "🙉"},
+            {"word": "Sign", "emoji": "🤫"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Better", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 79,
+          "title": "How to breathe deep",
+          "steps": [
+            {"word": "In", "emoji": "👃"},
+            {"word": "Hold", "emoji": "⏸️"},
+            {"word": "Out", "emoji": "💨"},
+            {"word": "Again", "emoji": "🔄"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 80,
+          "title": "How to use a calm-down tool",
+          "steps": [
+            {"word": "Get", "emoji": "🤲"},
+            {"word": "Squeeze", "emoji": "🤏"},
+            {"word": "Count", "emoji": "🔢"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Better", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 81,
+          "title": "How to go to a safe space",
+          "steps": [
+            {"word": "Feel", "emoji": "😟"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Find", "emoji": "📍"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 82,
+          "title": "How to say \"I'm mad\"",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Point", "emoji": "😠"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Space", "emoji": "📍"},
+            {"word": "Breathe", "emoji": "🌬️"}
+          ]
+        },
+        {
+          "id": 83,
+          "title": "How to say \"I'm sad\"",
+          "steps": [
+            {"word": "Point", "emoji": "😢"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Hug", "emoji": "🤗"},
+            {"word": "Cry", "emoji": "💧"},
+            {"word": "Better", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 84,
+          "title": "How to say \"I'm happy\"",
+          "steps": [
+            {"word": "Smile", "emoji": "😊"},
+            {"word": "Point", "emoji": "😄"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Jump", "emoji": "🦘"},
+            {"word": "Share", "emoji": "🤲"}
+          ]
+        },
+        {
+          "id": 85,
+          "title": "How to ask for help",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Point", "emoji": "🆘"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        }
+      ]
+    },
+    "communication": {
+      "category_emoji": "💬",
+      "category_name": "Communication",
+      "tiles": [
+        {
+          "id": 86,
+          "title": "How to say \"I need help\"",
+          "steps": [
+            {"word": "Point", "emoji": "👆"},
+            {"word": "Sign", "emoji": "🆘"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 87,
+          "title": "How to say \"yes\"",
+          "steps": [
+            {"word": "Nod", "emoji": "👍"},
+            {"word": "Point", "emoji": "✅"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Smile", "emoji": "😊"},
+            {"word": "Done", "emoji": "✔️"}
+          ]
+        },
+        {
+          "id": 88,
+          "title": "How to say \"no\"",
+          "steps": [
+            {"word": "Shake", "emoji": "👎"},
+            {"word": "Point", "emoji": "❌"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Done", "emoji": "❎"}
+          ]
+        },
+        {
+          "id": 89,
+          "title": "How to say \"I'm hungry\"",
+          "steps": [
+            {"word": "Rub", "emoji": "🤰"},
+            {"word": "Point", "emoji": "🍽️"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Eat", "emoji": "😋"}
+          ]
+        },
+        {
+          "id": 90,
+          "title": "How to say \"I'm tired\"",
+          "steps": [
+            {"word": "Yawn", "emoji": "🥱"},
+            {"word": "Rub", "emoji": "👁️"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Point", "emoji": "🛏️"},
+            {"word": "Rest", "emoji": "😴"}
+          ]
+        },
+        {
+          "id": 91,
+          "title": "How to say \"stop\"",
+          "steps": [
+            {"word": "Hand", "emoji": "✋"},
+            {"word": "Push", "emoji": "🛑"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Firm", "emoji": "💪"},
+            {"word": "Done", "emoji": "❌"}
+          ]
+        },
+        {
+          "id": 92,
+          "title": "How to say \"more please\"",
+          "steps": [
+            {"word": "Point", "emoji": "👆"},
+            {"word": "Sign", "emoji": "🤲"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Thank", "emoji": "🙏"}
+          ]
+        },
+        {
+          "id": 93,
+          "title": "How to say \"bathroom\"",
+          "steps": [
+            {"word": "Point", "emoji": "🚽"},
+            {"word": "Sign", "emoji": "🚻"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Quick", "emoji": "⚡"},
+            {"word": "Go", "emoji": "🚶"}
+          ]
+        },
+        {
+          "id": 94,
+          "title": "How to ask \"What's next?\"",
+          "steps": [
+            {"word": "Point", "emoji": "❓"},
+            {"word": "Sign", "emoji": "➡️"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Listen", "emoji": "👂"}
+          ]
+        },
+        {
+          "id": 95,
+          "title": "How to say \"goodbye\"",
+          "steps": [
+            {"word": "Wave", "emoji": "👋"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Smile", "emoji": "😊"},
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "Leave", "emoji": "🚶"}
+          ]
+        }
+      ]
+    },
+    "using_technology": {
+      "category_emoji": "📱",
+      "category_name": "Using Technology",
+      "tiles": [
+        {
+          "id": 96,
+          "title": "How to turn on the tablet",
+          "steps": [
+            {"word": "Find", "emoji": "📱"},
+            {"word": "Press", "emoji": "🔘"},
+            {"word": "Hold", "emoji": "⏰"},
+            {"word": "See", "emoji": "🌟"},
+            {"word": "Ready", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 97,
+          "title": "How to charge the tablet",
+          "steps": [
+            {"word": "Plug", "emoji": "🔌"},
+            {"word": "Connect", "emoji": "📱"},
+            {"word": "Check", "emoji": "⚡"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Full", "emoji": "🔋"}
+          ]
+        },
+        {
+          "id": 98,
+          "title": "How to use TinkyBink tiles",
+          "steps": [
+            {"word": "Open", "emoji": "📱"},
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Tap", "emoji": "👆"},
+            {"word": "Speak", "emoji": "🔊"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 99,
+          "title": "How to find the talk button",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Find", "emoji": "💬"},
+            {"word": "Tap", "emoji": "👆"},
+            {"word": "Speak", "emoji": "🔊"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 100,
+          "title": "How to press emergency help button",
+          "steps": [
+            {"word": "Find", "emoji": "🆘"},
+            {"word": "Press", "emoji": "👆"},
+            {"word": "Hold", "emoji": "⏰"},
+            {"word": "Wait", "emoji": "🚨"},
+            {"word": "Help", "emoji": "👮"}
+          ]
+        }
+      ]
+    }
+  }
+}

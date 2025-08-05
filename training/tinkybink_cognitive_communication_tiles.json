@@ -1,0 +1,1108 @@
+{
+  "category": {
+    "emoji": "🧠",
+    "name": "Cognitive Communication"
+  },
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Memory strategies",
+      "steps": [
+        {"word": "repeat", "emoji": "🔄"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "remember", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Attention training",
+      "steps": [
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "thing", "emoji": "🔍"},
+        {"word": "ignore", "emoji": "🙈"},
+        {"word": "distractions", "emoji": "📱"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Problem solving steps",
+      "steps": [
+        {"word": "identify", "emoji": "🔍"},
+        {"word": "problem", "emoji": "❓"},
+        {"word": "brainstorm", "emoji": "💭"},
+        {"word": "solutions", "emoji": "💡"},
+        {"word": "choose", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Organization skills",
+      "steps": [
+        {"word": "make", "emoji": "📝"},
+        {"word": "list", "emoji": "📋"},
+        {"word": "prioritize", "emoji": "🔢"},
+        {"word": "tasks", "emoji": "✅"},
+        {"word": "complete", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Executive function",
+      "steps": [
+        {"word": "plan", "emoji": "📅"},
+        {"word": "ahead", "emoji": "⏳"},
+        {"word": "set", "emoji": "🎯"},
+        {"word": "goals", "emoji": "🏆"},
+        {"word": "monitor", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Working memory",
+      "steps": [
+        {"word": "hold", "emoji": "🤲"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "while", "emoji": "⏰"},
+        {"word": "thinking", "emoji": "🤔"},
+        {"word": "process", "emoji": "⚙️"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Reasoning skills",
+      "steps": [
+        {"word": "gather", "emoji": "📊"},
+        {"word": "facts", "emoji": "📝"},
+        {"word": "analyze", "emoji": "🔬"},
+        {"word": "evidence", "emoji": "🧾"},
+        {"word": "conclude", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Abstract thinking",
+      "steps": [
+        {"word": "understand", "emoji": "💡"},
+        {"word": "concepts", "emoji": "🧩"},
+        {"word": "beyond", "emoji": "🚀"},
+        {"word": "literal", "emoji": "📖"},
+        {"word": "meaning", "emoji": "🎭"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Sequencing tasks",
+      "steps": [
+        {"word": "first", "emoji": "1️⃣"},
+        {"word": "then", "emoji": "➡️"},
+        {"word": "next", "emoji": "2️⃣"},
+        {"word": "after", "emoji": "3️⃣"},
+        {"word": "last", "emoji": "🏁"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Cognitive flexibility",
+      "steps": [
+        {"word": "switch", "emoji": "🔄"},
+        {"word": "between", "emoji": "↔️"},
+        {"word": "different", "emoji": "🌈"},
+        {"word": "ideas", "emoji": "💭"},
+        {"word": "adapt", "emoji": "🦎"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Aphasia support",
+      "steps": [
+        {"word": "speak", "emoji": "🗣️"},
+        {"word": "slowly", "emoji": "🐌"},
+        {"word": "use", "emoji": "👆"},
+        {"word": "gestures", "emoji": "👋"},
+        {"word": "patience", "emoji": "⏳"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Word finding",
+      "steps": [
+        {"word": "describe", "emoji": "📝"},
+        {"word": "what", "emoji": "❓"},
+        {"word": "it", "emoji": "👆"},
+        {"word": "does", "emoji": "⚙️"},
+        {"word": "recall", "emoji": "💭"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Comprehension aid",
+      "steps": [
+        {"word": "repeat", "emoji": "🔄"},
+        {"word": "slowly", "emoji": "🐌"},
+        {"word": "ask", "emoji": "❓"},
+        {"word": "questions", "emoji": "🤔"},
+        {"word": "clarify", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Reading strategies",
+      "steps": [
+        {"word": "preview", "emoji": "👀"},
+        {"word": "text", "emoji": "📖"},
+        {"word": "read", "emoji": "📚"},
+        {"word": "summarize", "emoji": "📝"},
+        {"word": "review", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Writing support",
+      "steps": [
+        {"word": "organize", "emoji": "📋"},
+        {"word": "thoughts", "emoji": "💭"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "draft", "emoji": "📝"},
+        {"word": "revise", "emoji": "✏️"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Naming therapy",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "picture", "emoji": "🖼️"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "name", "emoji": "📝"},
+        {"word": "say", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Category sorting",
+      "steps": [
+        {"word": "group", "emoji": "👥"},
+        {"word": "similar", "emoji": "🤝"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "together", "emoji": "🤲"},
+        {"word": "organize", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Following directions",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "carefully", "emoji": "🎯"},
+        {"word": "break", "emoji": "✂️"},
+        {"word": "into", "emoji": "➡️"},
+        {"word": "steps", "emoji": "👣"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Pragmatic skills",
+      "steps": [
+        {"word": "take", "emoji": "🤲"},
+        {"word": "turns", "emoji": "🔄"},
+        {"word": "talking", "emoji": "🗣️"},
+        {"word": "stay", "emoji": "📍"},
+        {"word": "topic", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Social cognition",
+      "steps": [
+        {"word": "read", "emoji": "📖"},
+        {"word": "facial", "emoji": "😊"},
+        {"word": "expressions", "emoji": "😮"},
+        {"word": "understand", "emoji": "💡"},
+        {"word": "emotions", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Metamemory skills",
+      "steps": [
+        {"word": "know", "emoji": "🧠"},
+        {"word": "what", "emoji": "❓"},
+        {"word": "you", "emoji": "👆"},
+        {"word": "remember", "emoji": "💭"},
+        {"word": "strategies", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Spaced retrieval",
+      "steps": [
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "increasing", "emoji": "📈"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "intervals", "emoji": "⏱️"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "External memory aids",
+      "steps": [
+        {"word": "use", "emoji": "👆"},
+        {"word": "calendar", "emoji": "📅"},
+        {"word": "alarms", "emoji": "⏰"},
+        {"word": "notes", "emoji": "📝"},
+        {"word": "reminders", "emoji": "🔔"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Attention process training",
+      "steps": [
+        {"word": "sustained", "emoji": "⏳"},
+        {"word": "selective", "emoji": "🎯"},
+        {"word": "divided", "emoji": "🌈"},
+        {"word": "alternating", "emoji": "🔄"},
+        {"word": "attention", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Dual task training",
+      "steps": [
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "two", "emoji": "2️⃣"},
+        {"word": "tasks", "emoji": "📋"},
+        {"word": "at", "emoji": "📍"},
+        {"word": "once", "emoji": "1️⃣"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Story retelling",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "story", "emoji": "📚"},
+        {"word": "remember", "emoji": "🧠"},
+        {"word": "details", "emoji": "🔍"},
+        {"word": "retell", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Errorless learning",
+      "steps": [
+        {"word": "provide", "emoji": "🤲"},
+        {"word": "correct", "emoji": "✅"},
+        {"word": "answer", "emoji": "💡"},
+        {"word": "prevent", "emoji": "🚫"},
+        {"word": "mistakes", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Vanishing cues",
+      "steps": [
+        {"word": "start", "emoji": "🏁"},
+        {"word": "full", "emoji": "💯"},
+        {"word": "cue", "emoji": "💡"},
+        {"word": "gradually", "emoji": "📉"},
+        {"word": "fade", "emoji": "👻"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Time management",
+      "steps": [
+        {"word": "estimate", "emoji": "⏰"},
+        {"word": "how", "emoji": "❓"},
+        {"word": "long", "emoji": "📏"},
+        {"word": "tasks", "emoji": "📋"},
+        {"word": "take", "emoji": "⏱️"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Self monitoring",
+      "steps": [
+        {"word": "check", "emoji": "✅"},
+        {"word": "your", "emoji": "👆"},
+        {"word": "own", "emoji": "🫵"},
+        {"word": "performance", "emoji": "📊"},
+        {"word": "accuracy", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Inference making",
+      "steps": [
+        {"word": "use", "emoji": "👆"},
+        {"word": "context", "emoji": "📝"},
+        {"word": "clues", "emoji": "🔍"},
+        {"word": "predict", "emoji": "🔮"},
+        {"word": "meaning", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Main idea identification",
+      "steps": [
+        {"word": "read", "emoji": "📖"},
+        {"word": "passage", "emoji": "📄"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "key", "emoji": "🗝️"},
+        {"word": "point", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Cognitive rehabilitation",
+      "steps": [
+        {"word": "assess", "emoji": "📊"},
+        {"word": "deficits", "emoji": "📉"},
+        {"word": "target", "emoji": "🎯"},
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "improve", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Compensatory strategies",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "alternative", "emoji": "↔️"},
+        {"word": "ways", "emoji": "🛤️"},
+        {"word": "accomplish", "emoji": "🎯"},
+        {"word": "goals", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Mental flexibility",
+      "steps": [
+        {"word": "change", "emoji": "🔄"},
+        {"word": "thinking", "emoji": "🤔"},
+        {"word": "when", "emoji": "⏰"},
+        {"word": "needed", "emoji": "✅"},
+        {"word": "adapt", "emoji": "🦎"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Initiation training",
+      "steps": [
+        {"word": "start", "emoji": "🏁"},
+        {"word": "tasks", "emoji": "📋"},
+        {"word": "without", "emoji": "🚫"},
+        {"word": "external", "emoji": "🌍"},
+        {"word": "prompts", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Response inhibition",
+      "steps": [
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "before", "emoji": "⏰"},
+        {"word": "acting", "emoji": "🎭"},
+        {"word": "control", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Planning strategies",
+      "steps": [
+        {"word": "break", "emoji": "✂️"},
+        {"word": "goals", "emoji": "🏆"},
+        {"word": "into", "emoji": "➡️"},
+        {"word": "smaller", "emoji": "📏"},
+        {"word": "steps", "emoji": "👣"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Visual attention",
+      "steps": [
+        {"word": "scan", "emoji": "👀"},
+        {"word": "visual", "emoji": "👁️"},
+        {"word": "field", "emoji": "🌾"},
+        {"word": "systematically", "emoji": "📏"},
+        {"word": "thoroughly", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Auditory processing",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "carefully", "emoji": "🎯"},
+        {"word": "distinguish", "emoji": "🔍"},
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "patterns", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Processing speed",
+      "steps": [
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "quick", "emoji": "⚡"},
+        {"word": "accurate", "emoji": "🎯"},
+        {"word": "responses", "emoji": "💬"},
+        {"word": "timing", "emoji": "⏱️"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Cognitive load management",
+      "steps": [
+        {"word": "reduce", "emoji": "📉"},
+        {"word": "mental", "emoji": "🧠"},
+        {"word": "demands", "emoji": "📊"},
+        {"word": "break", "emoji": "☕"},
+        {"word": "tasks", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Generalization training",
+      "steps": [
+        {"word": "apply", "emoji": "👆"},
+        {"word": "skills", "emoji": "🎯"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "situations", "emoji": "📍"},
+        {"word": "contexts", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Cognitive mapping",
+      "steps": [
+        {"word": "create", "emoji": "🛠️"},
+        {"word": "mental", "emoji": "🧠"},
+        {"word": "map", "emoji": "🗺️"},
+        {"word": "organize", "emoji": "📋"},
+        {"word": "information", "emoji": "ℹ️"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Encoding strategies",
+      "steps": [
+        {"word": "organize", "emoji": "📋"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "for", "emoji": "👉"},
+        {"word": "storage", "emoji": "💾"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Retrieval practice",
+      "steps": [
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "recalling", "emoji": "🧠"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "from", "emoji": "📤"},
+        {"word": "memory", "emoji": "💭"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Attention restoration",
+      "steps": [
+        {"word": "take", "emoji": "🤲"},
+        {"word": "breaks", "emoji": "☕"},
+        {"word": "rest", "emoji": "😴"},
+        {"word": "recharge", "emoji": "🔋"},
+        {"word": "focus", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Cognitive exercises",
+      "steps": [
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "mental", "emoji": "🧠"},
+        {"word": "challenges", "emoji": "🧩"},
+        {"word": "build", "emoji": "🏗️"},
+        {"word": "strength", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Reality orientation",
+      "steps": [
+        {"word": "identify", "emoji": "🔍"},
+        {"word": "person", "emoji": "👤"},
+        {"word": "place", "emoji": "📍"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "situation", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Reminiscence therapy",
+      "steps": [
+        {"word": "recall", "emoji": "💭"},
+        {"word": "past", "emoji": "📅"},
+        {"word": "memories", "emoji": "🎞️"},
+        {"word": "share", "emoji": "🤝"},
+        {"word": "stories", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Validation therapy",
+      "steps": [
+        {"word": "acknowledge", "emoji": "✅"},
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "accept", "emoji": "🤗"},
+        {"word": "emotions", "emoji": "😊"},
+        {"word": "validate", "emoji": "👍"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Cognitive stimulation",
+      "steps": [
+        {"word": "engage", "emoji": "🤝"},
+        {"word": "mental", "emoji": "🧠"},
+        {"word": "activities", "emoji": "🎯"},
+        {"word": "stimulate", "emoji": "⚡"},
+        {"word": "thinking", "emoji": "🤔"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Procedural memory",
+      "steps": [
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "routine", "emoji": "🔄"},
+        {"word": "motor", "emoji": "🚶"},
+        {"word": "skills", "emoji": "🎯"},
+        {"word": "automatically", "emoji": "⚙️"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Semantic memory",
+      "steps": [
+        {"word": "recall", "emoji": "💭"},
+        {"word": "facts", "emoji": "📊"},
+        {"word": "concepts", "emoji": "🧩"},
+        {"word": "general", "emoji": "🌍"},
+        {"word": "knowledge", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Episodic memory",
+      "steps": [
+        {"word": "remember", "emoji": "🧠"},
+        {"word": "personal", "emoji": "👤"},
+        {"word": "experiences", "emoji": "🎭"},
+        {"word": "specific", "emoji": "📍"},
+        {"word": "events", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Prospective memory",
+      "steps": [
+        {"word": "remember", "emoji": "🧠"},
+        {"word": "to", "emoji": "➡️"},
+        {"word": "do", "emoji": "✅"},
+        {"word": "future", "emoji": "🔮"},
+        {"word": "tasks", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Cognitive behavioral therapy",
+      "steps": [
+        {"word": "identify", "emoji": "🔍"},
+        {"word": "negative", "emoji": "❌"},
+        {"word": "thoughts", "emoji": "💭"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "patterns", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Mindfulness training",
+      "steps": [
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "present", "emoji": "🎁"},
+        {"word": "moment", "emoji": "⏰"},
+        {"word": "awareness", "emoji": "👁️"},
+        {"word": "calm", "emoji": "🧘"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Stress management",
+      "steps": [
+        {"word": "identify", "emoji": "🔍"},
+        {"word": "stressors", "emoji": "😰"},
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "coping", "emoji": "🤝"},
+        {"word": "strategies", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Emotional regulation",
+      "steps": [
+        {"word": "recognize", "emoji": "👁️"},
+        {"word": "emotions", "emoji": "😊"},
+        {"word": "understand", "emoji": "💡"},
+        {"word": "triggers", "emoji": "🎯"},
+        {"word": "manage", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Social skills training",
+      "steps": [
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "conversation", "emoji": "💬"},
+        {"word": "skills", "emoji": "🎯"},
+        {"word": "social", "emoji": "👥"},
+        {"word": "interactions", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Communication repair",
+      "steps": [
+        {"word": "notice", "emoji": "👁️"},
+        {"word": "breakdown", "emoji": "❌"},
+        {"word": "ask", "emoji": "❓"},
+        {"word": "clarification", "emoji": "💡"},
+        {"word": "repeat", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Topic maintenance",
+      "steps": [
+        {"word": "stay", "emoji": "📍"},
+        {"word": "on", "emoji": "👆"},
+        {"word": "subject", "emoji": "📚"},
+        {"word": "relevant", "emoji": "✅"},
+        {"word": "comments", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Turn taking",
+      "steps": [
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "your", "emoji": "👆"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "respond", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Nonverbal communication",
+      "steps": [
+        {"word": "watch", "emoji": "👀"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "language", "emoji": "👋"},
+        {"word": "facial", "emoji": "😊"},
+        {"word": "expressions", "emoji": "😮"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Cognitive assessment",
+      "steps": [
+        {"word": "evaluate", "emoji": "📊"},
+        {"word": "thinking", "emoji": "🤔"},
+        {"word": "skills", "emoji": "🎯"},
+        {"word": "identify", "emoji": "🔍"},
+        {"word": "strengths", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Baseline testing",
+      "steps": [
+        {"word": "establish", "emoji": "🏗️"},
+        {"word": "starting", "emoji": "🏁"},
+        {"word": "point", "emoji": "📍"},
+        {"word": "measure", "emoji": "📏"},
+        {"word": "progress", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Progress monitoring",
+      "steps": [
+        {"word": "track", "emoji": "👣"},
+        {"word": "improvement", "emoji": "📈"},
+        {"word": "over", "emoji": "⏰"},
+        {"word": "time", "emoji": "📅"},
+        {"word": "adjust", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Goal setting",
+      "steps": [
+        {"word": "identify", "emoji": "🔍"},
+        {"word": "specific", "emoji": "📍"},
+        {"word": "measurable", "emoji": "📏"},
+        {"word": "achievable", "emoji": "✅"},
+        {"word": "goals", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Treatment planning",
+      "steps": [
+        {"word": "assess", "emoji": "📊"},
+        {"word": "needs", "emoji": "📋"},
+        {"word": "design", "emoji": "🎨"},
+        {"word": "intervention", "emoji": "🎯"},
+        {"word": "plan", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Family education",
+      "steps": [
+        {"word": "teach", "emoji": "👨‍🏫"},
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "strategies", "emoji": "🎯"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "communication", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Caregiver training",
+      "steps": [
+        {"word": "instruct", "emoji": "📚"},
+        {"word": "caregivers", "emoji": "👥"},
+        {"word": "techniques", "emoji": "🔧"},
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "skills", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Home program",
+      "steps": [
+        {"word": "design", "emoji": "🎨"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "exercises", "emoji": "🏋️"},
+        {"word": "practice", "emoji": "🔄"},
+        {"word": "daily", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Technology integration",
+      "steps": [
+        {"word": "use", "emoji": "👆"},
+        {"word": "apps", "emoji": "📱"},
+        {"word": "devices", "emoji": "💻"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "therapy", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Environmental modifications",
+      "steps": [
+        {"word": "adapt", "emoji": "🔧"},
+        {"word": "environment", "emoji": "🌍"},
+        {"word": "reduce", "emoji": "📉"},
+        {"word": "cognitive", "emoji": "🧠"},
+        {"word": "demands", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Cueing hierarchy",
+      "steps": [
+        {"word": "start", "emoji": "🏁"},
+        {"word": "minimal", "emoji": "📉"},
+        {"word": "cue", "emoji": "💡"},
+        {"word": "increase", "emoji": "📈"},
+        {"word": "support", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Shaping behavior",
+      "steps": [
+        {"word": "reinforce", "emoji": "✅"},
+        {"word": "successive", "emoji": "➡️"},
+        {"word": "approximations", "emoji": "📏"},
+        {"word": "target", "emoji": "🎯"},
+        {"word": "behavior", "emoji": "👤"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Errorful learning",
+      "steps": [
+        {"word": "allow", "emoji": "✅"},
+        {"word": "mistakes", "emoji": "❌"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "from", "emoji": "👉"},
+        {"word": "errors", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Distributed practice",
+      "steps": [
+        {"word": "spread", "emoji": "📈"},
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "over", "emoji": "⏰"},
+        {"word": "time", "emoji": "📅"},
+        {"word": "sessions", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Massed practice",
+      "steps": [
+        {"word": "intensive", "emoji": "🔥"},
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "concentrated", "emoji": "🎯"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "period", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Random practice",
+      "steps": [
+        {"word": "vary", "emoji": "🌈"},
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "order", "emoji": "🔢"},
+        {"word": "unpredictably", "emoji": "🎲"},
+        {"word": "mixed", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Blocked practice",
+      "steps": [
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "same", "emoji": "🤝"},
+        {"word": "skill", "emoji": "🎯"},
+        {"word": "repeatedly", "emoji": "🔄"},
+        {"word": "together", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Transfer training",
+      "steps": [
+        {"word": "apply", "emoji": "👆"},
+        {"word": "learned", "emoji": "📚"},
+        {"word": "skills", "emoji": "🎯"},
+        {"word": "different", "emoji": "🌈"},
+        {"word": "contexts", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Maintenance training",
+      "steps": [
+        {"word": "continue", "emoji": "➡️"},
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "preserve", "emoji": "💾"},
+        {"word": "learned", "emoji": "📚"},
+        {"word": "skills", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Cognitive restructuring",
+      "steps": [
+        {"word": "identify", "emoji": "🔍"},
+        {"word": "unhelpful", "emoji": "❌"},
+        {"word": "thoughts", "emoji": "💭"},
+        {"word": "replace", "emoji": "🔄"},
+        {"word": "positive", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Self advocacy",
+      "steps": [
+        {"word": "speak", "emoji": "🗣️"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "for", "emoji": "👉"},
+        {"word": "your", "emoji": "👆"},
+        {"word": "needs", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Independence training",
+      "steps": [
+        {"word": "practice", "emoji": "🏋️"},
+        {"word": "skills", "emoji": "🎯"},
+        {"word": "without", "emoji": "🚫"},
+        {"word": "help", "emoji": "🤝"},
+        {"word": "independently", "emoji": "🦅"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Quality of life",
+      "steps": [
+        {"word": "improve", "emoji": "📈"},
+        {"word": "daily", "emoji": "📅"},
+        {"word": "functioning", "emoji": "⚙️"},
+        {"word": "meaningful", "emoji": "❤️"},
+        {"word": "activities", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Cognitive fatigue",
+      "steps": [
+        {"word": "recognize", "emoji": "👁️"},
+        {"word": "mental", "emoji": "🧠"},
+        {"word": "tiredness", "emoji": "😴"},
+        {"word": "take", "emoji": "🤲"},
+        {"word": "breaks", "emoji": "☕"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Energy conservation",
+      "steps": [
+        {"word": "plan", "emoji": "📅"},
+        {"word": "activities", "emoji": "🎯"},
+        {"word": "pace", "emoji": "🚶"},
+        {"word": "yourself", "emoji": "👆"},
+        {"word": "rest", "emoji": "😴"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Attention strategies",
+      "steps": [
+        {"word": "eliminate", "emoji": "❌"},
+        {"word": "distractions", "emoji": "📱"},
+        {"word": "use", "emoji": "👆"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "techniques", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Memory compensations",
+      "steps": [
+        {"word": "use", "emoji": "👆"},
+        {"word": "external", "emoji": "🌍"},
+        {"word": "aids", "emoji": "🤝"},
+        {"word": "support", "emoji": "🔗"},
+        {"word": "memory", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Executive strategies",
+      "steps": [
+        {"word": "organize", "emoji": "📋"},
+        {"word": "plan", "emoji": "📅"},
+        {"word": "monitor", "emoji": "👀"},
+        {"word": "evaluate", "emoji": "📊"},
+        {"word": "adjust", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Problem solving practice",
+      "steps": [
+        {"word": "define", "emoji": "📝"},
+        {"word": "problem", "emoji": "❓"},
+        {"word": "generate", "emoji": "⚡"},
+        {"word": "solutions", "emoji": "💡"},
+        {"word": "evaluate", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Decision making",
+      "steps": [
+        {"word": "consider", "emoji": "🤔"},
+        {"word": "options", "emoji": "🔢"},
+        {"word": "weigh", "emoji": "⚖️"},
+        {"word": "pros", "emoji": "✅"},
+        {"word": "cons", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Judgment training",
+      "steps": [
+        {"word": "evaluate", "emoji": "📊"},
+        {"word": "situations", "emoji": "📍"},
+        {"word": "make", "emoji": "🛠️"},
+        {"word": "appropriate", "emoji": "✅"},
+        {"word": "choices", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Safety awareness",
+      "steps": [
+        {"word": "recognize", "emoji": "👁️"},
+        {"word": "potential", "emoji": "⚡"},
+        {"word": "dangers", "emoji": "⚠️"},
+        {"word": "take", "emoji": "🤲"},
+        {"word": "precautions", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Insight training",
+      "steps": [
+        {"word": "understand", "emoji": "💡"},
+        {"word": "your", "emoji": "👆"},
+        {"word": "own", "emoji": "🫵"},
+        {"word": "abilities", "emoji": "💪"},
+        {"word": "limitations", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Awareness building",
+      "steps": [
+        {"word": "develop", "emoji": "🌱"},
+        {"word": "self", "emoji": "👤"},
+        {"word": "awareness", "emoji": "👁️"},
+        {"word": "cognitive", "emoji": "🧠"},
+        {"word": "changes", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Recovery planning",
+      "steps": [
+        {"word": "set", "emoji": "🎯"},
+        {"word": "realistic", "emoji": "✅"},
+        {"word": "goals", "emoji": "🏆"},
+        {"word": "track", "emoji": "👣"},
+        {"word": "progress", "emoji": "📈"}
+      ]
+    }
+  ]
+}

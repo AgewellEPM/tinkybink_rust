@@ -1,0 +1,1105 @@
+{
+  "category": "💬 Functional Communication",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Request help",
+      "steps": [
+        {"word": "stuck", "emoji": "🚫"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "please", "emoji": "🙏"},
+        {"word": "need", "emoji": "❗"},
+        {"word": "you", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Request more",
+      "steps": [
+        {"word": "want", "emoji": "🙏"},
+        {"word": "more", "emoji": "➕"},
+        {"word": "again", "emoji": "🔁"},
+        {"word": "please", "emoji": "🙏"},
+        {"word": "yes", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Request stop",
+      "steps": [
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "no", "emoji": "❌"},
+        {"word": "done", "emoji": "🏁"},
+        {"word": "finished", "emoji": "✅"},
+        {"word": "enough", "emoji": "🚫"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Request break",
+      "steps": [
+        {"word": "tired", "emoji": "😴"},
+        {"word": "break", "emoji": "⏸️"},
+        {"word": "rest", "emoji": "💤"},
+        {"word": "wait", "emoji": "⏳"},
+        {"word": "pause", "emoji": "⏸️"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Request bathroom",
+      "steps": [
+        {"word": "need", "emoji": "❗"},
+        {"word": "potty", "emoji": "🚽"},
+        {"word": "bathroom", "emoji": "🚽"},
+        {"word": "go", "emoji": "🚶"},
+        {"word": "now", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Request drink",
+      "steps": [
+        {"word": "thirsty", "emoji": "🥵"},
+        {"word": "want", "emoji": "🙏"},
+        {"word": "drink", "emoji": "🥤"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "please", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Request food",
+      "steps": [
+        {"word": "hungry", "emoji": "🤤"},
+        {"word": "want", "emoji": "🙏"},
+        {"word": "eat", "emoji": "🍽️"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "please", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Request attention",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "me", "emoji": "🙋"},
+        {"word": "watch", "emoji": "👁️"},
+        {"word": "see", "emoji": "👀"},
+        {"word": "show", "emoji": "🫵"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Request turn",
+      "steps": [
+        {"word": "my", "emoji": "🙋"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "want", "emoji": "🙏"},
+        {"word": "try", "emoji": "💪"},
+        {"word": "me", "emoji": "🙋"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Request favorite item",
+      "steps": [
+        {"word": "want", "emoji": "🙏"},
+        {"word": "mine", "emoji": "🙋"},
+        {"word": "favorite", "emoji": "❤️"},
+        {"word": "love", "emoji": "💕"},
+        {"word": "please", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Protest politely",
+      "steps": [
+        {"word": "no", "emoji": "❌"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "want", "emoji": "💭"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "choice", "emoji": "🤔"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Greet others",
+      "steps": [
+        {"word": "hi", "emoji": "👋"},
+        {"word": "hello", "emoji": "👋"},
+        {"word": "good", "emoji": "👍"},
+        {"word": "morning", "emoji": "🌅"},
+        {"word": "nice", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Say goodbye",
+      "steps": [
+        {"word": "bye", "emoji": "👋"},
+        {"word": "see", "emoji": "👀"},
+        {"word": "you", "emoji": "👆"},
+        {"word": "later", "emoji": "🕐"},
+        {"word": "goodbye", "emoji": "👋"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Express happy",
+      "steps": [
+        {"word": "happy", "emoji": "😊"},
+        {"word": "good", "emoji": "👍"},
+        {"word": "like", "emoji": "👍"},
+        {"word": "fun", "emoji": "😄"},
+        {"word": "smile", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Express sad",
+      "steps": [
+        {"word": "sad", "emoji": "😢"},
+        {"word": "cry", "emoji": "😭"},
+        {"word": "hurt", "emoji": "🤕"},
+        {"word": "upset", "emoji": "😞"},
+        {"word": "comfort", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Express mad",
+      "steps": [
+        {"word": "mad", "emoji": "😠"},
+        {"word": "angry", "emoji": "😡"},
+        {"word": "frustrated", "emoji": "😤"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "breathe", "emoji": "🫁"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Express scared",
+      "steps": [
+        {"word": "scared", "emoji": "😨"},
+        {"word": "afraid", "emoji": "😰"},
+        {"word": "worried", "emoji": "😟"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "okay", "emoji": "👌"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Express excited",
+      "steps": [
+        {"word": "excited", "emoji": "🤗"},
+        {"word": "yay", "emoji": "🎉"},
+        {"word": "happy", "emoji": "😄"},
+        {"word": "fun", "emoji": "🎮"},
+        {"word": "love", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Ask for information",
+      "steps": [
+        {"word": "what", "emoji": "❓"},
+        {"word": "that", "emoji": "👉"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "me", "emoji": "🙋"},
+        {"word": "know", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Ask where",
+      "steps": [
+        {"word": "where", "emoji": "❓"},
+        {"word": "is", "emoji": "🤔"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "search", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Ask who",
+      "steps": [
+        {"word": "who", "emoji": "❓"},
+        {"word": "is", "emoji": "🤔"},
+        {"word": "person", "emoji": "👤"},
+        {"word": "name", "emoji": "📛"},
+        {"word": "know", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Ask when",
+      "steps": [
+        {"word": "when", "emoji": "❓"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "happen", "emoji": "💫"},
+        {"word": "wait", "emoji": "⏳"},
+        {"word": "soon", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Ask why",
+      "steps": [
+        {"word": "why", "emoji": "❓"},
+        {"word": "because", "emoji": "💭"},
+        {"word": "reason", "emoji": "🤔"},
+        {"word": "explain", "emoji": "💬"},
+        {"word": "understand", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Ask how",
+      "steps": [
+        {"word": "how", "emoji": "❓"},
+        {"word": "do", "emoji": "✋"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "teach", "emoji": "📚"},
+        {"word": "learn", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Comment on object",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "see", "emoji": "👁️"},
+        {"word": "that", "emoji": "👉"},
+        {"word": "cool", "emoji": "😎"},
+        {"word": "wow", "emoji": "🤩"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Comment on action",
+      "steps": [
+        {"word": "watch", "emoji": "👀"},
+        {"word": "doing", "emoji": "✋"},
+        {"word": "see", "emoji": "👁️"},
+        {"word": "nice", "emoji": "👍"},
+        {"word": "good", "emoji": "👌"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Share experience",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "see", "emoji": "👁️"},
+        {"word": "both", "emoji": "2️⃣"},
+        {"word": "share", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Make choice",
+      "steps": [
+        {"word": "want", "emoji": "🙏"},
+        {"word": "this", "emoji": "👈"},
+        {"word": "or", "emoji": "🤷"},
+        {"word": "that", "emoji": "👉"},
+        {"word": "choose", "emoji": "🤔"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Indicate yes",
+      "steps": [
+        {"word": "yes", "emoji": "✅"},
+        {"word": "yeah", "emoji": "👍"},
+        {"word": "okay", "emoji": "👌"},
+        {"word": "good", "emoji": "👍"},
+        {"word": "agree", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Indicate no",
+      "steps": [
+        {"word": "no", "emoji": "❌"},
+        {"word": "nope", "emoji": "🚫"},
+        {"word": "don't", "emoji": "🙅"},
+        {"word": "not", "emoji": "❌"},
+        {"word": "refuse", "emoji": "🚫"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Request repeat",
+      "steps": [
+        {"word": "again", "emoji": "🔁"},
+        {"word": "repeat", "emoji": "🔂"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "more", "emoji": "➕"},
+        {"word": "please", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Request clarification",
+      "steps": [
+        {"word": "what", "emoji": "❓"},
+        {"word": "mean", "emoji": "🤔"},
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "explain", "emoji": "💬"},
+        {"word": "confused", "emoji": "😕"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Acknowledge understanding",
+      "steps": [
+        {"word": "oh", "emoji": "💡"},
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "get", "emoji": "✅"},
+        {"word": "it", "emoji": "👆"},
+        {"word": "know", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Request permission",
+      "steps": [
+        {"word": "can", "emoji": "❓"},
+        {"word": "I", "emoji": "🙋"},
+        {"word": "please", "emoji": "🙏"},
+        {"word": "may", "emoji": "🙏"},
+        {"word": "okay", "emoji": "👌"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Offer help",
+      "steps": [
+        {"word": "help", "emoji": "🤝"},
+        {"word": "you", "emoji": "👆"},
+        {"word": "can", "emoji": "💪"},
+        {"word": "I", "emoji": "🙋"},
+        {"word": "do", "emoji": "✋"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Accept help",
+      "steps": [
+        {"word": "yes", "emoji": "✅"},
+        {"word": "help", "emoji": "🤝"},
+        {"word": "please", "emoji": "🙏"},
+        {"word": "thank", "emoji": "🙏"},
+        {"word": "you", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Decline help",
+      "steps": [
+        {"word": "no", "emoji": "❌"},
+        {"word": "thanks", "emoji": "🙏"},
+        {"word": "myself", "emoji": "🙋"},
+        {"word": "can", "emoji": "💪"},
+        {"word": "do", "emoji": "✋"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Express confusion",
+      "steps": [
+        {"word": "confused", "emoji": "😕"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "know", "emoji": "🤷"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "understand", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Express tiredness",
+      "steps": [
+        {"word": "tired", "emoji": "😴"},
+        {"word": "sleepy", "emoji": "💤"},
+        {"word": "rest", "emoji": "😌"},
+        {"word": "need", "emoji": "❗"},
+        {"word": "break", "emoji": "⏸️"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Express pain",
+      "steps": [
+        {"word": "hurt", "emoji": "🤕"},
+        {"word": "pain", "emoji": "😣"},
+        {"word": "ow", "emoji": "😫"},
+        {"word": "ouch", "emoji": "🤕"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Express discomfort",
+      "steps": [
+        {"word": "uncomfortable", "emoji": "😣"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "like", "emoji": "👎"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "different", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Express surprise",
+      "steps": [
+        {"word": "wow", "emoji": "🤩"},
+        {"word": "surprise", "emoji": "😲"},
+        {"word": "amazing", "emoji": "🤩"},
+        {"word": "cool", "emoji": "😎"},
+        {"word": "whoa", "emoji": "😮"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Express boredom",
+      "steps": [
+        {"word": "bored", "emoji": "😐"},
+        {"word": "nothing", "emoji": "🚫"},
+        {"word": "do", "emoji": "🤷"},
+        {"word": "play", "emoji": "🎮"},
+        {"word": "fun", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Express pride",
+      "steps": [
+        {"word": "proud", "emoji": "😤"},
+        {"word": "did", "emoji": "✅"},
+        {"word": "it", "emoji": "👆"},
+        {"word": "good", "emoji": "👍"},
+        {"word": "job", "emoji": "💼"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Express embarrassment",
+      "steps": [
+        {"word": "embarrassed", "emoji": "😳"},
+        {"word": "shy", "emoji": "🫣"},
+        {"word": "hide", "emoji": "🙈"},
+        {"word": "feel", "emoji": "💭"},
+        {"word": "awkward", "emoji": "😅"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Request quiet",
+      "steps": [
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "shh", "emoji": "🤫"},
+        {"word": "loud", "emoji": "🔊"},
+        {"word": "soft", "emoji": "🔇"},
+        {"word": "please", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Request loud",
+      "steps": [
+        {"word": "loud", "emoji": "🔊"},
+        {"word": "louder", "emoji": "📢"},
+        {"word": "can't", "emoji": "🚫"},
+        {"word": "hear", "emoji": "👂"},
+        {"word": "volume", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Request slow",
+      "steps": [
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "slower", "emoji": "⏳"},
+        {"word": "fast", "emoji": "💨"},
+        {"word": "wait", "emoji": "⏸️"},
+        {"word": "please", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Request fast",
+      "steps": [
+        {"word": "fast", "emoji": "💨"},
+        {"word": "faster", "emoji": "⚡"},
+        {"word": "quick", "emoji": "⚡"},
+        {"word": "hurry", "emoji": "🏃"},
+        {"word": "speed", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Indicate finished",
+      "steps": [
+        {"word": "done", "emoji": "✅"},
+        {"word": "finished", "emoji": "🏁"},
+        {"word": "complete", "emoji": "💯"},
+        {"word": "all", "emoji": "🔄"},
+        {"word": "finished", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Indicate not finished",
+      "steps": [
+        {"word": "not", "emoji": "❌"},
+        {"word": "done", "emoji": "🚫"},
+        {"word": "still", "emoji": "⏳"},
+        {"word": "working", "emoji": "💪"},
+        {"word": "wait", "emoji": "⏸️"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Request wait",
+      "steps": [
+        {"word": "wait", "emoji": "⏸️"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "pause", "emoji": "⏸️"},
+        {"word": "minute", "emoji": "🕐"},
+        {"word": "please", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Indicate ready",
+      "steps": [
+        {"word": "ready", "emoji": "✅"},
+        {"word": "go", "emoji": "🚦"},
+        {"word": "start", "emoji": "▶️"},
+        {"word": "begin", "emoji": "🏁"},
+        {"word": "now", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Indicate not ready",
+      "steps": [
+        {"word": "not", "emoji": "❌"},
+        {"word": "ready", "emoji": "🚫"},
+        {"word": "wait", "emoji": "⏸️"},
+        {"word": "need", "emoji": "❗"},
+        {"word": "time", "emoji": "⏳"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Express like",
+      "steps": [
+        {"word": "like", "emoji": "👍"},
+        {"word": "love", "emoji": "💕"},
+        {"word": "enjoy", "emoji": "😊"},
+        {"word": "fun", "emoji": "😄"},
+        {"word": "good", "emoji": "👌"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Express dislike",
+      "steps": [
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "like", "emoji": "👎"},
+        {"word": "hate", "emoji": "😣"},
+        {"word": "yuck", "emoji": "🤢"},
+        {"word": "no", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Express want",
+      "steps": [
+        {"word": "want", "emoji": "🙏"},
+        {"word": "need", "emoji": "❗"},
+        {"word": "wish", "emoji": "⭐"},
+        {"word": "hope", "emoji": "🤞"},
+        {"word": "desire", "emoji": "💭"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Express don't want",
+      "steps": [
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "want", "emoji": "🙅"},
+        {"word": "no", "emoji": "❌"},
+        {"word": "refuse", "emoji": "🚫"},
+        {"word": "not", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Request object",
+      "steps": [
+        {"word": "want", "emoji": "🙏"},
+        {"word": "that", "emoji": "👉"},
+        {"word": "give", "emoji": "🤲"},
+        {"word": "me", "emoji": "🙋"},
+        {"word": "please", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Request activity",
+      "steps": [
+        {"word": "want", "emoji": "🙏"},
+        {"word": "do", "emoji": "✋"},
+        {"word": "play", "emoji": "🎮"},
+        {"word": "activity", "emoji": "🎯"},
+        {"word": "fun", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Request location",
+      "steps": [
+        {"word": "want", "emoji": "🙏"},
+        {"word": "go", "emoji": "🚶"},
+        {"word": "there", "emoji": "👉"},
+        {"word": "place", "emoji": "📍"},
+        {"word": "visit", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Request person",
+      "steps": [
+        {"word": "want", "emoji": "🙏"},
+        {"word": "see", "emoji": "👀"},
+        {"word": "person", "emoji": "👤"},
+        {"word": "friend", "emoji": "👫"},
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Request continuation",
+      "steps": [
+        {"word": "keep", "emoji": "⏩"},
+        {"word": "going", "emoji": "➡️"},
+        {"word": "continue", "emoji": "▶️"},
+        {"word": "more", "emoji": "➕"},
+        {"word": "don't", "emoji": "🚫"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Request change",
+      "steps": [
+        {"word": "change", "emoji": "🔄"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "switch", "emoji": "🔄"},
+        {"word": "other", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Express gratitude",
+      "steps": [
+        {"word": "thank", "emoji": "🙏"},
+        {"word": "you", "emoji": "👆"},
+        {"word": "thanks", "emoji": "🙏"},
+        {"word": "grateful", "emoji": "🙏"},
+        {"word": "appreciate", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Apologize",
+      "steps": [
+        {"word": "sorry", "emoji": "😔"},
+        {"word": "apologize", "emoji": "🙇"},
+        {"word": "mistake", "emoji": "😳"},
+        {"word": "oops", "emoji": "😅"},
+        {"word": "my", "emoji": "🙋"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Excuse self",
+      "steps": [
+        {"word": "excuse", "emoji": "🙏"},
+        {"word": "me", "emoji": "🙋"},
+        {"word": "pardon", "emoji": "🙏"},
+        {"word": "sorry", "emoji": "😅"},
+        {"word": "oops", "emoji": "😳"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Express empathy",
+      "steps": [
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "feel", "emoji": "💭"},
+        {"word": "same", "emoji": "🟰"},
+        {"word": "sorry", "emoji": "😔"},
+        {"word": "care", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Offer comfort",
+      "steps": [
+        {"word": "okay", "emoji": "👌"},
+        {"word": "better", "emoji": "😊"},
+        {"word": "hug", "emoji": "🤗"},
+        {"word": "comfort", "emoji": "🤗"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Express worry",
+      "steps": [
+        {"word": "worried", "emoji": "😟"},
+        {"word": "concerned", "emoji": "😕"},
+        {"word": "nervous", "emoji": "😰"},
+        {"word": "anxious", "emoji": "😨"},
+        {"word": "scared", "emoji": "😨"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Express relief",
+      "steps": [
+        {"word": "relief", "emoji": "😌"},
+        {"word": "better", "emoji": "😊"},
+        {"word": "okay", "emoji": "👌"},
+        {"word": "phew", "emoji": "😮‍💨"},
+        {"word": "good", "emoji": "👍"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Express anticipation",
+      "steps": [
+        {"word": "excited", "emoji": "🤗"},
+        {"word": "wait", "emoji": "⏳"},
+        {"word": "can't", "emoji": "😆"},
+        {"word": "soon", "emoji": "⏰"},
+        {"word": "looking", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Express disappointment",
+      "steps": [
+        {"word": "disappointed", "emoji": "😞"},
+        {"word": "sad", "emoji": "😢"},
+        {"word": "hoped", "emoji": "💭"},
+        {"word": "wanted", "emoji": "🙏"},
+        {"word": "maybe", "emoji": "🤔"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Express hope",
+      "steps": [
+        {"word": "hope", "emoji": "🤞"},
+        {"word": "wish", "emoji": "⭐"},
+        {"word": "maybe", "emoji": "🤔"},
+        {"word": "possible", "emoji": "🤷"},
+        {"word": "fingers", "emoji": "🤞"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Express doubt",
+      "steps": [
+        {"word": "doubt", "emoji": "🤔"},
+        {"word": "unsure", "emoji": "🤷"},
+        {"word": "maybe", "emoji": "🤔"},
+        {"word": "not", "emoji": "❌"},
+        {"word": "sure", "emoji": "🤷"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Express certainty",
+      "steps": [
+        {"word": "sure", "emoji": "✅"},
+        {"word": "certain", "emoji": "💯"},
+        {"word": "know", "emoji": "🧠"},
+        {"word": "positive", "emoji": "👍"},
+        {"word": "definitely", "emoji": "💯"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Express agreement",
+      "steps": [
+        {"word": "agree", "emoji": "🤝"},
+        {"word": "yes", "emoji": "✅"},
+        {"word": "right", "emoji": "👍"},
+        {"word": "correct", "emoji": "✅"},
+        {"word": "same", "emoji": "🟰"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Express disagreement",
+      "steps": [
+        {"word": "disagree", "emoji": "🚫"},
+        {"word": "no", "emoji": "❌"},
+        {"word": "wrong", "emoji": "❌"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "opinion", "emoji": "💭"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Express preference",
+      "steps": [
+        {"word": "prefer", "emoji": "👍"},
+        {"word": "like", "emoji": "💕"},
+        {"word": "better", "emoji": "👌"},
+        {"word": "choose", "emoji": "🤔"},
+        {"word": "favorite", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Express indifference",
+      "steps": [
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "care", "emoji": "🤷"},
+        {"word": "either", "emoji": "🤷"},
+        {"word": "whatever", "emoji": "🤷"},
+        {"word": "fine", "emoji": "👌"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Initiate conversation",
+      "steps": [
+        {"word": "hey", "emoji": "👋"},
+        {"word": "talk", "emoji": "🗣️"},
+        {"word": "chat", "emoji": "💬"},
+        {"word": "conversation", "emoji": "💬"},
+        {"word": "say", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "End conversation",
+      "steps": [
+        {"word": "bye", "emoji": "👋"},
+        {"word": "talk", "emoji": "🗣️"},
+        {"word": "later", "emoji": "🕐"},
+        {"word": "finish", "emoji": "🏁"},
+        {"word": "done", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Change topic",
+      "steps": [
+        {"word": "different", "emoji": "🔄"},
+        {"word": "topic", "emoji": "💭"},
+        {"word": "talk", "emoji": "🗣️"},
+        {"word": "about", "emoji": "💬"},
+        {"word": "something", "emoji": "❓"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Ask for opinion",
+      "steps": [
+        {"word": "what", "emoji": "❓"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "opinion", "emoji": "💭"},
+        {"word": "feel", "emoji": "💭"},
+        {"word": "about", "emoji": "❓"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Give opinion",
+      "steps": [
+        {"word": "think", "emoji": "🤔"},
+        {"word": "feel", "emoji": "💭"},
+        {"word": "believe", "emoji": "💭"},
+        {"word": "opinion", "emoji": "🧠"},
+        {"word": "view", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Make suggestion",
+      "steps": [
+        {"word": "suggest", "emoji": "💡"},
+        {"word": "idea", "emoji": "💡"},
+        {"word": "try", "emoji": "💪"},
+        {"word": "maybe", "emoji": "🤔"},
+        {"word": "how", "emoji": "❓"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Accept suggestion",
+      "steps": [
+        {"word": "good", "emoji": "👍"},
+        {"word": "idea", "emoji": "💡"},
+        {"word": "yes", "emoji": "✅"},
+        {"word": "try", "emoji": "💪"},
+        {"word": "that", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Reject suggestion",
+      "steps": [
+        {"word": "no", "emoji": "❌"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "idea", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Express curiosity",
+      "steps": [
+        {"word": "curious", "emoji": "🤔"},
+        {"word": "wonder", "emoji": "💭"},
+        {"word": "interested", "emoji": "🧐"},
+        {"word": "know", "emoji": "🧠"},
+        {"word": "more", "emoji": "➕"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Express understanding",
+      "steps": [
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "get", "emoji": "✅"},
+        {"word": "it", "emoji": "👆"},
+        {"word": "clear", "emoji": "💡"},
+        {"word": "makes", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Express lack of understanding",
+      "steps": [
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "confused", "emoji": "😕"},
+        {"word": "explain", "emoji": "💬"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Express confidence",
+      "steps": [
+        {"word": "confident", "emoji": "💪"},
+        {"word": "can", "emoji": "✅"},
+        {"word": "do", "emoji": "💪"},
+        {"word": "sure", "emoji": "👍"},
+        {"word": "able", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Express lack of confidence",
+      "steps": [
+        {"word": "not", "emoji": "❌"},
+        {"word": "sure", "emoji": "🤷"},
+        {"word": "can", "emoji": "💪"},
+        {"word": "do", "emoji": "✋"},
+        {"word": "nervous", "emoji": "😰"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Express determination",
+      "steps": [
+        {"word": "determined", "emoji": "💪"},
+        {"word": "will", "emoji": "💪"},
+        {"word": "do", "emoji": "✋"},
+        {"word": "try", "emoji": "💪"},
+        {"word": "hard", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Express giving up",
+      "steps": [
+        {"word": "give", "emoji": "🤷"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "can't", "emoji": "🚫"},
+        {"word": "do", "emoji": "✋"},
+        {"word": "quit", "emoji": "🛑"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Request encouragement",
+      "steps": [
+        {"word": "need", "emoji": "❗"},
+        {"word": "encouragement", "emoji": "💪"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "cheer", "emoji": "📣"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Give encouragement",
+      "steps": [
+        {"word": "you", "emoji": "👆"},
+        {"word": "can", "emoji": "💪"},
+        {"word": "do", "emoji": "✋"},
+        {"word": "it", "emoji": "👆"},
+        {"word": "believe", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Express celebration",
+      "steps": [
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "yay", "emoji": "🎉"},
+        {"word": "hooray", "emoji": "🎊"},
+        {"word": "party", "emoji": "🎉"},
+        {"word": "success", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Express motivation",
+      "steps": [
+        {"word": "motivated", "emoji": "💪"},
+        {"word": "ready", "emoji": "✅"},
+        {"word": "go", "emoji": "🚦"},
+        {"word": "start", "emoji": "▶️"},
+        {"word": "energy", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Express completion satisfaction",
+      "steps": [
+        {"word": "finished", "emoji": "🏁"},
+        {"word": "done", "emoji": "✅"},
+        {"word": "proud", "emoji": "😤"},
+        {"word": "accomplished", "emoji": "🎯"},
+        {"word": "satisfied", "emoji": "😌"}
+      ]
+    }
+  ]
+}

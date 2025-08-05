@@ -1,0 +1,1108 @@
+{
+  "category": {
+    "emoji": "✈️",
+    "name": "Transportation & Travel"
+  },
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Car ride",
+      "steps": [
+        {"word": "door", "emoji": "🚪"},
+        {"word": "open", "emoji": "📂"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "buckle", "emoji": "🔒"},
+        {"word": "go", "emoji": "🚗"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "School bus",
+      "steps": [
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "bus", "emoji": "🚌"},
+        {"word": "climb", "emoji": "⬆️"},
+        {"word": "sit", "emoji": "💺"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Walking safely",
+      "steps": [
+        {"word": "sidewalk", "emoji": "🛤️"},
+        {"word": "stay", "emoji": "📍"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "both", "emoji": "↔️"},
+        {"word": "ways", "emoji": "🚶"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bike riding",
+      "steps": [
+        {"word": "helmet", "emoji": "⛑️"},
+        {"word": "on", "emoji": "✅"},
+        {"word": "pedal", "emoji": "🔄"},
+        {"word": "steer", "emoji": "🎯"},
+        {"word": "ride", "emoji": "🚴"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Train ride",
+      "steps": [
+        {"word": "station", "emoji": "🚉"},
+        {"word": "ticket", "emoji": "🎫"},
+        {"word": "board", "emoji": "🚆"},
+        {"word": "seat", "emoji": "💺"},
+        {"word": "ride", "emoji": "🛤️"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Airplane trip",
+      "steps": [
+        {"word": "airport", "emoji": "🛫"},
+        {"word": "security", "emoji": "🔍"},
+        {"word": "gate", "emoji": "🚪"},
+        {"word": "board", "emoji": "✈️"},
+        {"word": "fly", "emoji": "☁️"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "City bus",
+      "steps": [
+        {"word": "bus", "emoji": "🚌"},
+        {"word": "stop", "emoji": "🚏"},
+        {"word": "pay", "emoji": "💳"},
+        {"word": "sit", "emoji": "💺"},
+        {"word": "exit", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Subway ride",
+      "steps": [
+        {"word": "underground", "emoji": "🚇"},
+        {"word": "card", "emoji": "💳"},
+        {"word": "turnstile", "emoji": "🚫"},
+        {"word": "train", "emoji": "🚊"},
+        {"word": "stop", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Taxi ride",
+      "steps": [
+        {"word": "wave", "emoji": "👋"},
+        {"word": "taxi", "emoji": "🚕"},
+        {"word": "address", "emoji": "📍"},
+        {"word": "ride", "emoji": "🛣️"},
+        {"word": "pay", "emoji": "💵"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Ferry boat",
+      "steps": [
+        {"word": "dock", "emoji": "⚓"},
+        {"word": "board", "emoji": "🛳️"},
+        {"word": "water", "emoji": "🌊"},
+        {"word": "cross", "emoji": "➡️"},
+        {"word": "arrive", "emoji": "🏝️"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Scooter ride",
+      "steps": [
+        {"word": "helmet", "emoji": "⛑️"},
+        {"word": "kick", "emoji": "🦵"},
+        {"word": "push", "emoji": "➡️"},
+        {"word": "glide", "emoji": "🛴"},
+        {"word": "fun", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Skateboard",
+      "steps": [
+        {"word": "board", "emoji": "🛹"},
+        {"word": "balance", "emoji": "⚖️"},
+        {"word": "push", "emoji": "🦵"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "stop", "emoji": "🛑"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Roller skating",
+      "steps": [
+        {"word": "skates", "emoji": "🛼"},
+        {"word": "lace", "emoji": "👟"},
+        {"word": "stand", "emoji": "🧍"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "balance", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Parking lot",
+      "steps": [
+        {"word": "cars", "emoji": "🚗"},
+        {"word": "careful", "emoji": "⚠️"},
+        {"word": "hold", "emoji": "🤝"},
+        {"word": "hand", "emoji": "✋"},
+        {"word": "walk", "emoji": "🚶"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Crosswalk",
+      "steps": [
+        {"word": "wait", "emoji": "🚦"},
+        {"word": "signal", "emoji": "🚶"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "cross", "emoji": "➡️"},
+        {"word": "safely", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Traffic light",
+      "steps": [
+        {"word": "red", "emoji": "🔴"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "yellow", "emoji": "🟡"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "green", "emoji": "🟢"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Stop sign",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "sign", "emoji": "🛑"},
+        {"word": "stop", "emoji": "✋"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "go", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Elevator ride",
+      "steps": [
+        {"word": "press", "emoji": "👆"},
+        {"word": "button", "emoji": "🔘"},
+        {"word": "doors", "emoji": "🚪"},
+        {"word": "open", "emoji": "📂"},
+        {"word": "ride", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Escalator",
+      "steps": [
+        {"word": "step", "emoji": "👣"},
+        {"word": "on", "emoji": "✅"},
+        {"word": "hold", "emoji": "✋"},
+        {"word": "rail", "emoji": "🚊"},
+        {"word": "off", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Road trip",
+      "steps": [
+        {"word": "pack", "emoji": "🎒"},
+        {"word": "car", "emoji": "🚗"},
+        {"word": "drive", "emoji": "🛣️"},
+        {"word": "long", "emoji": "📏"},
+        {"word": "fun", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Gas station",
+      "steps": [
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "gas", "emoji": "⛽"},
+        {"word": "pump", "emoji": "🔧"},
+        {"word": "fill", "emoji": "🚗"},
+        {"word": "pay", "emoji": "💳"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Rest stop",
+      "steps": [
+        {"word": "highway", "emoji": "🛣️"},
+        {"word": "exit", "emoji": "➡️"},
+        {"word": "bathroom", "emoji": "🚽"},
+        {"word": "snacks", "emoji": "🍫"},
+        {"word": "continue", "emoji": "🚗"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Hotel stay",
+      "steps": [
+        {"word": "check", "emoji": "✅"},
+        {"word": "in", "emoji": "📥"},
+        {"word": "room", "emoji": "🏨"},
+        {"word": "key", "emoji": "🔑"},
+        {"word": "sleep", "emoji": "😴"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Cruise ship",
+      "steps": [
+        {"word": "big", "emoji": "📏"},
+        {"word": "ship", "emoji": "🚢"},
+        {"word": "ocean", "emoji": "🌊"},
+        {"word": "rooms", "emoji": "🏨"},
+        {"word": "sail", "emoji": "⛵"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Motorcycle",
+      "steps": [
+        {"word": "helmet", "emoji": "⛑️"},
+        {"word": "jacket", "emoji": "🧥"},
+        {"word": "ride", "emoji": "🏍️"},
+        {"word": "fast", "emoji": "💨"},
+        {"word": "careful", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "RV camping",
+      "steps": [
+        {"word": "drive", "emoji": "🚐"},
+        {"word": "park", "emoji": "🏕️"},
+        {"word": "hook", "emoji": "🔌"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "camp", "emoji": "⛺"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Helicopter",
+      "steps": [
+        {"word": "blades", "emoji": "🚁"},
+        {"word": "spin", "emoji": "🔄"},
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "fly", "emoji": "☁️"},
+        {"word": "land", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Hot air balloon",
+      "steps": [
+        {"word": "basket", "emoji": "🧺"},
+        {"word": "fire", "emoji": "🔥"},
+        {"word": "rise", "emoji": "🎈"},
+        {"word": "float", "emoji": "☁️"},
+        {"word": "view", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Cable car",
+      "steps": [
+        {"word": "cable", "emoji": "🔗"},
+        {"word": "car", "emoji": "🚡"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "mountain", "emoji": "🏔️"},
+        {"word": "scenic", "emoji": "🌄"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Gondola ride",
+      "steps": [
+        {"word": "boat", "emoji": "🛶"},
+        {"word": "canal", "emoji": "🌊"},
+        {"word": "pole", "emoji": "🪵"},
+        {"word": "push", "emoji": "➡️"},
+        {"word": "romantic", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Uber ride",
+      "steps": [
+        {"word": "app", "emoji": "📱"},
+        {"word": "request", "emoji": "🚗"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "ride", "emoji": "🚙"},
+        {"word": "rate", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Airport security",
+      "steps": [
+        {"word": "line", "emoji": "👥"},
+        {"word": "ID", "emoji": "🪪"},
+        {"word": "shoes", "emoji": "👟"},
+        {"word": "off", "emoji": "❌"},
+        {"word": "scan", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Baggage claim",
+      "steps": [
+        {"word": "land", "emoji": "🛬"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "carousel", "emoji": "🔄"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "bag", "emoji": "🧳"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Passport control",
+      "steps": [
+        {"word": "passport", "emoji": "📘"},
+        {"word": "show", "emoji": "✋"},
+        {"word": "stamp", "emoji": "📍"},
+        {"word": "welcome", "emoji": "👋"},
+        {"word": "enter", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Travel planning",
+      "steps": [
+        {"word": "map", "emoji": "🗺️"},
+        {"word": "plan", "emoji": "📋"},
+        {"word": "book", "emoji": "📚"},
+        {"word": "pack", "emoji": "🧳"},
+        {"word": "go", "emoji": "✈️"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "GPS navigation",
+      "steps": [
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "on", "emoji": "📱"},
+        {"word": "destination", "emoji": "📍"},
+        {"word": "follow", "emoji": "➡️"},
+        {"word": "arrive", "emoji": "🏁"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Toll booth",
+      "steps": [
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "pay", "emoji": "💰"},
+        {"word": "toll", "emoji": "🎫"},
+        {"word": "go", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Parking garage",
+      "steps": [
+        {"word": "enter", "emoji": "🚗"},
+        {"word": "ticket", "emoji": "🎫"},
+        {"word": "park", "emoji": "🅿️"},
+        {"word": "remember", "emoji": "🧠"},
+        {"word": "level", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Valet parking",
+      "steps": [
+        {"word": "drive", "emoji": "🚗"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "keys", "emoji": "🔑"},
+        {"word": "give", "emoji": "🤲"},
+        {"word": "ticket", "emoji": "🎫"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Car rental",
+      "steps": [
+        {"word": "desk", "emoji": "🏪"},
+        {"word": "ID", "emoji": "🪪"},
+        {"word": "sign", "emoji": "✍️"},
+        {"word": "keys", "emoji": "🔑"},
+        {"word": "drive", "emoji": "🚗"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Train platform",
+      "steps": [
+        {"word": "platform", "emoji": "🚉"},
+        {"word": "number", "emoji": "🔢"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "train", "emoji": "🚆"},
+        {"word": "board", "emoji": "📥"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Bus transfer",
+      "steps": [
+        {"word": "first", "emoji": "1️⃣"},
+        {"word": "bus", "emoji": "🚌"},
+        {"word": "transfer", "emoji": "🔄"},
+        {"word": "second", "emoji": "2️⃣"},
+        {"word": "bus", "emoji": "🚍"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Ride share",
+      "steps": [
+        {"word": "share", "emoji": "🤝"},
+        {"word": "ride", "emoji": "🚗"},
+        {"word": "split", "emoji": "✂️"},
+        {"word": "cost", "emoji": "💰"},
+        {"word": "eco", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Electric car",
+      "steps": [
+        {"word": "plug", "emoji": "🔌"},
+        {"word": "charge", "emoji": "🔋"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "full", "emoji": "💯"},
+        {"word": "drive", "emoji": "🚗"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Bike lane",
+      "steps": [
+        {"word": "bike", "emoji": "🚴"},
+        {"word": "lane", "emoji": "🛤️"},
+        {"word": "stay", "emoji": "📍"},
+        {"word": "safe", "emoji": "✅"},
+        {"word": "ride", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Carpooling",
+      "steps": [
+        {"word": "friends", "emoji": "👥"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "car", "emoji": "🚗"},
+        {"word": "save", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "School pickup",
+      "steps": [
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "line", "emoji": "🚗"},
+        {"word": "name", "emoji": "📢"},
+        {"word": "called", "emoji": "🗣️"},
+        {"word": "go", "emoji": "🏃"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Field trip bus",
+      "steps": [
+        {"word": "special", "emoji": "⭐"},
+        {"word": "trip", "emoji": "🚌"},
+        {"word": "buddy", "emoji": "👫"},
+        {"word": "stay", "emoji": "📍"},
+        {"word": "together", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Moving truck",
+      "steps": [
+        {"word": "big", "emoji": "📏"},
+        {"word": "truck", "emoji": "🚚"},
+        {"word": "boxes", "emoji": "📦"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "home", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Ambulance",
+      "steps": [
+        {"word": "siren", "emoji": "🚨"},
+        {"word": "loud", "emoji": "🔊"},
+        {"word": "move", "emoji": "➡️"},
+        {"word": "aside", "emoji": "↔️"},
+        {"word": "help", "emoji": "🚑"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Fire truck",
+      "steps": [
+        {"word": "red", "emoji": "🔴"},
+        {"word": "truck", "emoji": "🚒"},
+        {"word": "ladder", "emoji": "🪜"},
+        {"word": "sirens", "emoji": "🚨"},
+        {"word": "rescue", "emoji": "🦸"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Police car",
+      "steps": [
+        {"word": "lights", "emoji": "🚨"},
+        {"word": "flashing", "emoji": "💡"},
+        {"word": "pull", "emoji": "➡️"},
+        {"word": "over", "emoji": "🛑"},
+        {"word": "safe", "emoji": "🚔"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "School zone",
+      "steps": [
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "children", "emoji": "👶"},
+        {"word": "crossing", "emoji": "🚸"},
+        {"word": "careful", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Construction zone",
+      "steps": [
+        {"word": "orange", "emoji": "🟠"},
+        {"word": "cones", "emoji": "🚧"},
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "workers", "emoji": "👷"},
+        {"word": "careful", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Highway driving",
+      "steps": [
+        {"word": "merge", "emoji": "↗️"},
+        {"word": "fast", "emoji": "💨"},
+        {"word": "lanes", "emoji": "🛣️"},
+        {"word": "exit", "emoji": "➡️"},
+        {"word": "ramp", "emoji": "📐"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Roundabout",
+      "steps": [
+        {"word": "yield", "emoji": "⚠️"},
+        {"word": "enter", "emoji": "➡️"},
+        {"word": "circle", "emoji": "⭕"},
+        {"word": "exit", "emoji": "↗️"},
+        {"word": "signal", "emoji": "🚦"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Truck stop",
+      "steps": [
+        {"word": "big", "emoji": "📏"},
+        {"word": "trucks", "emoji": "🚛"},
+        {"word": "fuel", "emoji": "⛽"},
+        {"word": "rest", "emoji": "😴"},
+        {"word": "food", "emoji": "🍔"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Weigh station",
+      "steps": [
+        {"word": "trucks", "emoji": "🚛"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "scale", "emoji": "⚖️"},
+        {"word": "weigh", "emoji": "📊"},
+        {"word": "continue", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Border crossing",
+      "steps": [
+        {"word": "country", "emoji": "🌍"},
+        {"word": "line", "emoji": "🚗"},
+        {"word": "passport", "emoji": "📘"},
+        {"word": "questions", "emoji": "❓"},
+        {"word": "cross", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Travel insurance",
+      "steps": [
+        {"word": "buy", "emoji": "💰"},
+        {"word": "insurance", "emoji": "📋"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "trip", "emoji": "✈️"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Time zones",
+      "steps": [
+        {"word": "fly", "emoji": "✈️"},
+        {"word": "east", "emoji": "➡️"},
+        {"word": "west", "emoji": "⬅️"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "change", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Jet lag",
+      "steps": [
+        {"word": "tired", "emoji": "😴"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "adjust", "emoji": "🔧"},
+        {"word": "sleep", "emoji": "😴"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Travel documents",
+      "steps": [
+        {"word": "passport", "emoji": "📘"},
+        {"word": "tickets", "emoji": "🎫"},
+        {"word": "visa", "emoji": "📄"},
+        {"word": "keep", "emoji": "🔒"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Currency exchange",
+      "steps": [
+        {"word": "money", "emoji": "💵"},
+        {"word": "exchange", "emoji": "🔄"},
+        {"word": "foreign", "emoji": "💶"},
+        {"word": "rate", "emoji": "📊"},
+        {"word": "travel", "emoji": "✈️"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Travel adapter",
+      "steps": [
+        {"word": "plug", "emoji": "🔌"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "adapter", "emoji": "🔧"},
+        {"word": "charge", "emoji": "🔋"},
+        {"word": "devices", "emoji": "📱"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Packing suitcase",
+      "steps": [
+        {"word": "clothes", "emoji": "👕"},
+        {"word": "fold", "emoji": "📁"},
+        {"word": "pack", "emoji": "🧳"},
+        {"word": "zip", "emoji": "🤐"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Travel checklist",
+      "steps": [
+        {"word": "list", "emoji": "📋"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "forget", "emoji": "🚫"},
+        {"word": "nothing", "emoji": "💯"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Vacation planning",
+      "steps": [
+        {"word": "choose", "emoji": "🤔"},
+        {"word": "destination", "emoji": "📍"},
+        {"word": "book", "emoji": "📚"},
+        {"word": "excited", "emoji": "🎉"},
+        {"word": "go", "emoji": "✈️"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Travel agency",
+      "steps": [
+        {"word": "agent", "emoji": "👤"},
+        {"word": "help", "emoji": "🤝"},
+        {"word": "plan", "emoji": "📋"},
+        {"word": "book", "emoji": "📚"},
+        {"word": "trip", "emoji": "✈️"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Tour guide",
+      "steps": [
+        {"word": "guide", "emoji": "🗣️"},
+        {"word": "group", "emoji": "👥"},
+        {"word": "follow", "emoji": "👣"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "explore", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Travel blog",
+      "steps": [
+        {"word": "read", "emoji": "📖"},
+        {"word": "tips", "emoji": "💡"},
+        {"word": "places", "emoji": "📍"},
+        {"word": "plan", "emoji": "📋"},
+        {"word": "visit", "emoji": "✈️"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Souvenir shopping",
+      "steps": [
+        {"word": "shop", "emoji": "🛍️"},
+        {"word": "gifts", "emoji": "🎁"},
+        {"word": "remember", "emoji": "🧠"},
+        {"word": "trip", "emoji": "✈️"},
+        {"word": "home", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Travel journal",
+      "steps": [
+        {"word": "write", "emoji": "✍️"},
+        {"word": "daily", "emoji": "📅"},
+        {"word": "adventures", "emoji": "🗺️"},
+        {"word": "memories", "emoji": "❤️"},
+        {"word": "keep", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Photo taking",
+      "steps": [
+        {"word": "camera", "emoji": "📷"},
+        {"word": "smile", "emoji": "😊"},
+        {"word": "click", "emoji": "📸"},
+        {"word": "memories", "emoji": "🖼️"},
+        {"word": "share", "emoji": "📤"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Postcard sending",
+      "steps": [
+        {"word": "buy", "emoji": "💰"},
+        {"word": "postcard", "emoji": "📮"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "stamp", "emoji": "📬"},
+        {"word": "mail", "emoji": "✉️"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Travel buddy",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "travel", "emoji": "✈️"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "fun", "emoji": "😊"},
+        {"word": "share", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Solo travel",
+      "steps": [
+        {"word": "alone", "emoji": "👤"},
+        {"word": "brave", "emoji": "💪"},
+        {"word": "explore", "emoji": "🔍"},
+        {"word": "meet", "emoji": "🤝"},
+        {"word": "people", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Travel safety",
+      "steps": [
+        {"word": "aware", "emoji": "👀"},
+        {"word": "surroundings", "emoji": "🌍"},
+        {"word": "valuables", "emoji": "💎"},
+        {"word": "safe", "emoji": "🔒"},
+        {"word": "smart", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Lost luggage",
+      "steps": [
+        {"word": "bag", "emoji": "🧳"},
+        {"word": "missing", "emoji": "❓"},
+        {"word": "report", "emoji": "📋"},
+        {"word": "desk", "emoji": "🏪"},
+        {"word": "wait", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Travel delay",
+      "steps": [
+        {"word": "flight", "emoji": "✈️"},
+        {"word": "delayed", "emoji": "⏰"},
+        {"word": "wait", "emoji": "⏳"},
+        {"word": "patient", "emoji": "😌"},
+        {"word": "update", "emoji": "📱"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Rental bike",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "bike", "emoji": "🚴"},
+        {"word": "pay", "emoji": "💳"},
+        {"word": "unlock", "emoji": "🔓"},
+        {"word": "ride", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Segway tour",
+      "steps": [
+        {"word": "balance", "emoji": "⚖️"},
+        {"word": "lean", "emoji": "📐"},
+        {"word": "forward", "emoji": "➡️"},
+        {"word": "glide", "emoji": "🛴"},
+        {"word": "fun", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Tram ride",
+      "steps": [
+        {"word": "tracks", "emoji": "🛤️"},
+        {"word": "electric", "emoji": "⚡"},
+        {"word": "board", "emoji": "🚊"},
+        {"word": "ding", "emoji": "🔔"},
+        {"word": "ride", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Monorail",
+      "steps": [
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "rail", "emoji": "🛤️"},
+        {"word": "above", "emoji": "⬆️"},
+        {"word": "ground", "emoji": "🌍"},
+        {"word": "smooth", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Rickshaw ride",
+      "steps": [
+        {"word": "three", "emoji": "3️⃣"},
+        {"word": "wheels", "emoji": "⚙️"},
+        {"word": "pedal", "emoji": "🚴"},
+        {"word": "sit", "emoji": "💺"},
+        {"word": "ride", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Zipline adventure",
+      "steps": [
+        {"word": "harness", "emoji": "🔗"},
+        {"word": "clip", "emoji": "📎"},
+        {"word": "on", "emoji": "✅"},
+        {"word": "zoom", "emoji": "💨"},
+        {"word": "fast", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Ski lift",
+      "steps": [
+        {"word": "sit", "emoji": "💺"},
+        {"word": "bar", "emoji": "➖"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "mountain", "emoji": "🏔️"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Dog sled",
+      "steps": [
+        {"word": "dogs", "emoji": "🐕"},
+        {"word": "pull", "emoji": "➡️"},
+        {"word": "sled", "emoji": "🛷"},
+        {"word": "snow", "emoji": "❄️"},
+        {"word": "mush", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Camel ride",
+      "steps": [
+        {"word": "climb", "emoji": "⬆️"},
+        {"word": "on", "emoji": "🐪"},
+        {"word": "hump", "emoji": "🏔️"},
+        {"word": "sway", "emoji": "〰️"},
+        {"word": "desert", "emoji": "🏜️"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Horse carriage",
+      "steps": [
+        {"word": "horse", "emoji": "🐴"},
+        {"word": "carriage", "emoji": "🛞"},
+        {"word": "clip", "emoji": "🔊"},
+        {"word": "clop", "emoji": "🐎"},
+        {"word": "ride", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Travel map",
+      "steps": [
+        {"word": "unfold", "emoji": "📂"},
+        {"word": "map", "emoji": "🗺️"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "location", "emoji": "📍"},
+        {"word": "navigate", "emoji": "🧭"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Compass use",
+      "steps": [
+        {"word": "north", "emoji": "⬆️"},
+        {"word": "south", "emoji": "⬇️"},
+        {"word": "east", "emoji": "➡️"},
+        {"word": "west", "emoji": "⬅️"},
+        {"word": "direction", "emoji": "🧭"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Travel app",
+      "steps": [
+        {"word": "phone", "emoji": "📱"},
+        {"word": "app", "emoji": "📲"},
+        {"word": "book", "emoji": "📚"},
+        {"word": "easy", "emoji": "✅"},
+        {"word": "travel", "emoji": "✈️"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Language barrier",
+      "steps": [
+        {"word": "different", "emoji": "🔄"},
+        {"word": "language", "emoji": "🗣️"},
+        {"word": "translate", "emoji": "📱"},
+        {"word": "gesture", "emoji": "👋"},
+        {"word": "communicate", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Travel pillow",
+      "steps": [
+        {"word": "neck", "emoji": "🦒"},
+        {"word": "pillow", "emoji": "🟦"},
+        {"word": "comfortable", "emoji": "😌"},
+        {"word": "sleep", "emoji": "😴"},
+        {"word": "travel", "emoji": "✈️"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Travel snacks",
+      "steps": [
+        {"word": "pack", "emoji": "🎒"},
+        {"word": "snacks", "emoji": "🍿"},
+        {"word": "hungry", "emoji": "😋"},
+        {"word": "eat", "emoji": "🍽️"},
+        {"word": "happy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Travel games",
+      "steps": [
+        {"word": "long", "emoji": "📏"},
+        {"word": "trip", "emoji": "🚗"},
+        {"word": "play", "emoji": "🎮"},
+        {"word": "games", "emoji": "🎲"},
+        {"word": "fun", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Travel playlist",
+      "steps": [
+        {"word": "music", "emoji": "🎵"},
+        {"word": "playlist", "emoji": "📋"},
+        {"word": "headphones", "emoji": "🎧"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "enjoy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Travel memories",
+      "steps": [
+        {"word": "trip", "emoji": "✈️"},
+        {"word": "over", "emoji": "✅"},
+        {"word": "photos", "emoji": "📸"},
+        {"word": "stories", "emoji": "📚"},
+        {"word": "remember", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Home arrival",
+      "steps": [
+        {"word": "travel", "emoji": "✈️"},
+        {"word": "done", "emoji": "✅"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "unpack", "emoji": "🧳"},
+        {"word": "rest", "emoji": "😴"}
+      ]
+    }
+  ]
+}

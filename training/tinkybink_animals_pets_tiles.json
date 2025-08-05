@@ -1,0 +1,1105 @@
+{
+  "category": "🐾 Animals & Pets",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Pet a dog",
+      "steps": [
+        {"word": "reach", "emoji": "✋"},
+        {"word": "out", "emoji": "➡️"},
+        {"word": "hand", "emoji": "🐕"},
+        {"word": "gentle", "emoji": "🤗"},
+        {"word": "pet", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Feed a cat",
+      "steps": [
+        {"word": "open", "emoji": "🥫"},
+        {"word": "cat", "emoji": "🍽️"},
+        {"word": "food", "emoji": "🐱"},
+        {"word": "pour", "emoji": "🍶"},
+        {"word": "bowl", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Walk the dog",
+      "steps": [
+        {"word": "put", "emoji": "🦮"},
+        {"word": "on", "emoji": "📍"},
+        {"word": "leash", "emoji": "🚶"},
+        {"word": "walk", "emoji": "🌳"},
+        {"word": "outside", "emoji": "🐕"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Clean fish tank",
+      "steps": [
+        {"word": "remove", "emoji": "🐠"},
+        {"word": "dirty", "emoji": "💧"},
+        {"word": "water", "emoji": "🧽"},
+        {"word": "clean", "emoji": "🐟"},
+        {"word": "tank", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Brush pet fur",
+      "steps": [
+        {"word": "use", "emoji": "🪮"},
+        {"word": "brush", "emoji": "🐕"},
+        {"word": "gentle", "emoji": "🔄"},
+        {"word": "strokes", "emoji": "✨"},
+        {"word": "soft", "emoji": "🐾"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Play fetch",
+      "steps": [
+        {"word": "throw", "emoji": "🎾"},
+        {"word": "ball", "emoji": "🐕"},
+        {"word": "dog", "emoji": "🏃"},
+        {"word": "runs", "emoji": "↩️"},
+        {"word": "brings", "emoji": "🎾"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Give treat",
+      "steps": [
+        {"word": "hold", "emoji": "🦴"},
+        {"word": "treat", "emoji": "✋"},
+        {"word": "in", "emoji": "🐕"},
+        {"word": "hand", "emoji": "😋"},
+        {"word": "reward", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Watch birds",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "at", "emoji": "🌳"},
+        {"word": "trees", "emoji": "🐦"},
+        {"word": "birds", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Visit zoo",
+      "steps": [
+        {"word": "go", "emoji": "🚶"},
+        {"word": "to", "emoji": "🦁"},
+        {"word": "zoo", "emoji": "👀"},
+        {"word": "see", "emoji": "🐘"},
+        {"word": "animals", "emoji": "📸"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Clean litter box",
+      "steps": [
+        {"word": "scoop", "emoji": "🥄"},
+        {"word": "out", "emoji": "⬆️"},
+        {"word": "dirty", "emoji": "📦"},
+        {"word": "litter", "emoji": "🐱"},
+        {"word": "fresh", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Ride a horse",
+      "steps": [
+        {"word": "climb", "emoji": "🐎"},
+        {"word": "on", "emoji": "📍"},
+        {"word": "horse", "emoji": "🏇"},
+        {"word": "hold", "emoji": "🤲"},
+        {"word": "reins", "emoji": "🐴"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Feed ducks",
+      "steps": [
+        {"word": "bring", "emoji": "🍞"},
+        {"word": "bread", "emoji": "🦆"},
+        {"word": "to", "emoji": "🌊"},
+        {"word": "pond", "emoji": "🍞"},
+        {"word": "throw", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Watch butterfly",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "colorful", "emoji": "🦋"},
+        {"word": "butterfly", "emoji": "🌸"},
+        {"word": "on", "emoji": "📍"},
+        {"word": "flower", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Listen to frog",
+      "steps": [
+        {"word": "hear", "emoji": "👂"},
+        {"word": "frog", "emoji": "🐸"},
+        {"word": "ribbit", "emoji": "🔊"},
+        {"word": "by", "emoji": "💧"},
+        {"word": "water", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "See elephant",
+      "steps": [
+        {"word": "big", "emoji": "🐘"},
+        {"word": "gray", "emoji": "🎭"},
+        {"word": "elephant", "emoji": "👃"},
+        {"word": "long", "emoji": "🥜"},
+        {"word": "trunk", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Count sheep",
+      "steps": [
+        {"word": "fluffy", "emoji": "🐑"},
+        {"word": "white", "emoji": "⚪"},
+        {"word": "sheep", "emoji": "🔢"},
+        {"word": "count", "emoji": "1️⃣"},
+        {"word": "numbers", "emoji": "💤"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Milk a cow",
+      "steps": [
+        {"word": "sit", "emoji": "🐄"},
+        {"word": "by", "emoji": "📍"},
+        {"word": "cow", "emoji": "🥛"},
+        {"word": "squeeze", "emoji": "💪"},
+        {"word": "milk", "emoji": "🍼"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Shear sheep",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "wool", "emoji": "🐑"},
+        {"word": "from", "emoji": "➡️"},
+        {"word": "sheep", "emoji": "🧶"},
+        {"word": "yarn", "emoji": "👕"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Collect eggs",
+      "steps": [
+        {"word": "reach", "emoji": "✋"},
+        {"word": "under", "emoji": "⬇️"},
+        {"word": "chicken", "emoji": "🐔"},
+        {"word": "take", "emoji": "🥚"},
+        {"word": "eggs", "emoji": "🧺"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Swim with dolphins",
+      "steps": [
+        {"word": "jump", "emoji": "🌊"},
+        {"word": "in", "emoji": "📍"},
+        {"word": "water", "emoji": "🐬"},
+        {"word": "dolphins", "emoji": "🏊"},
+        {"word": "swim", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Watch lion roar",
+      "steps": [
+        {"word": "big", "emoji": "🦁"},
+        {"word": "lion", "emoji": "👄"},
+        {"word": "opens", "emoji": "🔊"},
+        {"word": "mouth", "emoji": "📢"},
+        {"word": "roars", "emoji": "👑"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Feed giraffe",
+      "steps": [
+        {"word": "tall", "emoji": "🦒"},
+        {"word": "giraffe", "emoji": "📏"},
+        {"word": "long", "emoji": "🦒"},
+        {"word": "neck", "emoji": "🍃"},
+        {"word": "leaves", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "See tiger stripes",
+      "steps": [
+        {"word": "orange", "emoji": "🐅"},
+        {"word": "tiger", "emoji": "⚫"},
+        {"word": "black", "emoji": "📏"},
+        {"word": "stripes", "emoji": "🎨"},
+        {"word": "pattern", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Watch monkey swing",
+      "steps": [
+        {"word": "monkey", "emoji": "🐒"},
+        {"word": "hangs", "emoji": "🌳"},
+        {"word": "from", "emoji": "🤸"},
+        {"word": "tree", "emoji": "🌿"},
+        {"word": "swings", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "See zebra pattern",
+      "steps": [
+        {"word": "zebra", "emoji": "🦓"},
+        {"word": "has", "emoji": "⚫"},
+        {"word": "black", "emoji": "⚪"},
+        {"word": "white", "emoji": "📏"},
+        {"word": "stripes", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Watch penguin waddle",
+      "steps": [
+        {"word": "penguin", "emoji": "🐧"},
+        {"word": "walks", "emoji": "🚶"},
+        {"word": "funny", "emoji": "😄"},
+        {"word": "waddle", "emoji": "❄️"},
+        {"word": "ice", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "See kangaroo hop",
+      "steps": [
+        {"word": "kangaroo", "emoji": "🦘"},
+        {"word": "jumps", "emoji": "🦘"},
+        {"word": "hops", "emoji": "⬆️"},
+        {"word": "high", "emoji": "🍼"},
+        {"word": "pouch", "emoji": "👶"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Watch bear fish",
+      "steps": [
+        {"word": "bear", "emoji": "🐻"},
+        {"word": "stands", "emoji": "🌊"},
+        {"word": "in", "emoji": "📍"},
+        {"word": "river", "emoji": "🐟"},
+        {"word": "catches", "emoji": "🎣"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "See owl at night",
+      "steps": [
+        {"word": "night", "emoji": "🌃"},
+        {"word": "time", "emoji": "🦉"},
+        {"word": "owl", "emoji": "👀"},
+        {"word": "big", "emoji": "🌙"},
+        {"word": "eyes", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Watch eagle soar",
+      "steps": [
+        {"word": "eagle", "emoji": "🦅"},
+        {"word": "spreads", "emoji": "🪶"},
+        {"word": "wings", "emoji": "☁️"},
+        {"word": "flies", "emoji": "⬆️"},
+        {"word": "high", "emoji": "🌤️"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Train your pet",
+      "steps": [
+        {"word": "teach", "emoji": "🐕"},
+        {"word": "pet", "emoji": "📚"},
+        {"word": "commands", "emoji": "👆"},
+        {"word": "sit", "emoji": "🦴"},
+        {"word": "treat", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Groom hamster",
+      "steps": [
+        {"word": "small", "emoji": "🐹"},
+        {"word": "hamster", "emoji": "🪮"},
+        {"word": "tiny", "emoji": "🤏"},
+        {"word": "brush", "emoji": "✨"},
+        {"word": "clean", "emoji": "🧼"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Change bird water",
+      "steps": [
+        {"word": "empty", "emoji": "🐦"},
+        {"word": "old", "emoji": "💧"},
+        {"word": "water", "emoji": "🚿"},
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "fresh", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Play with kitten",
+      "steps": [
+        {"word": "dangle", "emoji": "🐱"},
+        {"word": "toy", "emoji": "🧶"},
+        {"word": "string", "emoji": "🐾"},
+        {"word": "kitten", "emoji": "😸"},
+        {"word": "pounces", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Watch turtle",
+      "steps": [
+        {"word": "slow", "emoji": "🐢"},
+        {"word": "turtle", "emoji": "🐌"},
+        {"word": "moves", "emoji": "➡️"},
+        {"word": "steady", "emoji": "🏠"},
+        {"word": "shell", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "See rabbit hop",
+      "steps": [
+        {"word": "fluffy", "emoji": "🐰"},
+        {"word": "rabbit", "emoji": "🦘"},
+        {"word": "hops", "emoji": "⬆️"},
+        {"word": "around", "emoji": "🔄"},
+        {"word": "yard", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Watch snake slither",
+      "steps": [
+        {"word": "snake", "emoji": "🐍"},
+        {"word": "no", "emoji": "🚫"},
+        {"word": "legs", "emoji": "🦵"},
+        {"word": "slithers", "emoji": "🌊"},
+        {"word": "ground", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Feed pet rabbit",
+      "steps": [
+        {"word": "give", "emoji": "🐰"},
+        {"word": "rabbit", "emoji": "🥕"},
+        {"word": "carrots", "emoji": "🥬"},
+        {"word": "lettuce", "emoji": "😋"},
+        {"word": "healthy", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Watch squirrel",
+      "steps": [
+        {"word": "squirrel", "emoji": "🐿️"},
+        {"word": "climbs", "emoji": "🌳"},
+        {"word": "tree", "emoji": "🥜"},
+        {"word": "collects", "emoji": "🍂"},
+        {"word": "nuts", "emoji": "📦"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "See deer run",
+      "steps": [
+        {"word": "graceful", "emoji": "🦌"},
+        {"word": "deer", "emoji": "🏃"},
+        {"word": "runs", "emoji": "💨"},
+        {"word": "fast", "emoji": "🌲"},
+        {"word": "forest", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Pet therapy animal",
+      "steps": [
+        {"word": "special", "emoji": "🐕‍🦺"},
+        {"word": "trained", "emoji": "🏥"},
+        {"word": "animal", "emoji": "❤️"},
+        {"word": "helps", "emoji": "😊"},
+        {"word": "people", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Visit animal shelter",
+      "steps": [
+        {"word": "go", "emoji": "🚶"},
+        {"word": "to", "emoji": "🏠"},
+        {"word": "shelter", "emoji": "🐕"},
+        {"word": "help", "emoji": "❤️"},
+        {"word": "animals", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Adopt a pet",
+      "steps": [
+        {"word": "choose", "emoji": "🐕"},
+        {"word": "animal", "emoji": "❤️"},
+        {"word": "to", "emoji": "🏠"},
+        {"word": "love", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "family", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Vet checkup",
+      "steps": [
+        {"word": "take", "emoji": "🐕"},
+        {"word": "pet", "emoji": "👩‍⚕️"},
+        {"word": "to", "emoji": "🏥"},
+        {"word": "doctor", "emoji": "🩺"},
+        {"word": "healthy", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Animal sounds",
+      "steps": [
+        {"word": "dog", "emoji": "🐕"},
+        {"word": "barks", "emoji": "🔊"},
+        {"word": "cat", "emoji": "🐱"},
+        {"word": "meows", "emoji": "🎵"},
+        {"word": "sounds", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Build birdhouse",
+      "steps": [
+        {"word": "make", "emoji": "🏠"},
+        {"word": "small", "emoji": "🐦"},
+        {"word": "house", "emoji": "🌳"},
+        {"word": "for", "emoji": "🪺"},
+        {"word": "birds", "emoji": "🔨"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Watch bees work",
+      "steps": [
+        {"word": "busy", "emoji": "🐝"},
+        {"word": "bees", "emoji": "🌸"},
+        {"word": "collect", "emoji": "🍯"},
+        {"word": "nectar", "emoji": "🏠"},
+        {"word": "hive", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "See spider web",
+      "steps": [
+        {"word": "spider", "emoji": "🕷️"},
+        {"word": "spins", "emoji": "🕸️"},
+        {"word": "web", "emoji": "✨"},
+        {"word": "catches", "emoji": "🪰"},
+        {"word": "flies", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Watch ants march",
+      "steps": [
+        {"word": "tiny", "emoji": "🐜"},
+        {"word": "ants", "emoji": "📏"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "in", "emoji": "📍"},
+        {"word": "line", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "See fireflies glow",
+      "steps": [
+        {"word": "night", "emoji": "🌃"},
+        {"word": "time", "emoji": "✨"},
+        {"word": "fireflies", "emoji": "💡"},
+        {"word": "blink", "emoji": "🌟"},
+        {"word": "light", "emoji": "🔆"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Animal habitats",
+      "steps": [
+        {"word": "animals", "emoji": "🐻"},
+        {"word": "live", "emoji": "🏠"},
+        {"word": "in", "emoji": "📍"},
+        {"word": "different", "emoji": "🌲"},
+        {"word": "homes", "emoji": "🏔️"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Ocean animals",
+      "steps": [
+        {"word": "whale", "emoji": "🐋"},
+        {"word": "shark", "emoji": "🦈"},
+        {"word": "fish", "emoji": "🐠"},
+        {"word": "live", "emoji": "🌊"},
+        {"word": "ocean", "emoji": "💙"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Arctic animals",
+      "steps": [
+        {"word": "polar", "emoji": "🐻‍❄️"},
+        {"word": "bear", "emoji": "🐧"},
+        {"word": "penguin", "emoji": "❄️"},
+        {"word": "cold", "emoji": "🧊"},
+        {"word": "ice", "emoji": "🏔️"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Desert animals",
+      "steps": [
+        {"word": "camel", "emoji": "🐪"},
+        {"word": "lizard", "emoji": "🦎"},
+        {"word": "live", "emoji": "🏜️"},
+        {"word": "hot", "emoji": "☀️"},
+        {"word": "desert", "emoji": "🌵"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Rainforest animals",
+      "steps": [
+        {"word": "monkey", "emoji": "🐒"},
+        {"word": "parrot", "emoji": "🦜"},
+        {"word": "live", "emoji": "🌳"},
+        {"word": "jungle", "emoji": "🌿"},
+        {"word": "trees", "emoji": "☂️"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Animal families",
+      "steps": [
+        {"word": "baby", "emoji": "👶"},
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "stay", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "with", "emoji": "❤️"},
+        {"word": "parents", "emoji": "🤱"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Animals migrate",
+      "steps": [
+        {"word": "some", "emoji": "🦅"},
+        {"word": "animals", "emoji": "🧳"},
+        {"word": "travel", "emoji": "🗺️"},
+        {"word": "far", "emoji": "❄️"},
+        {"word": "winter", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Animals hibernate",
+      "steps": [
+        {"word": "bears", "emoji": "🐻"},
+        {"word": "sleep", "emoji": "😴"},
+        {"word": "all", "emoji": "❄️"},
+        {"word": "winter", "emoji": "🏠"},
+        {"word": "cave", "emoji": "💤"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Protect animals",
+      "steps": [
+        {"word": "keep", "emoji": "🐾"},
+        {"word": "animals", "emoji": "🛡️"},
+        {"word": "safe", "emoji": "🌍"},
+        {"word": "clean", "emoji": "♻️"},
+        {"word": "earth", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Endangered species",
+      "steps": [
+        {"word": "some", "emoji": "🐼"},
+        {"word": "animals", "emoji": "⚠️"},
+        {"word": "need", "emoji": "🛡️"},
+        {"word": "help", "emoji": "💚"},
+        {"word": "survive", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Animal communication",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "talk", "emoji": "💬"},
+        {"word": "to", "emoji": "👥"},
+        {"word": "each", "emoji": "🔊"},
+        {"word": "other", "emoji": "🎵"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Animal instincts",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "know", "emoji": "🧠"},
+        {"word": "things", "emoji": "💭"},
+        {"word": "without", "emoji": "📚"},
+        {"word": "learning", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Animal adaptations",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "have", "emoji": "🔧"},
+        {"word": "special", "emoji": "✨"},
+        {"word": "features", "emoji": "🌍"},
+        {"word": "survive", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Nocturnal animals",
+      "steps": [
+        {"word": "some", "emoji": "🦉"},
+        {"word": "animals", "emoji": "🌃"},
+        {"word": "active", "emoji": "👀"},
+        {"word": "at", "emoji": "🌙"},
+        {"word": "night", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Animal babies",
+      "steps": [
+        {"word": "puppy", "emoji": "🐶"},
+        {"word": "kitten", "emoji": "🐱"},
+        {"word": "chick", "emoji": "🐣"},
+        {"word": "baby", "emoji": "👶"},
+        {"word": "animals", "emoji": "🥰"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Animal groups",
+      "steps": [
+        {"word": "pack", "emoji": "🐺"},
+        {"word": "of", "emoji": "👥"},
+        {"word": "wolves", "emoji": "🐟"},
+        {"word": "school", "emoji": "🦆"},
+        {"word": "fish", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Animal tracks",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "for", "emoji": "🔍"},
+        {"word": "footprints", "emoji": "👣"},
+        {"word": "in", "emoji": "🌍"},
+        {"word": "mud", "emoji": "🐾"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Animal rescue",
+      "steps": [
+        {"word": "help", "emoji": "🆘"},
+        {"word": "injured", "emoji": "🐾"},
+        {"word": "animal", "emoji": "🏥"},
+        {"word": "get", "emoji": "❤️"},
+        {"word": "better", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Wild vs pets",
+      "steps": [
+        {"word": "wild", "emoji": "🦁"},
+        {"word": "animals", "emoji": "🌲"},
+        {"word": "live", "emoji": "🏠"},
+        {"word": "free", "emoji": "🐕"},
+        {"word": "pets", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Animal emotions",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "have", "emoji": "😊"},
+        {"word": "feelings", "emoji": "😢"},
+        {"word": "happy", "emoji": "😨"},
+        {"word": "sad", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Animal intelligence",
+      "steps": [
+        {"word": "dolphins", "emoji": "🐬"},
+        {"word": "elephants", "emoji": "🐘"},
+        {"word": "very", "emoji": "🧠"},
+        {"word": "smart", "emoji": "💡"},
+        {"word": "animals", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Animal tools",
+      "steps": [
+        {"word": "some", "emoji": "🐒"},
+        {"word": "animals", "emoji": "🔧"},
+        {"word": "use", "emoji": "🪵"},
+        {"word": "sticks", "emoji": "🍯"},
+        {"word": "tools", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Animal camouflage",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "hide", "emoji": "🙈"},
+        {"word": "by", "emoji": "🎨"},
+        {"word": "matching", "emoji": "🌿"},
+        {"word": "surroundings", "emoji": "👻"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Animal food chains",
+      "steps": [
+        {"word": "big", "emoji": "🦁"},
+        {"word": "animals", "emoji": "🍖"},
+        {"word": "eat", "emoji": "🐰"},
+        {"word": "smaller", "emoji": "🔗"},
+        {"word": "ones", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Animal senses",
+      "steps": [
+        {"word": "dogs", "emoji": "🐕"},
+        {"word": "smell", "emoji": "👃"},
+        {"word": "very", "emoji": "💪"},
+        {"word": "well", "emoji": "🦅"},
+        {"word": "eagles", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Animal care",
+      "steps": [
+        {"word": "love", "emoji": "❤️"},
+        {"word": "and", "emoji": "🤗"},
+        {"word": "care", "emoji": "🐾"},
+        {"word": "for", "emoji": "💕"},
+        {"word": "animals", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Animal rights",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "deserve", "emoji": "🙏"},
+        {"word": "respect", "emoji": "❤️"},
+        {"word": "and", "emoji": "🛡️"},
+        {"word": "kindness", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Animal therapy",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "help", "emoji": "💊"},
+        {"word": "people", "emoji": "👥"},
+        {"word": "feel", "emoji": "😊"},
+        {"word": "better", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Animal conservation",
+      "steps": [
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "animal", "emoji": "🐾"},
+        {"word": "homes", "emoji": "🏠"},
+        {"word": "save", "emoji": "💚"},
+        {"word": "species", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Animal research",
+      "steps": [
+        {"word": "scientists", "emoji": "👩‍🔬"},
+        {"word": "study", "emoji": "📚"},
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "learn", "emoji": "🧠"},
+        {"word": "more", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Extinct animals",
+      "steps": [
+        {"word": "dinosaurs", "emoji": "🦕"},
+        {"word": "lived", "emoji": "📅"},
+        {"word": "long", "emoji": "⏰"},
+        {"word": "ago", "emoji": "🦴"},
+        {"word": "fossils", "emoji": "🏛️"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Animal evolution",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "over", "emoji": "📅"},
+        {"word": "long", "emoji": "⏰"},
+        {"word": "time", "emoji": "🧬"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Animal myths",
+      "steps": [
+        {"word": "stories", "emoji": "📚"},
+        {"word": "about", "emoji": "🐉"},
+        {"word": "magical", "emoji": "✨"},
+        {"word": "animals", "emoji": "🦄"},
+        {"word": "legends", "emoji": "🏰"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Animal symbols",
+      "steps": [
+        {"word": "eagle", "emoji": "🦅"},
+        {"word": "means", "emoji": "🇺🇸"},
+        {"word": "freedom", "emoji": "🦁"},
+        {"word": "lion", "emoji": "👑"},
+        {"word": "strength", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Animal art",
+      "steps": [
+        {"word": "draw", "emoji": "🎨"},
+        {"word": "paint", "emoji": "🖌️"},
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "beautiful", "emoji": "😍"},
+        {"word": "pictures", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Animal stories",
+      "steps": [
+        {"word": "read", "emoji": "📚"},
+        {"word": "books", "emoji": "📖"},
+        {"word": "about", "emoji": "🐾"},
+        {"word": "animal", "emoji": "📜"},
+        {"word": "adventures", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Animal games",
+      "steps": [
+        {"word": "play", "emoji": "🎮"},
+        {"word": "games", "emoji": "🐾"},
+        {"word": "about", "emoji": "🦁"},
+        {"word": "animals", "emoji": "😄"},
+        {"word": "fun", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Animal songs",
+      "steps": [
+        {"word": "sing", "emoji": "🎵"},
+        {"word": "songs", "emoji": "🎶"},
+        {"word": "about", "emoji": "🐾"},
+        {"word": "animals", "emoji": "🎤"},
+        {"word": "music", "emoji": "🎼"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Animal dreams",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "sleep", "emoji": "😴"},
+        {"word": "and", "emoji": "💭"},
+        {"word": "dream", "emoji": "💤"},
+        {"word": "too", "emoji": "🌙"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Animal friendship",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "can", "emoji": "👫"},
+        {"word": "be", "emoji": "❤️"},
+        {"word": "best", "emoji": "🤗"},
+        {"word": "friends", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Animal helpers",
+      "steps": [
+        {"word": "guide", "emoji": "🦮"},
+        {"word": "dogs", "emoji": "👁️"},
+        {"word": "help", "emoji": "🐕‍🦺"},
+        {"word": "people", "emoji": "👥"},
+        {"word": "see", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Animal Olympics",
+      "steps": [
+        {"word": "cheetah", "emoji": "🐆"},
+        {"word": "fastest", "emoji": "🏃"},
+        {"word": "runner", "emoji": "🐘"},
+        {"word": "elephant", "emoji": "💪"},
+        {"word": "strongest", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Animal superpowers",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "have", "emoji": "⚡"},
+        {"word": "amazing", "emoji": "✨"},
+        {"word": "special", "emoji": "🦸"},
+        {"word": "abilities", "emoji": "💫"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Animal weather",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "predict", "emoji": "🔮"},
+        {"word": "weather", "emoji": "🌤️"},
+        {"word": "better", "emoji": "📡"},
+        {"word": "than", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Animal architects",
+      "steps": [
+        {"word": "beavers", "emoji": "🦫"},
+        {"word": "build", "emoji": "🏗️"},
+        {"word": "dams", "emoji": "🐝"},
+        {"word": "bees", "emoji": "🏠"},
+        {"word": "hives", "emoji": "🔨"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Animal medicine",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "help", "emoji": "💊"},
+        {"word": "make", "emoji": "🧪"},
+        {"word": "human", "emoji": "👥"},
+        {"word": "medicine", "emoji": "⚕️"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Animal language",
+      "steps": [
+        {"word": "learn", "emoji": "📚"},
+        {"word": "how", "emoji": "🐾"},
+        {"word": "animals", "emoji": "💬"},
+        {"word": "communicate", "emoji": "🗣️"},
+        {"word": "talk", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Animal appreciation",
+      "steps": [
+        {"word": "thank", "emoji": "🙏"},
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "for", "emoji": "❤️"},
+        {"word": "all", "emoji": "🌍"},
+        {"word": "they", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Animal wonder",
+      "steps": [
+        {"word": "animals", "emoji": "🐾"},
+        {"word": "are", "emoji": "✨"},
+        {"word": "amazing", "emoji": "😍"},
+        {"word": "and", "emoji": "🌟"},
+        {"word": "wonderful", "emoji": "💫"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Love all animals",
+      "steps": [
+        {"word": "every", "emoji": "🐾"},
+        {"word": "animal", "emoji": "❤️"},
+        {"word": "is", "emoji": "✨"},
+        {"word": "special", "emoji": "🌟"},
+        {"word": "love", "emoji": "💕"}
+      ]
+    }
+  ]
+}

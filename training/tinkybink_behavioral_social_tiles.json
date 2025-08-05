@@ -1,0 +1,1170 @@
+{
+  "tinkybink_behavioral_social_tiles": {
+    "conflict_resolution": {
+      "category_emoji": "🤝",
+      "category_name": "Conflict Resolution Steps",
+      "tiles": [
+        {
+          "id": 1,
+          "title": "Solve a problem with friend",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Talk", "emoji": "💬"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Solve", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 2,
+          "title": "When someone takes my toy",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Mine", "emoji": "☝️"},
+            {"word": "Please", "emoji": "🙏"},
+            {"word": "Share", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 3,
+          "title": "When I'm left out",
+          "steps": [
+            {"word": "Feel", "emoji": "😔"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Join", "emoji": "🤝"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Try", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 4,
+          "title": "When someone is mean",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Away", "emoji": "↩️"},
+            {"word": "Tell", "emoji": "💬"},
+            {"word": "Adult", "emoji": "👤"}
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Share or take turns",
+          "steps": [
+            {"word": "Both", "emoji": "👥"},
+            {"word": "Want", "emoji": "🤲"},
+            {"word": "Timer", "emoji": "⏲️"},
+            {"word": "Turns", "emoji": "🔄"},
+            {"word": "Fair", "emoji": "⚖️"}
+          ]
+        },
+        {
+          "id": 6,
+          "title": "When I disagree",
+          "steps": [
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Nicely", "emoji": "😊"},
+            {"word": "OK", "emoji": "👍"}
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Make up after argument",
+          "steps": [
+            {"word": "Cool", "emoji": "❄️"},
+            {"word": "Down", "emoji": "⬇️"},
+            {"word": "Sorry", "emoji": "😔"},
+            {"word": "Friends", "emoji": "🤝"},
+            {"word": "Again", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 8,
+          "title": "When rules are broken",
+          "steps": [
+            {"word": "See", "emoji": "👀"},
+            {"word": "Wrong", "emoji": "❌"},
+            {"word": "Remind", "emoji": "💬"},
+            {"word": "Rules", "emoji": "📋"},
+            {"word": "Tell", "emoji": "🗣️"}
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Handle teasing",
+          "steps": [
+            {"word": "Ignore", "emoji": "🙈"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Tell", "emoji": "💬"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Help", "emoji": "🆘"}
+          ]
+        },
+        {
+          "id": 10,
+          "title": "When I feel angry",
+          "steps": [
+            {"word": "Feel", "emoji": "😠"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Count", "emoji": "🔢"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Compromise with others",
+          "steps": [
+            {"word": "Both", "emoji": "👥"},
+            {"word": "Give", "emoji": "🤲"},
+            {"word": "Little", "emoji": "🤏"},
+            {"word": "Meet", "emoji": "🤝"},
+            {"word": "Middle", "emoji": "🎯"}
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Stand up for myself",
+          "steps": [
+            {"word": "Strong", "emoji": "💪"},
+            {"word": "Voice", "emoji": "🗣️"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "No", "emoji": "❌"},
+            {"word": "OK", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 13,
+          "title": "When I hurt someone",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Sorry", "emoji": "😔"},
+            {"word": "Help", "emoji": "🤲"},
+            {"word": "Better", "emoji": "💚"}
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Ask for what I need",
+          "steps": [
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Need", "emoji": "🤲"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Nicely", "emoji": "😊"},
+            {"word": "Wait", "emoji": "⏰"}
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Deal with disappointment",
+          "steps": [
+            {"word": "Sad", "emoji": "😢"},
+            {"word": "OK", "emoji": "👍"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Next", "emoji": "➡️"},
+            {"word": "Time", "emoji": "⏰"}
+          ]
+        }
+      ]
+    },
+    "problem_solving": {
+      "category_emoji": "🧩",
+      "category_name": "Problem-Solving Sequences",
+      "tiles": [
+        {
+          "id": 16,
+          "title": "Think of solutions",
+          "steps": [
+            {"word": "Problem", "emoji": "❓"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Ideas", "emoji": "💡"},
+            {"word": "Choose", "emoji": "👉"},
+            {"word": "Try", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Try another way",
+          "steps": [
+            {"word": "Stuck", "emoji": "🚫"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Different", "emoji": "🔄"},
+            {"word": "Try", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Break big problems down",
+          "steps": [
+            {"word": "Big", "emoji": "🐘"},
+            {"word": "Problem", "emoji": "❓"},
+            {"word": "Small", "emoji": "🐭"},
+            {"word": "Steps", "emoji": "👣"},
+            {"word": "Solve", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Ask for help solving",
+          "steps": [
+            {"word": "Tried", "emoji": "💪"},
+            {"word": "Hard", "emoji": "😤"},
+            {"word": "Ask", "emoji": "🙋"},
+            {"word": "Help", "emoji": "🆘"},
+            {"word": "Together", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Think before acting",
+          "steps": [
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "What", "emoji": "❓"},
+            {"word": "Happens", "emoji": "💭"},
+            {"word": "Choose", "emoji": "👉"}
+          ]
+        }
+      ]
+    },
+    "perspective_taking": {
+      "category_emoji": "👁️",
+      "category_name": "Perspective-Taking Activities",
+      "tiles": [
+        {
+          "id": 21,
+          "title": "Think how others feel",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Face", "emoji": "😊"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Feel", "emoji": "❤️"},
+            {"word": "Why", "emoji": "❓"}
+          ]
+        },
+        {
+          "id": 22,
+          "title": "See another viewpoint",
+          "steps": [
+            {"word": "Me", "emoji": "👉"},
+            {"word": "Think", "emoji": "💭"},
+            {"word": "They", "emoji": "👤"},
+            {"word": "Think", "emoji": "💭"},
+            {"word": "Different", "emoji": "↔️"}
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Understand why someone is upset",
+          "steps": [
+            {"word": "See", "emoji": "👀"},
+            {"word": "Sad", "emoji": "😢"},
+            {"word": "Why", "emoji": "❓"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Help", "emoji": "🤲"}
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Share others' happiness",
+          "steps": [
+            {"word": "Friend", "emoji": "👤"},
+            {"word": "Happy", "emoji": "😊"},
+            {"word": "Me", "emoji": "👉"},
+            {"word": "Happy", "emoji": "😄"},
+            {"word": "Too", "emoji": "🎉"}
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Predict how others might react",
+          "steps": [
+            {"word": "If", "emoji": "❓"},
+            {"word": "I", "emoji": "👉"},
+            {"word": "Do", "emoji": "💪"},
+            {"word": "They", "emoji": "👤"},
+            {"word": "Feel", "emoji": "❤️"}
+          ]
+        }
+      ]
+    },
+    "joint_attention": {
+      "category_emoji": "👀",
+      "category_name": "Joint Attention Activities",
+      "tiles": [
+        {
+          "id": 26,
+          "title": "Look where someone points",
+          "steps": [
+            {"word": "See", "emoji": "👀"},
+            {"word": "Point", "emoji": "👉"},
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "Look", "emoji": "👁️"},
+            {"word": "Same", "emoji": "🟰"}
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Show something interesting",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Cool", "emoji": "😎"},
+            {"word": "Show", "emoji": "👋"},
+            {"word": "Share", "emoji": "🤝"},
+            {"word": "See", "emoji": "👁️"}
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Follow someone's gaze",
+          "steps": [
+            {"word": "Person", "emoji": "👤"},
+            {"word": "Looking", "emoji": "👀"},
+            {"word": "Where", "emoji": "❓"},
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "See", "emoji": "👁️"}
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Share attention during play",
+          "steps": [
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Friend", "emoji": "👤"},
+            {"word": "Toy", "emoji": "🧸"},
+            {"word": "Together", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Check if others are looking",
+          "steps": [
+            {"word": "Show", "emoji": "👋"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "They", "emoji": "👤"},
+            {"word": "See", "emoji": "👁️"},
+            {"word": "Good", "emoji": "✅"}
+          ]
+        }
+      ]
+    },
+    "imitation_skills": {
+      "category_emoji": "🪞",
+      "category_name": "Imitation Skills",
+      "tiles": [
+        {
+          "id": 31,
+          "title": "Copy body movements",
+          "steps": [
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "See", "emoji": "👁️"},
+            {"word": "Do", "emoji": "💪"},
+            {"word": "Same", "emoji": "🟰"},
+            {"word": "Copy", "emoji": "📋"}
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Copy facial expressions",
+          "steps": [
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Face", "emoji": "😊"},
+            {"word": "Make", "emoji": "🎭"},
+            {"word": "Same", "emoji": "🟰"},
+            {"word": "Face", "emoji": "😄"}
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Copy sounds and words",
+          "steps": [
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Sound", "emoji": "🔊"},
+            {"word": "Try", "emoji": "💪"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "Same", "emoji": "🟰"}
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Copy play actions",
+          "steps": [
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Do", "emoji": "💪"},
+            {"word": "Same", "emoji": "🟰"},
+            {"word": "Fun", "emoji": "😄"}
+          ]
+        },
+        {
+          "id": 35,
+          "title": "Mirror dance moves",
+          "steps": [
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Dance", "emoji": "💃"},
+            {"word": "Copy", "emoji": "🪞"},
+            {"word": "Move", "emoji": "🕺"},
+            {"word": "Together", "emoji": "🤝"}
+          ]
+        }
+      ]
+    },
+    "play_skills": {
+      "category_emoji": "🎮",
+      "category_name": "Play Skills Progression",
+      "tiles": [
+        {
+          "id": 36,
+          "title": "Play alone appropriately",
+          "steps": [
+            {"word": "Choose", "emoji": "👉"},
+            {"word": "Toy", "emoji": "🧸"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Happy", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 37,
+          "title": "Play next to others",
+          "steps": [
+            {"word": "Near", "emoji": "📍"},
+            {"word": "Friends", "emoji": "👥"},
+            {"word": "Own", "emoji": "🧸"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "OK", "emoji": "👍"}
+          ]
+        },
+        {
+          "id": 38,
+          "title": "Share play space",
+          "steps": [
+            {"word": "Room", "emoji": "📦"},
+            {"word": "Both", "emoji": "👥"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Space", "emoji": "↔️"},
+            {"word": "Share", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 39,
+          "title": "Play cooperatively",
+          "steps": [
+            {"word": "Together", "emoji": "👥"},
+            {"word": "Plan", "emoji": "💭"},
+            {"word": "Build", "emoji": "🏗️"},
+            {"word": "Help", "emoji": "🤲"},
+            {"word": "Team", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 40,
+          "title": "Take play turns",
+          "steps": [
+            {"word": "My", "emoji": "👉"},
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "Your", "emoji": "👈"},
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "Fair", "emoji": "⚖️"}
+          ]
+        },
+        {
+          "id": 41,
+          "title": "Follow game rules",
+          "steps": [
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Rules", "emoji": "📋"},
+            {"word": "Remember", "emoji": "🧠"},
+            {"word": "Follow", "emoji": "✅"},
+            {"word": "Fair", "emoji": "⚖️"}
+          ]
+        },
+        {
+          "id": 42,
+          "title": "Pretend play with others",
+          "steps": [
+            {"word": "Imagine", "emoji": "💭"},
+            {"word": "Story", "emoji": "📖"},
+            {"word": "Act", "emoji": "🎭"},
+            {"word": "Together", "emoji": "👥"},
+            {"word": "Fun", "emoji": "😄"}
+          ]
+        },
+        {
+          "id": 43,
+          "title": "Clean up after play",
+          "steps": [
+            {"word": "Done", "emoji": "✅"},
+            {"word": "Playing", "emoji": "🎮"},
+            {"word": "Pick", "emoji": "🤏"},
+            {"word": "Up", "emoji": "⬆️"},
+            {"word": "Away", "emoji": "📦"}
+          ]
+        },
+        {
+          "id": 44,
+          "title": "Ask to join play",
+          "steps": [
+            {"word": "See", "emoji": "👀"},
+            {"word": "Fun", "emoji": "😄"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Join", "emoji": "🤝"},
+            {"word": "Play", "emoji": "🎮"}
+          ]
+        },
+        {
+          "id": 45,
+          "title": "Include others in play",
+          "steps": [
+            {"word": "See", "emoji": "👀"},
+            {"word": "Alone", "emoji": "😔"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Come", "emoji": "👋"},
+            {"word": "Play", "emoji": "🎮"}
+          ]
+        }
+      ]
+    },
+    "social_stories": {
+      "category_emoji": "📖",
+      "category_name": "Social Stories for Specific Situations",
+      "tiles": [
+        {
+          "id": 46,
+          "title": "Going to a new place",
+          "steps": [
+            {"word": "New", "emoji": "🆕"},
+            {"word": "Place", "emoji": "📍"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Safe", "emoji": "✅"},
+            {"word": "OK", "emoji": "👍"}
+          ]
+        },
+        {
+          "id": 47,
+          "title": "Meeting new people",
+          "steps": [
+            {"word": "New", "emoji": "🆕"},
+            {"word": "Person", "emoji": "👤"},
+            {"word": "Hi", "emoji": "👋"},
+            {"word": "Name", "emoji": "🏷️"},
+            {"word": "Nice", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 48,
+          "title": "Waiting in line",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Still", "emoji": "🛑"},
+            {"word": "Patient", "emoji": "😌"},
+            {"word": "Turn", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 49,
+          "title": "Losing a game",
+          "steps": [
+            {"word": "Lost", "emoji": "😔"},
+            {"word": "OK", "emoji": "👍"},
+            {"word": "Good", "emoji": "😊"},
+            {"word": "Try", "emoji": "💪"},
+            {"word": "Next", "emoji": "➡️"}
+          ]
+        },
+        {
+          "id": 50,
+          "title": "Change in routine",
+          "steps": [
+            {"word": "Different", "emoji": "🔄"},
+            {"word": "Today", "emoji": "📅"},
+            {"word": "OK", "emoji": "👍"},
+            {"word": "Flexible", "emoji": "🤸"},
+            {"word": "Try", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 51,
+          "title": "Loud noises",
+          "steps": [
+            {"word": "Loud", "emoji": "📢"},
+            {"word": "Sound", "emoji": "🔊"},
+            {"word": "Cover", "emoji": "🙉"},
+            {"word": "Ears", "emoji": "👂"},
+            {"word": "OK", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 52,
+          "title": "Making mistakes",
+          "steps": [
+            {"word": "Oops", "emoji": "😳"},
+            {"word": "Mistake", "emoji": "❌"},
+            {"word": "OK", "emoji": "👍"},
+            {"word": "Learn", "emoji": "🧠"},
+            {"word": "Try", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 53,
+          "title": "Sharing attention",
+          "steps": [
+            {"word": "Teacher", "emoji": "👩‍🏫"},
+            {"word": "Busy", "emoji": "⏰"},
+            {"word": "Wait", "emoji": "✋"},
+            {"word": "Turn", "emoji": "🔄"},
+            {"word": "Soon", "emoji": "⏱️"}
+          ]
+        },
+        {
+          "id": 54,
+          "title": "End of fun activity",
+          "steps": [
+            {"word": "Fun", "emoji": "😄"},
+            {"word": "Time", "emoji": "⏰"},
+            {"word": "Over", "emoji": "🏁"},
+            {"word": "Later", "emoji": "📅"},
+            {"word": "Again", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 55,
+          "title": "Personal space at school",
+          "steps": [
+            {"word": "Arms", "emoji": "💪"},
+            {"word": "Length", "emoji": "📏"},
+            {"word": "Space", "emoji": "📦"},
+            {"word": "Everyone", "emoji": "👥"},
+            {"word": "Happy", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 56,
+          "title": "Fire drill at school",
+          "steps": [
+            {"word": "Alarm", "emoji": "🚨"},
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Outside", "emoji": "🌳"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 57,
+          "title": "Substitute teacher",
+          "steps": [
+            {"word": "New", "emoji": "🆕"},
+            {"word": "Teacher", "emoji": "👩‍🏫"},
+            {"word": "Today", "emoji": "📅"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Same", "emoji": "🟰"}
+          ]
+        },
+        {
+          "id": 58,
+          "title": "Indoor recess",
+          "steps": [
+            {"word": "Rain", "emoji": "🌧️"},
+            {"word": "Inside", "emoji": "🏫"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Different", "emoji": "🔄"},
+            {"word": "Fun", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 59,
+          "title": "Class celebration",
+          "steps": [
+            {"word": "Party", "emoji": "🎉"},
+            {"word": "Excited", "emoji": "😄"},
+            {"word": "Calm", "emoji": "😌"},
+            {"word": "Body", "emoji": "🧍"},
+            {"word": "Fun", "emoji": "🎊"}
+          ]
+        },
+        {
+          "id": 60,
+          "title": "Getting homework",
+          "steps": [
+            {"word": "Teacher", "emoji": "👩‍🏫"},
+            {"word": "Gives", "emoji": "📄"},
+            {"word": "Home", "emoji": "🏠"},
+            {"word": "Work", "emoji": "✏️"},
+            {"word": "OK", "emoji": "✅"}
+          ]
+        }
+      ]
+    },
+    "behavioral_expectations": {
+      "category_emoji": "⭐",
+      "category_name": "Behavioral Expectations",
+      "tiles": [
+        {
+          "id": 61,
+          "title": "Follow classroom rules",
+          "steps": [
+            {"word": "Rules", "emoji": "📋"},
+            {"word": "Posted", "emoji": "📍"},
+            {"word": "Read", "emoji": "👀"},
+            {"word": "Follow", "emoji": "✅"},
+            {"word": "Good", "emoji": "⭐"}
+          ]
+        },
+        {
+          "id": 62,
+          "title": "Use inside voice",
+          "steps": [
+            {"word": "Inside", "emoji": "🏠"},
+            {"word": "Voice", "emoji": "🗣️"},
+            {"word": "Quiet", "emoji": "🔉"},
+            {"word": "Soft", "emoji": "🤫"},
+            {"word": "Nice", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 63,
+          "title": "Walk in hallways",
+          "steps": [
+            {"word": "Hall", "emoji": "🚪"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "No", "emoji": "❌"},
+            {"word": "Run", "emoji": "🏃"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 64,
+          "title": "Keep hands to self",
+          "steps": [
+            {"word": "Hands", "emoji": "🤲"},
+            {"word": "My", "emoji": "👉"},
+            {"word": "Body", "emoji": "🧍"},
+            {"word": "Not", "emoji": "❌"},
+            {"word": "Others", "emoji": "👥"}
+          ]
+        },
+        {
+          "id": 65,
+          "title": "Listen when others speak",
+          "steps": [
+            {"word": "Someone", "emoji": "👤"},
+            {"word": "Talking", "emoji": "💬"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Wait", "emoji": "⏰"}
+          ]
+        },
+        {
+          "id": 66,
+          "title": "Be kind to everyone",
+          "steps": [
+            {"word": "All", "emoji": "👥"},
+            {"word": "People", "emoji": "🌍"},
+            {"word": "Kind", "emoji": "❤️"},
+            {"word": "Words", "emoji": "💬"},
+            {"word": "Actions", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 67,
+          "title": "Clean up my area",
+          "steps": [
+            {"word": "Done", "emoji": "✅"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Mess", "emoji": "🗑️"},
+            {"word": "Clean", "emoji": "🧹"},
+            {"word": "Neat", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 68,
+          "title": "Respect others' belongings",
+          "steps": [
+            {"word": "Not", "emoji": "❌"},
+            {"word": "Mine", "emoji": "☝️"},
+            {"word": "Don't", "emoji": "🚫"},
+            {"word": "Touch", "emoji": "🤲"},
+            {"word": "Ask", "emoji": "💬"}
+          ]
+        },
+        {
+          "id": 69,
+          "title": "Follow directions first time",
+          "steps": [
+            {"word": "Hear", "emoji": "👂"},
+            {"word": "Direction", "emoji": "➡️"},
+            {"word": "Right", "emoji": "✅"},
+            {"word": "Away", "emoji": "⚡"},
+            {"word": "Do", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 70,
+          "title": "Use materials appropriately",
+          "steps": [
+            {"word": "Tools", "emoji": "✏️"},
+            {"word": "Right", "emoji": "✅"},
+            {"word": "Way", "emoji": "➡️"},
+            {"word": "Careful", "emoji": "⚠️"},
+            {"word": "Safe", "emoji": "🛡️"}
+          ]
+        }
+      ]
+    },
+    "self_regulation": {
+      "category_emoji": "🧘",
+      "category_name": "Self-Regulation Strategies",
+      "tiles": [
+        {
+          "id": 71,
+          "title": "Calm down when upset",
+          "steps": [
+            {"word": "Mad", "emoji": "😠"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Count", "emoji": "🔢"},
+            {"word": "Calm", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 72,
+          "title": "Wait for my turn",
+          "steps": [
+            {"word": "Want", "emoji": "🤲"},
+            {"word": "Now", "emoji": "⏰"},
+            {"word": "Wait", "emoji": "✋"},
+            {"word": "Patient", "emoji": "😌"},
+            {"word": "Turn", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 73,
+          "title": "Control my body",
+          "steps": [
+            {"word": "Body", "emoji": "🧍"},
+            {"word": "Wiggly", "emoji": "〰️"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Still", "emoji": "🗿"},
+            {"word": "Control", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 74,
+          "title": "Think before speaking",
+          "steps": [
+            {"word": "Words", "emoji": "💬"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Kind", "emoji": "❤️"},
+            {"word": "Speak", "emoji": "🗣️"}
+          ]
+        },
+        {
+          "id": 75,
+          "title": "Handle frustration",
+          "steps": [
+            {"word": "Hard", "emoji": "😤"},
+            {"word": "Frustrated", "emoji": "😣"},
+            {"word": "Breathe", "emoji": "🌬️"},
+            {"word": "Try", "emoji": "💪"},
+            {"word": "Again", "emoji": "🔄"}
+          ]
+        },
+        {
+          "id": 76,
+          "title": "Stay in my seat",
+          "steps": [
+            {"word": "Seat", "emoji": "🪑"},
+            {"word": "Stay", "emoji": "🛑"},
+            {"word": "Bottom", "emoji": "⬇️"},
+            {"word": "Down", "emoji": "📍"},
+            {"word": "Still", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 77,
+          "title": "Control volume of voice",
+          "steps": [
+            {"word": "Voice", "emoji": "🗣️"},
+            {"word": "Check", "emoji": "✅"},
+            {"word": "Too", "emoji": "📢"},
+            {"word": "Loud", "emoji": "🔊"},
+            {"word": "Softer", "emoji": "🔉"}
+          ]
+        },
+        {
+          "id": 78,
+          "title": "Stop and think",
+          "steps": [
+            {"word": "Impulse", "emoji": "⚡"},
+            {"word": "Stop", "emoji": "✋"},
+            {"word": "Think", "emoji": "🤔"},
+            {"word": "Choose", "emoji": "👉"},
+            {"word": "Do", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 79,
+          "title": "Use coping skills",
+          "steps": [
+            {"word": "Upset", "emoji": "😟"},
+            {"word": "Tools", "emoji": "🧰"},
+            {"word": "Choose", "emoji": "👉"},
+            {"word": "Use", "emoji": "💪"},
+            {"word": "Better", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 80,
+          "title": "Recognize warning signs",
+          "steps": [
+            {"word": "Body", "emoji": "🧍"},
+            {"word": "Tells", "emoji": "💬"},
+            {"word": "Hot", "emoji": "🔥"},
+            {"word": "Tight", "emoji": "😤"},
+            {"word": "Calm", "emoji": "🧘"}
+          ]
+        }
+      ]
+    },
+    "friendship_skills": {
+      "category_emoji": "👫",
+      "category_name": "Friendship & Relationship Skills",
+      "tiles": [
+        {
+          "id": 81,
+          "title": "Make a new friend",
+          "steps": [
+            {"word": "See", "emoji": "👀"},
+            {"word": "Smile", "emoji": "😊"},
+            {"word": "Hi", "emoji": "👋"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Friend", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 82,
+          "title": "Keep friends happy",
+          "steps": [
+            {"word": "Share", "emoji": "🤝"},
+            {"word": "Kind", "emoji": "❤️"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Help", "emoji": "🤲"},
+            {"word": "Friends", "emoji": "👫"}
+          ]
+        },
+        {
+          "id": 83,
+          "title": "Repair friendship after fight",
+          "steps": [
+            {"word": "Fight", "emoji": "😠"},
+            {"word": "Cool", "emoji": "❄️"},
+            {"word": "Sorry", "emoji": "😔"},
+            {"word": "Talk", "emoji": "💬"},
+            {"word": "Friends", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 84,
+          "title": "Include others",
+          "steps": [
+            {"word": "See", "emoji": "👀"},
+            {"word": "Alone", "emoji": "😔"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Join", "emoji": "🤝"},
+            {"word": "Include", "emoji": "👥"}
+          ]
+        },
+        {
+          "id": 85,
+          "title": "Be a good friend",
+          "steps": [
+            {"word": "Help", "emoji": "🤲"},
+            {"word": "Share", "emoji": "🤝"},
+            {"word": "Care", "emoji": "❤️"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Loyal", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 86,
+          "title": "Handle peer pressure",
+          "steps": [
+            {"word": "Friends", "emoji": "👥"},
+            {"word": "Want", "emoji": "🤲"},
+            {"word": "Wrong", "emoji": "❌"},
+            {"word": "Say", "emoji": "💬"},
+            {"word": "No", "emoji": "✋"}
+          ]
+        },
+        {
+          "id": 87,
+          "title": "Show you care",
+          "steps": [
+            {"word": "Friend", "emoji": "👤"},
+            {"word": "Sad", "emoji": "😢"},
+            {"word": "Ask", "emoji": "💬"},
+            {"word": "Help", "emoji": "🤲"},
+            {"word": "Care", "emoji": "❤️"}
+          ]
+        },
+        {
+          "id": 88,
+          "title": "Respect differences",
+          "steps": [
+            {"word": "Different", "emoji": "🌈"},
+            {"word": "OK", "emoji": "👍"},
+            {"word": "Special", "emoji": "⭐"},
+            {"word": "Respect", "emoji": "🤝"},
+            {"word": "Friends", "emoji": "👥"}
+          ]
+        },
+        {
+          "id": 89,
+          "title": "Work out disagreements",
+          "steps": [
+            {"word": "Disagree", "emoji": "↔️"},
+            {"word": "Talk", "emoji": "💬"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Compromise", "emoji": "🤝"},
+            {"word": "OK", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 90,
+          "title": "Celebrate friends' success",
+          "steps": [
+            {"word": "Friend", "emoji": "👤"},
+            {"word": "Win", "emoji": "🏆"},
+            {"word": "Happy", "emoji": "😊"},
+            {"word": "Clap", "emoji": "👏"},
+            {"word": "Good", "emoji": "👍"}
+          ]
+        }
+      ]
+    },
+    "community_behavior": {
+      "category_emoji": "🏘️",
+      "category_name": "Community & Public Behavior",
+      "tiles": [
+        {
+          "id": 91,
+          "title": "Behave in stores",
+          "steps": [
+            {"word": "Store", "emoji": "🏪"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Don't", "emoji": "❌"},
+            {"word": "Touch", "emoji": "🤲"}
+          ]
+        },
+        {
+          "id": 92,
+          "title": "Restaurant manners",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Eat", "emoji": "🍽️"},
+            {"word": "Nice", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 93,
+          "title": "Library behavior",
+          "steps": [
+            {"word": "Library", "emoji": "📚"},
+            {"word": "Whisper", "emoji": "🤫"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Gentle", "emoji": "💝"},
+            {"word": "Books", "emoji": "📖"}
+          ]
+        },
+        {
+          "id": 94,
+          "title": "Movie theater rules",
+          "steps": [
+            {"word": "Seat", "emoji": "🪑"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "No", "emoji": "❌"},
+            {"word": "Phone", "emoji": "📱"}
+          ]
+        },
+        {
+          "id": 95,
+          "title": "Playground etiquette",
+          "steps": [
+            {"word": "Share", "emoji": "🤝"},
+            {"word": "Equipment", "emoji": "🎠"},
+            {"word": "Turns", "emoji": "🔄"},
+            {"word": "Safe", "emoji": "✅"},
+            {"word": "Fun", "emoji": "😄"}
+          ]
+        },
+        {
+          "id": 96,
+          "title": "Doctor office behavior",
+          "steps": [
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Still", "emoji": "🛑"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Cooperate", "emoji": "🤝"}
+          ]
+        },
+        {
+          "id": 97,
+          "title": "Bus behavior",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Seatbelt", "emoji": "🔒"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Stay", "emoji": "🛑"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 98,
+          "title": "Church/worship behavior",
+          "steps": [
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Still", "emoji": "🛑"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Respect", "emoji": "🙏"},
+            {"word": "Peace", "emoji": "☮️"}
+          ]
+        },
+        {
+          "id": 99,
+          "title": "Sports event behavior",
+          "steps": [
+            {"word": "Cheer", "emoji": "📣"},
+            {"word": "Appropriate", "emoji": "✅"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Watch", "emoji": "👀"},
+            {"word": "Fun", "emoji": "🎉"}
+          ]
+        },
+        {
+          "id": 100,
+          "title": "Party behavior",
+          "steps": [
+            {"word": "Excited", "emoji": "😄"},
+            {"word": "Control", "emoji": "💪"},
+            {"word": "Manners", "emoji": "🤝"},
+            {"word": "Share", "emoji": "🎂"},
+            {"word": "Fun", "emoji": "🎉"}
+          ]
+        }
+      ]
+    }
+  }
+}

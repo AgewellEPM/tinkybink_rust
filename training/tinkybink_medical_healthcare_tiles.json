@@ -1,0 +1,1105 @@
+{
+  "category": "🏥 Medical & Healthcare",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Go to doctor",
+      "steps": [
+        {"word": "appointment", "emoji": "📅"},
+        {"word": "doctor", "emoji": "👩‍⚕️"},
+        {"word": "check", "emoji": "🔍"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "healthy", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Take temperature",
+      "steps": [
+        {"word": "thermometer", "emoji": "🌡️"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "wait", "emoji": "⏳"},
+        {"word": "beep", "emoji": "🔔"},
+        {"word": "number", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Check blood pressure",
+      "steps": [
+        {"word": "cuff", "emoji": "🩹"},
+        {"word": "arm", "emoji": "💪"},
+        {"word": "squeeze", "emoji": "🤗"},
+        {"word": "pump", "emoji": "💨"},
+        {"word": "numbers", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Get weighed",
+      "steps": [
+        {"word": "scale", "emoji": "⚖️"},
+        {"word": "step", "emoji": "👣"},
+        {"word": "on", "emoji": "⬇️"},
+        {"word": "weight", "emoji": "⚖️"},
+        {"word": "number", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Measure height",
+      "steps": [
+        {"word": "stand", "emoji": "🧍"},
+        {"word": "tall", "emoji": "📏"},
+        {"word": "straight", "emoji": "📐"},
+        {"word": "measure", "emoji": "📏"},
+        {"word": "height", "emoji": "📐"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Listen to heart",
+      "steps": [
+        {"word": "stethoscope", "emoji": "🩺"},
+        {"word": "chest", "emoji": "🫁"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "heartbeat", "emoji": "💓"},
+        {"word": "sound", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Look in ears",
+      "steps": [
+        {"word": "otoscope", "emoji": "🔦"},
+        {"word": "ear", "emoji": "👂"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "inside", "emoji": "📥"},
+        {"word": "check", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Look in throat",
+      "steps": [
+        {"word": "open", "emoji": "😮"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "ahh", "emoji": "😯"},
+        {"word": "throat", "emoji": "🫱"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Eye exam",
+      "steps": [
+        {"word": "chart", "emoji": "📊"},
+        {"word": "letters", "emoji": "🔤"},
+        {"word": "read", "emoji": "📖"},
+        {"word": "cover", "emoji": "🫣"},
+        {"word": "eye", "emoji": "👁️"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Get shot",
+      "steps": [
+        {"word": "needle", "emoji": "💉"},
+        {"word": "arm", "emoji": "💪"},
+        {"word": "quick", "emoji": "⚡"},
+        {"word": "pinch", "emoji": "🤏"},
+        {"word": "done", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Blood test",
+      "steps": [
+        {"word": "finger", "emoji": "☝️"},
+        {"word": "prick", "emoji": "💉"},
+        {"word": "drop", "emoji": "🩸"},
+        {"word": "test", "emoji": "🧪"},
+        {"word": "results", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "X-ray",
+      "steps": [
+        {"word": "machine", "emoji": "📷"},
+        {"word": "still", "emoji": "🧍"},
+        {"word": "picture", "emoji": "📸"},
+        {"word": "bones", "emoji": "🦴"},
+        {"word": "inside", "emoji": "📥"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Take medicine",
+      "steps": [
+        {"word": "pill", "emoji": "💊"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "swallow", "emoji": "😋"},
+        {"word": "feel", "emoji": "💭"},
+        {"word": "better", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Use inhaler",
+      "steps": [
+        {"word": "inhaler", "emoji": "💨"},
+        {"word": "breathe", "emoji": "🫁"},
+        {"word": "in", "emoji": "⬇️"},
+        {"word": "medicine", "emoji": "💊"},
+        {"word": "lungs", "emoji": "🫁"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Put on bandage",
+      "steps": [
+        {"word": "cut", "emoji": "🩸"},
+        {"word": "clean", "emoji": "🧽"},
+        {"word": "bandage", "emoji": "🩹"},
+        {"word": "stick", "emoji": "📎"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Ice injury",
+      "steps": [
+        {"word": "hurt", "emoji": "🤕"},
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "pack", "emoji": "📦"},
+        {"word": "cold", "emoji": "🥶"},
+        {"word": "swelling", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Rest when sick",
+      "steps": [
+        {"word": "sick", "emoji": "🤒"},
+        {"word": "bed", "emoji": "🛏️"},
+        {"word": "rest", "emoji": "💤"},
+        {"word": "sleep", "emoji": "😴"},
+        {"word": "heal", "emoji": "🩹"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Drink fluids",
+      "steps": [
+        {"word": "sick", "emoji": "🤒"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "juice", "emoji": "🧃"},
+        {"word": "drink", "emoji": "🥤"},
+        {"word": "hydrate", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Call nurse",
+      "steps": [
+        {"word": "need", "emoji": "❗"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "button", "emoji": "🔴"},
+        {"word": "nurse", "emoji": "👩‍⚕️"},
+        {"word": "comes", "emoji": "👋"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Hospital stay",
+      "steps": [
+        {"word": "hospital", "emoji": "🏥"},
+        {"word": "bed", "emoji": "🛏️"},
+        {"word": "stay", "emoji": "🏠"},
+        {"word": "night", "emoji": "🌙"},
+        {"word": "better", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Emergency room",
+      "steps": [
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "hospital", "emoji": "🏥"},
+        {"word": "fast", "emoji": "💨"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "urgent", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Call 911",
+      "steps": [
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "phone", "emoji": "📱"},
+        {"word": "911", "emoji": "🚨"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "ambulance", "emoji": "🚑"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Ambulance ride",
+      "steps": [
+        {"word": "ambulance", "emoji": "🚑"},
+        {"word": "stretcher", "emoji": "🛏️"},
+        {"word": "sirens", "emoji": "🚨"},
+        {"word": "hospital", "emoji": "🏥"},
+        {"word": "fast", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Surgery",
+      "steps": [
+        {"word": "operation", "emoji": "🔪"},
+        {"word": "sleep", "emoji": "😴"},
+        {"word": "doctor", "emoji": "👩‍⚕️"},
+        {"word": "fix", "emoji": "🔧"},
+        {"word": "body", "emoji": "🧍"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Physical therapy",
+      "steps": [
+        {"word": "exercise", "emoji": "💪"},
+        {"word": "therapist", "emoji": "👩‍⚕️"},
+        {"word": "move", "emoji": "🏃"},
+        {"word": "stronger", "emoji": "💪"},
+        {"word": "better", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Occupational therapy",
+      "steps": [
+        {"word": "activities", "emoji": "🎯"},
+        {"word": "daily", "emoji": "📅"},
+        {"word": "living", "emoji": "🏠"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "independent", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Speech therapy",
+      "steps": [
+        {"word": "speech", "emoji": "🗣️"},
+        {"word": "therapist", "emoji": "👩‍⚕️"},
+        {"word": "talk", "emoji": "💬"},
+        {"word": "practice", "emoji": "🔁"},
+        {"word": "words", "emoji": "📝"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Mental health",
+      "steps": [
+        {"word": "feelings", "emoji": "💭"},
+        {"word": "talk", "emoji": "🗣️"},
+        {"word": "therapist", "emoji": "👩‍⚕️"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "better", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Dental checkup",
+      "steps": [
+        {"word": "dentist", "emoji": "🦷"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "check", "emoji": "🔍"},
+        {"word": "healthy", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Brush teeth",
+      "steps": [
+        {"word": "toothbrush", "emoji": "🪥"},
+        {"word": "toothpaste", "emoji": "🧴"},
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Floss teeth",
+      "steps": [
+        {"word": "floss", "emoji": "🧵"},
+        {"word": "between", "emoji": "↔️"},
+        {"word": "teeth", "emoji": "🦷"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "gums", "emoji": "🦷"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Eye doctor",
+      "steps": [
+        {"word": "eye", "emoji": "👁️"},
+        {"word": "doctor", "emoji": "👩‍⚕️"},
+        {"word": "vision", "emoji": "👁️"},
+        {"word": "test", "emoji": "📊"},
+        {"word": "glasses", "emoji": "👓"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Hearing test",
+      "steps": [
+        {"word": "hearing", "emoji": "👂"},
+        {"word": "test", "emoji": "📊"},
+        {"word": "sounds", "emoji": "🔊"},
+        {"word": "ears", "emoji": "👂"},
+        {"word": "listen", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Allergy test",
+      "steps": [
+        {"word": "allergy", "emoji": "🤧"},
+        {"word": "test", "emoji": "📊"},
+        {"word": "skin", "emoji": "🫳"},
+        {"word": "scratch", "emoji": "🔍"},
+        {"word": "reaction", "emoji": "🔴"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Use EpiPen",
+      "steps": [
+        {"word": "allergic", "emoji": "🤧"},
+        {"word": "reaction", "emoji": "🔴"},
+        {"word": "EpiPen", "emoji": "💉"},
+        {"word": "inject", "emoji": "💉"},
+        {"word": "emergency", "emoji": "🚨"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Cast for broken bone",
+      "steps": [
+        {"word": "broken", "emoji": "💔"},
+        {"word": "bone", "emoji": "🦴"},
+        {"word": "cast", "emoji": "🩹"},
+        {"word": "hard", "emoji": "🪨"},
+        {"word": "heal", "emoji": "🩹"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Use crutches",
+      "steps": [
+        {"word": "crutches", "emoji": "🩼"},
+        {"word": "arms", "emoji": "💪"},
+        {"word": "lean", "emoji": "📐"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "support", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Wheelchair",
+      "steps": [
+        {"word": "wheelchair", "emoji": "♿"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "wheels", "emoji": "🎡"},
+        {"word": "push", "emoji": "🫸"},
+        {"word": "move", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Walker",
+      "steps": [
+        {"word": "walker", "emoji": "🚶"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "support", "emoji": "🤝"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "balance", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Hearing aid",
+      "steps": [
+        {"word": "hearing", "emoji": "👂"},
+        {"word": "aid", "emoji": "🔊"},
+        {"word": "ear", "emoji": "👂"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "louder", "emoji": "📢"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Oxygen tank",
+      "steps": [
+        {"word": "oxygen", "emoji": "🫁"},
+        {"word": "tank", "emoji": "🏺"},
+        {"word": "tube", "emoji": "🔗"},
+        {"word": "nose", "emoji": "👃"},
+        {"word": "breathe", "emoji": "🫁"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Blood sugar test",
+      "steps": [
+        {"word": "finger", "emoji": "☝️"},
+        {"word": "prick", "emoji": "💉"},
+        {"word": "drop", "emoji": "🩸"},
+        {"word": "meter", "emoji": "📱"},
+        {"word": "number", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Insulin shot",
+      "steps": [
+        {"word": "diabetes", "emoji": "💉"},
+        {"word": "insulin", "emoji": "💉"},
+        {"word": "needle", "emoji": "💉"},
+        {"word": "inject", "emoji": "💉"},
+        {"word": "sugar", "emoji": "🍯"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Heart monitor",
+      "steps": [
+        {"word": "heart", "emoji": "💓"},
+        {"word": "monitor", "emoji": "📺"},
+        {"word": "wires", "emoji": "🔗"},
+        {"word": "chest", "emoji": "🫁"},
+        {"word": "watch", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "IV drip",
+      "steps": [
+        {"word": "IV", "emoji": "💉"},
+        {"word": "needle", "emoji": "💉"},
+        {"word": "arm", "emoji": "💪"},
+        {"word": "medicine", "emoji": "💊"},
+        {"word": "drip", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "MRI scan",
+      "steps": [
+        {"word": "MRI", "emoji": "📷"},
+        {"word": "machine", "emoji": "🤖"},
+        {"word": "loud", "emoji": "🔊"},
+        {"word": "still", "emoji": "🧍"},
+        {"word": "pictures", "emoji": "📸"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "CT scan",
+      "steps": [
+        {"word": "CT", "emoji": "📷"},
+        {"word": "scan", "emoji": "🔍"},
+        {"word": "table", "emoji": "🛏️"},
+        {"word": "slide", "emoji": "➡️"},
+        {"word": "pictures", "emoji": "📸"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Ultrasound",
+      "steps": [
+        {"word": "ultrasound", "emoji": "📡"},
+        {"word": "gel", "emoji": "🧴"},
+        {"word": "belly", "emoji": "🤰"},
+        {"word": "baby", "emoji": "👶"},
+        {"word": "picture", "emoji": "📸"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Prescription pickup",
+      "steps": [
+        {"word": "pharmacy", "emoji": "💊"},
+        {"word": "prescription", "emoji": "📋"},
+        {"word": "name", "emoji": "📛"},
+        {"word": "medicine", "emoji": "💊"},
+        {"word": "pick up", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Insurance card",
+      "steps": [
+        {"word": "insurance", "emoji": "💳"},
+        {"word": "card", "emoji": "💳"},
+        {"word": "show", "emoji": "🫵"},
+        {"word": "doctor", "emoji": "👩‍⚕️"},
+        {"word": "payment", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Medical history",
+      "steps": [
+        {"word": "medical", "emoji": "📋"},
+        {"word": "history", "emoji": "📚"},
+        {"word": "past", "emoji": "⏮️"},
+        {"word": "illness", "emoji": "🤒"},
+        {"word": "information", "emoji": "ℹ️"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Symptoms",
+      "steps": [
+        {"word": "feel", "emoji": "💭"},
+        {"word": "symptoms", "emoji": "🤒"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "doctor", "emoji": "👩‍⚕️"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Pain scale",
+      "steps": [
+        {"word": "pain", "emoji": "😣"},
+        {"word": "scale", "emoji": "📊"},
+        {"word": "number", "emoji": "🔢"},
+        {"word": "1-10", "emoji": "🔢"},
+        {"word": "hurt", "emoji": "🤕"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Follow up",
+      "steps": [
+        {"word": "come", "emoji": "👋"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "doctor", "emoji": "👩‍⚕️"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "better", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Second opinion",
+      "steps": [
+        {"word": "different", "emoji": "🔄"},
+        {"word": "doctor", "emoji": "👩‍⚕️"},
+        {"word": "opinion", "emoji": "💭"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "agree", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Lab results",
+      "steps": [
+        {"word": "lab", "emoji": "🧪"},
+        {"word": "test", "emoji": "📊"},
+        {"word": "results", "emoji": "📋"},
+        {"word": "numbers", "emoji": "🔢"},
+        {"word": "normal", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Referral",
+      "steps": [
+        {"word": "referral", "emoji": "📋"},
+        {"word": "specialist", "emoji": "👩‍⚕️"},
+        {"word": "expert", "emoji": "🧠"},
+        {"word": "appointment", "emoji": "📅"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Appointment reminder",
+      "steps": [
+        {"word": "appointment", "emoji": "📅"},
+        {"word": "tomorrow", "emoji": "📅"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "remember", "emoji": "🧠"},
+        {"word": "go", "emoji": "🚶"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Cancel appointment",
+      "steps": [
+        {"word": "cancel", "emoji": "❌"},
+        {"word": "appointment", "emoji": "📅"},
+        {"word": "call", "emoji": "📞"},
+        {"word": "office", "emoji": "🏢"},
+        {"word": "reschedule", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Wait in office",
+      "steps": [
+        {"word": "waiting", "emoji": "⏳"},
+        {"word": "room", "emoji": "🏠"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "patient", "emoji": "😌"},
+        {"word": "turn", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Health screening",
+      "steps": [
+        {"word": "screening", "emoji": "🔍"},
+        {"word": "test", "emoji": "📊"},
+        {"word": "early", "emoji": "🕐"},
+        {"word": "detect", "emoji": "🔍"},
+        {"word": "prevent", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Mammogram",
+      "steps": [
+        {"word": "mammogram", "emoji": "📷"},
+        {"word": "breast", "emoji": "🫁"},
+        {"word": "x-ray", "emoji": "📷"},
+        {"word": "squeeze", "emoji": "🤗"},
+        {"word": "cancer", "emoji": "🎗️"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Colonoscopy",
+      "steps": [
+        {"word": "colonoscopy", "emoji": "🔍"},
+        {"word": "colon", "emoji": "🫁"},
+        {"word": "camera", "emoji": "📷"},
+        {"word": "sleep", "emoji": "😴"},
+        {"word": "screening", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Skin check",
+      "steps": [
+        {"word": "skin", "emoji": "🫳"},
+        {"word": "doctor", "emoji": "👩‍⚕️"},
+        {"word": "moles", "emoji": "⚫"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "cancer", "emoji": "🎗️"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Flu shot",
+      "steps": [
+        {"word": "flu", "emoji": "🤧"},
+        {"word": "vaccine", "emoji": "💉"},
+        {"word": "prevent", "emoji": "🛡️"},
+        {"word": "sick", "emoji": "🤒"},
+        {"word": "yearly", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "COVID test",
+      "steps": [
+        {"word": "COVID", "emoji": "🦠"},
+        {"word": "test", "emoji": "🧪"},
+        {"word": "swab", "emoji": "🧽"},
+        {"word": "nose", "emoji": "👃"},
+        {"word": "results", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Mask wearing",
+      "steps": [
+        {"word": "mask", "emoji": "😷"},
+        {"word": "face", "emoji": "😊"},
+        {"word": "cover", "emoji": "🫣"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "others", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Hand sanitizer",
+      "steps": [
+        {"word": "sanitizer", "emoji": "🧴"},
+        {"word": "hands", "emoji": "🙌"},
+        {"word": "rub", "emoji": "🤲"},
+        {"word": "germs", "emoji": "🦠"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Social distancing",
+      "steps": [
+        {"word": "stay", "emoji": "🛑"},
+        {"word": "apart", "emoji": "↔️"},
+        {"word": "6 feet", "emoji": "📏"},
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "distance", "emoji": "📐"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Telehealth visit",
+      "steps": [
+        {"word": "video", "emoji": "📹"},
+        {"word": "call", "emoji": "📞"},
+        {"word": "doctor", "emoji": "👩‍⚕️"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "appointment", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Home remedy",
+      "steps": [
+        {"word": "home", "emoji": "🏠"},
+        {"word": "remedy", "emoji": "🌿"},
+        {"word": "natural", "emoji": "🌱"},
+        {"word": "feel", "emoji": "💭"},
+        {"word": "better", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Hot compress",
+      "steps": [
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "compress", "emoji": "🧽"},
+        {"word": "pain", "emoji": "😣"},
+        {"word": "warm", "emoji": "☀️"},
+        {"word": "relief", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Cold compress",
+      "steps": [
+        {"word": "cold", "emoji": "🧊"},
+        {"word": "compress", "emoji": "🧽"},
+        {"word": "swelling", "emoji": "⬇️"},
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "numb", "emoji": "😶"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Throat gargle",
+      "steps": [
+        {"word": "salt", "emoji": "🧂"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "gargle", "emoji": "🤤"},
+        {"word": "throat", "emoji": "🫱"},
+        {"word": "soothe", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Humidifier",
+      "steps": [
+        {"word": "humidifier", "emoji": "💨"},
+        {"word": "steam", "emoji": "☁️"},
+        {"word": "breathe", "emoji": "🫁"},
+        {"word": "easier", "emoji": "😌"},
+        {"word": "moisture", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Meditation",
+      "steps": [
+        {"word": "meditation", "emoji": "🧘"},
+        {"word": "breathe", "emoji": "🫁"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "peaceful", "emoji": "☮️"},
+        {"word": "mind", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Exercise therapy",
+      "steps": [
+        {"word": "exercise", "emoji": "💪"},
+        {"word": "therapy", "emoji": "🏃"},
+        {"word": "movement", "emoji": "🏃"},
+        {"word": "heal", "emoji": "🩹"},
+        {"word": "strengthen", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Nutrition plan",
+      "steps": [
+        {"word": "nutrition", "emoji": "🥗"},
+        {"word": "plan", "emoji": "📋"},
+        {"word": "healthy", "emoji": "💪"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "body", "emoji": "🧍"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Sleep hygiene",
+      "steps": [
+        {"word": "sleep", "emoji": "😴"},
+        {"word": "routine", "emoji": "🔄"},
+        {"word": "bedtime", "emoji": "🌙"},
+        {"word": "rest", "emoji": "💤"},
+        {"word": "health", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Stress management",
+      "steps": [
+        {"word": "stress", "emoji": "😰"},
+        {"word": "manage", "emoji": "⚖️"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "cope", "emoji": "💪"},
+        {"word": "calm", "emoji": "🧘"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Support group",
+      "steps": [
+        {"word": "support", "emoji": "🤝"},
+        {"word": "group", "emoji": "👥"},
+        {"word": "share", "emoji": "🤝"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Medical alert",
+      "steps": [
+        {"word": "medical", "emoji": "🏥"},
+        {"word": "alert", "emoji": "🚨"},
+        {"word": "bracelet", "emoji": "📿"},
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "information", "emoji": "ℹ️"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Emergency contacts",
+      "steps": [
+        {"word": "emergency", "emoji": "🚨"},
+        {"word": "contacts", "emoji": "📞"},
+        {"word": "phone", "emoji": "📱"},
+        {"word": "numbers", "emoji": "🔢"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Medical records",
+      "steps": [
+        {"word": "medical", "emoji": "📋"},
+        {"word": "records", "emoji": "📚"},
+        {"word": "file", "emoji": "📁"},
+        {"word": "history", "emoji": "📚"},
+        {"word": "important", "emoji": "❗"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Advance directive",
+      "steps": [
+        {"word": "advance", "emoji": "📋"},
+        {"word": "directive", "emoji": "📝"},
+        {"word": "wishes", "emoji": "⭐"},
+        {"word": "medical", "emoji": "🏥"},
+        {"word": "decisions", "emoji": "🤔"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Organ donation",
+      "steps": [
+        {"word": "organ", "emoji": "💓"},
+        {"word": "donation", "emoji": "🎁"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "life", "emoji": "💖"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Clinical trial",
+      "steps": [
+        {"word": "clinical", "emoji": "🧪"},
+        {"word": "trial", "emoji": "📊"},
+        {"word": "research", "emoji": "🔬"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "treatment", "emoji": "💊"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Patient rights",
+      "steps": [
+        {"word": "patient", "emoji": "🙋"},
+        {"word": "rights", "emoji": "⚖️"},
+        {"word": "respect", "emoji": "🙏"},
+        {"word": "dignity", "emoji": "👑"},
+        {"word": "choice", "emoji": "🤔"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Informed consent",
+      "steps": [
+        {"word": "informed", "emoji": "🧠"},
+        {"word": "consent", "emoji": "✅"},
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "risks", "emoji": "⚠️"},
+        {"word": "agree", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Medical interpreter",
+      "steps": [
+        {"word": "interpreter", "emoji": "🗣️"},
+        {"word": "language", "emoji": "🌐"},
+        {"word": "translate", "emoji": "🔄"},
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "communicate", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Discharge planning",
+      "steps": [
+        {"word": "discharge", "emoji": "🏠"},
+        {"word": "planning", "emoji": "📋"},
+        {"word": "go", "emoji": "🚶"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "care", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Home care",
+      "steps": [
+        {"word": "home", "emoji": "🏠"},
+        {"word": "care", "emoji": "🤗"},
+        {"word": "nurse", "emoji": "👩‍⚕️"},
+        {"word": "visit", "emoji": "🚪"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Rehabilitation",
+      "steps": [
+        {"word": "rehabilitation", "emoji": "🏥"},
+        {"word": "recover", "emoji": "📈"},
+        {"word": "therapy", "emoji": "💪"},
+        {"word": "improve", "emoji": "⬆️"},
+        {"word": "function", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Palliative care",
+      "steps": [
+        {"word": "palliative", "emoji": "🤗"},
+        {"word": "care", "emoji": "💕"},
+        {"word": "comfort", "emoji": "😌"},
+        {"word": "pain", "emoji": "😣"},
+        {"word": "relief", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Hospice care",
+      "steps": [
+        {"word": "hospice", "emoji": "🏠"},
+        {"word": "care", "emoji": "💕"},
+        {"word": "comfort", "emoji": "😌"},
+        {"word": "family", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "support", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Medical equipment",
+      "steps": [
+        {"word": "medical", "emoji": "🏥"},
+        {"word": "equipment", "emoji": "🔧"},
+        {"word": "home", "emoji": "🏠"},
+        {"word": "use", "emoji": "🔧"},
+        {"word": "safely", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Health monitoring",
+      "steps": [
+        {"word": "health", "emoji": "💪"},
+        {"word": "monitor", "emoji": "📺"},
+        {"word": "daily", "emoji": "📅"},
+        {"word": "track", "emoji": "📊"},
+        {"word": "changes", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Medication management",
+      "steps": [
+        {"word": "medication", "emoji": "💊"},
+        {"word": "management", "emoji": "📋"},
+        {"word": "pill", "emoji": "💊"},
+        {"word": "box", "emoji": "📦"},
+        {"word": "schedule", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Wellness check",
+      "steps": [
+        {"word": "wellness", "emoji": "💪"},
+        {"word": "check", "emoji": "✅"},
+        {"word": "overall", "emoji": "🔄"},
+        {"word": "health", "emoji": "💪"},
+        {"word": "status", "emoji": "📊"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Recovery plan",
+      "steps": [
+        {"word": "recovery", "emoji": "📈"},
+        {"word": "plan", "emoji": "📋"},
+        {"word": "goals", "emoji": "🎯"},
+        {"word": "steps", "emoji": "👣"},
+        {"word": "heal", "emoji": "🩹"}
+      ]
+    }
+  ]
+}

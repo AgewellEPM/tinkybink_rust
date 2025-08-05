@@ -1,0 +1,1105 @@
+{
+  "category": "👫 Friendship & Relationships",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Say hello",
+      "steps": [
+        {"word": "wave", "emoji": "👋"},
+        {"word": "hand", "emoji": "✋"},
+        {"word": "smile", "emoji": "😊"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "hello", "emoji": "👋"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Share toys",
+      "steps": [
+        {"word": "give", "emoji": "🤲"},
+        {"word": "toy", "emoji": "🧸"},
+        {"word": "friend", "emoji": "👫"},
+        {"word": "take", "emoji": "🔄"},
+        {"word": "turns", "emoji": "↩️"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Help a friend",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "need", "emoji": "🆘"},
+        {"word": "help", "emoji": "🤝"},
+        {"word": "offer", "emoji": "💁"},
+        {"word": "assist", "emoji": "🙋"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Say sorry",
+      "steps": [
+        {"word": "make", "emoji": "😔"},
+        {"word": "mistake", "emoji": "❌"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "sorry", "emoji": "😞"},
+        {"word": "hug", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Listen to others",
+      "steps": [
+        {"word": "be", "emoji": "🤫"},
+        {"word": "quiet", "emoji": "🔇"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "eyes", "emoji": "👁️"},
+        {"word": "listen", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Play together",
+      "steps": [
+        {"word": "ask", "emoji": "❓"},
+        {"word": "play", "emoji": "🎮"},
+        {"word": "together", "emoji": "👫"},
+        {"word": "have", "emoji": "😄"},
+        {"word": "fun", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Be kind",
+      "steps": [
+        {"word": "use", "emoji": "🗣️"},
+        {"word": "nice", "emoji": "😊"},
+        {"word": "words", "emoji": "💬"},
+        {"word": "gentle", "emoji": "🤲"},
+        {"word": "hands", "emoji": "✋"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Make new friends",
+      "steps": [
+        {"word": "introduce", "emoji": "👋"},
+        {"word": "yourself", "emoji": "👤"},
+        {"word": "ask", "emoji": "❓"},
+        {"word": "name", "emoji": "📛"},
+        {"word": "play", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Give compliments",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "something", "emoji": "💡"},
+        {"word": "nice", "emoji": "😊"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "compliment", "emoji": "👍"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Ask for help",
+      "steps": [
+        {"word": "raise", "emoji": "🙋"},
+        {"word": "hand", "emoji": "✋"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "please", "emoji": "🙏"},
+        {"word": "help", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Show empathy",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "sad", "emoji": "😢"},
+        {"word": "friend", "emoji": "👫"},
+        {"word": "ask", "emoji": "❓"},
+        {"word": "okay", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Include others",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "alone", "emoji": "😔"},
+        {"word": "invite", "emoji": "👋"},
+        {"word": "join", "emoji": "👫"},
+        {"word": "group", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Wait your turn",
+      "steps": [
+        {"word": "stand", "emoji": "🧍"},
+        {"word": "in", "emoji": "📍"},
+        {"word": "line", "emoji": "↪️"},
+        {"word": "wait", "emoji": "⏳"},
+        {"word": "patiently", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Say thank you",
+      "steps": [
+        {"word": "receive", "emoji": "🎁"},
+        {"word": "help", "emoji": "🤝"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "thank", "emoji": "🙏"},
+        {"word": "you", "emoji": "👤"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Compromise",
+      "steps": [
+        {"word": "different", "emoji": "🔄"},
+        {"word": "ideas", "emoji": "💡"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "middle", "emoji": "⚖️"},
+        {"word": "solution", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Be patient",
+      "steps": [
+        {"word": "wait", "emoji": "⏳"},
+        {"word": "calmly", "emoji": "😌"},
+        {"word": "no", "emoji": "🚫"},
+        {"word": "pushing", "emoji": "👐"},
+        {"word": "rushing", "emoji": "🏃"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Celebrate friends",
+      "steps": [
+        {"word": "friend's", "emoji": "👫"},
+        {"word": "birthday", "emoji": "🎂"},
+        {"word": "sing", "emoji": "🎵"},
+        {"word": "happy", "emoji": "😊"},
+        {"word": "celebrate", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Resolve conflicts",
+      "steps": [
+        {"word": "talk", "emoji": "💬"},
+        {"word": "about", "emoji": "📣"},
+        {"word": "problem", "emoji": "⚠️"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "solution", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Give hugs",
+      "steps": [
+        {"word": "ask", "emoji": "❓"},
+        {"word": "permission", "emoji": "✋"},
+        {"word": "open", "emoji": "🤗"},
+        {"word": "arms", "emoji": "🤲"},
+        {"word": "hug", "emoji": "🫂"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Stand up for others",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "unfair", "emoji": "😔"},
+        {"word": "treatment", "emoji": "⚖️"},
+        {"word": "speak", "emoji": "🗣️"},
+        {"word": "up", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Make amends",
+      "steps": [
+        {"word": "hurt", "emoji": "😢"},
+        {"word": "feelings", "emoji": "💔"},
+        {"word": "apologize", "emoji": "😞"},
+        {"word": "fix", "emoji": "🔧"},
+        {"word": "relationship", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Be trustworthy",
+      "steps": [
+        {"word": "keep", "emoji": "🤐"},
+        {"word": "promises", "emoji": "🤝"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "truth", "emoji": "✅"},
+        {"word": "reliable", "emoji": "💎"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Show interest",
+      "steps": [
+        {"word": "ask", "emoji": "❓"},
+        {"word": "questions", "emoji": "❔"},
+        {"word": "about", "emoji": "📣"},
+        {"word": "their", "emoji": "👤"},
+        {"word": "interests", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Respect differences",
+      "steps": [
+        {"word": "everyone", "emoji": "👥"},
+        {"word": "is", "emoji": "🟰"},
+        {"word": "different", "emoji": "🌈"},
+        {"word": "that's", "emoji": "✨"},
+        {"word": "okay", "emoji": "👍"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Offer comfort",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "upset", "emoji": "😢"},
+        {"word": "give", "emoji": "🤲"},
+        {"word": "comfort", "emoji": "🤗"},
+        {"word": "support", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Be a good sport",
+      "steps": [
+        {"word": "win", "emoji": "🏆"},
+        {"word": "or", "emoji": "🔄"},
+        {"word": "lose", "emoji": "😔"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "good game", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Keep secrets",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "tells", "emoji": "🗣️"},
+        {"word": "secret", "emoji": "🤐"},
+        {"word": "keep", "emoji": "🔒"},
+        {"word": "safe", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Plan together",
+      "steps": [
+        {"word": "decide", "emoji": "🤔"},
+        {"word": "activity", "emoji": "🎮"},
+        {"word": "together", "emoji": "👫"},
+        {"word": "make", "emoji": "📋"},
+        {"word": "plans", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Support friends",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "trying", "emoji": "💪"},
+        {"word": "hard", "emoji": "🏋️"},
+        {"word": "cheer", "emoji": "📣"},
+        {"word": "them", "emoji": "👍"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Take responsibility",
+      "steps": [
+        {"word": "admit", "emoji": "✋"},
+        {"word": "when", "emoji": "🕐"},
+        {"word": "wrong", "emoji": "❌"},
+        {"word": "fix", "emoji": "🔧"},
+        {"word": "mistake", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Be loyal",
+      "steps": [
+        {"word": "stick", "emoji": "🤝"},
+        {"word": "by", "emoji": "👫"},
+        {"word": "friends", "emoji": "❤️"},
+        {"word": "good", "emoji": "😊"},
+        {"word": "times", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Communicate clearly",
+      "steps": [
+        {"word": "use", "emoji": "🗣️"},
+        {"word": "clear", "emoji": "💎"},
+        {"word": "words", "emoji": "💬"},
+        {"word": "be", "emoji": "📣"},
+        {"word": "understood", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Show appreciation",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "kind", "emoji": "😊"},
+        {"word": "actions", "emoji": "🤝"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "thanks", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Be encouraging",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "feels", "emoji": "😔"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "you can do it", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Maintain friendships",
+      "steps": [
+        {"word": "call", "emoji": "📞"},
+        {"word": "text", "emoji": "📱"},
+        {"word": "visit", "emoji": "🏠"},
+        {"word": "stay", "emoji": "🔗"},
+        {"word": "connected", "emoji": "👫"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Practice forgiveness",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "makes", "emoji": "❌"},
+        {"word": "mistake", "emoji": "😔"},
+        {"word": "choose", "emoji": "✅"},
+        {"word": "forgive", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Set boundaries",
+      "steps": [
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "no", "emoji": "🚫"},
+        {"word": "when", "emoji": "🕐"},
+        {"word": "uncomfortable", "emoji": "😣"},
+        {"word": "okay", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Be genuine",
+      "steps": [
+        {"word": "be", "emoji": "✅"},
+        {"word": "yourself", "emoji": "👤"},
+        {"word": "honest", "emoji": "💎"},
+        {"word": "authentic", "emoji": "🌟"},
+        {"word": "real", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Show respect",
+      "steps": [
+        {"word": "treat", "emoji": "🤝"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "how", "emoji": "❓"},
+        {"word": "want", "emoji": "💭"},
+        {"word": "treated", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Build trust",
+      "steps": [
+        {"word": "be", "emoji": "💎"},
+        {"word": "honest", "emoji": "✅"},
+        {"word": "keep", "emoji": "🤝"},
+        {"word": "word", "emoji": "🗣️"},
+        {"word": "reliable", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Express feelings",
+      "steps": [
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "friend", "emoji": "👫"},
+        {"word": "how", "emoji": "❓"},
+        {"word": "feel", "emoji": "❤️"},
+        {"word": "honestly", "emoji": "💎"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Work as team",
+      "steps": [
+        {"word": "cooperate", "emoji": "🤝"},
+        {"word": "together", "emoji": "👫"},
+        {"word": "same", "emoji": "🎯"},
+        {"word": "goal", "emoji": "🏆"},
+        {"word": "succeed", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Handle disagreements",
+      "steps": [
+        {"word": "stay", "emoji": "😌"},
+        {"word": "calm", "emoji": "🧘"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "compromise", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Check on friends",
+      "steps": [
+        {"word": "ask", "emoji": "❓"},
+        {"word": "how", "emoji": "🤔"},
+        {"word": "are", "emoji": "👤"},
+        {"word": "you", "emoji": "❤️"},
+        {"word": "care", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Accept apologies",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "says", "emoji": "🗣️"},
+        {"word": "sorry", "emoji": "😞"},
+        {"word": "accept", "emoji": "✅"},
+        {"word": "move on", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Be dependable",
+      "steps": [
+        {"word": "show", "emoji": "⏰"},
+        {"word": "up", "emoji": "📍"},
+        {"word": "when", "emoji": "🕐"},
+        {"word": "promised", "emoji": "🤝"},
+        {"word": "reliable", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Give space",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "needs", "emoji": "💭"},
+        {"word": "alone", "emoji": "👤"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "respect", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Remember important things",
+      "steps": [
+        {"word": "remember", "emoji": "🧠"},
+        {"word": "friend's", "emoji": "👫"},
+        {"word": "birthday", "emoji": "🎂"},
+        {"word": "special", "emoji": "⭐"},
+        {"word": "events", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Be understanding",
+      "steps": [
+        {"word": "try", "emoji": "💪"},
+        {"word": "see", "emoji": "👀"},
+        {"word": "their", "emoji": "👤"},
+        {"word": "point", "emoji": "💡"},
+        {"word": "view", "emoji": "👁️"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Celebrate together",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "has", "emoji": "🎉"},
+        {"word": "success", "emoji": "🏆"},
+        {"word": "celebrate", "emoji": "🎊"},
+        {"word": "together", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Ask before borrowing",
+      "steps": [
+        {"word": "want", "emoji": "💭"},
+        {"word": "borrow", "emoji": "🤲"},
+        {"word": "ask", "emoji": "❓"},
+        {"word": "permission", "emoji": "✋"},
+        {"word": "first", "emoji": "1️⃣"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Return what you borrow",
+      "steps": [
+        {"word": "borrowed", "emoji": "🤲"},
+        {"word": "item", "emoji": "📦"},
+        {"word": "return", "emoji": "↩️"},
+        {"word": "good", "emoji": "✅"},
+        {"word": "condition", "emoji": "👍"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Be positive",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "for", "emoji": "🔍"},
+        {"word": "good", "emoji": "😊"},
+        {"word": "in", "emoji": "❤️"},
+        {"word": "situations", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Give advice",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "asks", "emoji": "❓"},
+        {"word": "advice", "emoji": "💡"},
+        {"word": "share", "emoji": "🤝"},
+        {"word": "wisdom", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Accept differences",
+      "steps": [
+        {"word": "friends", "emoji": "👫"},
+        {"word": "have", "emoji": "🔄"},
+        {"word": "different", "emoji": "🌈"},
+        {"word": "opinions", "emoji": "💭"},
+        {"word": "okay", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Share experiences",
+      "steps": [
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "friend", "emoji": "👫"},
+        {"word": "about", "emoji": "📣"},
+        {"word": "your", "emoji": "👤"},
+        {"word": "day", "emoji": "🌅"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Practice active listening",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "at", "emoji": "👁️"},
+        {"word": "speaker", "emoji": "🗣️"},
+        {"word": "nod", "emoji": "✅"},
+        {"word": "respond", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Be welcoming",
+      "steps": [
+        {"word": "new", "emoji": "🆕"},
+        {"word": "person", "emoji": "👤"},
+        {"word": "make", "emoji": "😊"},
+        {"word": "feel", "emoji": "❤️"},
+        {"word": "welcome", "emoji": "👋"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Show gratitude",
+      "steps": [
+        {"word": "appreciate", "emoji": "❤️"},
+        {"word": "friend's", "emoji": "👫"},
+        {"word": "kindness", "emoji": "😊"},
+        {"word": "express", "emoji": "🗣️"},
+        {"word": "thanks", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Make time for friends",
+      "steps": [
+        {"word": "schedule", "emoji": "📅"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "spend", "emoji": "👫"},
+        {"word": "with", "emoji": "🤝"},
+        {"word": "friends", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Be helpful",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "friend", "emoji": "👫"},
+        {"word": "struggling", "emoji": "😔"},
+        {"word": "offer", "emoji": "🤝"},
+        {"word": "help", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Practice patience",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "takes", "emoji": "⏳"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "be", "emoji": "😌"},
+        {"word": "patient", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Stay connected",
+      "steps": [
+        {"word": "reach", "emoji": "📞"},
+        {"word": "out", "emoji": "👋"},
+        {"word": "regularly", "emoji": "🔄"},
+        {"word": "maintain", "emoji": "🔗"},
+        {"word": "friendship", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Be honest",
+      "steps": [
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "truth", "emoji": "✅"},
+        {"word": "even", "emoji": "💪"},
+        {"word": "when", "emoji": "⚠️"},
+        {"word": "difficult", "emoji": "😔"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Respect privacy",
+      "steps": [
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "share", "emoji": "🤐"},
+        {"word": "private", "emoji": "🔒"},
+        {"word": "information", "emoji": "ℹ️"},
+        {"word": "others", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Be consistent",
+      "steps": [
+        {"word": "treat", "emoji": "🤝"},
+        {"word": "friends", "emoji": "👫"},
+        {"word": "same", "emoji": "⚖️"},
+        {"word": "way", "emoji": "➡️"},
+        {"word": "always", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Show interest in hobbies",
+      "steps": [
+        {"word": "ask", "emoji": "❓"},
+        {"word": "about", "emoji": "📣"},
+        {"word": "their", "emoji": "👤"},
+        {"word": "favorite", "emoji": "❤️"},
+        {"word": "activities", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Defend friends",
+      "steps": [
+        {"word": "someone", "emoji": "👤"},
+        {"word": "says", "emoji": "🗣️"},
+        {"word": "mean", "emoji": "😔"},
+        {"word": "things", "emoji": "💬"},
+        {"word": "defend", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Be flexible",
+      "steps": [
+        {"word": "plans", "emoji": "📅"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "be", "emoji": "😊"},
+        {"word": "flexible", "emoji": "🤸"},
+        {"word": "understanding", "emoji": "💗"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Express affection",
+      "steps": [
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "friends", "emoji": "👫"},
+        {"word": "care", "emoji": "❤️"},
+        {"word": "about", "emoji": "💕"},
+        {"word": "them", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Learn from mistakes",
+      "steps": [
+        {"word": "make", "emoji": "❌"},
+        {"word": "mistake", "emoji": "😔"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "grow", "emoji": "🌱"},
+        {"word": "better", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Be non-judgmental",
+      "steps": [
+        {"word": "accept", "emoji": "✅"},
+        {"word": "friends", "emoji": "👫"},
+        {"word": "as", "emoji": "🟰"},
+        {"word": "they", "emoji": "👤"},
+        {"word": "are", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Offer encouragement",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "trying", "emoji": "💪"},
+        {"word": "something", "emoji": "⭐"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "encourage", "emoji": "📣"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Practice reciprocity",
+      "steps": [
+        {"word": "give", "emoji": "🤲"},
+        {"word": "and", "emoji": "🔄"},
+        {"word": "take", "emoji": "✋"},
+        {"word": "equal", "emoji": "⚖️"},
+        {"word": "friendship", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Create memories",
+      "steps": [
+        {"word": "do", "emoji": "🎮"},
+        {"word": "fun", "emoji": "😄"},
+        {"word": "activities", "emoji": "🎉"},
+        {"word": "create", "emoji": "✨"},
+        {"word": "memories", "emoji": "📸"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Be inclusive",
+      "steps": [
+        {"word": "make", "emoji": "🤝"},
+        {"word": "sure", "emoji": "✅"},
+        {"word": "everyone", "emoji": "👥"},
+        {"word": "feels", "emoji": "❤️"},
+        {"word": "included", "emoji": "🫂"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Show vulnerability",
+      "steps": [
+        {"word": "share", "emoji": "🗣️"},
+        {"word": "real", "emoji": "💎"},
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "build", "emoji": "🏗️"},
+        {"word": "closeness", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Be reliable",
+      "steps": [
+        {"word": "follow", "emoji": "✅"},
+        {"word": "through", "emoji": "➡️"},
+        {"word": "on", "emoji": "📋"},
+        {"word": "commitments", "emoji": "🤝"},
+        {"word": "promises", "emoji": "💎"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Handle jealousy",
+      "steps": [
+        {"word": "feel", "emoji": "💚"},
+        {"word": "jealous", "emoji": "😔"},
+        {"word": "talk", "emoji": "💬"},
+        {"word": "about", "emoji": "📣"},
+        {"word": "feelings", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Support goals",
+      "steps": [
+        {"word": "help", "emoji": "🤝"},
+        {"word": "friend", "emoji": "👫"},
+        {"word": "reach", "emoji": "🎯"},
+        {"word": "their", "emoji": "👤"},
+        {"word": "dreams", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Be present",
+      "steps": [
+        {"word": "put", "emoji": "📱"},
+        {"word": "away", "emoji": "🚫"},
+        {"word": "phone", "emoji": "📞"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "friend", "emoji": "👫"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Practice tolerance",
+      "steps": [
+        {"word": "accept", "emoji": "✅"},
+        {"word": "different", "emoji": "🌈"},
+        {"word": "views", "emoji": "👁️"},
+        {"word": "stay", "emoji": "🤝"},
+        {"word": "friends", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Offer perspective",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "confused", "emoji": "🤔"},
+        {"word": "share", "emoji": "🗣️"},
+        {"word": "different", "emoji": "💡"},
+        {"word": "viewpoint", "emoji": "👁️"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Maintain boundaries",
+      "steps": [
+        {"word": "respect", "emoji": "✅"},
+        {"word": "personal", "emoji": "👤"},
+        {"word": "space", "emoji": "📍"},
+        {"word": "and", "emoji": "🔄"},
+        {"word": "limits", "emoji": "🚧"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Show enthusiasm",
+      "steps": [
+        {"word": "be", "emoji": "😊"},
+        {"word": "excited", "emoji": "🎉"},
+        {"word": "for", "emoji": "❤️"},
+        {"word": "friend's", "emoji": "👫"},
+        {"word": "news", "emoji": "📰"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Practice humility",
+      "steps": [
+        {"word": "admit", "emoji": "✋"},
+        {"word": "when", "emoji": "🕐"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "know", "emoji": "❓"},
+        {"word": "something", "emoji": "💭"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Be spontaneous",
+      "steps": [
+        {"word": "suggest", "emoji": "💡"},
+        {"word": "fun", "emoji": "😄"},
+        {"word": "surprise", "emoji": "🎁"},
+        {"word": "activities", "emoji": "🎮"},
+        {"word": "together", "emoji": "👫"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Handle criticism",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "to", "emoji": "➡️"},
+        {"word": "feedback", "emoji": "💬"},
+        {"word": "consider", "emoji": "🤔"},
+        {"word": "improvements", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Be motivating",
+      "steps": [
+        {"word": "inspire", "emoji": "✨"},
+        {"word": "friend", "emoji": "👫"},
+        {"word": "to", "emoji": "➡️"},
+        {"word": "try", "emoji": "💪"},
+        {"word": "harder", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Practice gratitude",
+      "steps": [
+        {"word": "appreciate", "emoji": "❤️"},
+        {"word": "having", "emoji": "🤗"},
+        {"word": "good", "emoji": "😊"},
+        {"word": "friends", "emoji": "👫"},
+        {"word": "life", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Be adventurous",
+      "steps": [
+        {"word": "try", "emoji": "💪"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "activities", "emoji": "🎮"},
+        {"word": "with", "emoji": "👫"},
+        {"word": "friends", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Show respect for time",
+      "steps": [
+        {"word": "be", "emoji": "⏰"},
+        {"word": "on", "emoji": "📍"},
+        {"word": "time", "emoji": "🕐"},
+        {"word": "for", "emoji": "👫"},
+        {"word": "meetups", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Offer solutions",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "has", "emoji": "⚠️"},
+        {"word": "problem", "emoji": "🤔"},
+        {"word": "brainstorm", "emoji": "💡"},
+        {"word": "solutions", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Be compassionate",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "going", "emoji": "😔"},
+        {"word": "through", "emoji": "➡️"},
+        {"word": "hard", "emoji": "💪"},
+        {"word": "time", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Celebrate uniqueness",
+      "steps": [
+        {"word": "appreciate", "emoji": "❤️"},
+        {"word": "what", "emoji": "✨"},
+        {"word": "makes", "emoji": "🌟"},
+        {"word": "friend", "emoji": "👫"},
+        {"word": "special", "emoji": "💎"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Practice active support",
+      "steps": [
+        {"word": "ask", "emoji": "❓"},
+        {"word": "how", "emoji": "🤔"},
+        {"word": "can", "emoji": "💪"},
+        {"word": "help", "emoji": "🤝"},
+        {"word": "friend", "emoji": "👫"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Be emotionally available",
+      "steps": [
+        {"word": "be", "emoji": "❤️"},
+        {"word": "there", "emoji": "📍"},
+        {"word": "when", "emoji": "🕐"},
+        {"word": "friend", "emoji": "👫"},
+        {"word": "needs", "emoji": "🆘"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Foster growth",
+      "steps": [
+        {"word": "encourage", "emoji": "📣"},
+        {"word": "friend", "emoji": "👫"},
+        {"word": "to", "emoji": "➡️"},
+        {"word": "grow", "emoji": "🌱"},
+        {"word": "learn", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Create traditions",
+      "steps": [
+        {"word": "start", "emoji": "🆕"},
+        {"word": "special", "emoji": "⭐"},
+        {"word": "traditions", "emoji": "🎉"},
+        {"word": "with", "emoji": "👫"},
+        {"word": "friends", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Value friendship",
+      "steps": [
+        {"word": "cherish", "emoji": "💎"},
+        {"word": "and", "emoji": "🔄"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "precious", "emoji": "⭐"},
+        {"word": "friendships", "emoji": "❤️"}
+      ]
+    }
+  ]
+}

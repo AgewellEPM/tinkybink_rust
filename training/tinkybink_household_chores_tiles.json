@@ -1,0 +1,1108 @@
+{
+  "category": {
+    "emoji": "🧹",
+    "name": "Household Chores"
+  },
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Sweeping floor",
+      "steps": [
+        {"word": "get", "emoji": "🤲"},
+        {"word": "broom", "emoji": "🧹"},
+        {"word": "sweep", "emoji": "➡️"},
+        {"word": "pile", "emoji": "🗑️"},
+        {"word": "dustpan", "emoji": "🧺"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Mopping floor",
+      "steps": [
+        {"word": "bucket", "emoji": "🪣"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "mop", "emoji": "🧽"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "dry", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Vacuuming carpet",
+      "steps": [
+        {"word": "plug", "emoji": "🔌"},
+        {"word": "vacuum", "emoji": "🔲"},
+        {"word": "push", "emoji": "➡️"},
+        {"word": "pull", "emoji": "⬅️"},
+        {"word": "unplug", "emoji": "❌"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Dusting furniture",
+      "steps": [
+        {"word": "cloth", "emoji": "🧻"},
+        {"word": "spray", "emoji": "💨"},
+        {"word": "wipe", "emoji": "🫴"},
+        {"word": "furniture", "emoji": "🪑"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Making bed",
+      "steps": [
+        {"word": "sheets", "emoji": "🛏️"},
+        {"word": "straight", "emoji": "📏"},
+        {"word": "blanket", "emoji": "🟦"},
+        {"word": "pillows", "emoji": "🟩"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Washing dishes",
+      "steps": [
+        {"word": "sink", "emoji": "🚰"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "scrub", "emoji": "🧽"},
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "dry", "emoji": "🫧"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Loading dishwasher",
+      "steps": [
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "plates", "emoji": "🍽️"},
+        {"word": "load", "emoji": "📥"},
+        {"word": "soap", "emoji": "🧴"},
+        {"word": "start", "emoji": "▶️"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Taking trash out",
+      "steps": [
+        {"word": "tie", "emoji": "🎀"},
+        {"word": "bag", "emoji": "🗑️"},
+        {"word": "lift", "emoji": "💪"},
+        {"word": "outside", "emoji": "🚪"},
+        {"word": "bin", "emoji": "🗑️"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Recycling items",
+      "steps": [
+        {"word": "sort", "emoji": "♻️"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "plastic", "emoji": "🥤"},
+        {"word": "glass", "emoji": "🍾"},
+        {"word": "bin", "emoji": "🗑️"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Wiping counters",
+      "steps": [
+        {"word": "spray", "emoji": "💨"},
+        {"word": "cleaner", "emoji": "🧴"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "counters", "emoji": "🟦"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Cleaning bathroom",
+      "steps": [
+        {"word": "toilet", "emoji": "🚽"},
+        {"word": "sink", "emoji": "🚰"},
+        {"word": "tub", "emoji": "🛁"},
+        {"word": "mirror", "emoji": "🪞"},
+        {"word": "floor", "emoji": "🟦"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Doing laundry",
+      "steps": [
+        {"word": "sort", "emoji": "👕"},
+        {"word": "washer", "emoji": "🌊"},
+        {"word": "soap", "emoji": "🧴"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "fold", "emoji": "📁"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Folding clothes",
+      "steps": [
+        {"word": "flat", "emoji": "📐"},
+        {"word": "fold", "emoji": "📁"},
+        {"word": "half", "emoji": "✂️"},
+        {"word": "stack", "emoji": "📚"},
+        {"word": "drawer", "emoji": "🗄️"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Hanging clothes",
+      "steps": [
+        {"word": "hanger", "emoji": "👔"},
+        {"word": "shirt", "emoji": "👕"},
+        {"word": "hang", "emoji": "🪝"},
+        {"word": "closet", "emoji": "🚪"},
+        {"word": "organize", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Ironing clothes",
+      "steps": [
+        {"word": "iron", "emoji": "🔥"},
+        {"word": "board", "emoji": "📐"},
+        {"word": "smooth", "emoji": "✋"},
+        {"word": "wrinkles", "emoji": "〰️"},
+        {"word": "hang", "emoji": "👔"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Watering plants",
+      "steps": [
+        {"word": "can", "emoji": "🫗"},
+        {"word": "fill", "emoji": "💧"},
+        {"word": "pour", "emoji": "💦"},
+        {"word": "plants", "emoji": "🌱"},
+        {"word": "happy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Feeding pets",
+      "steps": [
+        {"word": "bowl", "emoji": "🥣"},
+        {"word": "food", "emoji": "🥫"},
+        {"word": "pour", "emoji": "🫗"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "fresh", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Cleaning windows",
+      "steps": [
+        {"word": "spray", "emoji": "💨"},
+        {"word": "glass", "emoji": "🪟"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "squeegee", "emoji": "🪠"},
+        {"word": "shine", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Organizing toys",
+      "steps": [
+        {"word": "toys", "emoji": "🧸"},
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "bins", "emoji": "📦"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Setting table",
+      "steps": [
+        {"word": "plates", "emoji": "🍽️"},
+        {"word": "forks", "emoji": "🍴"},
+        {"word": "cups", "emoji": "🥤"},
+        {"word": "napkins", "emoji": "🧻"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Clearing table",
+      "steps": [
+        {"word": "collect", "emoji": "🤲"},
+        {"word": "dishes", "emoji": "🍽️"},
+        {"word": "sink", "emoji": "🚰"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "table", "emoji": "🟦"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Emptying dishwasher",
+      "steps": [
+        {"word": "open", "emoji": "📂"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "dishes", "emoji": "🍽️"},
+        {"word": "put", "emoji": "📥"},
+        {"word": "away", "emoji": "🗄️"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Cleaning fridge",
+      "steps": [
+        {"word": "check", "emoji": "👀"},
+        {"word": "expired", "emoji": "❌"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "shelves", "emoji": "📚"},
+        {"word": "organize", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Cleaning microwave",
+      "steps": [
+        {"word": "bowl", "emoji": "🥣"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "heat", "emoji": "♨️"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Cleaning oven",
+      "steps": [
+        {"word": "spray", "emoji": "💨"},
+        {"word": "cleaner", "emoji": "🧴"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "scrub", "emoji": "🧽"},
+        {"word": "rinse", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Wiping appliances",
+      "steps": [
+        {"word": "cloth", "emoji": "🧻"},
+        {"word": "damp", "emoji": "💧"},
+        {"word": "wipe", "emoji": "🫴"},
+        {"word": "outside", "emoji": "📦"},
+        {"word": "shine", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Cleaning toilet",
+      "steps": [
+        {"word": "brush", "emoji": "🪠"},
+        {"word": "cleaner", "emoji": "🧴"},
+        {"word": "scrub", "emoji": "🔄"},
+        {"word": "flush", "emoji": "🌊"},
+        {"word": "wipe", "emoji": "🧻"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Cleaning shower",
+      "steps": [
+        {"word": "spray", "emoji": "💨"},
+        {"word": "tiles", "emoji": "🟦"},
+        {"word": "scrub", "emoji": "🧽"},
+        {"word": "rinse", "emoji": "🚿"},
+        {"word": "dry", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Cleaning mirror",
+      "steps": [
+        {"word": "spray", "emoji": "💨"},
+        {"word": "glass", "emoji": "🪞"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "streak", "emoji": "〰️"},
+        {"word": "free", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Organizing closet",
+      "steps": [
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "clothes", "emoji": "👕"},
+        {"word": "donate", "emoji": "🎁"},
+        {"word": "arrange", "emoji": "📋"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Cleaning garage",
+      "steps": [
+        {"word": "sweep", "emoji": "🧹"},
+        {"word": "organize", "emoji": "📦"},
+        {"word": "tools", "emoji": "🔧"},
+        {"word": "shelves", "emoji": "📚"},
+        {"word": "tidy", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Washing car",
+      "steps": [
+        {"word": "hose", "emoji": "💧"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "sponge", "emoji": "🧽"},
+        {"word": "rinse", "emoji": "🚿"},
+        {"word": "dry", "emoji": "🏖️"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Raking leaves",
+      "steps": [
+        {"word": "rake", "emoji": "🧹"},
+        {"word": "leaves", "emoji": "🍂"},
+        {"word": "pile", "emoji": "🗑️"},
+        {"word": "bag", "emoji": "🎒"},
+        {"word": "dispose", "emoji": "♻️"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Mowing lawn",
+      "steps": [
+        {"word": "mower", "emoji": "🚜"},
+        {"word": "start", "emoji": "▶️"},
+        {"word": "push", "emoji": "➡️"},
+        {"word": "rows", "emoji": "📏"},
+        {"word": "grass", "emoji": "🌱"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Weeding garden",
+      "steps": [
+        {"word": "gloves", "emoji": "🧤"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "weeds", "emoji": "🌿"},
+        {"word": "pull", "emoji": "⬆️"},
+        {"word": "dispose", "emoji": "🗑️"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Shoveling snow",
+      "steps": [
+        {"word": "shovel", "emoji": "🔧"},
+        {"word": "snow", "emoji": "❄️"},
+        {"word": "lift", "emoji": "💪"},
+        {"word": "throw", "emoji": "➡️"},
+        {"word": "clear", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Cleaning gutters",
+      "steps": [
+        {"word": "ladder", "emoji": "🪜"},
+        {"word": "gloves", "emoji": "🧤"},
+        {"word": "scoop", "emoji": "🥄"},
+        {"word": "debris", "emoji": "🍂"},
+        {"word": "flush", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Changing sheets",
+      "steps": [
+        {"word": "remove", "emoji": "❌"},
+        {"word": "old", "emoji": "🗑️"},
+        {"word": "fresh", "emoji": "🆕"},
+        {"word": "sheets", "emoji": "🛏️"},
+        {"word": "tuck", "emoji": "📥"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Cleaning ceiling fan",
+      "steps": [
+        {"word": "duster", "emoji": "🪶"},
+        {"word": "extend", "emoji": "📏"},
+        {"word": "blades", "emoji": "🌀"},
+        {"word": "wipe", "emoji": "🫴"},
+        {"word": "dust", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Organizing pantry",
+      "steps": [
+        {"word": "check", "emoji": "👀"},
+        {"word": "dates", "emoji": "📅"},
+        {"word": "group", "emoji": "📦"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Cleaning baseboards",
+      "steps": [
+        {"word": "cloth", "emoji": "🧻"},
+        {"word": "bend", "emoji": "📐"},
+        {"word": "wipe", "emoji": "🫴"},
+        {"word": "dust", "emoji": "💨"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Polishing furniture",
+      "steps": [
+        {"word": "polish", "emoji": "🧴"},
+        {"word": "cloth", "emoji": "🧻"},
+        {"word": "apply", "emoji": "✋"},
+        {"word": "buff", "emoji": "🔄"},
+        {"word": "shine", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Cleaning light fixtures",
+      "steps": [
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "off", "emoji": "❌"},
+        {"word": "dust", "emoji": "🪶"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "bright", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Organizing bookshelf",
+      "steps": [
+        {"word": "remove", "emoji": "📤"},
+        {"word": "dust", "emoji": "🪶"},
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "arrange", "emoji": "📚"},
+        {"word": "display", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Cleaning doorknobs",
+      "steps": [
+        {"word": "spray", "emoji": "💨"},
+        {"word": "disinfectant", "emoji": "🧴"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "handles", "emoji": "🚪"},
+        {"word": "germs", "emoji": "🦠"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Washing curtains",
+      "steps": [
+        {"word": "remove", "emoji": "❌"},
+        {"word": "curtains", "emoji": "🪟"},
+        {"word": "wash", "emoji": "🌊"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "hang", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Cleaning vents",
+      "steps": [
+        {"word": "vacuum", "emoji": "🔲"},
+        {"word": "attachment", "emoji": "🔧"},
+        {"word": "suck", "emoji": "💨"},
+        {"word": "dust", "emoji": "💨"},
+        {"word": "airflow", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Organizing garage",
+      "steps": [
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "tools", "emoji": "🔧"},
+        {"word": "shelves", "emoji": "📚"},
+        {"word": "hooks", "emoji": "🪝"},
+        {"word": "space", "emoji": "📦"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Cleaning patio",
+      "steps": [
+        {"word": "sweep", "emoji": "🧹"},
+        {"word": "furniture", "emoji": "🪑"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "hose", "emoji": "💧"},
+        {"word": "tidy", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Organizing kitchen",
+      "steps": [
+        {"word": "cabinets", "emoji": "🗄️"},
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "pots", "emoji": "🍳"},
+        {"word": "stack", "emoji": "📚"},
+        {"word": "efficient", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Cleaning stove",
+      "steps": [
+        {"word": "burners", "emoji": "🔥"},
+        {"word": "remove", "emoji": "❌"},
+        {"word": "soak", "emoji": "💧"},
+        {"word": "scrub", "emoji": "🧽"},
+        {"word": "replace", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Defrosting freezer",
+      "steps": [
+        {"word": "unplug", "emoji": "🔌"},
+        {"word": "empty", "emoji": "📤"},
+        {"word": "melt", "emoji": "🧊"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "restart", "emoji": "▶️"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Cleaning drains",
+      "steps": [
+        {"word": "pour", "emoji": "🫗"},
+        {"word": "cleaner", "emoji": "🧴"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "flush", "emoji": "💧"},
+        {"word": "clear", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Organizing desk",
+      "steps": [
+        {"word": "papers", "emoji": "📄"},
+        {"word": "file", "emoji": "📁"},
+        {"word": "pens", "emoji": "✏️"},
+        {"word": "holder", "emoji": "🥤"},
+        {"word": "tidy", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Cleaning keyboard",
+      "steps": [
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "upside", "emoji": "⬇️"},
+        {"word": "shake", "emoji": "🤝"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "keys", "emoji": "⌨️"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Organizing medicine",
+      "steps": [
+        {"word": "check", "emoji": "👀"},
+        {"word": "dates", "emoji": "📅"},
+        {"word": "dispose", "emoji": "🗑️"},
+        {"word": "expired", "emoji": "❌"},
+        {"word": "arrange", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Cleaning screens",
+      "steps": [
+        {"word": "remove", "emoji": "❌"},
+        {"word": "screens", "emoji": "🪟"},
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "dry", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Organizing tools",
+      "steps": [
+        {"word": "toolbox", "emoji": "🧰"},
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "types", "emoji": "🔧"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Cleaning grill",
+      "steps": [
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "grates", "emoji": "🔥"},
+        {"word": "scrape", "emoji": "🔧"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Organizing craft supplies",
+      "steps": [
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "supplies", "emoji": "✂️"},
+        {"word": "containers", "emoji": "📦"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "create", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Cleaning exercise equipment",
+      "steps": [
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "equipment", "emoji": "🏋️"},
+        {"word": "disinfect", "emoji": "🧴"},
+        {"word": "handles", "emoji": "🤲"},
+        {"word": "fresh", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Organizing shoes",
+      "steps": [
+        {"word": "pairs", "emoji": "👟"},
+        {"word": "match", "emoji": "🤝"},
+        {"word": "rack", "emoji": "📚"},
+        {"word": "seasonal", "emoji": "🌤️"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Cleaning pet areas",
+      "steps": [
+        {"word": "litter", "emoji": "🐱"},
+        {"word": "box", "emoji": "📦"},
+        {"word": "beds", "emoji": "🛏️"},
+        {"word": "toys", "emoji": "🧸"},
+        {"word": "fresh", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Organizing basement",
+      "steps": [
+        {"word": "boxes", "emoji": "📦"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "shelves", "emoji": "📚"},
+        {"word": "donate", "emoji": "🎁"},
+        {"word": "space", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Cleaning deck",
+      "steps": [
+        {"word": "sweep", "emoji": "🧹"},
+        {"word": "power", "emoji": "💪"},
+        {"word": "wash", "emoji": "💧"},
+        {"word": "stain", "emoji": "🎨"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Organizing attic",
+      "steps": [
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "seasonal", "emoji": "🎄"},
+        {"word": "memories", "emoji": "📸"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "store", "emoji": "📦"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Cleaning fireplace",
+      "steps": [
+        {"word": "ash", "emoji": "💨"},
+        {"word": "remove", "emoji": "🗑️"},
+        {"word": "chimney", "emoji": "🏠"},
+        {"word": "check", "emoji": "👀"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Organizing files",
+      "steps": [
+        {"word": "papers", "emoji": "📄"},
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "file", "emoji": "📁"},
+        {"word": "shred", "emoji": "✂️"},
+        {"word": "organize", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Cleaning rugs",
+      "steps": [
+        {"word": "shake", "emoji": "🤝"},
+        {"word": "outside", "emoji": "🚪"},
+        {"word": "vacuum", "emoji": "🔲"},
+        {"word": "spot", "emoji": "🎯"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Organizing bathroom",
+      "steps": [
+        {"word": "cabinet", "emoji": "🗄️"},
+        {"word": "toiletries", "emoji": "🧴"},
+        {"word": "towels", "emoji": "🏖️"},
+        {"word": "fold", "emoji": "📁"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Cleaning blinds",
+      "steps": [
+        {"word": "duster", "emoji": "🪶"},
+        {"word": "each", "emoji": "📏"},
+        {"word": "slat", "emoji": "➖"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Pressure washing",
+      "steps": [
+        {"word": "machine", "emoji": "🔫"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "spray", "emoji": "💨"},
+        {"word": "driveway", "emoji": "🛣️"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Organizing holiday decorations",
+      "steps": [
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "holiday", "emoji": "🎄"},
+        {"word": "boxes", "emoji": "📦"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "store", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Cleaning air filters",
+      "steps": [
+        {"word": "locate", "emoji": "🔍"},
+        {"word": "filter", "emoji": "🟦"},
+        {"word": "remove", "emoji": "❌"},
+        {"word": "replace", "emoji": "🔄"},
+        {"word": "breathe", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Organizing electronics",
+      "steps": [
+        {"word": "cords", "emoji": "🔌"},
+        {"word": "untangle", "emoji": "🪢"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "store", "emoji": "📦"},
+        {"word": "neat", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Deep cleaning carpet",
+      "steps": [
+        {"word": "vacuum", "emoji": "🔲"},
+        {"word": "shampoo", "emoji": "🧴"},
+        {"word": "machine", "emoji": "🚜"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "fresh", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Cleaning walls",
+      "steps": [
+        {"word": "sponge", "emoji": "🧽"},
+        {"word": "mild", "emoji": "🧴"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "marks", "emoji": "✏️"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Organizing linen closet",
+      "steps": [
+        {"word": "sheets", "emoji": "🛏️"},
+        {"word": "towels", "emoji": "🏖️"},
+        {"word": "fold", "emoji": "📁"},
+        {"word": "stack", "emoji": "📚"},
+        {"word": "labels", "emoji": "🏷️"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Cleaning outdoor furniture",
+      "steps": [
+        {"word": "hose", "emoji": "💧"},
+        {"word": "scrub", "emoji": "🧽"},
+        {"word": "cushions", "emoji": "🟦"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "cover", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Organizing spices",
+      "steps": [
+        {"word": "check", "emoji": "👀"},
+        {"word": "dates", "emoji": "📅"},
+        {"word": "alphabetize", "emoji": "🔤"},
+        {"word": "rack", "emoji": "📚"},
+        {"word": "cook", "emoji": "👨‍🍳"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Cleaning mattress",
+      "steps": [
+        {"word": "vacuum", "emoji": "🔲"},
+        {"word": "flip", "emoji": "🔄"},
+        {"word": "spray", "emoji": "💨"},
+        {"word": "air", "emoji": "🌬️"},
+        {"word": "fresh", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Organizing photos",
+      "steps": [
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "photos", "emoji": "📸"},
+        {"word": "albums", "emoji": "📚"},
+        {"word": "digital", "emoji": "💻"},
+        {"word": "memories", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Cleaning coffee maker",
+      "steps": [
+        {"word": "vinegar", "emoji": "🧴"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "run", "emoji": "▶️"},
+        {"word": "rinse", "emoji": "🚿"},
+        {"word": "fresh", "emoji": "☕"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Organizing receipts",
+      "steps": [
+        {"word": "collect", "emoji": "📄"},
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "date", "emoji": "📅"},
+        {"word": "file", "emoji": "📁"},
+        {"word": "taxes", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Cleaning garbage cans",
+      "steps": [
+        {"word": "empty", "emoji": "🗑️"},
+        {"word": "hose", "emoji": "💧"},
+        {"word": "disinfect", "emoji": "🧴"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "liner", "emoji": "🛍️"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Organizing jewelry",
+      "steps": [
+        {"word": "untangle", "emoji": "🪢"},
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "box", "emoji": "📦"},
+        {"word": "display", "emoji": "💎"},
+        {"word": "pretty", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Cleaning dishwasher",
+      "steps": [
+        {"word": "empty", "emoji": "📤"},
+        {"word": "filter", "emoji": "🟦"},
+        {"word": "clean", "emoji": "🧼"},
+        {"word": "vinegar", "emoji": "🧴"},
+        {"word": "cycle", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Organizing gift wrap",
+      "steps": [
+        {"word": "rolls", "emoji": "🎁"},
+        {"word": "ribbon", "emoji": "🎀"},
+        {"word": "bags", "emoji": "🛍️"},
+        {"word": "container", "emoji": "📦"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Cleaning washer",
+      "steps": [
+        {"word": "hot", "emoji": "♨️"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "bleach", "emoji": "🧴"},
+        {"word": "cycle", "emoji": "🔄"},
+        {"word": "fresh", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Organizing cables",
+      "steps": [
+        {"word": "gather", "emoji": "🤲"},
+        {"word": "ties", "emoji": "🎀"},
+        {"word": "label", "emoji": "🏷️"},
+        {"word": "route", "emoji": "➡️"},
+        {"word": "tidy", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Cleaning range hood",
+      "steps": [
+        {"word": "filter", "emoji": "🟦"},
+        {"word": "remove", "emoji": "❌"},
+        {"word": "soak", "emoji": "💧"},
+        {"word": "grease", "emoji": "🧈"},
+        {"word": "replace", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Organizing magazines",
+      "steps": [
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "date", "emoji": "📅"},
+        {"word": "keep", "emoji": "✅"},
+        {"word": "recycle", "emoji": "♻️"},
+        {"word": "display", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Cleaning vacuum",
+      "steps": [
+        {"word": "empty", "emoji": "🗑️"},
+        {"word": "bag", "emoji": "🛍️"},
+        {"word": "filter", "emoji": "🟦"},
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "maintain", "emoji": "🔧"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Organizing board games",
+      "steps": [
+        {"word": "check", "emoji": "👀"},
+        {"word": "pieces", "emoji": "🧩"},
+        {"word": "stack", "emoji": "📚"},
+        {"word": "shelf", "emoji": "📚"},
+        {"word": "fun", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Cleaning phone",
+      "steps": [
+        {"word": "screen", "emoji": "📱"},
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "case", "emoji": "📦"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "germs", "emoji": "🦠"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Organizing bags",
+      "steps": [
+        {"word": "purses", "emoji": "👜"},
+        {"word": "backpacks", "emoji": "🎒"},
+        {"word": "hooks", "emoji": "🪝"},
+        {"word": "shelf", "emoji": "📚"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Cleaning remote controls",
+      "steps": [
+        {"word": "wipe", "emoji": "🧻"},
+        {"word": "buttons", "emoji": "🔘"},
+        {"word": "between", "emoji": "↔️"},
+        {"word": "germs", "emoji": "🦠"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Organizing seasonal clothes",
+      "steps": [
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "season", "emoji": "🌤️"},
+        {"word": "store", "emoji": "📦"},
+        {"word": "vacuum", "emoji": "🔲"},
+        {"word": "bags", "emoji": "🛍️"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Cleaning under bed",
+      "steps": [
+        {"word": "reach", "emoji": "🤲"},
+        {"word": "under", "emoji": "⬇️"},
+        {"word": "dust", "emoji": "💨"},
+        {"word": "vacuum", "emoji": "🔲"},
+        {"word": "organize", "emoji": "📦"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Weekly cleaning schedule",
+      "steps": [
+        {"word": "plan", "emoji": "📅"},
+        {"word": "daily", "emoji": "☀️"},
+        {"word": "weekly", "emoji": "📆"},
+        {"word": "tasks", "emoji": "✅"},
+        {"word": "maintain", "emoji": "🏠"}
+      ]
+    }
+  ]
+}

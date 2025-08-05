@@ -1,0 +1,1108 @@
+{
+  "category": {
+    "emoji": "🔄",
+    "name": "Transitions & Routines"
+  },
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Morning wake up",
+      "steps": [
+        {"word": "alarm", "emoji": "⏰"},
+        {"word": "rings", "emoji": "🔔"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "get", "emoji": "🛏️"},
+        {"word": "up", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Getting ready school",
+      "steps": [
+        {"word": "wake", "emoji": "😴"},
+        {"word": "dress", "emoji": "👕"},
+        {"word": "breakfast", "emoji": "🥞"},
+        {"word": "backpack", "emoji": "🎒"},
+        {"word": "go", "emoji": "🚌"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bedtime routine",
+      "steps": [
+        {"word": "pajamas", "emoji": "👔"},
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "story", "emoji": "📚"},
+        {"word": "lights", "emoji": "💡"},
+        {"word": "sleep", "emoji": "😴"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "After school routine",
+      "steps": [
+        {"word": "arrive", "emoji": "🏠"},
+        {"word": "snack", "emoji": "🍎"},
+        {"word": "homework", "emoji": "📝"},
+        {"word": "play", "emoji": "🎮"},
+        {"word": "dinner", "emoji": "🍽️"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Leaving house",
+      "steps": [
+        {"word": "shoes", "emoji": "👟"},
+        {"word": "coat", "emoji": "🧥"},
+        {"word": "keys", "emoji": "🔑"},
+        {"word": "lock", "emoji": "🔒"},
+        {"word": "go", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Coming home",
+      "steps": [
+        {"word": "unlock", "emoji": "🔓"},
+        {"word": "door", "emoji": "🚪"},
+        {"word": "shoes", "emoji": "👟"},
+        {"word": "off", "emoji": "❌"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Mealtime transition",
+      "steps": [
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "hands", "emoji": "👐"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "eat", "emoji": "🍽️"},
+        {"word": "clean", "emoji": "🧹"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bath time",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "warm", "emoji": "♨️"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "wash", "emoji": "🛁"},
+        {"word": "towel", "emoji": "🏖️"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Weekend morning",
+      "steps": [
+        {"word": "sleep", "emoji": "😴"},
+        {"word": "late", "emoji": "⏰"},
+        {"word": "breakfast", "emoji": "🥐"},
+        {"word": "relax", "emoji": "☕"},
+        {"word": "plan", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Study time",
+      "steps": [
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "desk", "emoji": "📚"},
+        {"word": "books", "emoji": "📖"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "learn", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Activity change",
+      "steps": [
+        {"word": "finish", "emoji": "✅"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "clean", "emoji": "🧹"},
+        {"word": "start", "emoji": "▶️"},
+        {"word": "next", "emoji": "2️⃣"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Car ride routine",
+      "steps": [
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "car", "emoji": "🚗"},
+        {"word": "buckle", "emoji": "🔒"},
+        {"word": "ride", "emoji": "🛣️"},
+        {"word": "arrive", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Nap time",
+      "steps": [
+        {"word": "tired", "emoji": "🥱"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "blanket", "emoji": "🛏️"},
+        {"word": "rest", "emoji": "😴"},
+        {"word": "wake", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Clean up time",
+      "steps": [
+        {"word": "toys", "emoji": "🧸"},
+        {"word": "away", "emoji": "📦"},
+        {"word": "organize", "emoji": "🗂️"},
+        {"word": "tidy", "emoji": "✨"},
+        {"word": "done", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Screen time ending",
+      "steps": [
+        {"word": "five", "emoji": "5️⃣"},
+        {"word": "minutes", "emoji": "⏱️"},
+        {"word": "save", "emoji": "💾"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "off", "emoji": "📴"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Visitor arriving",
+      "steps": [
+        {"word": "doorbell", "emoji": "🔔"},
+        {"word": "greet", "emoji": "👋"},
+        {"word": "welcome", "emoji": "🤗"},
+        {"word": "show", "emoji": "👉"},
+        {"word": "in", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Doctor appointment",
+      "steps": [
+        {"word": "prepare", "emoji": "📋"},
+        {"word": "drive", "emoji": "🚗"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "see", "emoji": "👨‍⚕️"},
+        {"word": "home", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Exercise time",
+      "steps": [
+        {"word": "change", "emoji": "👕"},
+        {"word": "clothes", "emoji": "🩳"},
+        {"word": "warm", "emoji": "🔥"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "move", "emoji": "🏃"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Quiet time",
+      "steps": [
+        {"word": "lower", "emoji": "🔉"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "activity", "emoji": "📖"},
+        {"word": "peaceful", "emoji": "🕊️"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Outside play",
+      "steps": [
+        {"word": "check", "emoji": "🌤️"},
+        {"word": "weather", "emoji": "☀️"},
+        {"word": "shoes", "emoji": "👟"},
+        {"word": "outside", "emoji": "🚪"},
+        {"word": "play", "emoji": "⚽"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Homework time",
+      "steps": [
+        {"word": "snack", "emoji": "🍎"},
+        {"word": "first", "emoji": "1️⃣"},
+        {"word": "books", "emoji": "📚"},
+        {"word": "work", "emoji": "✍️"},
+        {"word": "check", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Morning hygiene",
+      "steps": [
+        {"word": "bathroom", "emoji": "🚽"},
+        {"word": "wash", "emoji": "🧼"},
+        {"word": "face", "emoji": "😊"},
+        {"word": "brush", "emoji": "🪥"},
+        {"word": "teeth", "emoji": "😁"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Lunch routine",
+      "steps": [
+        {"word": "noon", "emoji": "🕐"},
+        {"word": "hungry", "emoji": "😋"},
+        {"word": "prepare", "emoji": "🥪"},
+        {"word": "eat", "emoji": "🍽️"},
+        {"word": "clean", "emoji": "🧹"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Chore time",
+      "steps": [
+        {"word": "list", "emoji": "📋"},
+        {"word": "tasks", "emoji": "✅"},
+        {"word": "start", "emoji": "▶️"},
+        {"word": "complete", "emoji": "💪"},
+        {"word": "reward", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Therapy session",
+      "steps": [
+        {"word": "ready", "emoji": "✅"},
+        {"word": "materials", "emoji": "📦"},
+        {"word": "work", "emoji": "🎯"},
+        {"word": "practice", "emoji": "🔄"},
+        {"word": "goodbye", "emoji": "👋"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Shopping trip",
+      "steps": [
+        {"word": "list", "emoji": "📝"},
+        {"word": "store", "emoji": "🏪"},
+        {"word": "cart", "emoji": "🛒"},
+        {"word": "pay", "emoji": "💳"},
+        {"word": "home", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Playtime ending",
+      "steps": [
+        {"word": "warning", "emoji": "⚠️"},
+        {"word": "five", "emoji": "5️⃣"},
+        {"word": "minutes", "emoji": "⏰"},
+        {"word": "finish", "emoji": "✅"},
+        {"word": "transition", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "School arrival",
+      "steps": [
+        {"word": "arrive", "emoji": "🏫"},
+        {"word": "backpack", "emoji": "🎒"},
+        {"word": "cubby", "emoji": "📦"},
+        {"word": "greet", "emoji": "👋"},
+        {"word": "start", "emoji": "▶️"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "School dismissal",
+      "steps": [
+        {"word": "pack", "emoji": "🎒"},
+        {"word": "line", "emoji": "👥"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "go", "emoji": "🚌"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Snack time",
+      "steps": [
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "hands", "emoji": "👐"},
+        {"word": "choose", "emoji": "🤔"},
+        {"word": "snack", "emoji": "🍪"},
+        {"word": "enjoy", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Reading time",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "book", "emoji": "📚"},
+        {"word": "cozy", "emoji": "🛋️"},
+        {"word": "spot", "emoji": "📍"},
+        {"word": "read", "emoji": "📖"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Art activity",
+      "steps": [
+        {"word": "apron", "emoji": "👕"},
+        {"word": "supplies", "emoji": "🎨"},
+        {"word": "create", "emoji": "✏️"},
+        {"word": "clean", "emoji": "🧹"},
+        {"word": "display", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Music time",
+      "steps": [
+        {"word": "instruments", "emoji": "🎵"},
+        {"word": "ready", "emoji": "✅"},
+        {"word": "play", "emoji": "🎶"},
+        {"word": "sing", "emoji": "🎤"},
+        {"word": "quiet", "emoji": "🤫"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Circle time",
+      "steps": [
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "circle", "emoji": "⭕"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "share", "emoji": "🗣️"},
+        {"word": "learn", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Outdoor transition",
+      "steps": [
+        {"word": "line", "emoji": "👥"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "outside", "emoji": "🚪"},
+        {"word": "play", "emoji": "🏃"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Indoor transition",
+      "steps": [
+        {"word": "hear", "emoji": "👂"},
+        {"word": "signal", "emoji": "🔔"},
+        {"word": "line", "emoji": "👥"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "inside", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Lunchroom routine",
+      "steps": [
+        {"word": "line", "emoji": "👥"},
+        {"word": "tray", "emoji": "🍽️"},
+        {"word": "food", "emoji": "🥘"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "eat", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Rest time",
+      "steps": [
+        {"word": "mat", "emoji": "🟦"},
+        {"word": "blanket", "emoji": "🛏️"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "rest", "emoji": "😴"},
+        {"word": "wake", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "PE transition",
+      "steps": [
+        {"word": "gym", "emoji": "🏃"},
+        {"word": "clothes", "emoji": "👕"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "exercise", "emoji": "🤸"},
+        {"word": "change", "emoji": "👔"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Technology time",
+      "steps": [
+        {"word": "device", "emoji": "💻"},
+        {"word": "on", "emoji": "✅"},
+        {"word": "use", "emoji": "👆"},
+        {"word": "save", "emoji": "💾"},
+        {"word": "off", "emoji": "📴"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Waiting routine",
+      "steps": [
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "hands", "emoji": "🤲"},
+        {"word": "still", "emoji": "🛑"},
+        {"word": "wait", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Fire drill",
+      "steps": [
+        {"word": "alarm", "emoji": "🚨"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "line", "emoji": "👥"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Assembly routine",
+      "steps": [
+        {"word": "line", "emoji": "👥"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "return", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Center rotation",
+      "steps": [
+        {"word": "timer", "emoji": "⏰"},
+        {"word": "clean", "emoji": "🧹"},
+        {"word": "rotate", "emoji": "🔄"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "center", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Morning meeting",
+      "steps": [
+        {"word": "gather", "emoji": "👥"},
+        {"word": "greeting", "emoji": "👋"},
+        {"word": "calendar", "emoji": "📅"},
+        {"word": "weather", "emoji": "🌤️"},
+        {"word": "plan", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Dismissal prep",
+      "steps": [
+        {"word": "pack", "emoji": "🎒"},
+        {"word": "folders", "emoji": "📁"},
+        {"word": "coat", "emoji": "🧥"},
+        {"word": "ready", "emoji": "✅"},
+        {"word": "wait", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Arrival unpacking",
+      "steps": [
+        {"word": "backpack", "emoji": "🎒"},
+        {"word": "open", "emoji": "📂"},
+        {"word": "folders", "emoji": "📁"},
+        {"word": "out", "emoji": "📤"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Transition warning",
+      "steps": [
+        {"word": "attention", "emoji": "👂"},
+        {"word": "five", "emoji": "5️⃣"},
+        {"word": "minutes", "emoji": "⏰"},
+        {"word": "finish", "emoji": "✅"},
+        {"word": "prepare", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Bathroom routine",
+      "steps": [
+        {"word": "ask", "emoji": "🙋"},
+        {"word": "go", "emoji": "🚶"},
+        {"word": "use", "emoji": "🚽"},
+        {"word": "wash", "emoji": "🤲"},
+        {"word": "return", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Special event",
+      "steps": [
+        {"word": "different", "emoji": "🌟"},
+        {"word": "today", "emoji": "📅"},
+        {"word": "prepare", "emoji": "📋"},
+        {"word": "participate", "emoji": "🎉"},
+        {"word": "enjoy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Substitute teacher",
+      "steps": [
+        {"word": "new", "emoji": "🆕"},
+        {"word": "teacher", "emoji": "👩‍🏫"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "follow", "emoji": "👣"},
+        {"word": "rules", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Field trip day",
+      "steps": [
+        {"word": "special", "emoji": "⭐"},
+        {"word": "bus", "emoji": "🚌"},
+        {"word": "ride", "emoji": "🛣️"},
+        {"word": "explore", "emoji": "🔍"},
+        {"word": "return", "emoji": "🏫"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Early release",
+      "steps": [
+        {"word": "short", "emoji": "📏"},
+        {"word": "day", "emoji": "📅"},
+        {"word": "pack", "emoji": "🎒"},
+        {"word": "early", "emoji": "🕐"},
+        {"word": "home", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Testing routine",
+      "steps": [
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "test", "emoji": "📝"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "finish", "emoji": "✅"},
+        {"word": "wait", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Library time",
+      "steps": [
+        {"word": "line", "emoji": "👥"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "books", "emoji": "📚"},
+        {"word": "check", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Computer lab",
+      "steps": [
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "log", "emoji": "🔐"},
+        {"word": "in", "emoji": "💻"},
+        {"word": "work", "emoji": "⌨️"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Recess transition",
+      "steps": [
+        {"word": "line", "emoji": "👥"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "play", "emoji": "🏃"},
+        {"word": "fun", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Specials rotation",
+      "steps": [
+        {"word": "pack", "emoji": "📦"},
+        {"word": "line", "emoji": "👥"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "special", "emoji": "⭐"},
+        {"word": "class", "emoji": "🏫"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Morning work",
+      "steps": [
+        {"word": "enter", "emoji": "🚪"},
+        {"word": "unpack", "emoji": "🎒"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "work", "emoji": "✍️"},
+        {"word": "quietly", "emoji": "🤫"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "End of day",
+      "steps": [
+        {"word": "clean", "emoji": "🧹"},
+        {"word": "pack", "emoji": "🎒"},
+        {"word": "stack", "emoji": "🪑"},
+        {"word": "line", "emoji": "👥"},
+        {"word": "goodbye", "emoji": "👋"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Partner work",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "partner", "emoji": "👫"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "work", "emoji": "🤝"},
+        {"word": "share", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Group project",
+      "steps": [
+        {"word": "groups", "emoji": "👥"},
+        {"word": "move", "emoji": "🚶"},
+        {"word": "materials", "emoji": "📦"},
+        {"word": "collaborate", "emoji": "🤝"},
+        {"word": "present", "emoji": "🗣️"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Independent work",
+      "steps": [
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "own", "emoji": "👤"},
+        {"word": "desk", "emoji": "🪑"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "complete", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Whole group",
+      "steps": [
+        {"word": "attention", "emoji": "👂"},
+        {"word": "carpet", "emoji": "🟦"},
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "participate", "emoji": "🙋"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Small group",
+      "steps": [
+        {"word": "teacher", "emoji": "👩‍🏫"},
+        {"word": "table", "emoji": "🪑"},
+        {"word": "come", "emoji": "👋"},
+        {"word": "work", "emoji": "📚"},
+        {"word": "return", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Cleanup signal",
+      "steps": [
+        {"word": "hear", "emoji": "👂"},
+        {"word": "chime", "emoji": "🔔"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "clean", "emoji": "🧹"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Attention getter",
+      "steps": [
+        {"word": "hear", "emoji": "👂"},
+        {"word": "clap", "emoji": "👏"},
+        {"word": "stop", "emoji": "🛑"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "listen", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Brain break",
+      "steps": [
+        {"word": "stand", "emoji": "🧍"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "move", "emoji": "💃"},
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "sit", "emoji": "🪑"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Water break",
+      "steps": [
+        {"word": "thirsty", "emoji": "💧"},
+        {"word": "line", "emoji": "👥"},
+        {"word": "fountain", "emoji": "⛲"},
+        {"word": "drink", "emoji": "🥤"},
+        {"word": "return", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Nurse visit",
+      "steps": [
+        {"word": "feel", "emoji": "🤒"},
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "teacher", "emoji": "👩‍🏫"},
+        {"word": "nurse", "emoji": "👩‍⚕️"},
+        {"word": "better", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Guest speaker",
+      "steps": [
+        {"word": "visitor", "emoji": "👤"},
+        {"word": "welcome", "emoji": "👋"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "thank", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Birthday routine",
+      "steps": [
+        {"word": "special", "emoji": "🎂"},
+        {"word": "day", "emoji": "📅"},
+        {"word": "sing", "emoji": "🎵"},
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "happy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Weather delay",
+      "steps": [
+        {"word": "storm", "emoji": "⛈️"},
+        {"word": "inside", "emoji": "🏠"},
+        {"word": "stay", "emoji": "📍"},
+        {"word": "safe", "emoji": "✅"},
+        {"word": "wait", "emoji": "⏰"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Picture day",
+      "steps": [
+        {"word": "special", "emoji": "📸"},
+        {"word": "clothes", "emoji": "👔"},
+        {"word": "line", "emoji": "👥"},
+        {"word": "smile", "emoji": "😊"},
+        {"word": "photo", "emoji": "📷"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Morning announcements",
+      "steps": [
+        {"word": "speaker", "emoji": "📢"},
+        {"word": "on", "emoji": "🔊"},
+        {"word": "stand", "emoji": "🧍"},
+        {"word": "pledge", "emoji": "🇺🇸"},
+        {"word": "listen", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Lunch count",
+      "steps": [
+        {"word": "morning", "emoji": "🌅"},
+        {"word": "choice", "emoji": "🤔"},
+        {"word": "hot", "emoji": "🍕"},
+        {"word": "cold", "emoji": "🥪"},
+        {"word": "count", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Job helper",
+      "steps": [
+        {"word": "check", "emoji": "✅"},
+        {"word": "chart", "emoji": "📊"},
+        {"word": "your", "emoji": "👆"},
+        {"word": "job", "emoji": "💼"},
+        {"word": "help", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Calendar time",
+      "steps": [
+        {"word": "today", "emoji": "📅"},
+        {"word": "date", "emoji": "🗓️"},
+        {"word": "weather", "emoji": "🌤️"},
+        {"word": "pattern", "emoji": "🔢"},
+        {"word": "learn", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Show and tell",
+      "steps": [
+        {"word": "bring", "emoji": "🤲"},
+        {"word": "item", "emoji": "📦"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "share", "emoji": "🗣️"},
+        {"word": "listen", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Sharing time",
+      "steps": [
+        {"word": "circle", "emoji": "⭕"},
+        {"word": "raise", "emoji": "🙋"},
+        {"word": "hand", "emoji": "✋"},
+        {"word": "share", "emoji": "💬"},
+        {"word": "listen", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Choice time",
+      "steps": [
+        {"word": "finish", "emoji": "✅"},
+        {"word": "work", "emoji": "📚"},
+        {"word": "choose", "emoji": "🤔"},
+        {"word": "activity", "emoji": "🎯"},
+        {"word": "enjoy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Mindfulness moment",
+      "steps": [
+        {"word": "pause", "emoji": "⏸️"},
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "feel", "emoji": "❤️"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Transition song",
+      "steps": [
+        {"word": "hear", "emoji": "👂"},
+        {"word": "music", "emoji": "🎵"},
+        {"word": "clean", "emoji": "🧹"},
+        {"word": "move", "emoji": "🚶"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Lining up",
+      "steps": [
+        {"word": "hear", "emoji": "👂"},
+        {"word": "call", "emoji": "📢"},
+        {"word": "stand", "emoji": "🧍"},
+        {"word": "line", "emoji": "👥"},
+        {"word": "quiet", "emoji": "🤫"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Hall walking",
+      "steps": [
+        {"word": "line", "emoji": "👥"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "straight", "emoji": "➡️"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Carpet sitting",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "spot", "emoji": "📍"},
+        {"word": "criss", "emoji": "❌"},
+        {"word": "cross", "emoji": "❌"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Desk work",
+      "steps": [
+        {"word": "sit", "emoji": "🪑"},
+        {"word": "feet", "emoji": "🦶"},
+        {"word": "floor", "emoji": "🟦"},
+        {"word": "pencil", "emoji": "✏️"},
+        {"word": "work", "emoji": "📝"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Material distribution",
+      "steps": [
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "helper", "emoji": "🤝"},
+        {"word": "pass", "emoji": "🤲"},
+        {"word": "out", "emoji": "📤"},
+        {"word": "begin", "emoji": "▶️"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Collection time",
+      "steps": [
+        {"word": "finish", "emoji": "✅"},
+        {"word": "name", "emoji": "📝"},
+        {"word": "pass", "emoji": "🤲"},
+        {"word": "forward", "emoji": "➡️"},
+        {"word": "collect", "emoji": "📥"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Transition timer",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "timer", "emoji": "⏰"},
+        {"word": "hurry", "emoji": "🏃"},
+        {"word": "finish", "emoji": "✅"},
+        {"word": "transition", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Quiet signal",
+      "steps": [
+        {"word": "see", "emoji": "👀"},
+        {"word": "hand", "emoji": "✋"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Movement break",
+      "steps": [
+        {"word": "stand", "emoji": "🧍"},
+        {"word": "wiggle", "emoji": "🕺"},
+        {"word": "jump", "emoji": "🦘"},
+        {"word": "shake", "emoji": "🤝"},
+        {"word": "sit", "emoji": "🪑"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Pack up time",
+      "steps": [
+        {"word": "homework", "emoji": "📝"},
+        {"word": "folder", "emoji": "📁"},
+        {"word": "backpack", "emoji": "🎒"},
+        {"word": "desk", "emoji": "🪑"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Morning stretch",
+      "steps": [
+        {"word": "wake", "emoji": "😴"},
+        {"word": "body", "emoji": "🧍"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "energy", "emoji": "⚡"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Afternoon routine",
+      "steps": [
+        {"word": "lunch", "emoji": "🍽️"},
+        {"word": "done", "emoji": "✅"},
+        {"word": "afternoon", "emoji": "☀️"},
+        {"word": "work", "emoji": "📚"},
+        {"word": "focus", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Weekend prep",
+      "steps": [
+        {"word": "Friday", "emoji": "📅"},
+        {"word": "pack", "emoji": "🎒"},
+        {"word": "everything", "emoji": "📦"},
+        {"word": "weekend", "emoji": "🎉"},
+        {"word": "ready", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Monday return",
+      "steps": [
+        {"word": "weekend", "emoji": "🏠"},
+        {"word": "over", "emoji": "✅"},
+        {"word": "Monday", "emoji": "📅"},
+        {"word": "school", "emoji": "🏫"},
+        {"word": "routine", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Holiday schedule",
+      "steps": [
+        {"word": "special", "emoji": "🎉"},
+        {"word": "day", "emoji": "📅"},
+        {"word": "different", "emoji": "🔄"},
+        {"word": "schedule", "emoji": "⏰"},
+        {"word": "fun", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Season change",
+      "steps": [
+        {"word": "weather", "emoji": "🌤️"},
+        {"word": "changing", "emoji": "🔄"},
+        {"word": "clothes", "emoji": "👕"},
+        {"word": "different", "emoji": "🧥"},
+        {"word": "adapt", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Year end routine",
+      "steps": [
+        {"word": "school", "emoji": "🏫"},
+        {"word": "ending", "emoji": "🏁"},
+        {"word": "clean", "emoji": "🧹"},
+        {"word": "pack", "emoji": "📦"},
+        {"word": "summer", "emoji": "☀️"}
+      ]
+    }
+  ]
+}

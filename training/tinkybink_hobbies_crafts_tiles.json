@@ -1,0 +1,1108 @@
+{
+  "category": {
+    "emoji": "🎨",
+    "name": "Hobbies & Crafts"
+  },
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Paint picture",
+      "steps": [
+        {"word": "canvas", "emoji": "🎨"},
+        {"word": "brush", "emoji": "🖌️"},
+        {"word": "paint", "emoji": "🌈"},
+        {"word": "colors", "emoji": "🖼️"},
+        {"word": "masterpiece", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Knit scarf",
+      "steps": [
+        {"word": "yarn", "emoji": "🧶"},
+        {"word": "needles", "emoji": "🪡"},
+        {"word": "stitch", "emoji": "🔄"},
+        {"word": "pattern", "emoji": "🧣"},
+        {"word": "warm", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Build birdhouse",
+      "steps": [
+        {"word": "wood", "emoji": "🪵"},
+        {"word": "saw", "emoji": "🔨"},
+        {"word": "hammer", "emoji": "🏠"},
+        {"word": "build", "emoji": "🐦"},
+        {"word": "home", "emoji": "🌳"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Make jewelry",
+      "steps": [
+        {"word": "beads", "emoji": "📿"},
+        {"word": "string", "emoji": "🪢"},
+        {"word": "thread", "emoji": "💎"},
+        {"word": "pattern", "emoji": "💍"},
+        {"word": "beautiful", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Grow garden",
+      "steps": [
+        {"word": "seeds", "emoji": "🌱"},
+        {"word": "soil", "emoji": "🌍"},
+        {"word": "plant", "emoji": "💧"},
+        {"word": "water", "emoji": "🌻"},
+        {"word": "bloom", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Collect stamps",
+      "steps": [
+        {"word": "stamps", "emoji": "📮"},
+        {"word": "album", "emoji": "📖"},
+        {"word": "organize", "emoji": "🗂️"},
+        {"word": "collect", "emoji": "📊"},
+        {"word": "hobby", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Take photos",
+      "steps": [
+        {"word": "camera", "emoji": "📷"},
+        {"word": "subject", "emoji": "🎯"},
+        {"word": "focus", "emoji": "📸"},
+        {"word": "click", "emoji": "🖼️"},
+        {"word": "memory", "emoji": "💝"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Play guitar",
+      "steps": [
+        {"word": "guitar", "emoji": "🎸"},
+        {"word": "strings", "emoji": "🎵"},
+        {"word": "strum", "emoji": "🎶"},
+        {"word": "music", "emoji": "🎤"},
+        {"word": "song", "emoji": "🎼"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bake cookies",
+      "steps": [
+        {"word": "flour", "emoji": "🌾"},
+        {"word": "mix", "emoji": "🥄"},
+        {"word": "dough", "emoji": "🔥"},
+        {"word": "oven", "emoji": "🍪"},
+        {"word": "delicious", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Write story",
+      "steps": [
+        {"word": "idea", "emoji": "💡"},
+        {"word": "pen", "emoji": "✍️"},
+        {"word": "paper", "emoji": "📝"},
+        {"word": "write", "emoji": "📚"},
+        {"word": "story", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Make pottery",
+      "steps": [
+        {"word": "clay", "emoji": "🏺"},
+        {"word": "wheel", "emoji": "🎯"},
+        {"word": "shape", "emoji": "👐"},
+        {"word": "form", "emoji": "🔥"},
+        {"word": "fire", "emoji": "🏺"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Sew dress",
+      "steps": [
+        {"word": "fabric", "emoji": "🧵"},
+        {"word": "pattern", "emoji": "📐"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "sew", "emoji": "👗"},
+        {"word": "dress", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Play chess",
+      "steps": [
+        {"word": "board", "emoji": "♟️"},
+        {"word": "pieces", "emoji": "🤔"},
+        {"word": "think", "emoji": "👑"},
+        {"word": "move", "emoji": "🏆"},
+        {"word": "checkmate", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Dance routine",
+      "steps": [
+        {"word": "music", "emoji": "🎵"},
+        {"word": "rhythm", "emoji": "💃"},
+        {"word": "move", "emoji": "🕺"},
+        {"word": "dance", "emoji": "🎶"},
+        {"word": "express", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Read book",
+      "steps": [
+        {"word": "book", "emoji": "📖"},
+        {"word": "open", "emoji": "👀"},
+        {"word": "read", "emoji": "🧠"},
+        {"word": "learn", "emoji": "💭"},
+        {"word": "imagine", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Make candles",
+      "steps": [
+        {"word": "wax", "emoji": "🕯️"},
+        {"word": "melt", "emoji": "🔥"},
+        {"word": "wick", "emoji": "🪣"},
+        {"word": "pour", "emoji": "❄️"},
+        {"word": "cool", "emoji": "🕯️"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Fold origami",
+      "steps": [
+        {"word": "paper", "emoji": "📄"},
+        {"word": "fold", "emoji": "📁"},
+        {"word": "crease", "emoji": "✂️"},
+        {"word": "shape", "emoji": "🦢"},
+        {"word": "art", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Train bird",
+      "steps": [
+        {"word": "bird", "emoji": "🐦"},
+        {"word": "treat", "emoji": "🍇"},
+        {"word": "reward", "emoji": "🎯"},
+        {"word": "practice", "emoji": "👏"},
+        {"word": "trick", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Carve wood",
+      "steps": [
+        {"word": "wood", "emoji": "🪵"},
+        {"word": "knife", "emoji": "🔪"},
+        {"word": "carve", "emoji": "🎨"},
+        {"word": "shape", "emoji": "🦆"},
+        {"word": "sculpture", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Design quilt",
+      "steps": [
+        {"word": "fabric", "emoji": "🧵"},
+        {"word": "squares", "emoji": "🟫"},
+        {"word": "pattern", "emoji": "📐"},
+        {"word": "sew", "emoji": "🛏️"},
+        {"word": "quilt", "emoji": "💤"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Paint nails",
+      "steps": [
+        {"word": "nails", "emoji": "💅"},
+        {"word": "base", "emoji": "🎨"},
+        {"word": "coat", "emoji": "🌈"},
+        {"word": "color", "emoji": "✨"},
+        {"word": "pretty", "emoji": "💎"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Make soap",
+      "steps": [
+        {"word": "oils", "emoji": "🧴"},
+        {"word": "lye", "emoji": "🥄"},
+        {"word": "mix", "emoji": "🔄"},
+        {"word": "mold", "emoji": "🧼"},
+        {"word": "soap", "emoji": "🧽"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Collect coins",
+      "steps": [
+        {"word": "coins", "emoji": "🪙"},
+        {"word": "rare", "emoji": "💰"},
+        {"word": "value", "emoji": "📚"},
+        {"word": "album", "emoji": "🗂️"},
+        {"word": "organize", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Learn magic",
+      "steps": [
+        {"word": "trick", "emoji": "🎩"},
+        {"word": "practice", "emoji": "🪄"},
+        {"word": "secret", "emoji": "🤫"},
+        {"word": "perform", "emoji": "👏"},
+        {"word": "amaze", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Study stars",
+      "steps": [
+        {"word": "telescope", "emoji": "🔭"},
+        {"word": "night", "emoji": "🌌"},
+        {"word": "sky", "emoji": "⭐"},
+        {"word": "stars", "emoji": "📖"},
+        {"word": "constellations", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Make perfume",
+      "steps": [
+        {"word": "flowers", "emoji": "🌸"},
+        {"word": "oils", "emoji": "🧴"},
+        {"word": "essential", "emoji": "🔄"},
+        {"word": "blend", "emoji": "👃"},
+        {"word": "fragrance", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Build model",
+      "steps": [
+        {"word": "kit", "emoji": "📦"},
+        {"word": "pieces", "emoji": "🧩"},
+        {"word": "glue", "emoji": "🔧"},
+        {"word": "assemble", "emoji": "✈️"},
+        {"word": "model", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Press flowers",
+      "steps": [
+        {"word": "flowers", "emoji": "🌸"},
+        {"word": "book", "emoji": "📚"},
+        {"word": "press", "emoji": "⏰"},
+        {"word": "dry", "emoji": "🌼"},
+        {"word": "preserve", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Learn juggling",
+      "steps": [
+        {"word": "balls", "emoji": "🤹"},
+        {"word": "throw", "emoji": "⬆️"},
+        {"word": "catch", "emoji": "👐"},
+        {"word": "practice", "emoji": "🔄"},
+        {"word": "juggle", "emoji": "🎪"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Create mosaic",
+      "steps": [
+        {"word": "tiles", "emoji": "🧩"},
+        {"word": "small", "emoji": "🎨"},
+        {"word": "pattern", "emoji": "🔄"},
+        {"word": "glue", "emoji": "🖼️"},
+        {"word": "artwork", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Train dog",
+      "steps": [
+        {"word": "dog", "emoji": "🐕"},
+        {"word": "command", "emoji": "🗣️"},
+        {"word": "treat", "emoji": "🦴"},
+        {"word": "reward", "emoji": "👏"},
+        {"word": "good", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Make wine",
+      "steps": [
+        {"word": "grapes", "emoji": "🍇"},
+        {"word": "crush", "emoji": "🍷"},
+        {"word": "ferment", "emoji": "🔄"},
+        {"word": "age", "emoji": "🍾"},
+        {"word": "wine", "emoji": "🥂"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Cross stitch",
+      "steps": [
+        {"word": "fabric", "emoji": "🧵"},
+        {"word": "needle", "emoji": "🪡"},
+        {"word": "thread", "emoji": "❌"},
+        {"word": "cross", "emoji": "🎨"},
+        {"word": "pattern", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Brew beer",
+      "steps": [
+        {"word": "grain", "emoji": "🌾"},
+        {"word": "malt", "emoji": "🍺"},
+        {"word": "hops", "emoji": "🔄"},
+        {"word": "ferment", "emoji": "🍻"},
+        {"word": "beer", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Make kites",
+      "steps": [
+        {"word": "paper", "emoji": "📄"},
+        {"word": "sticks", "emoji": "🪁"},
+        {"word": "frame", "emoji": "🪢"},
+        {"word": "string", "emoji": "💨"},
+        {"word": "fly", "emoji": "☁️"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Calligraphy art",
+      "steps": [
+        {"word": "pen", "emoji": "🖋️"},
+        {"word": "ink", "emoji": "📜"},
+        {"word": "paper", "emoji": "✍️"},
+        {"word": "beautiful", "emoji": "🎨"},
+        {"word": "letters", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Raise chickens",
+      "steps": [
+        {"word": "chickens", "emoji": "🐔"},
+        {"word": "coop", "emoji": "🏠"},
+        {"word": "feed", "emoji": "🌽"},
+        {"word": "care", "emoji": "🥚"},
+        {"word": "eggs", "emoji": "🍳"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Make cheese",
+      "steps": [
+        {"word": "milk", "emoji": "🥛"},
+        {"word": "culture", "emoji": "🦠"},
+        {"word": "curdle", "emoji": "🧀"},
+        {"word": "press", "emoji": "⏰"},
+        {"word": "age", "emoji": "🧀"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Spin yarn",
+      "steps": [
+        {"word": "wool", "emoji": "🐑"},
+        {"word": "wheel", "emoji": "⚙️"},
+        {"word": "spin", "emoji": "🔄"},
+        {"word": "twist", "emoji": "🧶"},
+        {"word": "yarn", "emoji": "🧵"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Rock climbing",
+      "steps": [
+        {"word": "wall", "emoji": "🧗"},
+        {"word": "rope", "emoji": "🪢"},
+        {"word": "harness", "emoji": "🧗‍♂️"},
+        {"word": "climb", "emoji": "⛰️"},
+        {"word": "summit", "emoji": "🏔️"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Make masks",
+      "steps": [
+        {"word": "paper", "emoji": "📄"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "decorate", "emoji": "🎨"},
+        {"word": "string", "emoji": "🪢"},
+        {"word": "mask", "emoji": "🎭"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Study birds",
+      "steps": [
+        {"word": "binoculars", "emoji": "🔍"},
+        {"word": "field", "emoji": "📚"},
+        {"word": "guide", "emoji": "🐦"},
+        {"word": "observe", "emoji": "📝"},
+        {"word": "record", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Make hammock",
+      "steps": [
+        {"word": "rope", "emoji": "🪢"},
+        {"word": "knots", "emoji": "🔗"},
+        {"word": "weave", "emoji": "🌐"},
+        {"word": "hang", "emoji": "🌳"},
+        {"word": "relax", "emoji": "😴"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Restore furniture",
+      "steps": [
+        {"word": "old", "emoji": "🪑"},
+        {"word": "furniture", "emoji": "🧽"},
+        {"word": "sand", "emoji": "🎨"},
+        {"word": "paint", "emoji": "✨"},
+        {"word": "beautiful", "emoji": "💖"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Make jam",
+      "steps": [
+        {"word": "fruit", "emoji": "🍓"},
+        {"word": "sugar", "emoji": "🍯"},
+        {"word": "cook", "emoji": "🔥"},
+        {"word": "jar", "emoji": "🫙"},
+        {"word": "preserve", "emoji": "🍞"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Play harmonica",
+      "steps": [
+        {"word": "harmonica", "emoji": "🎵"},
+        {"word": "blow", "emoji": "💨"},
+        {"word": "draw", "emoji": "🎶"},
+        {"word": "melody", "emoji": "🎼"},
+        {"word": "music", "emoji": "🎤"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Make dreamcatcher",
+      "steps": [
+        {"word": "hoop", "emoji": "⭕"},
+        {"word": "string", "emoji": "🪢"},
+        {"word": "web", "emoji": "🕸️"},
+        {"word": "feathers", "emoji": "🪶"},
+        {"word": "dreams", "emoji": "😴"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Learn archery",
+      "steps": [
+        {"word": "bow", "emoji": "🏹"},
+        {"word": "arrow", "emoji": "➤"},
+        {"word": "aim", "emoji": "🎯"},
+        {"word": "shoot", "emoji": "🏹"},
+        {"word": "bullseye", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Make potpourri",
+      "steps": [
+        {"word": "flowers", "emoji": "🌸"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "oils", "emoji": "🧴"},
+        {"word": "mix", "emoji": "🔄"},
+        {"word": "fragrant", "emoji": "👃"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Weave baskets",
+      "steps": [
+        {"word": "reeds", "emoji": "🌾"},
+        {"word": "soak", "emoji": "💧"},
+        {"word": "weave", "emoji": "🧺"},
+        {"word": "pattern", "emoji": "🔄"},
+        {"word": "basket", "emoji": "🧺"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Make terrariums",
+      "steps": [
+        {"word": "glass", "emoji": "🫙"},
+        {"word": "container", "emoji": "🌱"},
+        {"word": "plants", "emoji": "🌿"},
+        {"word": "soil", "emoji": "🌍"},
+        {"word": "ecosystem", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Learn ventriloquism",
+      "steps": [
+        {"word": "puppet", "emoji": "🧸"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "practice", "emoji": "🎭"},
+        {"word": "perform", "emoji": "👏"},
+        {"word": "entertain", "emoji": "😂"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Make beeswax wraps",
+      "steps": [
+        {"word": "fabric", "emoji": "🧵"},
+        {"word": "beeswax", "emoji": "🐝"},
+        {"word": "melt", "emoji": "🔥"},
+        {"word": "coat", "emoji": "🥪"},
+        {"word": "wrap", "emoji": "♻️"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Study geology",
+      "steps": [
+        {"word": "rocks", "emoji": "🪨"},
+        {"word": "minerals", "emoji": "💎"},
+        {"word": "collect", "emoji": "🔍"},
+        {"word": "identify", "emoji": "📚"},
+        {"word": "learn", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Make marmalade",
+      "steps": [
+        {"word": "citrus", "emoji": "🍊"},
+        {"word": "peel", "emoji": "🔪"},
+        {"word": "cook", "emoji": "🔥"},
+        {"word": "jar", "emoji": "🫙"},
+        {"word": "spread", "emoji": "🍞"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Practice yoga",
+      "steps": [
+        {"word": "mat", "emoji": "🧘"},
+        {"word": "pose", "emoji": "🧘‍♀️"},
+        {"word": "breathe", "emoji": "💨"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "peace", "emoji": "☮️"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Make paper",
+      "steps": [
+        {"word": "pulp", "emoji": "🌿"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "screen", "emoji": "🗂️"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "paper", "emoji": "📄"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Train parrots",
+      "steps": [
+        {"word": "parrot", "emoji": "🦜"},
+        {"word": "words", "emoji": "🗣️"},
+        {"word": "repeat", "emoji": "🔄"},
+        {"word": "practice", "emoji": "🥜"},
+        {"word": "talk", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Make windchimes",
+      "steps": [
+        {"word": "tubes", "emoji": "🎋"},
+        {"word": "string", "emoji": "🪢"},
+        {"word": "hang", "emoji": "💨"},
+        {"word": "wind", "emoji": "🎵"},
+        {"word": "music", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Study insects",
+      "steps": [
+        {"word": "insects", "emoji": "🐛"},
+        {"word": "magnify", "emoji": "🔍"},
+        {"word": "observe", "emoji": "📝"},
+        {"word": "classify", "emoji": "📚"},
+        {"word": "nature", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Make ice cream",
+      "steps": [
+        {"word": "cream", "emoji": "🥛"},
+        {"word": "sugar", "emoji": "🍯"},
+        {"word": "churn", "emoji": "🔄"},
+        {"word": "freeze", "emoji": "❄️"},
+        {"word": "scoop", "emoji": "🍦"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Learn calligraphy",
+      "steps": [
+        {"word": "brush", "emoji": "🖌️"},
+        {"word": "ink", "emoji": "🖋️"},
+        {"word": "strokes", "emoji": "✍️"},
+        {"word": "practice", "emoji": "📜"},
+        {"word": "art", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Make bookmarks",
+      "steps": [
+        {"word": "paper", "emoji": "📄"},
+        {"word": "decorate", "emoji": "🎨"},
+        {"word": "laminate", "emoji": "💳"},
+        {"word": "ribbon", "emoji": "🎀"},
+        {"word": "bookmark", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Study mushrooms",
+      "steps": [
+        {"word": "mushrooms", "emoji": "🍄"},
+        {"word": "forest", "emoji": "🌲"},
+        {"word": "identify", "emoji": "🔍"},
+        {"word": "guide", "emoji": "📚"},
+        {"word": "forage", "emoji": "🧺"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Make lip balm",
+      "steps": [
+        {"word": "beeswax", "emoji": "🐝"},
+        {"word": "oil", "emoji": "🥥"},
+        {"word": "melt", "emoji": "🔥"},
+        {"word": "pour", "emoji": "💄"},
+        {"word": "smooth", "emoji": "💋"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Practice meditation",
+      "steps": [
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "sit", "emoji": "🧘"},
+        {"word": "breathe", "emoji": "💨"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "calm", "emoji": "☮️"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Make bird feeder",
+      "steps": [
+        {"word": "bottle", "emoji": "🍼"},
+        {"word": "holes", "emoji": "🕳️"},
+        {"word": "seeds", "emoji": "🌱"},
+        {"word": "hang", "emoji": "🌳"},
+        {"word": "birds", "emoji": "🐦"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Learn watercolor",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "brush", "emoji": "🖌️"},
+        {"word": "blend", "emoji": "🌈"},
+        {"word": "flow", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Make greeting cards",
+      "steps": [
+        {"word": "cardstock", "emoji": "📄"},
+        {"word": "fold", "emoji": "📁"},
+        {"word": "decorate", "emoji": "🎨"},
+        {"word": "message", "emoji": "💌"},
+        {"word": "love", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Study constellations",
+      "steps": [
+        {"word": "night", "emoji": "🌌"},
+        {"word": "stars", "emoji": "⭐"},
+        {"word": "patterns", "emoji": "🔗"},
+        {"word": "myths", "emoji": "📚"},
+        {"word": "wonder", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Make fudge",
+      "steps": [
+        {"word": "chocolate", "emoji": "🍫"},
+        {"word": "milk", "emoji": "🥛"},
+        {"word": "sugar", "emoji": "🍯"},
+        {"word": "cook", "emoji": "🔥"},
+        {"word": "sweet", "emoji": "🤤"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Learn sign language",
+      "steps": [
+        {"word": "hands", "emoji": "👐"},
+        {"word": "signs", "emoji": "👋"},
+        {"word": "practice", "emoji": "🔄"},
+        {"word": "communicate", "emoji": "💬"},
+        {"word": "understand", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Make bath bombs",
+      "steps": [
+        {"word": "baking", "emoji": "🧂"},
+        {"word": "soda", "emoji": "🍋"},
+        {"word": "citric", "emoji": "🧴"},
+        {"word": "oils", "emoji": "💣"},
+        {"word": "fizz", "emoji": "🛁"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Study weather",
+      "steps": [
+        {"word": "clouds", "emoji": "☁️"},
+        {"word": "patterns", "emoji": "🌦️"},
+        {"word": "forecast", "emoji": "📊"},
+        {"word": "predict", "emoji": "🌈"},
+        {"word": "nature", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Make friendship bracelets",
+      "steps": [
+        {"word": "thread", "emoji": "🧵"},
+        {"word": "colors", "emoji": "🌈"},
+        {"word": "braid", "emoji": "🤝"},
+        {"word": "pattern", "emoji": "💫"},
+        {"word": "friendship", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Learn balloon art",
+      "steps": [
+        {"word": "balloons", "emoji": "🎈"},
+        {"word": "twist", "emoji": "🔄"},
+        {"word": "shape", "emoji": "🐕"},
+        {"word": "animals", "emoji": "🎪"},
+        {"word": "fun", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Make herb garden",
+      "steps": [
+        {"word": "herbs", "emoji": "🌿"},
+        {"word": "pots", "emoji": "🪴"},
+        {"word": "soil", "emoji": "🌍"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "fresh", "emoji": "🌱"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Study archaeology",
+      "steps": [
+        {"word": "dig", "emoji": "🏺"},
+        {"word": "artifacts", "emoji": "🔍"},
+        {"word": "history", "emoji": "📚"},
+        {"word": "discover", "emoji": "💎"},
+        {"word": "past", "emoji": "⏳"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Make pizza dough",
+      "steps": [
+        {"word": "flour", "emoji": "🌾"},
+        {"word": "yeast", "emoji": "🍞"},
+        {"word": "knead", "emoji": "👐"},
+        {"word": "rise", "emoji": "📈"},
+        {"word": "pizza", "emoji": "🍕"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Learn magic tricks",
+      "steps": [
+        {"word": "cards", "emoji": "🃏"},
+        {"word": "practice", "emoji": "🔄"},
+        {"word": "sleight", "emoji": "👐"},
+        {"word": "reveal", "emoji": "✨"},
+        {"word": "amazing", "emoji": "😮"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Make suncatchers",
+      "steps": [
+        {"word": "plastic", "emoji": "🔴"},
+        {"word": "beads", "emoji": "📿"},
+        {"word": "string", "emoji": "🪢"},
+        {"word": "window", "emoji": "🪟"},
+        {"word": "rainbow", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Study ocean life",
+      "steps": [
+        {"word": "ocean", "emoji": "🌊"},
+        {"word": "fish", "emoji": "🐠"},
+        {"word": "coral", "emoji": "🪸"},
+        {"word": "marine", "emoji": "🐙"},
+        {"word": "explore", "emoji": "🤿"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Make pickles",
+      "steps": [
+        {"word": "cucumbers", "emoji": "🥒"},
+        {"word": "vinegar", "emoji": "🧄"},
+        {"word": "salt", "emoji": "🧂"},
+        {"word": "jar", "emoji": "🫙"},
+        {"word": "sour", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Learn yo-yo tricks",
+      "steps": [
+        {"word": "yo-yo", "emoji": "🪀"},
+        {"word": "string", "emoji": "🪢"},
+        {"word": "spin", "emoji": "🔄"},
+        {"word": "tricks", "emoji": "🎯"},
+        {"word": "skill", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Make snow globes",
+      "steps": [
+        {"word": "jar", "emoji": "🫙"},
+        {"word": "figurine", "emoji": "🏠"},
+        {"word": "glitter", "emoji": "✨"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "shake", "emoji": "❄️"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Study paleontology",
+      "steps": [
+        {"word": "fossils", "emoji": "🦴"},
+        {"word": "dinosaurs", "emoji": "🦕"},
+        {"word": "dig", "emoji": "🏺"},
+        {"word": "ancient", "emoji": "⏳"},
+        {"word": "life", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Make tree house",
+      "steps": [
+        {"word": "tree", "emoji": "🌳"},
+        {"word": "wood", "emoji": "🪵"},
+        {"word": "build", "emoji": "🔨"},
+        {"word": "ladder", "emoji": "🪜"},
+        {"word": "hideout", "emoji": "🏠"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Learn card games",
+      "steps": [
+        {"word": "cards", "emoji": "🃏"},
+        {"word": "rules", "emoji": "📋"},
+        {"word": "strategy", "emoji": "🧠"},
+        {"word": "play", "emoji": "🎮"},
+        {"word": "win", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Make bird bath",
+      "steps": [
+        {"word": "shallow", "emoji": "🛁"},
+        {"word": "bowl", "emoji": "💧"},
+        {"word": "water", "emoji": "🪨"},
+        {"word": "stones", "emoji": "🐦"},
+        {"word": "birds", "emoji": "🌳"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Study robotics",
+      "steps": [
+        {"word": "robot", "emoji": "🤖"},
+        {"word": "circuits", "emoji": "⚡"},
+        {"word": "program", "emoji": "💻"},
+        {"word": "build", "emoji": "🔧"},
+        {"word": "future", "emoji": "🚀"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Make wind vane",
+      "steps": [
+        {"word": "arrow", "emoji": "➤"},
+        {"word": "pole", "emoji": "📍"},
+        {"word": "mount", "emoji": "💨"},
+        {"word": "wind", "emoji": "🧭"},
+        {"word": "direction", "emoji": "🌪️"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Learn coin tricks",
+      "steps": [
+        {"word": "coin", "emoji": "🪙"},
+        {"word": "palm", "emoji": "👐"},
+        {"word": "vanish", "emoji": "🎩"},
+        {"word": "appear", "emoji": "✨"},
+        {"word": "magic", "emoji": "🪄"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Make rain gauge",
+      "steps": [
+        {"word": "container", "emoji": "🥤"},
+        {"word": "ruler", "emoji": "📏"},
+        {"word": "measure", "emoji": "🌧️"},
+        {"word": "rain", "emoji": "📊"},
+        {"word": "data", "emoji": "☔"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Study linguistics",
+      "steps": [
+        {"word": "languages", "emoji": "🗣️"},
+        {"word": "sounds", "emoji": "👂"},
+        {"word": "grammar", "emoji": "📚"},
+        {"word": "meaning", "emoji": "💭"},
+        {"word": "communication", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Make fairy garden",
+      "steps": [
+        {"word": "miniature", "emoji": "🏠"},
+        {"word": "house", "emoji": "🌿"},
+        {"word": "plants", "emoji": "🧚"},
+        {"word": "magic", "emoji": "✨"},
+        {"word": "enchanted", "emoji": "🌸"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Learn storytelling",
+      "steps": [
+        {"word": "story", "emoji": "📚"},
+        {"word": "voice", "emoji": "🗣️"},
+        {"word": "expression", "emoji": "🎭"},
+        {"word": "audience", "emoji": "👥"},
+        {"word": "captivate", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Make weather station",
+      "steps": [
+        {"word": "thermometer", "emoji": "🌡️"},
+        {"word": "barometer", "emoji": "📊"},
+        {"word": "humidity", "emoji": "💧"},
+        {"word": "monitor", "emoji": "📈"},
+        {"word": "forecast", "emoji": "🌦️"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Study etymology",
+      "steps": [
+        {"word": "words", "emoji": "📝"},
+        {"word": "origins", "emoji": "🏛️"},
+        {"word": "history", "emoji": "📚"},
+        {"word": "language", "emoji": "🗣️"},
+        {"word": "evolution", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Make sun dial",
+      "steps": [
+        {"word": "plate", "emoji": "⭕"},
+        {"word": "stick", "emoji": "📍"},
+        {"word": "shadow", "emoji": "🌞"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "ancient", "emoji": "🏛️"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Learn mentalism",
+      "steps": [
+        {"word": "mind", "emoji": "🧠"},
+        {"word": "reading", "emoji": "👁️"},
+        {"word": "psychology", "emoji": "🎭"},
+        {"word": "illusion", "emoji": "✨"},
+        {"word": "mystery", "emoji": "🎪"}
+      ]
+    }
+  ]
+}

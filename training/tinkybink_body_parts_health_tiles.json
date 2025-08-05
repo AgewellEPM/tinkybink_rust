@@ -1,0 +1,1105 @@
+{
+  "category": "🏥 Body Parts & Health",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Wash hands",
+      "steps": [
+        {"word": "turn", "emoji": "🚿"},
+        {"word": "on", "emoji": "💧"},
+        {"word": "water", "emoji": "🌊"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "scrub", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Brush teeth",
+      "steps": [
+        {"word": "toothbrush", "emoji": "🪥"},
+        {"word": "toothpaste", "emoji": "🦷"},
+        {"word": "brush", "emoji": "🔄"},
+        {"word": "rinse", "emoji": "💧"},
+        {"word": "spit", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Point to nose",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "in", "emoji": "🪞"},
+        {"word": "mirror", "emoji": "😊"},
+        {"word": "point", "emoji": "👆"},
+        {"word": "nose", "emoji": "👃"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Touch your head",
+      "steps": [
+        {"word": "raise", "emoji": "⬆️"},
+        {"word": "hand", "emoji": "✋"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "your", "emoji": "👤"},
+        {"word": "head", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Show me your eyes",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "at", "emoji": "➡️"},
+        {"word": "me", "emoji": "👤"},
+        {"word": "point", "emoji": "👆"},
+        {"word": "eyes", "emoji": "👁️"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Exercise your body",
+      "steps": [
+        {"word": "move", "emoji": "🏃"},
+        {"word": "your", "emoji": "👤"},
+        {"word": "arms", "emoji": "💪"},
+        {"word": "and", "emoji": "🔄"},
+        {"word": "legs", "emoji": "🦵"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Eat healthy food",
+      "steps": [
+        {"word": "choose", "emoji": "🍎"},
+        {"word": "fruits", "emoji": "🍓"},
+        {"word": "vegetables", "emoji": "🥕"},
+        {"word": "eat", "emoji": "🍽️"},
+        {"word": "healthy", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Drink water",
+      "steps": [
+        {"word": "fill", "emoji": "🥤"},
+        {"word": "cup", "emoji": "💧"},
+        {"word": "water", "emoji": "🌊"},
+        {"word": "drink", "emoji": "👄"},
+        {"word": "hydrate", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Rest and sleep",
+      "steps": [
+        {"word": "lie", "emoji": "🛏️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "close", "emoji": "👁️"},
+        {"word": "eyes", "emoji": "😴"},
+        {"word": "sleep", "emoji": "💤"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Check your heartbeat",
+      "steps": [
+        {"word": "place", "emoji": "✋"},
+        {"word": "hand", "emoji": "❤️"},
+        {"word": "chest", "emoji": "🫀"},
+        {"word": "feel", "emoji": "💓"},
+        {"word": "heartbeat", "emoji": "🥁"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Take deep breaths",
+      "steps": [
+        {"word": "breathe", "emoji": "👃"},
+        {"word": "in", "emoji": "⬇️"},
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "breathe", "emoji": "👄"},
+        {"word": "out", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Stretch your muscles",
+      "steps": [
+        {"word": "reach", "emoji": "🙆"},
+        {"word": "arms", "emoji": "💪"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "body", "emoji": "👤"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Cover when sneezing",
+      "steps": [
+        {"word": "feel", "emoji": "👃"},
+        {"word": "sneeze", "emoji": "🤧"},
+        {"word": "cover", "emoji": "🤲"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "elbow", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Protect your skin",
+      "steps": [
+        {"word": "apply", "emoji": "🧴"},
+        {"word": "sunscreen", "emoji": "☀️"},
+        {"word": "wear", "emoji": "👒"},
+        {"word": "hat", "emoji": "🧢"},
+        {"word": "shade", "emoji": "🌳"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Visit the doctor",
+      "steps": [
+        {"word": "go", "emoji": "🚶"},
+        {"word": "to", "emoji": "🏥"},
+        {"word": "doctor", "emoji": "👩‍⚕️"},
+        {"word": "check", "emoji": "🩺"},
+        {"word": "health", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Count your fingers",
+      "steps": [
+        {"word": "hold", "emoji": "✋"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "hand", "emoji": "🖐️"},
+        {"word": "count", "emoji": "🔢"},
+        {"word": "fingers", "emoji": "👆"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Wiggle your toes",
+      "steps": [
+        {"word": "sit", "emoji": "💺"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "take", "emoji": "👟"},
+        {"word": "off", "emoji": "🧦"},
+        {"word": "wiggle", "emoji": "🦶"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Listen with ears",
+      "steps": [
+        {"word": "cup", "emoji": "🤲"},
+        {"word": "hand", "emoji": "✋"},
+        {"word": "behind", "emoji": "👂"},
+        {"word": "ear", "emoji": "🔊"},
+        {"word": "listen", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Smell with nose",
+      "steps": [
+        {"word": "breathe", "emoji": "👃"},
+        {"word": "in", "emoji": "⬇️"},
+        {"word": "through", "emoji": "🌬️"},
+        {"word": "nose", "emoji": "👃"},
+        {"word": "smell", "emoji": "🌸"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Taste with tongue",
+      "steps": [
+        {"word": "stick", "emoji": "👅"},
+        {"word": "out", "emoji": "➡️"},
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "taste", "emoji": "😋"},
+        {"word": "food", "emoji": "🍎"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Blink your eyes",
+      "steps": [
+        {"word": "open", "emoji": "👀"},
+        {"word": "eyes", "emoji": "👁️"},
+        {"word": "close", "emoji": "😑"},
+        {"word": "blink", "emoji": "😉"},
+        {"word": "fast", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Nod your head",
+      "steps": [
+        {"word": "move", "emoji": "🔄"},
+        {"word": "head", "emoji": "🧠"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "and", "emoji": "🔄"},
+        {"word": "down", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Shake your head",
+      "steps": [
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "head", "emoji": "🧠"},
+        {"word": "left", "emoji": "⬅️"},
+        {"word": "and", "emoji": "🔄"},
+        {"word": "right", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Clap your hands",
+      "steps": [
+        {"word": "put", "emoji": "🤲"},
+        {"word": "hands", "emoji": "✋"},
+        {"word": "together", "emoji": "🙏"},
+        {"word": "clap", "emoji": "👏"},
+        {"word": "loud", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Stomp your feet",
+      "steps": [
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "foot", "emoji": "🦶"},
+        {"word": "up", "emoji": "📈"},
+        {"word": "stomp", "emoji": "👠"},
+        {"word": "down", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Shrug your shoulders",
+      "steps": [
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "shoulders", "emoji": "🤷"},
+        {"word": "up", "emoji": "📈"},
+        {"word": "drop", "emoji": "⬇️"},
+        {"word": "down", "emoji": "↘️"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Open your mouth",
+      "steps": [
+        {"word": "part", "emoji": "👄"},
+        {"word": "lips", "emoji": "💋"},
+        {"word": "open", "emoji": "😮"},
+        {"word": "wide", "emoji": "😲"},
+        {"word": "mouth", "emoji": "👄"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Close your eyes",
+      "steps": [
+        {"word": "squeeze", "emoji": "😑"},
+        {"word": "eyelids", "emoji": "👁️"},
+        {"word": "shut", "emoji": "🔒"},
+        {"word": "tight", "emoji": "🤐"},
+        {"word": "close", "emoji": "😴"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Raise your hand",
+      "steps": [
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "arm", "emoji": "💪"},
+        {"word": "up", "emoji": "📈"},
+        {"word": "hand", "emoji": "✋"},
+        {"word": "high", "emoji": "🙋"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Jump with both feet",
+      "steps": [
+        {"word": "bend", "emoji": "🤸"},
+        {"word": "knees", "emoji": "🦵"},
+        {"word": "push", "emoji": "⬆️"},
+        {"word": "up", "emoji": "📈"},
+        {"word": "jump", "emoji": "🦘"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Balance on one foot",
+      "steps": [
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "foot", "emoji": "🦶"},
+        {"word": "balance", "emoji": "⚖️"},
+        {"word": "steady", "emoji": "🧘"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Walk in a line",
+      "steps": [
+        {"word": "put", "emoji": "🦶"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "foot", "emoji": "👣"},
+        {"word": "in", "emoji": "📍"},
+        {"word": "front", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Run in place",
+      "steps": [
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "knees", "emoji": "🦵"},
+        {"word": "pump", "emoji": "💪"},
+        {"word": "arms", "emoji": "🏃"},
+        {"word": "run", "emoji": "🏃‍♂️"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "March like a soldier",
+      "steps": [
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "knees", "emoji": "🦵"},
+        {"word": "high", "emoji": "📈"},
+        {"word": "march", "emoji": "🚶"},
+        {"word": "rhythm", "emoji": "🥁"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Do jumping jacks",
+      "steps": [
+        {"word": "jump", "emoji": "🦘"},
+        {"word": "feet", "emoji": "🦶"},
+        {"word": "apart", "emoji": "↔️"},
+        {"word": "arms", "emoji": "💪"},
+        {"word": "up", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Touch your toes",
+      "steps": [
+        {"word": "bend", "emoji": "🤸"},
+        {"word": "forward", "emoji": "➡️"},
+        {"word": "reach", "emoji": "👐"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "toes", "emoji": "🦶"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Stand on tiptoes",
+      "steps": [
+        {"word": "rise", "emoji": "⬆️"},
+        {"word": "up", "emoji": "📈"},
+        {"word": "on", "emoji": "🦶"},
+        {"word": "tip", "emoji": "👠"},
+        {"word": "toes", "emoji": "🩰"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Crawl like a baby",
+      "steps": [
+        {"word": "get", "emoji": "⬇️"},
+        {"word": "on", "emoji": "🤲"},
+        {"word": "hands", "emoji": "🦵"},
+        {"word": "knees", "emoji": "🚶"},
+        {"word": "crawl", "emoji": "👶"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Skip around",
+      "steps": [
+        {"word": "hop", "emoji": "🦘"},
+        {"word": "on", "emoji": "🦶"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "foot", "emoji": "🦶"},
+        {"word": "skip", "emoji": "🏃‍♀️"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Gallop like a horse",
+      "steps": [
+        {"word": "lead", "emoji": "🦶"},
+        {"word": "with", "emoji": "1️⃣"},
+        {"word": "one", "emoji": "🦶"},
+        {"word": "foot", "emoji": "🐎"},
+        {"word": "gallop", "emoji": "🏇"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Spin around",
+      "steps": [
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "your", "emoji": "👤"},
+        {"word": "body", "emoji": "🌀"},
+        {"word": "spin", "emoji": "💫"},
+        {"word": "around", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Roll on the ground",
+      "steps": [
+        {"word": "lie", "emoji": "⬇️"},
+        {"word": "down", "emoji": "🛏️"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "over", "emoji": "↩️"},
+        {"word": "sideways", "emoji": "↔️"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Sit crisscross",
+      "steps": [
+        {"word": "sit", "emoji": "💺"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "cross", "emoji": "❌"},
+        {"word": "legs", "emoji": "🦵"},
+        {"word": "comfortable", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Stand up tall",
+      "steps": [
+        {"word": "straighten", "emoji": "📏"},
+        {"word": "back", "emoji": "🧍"},
+        {"word": "shoulders", "emoji": "🤷"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "tall", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Lie down flat",
+      "steps": [
+        {"word": "lay", "emoji": "⬇️"},
+        {"word": "on", "emoji": "🛏️"},
+        {"word": "back", "emoji": "🧍"},
+        {"word": "arms", "emoji": "💪"},
+        {"word": "sides", "emoji": "↔️"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Kneel down",
+      "steps": [
+        {"word": "bend", "emoji": "🤸"},
+        {"word": "knees", "emoji": "🦵"},
+        {"word": "kneel", "emoji": "🧎"},
+        {"word": "on", "emoji": "⬇️"},
+        {"word": "ground", "emoji": "🟫"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Squat down low",
+      "steps": [
+        {"word": "bend", "emoji": "🤸"},
+        {"word": "knees", "emoji": "🦵"},
+        {"word": "squat", "emoji": "🏋️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "low", "emoji": "📉"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Lean to the side",
+      "steps": [
+        {"word": "tilt", "emoji": "🤸"},
+        {"word": "body", "emoji": "👤"},
+        {"word": "lean", "emoji": "↗️"},
+        {"word": "to", "emoji": "➡️"},
+        {"word": "side", "emoji": "↔️"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Bend forward",
+      "steps": [
+        {"word": "lean", "emoji": "🤸"},
+        {"word": "body", "emoji": "👤"},
+        {"word": "forward", "emoji": "➡️"},
+        {"word": "bend", "emoji": "⬇️"},
+        {"word": "waist", "emoji": "🤸‍♀️"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Arch backwards",
+      "steps": [
+        {"word": "lean", "emoji": "🤸"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "arch", "emoji": "🌈"},
+        {"word": "spine", "emoji": "🦴"},
+        {"word": "careful", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Feel your pulse",
+      "steps": [
+        {"word": "put", "emoji": "✋"},
+        {"word": "fingers", "emoji": "👆"},
+        {"word": "wrist", "emoji": "⌚"},
+        {"word": "feel", "emoji": "💓"},
+        {"word": "pulse", "emoji": "🫀"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Check temperature",
+      "steps": [
+        {"word": "place", "emoji": "✋"},
+        {"word": "hand", "emoji": "🤲"},
+        {"word": "forehead", "emoji": "🧠"},
+        {"word": "feel", "emoji": "🌡️"},
+        {"word": "warm", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Cough into elbow",
+      "steps": [
+        {"word": "feel", "emoji": "😷"},
+        {"word": "cough", "emoji": "🤧"},
+        {"word": "cover", "emoji": "💪"},
+        {"word": "with", "emoji": "🤲"},
+        {"word": "elbow", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Blow your nose",
+      "steps": [
+        {"word": "get", "emoji": "📄"},
+        {"word": "tissue", "emoji": "🧻"},
+        {"word": "cover", "emoji": "👃"},
+        {"word": "nose", "emoji": "💨"},
+        {"word": "blow", "emoji": "🤧"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Yawn when tired",
+      "steps": [
+        {"word": "feel", "emoji": "😴"},
+        {"word": "sleepy", "emoji": "💤"},
+        {"word": "open", "emoji": "😮"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "yawn", "emoji": "🥱"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Hiccup",
+      "steps": [
+        {"word": "sudden", "emoji": "⚡"},
+        {"word": "sound", "emoji": "🔊"},
+        {"word": "from", "emoji": "➡️"},
+        {"word": "chest", "emoji": "🫀"},
+        {"word": "hiccup", "emoji": "😯"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Burp politely",
+      "steps": [
+        {"word": "gas", "emoji": "💨"},
+        {"word": "escapes", "emoji": "➡️"},
+        {"word": "cover", "emoji": "🤲"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "excuse", "emoji": "🙏"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Swallow food",
+      "steps": [
+        {"word": "chew", "emoji": "😋"},
+        {"word": "food", "emoji": "🍎"},
+        {"word": "well", "emoji": "👍"},
+        {"word": "swallow", "emoji": "👄"},
+        {"word": "down", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Lick your lips",
+      "steps": [
+        {"word": "stick", "emoji": "👅"},
+        {"word": "out", "emoji": "➡️"},
+        {"word": "tongue", "emoji": "👅"},
+        {"word": "lick", "emoji": "😋"},
+        {"word": "lips", "emoji": "💋"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Smile big",
+      "steps": [
+        {"word": "turn", "emoji": "😊"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "corners", "emoji": "😁"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "smile", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Frown when sad",
+      "steps": [
+        {"word": "turn", "emoji": "😔"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "corners", "emoji": "😞"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "frown", "emoji": "☹️"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Wrinkle your nose",
+      "steps": [
+        {"word": "scrunch", "emoji": "👃"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "nose", "emoji": "😤"},
+        {"word": "make", "emoji": "🔄"},
+        {"word": "wrinkles", "emoji": "😬"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Raise eyebrows",
+      "steps": [
+        {"word": "lift", "emoji": "⬆️"},
+        {"word": "eyebrows", "emoji": "🤨"},
+        {"word": "up", "emoji": "📈"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "surprised", "emoji": "😲"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Wink one eye",
+      "steps": [
+        {"word": "close", "emoji": "😉"},
+        {"word": "one", "emoji": "1️⃣"},
+        {"word": "eye", "emoji": "👁️"},
+        {"word": "quick", "emoji": "⚡"},
+        {"word": "wink", "emoji": "😉"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Cross your eyes",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "at", "emoji": "➡️"},
+        {"word": "nose", "emoji": "👃"},
+        {"word": "cross", "emoji": "❌"},
+        {"word": "eyes", "emoji": "😵‍💫"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Puff out cheeks",
+      "steps": [
+        {"word": "fill", "emoji": "💨"},
+        {"word": "cheeks", "emoji": "😮‍💨"},
+        {"word": "with", "emoji": "➡️"},
+        {"word": "air", "emoji": "🌬️"},
+        {"word": "puff", "emoji": "😤"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Stick out tongue",
+      "steps": [
+        {"word": "open", "emoji": "😮"},
+        {"word": "mouth", "emoji": "👄"},
+        {"word": "push", "emoji": "👅"},
+        {"word": "tongue", "emoji": "➡️"},
+        {"word": "out", "emoji": "😛"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Make a fist",
+      "steps": [
+        {"word": "curl", "emoji": "👆"},
+        {"word": "fingers", "emoji": "🤏"},
+        {"word": "into", "emoji": "➡️"},
+        {"word": "palm", "emoji": "🤜"},
+        {"word": "fist", "emoji": "👊"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Spread fingers wide",
+      "steps": [
+        {"word": "open", "emoji": "✋"},
+        {"word": "hand", "emoji": "🖐️"},
+        {"word": "spread", "emoji": "↔️"},
+        {"word": "fingers", "emoji": "👆"},
+        {"word": "wide", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Point with finger",
+      "steps": [
+        {"word": "extend", "emoji": "👆"},
+        {"word": "index", "emoji": "☝️"},
+        {"word": "finger", "emoji": "👉"},
+        {"word": "point", "emoji": "➡️"},
+        {"word": "direction", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Give thumbs up",
+      "steps": [
+        {"word": "make", "emoji": "👍"},
+        {"word": "fist", "emoji": "👊"},
+        {"word": "stick", "emoji": "⬆️"},
+        {"word": "thumb", "emoji": "👍"},
+        {"word": "up", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Wave goodbye",
+      "steps": [
+        {"word": "raise", "emoji": "⬆️"},
+        {"word": "hand", "emoji": "✋"},
+        {"word": "move", "emoji": "🔄"},
+        {"word": "back", "emoji": "↔️"},
+        {"word": "forth", "emoji": "👋"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Snap your fingers",
+      "steps": [
+        {"word": "press", "emoji": "👆"},
+        {"word": "thumb", "emoji": "👍"},
+        {"word": "middle", "emoji": "🖕"},
+        {"word": "finger", "emoji": "💥"},
+        {"word": "snap", "emoji": "🫰"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Make peace sign",
+      "steps": [
+        {"word": "hold", "emoji": "✋"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "two", "emoji": "2️⃣"},
+        {"word": "fingers", "emoji": "✌️"},
+        {"word": "peace", "emoji": "☮️"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Flex your muscles",
+      "steps": [
+        {"word": "bend", "emoji": "💪"},
+        {"word": "arm", "emoji": "🤳"},
+        {"word": "tighten", "emoji": "💪"},
+        {"word": "muscle", "emoji": "🏋️"},
+        {"word": "flex", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Relax muscles",
+      "steps": [
+        {"word": "let", "emoji": "😌"},
+        {"word": "go", "emoji": "➡️"},
+        {"word": "tension", "emoji": "🤲"},
+        {"word": "relax", "emoji": "😴"},
+        {"word": "muscles", "emoji": "💆"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Take your temperature",
+      "steps": [
+        {"word": "use", "emoji": "🌡️"},
+        {"word": "thermometer", "emoji": "📏"},
+        {"word": "under", "emoji": "👅"},
+        {"word": "tongue", "emoji": "📊"},
+        {"word": "read", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Check your weight",
+      "steps": [
+        {"word": "step", "emoji": "🦶"},
+        {"word": "on", "emoji": "⚖️"},
+        {"word": "scale", "emoji": "📊"},
+        {"word": "read", "emoji": "👀"},
+        {"word": "number", "emoji": "🔢"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Measure your height",
+      "steps": [
+        {"word": "stand", "emoji": "🧍"},
+        {"word": "against", "emoji": "📏"},
+        {"word": "wall", "emoji": "🎯"},
+        {"word": "mark", "emoji": "📊"},
+        {"word": "height", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Use a bandage",
+      "steps": [
+        {"word": "clean", "emoji": "🧽"},
+        {"word": "cut", "emoji": "🩹"},
+        {"word": "apply", "emoji": "📎"},
+        {"word": "bandage", "emoji": "🩹"},
+        {"word": "protect", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Put on sunglasses",
+      "steps": [
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "eyes", "emoji": "👀"},
+        {"word": "from", "emoji": "☀️"},
+        {"word": "sun", "emoji": "🕶️"},
+        {"word": "wear", "emoji": "👓"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Use lip balm",
+      "steps": [
+        {"word": "apply", "emoji": "💄"},
+        {"word": "balm", "emoji": "👄"},
+        {"word": "to", "emoji": "➡️"},
+        {"word": "lips", "emoji": "💋"},
+        {"word": "moisturize", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Trim your nails",
+      "steps": [
+        {"word": "use", "emoji": "✂️"},
+        {"word": "nail", "emoji": "💅"},
+        {"word": "clippers", "emoji": "🔧"},
+        {"word": "trim", "emoji": "✂️"},
+        {"word": "nails", "emoji": "💅"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Comb your hair",
+      "steps": [
+        {"word": "use", "emoji": "🪮"},
+        {"word": "comb", "emoji": "💇"},
+        {"word": "brush", "emoji": "🪮"},
+        {"word": "through", "emoji": "➡️"},
+        {"word": "hair", "emoji": "💇‍♀️"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Wash your face",
+      "steps": [
+        {"word": "wet", "emoji": "💧"},
+        {"word": "hands", "emoji": "🤲"},
+        {"word": "soap", "emoji": "🧼"},
+        {"word": "wash", "emoji": "🧽"},
+        {"word": "face", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Floss teeth",
+      "steps": [
+        {"word": "use", "emoji": "🦷"},
+        {"word": "dental", "emoji": "🧵"},
+        {"word": "floss", "emoji": "🪡"},
+        {"word": "between", "emoji": "⬜"},
+        {"word": "teeth", "emoji": "🦷"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Gargle mouthwash",
+      "steps": [
+        {"word": "pour", "emoji": "🍶"},
+        {"word": "mouthwash", "emoji": "🧪"},
+        {"word": "swish", "emoji": "🌊"},
+        {"word": "gargle", "emoji": "💦"},
+        {"word": "spit", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Take vitamins",
+      "steps": [
+        {"word": "daily", "emoji": "📅"},
+        {"word": "vitamin", "emoji": "💊"},
+        {"word": "with", "emoji": "🥤"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "healthy", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Get a checkup",
+      "steps": [
+        {"word": "visit", "emoji": "🏥"},
+        {"word": "doctor", "emoji": "👩‍⚕️"},
+        {"word": "regular", "emoji": "📅"},
+        {"word": "checkup", "emoji": "🩺"},
+        {"word": "healthy", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Wear a helmet",
+      "steps": [
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "head", "emoji": "🧠"},
+        {"word": "wear", "emoji": "⛑️"},
+        {"word": "helmet", "emoji": "🚴"},
+        {"word": "safety", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Do yoga poses",
+      "steps": [
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "body", "emoji": "👤"},
+        {"word": "yoga", "emoji": "🧘"},
+        {"word": "poses", "emoji": "🤲"},
+        {"word": "breathe", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Practice meditation",
+      "steps": [
+        {"word": "sit", "emoji": "💺"},
+        {"word": "quietly", "emoji": "🤫"},
+        {"word": "close", "emoji": "👁️"},
+        {"word": "eyes", "emoji": "🧘"},
+        {"word": "meditate", "emoji": "🕯️"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Stay hydrated",
+      "steps": [
+        {"word": "drink", "emoji": "🥤"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "throughout", "emoji": "🕐"},
+        {"word": "day", "emoji": "☀️"},
+        {"word": "hydrated", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Get enough sleep",
+      "steps": [
+        {"word": "go", "emoji": "🛏️"},
+        {"word": "to", "emoji": "➡️"},
+        {"word": "bed", "emoji": "😴"},
+        {"word": "early", "emoji": "🌙"},
+        {"word": "rest", "emoji": "💤"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Maintain good posture",
+      "steps": [
+        {"word": "sit", "emoji": "💺"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "straight", "emoji": "📏"},
+        {"word": "shoulders", "emoji": "🤷"},
+        {"word": "back", "emoji": "⬅️"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Warm up before exercise",
+      "steps": [
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "muscles", "emoji": "💪"},
+        {"word": "before", "emoji": "⏰"},
+        {"word": "exercise", "emoji": "🏃"},
+        {"word": "prevent", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Cool down after exercise",
+      "steps": [
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "after", "emoji": "⏰"},
+        {"word": "workout", "emoji": "🏋️"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Listen to your body",
+      "steps": [
+        {"word": "pay", "emoji": "👂"},
+        {"word": "attention", "emoji": "⚠️"},
+        {"word": "to", "emoji": "➡️"},
+        {"word": "body", "emoji": "👤"},
+        {"word": "signals", "emoji": "📡"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Manage stress",
+      "steps": [
+        {"word": "take", "emoji": "🤲"},
+        {"word": "deep", "emoji": "💨"},
+        {"word": "breaths", "emoji": "🧘"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "calm", "emoji": "🕯️"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Express emotions",
+      "steps": [
+        {"word": "talk", "emoji": "🗣️"},
+        {"word": "about", "emoji": "📣"},
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "healthy", "emoji": "💚"},
+        {"word": "expression", "emoji": "😊"}
+      ]
+    }
+  ]
+}

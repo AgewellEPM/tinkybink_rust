@@ -1,0 +1,1105 @@
+{
+  "category": "😊 Emotions & Feelings",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Feel happy",
+      "steps": [
+        {"word": "smile", "emoji": "😊"},
+        {"word": "big", "emoji": "😁"},
+        {"word": "feel", "emoji": "❤️"},
+        {"word": "joy", "emoji": "✨"},
+        {"word": "happy", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Feel sad",
+      "steps": [
+        {"word": "tears", "emoji": "😢"},
+        {"word": "in", "emoji": "👁️"},
+        {"word": "eyes", "emoji": "💧"},
+        {"word": "feel", "emoji": "😔"},
+        {"word": "sad", "emoji": "☔"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Feel angry",
+      "steps": [
+        {"word": "face", "emoji": "😡"},
+        {"word": "red", "emoji": "🔴"},
+        {"word": "fists", "emoji": "👊"},
+        {"word": "tight", "emoji": "😤"},
+        {"word": "mad", "emoji": "💢"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Feel scared",
+      "steps": [
+        {"word": "heart", "emoji": "💓"},
+        {"word": "beats", "emoji": "💨"},
+        {"word": "fast", "emoji": "😨"},
+        {"word": "afraid", "emoji": "😰"},
+        {"word": "scared", "emoji": "👻"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Feel excited",
+      "steps": [
+        {"word": "jump", "emoji": "🦘"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "very", "emoji": "🎉"},
+        {"word": "excited", "emoji": "😆"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Feel calm",
+      "steps": [
+        {"word": "breathe", "emoji": "💨"},
+        {"word": "slowly", "emoji": "🐌"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "peaceful", "emoji": "🧘"},
+        {"word": "calm", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Feel surprised",
+      "steps": [
+        {"word": "eyes", "emoji": "👀"},
+        {"word": "wide", "emoji": "😲"},
+        {"word": "mouth", "emoji": "😮"},
+        {"word": "open", "emoji": "😱"},
+        {"word": "surprised", "emoji": "🎁"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Feel proud",
+      "steps": [
+        {"word": "stand", "emoji": "🧍"},
+        {"word": "tall", "emoji": "📏"},
+        {"word": "chest", "emoji": "💪"},
+        {"word": "out", "emoji": "😤"},
+        {"word": "proud", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Feel worried",
+      "steps": [
+        {"word": "thinking", "emoji": "🤔"},
+        {"word": "too", "emoji": "💭"},
+        {"word": "much", "emoji": "😰"},
+        {"word": "nervous", "emoji": "😟"},
+        {"word": "worried", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Feel lonely",
+      "steps": [
+        {"word": "all", "emoji": "👤"},
+        {"word": "by", "emoji": "😔"},
+        {"word": "myself", "emoji": "💔"},
+        {"word": "miss", "emoji": "👥"},
+        {"word": "friends", "emoji": "😞"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Feel loved",
+      "steps": [
+        {"word": "warm", "emoji": "❤️"},
+        {"word": "heart", "emoji": "🤗"},
+        {"word": "hugs", "emoji": "💕"},
+        {"word": "care", "emoji": "😊"},
+        {"word": "loved", "emoji": "🥰"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Feel frustrated",
+      "steps": [
+        {"word": "can't", "emoji": "🚫"},
+        {"word": "do", "emoji": "😤"},
+        {"word": "it", "emoji": "💢"},
+        {"word": "upset", "emoji": "😠"},
+        {"word": "frustrated", "emoji": "🤬"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Feel grateful",
+      "steps": [
+        {"word": "thankful", "emoji": "🙏"},
+        {"word": "for", "emoji": "🎁"},
+        {"word": "good", "emoji": "✨"},
+        {"word": "things", "emoji": "❤️"},
+        {"word": "grateful", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Feel jealous",
+      "steps": [
+        {"word": "want", "emoji": "👀"},
+        {"word": "what", "emoji": "🟢"},
+        {"word": "others", "emoji": "😒"},
+        {"word": "have", "emoji": "💚"},
+        {"word": "jealous", "emoji": "😤"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Feel embarrassed",
+      "steps": [
+        {"word": "face", "emoji": "😳"},
+        {"word": "turns", "emoji": "🔴"},
+        {"word": "red", "emoji": "🙈"},
+        {"word": "hide", "emoji": "😵‍💫"},
+        {"word": "embarrassed", "emoji": "🫣"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Feel confused",
+      "steps": [
+        {"word": "don't", "emoji": "🤷"},
+        {"word": "understand", "emoji": "❓"},
+        {"word": "mixed", "emoji": "😵‍💫"},
+        {"word": "up", "emoji": "🤯"},
+        {"word": "confused", "emoji": "😕"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Feel hopeful",
+      "steps": [
+        {"word": "things", "emoji": "✨"},
+        {"word": "will", "emoji": "🌈"},
+        {"word": "get", "emoji": "⬆️"},
+        {"word": "better", "emoji": "🌟"},
+        {"word": "hopeful", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Feel disappointed",
+      "steps": [
+        {"word": "didn't", "emoji": "😞"},
+        {"word": "happen", "emoji": "💔"},
+        {"word": "like", "emoji": "😔"},
+        {"word": "wanted", "emoji": "😟"},
+        {"word": "disappointed", "emoji": "😕"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Feel content",
+      "steps": [
+        {"word": "everything", "emoji": "✅"},
+        {"word": "is", "emoji": "😌"},
+        {"word": "okay", "emoji": "🕊️"},
+        {"word": "peaceful", "emoji": "😊"},
+        {"word": "content", "emoji": "☺️"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Feel guilty",
+      "steps": [
+        {"word": "did", "emoji": "😔"},
+        {"word": "something", "emoji": "😞"},
+        {"word": "wrong", "emoji": "💔"},
+        {"word": "sorry", "emoji": "😣"},
+        {"word": "guilty", "emoji": "😖"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Express feelings",
+      "steps": [
+        {"word": "tell", "emoji": "🗣️"},
+        {"word": "someone", "emoji": "👥"},
+        {"word": "how", "emoji": "❤️"},
+        {"word": "feel", "emoji": "💬"},
+        {"word": "share", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Name emotions",
+      "steps": [
+        {"word": "learn", "emoji": "📚"},
+        {"word": "words", "emoji": "🔤"},
+        {"word": "for", "emoji": "😊"},
+        {"word": "feelings", "emoji": "💭"},
+        {"word": "identify", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Control anger",
+      "steps": [
+        {"word": "count", "emoji": "🔢"},
+        {"word": "to", "emoji": "🔟"},
+        {"word": "ten", "emoji": "💨"},
+        {"word": "breathe", "emoji": "😌"},
+        {"word": "calm", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Ask for help",
+      "steps": [
+        {"word": "feeling", "emoji": "😔"},
+        {"word": "bad", "emoji": "🆘"},
+        {"word": "ask", "emoji": "👥"},
+        {"word": "adult", "emoji": "🤝"},
+        {"word": "help", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Comfort others",
+      "steps": [
+        {"word": "friend", "emoji": "👫"},
+        {"word": "is", "emoji": "😢"},
+        {"word": "sad", "emoji": "🤗"},
+        {"word": "give", "emoji": "❤️"},
+        {"word": "hug", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Recognize faces",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "at", "emoji": "😊"},
+        {"word": "face", "emoji": "🎭"},
+        {"word": "see", "emoji": "❤️"},
+        {"word": "emotion", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Show empathy",
+      "steps": [
+        {"word": "understand", "emoji": "🤔"},
+        {"word": "how", "emoji": "👥"},
+        {"word": "others", "emoji": "❤️"},
+        {"word": "feel", "emoji": "🤝"},
+        {"word": "care", "emoji": "💗"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Take deep breaths",
+      "steps": [
+        {"word": "breathe", "emoji": "👃"},
+        {"word": "in", "emoji": "⬇️"},
+        {"word": "slow", "emoji": "🐌"},
+        {"word": "out", "emoji": "⬆️"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Use coping skills",
+      "steps": [
+        {"word": "when", "emoji": "😰"},
+        {"word": "upset", "emoji": "🧰"},
+        {"word": "use", "emoji": "🛠️"},
+        {"word": "tools", "emoji": "😌"},
+        {"word": "calm", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Practice mindfulness",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "right", "emoji": "📍"},
+        {"word": "now", "emoji": "⏰"},
+        {"word": "present", "emoji": "🧘"},
+        {"word": "moment", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Feel brave",
+      "steps": [
+        {"word": "scared", "emoji": "😨"},
+        {"word": "but", "emoji": "💪"},
+        {"word": "try", "emoji": "🦁"},
+        {"word": "anyway", "emoji": "🏆"},
+        {"word": "brave", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Feel nervous",
+      "steps": [
+        {"word": "butterflies", "emoji": "🦋"},
+        {"word": "in", "emoji": "🤢"},
+        {"word": "stomach", "emoji": "😰"},
+        {"word": "worry", "emoji": "😟"},
+        {"word": "nervous", "emoji": "🤯"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Feel relaxed",
+      "steps": [
+        {"word": "muscles", "emoji": "💪"},
+        {"word": "loose", "emoji": "😌"},
+        {"word": "mind", "emoji": "🧠"},
+        {"word": "quiet", "emoji": "🕊️"},
+        {"word": "relaxed", "emoji": "☺️"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Feel curious",
+      "steps": [
+        {"word": "want", "emoji": "🤔"},
+        {"word": "to", "emoji": "❓"},
+        {"word": "know", "emoji": "🔍"},
+        {"word": "more", "emoji": "📚"},
+        {"word": "curious", "emoji": "🧐"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Feel silly",
+      "steps": [
+        {"word": "laugh", "emoji": "😂"},
+        {"word": "and", "emoji": "🤪"},
+        {"word": "giggle", "emoji": "😆"},
+        {"word": "act", "emoji": "🙃"},
+        {"word": "silly", "emoji": "🤡"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Feel grumpy",
+      "steps": [
+        {"word": "everything", "emoji": "😠"},
+        {"word": "bothers", "emoji": "😤"},
+        {"word": "me", "emoji": "😡"},
+        {"word": "cranky", "emoji": "👿"},
+        {"word": "grumpy", "emoji": "😾"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Feel peaceful",
+      "steps": [
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "inside", "emoji": "💗"},
+        {"word": "heart", "emoji": "🕊️"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "peaceful", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Feel overwhelmed",
+      "steps": [
+        {"word": "too", "emoji": "😵"},
+        {"word": "much", "emoji": "🤯"},
+        {"word": "happening", "emoji": "😰"},
+        {"word": "can't", "emoji": "😖"},
+        {"word": "handle", "emoji": "💫"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Feel confident",
+      "steps": [
+        {"word": "believe", "emoji": "💪"},
+        {"word": "in", "emoji": "👤"},
+        {"word": "myself", "emoji": "✨"},
+        {"word": "can", "emoji": "🌟"},
+        {"word": "do", "emoji": "💯"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Feel insecure",
+      "steps": [
+        {"word": "not", "emoji": "😞"},
+        {"word": "sure", "emoji": "🤔"},
+        {"word": "about", "emoji": "👤"},
+        {"word": "myself", "emoji": "😔"},
+        {"word": "doubt", "emoji": "❓"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Validate feelings",
+      "steps": [
+        {"word": "all", "emoji": "😊"},
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "are", "emoji": "✅"},
+        {"word": "okay", "emoji": "🤗"},
+        {"word": "normal", "emoji": "💯"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Talk about emotions",
+      "steps": [
+        {"word": "share", "emoji": "💬"},
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "with", "emoji": "👥"},
+        {"word": "trusted", "emoji": "🤝"},
+        {"word": "person", "emoji": "💗"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Listen to others",
+      "steps": [
+        {"word": "when", "emoji": "👂"},
+        {"word": "someone", "emoji": "👥"},
+        {"word": "shares", "emoji": "💬"},
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "listen", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Use feeling words",
+      "steps": [
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "I", "emoji": "👤"},
+        {"word": "feel", "emoji": "❤️"},
+        {"word": "emotion", "emoji": "💭"},
+        {"word": "word", "emoji": "🔤"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Draw feelings",
+      "steps": [
+        {"word": "use", "emoji": "🖍️"},
+        {"word": "colors", "emoji": "🌈"},
+        {"word": "and", "emoji": "🎨"},
+        {"word": "pictures", "emoji": "🖼️"},
+        {"word": "show", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Body awareness",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "how", "emoji": "👤"},
+        {"word": "body", "emoji": "❤️"},
+        {"word": "feels", "emoji": "💓"},
+        {"word": "emotions", "emoji": "🔍"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Emotional triggers",
+      "steps": [
+        {"word": "know", "emoji": "🧠"},
+        {"word": "what", "emoji": "⚡"},
+        {"word": "makes", "emoji": "😰"},
+        {"word": "upset", "emoji": "⚠️"},
+        {"word": "triggers", "emoji": "🚨"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Safe space",
+      "steps": [
+        {"word": "find", "emoji": "🏠"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "place", "emoji": "🛡️"},
+        {"word": "feel", "emoji": "😌"},
+        {"word": "safe", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Positive self-talk",
+      "steps": [
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "kind", "emoji": "😊"},
+        {"word": "things", "emoji": "👤"},
+        {"word": "to", "emoji": "❤️"},
+        {"word": "myself", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Change happens",
+      "steps": [
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "come", "emoji": "🔄"},
+        {"word": "and", "emoji": "➡️"},
+        {"word": "go", "emoji": "⬅️"},
+        {"word": "change", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Problem solving",
+      "steps": [
+        {"word": "when", "emoji": "⚠️"},
+        {"word": "upset", "emoji": "🤔"},
+        {"word": "think", "emoji": "💡"},
+        {"word": "solutions", "emoji": "✅"},
+        {"word": "help", "emoji": "🛠️"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Emotional regulation",
+      "steps": [
+        {"word": "learn", "emoji": "📚"},
+        {"word": "to", "emoji": "🎛️"},
+        {"word": "control", "emoji": "❤️"},
+        {"word": "big", "emoji": "😌"},
+        {"word": "feelings", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Mood tracking",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "how", "emoji": "📊"},
+        {"word": "feel", "emoji": "❤️"},
+        {"word": "each", "emoji": "📅"},
+        {"word": "day", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Social emotions",
+      "steps": [
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "with", "emoji": "👥"},
+        {"word": "friends", "emoji": "🤝"},
+        {"word": "and", "emoji": "👨‍👩‍👧‍👦"},
+        {"word": "family", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Emotional intelligence",
+      "steps": [
+        {"word": "understand", "emoji": "🧠"},
+        {"word": "and", "emoji": "❤️"},
+        {"word": "manage", "emoji": "🎛️"},
+        {"word": "emotions", "emoji": "💪"},
+        {"word": "smart", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Mood swings",
+      "steps": [
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "quickly", "emoji": "⚡"},
+        {"word": "normal", "emoji": "✅"},
+        {"word": "okay", "emoji": "🤗"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Emotional support",
+      "steps": [
+        {"word": "get", "emoji": "🤗"},
+        {"word": "help", "emoji": "🆘"},
+        {"word": "when", "emoji": "😔"},
+        {"word": "need", "emoji": "👥"},
+        {"word": "support", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Feeling thermometer",
+      "steps": [
+        {"word": "rate", "emoji": "📊"},
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "1", "emoji": "1️⃣"},
+        {"word": "to", "emoji": "🔟"},
+        {"word": "10", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Comfort items",
+      "steps": [
+        {"word": "special", "emoji": "🧸"},
+        {"word": "things", "emoji": "🛡️"},
+        {"word": "that", "emoji": "😌"},
+        {"word": "help", "emoji": "❤️"},
+        {"word": "feel", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Emotional boundaries",
+      "steps": [
+        {"word": "say", "emoji": "🗣️"},
+        {"word": "no", "emoji": "🚫"},
+        {"word": "when", "emoji": "😔"},
+        {"word": "don't", "emoji": "✋"},
+        {"word": "like", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Feeling journals",
+      "steps": [
+        {"word": "write", "emoji": "📝"},
+        {"word": "down", "emoji": "❤️"},
+        {"word": "feelings", "emoji": "📔"},
+        {"word": "in", "emoji": "📚"},
+        {"word": "book", "emoji": "✍️"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Emotional check-ins",
+      "steps": [
+        {"word": "ask", "emoji": "❓"},
+        {"word": "how", "emoji": "👤"},
+        {"word": "am", "emoji": "❤️"},
+        {"word": "feeling", "emoji": "🤔"},
+        {"word": "today", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Feeling faces",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "at", "emoji": "😊"},
+        {"word": "emoji", "emoji": "😢"},
+        {"word": "faces", "emoji": "❤️"},
+        {"word": "match", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Emotional vocabulary",
+      "steps": [
+        {"word": "learn", "emoji": "📚"},
+        {"word": "many", "emoji": "🔤"},
+        {"word": "words", "emoji": "❤️"},
+        {"word": "for", "emoji": "💭"},
+        {"word": "feelings", "emoji": "📖"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Feeling games",
+      "steps": [
+        {"word": "play", "emoji": "🎮"},
+        {"word": "games", "emoji": "😊"},
+        {"word": "about", "emoji": "❤️"},
+        {"word": "emotions", "emoji": "🎯"},
+        {"word": "learn", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Emotional stories",
+      "steps": [
+        {"word": "read", "emoji": "📚"},
+        {"word": "books", "emoji": "📖"},
+        {"word": "about", "emoji": "❤️"},
+        {"word": "feelings", "emoji": "🎭"},
+        {"word": "characters", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Music and mood",
+      "steps": [
+        {"word": "listen", "emoji": "👂"},
+        {"word": "to", "emoji": "🎵"},
+        {"word": "music", "emoji": "❤️"},
+        {"word": "change", "emoji": "😊"},
+        {"word": "mood", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Movement and emotions",
+      "steps": [
+        {"word": "move", "emoji": "🏃"},
+        {"word": "body", "emoji": "💃"},
+        {"word": "to", "emoji": "❤️"},
+        {"word": "feel", "emoji": "😊"},
+        {"word": "better", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Nature and feelings",
+      "steps": [
+        {"word": "go", "emoji": "🚶"},
+        {"word": "outside", "emoji": "🌳"},
+        {"word": "nature", "emoji": "🌿"},
+        {"word": "helps", "emoji": "😌"},
+        {"word": "calm", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Emotional growth",
+      "steps": [
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "help", "emoji": "📚"},
+        {"word": "us", "emoji": "📈"},
+        {"word": "learn", "emoji": "🌱"},
+        {"word": "grow", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Feeling misunderstood",
+      "steps": [
+        {"word": "others", "emoji": "👥"},
+        {"word": "don't", "emoji": "🚫"},
+        {"word": "get", "emoji": "🤔"},
+        {"word": "me", "emoji": "😔"},
+        {"word": "lonely", "emoji": "💔"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Feeling included",
+      "steps": [
+        {"word": "part", "emoji": "👥"},
+        {"word": "of", "emoji": "🤗"},
+        {"word": "group", "emoji": "❤️"},
+        {"word": "belong", "emoji": "😊"},
+        {"word": "happy", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Feeling excluded",
+      "steps": [
+        {"word": "left", "emoji": "😔"},
+        {"word": "out", "emoji": "🚫"},
+        {"word": "not", "emoji": "💔"},
+        {"word": "included", "emoji": "😞"},
+        {"word": "sad", "emoji": "😢"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Feeling overwhelmed",
+      "steps": [
+        {"word": "too", "emoji": "🤯"},
+        {"word": "many", "emoji": "😵"},
+        {"word": "things", "emoji": "📚"},
+        {"word": "at", "emoji": "⏰"},
+        {"word": "once", "emoji": "😰"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Feeling motivated",
+      "steps": [
+        {"word": "ready", "emoji": "💪"},
+        {"word": "to", "emoji": "🎯"},
+        {"word": "try", "emoji": "🚀"},
+        {"word": "excited", "emoji": "😊"},
+        {"word": "energy", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Feeling lazy",
+      "steps": [
+        {"word": "don't", "emoji": "😴"},
+        {"word": "want", "emoji": "🛋️"},
+        {"word": "to", "emoji": "🐌"},
+        {"word": "do", "emoji": "😑"},
+        {"word": "anything", "emoji": "😪"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Feeling creative",
+      "steps": [
+        {"word": "want", "emoji": "🎨"},
+        {"word": "to", "emoji": "✨"},
+        {"word": "make", "emoji": "💡"},
+        {"word": "something", "emoji": "🖼️"},
+        {"word": "new", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Feeling bored",
+      "steps": [
+        {"word": "nothing", "emoji": "😑"},
+        {"word": "seems", "emoji": "🥱"},
+        {"word": "fun", "emoji": "😴"},
+        {"word": "tired", "emoji": "🙄"},
+        {"word": "bored", "emoji": "😐"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Feeling appreciated",
+      "steps": [
+        {"word": "others", "emoji": "👥"},
+        {"word": "notice", "emoji": "👀"},
+        {"word": "and", "emoji": "🙏"},
+        {"word": "thank", "emoji": "❤️"},
+        {"word": "me", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Feeling ignored",
+      "steps": [
+        {"word": "no", "emoji": "👥"},
+        {"word": "one", "emoji": "🚫"},
+        {"word": "listens", "emoji": "👂"},
+        {"word": "invisible", "emoji": "😔"},
+        {"word": "sad", "emoji": "💔"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Emotional contagion",
+      "steps": [
+        {"word": "catch", "emoji": "😊"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "like", "emoji": "🦠"},
+        {"word": "germs", "emoji": "😷"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Mixed emotions",
+      "steps": [
+        {"word": "feel", "emoji": "😊"},
+        {"word": "happy", "emoji": "😢"},
+        {"word": "and", "emoji": "❤️"},
+        {"word": "sad", "emoji": "🌈"},
+        {"word": "together", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Emotional intensity",
+      "steps": [
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "can", "emoji": "🔥"},
+        {"word": "be", "emoji": "📊"},
+        {"word": "big", "emoji": "🤏"},
+        {"word": "small", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Emotional resilience",
+      "steps": [
+        {"word": "bounce", "emoji": "🏀"},
+        {"word": "back", "emoji": "⬅️"},
+        {"word": "from", "emoji": "😔"},
+        {"word": "hard", "emoji": "💪"},
+        {"word": "times", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Feeling understood",
+      "steps": [
+        {"word": "someone", "emoji": "👥"},
+        {"word": "gets", "emoji": "🤝"},
+        {"word": "me", "emoji": "❤️"},
+        {"word": "feels", "emoji": "😊"},
+        {"word": "good", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Emotional memories",
+      "steps": [
+        {"word": "remember", "emoji": "🧠"},
+        {"word": "how", "emoji": "💭"},
+        {"word": "felt", "emoji": "❤️"},
+        {"word": "before", "emoji": "📅"},
+        {"word": "memories", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Feeling safe",
+      "steps": [
+        {"word": "protected", "emoji": "🛡️"},
+        {"word": "and", "emoji": "🏠"},
+        {"word": "secure", "emoji": "❤️"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "safe", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Feeling threatened",
+      "steps": [
+        {"word": "sense", "emoji": "⚠️"},
+        {"word": "danger", "emoji": "😨"},
+        {"word": "or", "emoji": "😰"},
+        {"word": "harm", "emoji": "🚨"},
+        {"word": "scared", "emoji": "👻"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Emotional healing",
+      "steps": [
+        {"word": "hurt", "emoji": "💔"},
+        {"word": "feelings", "emoji": "⏰"},
+        {"word": "take", "emoji": "🩹"},
+        {"word": "time", "emoji": "❤️"},
+        {"word": "heal", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Feeling worthy",
+      "steps": [
+        {"word": "deserve", "emoji": "👤"},
+        {"word": "good", "emoji": "❤️"},
+        {"word": "things", "emoji": "💎"},
+        {"word": "valuable", "emoji": "⭐"},
+        {"word": "special", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Emotional wisdom",
+      "steps": [
+        {"word": "learn", "emoji": "📚"},
+        {"word": "from", "emoji": "❤️"},
+        {"word": "feelings", "emoji": "🧠"},
+        {"word": "become", "emoji": "🦉"},
+        {"word": "wise", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Feeling powerful",
+      "steps": [
+        {"word": "strong", "emoji": "💪"},
+        {"word": "and", "emoji": "🦁"},
+        {"word": "capable", "emoji": "⚡"},
+        {"word": "can", "emoji": "🌟"},
+        {"word": "do", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Feeling helpless",
+      "steps": [
+        {"word": "can't", "emoji": "🚫"},
+        {"word": "change", "emoji": "😔"},
+        {"word": "anything", "emoji": "😞"},
+        {"word": "stuck", "emoji": "😟"},
+        {"word": "helpless", "emoji": "💔"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Emotional balance",
+      "steps": [
+        {"word": "not", "emoji": "⚖️"},
+        {"word": "too", "emoji": "😊"},
+        {"word": "happy", "emoji": "😢"},
+        {"word": "sad", "emoji": "🧘"},
+        {"word": "balanced", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Feeling optimistic",
+      "steps": [
+        {"word": "good", "emoji": "✨"},
+        {"word": "things", "emoji": "🌈"},
+        {"word": "will", "emoji": "😊"},
+        {"word": "happen", "emoji": "🌟"},
+        {"word": "hopeful", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Feeling pessimistic",
+      "steps": [
+        {"word": "expect", "emoji": "😔"},
+        {"word": "bad", "emoji": "☁️"},
+        {"word": "things", "emoji": "😞"},
+        {"word": "negative", "emoji": "😟"},
+        {"word": "pessimistic", "emoji": "🌧️"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Emotional awareness",
+      "steps": [
+        {"word": "notice", "emoji": "👀"},
+        {"word": "and", "emoji": "🧠"},
+        {"word": "understand", "emoji": "❤️"},
+        {"word": "my", "emoji": "🔍"},
+        {"word": "feelings", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Feeling complete",
+      "steps": [
+        {"word": "everything", "emoji": "✅"},
+        {"word": "feels", "emoji": "😌"},
+        {"word": "right", "emoji": "❤️"},
+        {"word": "whole", "emoji": "🌟"},
+        {"word": "complete", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Emotional journey",
+      "steps": [
+        {"word": "feelings", "emoji": "❤️"},
+        {"word": "are", "emoji": "🗺️"},
+        {"word": "like", "emoji": "🚶"},
+        {"word": "a", "emoji": "✨"},
+        {"word": "journey", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Celebrate emotions",
+      "steps": [
+        {"word": "all", "emoji": "❤️"},
+        {"word": "feelings", "emoji": "🎉"},
+        {"word": "are", "emoji": "🌈"},
+        {"word": "part", "emoji": "👤"},
+        {"word": "of", "emoji": "✨"}
+      ]
+    }
+  ]
+}

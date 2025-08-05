@@ -1,0 +1,1108 @@
+{
+  "category": {
+    "emoji": "🌿",
+    "name": "Nature & Environment"
+  },
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Plant a seed",
+      "steps": [
+        {"word": "dig", "emoji": "🕳️"},
+        {"word": "hole", "emoji": "⭕"},
+        {"word": "seed", "emoji": "🌱"},
+        {"word": "cover", "emoji": "🤲"},
+        {"word": "water", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Watch sunrise",
+      "steps": [
+        {"word": "early", "emoji": "⏰"},
+        {"word": "morning", "emoji": "🌅"},
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "rises", "emoji": "⬆️"},
+        {"word": "beautiful", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sunset time",
+      "steps": [
+        {"word": "evening", "emoji": "🌆"},
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "goes", "emoji": "⬇️"},
+        {"word": "down", "emoji": "🌅"},
+        {"word": "colors", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Rain falling",
+      "steps": [
+        {"word": "clouds", "emoji": "☁️"},
+        {"word": "dark", "emoji": "⚫"},
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "drops", "emoji": "💧"},
+        {"word": "wet", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Rainbow appears",
+      "steps": [
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "stops", "emoji": "🛑"},
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "rainbow", "emoji": "🌈"},
+        {"word": "colors", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Wind blowing",
+      "steps": [
+        {"word": "air", "emoji": "💨"},
+        {"word": "moves", "emoji": "➡️"},
+        {"word": "trees", "emoji": "🌳"},
+        {"word": "sway", "emoji": "〰️"},
+        {"word": "windy", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Snow falling",
+      "steps": [
+        {"word": "cold", "emoji": "🥶"},
+        {"word": "white", "emoji": "⚪"},
+        {"word": "flakes", "emoji": "❄️"},
+        {"word": "fall", "emoji": "⬇️"},
+        {"word": "snow", "emoji": "☃️"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Thunder storm",
+      "steps": [
+        {"word": "dark", "emoji": "⚫"},
+        {"word": "clouds", "emoji": "☁️"},
+        {"word": "lightning", "emoji": "⚡"},
+        {"word": "thunder", "emoji": "🌩️"},
+        {"word": "loud", "emoji": "🔊"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Foggy morning",
+      "steps": [
+        {"word": "mist", "emoji": "🌫️"},
+        {"word": "thick", "emoji": "☁️"},
+        {"word": "can't", "emoji": "🚫"},
+        {"word": "see", "emoji": "👀"},
+        {"word": "foggy", "emoji": "🌁"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Sunny day",
+      "steps": [
+        {"word": "bright", "emoji": "✨"},
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "warm", "emoji": "♨️"},
+        {"word": "clear", "emoji": "🌤️"},
+        {"word": "beautiful", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Tree growing",
+      "steps": [
+        {"word": "seed", "emoji": "🌱"},
+        {"word": "sprout", "emoji": "🌿"},
+        {"word": "trunk", "emoji": "🪵"},
+        {"word": "branches", "emoji": "🌳"},
+        {"word": "tall", "emoji": "📏"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Flower blooming",
+      "steps": [
+        {"word": "bud", "emoji": "🌷"},
+        {"word": "opens", "emoji": "📂"},
+        {"word": "petals", "emoji": "🌸"},
+        {"word": "bloom", "emoji": "🌺"},
+        {"word": "pretty", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Butterfly life",
+      "steps": [
+        {"word": "egg", "emoji": "🥚"},
+        {"word": "caterpillar", "emoji": "🐛"},
+        {"word": "chrysalis", "emoji": "🛡️"},
+        {"word": "butterfly", "emoji": "🦋"},
+        {"word": "fly", "emoji": "✈️"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bird nest",
+      "steps": [
+        {"word": "twigs", "emoji": "🌿"},
+        {"word": "build", "emoji": "🏗️"},
+        {"word": "nest", "emoji": "🪺"},
+        {"word": "eggs", "emoji": "🥚"},
+        {"word": "babies", "emoji": "🐣"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Ocean waves",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "moves", "emoji": "🌊"},
+        {"word": "waves", "emoji": "🌊"},
+        {"word": "crash", "emoji": "💥"},
+        {"word": "beach", "emoji": "🏖️"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "River flowing",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "flows", "emoji": "➡️"},
+        {"word": "downstream", "emoji": "⬇️"},
+        {"word": "rocks", "emoji": "🪨"},
+        {"word": "river", "emoji": "🏞️"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Mountain climbing",
+      "steps": [
+        {"word": "bottom", "emoji": "⬇️"},
+        {"word": "climb", "emoji": "🧗"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "top", "emoji": "🏔️"},
+        {"word": "view", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Desert hot",
+      "steps": [
+        {"word": "sand", "emoji": "🏜️"},
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "cactus", "emoji": "🌵"},
+        {"word": "desert", "emoji": "🐪"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Forest walk",
+      "steps": [
+        {"word": "trees", "emoji": "🌲"},
+        {"word": "path", "emoji": "🛤️"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "animals", "emoji": "🦌"},
+        {"word": "peaceful", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Lake swimming",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "calm", "emoji": "😌"},
+        {"word": "swim", "emoji": "🏊"},
+        {"word": "fish", "emoji": "🐟"},
+        {"word": "lake", "emoji": "🏞️"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Seasons changing",
+      "steps": [
+        {"word": "spring", "emoji": "🌸"},
+        {"word": "summer", "emoji": "☀️"},
+        {"word": "fall", "emoji": "🍂"},
+        {"word": "winter", "emoji": "❄️"},
+        {"word": "cycle", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Leaves falling",
+      "steps": [
+        {"word": "autumn", "emoji": "🍂"},
+        {"word": "leaves", "emoji": "🍁"},
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "colors", "emoji": "🎨"},
+        {"word": "fall", "emoji": "⬇️"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Garden growing",
+      "steps": [
+        {"word": "plant", "emoji": "🌱"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "grow", "emoji": "🌿"},
+        {"word": "vegetables", "emoji": "🥕"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Composting",
+      "steps": [
+        {"word": "scraps", "emoji": "🍎"},
+        {"word": "bin", "emoji": "🗑️"},
+        {"word": "decompose", "emoji": "♻️"},
+        {"word": "soil", "emoji": "🟤"},
+        {"word": "rich", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Recycling",
+      "steps": [
+        {"word": "sort", "emoji": "🗂️"},
+        {"word": "materials", "emoji": "📦"},
+        {"word": "recycle", "emoji": "♻️"},
+        {"word": "bin", "emoji": "🗑️"},
+        {"word": "reuse", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Bee pollinating",
+      "steps": [
+        {"word": "bee", "emoji": "🐝"},
+        {"word": "flower", "emoji": "🌻"},
+        {"word": "pollen", "emoji": "💛"},
+        {"word": "carry", "emoji": "🤲"},
+        {"word": "pollinate", "emoji": "🌺"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Moon phases",
+      "steps": [
+        {"word": "new", "emoji": "🌑"},
+        {"word": "crescent", "emoji": "🌒"},
+        {"word": "half", "emoji": "🌓"},
+        {"word": "full", "emoji": "🌕"},
+        {"word": "moon", "emoji": "🌙"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Star gazing",
+      "steps": [
+        {"word": "night", "emoji": "🌃"},
+        {"word": "dark", "emoji": "⚫"},
+        {"word": "stars", "emoji": "⭐"},
+        {"word": "twinkle", "emoji": "✨"},
+        {"word": "sky", "emoji": "🌌"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Cloud watching",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "clouds", "emoji": "☁️"},
+        {"word": "shapes", "emoji": "🔷"},
+        {"word": "imagine", "emoji": "💭"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Tide changes",
+      "steps": [
+        {"word": "ocean", "emoji": "🌊"},
+        {"word": "high", "emoji": "⬆️"},
+        {"word": "tide", "emoji": "🌊"},
+        {"word": "low", "emoji": "⬇️"},
+        {"word": "cycle", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Volcano erupting",
+      "steps": [
+        {"word": "mountain", "emoji": "🏔️"},
+        {"word": "rumble", "emoji": "📳"},
+        {"word": "lava", "emoji": "🌋"},
+        {"word": "erupts", "emoji": "💥"},
+        {"word": "hot", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Earthquake shaking",
+      "steps": [
+        {"word": "ground", "emoji": "🌍"},
+        {"word": "shakes", "emoji": "📳"},
+        {"word": "rumble", "emoji": "〰️"},
+        {"word": "earthquake", "emoji": "🫨"},
+        {"word": "move", "emoji": "↔️"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Tornado spinning",
+      "steps": [
+        {"word": "wind", "emoji": "💨"},
+        {"word": "spins", "emoji": "🌪️"},
+        {"word": "funnel", "emoji": "🔻"},
+        {"word": "tornado", "emoji": "🌪️"},
+        {"word": "danger", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Hurricane coming",
+      "steps": [
+        {"word": "storm", "emoji": "🌀"},
+        {"word": "big", "emoji": "📏"},
+        {"word": "winds", "emoji": "💨"},
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "hurricane", "emoji": "🌀"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Drought conditions",
+      "steps": [
+        {"word": "no", "emoji": "🚫"},
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "dry", "emoji": "🏜️"},
+        {"word": "plants", "emoji": "🥀"},
+        {"word": "drought", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Flood waters",
+      "steps": [
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "too", "emoji": "💯"},
+        {"word": "much", "emoji": "📈"},
+        {"word": "water", "emoji": "🌊"},
+        {"word": "flood", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Animal tracks",
+      "steps": [
+        {"word": "animal", "emoji": "🦌"},
+        {"word": "walked", "emoji": "🚶"},
+        {"word": "prints", "emoji": "👣"},
+        {"word": "mud", "emoji": "🟤"},
+        {"word": "tracks", "emoji": "🐾"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Bird watching",
+      "steps": [
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "binoculars", "emoji": "🔭"},
+        {"word": "birds", "emoji": "🦅"},
+        {"word": "observe", "emoji": "👀"},
+        {"word": "nature", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Camping outdoors",
+      "steps": [
+        {"word": "tent", "emoji": "⛺"},
+        {"word": "campfire", "emoji": "🔥"},
+        {"word": "stars", "emoji": "⭐"},
+        {"word": "sleep", "emoji": "😴"},
+        {"word": "nature", "emoji": "🏕️"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Hiking trail",
+      "steps": [
+        {"word": "boots", "emoji": "🥾"},
+        {"word": "trail", "emoji": "🛤️"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "explore", "emoji": "🔍"},
+        {"word": "adventure", "emoji": "🗺️"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Rock collecting",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "rocks", "emoji": "🪨"},
+        {"word": "pretty", "emoji": "✨"},
+        {"word": "collect", "emoji": "🤲"},
+        {"word": "keep", "emoji": "📦"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Shell hunting",
+      "steps": [
+        {"word": "beach", "emoji": "🏖️"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "shells", "emoji": "🐚"},
+        {"word": "collect", "emoji": "🧺"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Fossil finding",
+      "steps": [
+        {"word": "dig", "emoji": "🕳️"},
+        {"word": "rocks", "emoji": "🪨"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "fossil", "emoji": "🦴"},
+        {"word": "ancient", "emoji": "🦕"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Cave exploring",
+      "steps": [
+        {"word": "dark", "emoji": "⚫"},
+        {"word": "cave", "emoji": "🕳️"},
+        {"word": "flashlight", "emoji": "🔦"},
+        {"word": "explore", "emoji": "🔍"},
+        {"word": "discover", "emoji": "💎"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Waterfall viewing",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "falls", "emoji": "⬇️"},
+        {"word": "rocks", "emoji": "🪨"},
+        {"word": "splash", "emoji": "💦"},
+        {"word": "beautiful", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Wildlife spotting",
+      "steps": [
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "animals", "emoji": "🦌"},
+        {"word": "wild", "emoji": "🌿"},
+        {"word": "observe", "emoji": "🔭"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Nature photography",
+      "steps": [
+        {"word": "camera", "emoji": "📷"},
+        {"word": "nature", "emoji": "🌿"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "click", "emoji": "📸"},
+        {"word": "capture", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Tree climbing",
+      "steps": [
+        {"word": "tree", "emoji": "🌳"},
+        {"word": "branches", "emoji": "🌿"},
+        {"word": "climb", "emoji": "🧗"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "careful", "emoji": "⚠️"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Leaf collecting",
+      "steps": [
+        {"word": "different", "emoji": "🌈"},
+        {"word": "leaves", "emoji": "🍃"},
+        {"word": "collect", "emoji": "🤲"},
+        {"word": "press", "emoji": "📚"},
+        {"word": "save", "emoji": "📦"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Bug hunting",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "bugs", "emoji": "🐛"},
+        {"word": "jar", "emoji": "🫙"},
+        {"word": "observe", "emoji": "🔍"},
+        {"word": "release", "emoji": "🆓"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Pond life",
+      "steps": [
+        {"word": "pond", "emoji": "🏞️"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "frogs", "emoji": "🐸"},
+        {"word": "lily", "emoji": "🪷"},
+        {"word": "pads", "emoji": "🍃"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Beach cleanup",
+      "steps": [
+        {"word": "beach", "emoji": "🏖️"},
+        {"word": "trash", "emoji": "🗑️"},
+        {"word": "pick", "emoji": "🤏"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Park cleanup",
+      "steps": [
+        {"word": "park", "emoji": "🏞️"},
+        {"word": "litter", "emoji": "🗑️"},
+        {"word": "gloves", "emoji": "🧤"},
+        {"word": "bag", "emoji": "🛍️"},
+        {"word": "help", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Water conservation",
+      "steps": [
+        {"word": "turn", "emoji": "🔄"},
+        {"word": "off", "emoji": "❌"},
+        {"word": "tap", "emoji": "🚰"},
+        {"word": "save", "emoji": "💧"},
+        {"word": "water", "emoji": "💙"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Energy saving",
+      "steps": [
+        {"word": "lights", "emoji": "💡"},
+        {"word": "off", "emoji": "❌"},
+        {"word": "unplug", "emoji": "🔌"},
+        {"word": "save", "emoji": "💰"},
+        {"word": "energy", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Solar power",
+      "steps": [
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "panels", "emoji": "🟦"},
+        {"word": "energy", "emoji": "⚡"},
+        {"word": "clean", "emoji": "✨"},
+        {"word": "power", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Wind power",
+      "steps": [
+        {"word": "wind", "emoji": "💨"},
+        {"word": "turbines", "emoji": "🌀"},
+        {"word": "spin", "emoji": "🔄"},
+        {"word": "electricity", "emoji": "⚡"},
+        {"word": "green", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Rain water",
+      "steps": [
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "collect", "emoji": "🪣"},
+        {"word": "barrel", "emoji": "🛢️"},
+        {"word": "use", "emoji": "💧"},
+        {"word": "garden", "emoji": "🌻"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Greenhouse effect",
+      "steps": [
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "heat", "emoji": "🔥"},
+        {"word": "trapped", "emoji": "📦"},
+        {"word": "earth", "emoji": "🌍"},
+        {"word": "warm", "emoji": "♨️"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Climate change",
+      "steps": [
+        {"word": "earth", "emoji": "🌍"},
+        {"word": "getting", "emoji": "📈"},
+        {"word": "warmer", "emoji": "🔥"},
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "melting", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Coral reef",
+      "steps": [
+        {"word": "ocean", "emoji": "🌊"},
+        {"word": "coral", "emoji": "🪸"},
+        {"word": "colorful", "emoji": "🌈"},
+        {"word": "fish", "emoji": "🐠"},
+        {"word": "ecosystem", "emoji": "🏝️"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Rainforest layers",
+      "steps": [
+        {"word": "floor", "emoji": "🟤"},
+        {"word": "understory", "emoji": "🌿"},
+        {"word": "canopy", "emoji": "🌳"},
+        {"word": "emergent", "emoji": "🌲"},
+        {"word": "layers", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Arctic ice",
+      "steps": [
+        {"word": "north", "emoji": "⬆️"},
+        {"word": "pole", "emoji": "🧭"},
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "polar", "emoji": "🐻‍❄️"},
+        {"word": "bears", "emoji": "❄️"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Desert life",
+      "steps": [
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "dry", "emoji": "☀️"},
+        {"word": "cactus", "emoji": "🌵"},
+        {"word": "lizards", "emoji": "🦎"},
+        {"word": "survive", "emoji": "💪"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Wetland habitat",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "marsh", "emoji": "🏞️"},
+        {"word": "birds", "emoji": "🦆"},
+        {"word": "reeds", "emoji": "🌾"},
+        {"word": "wetland", "emoji": "🐸"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Prairie grassland",
+      "steps": [
+        {"word": "grass", "emoji": "🌾"},
+        {"word": "tall", "emoji": "📏"},
+        {"word": "buffalo", "emoji": "🦬"},
+        {"word": "wind", "emoji": "💨"},
+        {"word": "prairie", "emoji": "🌾"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Tundra cold",
+      "steps": [
+        {"word": "frozen", "emoji": "🥶"},
+        {"word": "ground", "emoji": "❄️"},
+        {"word": "short", "emoji": "📏"},
+        {"word": "plants", "emoji": "🌿"},
+        {"word": "tundra", "emoji": "🏔️"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Food chain",
+      "steps": [
+        {"word": "plants", "emoji": "🌿"},
+        {"word": "herbivore", "emoji": "🦌"},
+        {"word": "carnivore", "emoji": "🦁"},
+        {"word": "energy", "emoji": "⚡"},
+        {"word": "cycle", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Water cycle",
+      "steps": [
+        {"word": "evaporation", "emoji": "☀️"},
+        {"word": "clouds", "emoji": "☁️"},
+        {"word": "rain", "emoji": "🌧️"},
+        {"word": "river", "emoji": "🏞️"},
+        {"word": "ocean", "emoji": "🌊"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Photosynthesis",
+      "steps": [
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "leaves", "emoji": "🍃"},
+        {"word": "carbon", "emoji": "💨"},
+        {"word": "oxygen", "emoji": "🌬️"},
+        {"word": "food", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Migration pattern",
+      "steps": [
+        {"word": "birds", "emoji": "🦅"},
+        {"word": "fly", "emoji": "✈️"},
+        {"word": "south", "emoji": "⬇️"},
+        {"word": "winter", "emoji": "❄️"},
+        {"word": "return", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Hibernation sleep",
+      "steps": [
+        {"word": "bear", "emoji": "🐻"},
+        {"word": "winter", "emoji": "❄️"},
+        {"word": "sleep", "emoji": "😴"},
+        {"word": "long", "emoji": "📏"},
+        {"word": "spring", "emoji": "🌸"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Pollination process",
+      "steps": [
+        {"word": "flower", "emoji": "🌸"},
+        {"word": "bee", "emoji": "🐝"},
+        {"word": "pollen", "emoji": "💛"},
+        {"word": "transfer", "emoji": "➡️"},
+        {"word": "seeds", "emoji": "🌱"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Erosion happening",
+      "steps": [
+        {"word": "wind", "emoji": "💨"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "soil", "emoji": "🟤"},
+        {"word": "moves", "emoji": "➡️"},
+        {"word": "erosion", "emoji": "🏔️"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Decomposition",
+      "steps": [
+        {"word": "dead", "emoji": "🍂"},
+        {"word": "leaves", "emoji": "🍃"},
+        {"word": "bacteria", "emoji": "🦠"},
+        {"word": "break", "emoji": "💥"},
+        {"word": "soil", "emoji": "🟤"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Ecosystem balance",
+      "steps": [
+        {"word": "plants", "emoji": "🌿"},
+        {"word": "animals", "emoji": "🦌"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "balance", "emoji": "⚖️"},
+        {"word": "healthy", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Endangered species",
+      "steps": [
+        {"word": "animals", "emoji": "🦏"},
+        {"word": "few", "emoji": "📉"},
+        {"word": "left", "emoji": "😢"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "save", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Conservation efforts",
+      "steps": [
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "nature", "emoji": "🌿"},
+        {"word": "save", "emoji": "💚"},
+        {"word": "habitats", "emoji": "🏞️"},
+        {"word": "future", "emoji": "🔮"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "National park",
+      "steps": [
+        {"word": "protected", "emoji": "🛡️"},
+        {"word": "land", "emoji": "🏞️"},
+        {"word": "animals", "emoji": "🦌"},
+        {"word": "visit", "emoji": "🚶"},
+        {"word": "preserve", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Wildlife sanctuary",
+      "steps": [
+        {"word": "safe", "emoji": "🛡️"},
+        {"word": "place", "emoji": "📍"},
+        {"word": "animals", "emoji": "🦒"},
+        {"word": "care", "emoji": "❤️"},
+        {"word": "heal", "emoji": "🏥"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Ocean pollution",
+      "steps": [
+        {"word": "plastic", "emoji": "🥤"},
+        {"word": "ocean", "emoji": "🌊"},
+        {"word": "hurts", "emoji": "😢"},
+        {"word": "animals", "emoji": "🐢"},
+        {"word": "clean", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Air pollution",
+      "steps": [
+        {"word": "smoke", "emoji": "💨"},
+        {"word": "cars", "emoji": "🚗"},
+        {"word": "dirty", "emoji": "⚫"},
+        {"word": "air", "emoji": "🌬️"},
+        {"word": "clean", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Deforestation",
+      "steps": [
+        {"word": "trees", "emoji": "🌳"},
+        {"word": "cut", "emoji": "🪓"},
+        {"word": "down", "emoji": "⬇️"},
+        {"word": "habitat", "emoji": "🏞️"},
+        {"word": "lost", "emoji": "😢"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Reforestation",
+      "steps": [
+        {"word": "plant", "emoji": "🌱"},
+        {"word": "new", "emoji": "🆕"},
+        {"word": "trees", "emoji": "🌳"},
+        {"word": "grow", "emoji": "📈"},
+        {"word": "forest", "emoji": "🌲"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Sustainable living",
+      "steps": [
+        {"word": "reduce", "emoji": "⬇️"},
+        {"word": "reuse", "emoji": "♻️"},
+        {"word": "recycle", "emoji": "🔄"},
+        {"word": "earth", "emoji": "🌍"},
+        {"word": "friendly", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Green energy",
+      "steps": [
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "wind", "emoji": "💨"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "power", "emoji": "⚡"},
+        {"word": "clean", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Organic farming",
+      "steps": [
+        {"word": "no", "emoji": "🚫"},
+        {"word": "chemicals", "emoji": "🧪"},
+        {"word": "natural", "emoji": "🌿"},
+        {"word": "grow", "emoji": "🌱"},
+        {"word": "healthy", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Urban garden",
+      "steps": [
+        {"word": "city", "emoji": "🏙️"},
+        {"word": "rooftop", "emoji": "🏢"},
+        {"word": "plants", "emoji": "🌿"},
+        {"word": "grow", "emoji": "📈"},
+        {"word": "green", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Nature preserve",
+      "steps": [
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "land", "emoji": "🏞️"},
+        {"word": "wildlife", "emoji": "🦌"},
+        {"word": "safe", "emoji": "✅"},
+        {"word": "forever", "emoji": "♾️"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Earth Day",
+      "steps": [
+        {"word": "celebrate", "emoji": "🎉"},
+        {"word": "earth", "emoji": "🌍"},
+        {"word": "help", "emoji": "🤝"},
+        {"word": "planet", "emoji": "🌎"},
+        {"word": "care", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Nature sounds",
+      "steps": [
+        {"word": "birds", "emoji": "🐦"},
+        {"word": "chirping", "emoji": "🎵"},
+        {"word": "wind", "emoji": "💨"},
+        {"word": "rustling", "emoji": "🍃"},
+        {"word": "peaceful", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Forest fire",
+      "steps": [
+        {"word": "fire", "emoji": "🔥"},
+        {"word": "spreads", "emoji": "➡️"},
+        {"word": "danger", "emoji": "⚠️"},
+        {"word": "animals", "emoji": "🦌"},
+        {"word": "flee", "emoji": "🏃"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Glacier melting",
+      "steps": [
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "warming", "emoji": "🔥"},
+        {"word": "melts", "emoji": "💧"},
+        {"word": "sea", "emoji": "🌊"},
+        {"word": "rises", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Aurora lights",
+      "steps": [
+        {"word": "northern", "emoji": "⬆️"},
+        {"word": "lights", "emoji": "💡"},
+        {"word": "colors", "emoji": "🌈"},
+        {"word": "dance", "emoji": "💃"},
+        {"word": "sky", "emoji": "🌌"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Geyser erupting",
+      "steps": [
+        {"word": "underground", "emoji": "⬇️"},
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "shoots", "emoji": "⬆️"},
+        {"word": "geyser", "emoji": "⛲"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Cave formations",
+      "steps": [
+        {"word": "water", "emoji": "💧"},
+        {"word": "drips", "emoji": "💧"},
+        {"word": "minerals", "emoji": "💎"},
+        {"word": "stalactites", "emoji": "🔻"},
+        {"word": "stalagmites", "emoji": "🔺"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Lightning bugs",
+      "steps": [
+        {"word": "night", "emoji": "🌃"},
+        {"word": "bugs", "emoji": "🐛"},
+        {"word": "light", "emoji": "💡"},
+        {"word": "flash", "emoji": "✨"},
+        {"word": "fireflies", "emoji": "🔦"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Meteor shower",
+      "steps": [
+        {"word": "space", "emoji": "🌌"},
+        {"word": "rocks", "emoji": "🪨"},
+        {"word": "fall", "emoji": "⬇️"},
+        {"word": "shooting", "emoji": "💫"},
+        {"word": "stars", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Nature walk",
+      "steps": [
+        {"word": "path", "emoji": "🛤️"},
+        {"word": "trees", "emoji": "🌳"},
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "observe", "emoji": "👀"},
+        {"word": "peace", "emoji": "☮️"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Earth care",
+      "steps": [
+        {"word": "love", "emoji": "❤️"},
+        {"word": "our", "emoji": "🤲"},
+        {"word": "planet", "emoji": "🌍"},
+        {"word": "protect", "emoji": "🛡️"},
+        {"word": "future", "emoji": "🔮"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1158 @@
+{
+  "tinkybink_reallife_activities_tiles": {
+    "adventure_sports": {
+      "category_emoji": "🏞️",
+      "category_name": "Adventure & Sports Activities",
+      "tiles": [
+        {
+          "id": 1,
+          "title": "Go kayaking",
+          "steps": [
+            {"word": "Paddle", "emoji": "🚣"},
+            {"word": "Water", "emoji": "💧"},
+            {"word": "Row", "emoji": "💪"},
+            {"word": "Float", "emoji": "🛶"},
+            {"word": "Fun", "emoji": "😄"}
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Go rock climbing",
+          "steps": [
+            {"word": "Harness", "emoji": "🔗"},
+            {"word": "Grip", "emoji": "🤲"},
+            {"word": "Climb", "emoji": "🧗"},
+            {"word": "Up", "emoji": "⬆️"},
+            {"word": "Top", "emoji": "🏔️"}
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Go horseback riding",
+          "steps": [
+            {"word": "Horse", "emoji": "🐴"},
+            {"word": "Mount", "emoji": "⬆️"},
+            {"word": "Hold", "emoji": "🤲"},
+            {"word": "Ride", "emoji": "🏇"},
+            {"word": "Giddy-up", "emoji": "🎠"}
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Go ziplining",
+          "steps": [
+            {"word": "Harness", "emoji": "🔗"},
+            {"word": "Hook", "emoji": "🪝"},
+            {"word": "Ready", "emoji": "✅"},
+            {"word": "Zoom", "emoji": "💨"},
+            {"word": "Wheee", "emoji": "🎢"}
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Go roller skating",
+          "steps": [
+            {"word": "Skates", "emoji": "🛼"},
+            {"word": "Lace", "emoji": "👟"},
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Roll", "emoji": "🔄"},
+            {"word": "Glide", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Go ice skating",
+          "steps": [
+            {"word": "Skates", "emoji": "⛸️"},
+            {"word": "Ice", "emoji": "❄️"},
+            {"word": "Balance", "emoji": "⚖️"},
+            {"word": "Glide", "emoji": "💨"},
+            {"word": "Cold", "emoji": "🥶"}
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Go sledding",
+          "steps": [
+            {"word": "Sled", "emoji": "🛷"},
+            {"word": "Hill", "emoji": "⛰️"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Push", "emoji": "👐"},
+            {"word": "Down", "emoji": "⬇️"}
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Go skiing",
+          "steps": [
+            {"word": "Skis", "emoji": "🎿"},
+            {"word": "Poles", "emoji": "🏒"},
+            {"word": "Snow", "emoji": "❄️"},
+            {"word": "Swoosh", "emoji": "💨"},
+            {"word": "Fast", "emoji": "⚡"}
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Go snowboarding",
+          "steps": [
+            {"word": "Board", "emoji": "🏂"},
+            {"word": "Strap", "emoji": "🔗"},
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Ride", "emoji": "💨"},
+            {"word": "Cool", "emoji": "😎"}
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Go surfing",
+          "steps": [
+            {"word": "Board", "emoji": "🏄"},
+            {"word": "Wave", "emoji": "🌊"},
+            {"word": "Paddle", "emoji": "💪"},
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Ride", "emoji": "🏄‍♂️"}
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Go to the playground",
+          "steps": [
+            {"word": "Park", "emoji": "🏞️"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Swing", "emoji": "🎢"},
+            {"word": "Slide", "emoji": "🛝"},
+            {"word": "Fun", "emoji": "😄"}
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Go to the beach",
+          "steps": [
+            {"word": "Sand", "emoji": "🏖️"},
+            {"word": "Water", "emoji": "🌊"},
+            {"word": "Swim", "emoji": "🏊"},
+            {"word": "Build", "emoji": "🏰"},
+            {"word": "Sun", "emoji": "☀️"}
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Go camping",
+          "steps": [
+            {"word": "Tent", "emoji": "⛺"},
+            {"word": "Fire", "emoji": "🔥"},
+            {"word": "Sleep", "emoji": "😴"},
+            {"word": "Stars", "emoji": "⭐"},
+            {"word": "Nature", "emoji": "🌲"}
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Go hiking",
+          "steps": [
+            {"word": "Trail", "emoji": "🥾"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Up", "emoji": "⛰️"},
+            {"word": "View", "emoji": "👀"},
+            {"word": "Beautiful", "emoji": "🌄"}
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Go swimming",
+          "steps": [
+            {"word": "Pool", "emoji": "🏊"},
+            {"word": "Jump", "emoji": "🦘"},
+            {"word": "Splash", "emoji": "💦"},
+            {"word": "Swim", "emoji": "🏊‍♂️"},
+            {"word": "Cool", "emoji": "❄️"}
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Go snorkeling",
+          "steps": [
+            {"word": "Mask", "emoji": "🥽"},
+            {"word": "Snorkel", "emoji": "🤿"},
+            {"word": "Water", "emoji": "💧"},
+            {"word": "Fish", "emoji": "🐠"},
+            {"word": "See", "emoji": "👀"}
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Go paddleboarding",
+          "steps": [
+            {"word": "Board", "emoji": "🏄"},
+            {"word": "Stand", "emoji": "🧍"},
+            {"word": "Paddle", "emoji": "🚣"},
+            {"word": "Balance", "emoji": "⚖️"},
+            {"word": "Glide", "emoji": "💨"}
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Go boating",
+          "steps": [
+            {"word": "Boat", "emoji": "⛵"},
+            {"word": "Water", "emoji": "🌊"},
+            {"word": "Sail", "emoji": "💨"},
+            {"word": "Waves", "emoji": "🌊"},
+            {"word": "Breeze", "emoji": "🌬️"}
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Go fishing",
+          "steps": [
+            {"word": "Rod", "emoji": "🎣"},
+            {"word": "Bait", "emoji": "🪱"},
+            {"word": "Cast", "emoji": "🤾"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Fish", "emoji": "🐟"}
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Go biking",
+          "steps": [
+            {"word": "Bike", "emoji": "🚴"},
+            {"word": "Helmet", "emoji": "⛑️"},
+            {"word": "Pedal", "emoji": "🔄"},
+            {"word": "Ride", "emoji": "💨"},
+            {"word": "Fast", "emoji": "⚡"}
+          ]
+        }
+      ]
+    },
+    "entertainment_venues": {
+      "category_emoji": "🎢",
+      "category_name": "Entertainment & Venues",
+      "tiles": [
+        {
+          "id": 21,
+          "title": "Go on a roller coaster",
+          "steps": [
+            {"word": "Line", "emoji": "📏"},
+            {"word": "Buckle", "emoji": "🔒"},
+            {"word": "Up", "emoji": "⬆️"},
+            {"word": "Down", "emoji": "⬇️"},
+            {"word": "Scream", "emoji": "😱"}
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Go to a waterpark",
+          "steps": [
+            {"word": "Suits", "emoji": "🩱"},
+            {"word": "Slides", "emoji": "🛝"},
+            {"word": "Splash", "emoji": "💦"},
+            {"word": "Pool", "emoji": "🏊"},
+            {"word": "Wet", "emoji": "💧"}
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Go to the zoo",
+          "steps": [
+            {"word": "Animals", "emoji": "🦁"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "See", "emoji": "👀"},
+            {"word": "Learn", "emoji": "🧠"},
+            {"word": "Roar", "emoji": "🦁"}
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Go to the aquarium",
+          "steps": [
+            {"word": "Fish", "emoji": "🐠"},
+            {"word": "Tank", "emoji": "🟦"},
+            {"word": "Water", "emoji": "💧"},
+            {"word": "Sharks", "emoji": "🦈"},
+            {"word": "Pretty", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Go to the movies",
+          "steps": [
+            {"word": "Tickets", "emoji": "🎫"},
+            {"word": "Popcorn", "emoji": "🍿"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Watch", "emoji": "🎬"},
+            {"word": "Enjoy", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Go bowling",
+          "steps": [
+            {"word": "Shoes", "emoji": "👟"},
+            {"word": "Ball", "emoji": "🎳"},
+            {"word": "Aim", "emoji": "🎯"},
+            {"word": "Roll", "emoji": "🔄"},
+            {"word": "Strike", "emoji": "💥"}
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Go to a museum",
+          "steps": [
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Art", "emoji": "🖼️"},
+            {"word": "Learn", "emoji": "🧠"},
+            {"word": "Cool", "emoji": "😎"}
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Go on a field trip",
+          "steps": [
+            {"word": "Bus", "emoji": "🚌"},
+            {"word": "Friends", "emoji": "👥"},
+            {"word": "Travel", "emoji": "🛣️"},
+            {"word": "Learn", "emoji": "🧠"},
+            {"word": "Fun", "emoji": "🎉"}
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Go apple picking",
+          "steps": [
+            {"word": "Orchard", "emoji": "🌳"},
+            {"word": "Tree", "emoji": "🌲"},
+            {"word": "Reach", "emoji": "🤲"},
+            {"word": "Pick", "emoji": "🍎"},
+            {"word": "Basket", "emoji": "🧺"}
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Go to the fair",
+          "steps": [
+            {"word": "Rides", "emoji": "🎠"},
+            {"word": "Games", "emoji": "🎯"},
+            {"word": "Food", "emoji": "🍭"},
+            {"word": "Prize", "emoji": "🧸"},
+            {"word": "Lights", "emoji": "✨"}
+          ]
+        }
+      ]
+    },
+    "health_appointments": {
+      "category_emoji": "🏥",
+      "category_name": "Health & Appointments",
+      "tiles": [
+        {
+          "id": 31,
+          "title": "Go to the dentist",
+          "steps": [
+            {"word": "Chair", "emoji": "🪑"},
+            {"word": "Open", "emoji": "👄"},
+            {"word": "Clean", "emoji": "🦷"},
+            {"word": "Rinse", "emoji": "💧"},
+            {"word": "Smile", "emoji": "😁"}
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Go to the doctor",
+          "steps": [
+            {"word": "Office", "emoji": "🏥"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Check", "emoji": "🩺"},
+            {"word": "Better", "emoji": "😊"},
+            {"word": "Done", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Go to therapy",
+          "steps": [
+            {"word": "Room", "emoji": "🚪"},
+            {"word": "Talk", "emoji": "💬"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Learn", "emoji": "🧠"},
+            {"word": "Grow", "emoji": "🌱"}
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Go to speech",
+          "steps": [
+            {"word": "Practice", "emoji": "🗣️"},
+            {"word": "Words", "emoji": "💬"},
+            {"word": "Sounds", "emoji": "🔊"},
+            {"word": "Try", "emoji": "💪"},
+            {"word": "Good", "emoji": "⭐"}
+          ]
+        },
+        {
+          "id": 35,
+          "title": "Go to OT (occupational therapy)",
+          "steps": [
+            {"word": "Hands", "emoji": "🤲"},
+            {"word": "Practice", "emoji": "✏️"},
+            {"word": "Skills", "emoji": "🧩"},
+            {"word": "Work", "emoji": "💪"},
+            {"word": "Better", "emoji": "📈"}
+          ]
+        },
+        {
+          "id": 36,
+          "title": "Go to PT (physical therapy)",
+          "steps": [
+            {"word": "Move", "emoji": "🏃"},
+            {"word": "Stretch", "emoji": "🤸"},
+            {"word": "Exercise", "emoji": "💪"},
+            {"word": "Strong", "emoji": "💯"},
+            {"word": "Progress", "emoji": "📊"}
+          ]
+        },
+        {
+          "id": 37,
+          "title": "Go to the hospital",
+          "steps": [
+            {"word": "Building", "emoji": "🏥"},
+            {"word": "Doctor", "emoji": "👨‍⚕️"},
+            {"word": "Help", "emoji": "🆘"},
+            {"word": "Care", "emoji": "❤️"},
+            {"word": "Better", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 38,
+          "title": "Go to the eye doctor",
+          "steps": [
+            {"word": "Eyes", "emoji": "👀"},
+            {"word": "Chart", "emoji": "📊"},
+            {"word": "Read", "emoji": "🔤"},
+            {"word": "Glasses", "emoji": "👓"},
+            {"word": "See", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 39,
+          "title": "Go get a haircut",
+          "steps": [
+            {"word": "Chair", "emoji": "🪑"},
+            {"word": "Cape", "emoji": "🦸"},
+            {"word": "Cut", "emoji": "✂️"},
+            {"word": "Style", "emoji": "💇"},
+            {"word": "Fresh", "emoji": "✨"}
+          ]
+        },
+        {
+          "id": 40,
+          "title": "Go get nails done",
+          "steps": [
+            {"word": "Salon", "emoji": "💅"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Soak", "emoji": "💧"},
+            {"word": "Polish", "emoji": "💅"},
+            {"word": "Pretty", "emoji": "✨"}
+          ]
+        }
+      ]
+    },
+    "shopping_errands": {
+      "category_emoji": "🛍️",
+      "category_name": "Shopping & Errands",
+      "tiles": [
+        {
+          "id": 41,
+          "title": "Go grocery shopping",
+          "steps": [
+            {"word": "Cart", "emoji": "🛒"},
+            {"word": "List", "emoji": "📝"},
+            {"word": "Find", "emoji": "🔍"},
+            {"word": "Buy", "emoji": "💰"},
+            {"word": "Home", "emoji": "🏠"}
+          ]
+        },
+        {
+          "id": 42,
+          "title": "Go to the mall",
+          "steps": [
+            {"word": "Stores", "emoji": "🏬"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Shop", "emoji": "🛍️"},
+            {"word": "Buy", "emoji": "💳"},
+            {"word": "Fun", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 43,
+          "title": "Go to the library",
+          "steps": [
+            {"word": "Books", "emoji": "📚"},
+            {"word": "Quiet", "emoji": "🤫"},
+            {"word": "Read", "emoji": "📖"},
+            {"word": "Check", "emoji": "💳"},
+            {"word": "Out", "emoji": "🎒"}
+          ]
+        },
+        {
+          "id": 44,
+          "title": "Go out to eat",
+          "steps": [
+            {"word": "Restaurant", "emoji": "🍽️"},
+            {"word": "Menu", "emoji": "📋"},
+            {"word": "Order", "emoji": "👉"},
+            {"word": "Eat", "emoji": "😋"},
+            {"word": "Yummy", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 45,
+          "title": "Go for ice cream",
+          "steps": [
+            {"word": "Shop", "emoji": "🍦"},
+            {"word": "Flavors", "emoji": "🌈"},
+            {"word": "Choose", "emoji": "👉"},
+            {"word": "Lick", "emoji": "👅"},
+            {"word": "Cold", "emoji": "🥶"}
+          ]
+        },
+        {
+          "id": 46,
+          "title": "Go to the bakery",
+          "steps": [
+            {"word": "Smell", "emoji": "👃"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Choose", "emoji": "🧁"},
+            {"word": "Buy", "emoji": "💰"},
+            {"word": "Treat", "emoji": "🍰"}
+          ]
+        },
+        {
+          "id": 47,
+          "title": "Go to a restaurant",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Order", "emoji": "📋"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Food", "emoji": "🍽️"},
+            {"word": "Delicious", "emoji": "😋"}
+          ]
+        },
+        {
+          "id": 48,
+          "title": "Go to Target",
+          "steps": [
+            {"word": "Red", "emoji": "🔴"},
+            {"word": "Store", "emoji": "🎯"},
+            {"word": "Cart", "emoji": "🛒"},
+            {"word": "Shop", "emoji": "🛍️"},
+            {"word": "Checkout", "emoji": "💳"}
+          ]
+        },
+        {
+          "id": 49,
+          "title": "Go to Walmart",
+          "steps": [
+            {"word": "Blue", "emoji": "🔵"},
+            {"word": "Store", "emoji": "🏪"},
+            {"word": "Big", "emoji": "🏢"},
+            {"word": "Shop", "emoji": "🛒"},
+            {"word": "Save", "emoji": "💰"}
+          ]
+        },
+        {
+          "id": 50,
+          "title": "Go to the pharmacy",
+          "steps": [
+            {"word": "Medicine", "emoji": "💊"},
+            {"word": "Counter", "emoji": "🏪"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Get", "emoji": "🤲"},
+            {"word": "Better", "emoji": "✅"}
+          ]
+        }
+      ]
+    },
+    "social_visits": {
+      "category_emoji": "🎉",
+      "category_name": "Social Visits & Events",
+      "tiles": [
+        {
+          "id": 51,
+          "title": "Go to a birthday party",
+          "steps": [
+            {"word": "Present", "emoji": "🎁"},
+            {"word": "Cake", "emoji": "🎂"},
+            {"word": "Sing", "emoji": "🎵"},
+            {"word": "Games", "emoji": "🎮"},
+            {"word": "Fun", "emoji": "🎉"}
+          ]
+        },
+        {
+          "id": 52,
+          "title": "Go to a playdate",
+          "steps": [
+            {"word": "Friend", "emoji": "👤"},
+            {"word": "House", "emoji": "🏠"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Share", "emoji": "🤝"},
+            {"word": "Happy", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 53,
+          "title": "Go to the park",
+          "steps": [
+            {"word": "Outside", "emoji": "🌳"},
+            {"word": "Playground", "emoji": "🎠"},
+            {"word": "Swing", "emoji": "🎢"},
+            {"word": "Run", "emoji": "🏃"},
+            {"word": "Fresh", "emoji": "🌬️"}
+          ]
+        },
+        {
+          "id": 54,
+          "title": "Go on a walk",
+          "steps": [
+            {"word": "Shoes", "emoji": "👟"},
+            {"word": "Outside", "emoji": "🚪"},
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Exercise", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 55,
+          "title": "Go to grandma's house",
+          "steps": [
+            {"word": "Car", "emoji": "🚗"},
+            {"word": "Drive", "emoji": "🛣️"},
+            {"word": "Arrive", "emoji": "🏠"},
+            {"word": "Hug", "emoji": "🤗"},
+            {"word": "Love", "emoji": "❤️"}
+          ]
+        },
+        {
+          "id": 56,
+          "title": "Go to school",
+          "steps": [
+            {"word": "Backpack", "emoji": "🎒"},
+            {"word": "Bus", "emoji": "🚌"},
+            {"word": "Classroom", "emoji": "🏫"},
+            {"word": "Learn", "emoji": "📚"},
+            {"word": "Friends", "emoji": "👥"}
+          ]
+        },
+        {
+          "id": 57,
+          "title": "Go to the bus stop",
+          "steps": [
+            {"word": "Walk", "emoji": "🚶"},
+            {"word": "Corner", "emoji": "📍"},
+            {"word": "Wait", "emoji": "⏰"},
+            {"word": "Bus", "emoji": "🚌"},
+            {"word": "Board", "emoji": "🚪"}
+          ]
+        },
+        {
+          "id": 58,
+          "title": "Go to the pet store",
+          "steps": [
+            {"word": "Animals", "emoji": "🐾"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Cute", "emoji": "🥰"},
+            {"word": "Pet", "emoji": "🤲"},
+            {"word": "Gentle", "emoji": "💝"}
+          ]
+        },
+        {
+          "id": 59,
+          "title": "Go to the vet",
+          "steps": [
+            {"word": "Pet", "emoji": "🐕"},
+            {"word": "Carrier", "emoji": "📦"},
+            {"word": "Doctor", "emoji": "👨‍⚕️"},
+            {"word": "Check", "emoji": "🩺"},
+            {"word": "Healthy", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 60,
+          "title": "Go feed the ducks",
+          "steps": [
+            {"word": "Pond", "emoji": "🌊"},
+            {"word": "Ducks", "emoji": "🦆"},
+            {"word": "Bread", "emoji": "🍞"},
+            {"word": "Throw", "emoji": "🤾"},
+            {"word": "Quack", "emoji": "🦆"}
+          ]
+        }
+      ]
+    },
+    "outdoor_events": {
+      "category_emoji": "🌳",
+      "category_name": "Outdoor Activities & Events",
+      "tiles": [
+        {
+          "id": 61,
+          "title": "Go on a nature walk",
+          "steps": [
+            {"word": "Trail", "emoji": "🛤️"},
+            {"word": "Trees", "emoji": "🌲"},
+            {"word": "Birds", "emoji": "🦜"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Peace", "emoji": "☮️"}
+          ]
+        },
+        {
+          "id": 62,
+          "title": "Go on a scavenger hunt",
+          "steps": [
+            {"word": "List", "emoji": "📋"},
+            {"word": "Search", "emoji": "🔍"},
+            {"word": "Find", "emoji": "👀"},
+            {"word": "Check", "emoji": "✅"},
+            {"word": "Win", "emoji": "🏆"}
+          ]
+        },
+        {
+          "id": 63,
+          "title": "Go to a concert",
+          "steps": [
+            {"word": "Music", "emoji": "🎵"},
+            {"word": "Stage", "emoji": "🎤"},
+            {"word": "Loud", "emoji": "🔊"},
+            {"word": "Dance", "emoji": "💃"},
+            {"word": "Fun", "emoji": "🎉"}
+          ]
+        },
+        {
+          "id": 64,
+          "title": "Go to a baseball game",
+          "steps": [
+            {"word": "Stadium", "emoji": "🏟️"},
+            {"word": "Seats", "emoji": "🪑"},
+            {"word": "Watch", "emoji": "⚾"},
+            {"word": "Cheer", "emoji": "📣"},
+            {"word": "Home run", "emoji": "🏃"}
+          ]
+        },
+        {
+          "id": 65,
+          "title": "Go to a football game",
+          "steps": [
+            {"word": "Field", "emoji": "🏈"},
+            {"word": "Team", "emoji": "👥"},
+            {"word": "Cheer", "emoji": "📣"},
+            {"word": "Touchdown", "emoji": "🙌"},
+            {"word": "Exciting", "emoji": "🎉"}
+          ]
+        },
+        {
+          "id": 66,
+          "title": "Go to a parade",
+          "steps": [
+            {"word": "Street", "emoji": "🛣️"},
+            {"word": "Floats", "emoji": "🎭"},
+            {"word": "Music", "emoji": "🎵"},
+            {"word": "Wave", "emoji": "👋"},
+            {"word": "Candy", "emoji": "🍬"}
+          ]
+        },
+        {
+          "id": 67,
+          "title": "Go watch fireworks",
+          "steps": [
+            {"word": "Dark", "emoji": "🌑"},
+            {"word": "Sky", "emoji": "🌌"},
+            {"word": "Boom", "emoji": "💥"},
+            {"word": "Colors", "emoji": "🎆"},
+            {"word": "Wow", "emoji": "🤩"}
+          ]
+        },
+        {
+          "id": 68,
+          "title": "Go to church",
+          "steps": [
+            {"word": "Sunday", "emoji": "☀️"},
+            {"word": "Dress", "emoji": "👔"},
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Pray", "emoji": "🙏"},
+            {"word": "Peace", "emoji": "✝️"}
+          ]
+        },
+        {
+          "id": 69,
+          "title": "Go to a festival",
+          "steps": [
+            {"word": "Booths", "emoji": "🎪"},
+            {"word": "Food", "emoji": "🍔"},
+            {"word": "Music", "emoji": "🎵"},
+            {"word": "Games", "emoji": "🎯"},
+            {"word": "Celebrate", "emoji": "🎉"}
+          ]
+        },
+        {
+          "id": 70,
+          "title": "Go on vacation",
+          "steps": [
+            {"word": "Pack", "emoji": "🧳"},
+            {"word": "Travel", "emoji": "✈️"},
+            {"word": "Hotel", "emoji": "🏨"},
+            {"word": "Explore", "emoji": "🗺️"},
+            {"word": "Memories", "emoji": "📸"}
+          ]
+        }
+      ]
+    },
+    "transportation_travel": {
+      "category_emoji": "✈️",
+      "category_name": "Transportation & Travel",
+      "tiles": [
+        {
+          "id": 71,
+          "title": "Go on an airplane",
+          "steps": [
+            {"word": "Airport", "emoji": "✈️"},
+            {"word": "Security", "emoji": "🛡️"},
+            {"word": "Board", "emoji": "🎫"},
+            {"word": "Fly", "emoji": "🛫"},
+            {"word": "Land", "emoji": "🛬"}
+          ]
+        },
+        {
+          "id": 72,
+          "title": "Go on a train",
+          "steps": [
+            {"word": "Station", "emoji": "🚉"},
+            {"word": "Ticket", "emoji": "🎫"},
+            {"word": "Board", "emoji": "🚂"},
+            {"word": "Choo-choo", "emoji": "🚆"},
+            {"word": "Ride", "emoji": "🛤️"}
+          ]
+        },
+        {
+          "id": 73,
+          "title": "Go on a ferry",
+          "steps": [
+            {"word": "Boat", "emoji": "⛴️"},
+            {"word": "Water", "emoji": "🌊"},
+            {"word": "Cars", "emoji": "🚗"},
+            {"word": "Sail", "emoji": "💨"},
+            {"word": "Dock", "emoji": "⚓"}
+          ]
+        },
+        {
+          "id": 74,
+          "title": "Go on a road trip",
+          "steps": [
+            {"word": "Car", "emoji": "🚗"},
+            {"word": "Map", "emoji": "🗺️"},
+            {"word": "Drive", "emoji": "🛣️"},
+            {"word": "Stops", "emoji": "⛽"},
+            {"word": "Adventure", "emoji": "🎒"}
+          ]
+        },
+        {
+          "id": 75,
+          "title": "Go to a hotel",
+          "steps": [
+            {"word": "Check-in", "emoji": "📋"},
+            {"word": "Key", "emoji": "🔑"},
+            {"word": "Room", "emoji": "🚪"},
+            {"word": "Bed", "emoji": "🛏️"},
+            {"word": "Pool", "emoji": "🏊"}
+          ]
+        },
+        {
+          "id": 76,
+          "title": "Go to the pool",
+          "steps": [
+            {"word": "Swimsuit", "emoji": "🩱"},
+            {"word": "Jump", "emoji": "🦘"},
+            {"word": "Splash", "emoji": "💦"},
+            {"word": "Swim", "emoji": "🏊"},
+            {"word": "Float", "emoji": "🛟"}
+          ]
+        },
+        {
+          "id": 77,
+          "title": "Go to a lake",
+          "steps": [
+            {"word": "Water", "emoji": "💧"},
+            {"word": "Shore", "emoji": "🏖️"},
+            {"word": "Swim", "emoji": "🏊"},
+            {"word": "Fish", "emoji": "🎣"},
+            {"word": "Peaceful", "emoji": "😌"}
+          ]
+        },
+        {
+          "id": 78,
+          "title": "Go to the mountains",
+          "steps": [
+            {"word": "Drive", "emoji": "🚗"},
+            {"word": "High", "emoji": "⛰️"},
+            {"word": "View", "emoji": "🌄"},
+            {"word": "Fresh", "emoji": "🌬️"},
+            {"word": "Beautiful", "emoji": "😍"}
+          ]
+        },
+        {
+          "id": 79,
+          "title": "Go visit a friend",
+          "steps": [
+            {"word": "Call", "emoji": "📞"},
+            {"word": "Drive", "emoji": "🚗"},
+            {"word": "Knock", "emoji": "🚪"},
+            {"word": "Hug", "emoji": "🤗"},
+            {"word": "Play", "emoji": "🎮"}
+          ]
+        },
+        {
+          "id": 80,
+          "title": "Go on a picnic",
+          "steps": [
+            {"word": "Basket", "emoji": "🧺"},
+            {"word": "Blanket", "emoji": "🟦"},
+            {"word": "Food", "emoji": "🥪"},
+            {"word": "Outside", "emoji": "🌳"},
+            {"word": "Eat", "emoji": "😋"}
+          ]
+        }
+      ]
+    },
+    "fun_activities": {
+      "category_emoji": "🎮",
+      "category_name": "Fun Activities & Recreation",
+      "tiles": [
+        {
+          "id": 81,
+          "title": "Go to a trampoline park",
+          "steps": [
+            {"word": "Bounce", "emoji": "🦘"},
+            {"word": "Jump", "emoji": "⬆️"},
+            {"word": "High", "emoji": "🔝"},
+            {"word": "Flip", "emoji": "🤸"},
+            {"word": "Fun", "emoji": "😄"}
+          ]
+        },
+        {
+          "id": 82,
+          "title": "Go to an arcade",
+          "steps": [
+            {"word": "Games", "emoji": "🎮"},
+            {"word": "Tokens", "emoji": "🪙"},
+            {"word": "Play", "emoji": "🕹️"},
+            {"word": "Win", "emoji": "🏆"},
+            {"word": "Prizes", "emoji": "🎁"}
+          ]
+        },
+        {
+          "id": 83,
+          "title": "Go to laser tag",
+          "steps": [
+            {"word": "Vest", "emoji": "🦺"},
+            {"word": "Gun", "emoji": "🔫"},
+            {"word": "Dark", "emoji": "🌑"},
+            {"word": "Shoot", "emoji": "💥"},
+            {"word": "Score", "emoji": "🎯"}
+          ]
+        },
+        {
+          "id": 84,
+          "title": "Go mini golfing",
+          "steps": [
+            {"word": "Club", "emoji": "🏌️"},
+            {"word": "Ball", "emoji": "⛳"},
+            {"word": "Aim", "emoji": "🎯"},
+            {"word": "Putt", "emoji": "👉"},
+            {"word": "Hole", "emoji": "🕳️"}
+          ]
+        },
+        {
+          "id": 85,
+          "title": "Go to an indoor play place",
+          "steps": [
+            {"word": "Inside", "emoji": "🏢"},
+            {"word": "Climb", "emoji": "🧗"},
+            {"word": "Slide", "emoji": "🛝"},
+            {"word": "Play", "emoji": "🎮"},
+            {"word": "Safe", "emoji": "✅"}
+          ]
+        },
+        {
+          "id": 86,
+          "title": "Go zip around in bumper cars",
+          "steps": [
+            {"word": "Car", "emoji": "🚗"},
+            {"word": "Seat", "emoji": "🪑"},
+            {"word": "Steer", "emoji": "🎯"},
+            {"word": "Bump", "emoji": "💥"},
+            {"word": "Laugh", "emoji": "😂"}
+          ]
+        },
+        {
+          "id": 87,
+          "title": "Go bounce on inflatables",
+          "steps": [
+            {"word": "Big", "emoji": "🎈"},
+            {"word": "Bounce", "emoji": "🦘"},
+            {"word": "Jump", "emoji": "⬆️"},
+            {"word": "Soft", "emoji": "☁️"},
+            {"word": "Fun", "emoji": "🎉"}
+          ]
+        },
+        {
+          "id": 88,
+          "title": "Go to a petting zoo",
+          "steps": [
+            {"word": "Animals", "emoji": "🐰"},
+            {"word": "Gentle", "emoji": "💝"},
+            {"word": "Pet", "emoji": "🤲"},
+            {"word": "Feed", "emoji": "🥕"},
+            {"word": "Soft", "emoji": "🐑"}
+          ]
+        },
+        {
+          "id": 89,
+          "title": "Go see animals",
+          "steps": [
+            {"word": "Farm", "emoji": "🚜"},
+            {"word": "Animals", "emoji": "🐄"},
+            {"word": "Look", "emoji": "👀"},
+            {"word": "Learn", "emoji": "🧠"},
+            {"word": "Cool", "emoji": "😎"}
+          ]
+        },
+        {
+          "id": 90,
+          "title": "Go to open gym",
+          "steps": [
+            {"word": "Gym", "emoji": "🏫"},
+            {"word": "Run", "emoji": "🏃"},
+            {"word": "Play", "emoji": "🏀"},
+            {"word": "Free", "emoji": "🆓"},
+            {"word": "Exercise", "emoji": "💪"}
+          ]
+        }
+      ]
+    },
+    "classes_seasonal": {
+      "category_emoji": "🎓",
+      "category_name": "Classes & Seasonal Activities",
+      "tiles": [
+        {
+          "id": 91,
+          "title": "Go to karate class",
+          "steps": [
+            {"word": "Uniform", "emoji": "🥋"},
+            {"word": "Bow", "emoji": "🙇"},
+            {"word": "Kick", "emoji": "🦵"},
+            {"word": "Punch", "emoji": "👊"},
+            {"word": "Strong", "emoji": "💪"}
+          ]
+        },
+        {
+          "id": 92,
+          "title": "Go to dance class",
+          "steps": [
+            {"word": "Music", "emoji": "🎵"},
+            {"word": "Move", "emoji": "💃"},
+            {"word": "Step", "emoji": "👣"},
+            {"word": "Twirl", "emoji": "🌀"},
+            {"word": "Fun", "emoji": "🕺"}
+          ]
+        },
+        {
+          "id": 93,
+          "title": "Go to gymnastics",
+          "steps": [
+            {"word": "Stretch", "emoji": "🤸"},
+            {"word": "Balance", "emoji": "⚖️"},
+            {"word": "Tumble", "emoji": "🔄"},
+            {"word": "Jump", "emoji": "🦘"},
+            {"word": "Flexible", "emoji": "🎀"}
+          ]
+        },
+        {
+          "id": 94,
+          "title": "Go to music class",
+          "steps": [
+            {"word": "Instruments", "emoji": "🎸"},
+            {"word": "Play", "emoji": "🎹"},
+            {"word": "Sing", "emoji": "🎤"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Music", "emoji": "🎶"}
+          ]
+        },
+        {
+          "id": 95,
+          "title": "Go to painting class",
+          "steps": [
+            {"word": "Canvas", "emoji": "🖼️"},
+            {"word": "Paint", "emoji": "🎨"},
+            {"word": "Brush", "emoji": "🖌️"},
+            {"word": "Create", "emoji": "✨"},
+            {"word": "Art", "emoji": "🎭"}
+          ]
+        },
+        {
+          "id": 96,
+          "title": "Go do pottery",
+          "steps": [
+            {"word": "Clay", "emoji": "🟫"},
+            {"word": "Wheel", "emoji": "🔄"},
+            {"word": "Shape", "emoji": "🏺"},
+            {"word": "Create", "emoji": "✨"},
+            {"word": "Messy", "emoji": "😊"}
+          ]
+        },
+        {
+          "id": 97,
+          "title": "Go to Lego club",
+          "steps": [
+            {"word": "Blocks", "emoji": "🧱"},
+            {"word": "Build", "emoji": "🏗️"},
+            {"word": "Create", "emoji": "✨"},
+            {"word": "Connect", "emoji": "🔗"},
+            {"word": "Cool", "emoji": "🏰"}
+          ]
+        },
+        {
+          "id": 98,
+          "title": "Go to story time",
+          "steps": [
+            {"word": "Sit", "emoji": "🪑"},
+            {"word": "Listen", "emoji": "👂"},
+            {"word": "Book", "emoji": "📖"},
+            {"word": "Story", "emoji": "📚"},
+            {"word": "Imagine", "emoji": "💭"}
+          ]
+        },
+        {
+          "id": 99,
+          "title": "Go pick pumpkins",
+          "steps": [
+            {"word": "Patch", "emoji": "🌾"},
+            {"word": "Orange", "emoji": "🟠"},
+            {"word": "Choose", "emoji": "🎃"},
+            {"word": "Carry", "emoji": "💪"},
+            {"word": "Halloween", "emoji": "👻"}
+          ]
+        },
+        {
+          "id": 100,
+          "title": "Go Christmas light watching 🎄",
+          "steps": [
+            {"word": "Dark", "emoji": "🌙"},
+            {"word": "Drive", "emoji": "🚗"},
+            {"word": "Lights", "emoji": "✨"},
+            {"word": "Pretty", "emoji": "🎄"},
+            {"word": "Magic", "emoji": "🎅"}
+          ]
+        }
+      ]
+    }
+  }
+}

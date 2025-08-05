@@ -1,0 +1,1105 @@
+{
+  "category": "🎨 Arts & Creativity",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Paint a picture",
+      "steps": [
+        {"word": "choose", "emoji": "👆"},
+        {"word": "colors", "emoji": "🎨"},
+        {"word": "brush", "emoji": "🖌️"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "canvas", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Draw with crayons",
+      "steps": [
+        {"word": "pick", "emoji": "✋"},
+        {"word": "crayon", "emoji": "🖍️"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "draw", "emoji": "✏️"},
+        {"word": "shape", "emoji": "⭕"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Make a collage",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "pictures", "emoji": "🖼️"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "stick", "emoji": "📌"},
+        {"word": "create", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Play with clay",
+      "steps": [
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "clay", "emoji": "🟤"},
+        {"word": "shape", "emoji": "👐"},
+        {"word": "make", "emoji": "🏗️"},
+        {"word": "figure", "emoji": "🗿"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Sing a song",
+      "steps": [
+        {"word": "choose", "emoji": "🎵"},
+        {"word": "song", "emoji": "🎶"},
+        {"word": "open", "emoji": "👄"},
+        {"word": "mouth", "emoji": "🗣️"},
+        {"word": "sing", "emoji": "🎤"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Dance to music",
+      "steps": [
+        {"word": "play", "emoji": "▶️"},
+        {"word": "music", "emoji": "🎵"},
+        {"word": "move", "emoji": "💃"},
+        {"word": "body", "emoji": "🕺"},
+        {"word": "dance", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Take a photo",
+      "steps": [
+        {"word": "hold", "emoji": "🤳"},
+        {"word": "camera", "emoji": "📷"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "focus", "emoji": "🎯"},
+        {"word": "click", "emoji": "📸"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Write a story",
+      "steps": [
+        {"word": "think", "emoji": "💭"},
+        {"word": "idea", "emoji": "💡"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "words", "emoji": "📝"},
+        {"word": "story", "emoji": "📖"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Make music",
+      "steps": [
+        {"word": "choose", "emoji": "🎸"},
+        {"word": "instrument", "emoji": "🎹"},
+        {"word": "play", "emoji": "🎵"},
+        {"word": "notes", "emoji": "🎼"},
+        {"word": "rhythm", "emoji": "🥁"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Act in a play",
+      "steps": [
+        {"word": "read", "emoji": "📄"},
+        {"word": "script", "emoji": "📜"},
+        {"word": "practice", "emoji": "🎭"},
+        {"word": "perform", "emoji": "🎪"},
+        {"word": "bow", "emoji": "🙇"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Color a picture",
+      "steps": [
+        {"word": "choose", "emoji": "🖼️"},
+        {"word": "picture", "emoji": "🎨"},
+        {"word": "select", "emoji": "🖍️"},
+        {"word": "color", "emoji": "🌈"},
+        {"word": "fill", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Build with blocks",
+      "steps": [
+        {"word": "gather", "emoji": "🧱"},
+        {"word": "blocks", "emoji": "🟦"},
+        {"word": "stack", "emoji": "📦"},
+        {"word": "build", "emoji": "🏗️"},
+        {"word": "tower", "emoji": "🏢"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Make a puppet",
+      "steps": [
+        {"word": "get", "emoji": "🧦"},
+        {"word": "sock", "emoji": "🧤"},
+        {"word": "add", "emoji": "👀"},
+        {"word": "eyes", "emoji": "👁️"},
+        {"word": "puppet", "emoji": "🎭"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Design a card",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "paper", "emoji": "🗂️"},
+        {"word": "decorate", "emoji": "✨"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "message", "emoji": "💌"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Play dress up",
+      "steps": [
+        {"word": "choose", "emoji": "👗"},
+        {"word": "costume", "emoji": "🎭"},
+        {"word": "put", "emoji": "👔"},
+        {"word": "on", "emoji": "➡️"},
+        {"word": "pretend", "emoji": "🎪"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Make jewelry",
+      "steps": [
+        {"word": "string", "emoji": "🧵"},
+        {"word": "beads", "emoji": "⭕"},
+        {"word": "thread", "emoji": "🪡"},
+        {"word": "tie", "emoji": "🔗"},
+        {"word": "wear", "emoji": "💍"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Create with paper",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "shape", "emoji": "🔷"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "craft", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Paint with fingers",
+      "steps": [
+        {"word": "dip", "emoji": "👆"},
+        {"word": "finger", "emoji": "☝️"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "press", "emoji": "👇"},
+        {"word": "paper", "emoji": "📄"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Make a mask",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "shape", "emoji": "😷"},
+        {"word": "decorate", "emoji": "✨"},
+        {"word": "add", "emoji": "➕"},
+        {"word": "string", "emoji": "🧵"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Play an instrument",
+      "steps": [
+        {"word": "pick", "emoji": "🎸"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "hold", "emoji": "🤲"},
+        {"word": "play", "emoji": "🎵"},
+        {"word": "music", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Draw with chalk",
+      "steps": [
+        {"word": "go", "emoji": "🚶"},
+        {"word": "outside", "emoji": "🏞️"},
+        {"word": "chalk", "emoji": "🖍️"},
+        {"word": "draw", "emoji": "✏️"},
+        {"word": "ground", "emoji": "🟫"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Make a mobile",
+      "steps": [
+        {"word": "hang", "emoji": "🪝"},
+        {"word": "string", "emoji": "🧵"},
+        {"word": "attach", "emoji": "📎"},
+        {"word": "shapes", "emoji": "🔷"},
+        {"word": "balance", "emoji": "⚖️"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Create a sculpture",
+      "steps": [
+        {"word": "gather", "emoji": "🤲"},
+        {"word": "materials", "emoji": "📦"},
+        {"word": "shape", "emoji": "👐"},
+        {"word": "build", "emoji": "🏗️"},
+        {"word": "sculpture", "emoji": "🗿"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Make a book",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "pages", "emoji": "📃"},
+        {"word": "staple", "emoji": "📌"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "illustrate", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Do face painting",
+      "steps": [
+        {"word": "choose", "emoji": "🎨"},
+        {"word": "design", "emoji": "✨"},
+        {"word": "paint", "emoji": "🖌️"},
+        {"word": "face", "emoji": "😊"},
+        {"word": "smile", "emoji": "😁"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Make stamps",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "shape", "emoji": "⭐"},
+        {"word": "dip", "emoji": "👇"},
+        {"word": "ink", "emoji": "🖤"},
+        {"word": "stamp", "emoji": "📋"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Create patterns",
+      "steps": [
+        {"word": "choose", "emoji": "🔵"},
+        {"word": "shapes", "emoji": "🔴"},
+        {"word": "repeat", "emoji": "🔄"},
+        {"word": "pattern", "emoji": "🔶"},
+        {"word": "design", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Make shadow art",
+      "steps": [
+        {"word": "light", "emoji": "💡"},
+        {"word": "on", "emoji": "🔦"},
+        {"word": "make", "emoji": "✋"},
+        {"word": "shadow", "emoji": "👤"},
+        {"word": "shape", "emoji": "🦆"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Build sandcastles",
+      "steps": [
+        {"word": "fill", "emoji": "🪣"},
+        {"word": "bucket", "emoji": "🪣"},
+        {"word": "sand", "emoji": "🏖️"},
+        {"word": "flip", "emoji": "🔄"},
+        {"word": "castle", "emoji": "🏰"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Make wind chimes",
+      "steps": [
+        {"word": "hang", "emoji": "🪝"},
+        {"word": "string", "emoji": "🧵"},
+        {"word": "add", "emoji": "➕"},
+        {"word": "bells", "emoji": "🔔"},
+        {"word": "listen", "emoji": "👂"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Paint rocks",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "rocks", "emoji": "🪨"},
+        {"word": "clean", "emoji": "🧽"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "designs", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Make a kite",
+      "steps": [
+        {"word": "build", "emoji": "🏗️"},
+        {"word": "frame", "emoji": "🔲"},
+        {"word": "attach", "emoji": "📎"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "fly", "emoji": "🪁"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Create with yarn",
+      "steps": [
+        {"word": "wrap", "emoji": "🧶"},
+        {"word": "yarn", "emoji": "🧵"},
+        {"word": "around", "emoji": "🔄"},
+        {"word": "tie", "emoji": "🪢"},
+        {"word": "craft", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Make paper chains",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "strips", "emoji": "📏"},
+        {"word": "loop", "emoji": "⭕"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "chain", "emoji": "🔗"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Design a poster",
+      "steps": [
+        {"word": "plan", "emoji": "📋"},
+        {"word": "layout", "emoji": "🗂️"},
+        {"word": "draw", "emoji": "✏️"},
+        {"word": "color", "emoji": "🎨"},
+        {"word": "display", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Make music shakers",
+      "steps": [
+        {"word": "fill", "emoji": "🫘"},
+        {"word": "container", "emoji": "🫙"},
+        {"word": "beans", "emoji": "🌱"},
+        {"word": "close", "emoji": "🔒"},
+        {"word": "shake", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Create with leaves",
+      "steps": [
+        {"word": "collect", "emoji": "🍂"},
+        {"word": "leaves", "emoji": "🍃"},
+        {"word": "arrange", "emoji": "🎨"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "art", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Make paper flowers",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "petals", "emoji": "🌸"},
+        {"word": "fold", "emoji": "📄"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "flower", "emoji": "🌺"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Play with stamps",
+      "steps": [
+        {"word": "choose", "emoji": "🎯"},
+        {"word": "stamp", "emoji": "📋"},
+        {"word": "press", "emoji": "👇"},
+        {"word": "ink", "emoji": "🖤"},
+        {"word": "paper", "emoji": "📄"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Make a banner",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "triangles", "emoji": "🔺"},
+        {"word": "decorate", "emoji": "✨"},
+        {"word": "string", "emoji": "🧵"},
+        {"word": "hang", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Create with stickers",
+      "steps": [
+        {"word": "peel", "emoji": "👆"},
+        {"word": "sticker", "emoji": "🏷️"},
+        {"word": "stick", "emoji": "📌"},
+        {"word": "design", "emoji": "🎨"},
+        {"word": "picture", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Make paper airplanes",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "paper", "emoji": "📃"},
+        {"word": "crease", "emoji": "📐"},
+        {"word": "shape", "emoji": "✈️"},
+        {"word": "fly", "emoji": "🛩️"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Paint with sponges",
+      "steps": [
+        {"word": "dip", "emoji": "🧽"},
+        {"word": "sponge", "emoji": "🟡"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "dab", "emoji": "👇"},
+        {"word": "create", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Make a dreamcatcher",
+      "steps": [
+        {"word": "weave", "emoji": "🕸️"},
+        {"word": "string", "emoji": "🧵"},
+        {"word": "circle", "emoji": "⭕"},
+        {"word": "add", "emoji": "➕"},
+        {"word": "feathers", "emoji": "🪶"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Create with buttons",
+      "steps": [
+        {"word": "sort", "emoji": "🔵"},
+        {"word": "buttons", "emoji": "⚪"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "design", "emoji": "🎨"},
+        {"word": "picture", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Make paper bags",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "paper", "emoji": "📃"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "edges", "emoji": "📐"},
+        {"word": "bag", "emoji": "🛍️"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Create texture art",
+      "steps": [
+        {"word": "feel", "emoji": "✋"},
+        {"word": "textures", "emoji": "🟦"},
+        {"word": "rub", "emoji": "✏️"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "pattern", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Make a pinwheel",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "square", "emoji": "🟦"},
+        {"word": "fold", "emoji": "📐"},
+        {"word": "pin", "emoji": "📌"},
+        {"word": "spin", "emoji": "🌀"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Paint with brushes",
+      "steps": [
+        {"word": "dip", "emoji": "🖌️"},
+        {"word": "brush", "emoji": "🖌️"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "stroke", "emoji": "➡️"},
+        {"word": "canvas", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Make paper hats",
+      "steps": [
+        {"word": "fold", "emoji": "📰"},
+        {"word": "newspaper", "emoji": "📄"},
+        {"word": "shape", "emoji": "🎩"},
+        {"word": "wear", "emoji": "👒"},
+        {"word": "hat", "emoji": "🧢"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Create with tape",
+      "steps": [
+        {"word": "tear", "emoji": "✋"},
+        {"word": "tape", "emoji": "📏"},
+        {"word": "stick", "emoji": "📌"},
+        {"word": "design", "emoji": "🎨"},
+        {"word": "pattern", "emoji": "🔶"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Make stick puppets",
+      "steps": [
+        {"word": "draw", "emoji": "✏️"},
+        {"word": "character", "emoji": "😊"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "stick", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Paint with cotton swabs",
+      "steps": [
+        {"word": "dip", "emoji": "🔵"},
+        {"word": "swab", "emoji": "🏏"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "dot", "emoji": "⚫"},
+        {"word": "picture", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Make paper snowflakes",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "paper", "emoji": "📃"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "unfold", "emoji": "📂"},
+        {"word": "snowflake", "emoji": "❄️"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Create with ribbon",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "ribbon", "emoji": "🎀"},
+        {"word": "tie", "emoji": "🪢"},
+        {"word": "bow", "emoji": "🎁"},
+        {"word": "decorate", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Make a tambourine",
+      "steps": [
+        {"word": "plates", "emoji": "🍽️"},
+        {"word": "together", "emoji": "🤝"},
+        {"word": "add", "emoji": "➕"},
+        {"word": "bells", "emoji": "🔔"},
+        {"word": "shake", "emoji": "🎶"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Create mosaic art",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "pieces", "emoji": "🟦"},
+        {"word": "arrange", "emoji": "🎨"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "mosaic", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Make paper fans",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "accordion", "emoji": "🪗"},
+        {"word": "style", "emoji": "📐"},
+        {"word": "tape", "emoji": "📏"},
+        {"word": "fan", "emoji": "🪭"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Paint with rollers",
+      "steps": [
+        {"word": "roll", "emoji": "🎨"},
+        {"word": "paint", "emoji": "🖌️"},
+        {"word": "roller", "emoji": "🔄"},
+        {"word": "cover", "emoji": "📄"},
+        {"word": "wall", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Make paper crowns",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "strip", "emoji": "📏"},
+        {"word": "decorate", "emoji": "✨"},
+        {"word": "tape", "emoji": "📎"},
+        {"word": "crown", "emoji": "👑"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Create with feathers",
+      "steps": [
+        {"word": "gather", "emoji": "🪶"},
+        {"word": "feathers", "emoji": "🪶"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "arrange", "emoji": "🎨"},
+        {"word": "art", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Make paper butterflies",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "paper", "emoji": "📃"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "wings", "emoji": "🦋"},
+        {"word": "butterfly", "emoji": "🦋"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Paint with marbles",
+      "steps": [
+        {"word": "put", "emoji": "📦"},
+        {"word": "marble", "emoji": "⚪"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "design", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Make paper lanterns",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "slits", "emoji": "📏"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "lantern", "emoji": "🏮"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Create with sequins",
+      "steps": [
+        {"word": "pick", "emoji": "✨"},
+        {"word": "sequins", "emoji": "💫"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "sparkle", "emoji": "✨"},
+        {"word": "design", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Make paper boats",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "paper", "emoji": "📃"},
+        {"word": "shape", "emoji": "⛵"},
+        {"word": "boat", "emoji": "🚢"},
+        {"word": "float", "emoji": "💧"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Paint with string",
+      "steps": [
+        {"word": "dip", "emoji": "🧵"},
+        {"word": "string", "emoji": "🪢"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "drag", "emoji": "➡️"},
+        {"word": "pattern", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Make paper masks",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "eyes", "emoji": "👀"},
+        {"word": "holes", "emoji": "⭕"},
+        {"word": "decorate", "emoji": "✨"},
+        {"word": "mask", "emoji": "🎭"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Create with pompoms",
+      "steps": [
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "pompoms", "emoji": "🔵"},
+        {"word": "arrange", "emoji": "🎨"},
+        {"word": "fluffy", "emoji": "☁️"},
+        {"word": "art", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Make paper trees",
+      "steps": [
+        {"word": "roll", "emoji": "📄"},
+        {"word": "trunk", "emoji": "🟫"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "leaves", "emoji": "🍃"},
+        {"word": "tree", "emoji": "🌳"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Paint with fingers",
+      "steps": [
+        {"word": "dip", "emoji": "👆"},
+        {"word": "finger", "emoji": "☝️"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "print", "emoji": "👇"},
+        {"word": "art", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Make paper animals",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "shape", "emoji": "🐶"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "animal", "emoji": "🦁"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Create with glitter",
+      "steps": [
+        {"word": "spread", "emoji": "🧴"},
+        {"word": "glue", "emoji": "📎"},
+        {"word": "sprinkle", "emoji": "✨"},
+        {"word": "glitter", "emoji": "💫"},
+        {"word": "sparkle", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Make paper hearts",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "half", "emoji": "📐"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "heart", "emoji": "❤️"},
+        {"word": "open", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Paint with brushes",
+      "steps": [
+        {"word": "choose", "emoji": "🖌️"},
+        {"word": "brush", "emoji": "🖌️"},
+        {"word": "dip", "emoji": "👇"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "stroke", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Make paper stars",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "points", "emoji": "📐"},
+        {"word": "fold", "emoji": "📄"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "star", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Create with fabric",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "fabric", "emoji": "🧵"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "design", "emoji": "🎨"},
+        {"word": "collage", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Make paper dolls",
+      "steps": [
+        {"word": "draw", "emoji": "✏️"},
+        {"word": "person", "emoji": "👤"},
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "clothes", "emoji": "👗"},
+        {"word": "dress", "emoji": "👔"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Paint with stencils",
+      "steps": [
+        {"word": "place", "emoji": "📐"},
+        {"word": "stencil", "emoji": "🔲"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "over", "emoji": "➡️"},
+        {"word": "lift", "emoji": "⬆️"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Make paper chains",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "strips", "emoji": "📏"},
+        {"word": "loop", "emoji": "⭕"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "chain", "emoji": "🔗"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Create with crayons",
+      "steps": [
+        {"word": "peel", "emoji": "🖍️"},
+        {"word": "wrapper", "emoji": "📄"},
+        {"word": "rub", "emoji": "➡️"},
+        {"word": "texture", "emoji": "🟦"},
+        {"word": "art", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Make paper beads",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "triangles", "emoji": "📐"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "bead", "emoji": "⭕"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Paint with nature",
+      "steps": [
+        {"word": "find", "emoji": "🍃"},
+        {"word": "leaves", "emoji": "🍂"},
+        {"word": "dip", "emoji": "👇"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "print", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Make paper puppets",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "bag", "emoji": "🛍️"},
+        {"word": "draw", "emoji": "✏️"},
+        {"word": "face", "emoji": "😊"},
+        {"word": "puppet", "emoji": "🎭"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Create with stamps",
+      "steps": [
+        {"word": "press", "emoji": "👇"},
+        {"word": "stamp", "emoji": "📋"},
+        {"word": "ink", "emoji": "🖤"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "pattern", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Make paper wheels",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "circle", "emoji": "⭕"},
+        {"word": "attach", "emoji": "📌"},
+        {"word": "brad", "emoji": "📍"},
+        {"word": "spin", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Paint with tools",
+      "steps": [
+        {"word": "find", "emoji": "🔍"},
+        {"word": "tools", "emoji": "🔧"},
+        {"word": "dip", "emoji": "👇"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "texture", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Make paper frames",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "center", "emoji": "🔲"},
+        {"word": "decorate", "emoji": "✨"},
+        {"word": "edges", "emoji": "📐"},
+        {"word": "frame", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Create with chalk",
+      "steps": [
+        {"word": "choose", "emoji": "🖍️"},
+        {"word": "colors", "emoji": "🌈"},
+        {"word": "draw", "emoji": "✏️"},
+        {"word": "blend", "emoji": "👐"},
+        {"word": "art", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Make paper pinwheels",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "diagonal", "emoji": "📐"},
+        {"word": "fold", "emoji": "📄"},
+        {"word": "pin", "emoji": "📌"},
+        {"word": "spin", "emoji": "🌀"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Paint with bubbles",
+      "steps": [
+        {"word": "mix", "emoji": "🧪"},
+        {"word": "bubbles", "emoji": "🫧"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "blow", "emoji": "💨"},
+        {"word": "pop", "emoji": "💥"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Make paper garlands",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "shapes", "emoji": "🔷"},
+        {"word": "string", "emoji": "🧵"},
+        {"word": "together", "emoji": "🔗"},
+        {"word": "hang", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Create with markers",
+      "steps": [
+        {"word": "uncap", "emoji": "🖊️"},
+        {"word": "marker", "emoji": "🖍️"},
+        {"word": "draw", "emoji": "✏️"},
+        {"word": "color", "emoji": "🌈"},
+        {"word": "design", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Make paper telescopes",
+      "steps": [
+        {"word": "roll", "emoji": "📄"},
+        {"word": "tube", "emoji": "🧻"},
+        {"word": "tape", "emoji": "📏"},
+        {"word": "decorate", "emoji": "✨"},
+        {"word": "look", "emoji": "🔭"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Paint with hands",
+      "steps": [
+        {"word": "spread", "emoji": "🤲"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "hand", "emoji": "✋"},
+        {"word": "press", "emoji": "👇"},
+        {"word": "handprint", "emoji": "🖐️"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Make paper windmills",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "square", "emoji": "🟦"},
+        {"word": "fold", "emoji": "📐"},
+        {"word": "attach", "emoji": "📌"},
+        {"word": "blow", "emoji": "💨"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Create with tissue",
+      "steps": [
+        {"word": "tear", "emoji": "📄"},
+        {"word": "tissue", "emoji": "🧻"},
+        {"word": "crumple", "emoji": "👐"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "collage", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Make paper watches",
+      "steps": [
+        {"word": "cut", "emoji": "✂️"},
+        {"word": "band", "emoji": "📏"},
+        {"word": "draw", "emoji": "✏️"},
+        {"word": "clock", "emoji": "🕐"},
+        {"word": "wear", "emoji": "⌚"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Paint with feet",
+      "steps": [
+        {"word": "step", "emoji": "👣"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "paper", "emoji": "📄"},
+        {"word": "footprints", "emoji": "👣"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Make paper robots",
+      "steps": [
+        {"word": "fold", "emoji": "📄"},
+        {"word": "boxes", "emoji": "📦"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "details", "emoji": "🔩"},
+        {"word": "robot", "emoji": "🤖"}
+      ]
+    }
+  ]
+}

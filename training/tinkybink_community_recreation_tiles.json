@@ -1,0 +1,1108 @@
+{
+  "category": {
+    "emoji": "🏘️",
+    "name": "Community & Recreation"
+  },
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Going to park",
+      "steps": [
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "to", "emoji": "➡️"},
+        {"word": "park", "emoji": "🏞️"},
+        {"word": "play", "emoji": "🎮"},
+        {"word": "fun", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Library visit",
+      "steps": [
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "books", "emoji": "📚"},
+        {"word": "read", "emoji": "📖"},
+        {"word": "learn", "emoji": "🧠"},
+        {"word": "borrow", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Swimming pool",
+      "steps": [
+        {"word": "swimsuit", "emoji": "👙"},
+        {"word": "towel", "emoji": "🏖️"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "swim", "emoji": "🏊"},
+        {"word": "splash", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Playground time",
+      "steps": [
+        {"word": "swings", "emoji": "🎠"},
+        {"word": "slide", "emoji": "🛝"},
+        {"word": "climb", "emoji": "🧗"},
+        {"word": "friends", "emoji": "👫"},
+        {"word": "play", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Museum visit",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "exhibits", "emoji": "🖼️"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "discover", "emoji": "🔍"},
+        {"word": "explore", "emoji": "🗺️"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Restaurant dining",
+      "steps": [
+        {"word": "menu", "emoji": "📋"},
+        {"word": "order", "emoji": "🗣️"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "eat", "emoji": "🍽️"},
+        {"word": "pay", "emoji": "💳"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Movie theater",
+      "steps": [
+        {"word": "tickets", "emoji": "🎟️"},
+        {"word": "popcorn", "emoji": "🍿"},
+        {"word": "seats", "emoji": "💺"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "quiet", "emoji": "🤫"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Zoo adventure",
+      "steps": [
+        {"word": "animals", "emoji": "🦁"},
+        {"word": "observe", "emoji": "👀"},
+        {"word": "map", "emoji": "🗺️"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "learn", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Beach day",
+      "steps": [
+        {"word": "sand", "emoji": "🏖️"},
+        {"word": "waves", "emoji": "🌊"},
+        {"word": "sunscreen", "emoji": "🧴"},
+        {"word": "build", "emoji": "🏰"},
+        {"word": "splash", "emoji": "💦"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Sports game",
+      "steps": [
+        {"word": "stadium", "emoji": "🏟️"},
+        {"word": "cheer", "emoji": "📣"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "team", "emoji": "👥"},
+        {"word": "excited", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Shopping mall",
+      "steps": [
+        {"word": "stores", "emoji": "🏪"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "buy", "emoji": "💳"},
+        {"word": "carry", "emoji": "🛍️"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Community center",
+      "steps": [
+        {"word": "activities", "emoji": "🎯"},
+        {"word": "classes", "emoji": "📚"},
+        {"word": "friends", "emoji": "👥"},
+        {"word": "fun", "emoji": "😄"},
+        {"word": "learn", "emoji": "🧠"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Farmers market",
+      "steps": [
+        {"word": "fresh", "emoji": "🥬"},
+        {"word": "fruits", "emoji": "🍎"},
+        {"word": "vegetables", "emoji": "🥕"},
+        {"word": "buy", "emoji": "💰"},
+        {"word": "bag", "emoji": "🛍️"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Concert hall",
+      "steps": [
+        {"word": "music", "emoji": "🎵"},
+        {"word": "seats", "emoji": "💺"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "clap", "emoji": "👏"},
+        {"word": "enjoy", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Ice skating",
+      "steps": [
+        {"word": "ice", "emoji": "🧊"},
+        {"word": "skates", "emoji": "⛸️"},
+        {"word": "balance", "emoji": "🤸"},
+        {"word": "glide", "emoji": "➡️"},
+        {"word": "fun", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bowling alley",
+      "steps": [
+        {"word": "shoes", "emoji": "👟"},
+        {"word": "ball", "emoji": "🎳"},
+        {"word": "roll", "emoji": "🔄"},
+        {"word": "pins", "emoji": "🎯"},
+        {"word": "score", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Nature trail",
+      "steps": [
+        {"word": "hike", "emoji": "🥾"},
+        {"word": "trees", "emoji": "🌳"},
+        {"word": "birds", "emoji": "🐦"},
+        {"word": "observe", "emoji": "👀"},
+        {"word": "breathe", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Aquarium visit",
+      "steps": [
+        {"word": "fish", "emoji": "🐠"},
+        {"word": "tanks", "emoji": "🏛️"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "colors", "emoji": "🌈"},
+        {"word": "learn", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Picnic time",
+      "steps": [
+        {"word": "blanket", "emoji": "🏖️"},
+        {"word": "basket", "emoji": "🧺"},
+        {"word": "food", "emoji": "🥪"},
+        {"word": "outside", "emoji": "🌞"},
+        {"word": "eat", "emoji": "🍽️"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Festival fun",
+      "steps": [
+        {"word": "booths", "emoji": "🏪"},
+        {"word": "games", "emoji": "🎮"},
+        {"word": "food", "emoji": "🌮"},
+        {"word": "music", "emoji": "🎵"},
+        {"word": "celebrate", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Art gallery",
+      "steps": [
+        {"word": "paintings", "emoji": "🖼️"},
+        {"word": "sculptures", "emoji": "🗿"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "appreciate", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Gym workout",
+      "steps": [
+        {"word": "change", "emoji": "👕"},
+        {"word": "exercise", "emoji": "🏋️"},
+        {"word": "sweat", "emoji": "💦"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "shower", "emoji": "🚿"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Dance class",
+      "steps": [
+        {"word": "music", "emoji": "🎵"},
+        {"word": "move", "emoji": "💃"},
+        {"word": "steps", "emoji": "👣"},
+        {"word": "practice", "emoji": "🔄"},
+        {"word": "perform", "emoji": "🎭"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Camping trip",
+      "steps": [
+        {"word": "tent", "emoji": "⛺"},
+        {"word": "sleeping", "emoji": "😴"},
+        {"word": "bag", "emoji": "🎒"},
+        {"word": "campfire", "emoji": "🔥"},
+        {"word": "stars", "emoji": "⭐"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Amusement park",
+      "steps": [
+        {"word": "rides", "emoji": "🎢"},
+        {"word": "lines", "emoji": "👥"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "fun", "emoji": "🎡"},
+        {"word": "games", "emoji": "🎮"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Soccer practice",
+      "steps": [
+        {"word": "cleats", "emoji": "👟"},
+        {"word": "ball", "emoji": "⚽"},
+        {"word": "field", "emoji": "🏟️"},
+        {"word": "kick", "emoji": "🦵"},
+        {"word": "team", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Bike ride",
+      "steps": [
+        {"word": "helmet", "emoji": "⛑️"},
+        {"word": "bike", "emoji": "🚴"},
+        {"word": "pedal", "emoji": "🔄"},
+        {"word": "path", "emoji": "🛤️"},
+        {"word": "ride", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Basketball court",
+      "steps": [
+        {"word": "ball", "emoji": "🏀"},
+        {"word": "dribble", "emoji": "⬇️"},
+        {"word": "shoot", "emoji": "🎯"},
+        {"word": "hoop", "emoji": "🏀"},
+        {"word": "score", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Craft workshop",
+      "steps": [
+        {"word": "materials", "emoji": "✂️"},
+        {"word": "create", "emoji": "🎨"},
+        {"word": "glue", "emoji": "🧴"},
+        {"word": "decorate", "emoji": "✨"},
+        {"word": "show", "emoji": "🖼️"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Science center",
+      "steps": [
+        {"word": "experiments", "emoji": "🧪"},
+        {"word": "touch", "emoji": "👆"},
+        {"word": "learn", "emoji": "🧠"},
+        {"word": "discover", "emoji": "🔍"},
+        {"word": "amazing", "emoji": "🤩"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Arcade games",
+      "steps": [
+        {"word": "tokens", "emoji": "🪙"},
+        {"word": "games", "emoji": "🕹️"},
+        {"word": "play", "emoji": "🎮"},
+        {"word": "tickets", "emoji": "🎟️"},
+        {"word": "prizes", "emoji": "🎁"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Mini golf",
+      "steps": [
+        {"word": "putter", "emoji": "⛳"},
+        {"word": "ball", "emoji": "🏐"},
+        {"word": "aim", "emoji": "🎯"},
+        {"word": "hit", "emoji": "💥"},
+        {"word": "hole", "emoji": "🕳️"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Skateboard park",
+      "steps": [
+        {"word": "skateboard", "emoji": "🛹"},
+        {"word": "helmet", "emoji": "⛑️"},
+        {"word": "ramps", "emoji": "📐"},
+        {"word": "tricks", "emoji": "🤸"},
+        {"word": "practice", "emoji": "🔄"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Rock climbing",
+      "steps": [
+        {"word": "harness", "emoji": "🔗"},
+        {"word": "wall", "emoji": "🧗"},
+        {"word": "climb", "emoji": "⬆️"},
+        {"word": "hold", "emoji": "✊"},
+        {"word": "top", "emoji": "🏔️"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Tennis court",
+      "steps": [
+        {"word": "racket", "emoji": "🎾"},
+        {"word": "ball", "emoji": "🟢"},
+        {"word": "serve", "emoji": "💪"},
+        {"word": "hit", "emoji": "💥"},
+        {"word": "score", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Yoga class",
+      "steps": [
+        {"word": "mat", "emoji": "🧘"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "poses", "emoji": "🧘"},
+        {"word": "relax", "emoji": "😌"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Karate dojo",
+      "steps": [
+        {"word": "uniform", "emoji": "🥋"},
+        {"word": "bow", "emoji": "🙇"},
+        {"word": "kicks", "emoji": "🦵"},
+        {"word": "practice", "emoji": "🥊"},
+        {"word": "respect", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Fishing trip",
+      "steps": [
+        {"word": "rod", "emoji": "🎣"},
+        {"word": "bait", "emoji": "🪱"},
+        {"word": "cast", "emoji": "➡️"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "catch", "emoji": "🐟"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Horse riding",
+      "steps": [
+        {"word": "helmet", "emoji": "⛑️"},
+        {"word": "horse", "emoji": "🐴"},
+        {"word": "saddle", "emoji": "🏇"},
+        {"word": "ride", "emoji": "🐎"},
+        {"word": "gentle", "emoji": "🤲"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Theater play",
+      "steps": [
+        {"word": "stage", "emoji": "🎭"},
+        {"word": "actors", "emoji": "🎪"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "story", "emoji": "📚"},
+        {"word": "applaud", "emoji": "👏"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Pottery class",
+      "steps": [
+        {"word": "clay", "emoji": "🟤"},
+        {"word": "wheel", "emoji": "🎡"},
+        {"word": "shape", "emoji": "👐"},
+        {"word": "create", "emoji": "🏺"},
+        {"word": "paint", "emoji": "🎨"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Book club",
+      "steps": [
+        {"word": "book", "emoji": "📖"},
+        {"word": "read", "emoji": "📚"},
+        {"word": "discuss", "emoji": "💬"},
+        {"word": "share", "emoji": "🤝"},
+        {"word": "ideas", "emoji": "💡"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Choir practice",
+      "steps": [
+        {"word": "songs", "emoji": "🎵"},
+        {"word": "sing", "emoji": "🎤"},
+        {"word": "together", "emoji": "👥"},
+        {"word": "harmony", "emoji": "🎶"},
+        {"word": "perform", "emoji": "🎭"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Garden center",
+      "steps": [
+        {"word": "plants", "emoji": "🌱"},
+        {"word": "flowers", "emoji": "🌸"},
+        {"word": "choose", "emoji": "👆"},
+        {"word": "buy", "emoji": "💰"},
+        {"word": "grow", "emoji": "🌿"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Food truck",
+      "steps": [
+        {"word": "truck", "emoji": "🚚"},
+        {"word": "menu", "emoji": "📋"},
+        {"word": "order", "emoji": "🗣️"},
+        {"word": "wait", "emoji": "⏰"},
+        {"word": "enjoy", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Trampoline park",
+      "steps": [
+        {"word": "socks", "emoji": "🧦"},
+        {"word": "jump", "emoji": "🦘"},
+        {"word": "bounce", "emoji": "⬆️"},
+        {"word": "flip", "emoji": "🤸"},
+        {"word": "safe", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Bird watching",
+      "steps": [
+        {"word": "binoculars", "emoji": "🔭"},
+        {"word": "birds", "emoji": "🦅"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "observe", "emoji": "👀"},
+        {"word": "record", "emoji": "📝"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Laser tag",
+      "steps": [
+        {"word": "vest", "emoji": "🦺"},
+        {"word": "laser", "emoji": "🔦"},
+        {"word": "hide", "emoji": "🫣"},
+        {"word": "tag", "emoji": "🎯"},
+        {"word": "score", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Community garden",
+      "steps": [
+        {"word": "tools", "emoji": "🛠️"},
+        {"word": "dig", "emoji": "🕳️"},
+        {"word": "plant", "emoji": "🌱"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "harvest", "emoji": "🥕"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Photography walk",
+      "steps": [
+        {"word": "camera", "emoji": "📷"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "find", "emoji": "🔍"},
+        {"word": "subjects", "emoji": "🌻"},
+        {"word": "capture", "emoji": "📸"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Chess club",
+      "steps": [
+        {"word": "board", "emoji": "♟️"},
+        {"word": "pieces", "emoji": "♚"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "move", "emoji": "➡️"},
+        {"word": "checkmate", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Cooking class",
+      "steps": [
+        {"word": "apron", "emoji": "👩‍🍳"},
+        {"word": "ingredients", "emoji": "🥘"},
+        {"word": "mix", "emoji": "🥄"},
+        {"word": "cook", "emoji": "🔥"},
+        {"word": "taste", "emoji": "😋"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Volunteer work",
+      "steps": [
+        {"word": "help", "emoji": "🤝"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "give", "emoji": "🎁"},
+        {"word": "time", "emoji": "⏰"},
+        {"word": "smile", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Escape room",
+      "steps": [
+        {"word": "clues", "emoji": "🔍"},
+        {"word": "puzzles", "emoji": "🧩"},
+        {"word": "solve", "emoji": "💡"},
+        {"word": "teamwork", "emoji": "👥"},
+        {"word": "escape", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Garage sale",
+      "steps": [
+        {"word": "tables", "emoji": "🏪"},
+        {"word": "items", "emoji": "📦"},
+        {"word": "browse", "emoji": "👀"},
+        {"word": "bargain", "emoji": "💰"},
+        {"word": "buy", "emoji": "💳"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Dog park",
+      "steps": [
+        {"word": "leash", "emoji": "🦴"},
+        {"word": "dogs", "emoji": "🐕"},
+        {"word": "play", "emoji": "🎾"},
+        {"word": "socialize", "emoji": "🐶"},
+        {"word": "clean", "emoji": "💩"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Geocaching",
+      "steps": [
+        {"word": "GPS", "emoji": "📱"},
+        {"word": "coordinates", "emoji": "📍"},
+        {"word": "search", "emoji": "🔍"},
+        {"word": "find", "emoji": "📦"},
+        {"word": "log", "emoji": "📝"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Food festival",
+      "steps": [
+        {"word": "vendors", "emoji": "🏪"},
+        {"word": "samples", "emoji": "🍴"},
+        {"word": "taste", "emoji": "😋"},
+        {"word": "buy", "emoji": "💰"},
+        {"word": "enjoy", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Car show",
+      "steps": [
+        {"word": "cars", "emoji": "🚗"},
+        {"word": "display", "emoji": "🏎️"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "admire", "emoji": "😍"},
+        {"word": "photos", "emoji": "📸"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Paint night",
+      "steps": [
+        {"word": "canvas", "emoji": "🖼️"},
+        {"word": "brushes", "emoji": "🖌️"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "create", "emoji": "✨"},
+        {"word": "display", "emoji": "🏛️"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Comedy show",
+      "steps": [
+        {"word": "comedian", "emoji": "🎤"},
+        {"word": "jokes", "emoji": "😄"},
+        {"word": "laugh", "emoji": "😂"},
+        {"word": "fun", "emoji": "🎉"},
+        {"word": "applaud", "emoji": "👏"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Flea market",
+      "steps": [
+        {"word": "stalls", "emoji": "🏪"},
+        {"word": "antiques", "emoji": "🏺"},
+        {"word": "treasures", "emoji": "💎"},
+        {"word": "negotiate", "emoji": "💬"},
+        {"word": "purchase", "emoji": "💰"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Music festival",
+      "steps": [
+        {"word": "bands", "emoji": "🎸"},
+        {"word": "stages", "emoji": "🎪"},
+        {"word": "dance", "emoji": "💃"},
+        {"word": "sing", "emoji": "🎤"},
+        {"word": "celebrate", "emoji": "🎊"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Bingo night",
+      "steps": [
+        {"word": "cards", "emoji": "🎯"},
+        {"word": "numbers", "emoji": "🔢"},
+        {"word": "mark", "emoji": "✏️"},
+        {"word": "bingo", "emoji": "🎉"},
+        {"word": "prize", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Trivia night",
+      "steps": [
+        {"word": "teams", "emoji": "👥"},
+        {"word": "questions", "emoji": "❓"},
+        {"word": "think", "emoji": "🤔"},
+        {"word": "answer", "emoji": "💡"},
+        {"word": "win", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Open mic",
+      "steps": [
+        {"word": "sign", "emoji": "📝"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "perform", "emoji": "🎤"},
+        {"word": "audience", "emoji": "👥"},
+        {"word": "applause", "emoji": "👏"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Wine tasting",
+      "steps": [
+        {"word": "samples", "emoji": "🍷"},
+        {"word": "sip", "emoji": "👄"},
+        {"word": "taste", "emoji": "😋"},
+        {"word": "notes", "emoji": "📝"},
+        {"word": "enjoy", "emoji": "🥂"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Board game cafe",
+      "steps": [
+        {"word": "games", "emoji": "🎲"},
+        {"word": "choose", "emoji": "👆"},
+        {"word": "play", "emoji": "🎮"},
+        {"word": "snacks", "emoji": "🍪"},
+        {"word": "fun", "emoji": "😄"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Karaoke night",
+      "steps": [
+        {"word": "songs", "emoji": "🎵"},
+        {"word": "mic", "emoji": "🎤"},
+        {"word": "sing", "emoji": "🎶"},
+        {"word": "screen", "emoji": "📺"},
+        {"word": "cheer", "emoji": "📣"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Meditation group",
+      "steps": [
+        {"word": "cushion", "emoji": "🟦"},
+        {"word": "sit", "emoji": "🧘"},
+        {"word": "breathe", "emoji": "🌬️"},
+        {"word": "quiet", "emoji": "🤫"},
+        {"word": "peace", "emoji": "☮️"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Running club",
+      "steps": [
+        {"word": "shoes", "emoji": "👟"},
+        {"word": "stretch", "emoji": "🤸"},
+        {"word": "run", "emoji": "🏃"},
+        {"word": "pace", "emoji": "⏱️"},
+        {"word": "finish", "emoji": "🏁"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Language exchange",
+      "steps": [
+        {"word": "meet", "emoji": "🤝"},
+        {"word": "practice", "emoji": "🗣️"},
+        {"word": "languages", "emoji": "🌍"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "teach", "emoji": "👨‍🏫"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Robotics club",
+      "steps": [
+        {"word": "parts", "emoji": "🔧"},
+        {"word": "build", "emoji": "🛠️"},
+        {"word": "program", "emoji": "💻"},
+        {"word": "test", "emoji": "🤖"},
+        {"word": "compete", "emoji": "🏆"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Writing workshop",
+      "steps": [
+        {"word": "notebook", "emoji": "📓"},
+        {"word": "write", "emoji": "✍️"},
+        {"word": "share", "emoji": "📖"},
+        {"word": "feedback", "emoji": "💬"},
+        {"word": "improve", "emoji": "📈"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Film club",
+      "steps": [
+        {"word": "movie", "emoji": "🎬"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "discuss", "emoji": "💬"},
+        {"word": "analyze", "emoji": "🔍"},
+        {"word": "critique", "emoji": "📝"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Astronomy night",
+      "steps": [
+        {"word": "telescope", "emoji": "🔭"},
+        {"word": "stars", "emoji": "⭐"},
+        {"word": "planets", "emoji": "🪐"},
+        {"word": "observe", "emoji": "👀"},
+        {"word": "wonder", "emoji": "🌌"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Debate club",
+      "steps": [
+        {"word": "topic", "emoji": "📚"},
+        {"word": "research", "emoji": "🔍"},
+        {"word": "argue", "emoji": "💬"},
+        {"word": "listen", "emoji": "👂"},
+        {"word": "conclude", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Magic show",
+      "steps": [
+        {"word": "magician", "emoji": "🎩"},
+        {"word": "tricks", "emoji": "✨"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "amazed", "emoji": "😲"},
+        {"word": "applaud", "emoji": "👏"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Maker space",
+      "steps": [
+        {"word": "tools", "emoji": "🔨"},
+        {"word": "create", "emoji": "🛠️"},
+        {"word": "design", "emoji": "📐"},
+        {"word": "build", "emoji": "🏗️"},
+        {"word": "share", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Historical tour",
+      "steps": [
+        {"word": "guide", "emoji": "🗣️"},
+        {"word": "sites", "emoji": "🏛️"},
+        {"word": "history", "emoji": "📚"},
+        {"word": "learn", "emoji": "🧠"},
+        {"word": "remember", "emoji": "💭"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Podcast recording",
+      "steps": [
+        {"word": "microphone", "emoji": "🎙️"},
+        {"word": "topic", "emoji": "📋"},
+        {"word": "record", "emoji": "🔴"},
+        {"word": "edit", "emoji": "✂️"},
+        {"word": "publish", "emoji": "📤"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Stand-up paddleboard",
+      "steps": [
+        {"word": "board", "emoji": "🏄"},
+        {"word": "paddle", "emoji": "🚣"},
+        {"word": "balance", "emoji": "⚖️"},
+        {"word": "water", "emoji": "💧"},
+        {"word": "glide", "emoji": "➡️"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Archery range",
+      "steps": [
+        {"word": "bow", "emoji": "🏹"},
+        {"word": "arrow", "emoji": "➡️"},
+        {"word": "aim", "emoji": "🎯"},
+        {"word": "release", "emoji": "💨"},
+        {"word": "target", "emoji": "🎯"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Drum circle",
+      "steps": [
+        {"word": "drums", "emoji": "🥁"},
+        {"word": "rhythm", "emoji": "🎵"},
+        {"word": "beat", "emoji": "👏"},
+        {"word": "together", "emoji": "👥"},
+        {"word": "energy", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Improv theater",
+      "steps": [
+        {"word": "stage", "emoji": "🎭"},
+        {"word": "spontaneous", "emoji": "💡"},
+        {"word": "act", "emoji": "🎪"},
+        {"word": "funny", "emoji": "😄"},
+        {"word": "audience", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Pottery painting",
+      "steps": [
+        {"word": "pottery", "emoji": "🏺"},
+        {"word": "colors", "emoji": "🎨"},
+        {"word": "brush", "emoji": "🖌️"},
+        {"word": "design", "emoji": "✨"},
+        {"word": "glaze", "emoji": "🌟"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Sewing circle",
+      "steps": [
+        {"word": "fabric", "emoji": "🧵"},
+        {"word": "needle", "emoji": "📍"},
+        {"word": "stitch", "emoji": "➰"},
+        {"word": "share", "emoji": "🤝"},
+        {"word": "create", "emoji": "👗"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Speed dating",
+      "steps": [
+        {"word": "tables", "emoji": "🪑"},
+        {"word": "timer", "emoji": "⏰"},
+        {"word": "talk", "emoji": "💬"},
+        {"word": "rotate", "emoji": "🔄"},
+        {"word": "match", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Virtual reality",
+      "steps": [
+        {"word": "headset", "emoji": "🥽"},
+        {"word": "controllers", "emoji": "🎮"},
+        {"word": "immerse", "emoji": "🌐"},
+        {"word": "experience", "emoji": "✨"},
+        {"word": "amazing", "emoji": "🤩"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Wine & paint",
+      "steps": [
+        {"word": "sip", "emoji": "🍷"},
+        {"word": "paint", "emoji": "🎨"},
+        {"word": "relax", "emoji": "😌"},
+        {"word": "create", "emoji": "🖼️"},
+        {"word": "socialize", "emoji": "👥"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Woodworking shop",
+      "steps": [
+        {"word": "wood", "emoji": "🪵"},
+        {"word": "tools", "emoji": "🔨"},
+        {"word": "measure", "emoji": "📏"},
+        {"word": "cut", "emoji": "🪚"},
+        {"word": "build", "emoji": "🏗️"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Zumba class",
+      "steps": [
+        {"word": "music", "emoji": "🎵"},
+        {"word": "dance", "emoji": "💃"},
+        {"word": "sweat", "emoji": "💦"},
+        {"word": "energy", "emoji": "⚡"},
+        {"word": "fun", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Coding bootcamp",
+      "steps": [
+        {"word": "computer", "emoji": "💻"},
+        {"word": "code", "emoji": "👩‍💻"},
+        {"word": "learn", "emoji": "📚"},
+        {"word": "practice", "emoji": "🔄"},
+        {"word": "project", "emoji": "📱"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Crossfit gym",
+      "steps": [
+        {"word": "warmup", "emoji": "🔥"},
+        {"word": "workout", "emoji": "🏋️"},
+        {"word": "intense", "emoji": "💪"},
+        {"word": "timer", "emoji": "⏱️"},
+        {"word": "cooldown", "emoji": "🧊"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Documentary screening",
+      "steps": [
+        {"word": "film", "emoji": "🎬"},
+        {"word": "topic", "emoji": "📚"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "learn", "emoji": "🧠"},
+        {"word": "discuss", "emoji": "💬"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Environmental cleanup",
+      "steps": [
+        {"word": "gloves", "emoji": "🧤"},
+        {"word": "bags", "emoji": "🗑️"},
+        {"word": "pick", "emoji": "🤏"},
+        {"word": "trash", "emoji": "🚮"},
+        {"word": "beautify", "emoji": "🌍"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Fashion show",
+      "steps": [
+        {"word": "runway", "emoji": "👗"},
+        {"word": "models", "emoji": "🚶"},
+        {"word": "clothes", "emoji": "👕"},
+        {"word": "watch", "emoji": "👀"},
+        {"word": "applaud", "emoji": "👏"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Gaming tournament",
+      "steps": [
+        {"word": "console", "emoji": "🎮"},
+        {"word": "compete", "emoji": "🏆"},
+        {"word": "strategy", "emoji": "🧠"},
+        {"word": "play", "emoji": "🕹️"},
+        {"word": "champion", "emoji": "🥇"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Heritage festival",
+      "steps": [
+        {"word": "cultures", "emoji": "🌍"},
+        {"word": "food", "emoji": "🍲"},
+        {"word": "dance", "emoji": "💃"},
+        {"word": "crafts", "emoji": "🎨"},
+        {"word": "celebrate", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Ice cream social",
+      "steps": [
+        {"word": "flavors", "emoji": "🍦"},
+        {"word": "choose", "emoji": "👆"},
+        {"word": "toppings", "emoji": "🍫"},
+        {"word": "enjoy", "emoji": "😋"},
+        {"word": "socialize", "emoji": "👥"}
+      ]
+    }
+  ]
+}

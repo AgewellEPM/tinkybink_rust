@@ -1,0 +1,1105 @@
+{
+  "category": "👗 Clothing & Fashion",
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Put on shirt",
+      "steps": [
+        {"word": "hold", "emoji": "👕"},
+        {"word": "shirt", "emoji": "⬆️"},
+        {"word": "arms", "emoji": "👐"},
+        {"word": "through", "emoji": "👕"},
+        {"word": "sleeves", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Put on pants",
+      "steps": [
+        {"word": "step", "emoji": "👖"},
+        {"word": "into", "emoji": "🦵"},
+        {"word": "pants", "emoji": "⬆️"},
+        {"word": "pull", "emoji": "👖"},
+        {"word": "up", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Put on shoes",
+      "steps": [
+        {"word": "slip", "emoji": "👟"},
+        {"word": "foot", "emoji": "🦶"},
+        {"word": "into", "emoji": "👟"},
+        {"word": "shoe", "emoji": "🪢"},
+        {"word": "tie", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Put on socks",
+      "steps": [
+        {"word": "roll", "emoji": "🧦"},
+        {"word": "sock", "emoji": "🦶"},
+        {"word": "over", "emoji": "⬆️"},
+        {"word": "foot", "emoji": "👟"},
+        {"word": "before", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Button shirt",
+      "steps": [
+        {"word": "line", "emoji": "🔘"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "buttons", "emoji": "🕳️"},
+        {"word": "with", "emoji": "🔘"},
+        {"word": "holes", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Zip jacket",
+      "steps": [
+        {"word": "pull", "emoji": "🧥"},
+        {"word": "zipper", "emoji": "⬆️"},
+        {"word": "up", "emoji": "🔒"},
+        {"word": "close", "emoji": "🧥"},
+        {"word": "jacket", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Tie shoelaces",
+      "steps": [
+        {"word": "make", "emoji": "🎀"},
+        {"word": "loops", "emoji": "🔄"},
+        {"word": "cross", "emoji": "❌"},
+        {"word": "over", "emoji": "🪢"},
+        {"word": "tie", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Put on hat",
+      "steps": [
+        {"word": "place", "emoji": "👒"},
+        {"word": "hat", "emoji": "🧠"},
+        {"word": "on", "emoji": "📍"},
+        {"word": "head", "emoji": "👒"},
+        {"word": "adjust", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Put on gloves",
+      "steps": [
+        {"word": "slip", "emoji": "🧤"},
+        {"word": "fingers", "emoji": "👆"},
+        {"word": "into", "emoji": "🧤"},
+        {"word": "glove", "emoji": "✋"},
+        {"word": "fingers", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Wear scarf",
+      "steps": [
+        {"word": "wrap", "emoji": "🧣"},
+        {"word": "scarf", "emoji": "🔄"},
+        {"word": "around", "emoji": "🦴"},
+        {"word": "neck", "emoji": "🧣"},
+        {"word": "warm", "emoji": "🔥"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Take off clothes",
+      "steps": [
+        {"word": "remove", "emoji": "👕"},
+        {"word": "shirt", "emoji": "⬇️"},
+        {"word": "pull", "emoji": "👖"},
+        {"word": "off", "emoji": "🧺"},
+        {"word": "laundry", "emoji": "👔"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Fold clothes",
+      "steps": [
+        {"word": "lay", "emoji": "👕"},
+        {"word": "flat", "emoji": "📏"},
+        {"word": "fold", "emoji": "📄"},
+        {"word": "in", "emoji": "➗"},
+        {"word": "half", "emoji": "📚"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Hang clothes",
+      "steps": [
+        {"word": "put", "emoji": "👗"},
+        {"word": "dress", "emoji": "👗"},
+        {"word": "on", "emoji": "📍"},
+        {"word": "hanger", "emoji": "🪝"},
+        {"word": "closet", "emoji": "🚪"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Choose outfit",
+      "steps": [
+        {"word": "pick", "emoji": "👕"},
+        {"word": "shirt", "emoji": "👖"},
+        {"word": "pants", "emoji": "🌈"},
+        {"word": "colors", "emoji": "👗"},
+        {"word": "match", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Dress for weather",
+      "steps": [
+        {"word": "check", "emoji": "🌤️"},
+        {"word": "weather", "emoji": "🧥"},
+        {"word": "coat", "emoji": "❄️"},
+        {"word": "if", "emoji": "🔥"},
+        {"word": "cold", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Try on clothes",
+      "steps": [
+        {"word": "put", "emoji": "👕"},
+        {"word": "on", "emoji": "📍"},
+        {"word": "clothes", "emoji": "🪞"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "mirror", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Shop for clothes",
+      "steps": [
+        {"word": "go", "emoji": "🚶"},
+        {"word": "to", "emoji": "🏪"},
+        {"word": "store", "emoji": "👕"},
+        {"word": "try", "emoji": "💰"},
+        {"word": "buy", "emoji": "🛍️"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Wash clothes",
+      "steps": [
+        {"word": "put", "emoji": "👕"},
+        {"word": "dirty", "emoji": "🧺"},
+        {"word": "clothes", "emoji": "🌊"},
+        {"word": "washing", "emoji": "🔄"},
+        {"word": "machine", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Dry clothes",
+      "steps": [
+        {"word": "hang", "emoji": "👕"},
+        {"word": "wet", "emoji": "🪝"},
+        {"word": "clothes", "emoji": "☀️"},
+        {"word": "sun", "emoji": "💨"},
+        {"word": "air", "emoji": "🌬️"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Iron clothes",
+      "steps": [
+        {"word": "heat", "emoji": "🔥"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "iron", "emoji": "👕"},
+        {"word": "smooth", "emoji": "📏"},
+        {"word": "wrinkles", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Pack clothes",
+      "steps": [
+        {"word": "fold", "emoji": "👕"},
+        {"word": "clothes", "emoji": "🧳"},
+        {"word": "put", "emoji": "📍"},
+        {"word": "suitcase", "emoji": "✈️"},
+        {"word": "travel", "emoji": "🎒"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Organize closet",
+      "steps": [
+        {"word": "sort", "emoji": "👕"},
+        {"word": "clothes", "emoji": "🌈"},
+        {"word": "by", "emoji": "📊"},
+        {"word": "color", "emoji": "👔"},
+        {"word": "type", "emoji": "📂"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Seasonal clothes",
+      "steps": [
+        {"word": "store", "emoji": "📦"},
+        {"word": "winter", "emoji": "❄️"},
+        {"word": "clothes", "emoji": "☀️"},
+        {"word": "summer", "emoji": "🔄"},
+        {"word": "switch", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Formal wear",
+      "steps": [
+        {"word": "dress", "emoji": "👔"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "fancy", "emoji": "✨"},
+        {"word": "special", "emoji": "🎉"},
+        {"word": "occasion", "emoji": "👗"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Casual wear",
+      "steps": [
+        {"word": "comfortable", "emoji": "👕"},
+        {"word": "clothes", "emoji": "😌"},
+        {"word": "for", "emoji": "📍"},
+        {"word": "relaxing", "emoji": "🏠"},
+        {"word": "home", "emoji": "☺️"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Work clothes",
+      "steps": [
+        {"word": "professional", "emoji": "👔"},
+        {"word": "clothes", "emoji": "💼"},
+        {"word": "for", "emoji": "📍"},
+        {"word": "office", "emoji": "🏢"},
+        {"word": "work", "emoji": "💻"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Exercise clothes",
+      "steps": [
+        {"word": "wear", "emoji": "🏃"},
+        {"word": "sporty", "emoji": "👟"},
+        {"word": "clothes", "emoji": "💪"},
+        {"word": "for", "emoji": "📍"},
+        {"word": "exercise", "emoji": "⚡"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Sleep clothes",
+      "steps": [
+        {"word": "put", "emoji": "🌙"},
+        {"word": "on", "emoji": "📍"},
+        {"word": "pajamas", "emoji": "😴"},
+        {"word": "for", "emoji": "🛏️"},
+        {"word": "bed", "emoji": "💤"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Swimwear",
+      "steps": [
+        {"word": "wear", "emoji": "🩱"},
+        {"word": "swimsuit", "emoji": "🏊"},
+        {"word": "for", "emoji": "📍"},
+        {"word": "swimming", "emoji": "🌊"},
+        {"word": "pool", "emoji": "🏖️"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Winter clothes",
+      "steps": [
+        {"word": "bundle", "emoji": "🧥"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "warm", "emoji": "🔥"},
+        {"word": "clothes", "emoji": "❄️"},
+        {"word": "cold", "emoji": "🥶"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Summer clothes",
+      "steps": [
+        {"word": "light", "emoji": "🪶"},
+        {"word": "cool", "emoji": "❄️"},
+        {"word": "clothes", "emoji": "☀️"},
+        {"word": "hot", "emoji": "🔥"},
+        {"word": "weather", "emoji": "🌡️"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Rain clothes",
+      "steps": [
+        {"word": "wear", "emoji": "🌧️"},
+        {"word": "raincoat", "emoji": "☔"},
+        {"word": "boots", "emoji": "👢"},
+        {"word": "stay", "emoji": "💧"},
+        {"word": "dry", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "School uniform",
+      "steps": [
+        {"word": "wear", "emoji": "🎒"},
+        {"word": "same", "emoji": "👕"},
+        {"word": "clothes", "emoji": "🏫"},
+        {"word": "as", "emoji": "👥"},
+        {"word": "classmates", "emoji": "🎓"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Costume clothes",
+      "steps": [
+        {"word": "dress", "emoji": "🎭"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "like", "emoji": "👑"},
+        {"word": "character", "emoji": "🦸"},
+        {"word": "pretend", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Cultural clothes",
+      "steps": [
+        {"word": "traditional", "emoji": "👘"},
+        {"word": "clothes", "emoji": "🌍"},
+        {"word": "from", "emoji": "🎭"},
+        {"word": "different", "emoji": "🌏"},
+        {"word": "cultures", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Check size",
+      "steps": [
+        {"word": "make", "emoji": "👕"},
+        {"word": "sure", "emoji": "✅"},
+        {"word": "clothes", "emoji": "📏"},
+        {"word": "fit", "emoji": "👍"},
+        {"word": "right", "emoji": "📐"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Color coordinate",
+      "steps": [
+        {"word": "choose", "emoji": "🌈"},
+        {"word": "colors", "emoji": "🎨"},
+        {"word": "that", "emoji": "👍"},
+        {"word": "look", "emoji": "👀"},
+        {"word": "good", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Mix and match",
+      "steps": [
+        {"word": "combine", "emoji": "👕"},
+        {"word": "different", "emoji": "👖"},
+        {"word": "pieces", "emoji": "🔄"},
+        {"word": "create", "emoji": "✨"},
+        {"word": "outfit", "emoji": "👗"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Accessorize",
+      "steps": [
+        {"word": "add", "emoji": "💍"},
+        {"word": "jewelry", "emoji": "👒"},
+        {"word": "belt", "emoji": "⌚"},
+        {"word": "watch", "emoji": "✨"},
+        {"word": "complete", "emoji": "👌"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Fashion trends",
+      "steps": [
+        {"word": "popular", "emoji": "📈"},
+        {"word": "styles", "emoji": "👗"},
+        {"word": "that", "emoji": "👥"},
+        {"word": "many", "emoji": "⭐"},
+        {"word": "people", "emoji": "😍"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Personal style",
+      "steps": [
+        {"word": "wear", "emoji": "👕"},
+        {"word": "what", "emoji": "❤️"},
+        {"word": "you", "emoji": "👤"},
+        {"word": "like", "emoji": "😊"},
+        {"word": "yourself", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Comfort first",
+      "steps": [
+        {"word": "choose", "emoji": "👕"},
+        {"word": "clothes", "emoji": "😌"},
+        {"word": "that", "emoji": "👍"},
+        {"word": "feel", "emoji": "☺️"},
+        {"word": "good", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Quality clothes",
+      "steps": [
+        {"word": "buy", "emoji": "👕"},
+        {"word": "clothes", "emoji": "💎"},
+        {"word": "that", "emoji": "⏰"},
+        {"word": "last", "emoji": "💪"},
+        {"word": "long", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Budget shopping",
+      "steps": [
+        {"word": "find", "emoji": "💰"},
+        {"word": "good", "emoji": "👕"},
+        {"word": "clothes", "emoji": "💵"},
+        {"word": "reasonable", "emoji": "💲"},
+        {"word": "price", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Clothing care",
+      "steps": [
+        {"word": "read", "emoji": "👀"},
+        {"word": "care", "emoji": "🏷️"},
+        {"word": "labels", "emoji": "🧺"},
+        {"word": "wash", "emoji": "✨"},
+        {"word": "properly", "emoji": "👕"}
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Stain removal",
+      "steps": [
+        {"word": "treat", "emoji": "🧽"},
+        {"word": "stains", "emoji": "🧴"},
+        {"word": "quickly", "emoji": "⚡"},
+        {"word": "special", "emoji": "✨"},
+        {"word": "cleaner", "emoji": "👕"}
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Mending clothes",
+      "steps": [
+        {"word": "fix", "emoji": "🪡"},
+        {"word": "holes", "emoji": "🕳️"},
+        {"word": "with", "emoji": "🧵"},
+        {"word": "needle", "emoji": "🔧"},
+        {"word": "thread", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Clothing donation",
+      "steps": [
+        {"word": "give", "emoji": "👕"},
+        {"word": "old", "emoji": "📅"},
+        {"word": "clothes", "emoji": "❤️"},
+        {"word": "to", "emoji": "👥"},
+        {"word": "charity", "emoji": "🤝"}
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Clothing recycling",
+      "steps": [
+        {"word": "turn", "emoji": "👕"},
+        {"word": "old", "emoji": "📅"},
+        {"word": "clothes", "emoji": "🔄"},
+        {"word": "into", "emoji": "✨"},
+        {"word": "new", "emoji": "🆕"}
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Sustainable fashion",
+      "steps": [
+        {"word": "choose", "emoji": "👕"},
+        {"word": "clothes", "emoji": "🌍"},
+        {"word": "that", "emoji": "🌿"},
+        {"word": "help", "emoji": "♻️"},
+        {"word": "environment", "emoji": "💚"}
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Fashion history",
+      "steps": [
+        {"word": "clothes", "emoji": "👗"},
+        {"word": "styles", "emoji": "📅"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "over", "emoji": "⏰"},
+        {"word": "time", "emoji": "📜"}
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Designer clothes",
+      "steps": [
+        {"word": "special", "emoji": "✨"},
+        {"word": "clothes", "emoji": "👗"},
+        {"word": "made", "emoji": "👨‍🎨"},
+        {"word": "by", "emoji": "🎨"},
+        {"word": "artists", "emoji": "💎"}
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Handmade clothes",
+      "steps": [
+        {"word": "clothes", "emoji": "👗"},
+        {"word": "made", "emoji": "👐"},
+        {"word": "by", "emoji": "❤️"},
+        {"word": "hand", "emoji": "✨"},
+        {"word": "special", "emoji": "💕"}
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Fashion shows",
+      "steps": [
+        {"word": "models", "emoji": "💃"},
+        {"word": "walk", "emoji": "🚶"},
+        {"word": "runway", "emoji": "👗"},
+        {"word": "show", "emoji": "✨"},
+        {"word": "new", "emoji": "👀"}
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Fashion magazines",
+      "steps": [
+        {"word": "books", "emoji": "📖"},
+        {"word": "with", "emoji": "📸"},
+        {"word": "pictures", "emoji": "👗"},
+        {"word": "of", "emoji": "✨"},
+        {"word": "clothes", "emoji": "💫"}
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Clothing materials",
+      "steps": [
+        {"word": "clothes", "emoji": "👕"},
+        {"word": "made", "emoji": "🧵"},
+        {"word": "from", "emoji": "🐑"},
+        {"word": "cotton", "emoji": "🌿"},
+        {"word": "wool", "emoji": "🧶"}
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Natural fibers",
+      "steps": [
+        {"word": "cotton", "emoji": "🌿"},
+        {"word": "wool", "emoji": "🐑"},
+        {"word": "silk", "emoji": "🐛"},
+        {"word": "from", "emoji": "🌍"},
+        {"word": "nature", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Synthetic fibers",
+      "steps": [
+        {"word": "polyester", "emoji": "🧪"},
+        {"word": "nylon", "emoji": "🔬"},
+        {"word": "made", "emoji": "🏭"},
+        {"word": "in", "emoji": "🧵"},
+        {"word": "factory", "emoji": "⚗️"}
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Fabric texture",
+      "steps": [
+        {"word": "feel", "emoji": "✋"},
+        {"word": "different", "emoji": "🧵"},
+        {"word": "fabrics", "emoji": "🪶"},
+        {"word": "soft", "emoji": "🪨"},
+        {"word": "rough", "emoji": "👋"}
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Fabric patterns",
+      "steps": [
+        {"word": "stripes", "emoji": "📏"},
+        {"word": "polka", "emoji": "⚪"},
+        {"word": "dots", "emoji": "🌸"},
+        {"word": "flowers", "emoji": "🎨"},
+        {"word": "designs", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Clothing sizes",
+      "steps": [
+        {"word": "small", "emoji": "🤏"},
+        {"word": "medium", "emoji": "📏"},
+        {"word": "large", "emoji": "📐"},
+        {"word": "find", "emoji": "✅"},
+        {"word": "right", "emoji": "👕"}
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Clothing fit",
+      "steps": [
+        {"word": "clothes", "emoji": "👕"},
+        {"word": "should", "emoji": "👍"},
+        {"word": "fit", "emoji": "📏"},
+        {"word": "just", "emoji": "✅"},
+        {"word": "right", "emoji": "😊"}
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Alterations",
+      "steps": [
+        {"word": "change", "emoji": "✂️"},
+        {"word": "clothes", "emoji": "👕"},
+        {"word": "to", "emoji": "📏"},
+        {"word": "fit", "emoji": "✅"},
+        {"word": "better", "emoji": "👌"}
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Clothing layers",
+      "steps": [
+        {"word": "wear", "emoji": "👕"},
+        {"word": "multiple", "emoji": "🧥"},
+        {"word": "clothes", "emoji": "📚"},
+        {"word": "layers", "emoji": "🔥"},
+        {"word": "warmth", "emoji": "❄️"}
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Underwear",
+      "steps": [
+        {"word": "clothes", "emoji": "👙"},
+        {"word": "worn", "emoji": "⬇️"},
+        {"word": "under", "emoji": "👕"},
+        {"word": "other", "emoji": "🙈"},
+        {"word": "clothes", "emoji": "🔒"}
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Outerwear",
+      "steps": [
+        {"word": "jackets", "emoji": "🧥"},
+        {"word": "coats", "emoji": "🔥"},
+        {"word": "worn", "emoji": "🌡️"},
+        {"word": "over", "emoji": "⬆️"},
+        {"word": "clothes", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Footwear",
+      "steps": [
+        {"word": "shoes", "emoji": "👟"},
+        {"word": "boots", "emoji": "👢"},
+        {"word": "sandals", "emoji": "👡"},
+        {"word": "protect", "emoji": "🦶"},
+        {"word": "feet", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Headwear",
+      "steps": [
+        {"word": "hats", "emoji": "👒"},
+        {"word": "caps", "emoji": "🧢"},
+        {"word": "helmets", "emoji": "⛑️"},
+        {"word": "worn", "emoji": "🧠"},
+        {"word": "head", "emoji": "🛡️"}
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Jewelry",
+      "steps": [
+        {"word": "rings", "emoji": "💍"},
+        {"word": "necklaces", "emoji": "📿"},
+        {"word": "earrings", "emoji": "👂"},
+        {"word": "make", "emoji": "✨"},
+        {"word": "pretty", "emoji": "💎"}
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Belts",
+      "steps": [
+        {"word": "strap", "emoji": "👔"},
+        {"word": "around", "emoji": "🔄"},
+        {"word": "waist", "emoji": "👖"},
+        {"word": "hold", "emoji": "📏"},
+        {"word": "pants", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Bags",
+      "steps": [
+        {"word": "purses", "emoji": "👜"},
+        {"word": "backpacks", "emoji": "🎒"},
+        {"word": "carry", "emoji": "👐"},
+        {"word": "important", "emoji": "📱"},
+        {"word": "things", "emoji": "🗝️"}
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Sunglasses",
+      "steps": [
+        {"word": "dark", "emoji": "🕶️"},
+        {"word": "glasses", "emoji": "👀"},
+        {"word": "protect", "emoji": "☀️"},
+        {"word": "eyes", "emoji": "🛡️"},
+        {"word": "sun", "emoji": "😎"}
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Watches",
+      "steps": [
+        {"word": "wear", "emoji": "⌚"},
+        {"word": "on", "emoji": "📍"},
+        {"word": "wrist", "emoji": "🕐"},
+        {"word": "tell", "emoji": "⏰"},
+        {"word": "time", "emoji": "📅"}
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Hair accessories",
+      "steps": [
+        {"word": "bows", "emoji": "🎀"},
+        {"word": "bands", "emoji": "🎗️"},
+        {"word": "clips", "emoji": "📎"},
+        {"word": "make", "emoji": "💇"},
+        {"word": "hair", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Makeup",
+      "steps": [
+        {"word": "colors", "emoji": "🎨"},
+        {"word": "for", "emoji": "😊"},
+        {"word": "face", "emoji": "💄"},
+        {"word": "lipstick", "emoji": "👁️"},
+        {"word": "eyeshadow", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Fashion etiquette",
+      "steps": [
+        {"word": "dress", "emoji": "👗"},
+        {"word": "appropriately", "emoji": "✅"},
+        {"word": "for", "emoji": "📍"},
+        {"word": "different", "emoji": "🎭"},
+        {"word": "occasions", "emoji": "🎉"}
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Dress codes",
+      "steps": [
+        {"word": "rules", "emoji": "📋"},
+        {"word": "about", "emoji": "👗"},
+        {"word": "what", "emoji": "✅"},
+        {"word": "to", "emoji": "🏢"},
+        {"word": "wear", "emoji": "📍"}
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Fashion confidence",
+      "steps": [
+        {"word": "feel", "emoji": "😊"},
+        {"word": "good", "emoji": "💪"},
+        {"word": "about", "emoji": "👗"},
+        {"word": "what", "emoji": "✨"},
+        {"word": "wear", "emoji": "👤"}
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Body positivity",
+      "steps": [
+        {"word": "all", "emoji": "👥"},
+        {"word": "bodies", "emoji": "❤️"},
+        {"word": "are", "emoji": "🌟"},
+        {"word": "beautiful", "emoji": "✨"},
+        {"word": "unique", "emoji": "💖"}
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Fashion creativity",
+      "steps": [
+        {"word": "express", "emoji": "🎨"},
+        {"word": "yourself", "emoji": "👤"},
+        {"word": "through", "emoji": "👗"},
+        {"word": "clothes", "emoji": "✨"},
+        {"word": "creativity", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Fashion mistakes",
+      "steps": [
+        {"word": "everyone", "emoji": "👥"},
+        {"word": "makes", "emoji": "❌"},
+        {"word": "fashion", "emoji": "👗"},
+        {"word": "mistakes", "emoji": "📚"},
+        {"word": "learn", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Fashion inspiration",
+      "steps": [
+        {"word": "look", "emoji": "👀"},
+        {"word": "for", "emoji": "🔍"},
+        {"word": "ideas", "emoji": "💡"},
+        {"word": "from", "emoji": "📖"},
+        {"word": "others", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Fashion industry",
+      "steps": [
+        {"word": "many", "emoji": "👥"},
+        {"word": "people", "emoji": "👗"},
+        {"word": "work", "emoji": "💼"},
+        {"word": "making", "emoji": "✂️"},
+        {"word": "clothes", "emoji": "🏭"}
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Fashion careers",
+      "steps": [
+        {"word": "designer", "emoji": "👨‍🎨"},
+        {"word": "model", "emoji": "💃"},
+        {"word": "tailor", "emoji": "✂️"},
+        {"word": "work", "emoji": "👗"},
+        {"word": "fashion", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Fashion technology",
+      "steps": [
+        {"word": "new", "emoji": "💻"},
+        {"word": "technology", "emoji": "🤖"},
+        {"word": "helps", "emoji": "👗"},
+        {"word": "make", "emoji": "✨"},
+        {"word": "clothes", "emoji": "🔬"}
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Fashion future",
+      "steps": [
+        {"word": "clothes", "emoji": "👗"},
+        {"word": "will", "emoji": "🔮"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "in", "emoji": "🚀"},
+        {"word": "future", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Fashion comfort",
+      "steps": [
+        {"word": "clothes", "emoji": "👕"},
+        {"word": "should", "emoji": "😌"},
+        {"word": "feel", "emoji": "☺️"},
+        {"word": "good", "emoji": "❤️"},
+        {"word": "wear", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Fashion function",
+      "steps": [
+        {"word": "clothes", "emoji": "👕"},
+        {"word": "should", "emoji": "🛠️"},
+        {"word": "work", "emoji": "💪"},
+        {"word": "for", "emoji": "🎯"},
+        {"word": "purpose", "emoji": "✅"}
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Fashion expression",
+      "steps": [
+        {"word": "clothes", "emoji": "👗"},
+        {"word": "show", "emoji": "💭"},
+        {"word": "who", "emoji": "👤"},
+        {"word": "you", "emoji": "❤️"},
+        {"word": "are", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Fashion diversity",
+      "steps": [
+        {"word": "many", "emoji": "🌍"},
+        {"word": "different", "emoji": "👥"},
+        {"word": "styles", "emoji": "👗"},
+        {"word": "all", "emoji": "🌈"},
+        {"word": "beautiful", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Fashion memories",
+      "steps": [
+        {"word": "special", "emoji": "👗"},
+        {"word": "clothes", "emoji": "📸"},
+        {"word": "remind", "emoji": "💭"},
+        {"word": "us", "emoji": "❤️"},
+        {"word": "memories", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Fashion traditions",
+      "steps": [
+        {"word": "some", "emoji": "👘"},
+        {"word": "clothes", "emoji": "🎭"},
+        {"word": "have", "emoji": "📜"},
+        {"word": "special", "emoji": "⭐"},
+        {"word": "meaning", "emoji": "❤️"}
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Fashion celebration",
+      "steps": [
+        {"word": "dress", "emoji": "👗"},
+        {"word": "up", "emoji": "⬆️"},
+        {"word": "for", "emoji": "🎉"},
+        {"word": "special", "emoji": "⭐"},
+        {"word": "celebrations", "emoji": "🎊"}
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Fashion seasons",
+      "steps": [
+        {"word": "clothes", "emoji": "👗"},
+        {"word": "change", "emoji": "🔄"},
+        {"word": "with", "emoji": "🌸"},
+        {"word": "different", "emoji": "❄️"},
+        {"word": "seasons", "emoji": "☀️"}
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Fashion sharing",
+      "steps": [
+        {"word": "share", "emoji": "🤝"},
+        {"word": "clothes", "emoji": "👗"},
+        {"word": "with", "emoji": "👭"},
+        {"word": "siblings", "emoji": "❤️"},
+        {"word": "friends", "emoji": "👫"}
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Fashion independence",
+      "steps": [
+        {"word": "choose", "emoji": "👗"},
+        {"word": "own", "emoji": "👤"},
+        {"word": "clothes", "emoji": "💪"},
+        {"word": "dress", "emoji": "🌟"},
+        {"word": "yourself", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Fashion respect",
+      "steps": [
+        {"word": "respect", "emoji": "🙏"},
+        {"word": "others", "emoji": "👥"},
+        {"word": "clothing", "emoji": "👗"},
+        {"word": "choices", "emoji": "✅"},
+        {"word": "different", "emoji": "🌈"}
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Fashion learning",
+      "steps": [
+        {"word": "always", "emoji": "📚"},
+        {"word": "learning", "emoji": "🧠"},
+        {"word": "about", "emoji": "👗"},
+        {"word": "fashion", "emoji": "💡"},
+        {"word": "style", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Fashion joy",
+      "steps": [
+        {"word": "clothes", "emoji": "👗"},
+        {"word": "should", "emoji": "😊"},
+        {"word": "bring", "emoji": "❤️"},
+        {"word": "happiness", "emoji": "🌟"},
+        {"word": "joy", "emoji": "✨"}
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Fashion yourself",
+      "steps": [
+        {"word": "most", "emoji": "⭐"},
+        {"word": "important", "emoji": "👤"},
+        {"word": "be", "emoji": "❤️"},
+        {"word": "yourself", "emoji": "🌟"},
+        {"word": "authentic", "emoji": "✨"}
+      ]
+    }
+  ]
+}
