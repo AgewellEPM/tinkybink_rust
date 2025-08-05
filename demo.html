@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧠🗣️ TinkyBink AAC - Revolutionary Browser Demo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: white;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            text-align: center;
+            font-size: 1.3em;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        
+        .input-section {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        #user-input {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            font-family: inherit;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        #user-input::placeholder {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .btn {
+            padding: 20px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-family: inherit;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        .btn-primary {
+            background: #ff6b6b;
+            color: white;
+        }
+        
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .suggestions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .suggestion {
+            background: rgba(255, 255, 255, 0.15);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+        }
+        
+        .suggestion:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.4);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .suggestion-emoji {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .suggestion-text {
+            font-size: 1.1em;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .suggestion-confidence {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        
+        .insights-panel {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 25px;
+            margin-top: 30px;
+            display: none;
+            backdrop-filter: blur(5px);
+        }
+        
+        .insights-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .insights-content {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            white-space: pre-wrap;
+            overflow-x: auto;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        
+        .status {
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            font-weight: 600;
+        }
+        
+        .features {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.95em;
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .spinner {
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top: 3px solid #fff;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            h1 {
+                font-size: 2.2em;
+            }
+            
+            .input-section {
+                flex-direction: column;
+            }
+            
+            #user-input {
+                min-width: auto;
+            }
+            
+            .suggestions-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠🗣️ TinkyBink AAC</h1>
+        <p class="subtitle">Revolutionary Emotionally Intelligent Communication System</p>
+        
+        <div class="input-section">
+            <input type="text" id="user-input" placeholder="Type your question here... (e.g., 'Are you hungry?')" />
+            <button id="ask-btn" class="btn btn-primary">Ask! 🚀</button>
+        </div>
+        
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <div>🧠 Generating emotionally intelligent responses...</div>
+        </div>
+        
+        <div id="suggestions-container" class="suggestions-grid"></div>
+        
+        <div id="status" class="status">
+            💡 <strong>Demo Mode:</strong> This is a simulation of the TinkyBink AAC system. 
+            The full WASM version requires additional compilation steps.
+        </div>
+        
+        <div class="controls">
+            <button id="insights-btn" class="btn btn-secondary">📊 Show AI Insights</button>
+            <button id="voice-btn" class="btn btn-secondary">🔊 Voice: <span id="voice-status">ON</span></button>
+            <button id="demo-btn" class="btn btn-secondary">🎯 Try Demo Questions</button>
+        </div>
+        
+        <div id="insights-panel" class="insights-panel">
+            <div class="insights-title">🧠 Emotional Intelligence Insights</div>
+            <div id="insights-content" class="insights-content"></div>
+        </div>
+        
+        <div class="features">
+            🌟 <strong>Revolutionary Features:</strong><br>
+            Emotional Learning • Voice Synthesis • Adaptive Intelligence • Child-Friendly Responses<br>
+            Real-time Preference Tracking • Mood-based Adaptation • Context-aware Suggestions
+        </div>
+    </div>
+
+    <script>
+        // TinkyBink AAC Demo - JavaScript Implementation
+        class TinkyBinkDemo {
+            constructor() {
+                this.voiceEnabled = true;
+                this.interactionHistory = [];
+                this.emotionalState = {
+                    happiness: 0.6,
+                    energy: 0.5,
+                    anxiety: 0.3,
+                    confidence: 0.5,
+                    curiosity: 0.7
+                };
+                
+                this.initEventListeners();
+                this.loadDemoQuestions();
+            }
+            
+            initEventListeners() {
+                const askBtn = document.getElementById('ask-btn');
+                const userInput = document.getElementById('user-input');
+                const insightsBtn = document.getElementById('insights-btn');
+                const voiceBtn = document.getElementById('voice-btn');
+                const demoBtn = document.getElementById('demo-btn');
+                
+                askBtn.addEventListener('click', () => this.processQuestion());
+                userInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') this.processQuestion();
+                });
+                
+                insightsBtn.addEventListener('click', () => this.toggleInsights());
+                voiceBtn.addEventListener('click', () => this.toggleVoice());
+                demoBtn.addEventListener('click', () => this.showDemoQuestions());
+            }
+            
+            loadDemoQuestions() {
+                const demoQuestions = [
+                    "Are you hungry?",
+                    "How are you feeling today?",
+                    "Do you want to play?",
+                    "What do you want to eat?",
+                    "Are you tired?",
+                    "Do you need help?",
+                    "What's your favorite color?",
+                    "Do you want to go outside?"
+                ];
+                
+                // Pre-populate with a demo question
+                document.getElementById('user-input').placeholder = 
+                    `Try: "${demoQuestions[Math.floor(Math.random() * demoQuestions.length)]}"`;
+            }
+            
+            async processQuestion() {
+                const input = document.getElementById('user-input').value.trim();
+                if (!input) return;
+                
+                this.showLoading(true);
+                
+                // Simulate processing time
+                await new Promise(resolve => setTimeout(resolve, 1500));
+                
+                const suggestions = this.generateSuggestions(input);
+                this.displaySuggestions(suggestions);
+                this.recordInteraction(input);
+                
+                this.showLoading(false);
+                document.getElementById('user-input').value = '';
+            }
+            
+            generateSuggestions(input) {
+                const inputLower = input.toLowerCase();
+                let suggestions = [];
+                
+                // Context-aware suggestion generation
+                if (inputLower.includes('hungry') || inputLower.includes('eat')) {
+                    suggestions = [
+                        { emoji: '✅', text: 'Yes please!', confidence: 0.9, category: 'response' },
+                        { emoji: '🚫', text: 'Not right now', confidence: 0.8, category: 'response' },
+                        { emoji: '🍕', text: 'I want pizza!', confidence: 0.85, category: 'food' },
+                        { emoji: '🧃', text: 'Just something to drink', confidence: 0.7, category: 'food' }
+                    ];
+                } else if (inputLower.includes('feel') || inputLower.includes('how are you')) {
+                    suggestions = [
+                        { emoji: '😊', text: 'I feel great!', confidence: 0.9, category: 'emotion' },
+                        { emoji: '🤔', text: 'I\'m okay', confidence: 0.8, category: 'emotion' },
+                        { emoji: '😴', text: 'A little tired', confidence: 0.7, category: 'emotion' },
+                        { emoji: '🎉', text: 'Super excited!', confidence: 0.75, category: 'emotion' }
+                    ];
+                } else if (inputLower.includes('play') || inputLower.includes('game')) {
+                    suggestions = [
+                        { emoji: '🎮', text: 'Yes, let\'s play!', confidence: 0.95, category: 'action' },
+                        { emoji: '📚', text: 'Can we read instead?', confidence: 0.6, category: 'action' },
+                        { emoji: '🏃', text: 'Let\'s go outside!', confidence: 0.8, category: 'action' },
+                        { emoji: '🎵', text: 'I want to sing!', confidence: 0.7, category: 'action' }
+                    ];
+                } else if (inputLower.includes('help') || inputLower.includes('need')) {
+                    suggestions = [
+                        { emoji: '🆘', text: 'Yes, I need help', confidence: 0.9, category: 'request' },
+                        { emoji: '✅', text: 'I can do it myself', confidence: 0.75, category: 'response' },
+                        { emoji: '💭', text: 'Let me think...', confidence: 0.6, category: 'response' },
+                        { emoji: '❓', text: 'What kind of help?', confidence: 0.8, category: 'question' }
+                    ];
+                } else {
+                    // Generic responses
+                    suggestions = [
+                        { emoji: '✅', text: 'Yes', confidence: 0.8, category: 'response' },
+                        { emoji: '❌', text: 'No', confidence: 0.8, category: 'response' },
+                        { emoji: '🤷', text: 'Maybe', confidence: 0.6, category: 'response' },
+                        { emoji: '❓', text: 'I don\'t understand', confidence: 0.7, category: 'response' }
+                    ];
+                }
+                
+                // Apply emotional adaptation
+                suggestions = this.adaptToMood(suggestions);
+                
+                return suggestions;
+            }
+            
+            adaptToMood(suggestions) {
+                return suggestions.map(suggestion => {
+                    let adaptedSuggestion = { ...suggestion };
+                    
+                    // High anxiety - make responses gentler
+                    if (this.emotionalState.anxiety > 0.7) {
+                        adaptedSuggestion.text = adaptedSuggestion.text.replace(/!/g, '.');
+                        adaptedSuggestion.confidence *= 0.9;
+                    }
+                    
+                    // High energy + happiness - make more enthusiastic
+                    if (this.emotionalState.energy > 0.8 && this.emotionalState.happiness > 0.7) {
+                        if (!adaptedSuggestion.text.endsWith('!') && !adaptedSuggestion.text.endsWith('?')) {
+                            adaptedSuggestion.text += '!';
+                        }
+                        adaptedSuggestion.confidence *= 1.1;
+                    }
+                    
+                    return adaptedSuggestion;
+                });
+            }
+            
+            displaySuggestions(suggestions) {
+                const container = document.getElementById('suggestions-container');
+                container.innerHTML = '';
+                
+                suggestions.forEach((suggestion, index) => {
+                    const div = document.createElement('div');
+                    div.className = 'suggestion';
+                    div.innerHTML = `
+                        <span class="suggestion-emoji">${suggestion.emoji}</span>
+                        <div class="suggestion-text">${suggestion.text}</div>
+                        <div class="suggestion-confidence">🧠 ${Math.round(suggestion.confidence * 100)}% confidence</div>
+                    `;
+                    
+                    div.addEventListener('click', () => {
+                        this.selectSuggestion(suggestion, index);
+                    });
+                    
+                    container.appendChild(div);
+                });
+            }
+            
+            selectSuggestion(suggestion, index) {
+                // Highlight selected suggestion
+                const suggestions = document.querySelectorAll('.suggestion');
+                suggestions.forEach(s => s.style.background = 'rgba(255, 255, 255, 0.15)');
+                suggestions[index].style.background = 'rgba(255, 255, 255, 0.3)';
+                
+                // Speak if enabled
+                if (this.voiceEnabled) {
+                    this.speak(suggestion.text);
+                }
+                
+                // Update emotional state based on selection
+                this.updateEmotionalState(suggestion, index);
+                
+                // Show status
+                document.getElementById('status').innerHTML = 
+                    `🧠 <strong>Selected:</strong> "${suggestion.text}" - Learning from your choice!`;
+            }
+            
+            speak(text) {
+                if ('speechSynthesis' in window) {
+                    const utterance = new SpeechSynthesisUtterance(text);
+                    utterance.rate = 0.9;
+                    utterance.pitch = 1.2;
+                    utterance.volume = 1.0;
+                    
+                    // Try to find a child-friendly voice
+                    const voices = speechSynthesis.getVoices();
+                    const childVoice = voices.find(voice => 
+                        voice.name.toLowerCase().includes('samantha') ||
+                        voice.name.toLowerCase().includes('alex') ||
+                        voice.name.toLowerCase().includes('female')
+                    );
+                    
+                    if (childVoice) utterance.voice = childVoice;
+                    
+                    speechSynthesis.speak(utterance);
+                    
+                    document.getElementById('status').innerHTML = 
+                        `🔊 <strong>Speaking:</strong> "${text}"`;
+                } else {
+                    document.getElementById('status').innerHTML = 
+                        `🔇 <strong>Voice not available</strong> in this browser`;
+                }
+            }
+            
+            updateEmotionalState(suggestion, index) {
+                // First choice increases confidence and happiness
+                if (index === 0) {
+                    this.emotionalState.confidence = Math.min(1.0, this.emotionalState.confidence + 0.1);
+                    this.emotionalState.happiness = Math.min(1.0, this.emotionalState.happiness + 0.05);
+                }
+                
+                // Reduce anxiety slightly with each interaction
+                this.emotionalState.anxiety = Math.max(0.0, this.emotionalState.anxiety - 0.02);
+            }
+            
+            recordInteraction(question) {
+                this.interactionHistory.push({
+                    timestamp: new Date().toISOString(),
+                    question: question,
+                    emotionalState: { ...this.emotionalState }
+                });
+                
+                // Keep only recent 20 interactions
+                if (this.interactionHistory.length > 20) {
+                    this.interactionHistory.shift();
+                }
+            }
+            
+            toggleInsights() {
+                const panel = document.getElementById('insights-panel');
+                const btn = document.getElementById('insights-btn');
+                
+                if (panel.style.display === 'none' || !panel.style.display) {
+                    this.showInsights();
+                    panel.style.display = 'block';
+                    btn.textContent = '📊 Hide Insights';
+                } else {
+                    panel.style.display = 'none';
+                    btn.textContent = '📊 Show AI Insights';
+                }
+            }
+            
+            showInsights() {
+                const insights = {
+                    currentMood: this.describeMood(),
+                    interactionCount: this.interactionHistory.length,
+                    emotionalState: this.emotionalState,
+                    recentQuestions: this.interactionHistory.slice(-5).map(i => i.question),
+                    systemStatus: "✅ Emotional AI Learning Active"
+                };
+                
+                document.getElementById('insights-content').textContent = 
+                    JSON.stringify(insights, null, 2);
+            }
+            
+            describeMood() {
+                const mood = this.emotionalState;
+                
+                if (mood.happiness > 0.8 && mood.energy > 0.7) {
+                    return "Happy and energetic! 😊⚡";
+                } else if (mood.anxiety > 0.7) {
+                    return "Feeling a bit anxious 😰";
+                } else if (mood.confidence > 0.8) {
+                    return "Confident and ready! 💪";
+                } else if (mood.happiness < 0.3) {
+                    return "Feeling subdued 😔";
+                } else {
+                    return "Balanced and calm 😌";
+                }
+            }
+            
+            toggleVoice() {
+                this.voiceEnabled = !this.voiceEnabled;
+                const status = document.getElementById('voice-status');
+                const btn = document.getElementById('voice-btn');
+                
+                status.textContent = this.voiceEnabled ? 'ON' : 'OFF';
+                btn.innerHTML = `🔊 Voice: <span id="voice-status">${status.textContent}</span>`;
+                
+                if (this.voiceEnabled) {
+                    this.speak("Voice enabled!");
+                }
+            }
+            
+            showDemoQuestions() {
+                const questions = [
+                    "Are you hungry?",
+                    "How are you feeling today?", 
+                    "Do you want to play?",
+                    "What do you want to eat?",
+                    "Are you tired?",
+                    "Do you need help?",
+                    "What's your favorite color?",
+                    "Do you want to go outside?"
+                ];
+                
+                const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
+                document.getElementById('user-input').value = randomQuestion;
+                document.getElementById('user-input').focus();
+            }
+            
+            showLoading(show) {
+                document.getElementById('loading').style.display = show ? 'block' : 'none';
+            }
+        }
+        
+        // Initialize the demo when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            new TinkyBinkDemo();
+        });
+        
+        // Handle speech synthesis voices loading
+        if ('speechSynthesis' in window) {
+            speechSynthesis.addEventListener('voiceschanged', () => {
+                console.log('🎵 Available voices:', speechSynthesis.getVoices().length);
+            });
+        }
+    </script>
+</body>
+</html>
