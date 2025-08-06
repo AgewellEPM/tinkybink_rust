@@ -20,6 +20,7 @@ pub mod online_engine;
 pub mod gpt_core;
 pub mod nano_gpt;
 pub mod gpt_core_es;
+pub mod gpt_core_zh;
 
 /// Trait for AI engines that can generate child-like responses
 #[async_trait::async_trait]
