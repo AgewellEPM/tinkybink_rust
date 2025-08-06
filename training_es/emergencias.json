@@ -1,0 +1,201 @@
+{
+  "category": "emergencias",
+  "language": "es-ES",
+  "nodes": [
+    {
+      "id": "ayuda",
+      "text": "¡Ayuda!",
+      "emoji": "🆘",
+      "responses": ["¡Estoy aquí para ayudarte!", "¿Qué necesitas?", "¿Estás bien?"],
+      "emotion": {
+        "valencia": 0.1,
+        "activacion": 1.0,
+        "expresividad": 1.0,
+        "pasion": 1.0
+      },
+      "context_tags": ["urgente", "peligro", "asistencia_inmediata"]
+    },
+    {
+      "id": "llamar_medico",
+      "text": "Llama al médico",
+      "emoji": "👨‍⚕️",
+      "responses": ["Llamando al médico ahora", "¿Dónde te duele?", "El médico viene en camino"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.9,
+        "expresividad": 0.9,
+        "pasion": 0.8
+      },
+      "context_tags": ["salud", "urgencia_médica", "profesional"]
+    },
+    {
+      "id": "me_duele",
+      "text": "Me duele",
+      "emoji": "😣",
+      "responses": ["¿Dónde te duele?", "¿Es muy fuerte el dolor?", "Te voy a ayudar"],
+      "emotion": {
+        "valencia": 0.1,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.7
+      },
+      "context_tags": ["dolor", "malestar", "atención_médica"]
+    },
+    {
+      "id": "emergencia",
+      "text": "¡Emergencia!",
+      "emoji": "🚨",
+      "responses": ["¿Qué está pasando?", "Mantén la calma", "¿Necesitas llamar al 112?"],
+      "emotion": {
+        "valencia": 0.1,
+        "activacion": 1.0,
+        "expresividad": 1.0,
+        "pasion": 1.0
+      },
+      "context_tags": ["crisis", "urgencia", "servicios_emergencia"]
+    },
+    {
+      "id": "no_puedo_respirar",
+      "text": "No puedo respirar",
+      "emoji": "😰",
+      "responses": ["Respira despacio", "Mantén la calma", "¿Necesitas tu inhalador?"],
+      "emotion": {
+        "valencia": 0.1,
+        "activacion": 1.0,
+        "expresividad": 1.0,
+        "pasion": 0.9
+      },
+      "context_tags": ["respiración", "pánico", "salud_crítica"]
+    },
+    {
+      "id": "fuego",
+      "text": "¡Fuego!",
+      "emoji": "🔥",
+      "responses": ["¡Sal de ahí ahora!", "¿Dónde está el fuego?", "Llamando a los bomberos"],
+      "emotion": {
+        "valencia": 0.1,
+        "activacion": 1.0,
+        "expresividad": 1.0,
+        "pasion": 1.0
+      },
+      "context_tags": ["incendio", "evacuación", "bomberos"]
+    },
+    {
+      "id": "me_he_caido",
+      "text": "Me he caído",
+      "emoji": "🤕",
+      "responses": ["¿Te has hecho daño?", "¿Puedes levantarte?", "¿Dónde te duele?"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["accidente", "lesión", "evaluación"]
+    },
+    {
+      "id": "estoy_perdido",
+      "text": "Estoy perdido/a",
+      "emoji": "😰",
+      "responses": ["¿Sabes dónde estás?", "¿Reconoces algo?", "¿Tienes tu teléfono?"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.7
+      },
+      "context_tags": ["desorientación", "búsqueda", "localización"]
+    },
+    {
+      "id": "me_siento_mal",
+      "text": "Me siento mal",
+      "emoji": "🤢",
+      "responses": ["¿Qué te pasa exactamente?", "¿Tienes fiebre?", "¿Necesitas sentarte?"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.6,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["malestar", "síntomas", "evaluación_salud"]
+    },
+    {
+      "id": "alguien_me_molesta",
+      "text": "Alguien me molesta",
+      "emoji": "😟",
+      "responses": ["¿Quién te molesta?", "¿Estás seguro/a?", "Vamos a buscar ayuda"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["acoso", "seguridad", "protección"]
+    },
+    {
+      "id": "tengo_miedo",
+      "text": "Tengo miedo",
+      "emoji": "😨",
+      "responses": ["Estás seguro/a conmigo", "¿De qué tienes miedo?", "Todo va a estar bien"],
+      "emotion": {
+        "valencia": 0.1,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.8
+      },
+      "context_tags": ["temor", "seguridad", "tranquilización"]
+    },
+    {
+      "id": "llamar_policia",
+      "text": "Llama a la policía",
+      "emoji": "👮",
+      "responses": ["¿Qué ha pasado?", "¿Hay algún peligro?", "Llamando a la policía"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.9,
+        "expresividad": 0.9,
+        "pasion": 0.8
+      },
+      "context_tags": ["seguridad", "delito", "autoridades"]
+    },
+    {
+      "id": "accidente",
+      "text": "Ha habido un accidente",
+      "emoji": "🚗",
+      "responses": ["¿Alguien está herido?", "¿Necesitas una ambulancia?", "Mantén la calma"],
+      "emotion": {
+        "valencia": 0.1,
+        "activacion": 0.9,
+        "expresividad": 0.9,
+        "pasion": 0.8
+      },
+      "context_tags": ["accidente", "lesiones", "servicios_emergencia"]
+    },
+    {
+      "id": "no_encuentro_casa",
+      "text": "No encuentro mi casa",
+      "emoji": "🏠",
+      "responses": ["¿Recuerdas la dirección?", "¿Hay alguien que pueda ayudarte?", "¿Tienes las llaves?"],
+      "emotion": {
+        "valencia": 0.3,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["desorientación", "hogar", "memoria"]
+    },
+    {
+      "id": "me_ahogo",
+      "text": "Me ahogo",
+      "emoji": "💧",
+      "responses": ["¡Tose fuerte!", "¿Puedes hablar?", "¿Necesitas la maniobra de Heimlich?"],
+      "emotion": {
+        "valencia": 0.1,
+        "activacion": 1.0,
+        "expresividad": 1.0,
+        "pasion": 1.0
+      },
+      "context_tags": ["asfixia", "obstrucción", "primeros_auxilios"]
+    }
+  ]
+}

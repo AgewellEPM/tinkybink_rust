@@ -1,0 +1,201 @@
+{
+  "category": "expresiones_culturales",
+  "language": "es-ES",
+  "nodes": [
+    {
+      "id": "ole",
+      "text": "¡Olé!",
+      "emoji": "💃",
+      "responses": ["¡Olé y olé!", "¡Qué arte tienes!", "¡Así se hace!"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.9,
+        "expresividad": 1.0,
+        "pasion": 1.0
+      },
+      "context_tags": ["flamenco", "andalucía", "admiración", "arte"]
+    },
+    {
+      "id": "vamos",
+      "text": "¡Vamos!",
+      "emoji": "💪",
+      "responses": ["¡Sí, vamos!", "¡Dale que podemos!", "¡A por todas!"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.9,
+        "expresividad": 0.9,
+        "pasion": 0.8
+      },
+      "context_tags": ["ánimo", "motivación", "fuerza", "apoyo"]
+    },
+    {
+      "id": "que_guay",
+      "text": "¡Qué guay!",
+      "emoji": "😎",
+      "responses": ["¡Súper guay!", "¡Está genial!", "¡Mola un montón!"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["españa", "joven", "aprobación", "moderno"]
+    },
+    {
+      "id": "que_chulo",
+      "text": "¡Qué chulo!",
+      "emoji": "👌",
+      "responses": ["¡Está chulísimo!", "¡Qué chulo está!", "¡Me encanta!"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["españa", "admiración", "estilo", "bonito"]
+    },
+    {
+      "id": "madre_mia",
+      "text": "¡Madre mía!",
+      "emoji": "😱",
+      "responses": ["¡Anda ya!", "¡No me lo puedo creer!", "¡Qué barbaridad!"],
+      "emotion": {
+        "valencia": 0.5,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.8
+      },
+      "context_tags": ["sorpresa", "asombro", "españa", "exclamación"]
+    },
+    {
+      "id": "no_me_digas",
+      "text": "¡No me digas!",
+      "emoji": "😲",
+      "responses": ["¡En serio!", "¡No puede ser!", "¡Increíble!"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["incredulidad", "sorpresa", "conversación", "interés"]
+    },
+    {
+      "id": "que_pasa_tio",
+      "text": "¿Qué pasa, tío?",
+      "emoji": "👋",
+      "responses": ["¡Nada, tío! ¿Qué tal?", "¡Todo bien! ¿Y tú qué tal?", "¡Aquí andamos!"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["españa", "informal", "saludo", "coloquial"]
+    },
+    {
+      "id": "que_fuerte",
+      "text": "¡Qué fuerte!",
+      "emoji": "💥",
+      "responses": ["¡Súper fuerte!", "¡Flipante!", "¡Alucinante!"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.7
+      },
+      "context_tags": ["intensidad", "asombro", "impacto", "españa"]
+    },
+    {
+      "id": "que_pasada",
+      "text": "¡Qué pasada!",
+      "emoji": "🤩",
+      "responses": ["¡Una auténtica pasada!", "¡Está genial!", "¡Flipante!"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.8,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["admiración", "sorpresa_positiva", "españa", "joven"]
+    },
+    {
+      "id": "mola",
+      "text": "¡Mola!",
+      "emoji": "👍",
+      "responses": ["¡Mola mucho!", "¡Está genial!", "¡Me gusta!"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["españa", "gustar", "aprobación", "moderno"]
+    },
+    {
+      "id": "anda_ya",
+      "text": "¡Anda ya!",
+      "emoji": "🙄",
+      "responses": ["¡En serio!", "¡No te lo crees ni tú!", "¡Venga ya!"],
+      "emotion": {
+        "valencia": 0.4,
+        "activacion": 0.6,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["incredulidad", "españa", "escepticismo", "informal"]
+    },
+    {
+      "id": "hostia",
+      "text": "¡Hostia!",
+      "emoji": "😳",
+      "responses": ["¡Anda!", "¡Vaya!", "¡No me lo puedo creer!"],
+      "emotion": {
+        "valencia": 0.5,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.7
+      },
+      "context_tags": ["españa", "sorpresa", "impacto", "coloquial"]
+    },
+    {
+      "id": "joder",
+      "text": "¡Joder!",
+      "emoji": "😤",
+      "responses": ["¡Vaya faena!", "¡Qué lío!", "¡Menudo marrón!"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["españa", "frustración", "enfado", "coloquial"]
+    },
+    {
+      "id": "que_barbaridad",
+      "text": "¡Qué barbaridad!",
+      "emoji": "😵",
+      "responses": ["¡Una auténtica barbaridad!", "¡No puede ser!", "¡Es increíble!"],
+      "emotion": {
+        "valencia": 0.3,
+        "activacion": 0.7,
+        "expresividad": 0.9,
+        "pasion": 0.7
+      },
+      "context_tags": ["asombro_negativo", "indignación", "sorpresa", "intensidad"]
+    },
+    {
+      "id": "que_pena",
+      "text": "¡Qué pena!",
+      "emoji": "😔",
+      "responses": ["Sí, es una pena", "¡Vaya faena!", "¡Qué lástima!"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.3,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["lástima", "tristeza", "compasión", "empatía"]
+    }
+  ]
+}

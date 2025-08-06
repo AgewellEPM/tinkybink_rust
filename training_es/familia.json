@@ -1,0 +1,201 @@
+{
+  "category": "familia",
+  "language": "es-ES",
+  "nodes": [
+    {
+      "id": "mama",
+      "text": "Mamá",
+      "emoji": "👩",
+      "responses": ["¿Necesitas a mamá?", "¿Quieres llamar a mamá?", "¿Dónde está mamá?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.8,
+        "pasion": 0.9
+      },
+      "context_tags": ["familia", "cuidado", "amor_maternal"]
+    },
+    {
+      "id": "papa",
+      "text": "Papá",
+      "emoji": "👨",
+      "responses": ["¿Necesitas a papá?", "¿Quieres llamar a papá?", "¿Está papá en casa?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.8,
+        "pasion": 0.9
+      },
+      "context_tags": ["familia", "protección", "amor_paternal"]
+    },
+    {
+      "id": "hermano",
+      "text": "Hermano",
+      "emoji": "👦",
+      "responses": ["¿Qué hace tu hermano?", "¿Juegas con tu hermano?", "¿Quieres ver a tu hermano?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.7
+      },
+      "context_tags": ["familia", "hermandad", "juego"]
+    },
+    {
+      "id": "hermana",
+      "text": "Hermana",
+      "emoji": "👧",
+      "responses": ["¿Cómo está tu hermana?", "¿Juegas con tu hermana?", "¿Quieres ver a tu hermana?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.7
+      },
+      "context_tags": ["familia", "hermandad", "compañía"]
+    },
+    {
+      "id": "abuela",
+      "text": "Abuela",
+      "emoji": "👵",
+      "responses": ["¿Echas de menos a la abuela?", "¿Cuándo viste a la abuela?", "¿Te gusta estar con la abuela?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.5,
+        "expresividad": 0.8,
+        "pasion": 0.8
+      },
+      "context_tags": ["familia", "sabiduría", "cariño"]
+    },
+    {
+      "id": "abuelo",
+      "text": "Abuelo",
+      "emoji": "👴",
+      "responses": ["¿Cómo está el abuelo?", "¿El abuelo te cuenta cuentos?", "¿Juegas con el abuelo?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.5,
+        "expresividad": 0.8,
+        "pasion": 0.8
+      },
+      "context_tags": ["familia", "experiencia", "ternura"]
+    },
+    {
+      "id": "tio",
+      "text": "Tío",
+      "emoji": "👨‍🦱",
+      "responses": ["¿Tu tío es divertido?", "¿Cuándo viene el tío?", "¿Juegas con tu tío?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["familia_extendida", "diversión", "juegos"]
+    },
+    {
+      "id": "tia",
+      "text": "Tía",
+      "emoji": "👩‍🦱",
+      "responses": ["¿Tu tía te cuida?", "¿La tía cocina rico?", "¿Cuándo ves a tu tía?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["familia_extendida", "cuidado", "cocina"]
+    },
+    {
+      "id": "primo",
+      "text": "Primo",
+      "emoji": "👶",
+      "responses": ["¿Tu primo es pequeño?", "¿Juegas con tu primo?", "¿Se llevan bien?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["familia_extendida", "primos", "amistad"]
+    },
+    {
+      "id": "prima",
+      "text": "Prima",
+      "emoji": "👧",
+      "responses": ["¿Tu prima viene a casa?", "¿Qué hacen juntas?", "¿Se divierten juntas?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["familia_extendida", "primas", "juego"]
+    },
+    {
+      "id": "quiero_a_mama",
+      "text": "Quiero a mamá",
+      "emoji": "💕",
+      "responses": ["Mamá también te quiere mucho", "¿Necesitas un abrazo de mamá?", "El amor de mamá es especial"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.7,
+        "expresividad": 0.9,
+        "pasion": 0.9
+      },
+      "context_tags": ["amor", "vínculo_materno", "afecto"]
+    },
+    {
+      "id": "quiero_a_papa",
+      "text": "Quiero a papá",
+      "emoji": "💝",
+      "responses": ["Papá también te quiere mucho", "¿Te gusta jugar con papá?", "Papá siempre está ahí para ti"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.7,
+        "expresividad": 0.9,
+        "pasion": 0.9
+      },
+      "context_tags": ["amor", "vínculo_paterno", "seguridad"]
+    },
+    {
+      "id": "mi_familia",
+      "text": "Mi familia",
+      "emoji": "👨‍👩‍👧‍👦",
+      "responses": ["Tu familia te quiere mucho", "¿Cuántos son en tu familia?", "La familia es lo más importante"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.8,
+        "pasion": 0.8
+      },
+      "context_tags": ["unidad_familiar", "pertenencia", "identidad"]
+    },
+    {
+      "id": "echo_de_menos_familia",
+      "text": "Echo de menos a mi familia",
+      "emoji": "😢",
+      "responses": ["Es normal extrañar a la familia", "¿Cuándo los verás?", "Pronto estarás con ellos"],
+      "emotion": {
+        "valencia": 0.3,
+        "activacion": 0.4,
+        "expresividad": 0.8,
+        "pasion": 0.8
+      },
+      "context_tags": ["nostalgia", "separación", "anhelo"]
+    },
+    {
+      "id": "familia_feliz",
+      "text": "Familia feliz",
+      "emoji": "😊",
+      "responses": ["¡Qué lindo tener una familia feliz!", "La felicidad familiar es hermosa", "¿Qué los hace felices?"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["armonía", "bienestar_familiar", "alegría"]
+    }
+  ]
+}

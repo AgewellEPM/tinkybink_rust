@@ -1,0 +1,201 @@
+{
+  "category": "emociones",
+  "language": "es-ES",
+  "nodes": [
+    {
+      "id": "feliz_estoy_feliz",
+      "text": "Estoy feliz",
+      "emoji": "😊",
+      "responses": ["¡Qué alegría! ¿Qué te hace feliz?", "¡Me encanta verte así!", "¿Quieres contarme por qué?"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.7
+      },
+      "context_tags": ["alegría", "bienestar", "positividad"]
+    },
+    {
+      "id": "triste_me_siento_triste",
+      "text": "Me siento triste",
+      "emoji": "😢",
+      "responses": ["Lo siento, ¿qué te pone triste?", "¿Necesitas un abrazo?", "Estoy aquí para ti"],
+      "emotion": {
+        "valencia": 0.1,
+        "activacion": 0.3,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["tristeza", "vulnerabilidad", "apoyo"]
+    },
+    {
+      "id": "enfadado_estoy_enfadado",
+      "text": "Estoy enfadado/a",
+      "emoji": "😠",
+      "responses": ["¿Qué te ha molestado?", "Cuéntame qué pasó", "Entiendo que estés enfadado"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.9,
+        "expresividad": 0.9,
+        "pasion": 0.8
+      },
+      "context_tags": ["ira", "frustración", "intensidad"]
+    },
+    {
+      "id": "miedo_tengo_miedo",
+      "text": "Tengo miedo",
+      "emoji": "😨",
+      "responses": ["No te preocupes, estás seguro", "¿De qué tienes miedo?", "Todo va a estar bien"],
+      "emotion": {
+        "valencia": 0.1,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.7
+      },
+      "context_tags": ["temor", "ansiedad", "protección"]
+    },
+    {
+      "id": "emocionado_estoy_emocionado",
+      "text": "¡Estoy emocionado/a!",
+      "emoji": "🤩",
+      "responses": ["¡Qué emocionante! ¿Qué pasa?", "¡Me contagias tu emoción!", "¡Cuéntame todo!"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.9,
+        "expresividad": 0.9,
+        "pasion": 0.9
+      },
+      "context_tags": ["emoción", "anticipación", "energía"]
+    },
+    {
+      "id": "preocupado_estoy_preocupado",
+      "text": "Estoy preocupado/a",
+      "emoji": "😟",
+      "responses": ["¿Qué te preocupa?", "Hablemos de ello", "¿Puedo ayudarte en algo?"],
+      "emotion": {
+        "valencia": 0.3,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["ansiedad", "cuidado", "reflexión"]
+    },
+    {
+      "id": "orgulloso_me_siento_orgulloso",
+      "text": "Me siento orgulloso/a",
+      "emoji": "😌",
+      "responses": ["¡Deberías sentirte orgulloso!", "¿De qué te sientes orgulloso?", "¡Es fantástico!"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["logro", "autoestima", "satisfacción"]
+    },
+    {
+      "id": "nervioso_estoy_nervioso",
+      "text": "Estoy nervioso/a",
+      "emoji": "😰",
+      "responses": ["Respira profundo", "¿Hay algo específico que te pone nervioso?", "Todo saldrá bien"],
+      "emotion": {
+        "valencia": 0.3,
+        "activacion": 0.8,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["ansiedad", "tensión", "anticipación"]
+    },
+    {
+      "id": "aburrido_me_aburro",
+      "text": "Me aburro",
+      "emoji": "😑",
+      "responses": ["¿Qué te gustaría hacer?", "¿Buscamos algo divertido?", "¿Jugamos a algo?"],
+      "emotion": {
+        "valencia": 0.4,
+        "activacion": 0.2,
+        "expresividad": 0.6,
+        "pasion": 0.3
+      },
+      "context_tags": ["aburrimiento", "búsqueda", "actividad"]
+    },
+    {
+      "id": "confundido_estoy_confundido",
+      "text": "Estoy confundido/a",
+      "emoji": "😕",
+      "responses": ["¿Qué te confunde?", "Te ayudo a entender", "¿Necesitas que te explique algo?"],
+      "emotion": {
+        "valencia": 0.4,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.5
+      },
+      "context_tags": ["confusión", "comprensión", "ayuda"]
+    },
+    {
+      "id": "sorprendido_estoy_sorprendido",
+      "text": "¡Estoy sorprendido/a!",
+      "emoji": "😲",
+      "responses": ["¡Vaya sorpresa! ¿Qué pasó?", "¿Te gustó la sorpresa?", "¡Qué emocionante!"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.7
+      },
+      "context_tags": ["sorpresa", "impacto", "novedad"]
+    },
+    {
+      "id": "frustrado_me_siento_frustrado",
+      "text": "Me siento frustrado/a",
+      "emoji": "😤",
+      "responses": ["Entiendo tu frustración", "¿Qué te frustra?", "¿Cómo puedo ayudarte?"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.8,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["frustración", "obstáculo", "perseverancia"]
+    },
+    {
+      "id": "tranquilo_me_siento_tranquilo",
+      "text": "Me siento tranquilo/a",
+      "emoji": "😇",
+      "responses": ["Qué bien que estés tranquilo", "Es importante sentirse en paz", "Me alegra saberlo"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.2,
+        "expresividad": 0.5,
+        "pasion": 0.4
+      },
+      "context_tags": ["paz", "serenidad", "equilibrio"]
+    },
+    {
+      "id": "agradecido_estoy_agradecido",
+      "text": "Estoy agradecido/a",
+      "emoji": "🙏",
+      "responses": ["Es lindo escuchar eso", "¿Por qué te sientes agradecido?", "La gratitud es hermosa"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.5,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["gratitud", "reconocimiento", "positividad"]
+    },
+    {
+      "id": "estresado_estoy_estresado",
+      "text": "Estoy estresado/a",
+      "emoji": "😵",
+      "responses": ["¿Qué te causa estrés?", "Tratemos de relajarnos", "¿Necesitas tomar un descanso?"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.9,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["estrés", "presión", "necesidad_relajación"]
+    }
+  ]
+}

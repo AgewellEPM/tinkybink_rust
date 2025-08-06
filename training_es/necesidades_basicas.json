@@ -1,0 +1,201 @@
+{
+  "category": "necesidades_basicas",
+  "language": "es-ES",
+  "nodes": [
+    {
+      "id": "hambre_tengo_hambre",
+      "text": "Tengo hambre",
+      "emoji": "😋",
+      "responses": ["¿Qué te apetece comer?", "¿Quieres que preparemos algo?", "¿Tienes alguna comida favorita?"],
+      "emotion": {
+        "valencia": 0.3,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["necesidad_física", "alimentación", "urgente"]
+    },
+    {
+      "id": "sed_tengo_sed",
+      "text": "Tengo sed",
+      "emoji": "💧",
+      "responses": ["Te traigo agua enseguida", "¿Prefieres agua o algo más?", "¿Quieres beber algo fresco?"],
+      "emotion": {
+        "valencia": 0.3,
+        "activacion": 0.8,
+        "expresividad": 0.7,
+        "pasion": 0.5
+      },
+      "context_tags": ["necesidad_física", "hidratación", "urgente"]
+    },
+    {
+      "id": "sueno_tengo_sueno",
+      "text": "Tengo sueño",
+      "emoji": "😴",
+      "responses": ["¿Quieres descansar un poco?", "Es hora de dormir", "¿Te ayudo a ir a la cama?"],
+      "emotion": {
+        "valencia": 0.4,
+        "activacion": 0.2,
+        "expresividad": 0.6,
+        "pasion": 0.3
+      },
+      "context_tags": ["necesidad_física", "descanso", "rutina"]
+    },
+    {
+      "id": "quiero_dormir",
+      "text": "Quiero dormir",
+      "emoji": "🛏️",
+      "responses": ["Vamos a dormir entonces", "Te ayudo a prepararte para dormir", "¿Necesitas tu almohada?"],
+      "emotion": {
+        "valencia": 0.5,
+        "activacion": 0.3,
+        "expresividad": 0.7,
+        "pasion": 0.4
+      },
+      "context_tags": ["deseo", "descanso", "rutina_nocturna"]
+    },
+    {
+      "id": "necesito_agua",
+      "text": "Necesito agua",
+      "emoji": "🚰",
+      "responses": ["Aquí tienes agua fresca", "¿Un vaso grande o pequeño?", "Te sirvo agua ahora mismo"],
+      "emotion": {
+        "valencia": 0.4,
+        "activacion": 0.8,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["necesidad_urgente", "hidratación", "supervivencia"]
+    },
+    {
+      "id": "quiero_comer",
+      "text": "Quiero comer",
+      "emoji": "🍽️",
+      "responses": ["¿Qué quieres comer?", "¿Tienes antojo de algo especial?", "Vamos a buscar algo rico"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["deseo", "alimentación", "placer"]
+    },
+    {
+      "id": "tengo_frio",
+      "text": "Tengo frío",
+      "emoji": "🥶",
+      "responses": ["Te traigo una manta", "¿Quieres un suéter?", "Vamos a un lugar más caliente"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.6,
+        "expresividad": 0.8,
+        "pasion": 0.5
+      },
+      "context_tags": ["incomodidad", "temperatura", "necesidad_física"]
+    },
+    {
+      "id": "tengo_calor",
+      "text": "Tengo calor",
+      "emoji": "🥵",
+      "responses": ["¿Quieres que encienda el ventilador?", "Te traigo algo fresco", "¿Necesitas menos ropa?"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.5
+      },
+      "context_tags": ["incomodidad", "temperatura", "necesidad_física"]
+    },
+    {
+      "id": "necesito_ir_bano",
+      "text": "Necesito ir al baño",
+      "emoji": "🚽",
+      "responses": ["Vamos al baño ahora", "¿Necesitas ayuda?", "El baño está por aquí"],
+      "emotion": {
+        "valencia": 0.3,
+        "activacion": 0.9,
+        "expresividad": 0.9,
+        "pasion": 0.7
+      },
+      "context_tags": ["urgente", "higiene", "privacidad"]
+    },
+    {
+      "id": "quiero_descansar",
+      "text": "Quiero descansar",
+      "emoji": "😌",
+      "responses": ["Claro, vamos a descansar", "¿Te sientes cansado?", "Aquí tienes un lugar cómodo"],
+      "emotion": {
+        "valencia": 0.5,
+        "activacion": 0.2,
+        "expresividad": 0.6,
+        "pasion": 0.3
+      },
+      "context_tags": ["bienestar", "tranquilidad", "autocuidado"]
+    },
+    {
+      "id": "me_duele_algo",
+      "text": "Me duele algo",
+      "emoji": "😣",
+      "responses": ["¿Qué te duele exactamente?", "¿Necesitas medicina?", "¿Quieres que llame al médico?"],
+      "emotion": {
+        "valencia": 0.1,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.7
+      },
+      "context_tags": ["dolor", "salud", "atención_médica"]
+    },
+    {
+      "id": "estoy_cansado",
+      "text": "Estoy cansado/a",
+      "emoji": "😫",
+      "responses": ["¿Quieres sentarte un momento?", "Descansemos un poco", "¿Has hecho mucho hoy?"],
+      "emotion": {
+        "valencia": 0.3,
+        "activacion": 0.3,
+        "expresividad": 0.7,
+        "pasion": 0.4
+      },
+      "context_tags": ["fatiga", "necesidad_descanso", "límites"]
+    },
+    {
+      "id": "necesito_ayuda",
+      "text": "Necesito ayuda",
+      "emoji": "🆘",
+      "responses": ["¿En qué puedo ayudarte?", "Claro, te ayudo", "Dime qué necesitas"],
+      "emotion": {
+        "valencia": 0.4,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.7
+      },
+      "context_tags": ["asistencia", "cooperación", "dependencia"]
+    },
+    {
+      "id": "quiero_salir",
+      "text": "Quiero salir",
+      "emoji": "🚪",
+      "responses": ["¿A dónde quieres ir?", "¿Salimos a caminar?", "¿Necesitas aire fresco?"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["libertad", "movimiento", "exploración"]
+    },
+    {
+      "id": "tengo_que_irme",
+      "text": "Tengo que irme",
+      "emoji": "🏃",
+      "responses": ["¿Tienes prisa?", "Que tengas buen viaje", "¿Necesitas algo antes de irte?"],
+      "emotion": {
+        "valencia": 0.5,
+        "activacion": 0.8,
+        "expresividad": 0.7,
+        "pasion": 0.5
+      },
+      "context_tags": ["urgencia", "responsabilidad", "tiempo"]
+    }
+  ]
+}

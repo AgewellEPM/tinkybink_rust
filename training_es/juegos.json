@@ -1,0 +1,201 @@
+{
+  "category": "juegos",
+  "language": "es-ES",
+  "nodes": [
+    {
+      "id": "jugar",
+      "text": "Quiero jugar",
+      "emoji": "🎮",
+      "responses": ["¡Vamos a jugar!", "¿A qué quieres jugar?", "¡Qué divertido!"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.8,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["diversión", "entretenimiento", "actividad"]
+    },
+    {
+      "id": "pelota",
+      "text": "Pelota",
+      "emoji": "⚽",
+      "responses": ["¡Vamos a jugar con la pelota!", "¿Jugamos al fútbol?", "¿Prefieres básquet o fútbol?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.8,
+        "expresividad": 0.7,
+        "pasion": 0.7
+      },
+      "context_tags": ["deporte", "movimiento", "exterior"]
+    },
+    {
+      "id": "muneca",
+      "text": "Muñeca",
+      "emoji": "🪆",
+      "responses": ["¿Cómo se llama tu muñeca?", "¿Vamos a jugar a las casitas?", "¿Tu muñeca tiene hambre?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["juego_simbólico", "cuidado", "imaginación"]
+    },
+    {
+      "id": "parque",
+      "text": "Parque",
+      "emoji": "🏞️",
+      "responses": ["¡Vamos al parque!", "¿Te gustan los columpios?", "¿Corremos en el parque?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.7,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["exterior", "naturaleza", "ejercicio"]
+    },
+    {
+      "id": "columpio",
+      "text": "Columpio",
+      "emoji": "🎠",
+      "responses": ["¡A columpiarse!", "¿Quieres que te empuje?", "¿Más alto o más suave?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.7,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["parque", "movimiento", "diversión"]
+    },
+    {
+      "id": "tobogan",
+      "text": "Tobogán",
+      "emoji": "🛝",
+      "responses": ["¡Cuidado al bajar!", "¿Te gusta deslizarte?", "¡Qué divertido el tobogán!"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.8,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["parque", "adrenalina", "altura"]
+    },
+    {
+      "id": "puzzle",
+      "text": "Puzzle/Rompecabezas",
+      "emoji": "🧩",
+      "responses": ["¿De cuántas piezas es?", "¿Te ayudo con el puzzle?", "¡Qué paciencia tienes!"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.4,
+        "expresividad": 0.5,
+        "pasion": 0.6
+      },
+      "context_tags": ["concentración", "paciencia", "lógica"]
+    },
+    {
+      "id": "construccion",
+      "text": "Juego de construcción",
+      "emoji": "🧱",
+      "responses": ["¿Qué vamos a construir?", "¡Eres muy creativo!", "¿Una casa o un castillo?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.7
+      },
+      "context_tags": ["creatividad", "construcción", "imaginación"]
+    },
+    {
+      "id": "escondite",
+      "text": "Jugar al escondite",
+      "emoji": "🙈",
+      "responses": ["¡Te voy a encontrar!", "¿Dónde te vas a esconder?", "¡Un, dos, tres!"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["búsqueda", "suspense", "movimiento"]
+    },
+    {
+      "id": "pilla_pilla",
+      "text": "Pilla-pilla",
+      "emoji": "🏃‍♂️",
+      "responses": ["¡Te pillo!", "¡Corre que te pillo!", "¿A quién le toca pillar?"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.9,
+        "expresividad": 0.8,
+        "pasion": 0.8
+      },
+      "context_tags": ["correr", "persecución", "ejercicio"]
+    },
+    {
+      "id": "pintar",
+      "text": "Pintar",
+      "emoji": "🎨",
+      "responses": ["¿Qué colores usamos?", "¡Qué bonito dibujo!", "¿Pintamos juntos?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["arte", "creatividad", "colores"]
+    },
+    {
+      "id": "cantar",
+      "text": "Cantar",
+      "emoji": "🎤",
+      "responses": ["¿Qué canción cantamos?", "¡Tienes una voz bonita!", "¿Conoces esta canción?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["música", "expresión", "ritmo"]
+    },
+    {
+      "id": "bailar",
+      "text": "Bailar",
+      "emoji": "💃",
+      "responses": ["¡Vamos a bailar!", "¿Qué música ponemos?", "¡Qué bien bailas!"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.8,
+        "expresividad": 0.9,
+        "pasion": 0.8
+      },
+      "context_tags": ["música", "movimiento", "expresión_corporal"]
+    },
+    {
+      "id": "cuentos",
+      "text": "Contar cuentos",
+      "emoji": "📚",
+      "responses": ["¿Qué cuento quieres?", "¡Era una vez...", "¿Te gusta este personaje?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.4,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["imaginación", "lenguaje", "tranquilidad"]
+    },
+    {
+      "id": "juegos_mesa",
+      "text": "Juegos de mesa",
+      "emoji": "🎲",
+      "responses": ["¿A qué juego jugamos?", "¿Sabes las reglas?", "¡Tu turno!"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.6
+      },
+      "context_tags": ["reglas", "turnos", "estrategia"]
+    }
+  ]
+}

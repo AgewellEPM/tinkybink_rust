@@ -1,0 +1,201 @@
+{
+  "category": "escuela",
+  "language": "es-ES",
+  "nodes": [
+    {
+      "id": "profesor_maestro",
+      "text": "Profesor/Maestro",
+      "emoji": "👨‍🏫",
+      "responses": ["¿Te gusta tu profesor?", "¿Qué enseña el maestro?", "¿El profesor es amable?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.6
+      },
+      "context_tags": ["educación", "autoridad", "aprendizaje"]
+    },
+    {
+      "id": "profesora_maestra",
+      "text": "Profesora/Maestra",
+      "emoji": "👩‍🏫",
+      "responses": ["¿Tu maestra es simpática?", "¿Qué te enseña la profesora?", "¿Te ayuda la maestra?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.6
+      },
+      "context_tags": ["educación", "cuidado", "enseñanza"]
+    },
+    {
+      "id": "clase",
+      "text": "Clase",
+      "emoji": "📚",
+      "responses": ["¿Qué clase tienes ahora?", "¿Te gusta ir a clase?", "¿Cuál es tu clase favorita?"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.5
+      },
+      "context_tags": ["aula", "educación", "rutina"]
+    },
+    {
+      "id": "tarea",
+      "text": "Tarea",
+      "emoji": "📝",
+      "responses": ["¿Tienes mucha tarea?", "¿Necesitas ayuda con la tarea?", "¿Ya terminaste la tarea?"],
+      "emotion": {
+        "valencia": 0.4,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.5
+      },
+      "context_tags": ["responsabilidad", "estudios", "esfuerzo"]
+    },
+    {
+      "id": "recreo",
+      "text": "Recreo",
+      "emoji": "🏃",
+      "responses": ["¡Qué divertido el recreo!", "¿A qué juegas en el recreo?", "¿Con quién juegas en el recreo?"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.8,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["diversión", "descanso", "juego"]
+    },
+    {
+      "id": "companeros",
+      "text": "Compañeros de clase",
+      "emoji": "👫",
+      "responses": ["¿Te llevas bien con tus compañeros?", "¿Juegas con ellos?", "¿Tienes buenos amigos en clase?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["amistad", "socialización", "compañerismo"]
+    },
+    {
+      "id": "examen",
+      "text": "Examen",
+      "emoji": "📋",
+      "responses": ["¿Cómo te fue en el examen?", "¿Estudiaste para el examen?", "¿Te pones nervioso en los exámenes?"],
+      "emotion": {
+        "valencia": 0.3,
+        "activacion": 0.8,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["evaluación", "nervios", "preparación"]
+    },
+    {
+      "id": "mochila",
+      "text": "Mochila",
+      "emoji": "🎒",
+      "responses": ["¿Tienes todo en tu mochila?", "¿Tu mochila está pesada?", "¿Qué llevas en la mochila?"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.4,
+        "expresividad": 0.5,
+        "pasion": 0.4
+      },
+      "context_tags": ["material_escolar", "organización", "preparación"]
+    },
+    {
+      "id": "libro",
+      "text": "Libro de texto",
+      "emoji": "📖",
+      "responses": ["¿Qué libro estás leyendo?", "¿Te gusta leer?", "¿Necesitas tu libro para clase?"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.4,
+        "expresividad": 0.5,
+        "pasion": 0.5
+      },
+      "context_tags": ["lectura", "conocimiento", "estudio"]
+    },
+    {
+      "id": "pizarra",
+      "text": "Pizarra",
+      "emoji": "📋",
+      "responses": ["¿Puedes ver bien la pizarra?", "¿El maestro escribe en la pizarra?", "¿Te gusta escribir en la pizarra?"],
+      "emotion": {
+        "valencia": 0.5,
+        "activacion": 0.4,
+        "expresividad": 0.5,
+        "pasion": 0.4
+      },
+      "context_tags": ["herramienta_educativa", "visual", "participación"]
+    },
+    {
+      "id": "matematicas",
+      "text": "Matemáticas",
+      "emoji": "🔢",
+      "responses": ["¿Te gustan las matemáticas?", "¿Son difíciles los números?", "¿Necesitas ayuda con matemáticas?"],
+      "emotion": {
+        "valencia": 0.5,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.5
+      },
+      "context_tags": ["materia", "números", "lógica"]
+    },
+    {
+      "id": "lengua",
+      "text": "Lengua/Español",
+      "emoji": "📚",
+      "responses": ["¿Te gusta leer y escribir?", "¿Cuál es tu cuento favorito?", "¿Practicas la escritura?"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.6
+      },
+      "context_tags": ["idioma", "comunicación", "literatura"]
+    },
+    {
+      "id": "educacion_fisica",
+      "text": "Educación Física",
+      "emoji": "⚽",
+      "responses": ["¿Te gusta hacer deporte?", "¿Qué deporte practicas en educación física?", "¿Te diviertes en gimnasia?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.8,
+        "expresividad": 0.7,
+        "pasion": 0.7
+      },
+      "context_tags": ["deporte", "movimiento", "salud"]
+    },
+    {
+      "id": "no_quiero_ir_escuela",
+      "text": "No quiero ir a la escuela",
+      "emoji": "😞",
+      "responses": ["¿Por qué no quieres ir?", "¿Hay algo que te molesta en la escuela?", "Podemos hablar de lo que te preocupa"],
+      "emotion": {
+        "valencia": 0.2,
+        "activacion": 0.4,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["resistencia", "preocupación", "apoyo_emocional"]
+    },
+    {
+      "id": "me_gusta_escuela",
+      "text": "Me gusta la escuela",
+      "emoji": "😊",
+      "responses": ["¡Qué bueno que te guste!", "¿Qué es lo que más te gusta?", "¡Es genial aprender cosas nuevas!"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["entusiasmo", "aprendizaje", "positividad"]
+    }
+  ]
+}

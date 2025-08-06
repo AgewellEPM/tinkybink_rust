@@ -1,0 +1,201 @@
+{
+  "category": "saludos",
+  "language": "es-ES",
+  "nodes": [
+    {
+      "id": "saludo_hola",
+      "text": "Hola",
+      "emoji": "👋",
+      "responses": ["¡Hola! ¿Cómo estás?", "¡Hola! Me alegro de verte", "¡Hola! ¿Qué tal?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.5
+      },
+      "context_tags": ["casual", "informal", "universal"]
+    },
+    {
+      "id": "saludo_buenos_dias",
+      "text": "Buenos días",
+      "emoji": "☀️",
+      "responses": ["¡Buenos días! ¿Cómo ha dormido?", "¡Buenos días! Que tenga un buen día", "¡Buenos días! ¿Cómo amanece?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.7,
+        "expresividad": 0.6,
+        "pasion": 0.4
+      },
+      "context_tags": ["mañana", "formal", "cortesía"]
+    },
+    {
+      "id": "saludo_buenas_tardes",
+      "text": "Buenas tardes",
+      "emoji": "🌅",
+      "responses": ["¡Buenas tardes! ¿Cómo está la tarde?", "¡Buenas tardes! Espero que esté bien", "¡Buenas tardes! ¿Qué tal el día?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.4
+      },
+      "context_tags": ["tarde", "formal", "cortesía"]
+    },
+    {
+      "id": "saludo_buenas_noches",
+      "text": "Buenas noches",
+      "emoji": "🌙",
+      "responses": ["¡Buenas noches! Que descanse bien", "¡Buenas noches! Dulces sueños", "¡Buenas noches! Hasta mañana"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.3,
+        "expresividad": 0.5,
+        "pasion": 0.3
+      },
+      "context_tags": ["noche", "despedida", "descanso"]
+    },
+    {
+      "id": "despedida_adios",
+      "text": "Adiós",
+      "emoji": "👋",
+      "responses": ["¡Adiós! Que tengas un buen día", "¡Adiós! Hasta pronto", "¡Adiós! Cuídate mucho"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.4,
+        "expresividad": 0.6,
+        "pasion": 0.4
+      },
+      "context_tags": ["despedida", "neutral", "cortesía"]
+    },
+    {
+      "id": "despedida_hasta_luego",
+      "text": "Hasta luego",
+      "emoji": "👋",
+      "responses": ["¡Hasta luego! Nos vemos", "¡Hasta luego! Que vaya bien", "¡Hasta luego! Te veo después"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.4
+      },
+      "context_tags": ["despedida", "temporal", "informal"]
+    },
+    {
+      "id": "despedida_hasta_pronto",
+      "text": "Hasta pronto",
+      "emoji": "😊",
+      "responses": ["¡Hasta pronto! Espero verte soon", "¡Hasta pronto! Cuidate", "¡Hasta pronto! Nos vemos pronto"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.5
+      },
+      "context_tags": ["despedida", "esperanza", "afecto"]
+    },
+    {
+      "id": "saludo_que_tal",
+      "text": "¿Qué tal?",
+      "emoji": "🤗",
+      "responses": ["¡Todo bien! ¿Y tú qué tal?", "¡Muy bien, gracias! ¿Cómo estás?", "¡Genial! ¿Cómo te va?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.6,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["pregunta", "informal", "interés"]
+    },
+    {
+      "id": "saludo_como_estas",
+      "text": "¿Cómo estás?",
+      "emoji": "😊",
+      "responses": ["Muy bien, gracias por preguntar", "¡Estoy fenomenal!", "Bien, ¿y tú cómo estás?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["pregunta", "cuidado", "interés"]
+    },
+    {
+      "id": "saludo_que_pasa",
+      "text": "¿Qué pasa?",
+      "emoji": "👋",
+      "responses": ["¡Nada especial! ¿Y tú?", "Todo tranquilo, ¿qué tal tú?", "Aquí andamos, ¿qué cuentas?"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.5
+      },
+      "context_tags": ["casual", "coloquial", "españa"]
+    },
+    {
+      "id": "saludo_encantado",
+      "text": "Encantado/a de conocerte",
+      "emoji": "🤝",
+      "responses": ["¡Igualmente! Un placer", "¡El placer es mío!", "¡Encantado también!"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["primer_encuentro", "cortesía", "formal"]
+    },
+    {
+      "id": "despedida_nos_vemos",
+      "text": "Nos vemos",
+      "emoji": "👋",
+      "responses": ["¡Nos vemos! Cuídate", "¡Nos vemos! Que tengas buen día", "¡Nos vemos! Hasta la vista"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.4
+      },
+      "context_tags": ["despedida", "casual", "futuro"]
+    },
+    {
+      "id": "saludo_muy_buenas",
+      "text": "¡Muy buenas!",
+      "emoji": "😄",
+      "responses": ["¡Muy buenas! ¿Cómo va todo?", "¡Buenas! ¿Qué tal el día?", "¡Hola! ¿Cómo andamos?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.6
+      },
+      "context_tags": ["energético", "españa", "informal"]
+    },
+    {
+      "id": "despedida_chao",
+      "text": "Chao",
+      "emoji": "👋",
+      "responses": ["¡Chao! Que estés bien", "¡Chao! Nos hablamos", "¡Chao! Cuídate mucho"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.4
+      },
+      "context_tags": ["despedida", "latinoamérica", "casual"]
+    },
+    {
+      "id": "saludo_que_hubo",
+      "text": "¿Qué hubo?",
+      "emoji": "😎",
+      "responses": ["¡Todo bien! ¿Qué tal tú?", "¡Aquí andando! ¿Cómo vas?", "¡Todo chévere! ¿Y tú qué tal?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["coloquial", "latinoamérica", "joven"]
+    }
+  ]
+}

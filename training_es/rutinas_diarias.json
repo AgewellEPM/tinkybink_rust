@@ -1,0 +1,201 @@
+{
+  "category": "rutinas_diarias",
+  "language": "es-ES",
+  "nodes": [
+    {
+      "id": "desayuno",
+      "text": "Desayuno",
+      "emoji": "🍳",
+      "responses": ["¿Qué quieres desayunar?", "¡Buen provecho!", "¿Prefieres dulce o salado?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.5
+      },
+      "context_tags": ["mañana", "comida", "rutina", "energía"]
+    },
+    {
+      "id": "cepillar_dientes",
+      "text": "Cepillar los dientes",
+      "emoji": "🪥",
+      "responses": ["¡Muy bien por cuidar tus dientes!", "¿Ya tienes el cepillo?", "¡Sonríe que tienes los dientes limpios!"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.4,
+        "expresividad": 0.6,
+        "pasion": 0.4
+      },
+      "context_tags": ["higiene", "salud", "rutina", "cuidado_personal"]
+    },
+    {
+      "id": "vestirse",
+      "text": "Vestirse",
+      "emoji": "👕",
+      "responses": ["¿Qué ropa te pones hoy?", "¿Necesitas ayuda para vestirte?", "¡Qué guapo/a estás!"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.5
+      },
+      "context_tags": ["ropa", "autonomía", "rutina_matutina", "presentación"]
+    },
+    {
+      "id": "ducharse",
+      "text": "Ducharse/Bañarse",
+      "emoji": "🚿",
+      "responses": ["¿Está el agua a buena temperatura?", "¡Qué limpio/a vas a estar!", "¿Tienes tu champú?"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.4,
+        "expresividad": 0.5,
+        "pasion": 0.4
+      },
+      "context_tags": ["higiene", "relajación", "limpieza", "rutina"]
+    },
+    {
+      "id": "almuerzo",
+      "text": "Almuerzo",
+      "emoji": "🍽️",
+      "responses": ["¿Qué vamos a comer?", "¡La comida está rica!", "¿Tienes mucha hambre?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.6
+      },
+      "context_tags": ["mediodía", "comida_principal", "nutrición", "familia"]
+    },
+    {
+      "id": "siesta",
+      "text": "Siesta",
+      "emoji": "😴",
+      "responses": ["¡Qué bien sienta la siesta!", "¿Te echo una manta?", "Descansa un poquito"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.2,
+        "expresividad": 0.5,
+        "pasion": 0.4
+      },
+      "context_tags": ["descanso", "españa", "relajación", "tradición"]
+    },
+    {
+      "id": "merienda",
+      "text": "Merienda",
+      "emoji": "🍪",
+      "responses": ["¿Qué quieres merendar?", "¡La merienda está lista!", "¿Un bocadillo o algo dulce?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.6
+      },
+      "context_tags": ["tarde", "snack", "energía", "tradición_española"]
+    },
+    {
+      "id": "cena",
+      "text": "Cena",
+      "emoji": "🍽️",
+      "responses": ["¿Qué cenamos hoy?", "¡Vamos a cenar!", "¿Tienes ganas de cenar?"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.5
+      },
+      "context_tags": ["noche", "comida", "familia", "reunión"]
+    },
+    {
+      "id": "hacer_cama",
+      "text": "Hacer la cama",
+      "emoji": "🛏️",
+      "responses": ["¡Qué ordenado/a!", "¿Te ayudo con la cama?", "¡La habitación está muy bien!"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.4,
+        "expresividad": 0.5,
+        "pasion": 0.4
+      },
+      "context_tags": ["orden", "responsabilidad", "hogar", "autonomía"]
+    },
+    {
+      "id": "lavarse_cara",
+      "text": "Lavarse la cara",
+      "emoji": "🧼",
+      "responses": ["¡Qué limpia tienes la cara!", "¿Está fresquita el agua?", "¡Muy bien!"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.4,
+        "expresividad": 0.5,
+        "pasion": 0.4
+      },
+      "context_tags": ["higiene", "frescura", "despertar", "rutina_matutina"]
+    },
+    {
+      "id": "peinarse",
+      "text": "Peinarse",
+      "emoji": "💇",
+      "responses": ["¿Dónde tienes el peine?", "¡Qué bien peinado/a!", "¿Te gusta cómo te queda?"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.4,
+        "expresividad": 0.6,
+        "pasion": 0.5
+      },
+      "context_tags": ["arreglo_personal", "aspecto", "cuidado", "rutina"]
+    },
+    {
+      "id": "recoger_juguetes",
+      "text": "Recoger juguetes",
+      "emoji": "🧸",
+      "responses": ["¡Qué ordenado/a eres!", "¿Te ayudo a recoger?", "¡Así está mucho mejor!"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.5
+      },
+      "context_tags": ["orden", "responsabilidad", "limpieza", "hogar"]
+    },
+    {
+      "id": "ponerse_pijama",
+      "text": "Ponerse el pijama",
+      "emoji": "👔",
+      "responses": ["¡Qué cómodo/a vas a estar!", "¿Cuál es tu pijama favorito?", "¡Listo/a para dormir!"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.3,
+        "expresividad": 0.5,
+        "pasion": 0.4
+      },
+      "context_tags": ["comodidad", "noche", "rutina_nocturna", "descanso"]
+    },
+    {
+      "id": "preparar_mochila",
+      "text": "Preparar la mochila",
+      "emoji": "🎒",
+      "responses": ["¿Tienes todos los libros?", "¿Falta algo en la mochila?", "¡Muy bien organizado/a!"],
+      "emotion": {
+        "valencia": 0.6,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.5
+      },
+      "context_tags": ["escuela", "organización", "preparación", "responsabilidad"]
+    },
+    {
+      "id": "dormir",
+      "text": "Ir a dormir",
+      "emoji": "🌙",
+      "responses": ["¡Que duermas bien!", "¡Dulces sueños!", "¡Buenas noches!"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.2,
+        "expresividad": 0.5,
+        "pasion": 0.4
+      },
+      "context_tags": ["sueño", "descanso", "noche", "tranquilidad"]
+    }
+  ]
+}

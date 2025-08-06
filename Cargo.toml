@@ -12,6 +12,8 @@ chrono = { version = "0.4", features = ["serde"] }
 uuid = { version = "1.0", features = ["v4", "serde", "js"] }
 thiserror = "1.0"
 anyhow = "1.0"
+rand = "0.8"
+colored = "2.0"
 tracing = { version = "0.1", optional = true }
 tracing-subscriber = { version = "0.3", optional = true }
 clap = { version = "4.0", features = ["derive"], optional = true }
@@ -82,6 +84,14 @@ path = "src/main.rs"
 [[bin]]
 name = "conversation_demo"
 path = "src/bin/conversation_demo.rs"
+
+[[bin]]
+name = "gpt_demo"
+path = "src/bin/gpt_demo.rs"
+
+[[bin]]
+name = "gpt_demo_es"
+path = "src/bin/gpt_demo_es.rs"
 
 [dev-dependencies]
 tempfile = "3.0"

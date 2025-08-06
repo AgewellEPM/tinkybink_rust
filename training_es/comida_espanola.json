@@ -1,0 +1,201 @@
+{
+  "category": "comida_espanola",
+  "language": "es-ES",
+  "nodes": [
+    {
+      "id": "paella",
+      "text": "Paella",
+      "emoji": "🥘",
+      "responses": ["¡La paella está deliciosa!", "¿Te gusta la paella valenciana?", "¿Prefieres paella de mariscos o mixta?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.8
+      },
+      "context_tags": ["plato_típico", "valencia", "arroz", "tradición"]
+    },
+    {
+      "id": "tortilla_espanola",
+      "text": "Tortilla española",
+      "emoji": "🥚",
+      "responses": ["¿La tortilla con cebolla o sin cebolla?", "¡Qué rica está la tortilla!", "¿Sabes hacer tortilla española?"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.5,
+        "expresividad": 0.7,
+        "pasion": 0.7
+      },
+      "context_tags": ["tradición", "huevos", "patatas", "debate_cebolla"]
+    },
+    {
+      "id": "gazpacho",
+      "text": "Gazpacho",
+      "emoji": "🍅",
+      "responses": ["¡Qué refrescante el gazpacho!", "¿Te gusta el gazpacho en verano?", "El gazpacho andaluz está buenísimo"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.4,
+        "expresividad": 0.6,
+        "pasion": 0.6
+      },
+      "context_tags": ["andalucía", "verano", "tomate", "fresco"]
+    },
+    {
+      "id": "tapas",
+      "text": "Tapas",
+      "emoji": "🍤",
+      "responses": ["¡Vamos de tapas!", "¿Cuál es tu tapa favorita?", "Las tapas son perfectas para compartir"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.7
+      },
+      "context_tags": ["socializar", "variedad", "tradición", "bar"]
+    },
+    {
+      "id": "jamon_iberico",
+      "text": "Jamón ibérico",
+      "emoji": "🍖",
+      "responses": ["¡El jamón ibérico es exquisito!", "¿De bellota o de cebo?", "El mejor jamón del mundo"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.6,
+        "expresividad": 0.8,
+        "pasion": 0.9
+      },
+      "context_tags": ["lujo", "tradición", "calidad", "dehesa"]
+    },
+    {
+      "id": "churros",
+      "text": "Churros con chocolate",
+      "emoji": "🍩",
+      "responses": ["¡Los churros están crujientes!", "¿Con azúcar o con chocolate?", "Los churros de Madrid son los mejores"],
+      "emotion": {
+        "valencia": 0.9,
+        "activacion": 0.7,
+        "expresividad": 0.8,
+        "pasion": 0.8
+      },
+      "context_tags": ["dulce", "desayuno", "madrid", "tradición"]
+    },
+    {
+      "id": "fabada_asturiana",
+      "text": "Fabada asturiana",
+      "emoji": "🫘",
+      "responses": ["¡Qué sustanciosa la fabada!", "¿Te gusta con morcilla?", "La fabada es perfecta para el invierno"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.4,
+        "expresividad": 0.6,
+        "pasion": 0.7
+      },
+      "context_tags": ["asturias", "invierno", "contundente", "regional"]
+    },
+    {
+      "id": "pulpo_gallego",
+      "text": "Pulpo a la gallega",
+      "emoji": "🐙",
+      "responses": ["¡El pulpo está en su punto!", "¿Con pimentón dulce o picante?", "Como en Galicia, en ningún sitio"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.8
+      },
+      "context_tags": ["galicia", "marisco", "pimentón", "tradición"]
+    },
+    {
+      "id": "sangria",
+      "text": "Sangría",
+      "emoji": "🍷",
+      "responses": ["¡La sangría está refrescante!", "¿Con qué fruta te gusta?", "Perfecta para el verano"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.6,
+        "expresividad": 0.7,
+        "pasion": 0.6
+      },
+      "context_tags": ["bebida", "verano", "fruta", "celebración"]
+    },
+    {
+      "id": "pan_tumaca",
+      "text": "Pan con tomate",
+      "emoji": "🍞",
+      "responses": ["¡El pa amb tomàquet es catalán!", "¿Con ajo o sin ajo?", "¡Qué sencillo y qué rico!"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.7
+      },
+      "context_tags": ["cataluña", "sencillo", "tomate", "desayuno"]
+    },
+    {
+      "id": "cocido_madrileno",
+      "text": "Cocido madrileño",
+      "emoji": "🍲",
+      "responses": ["¡El cocido de tres vuelcos!", "¿Primero la sopa o los garbanzos?", "Plato de invierno por excelencia"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.4,
+        "expresividad": 0.6,
+        "pasion": 0.8
+      },
+      "context_tags": ["madrid", "invierno", "tradición", "tres_vuelcos"]
+    },
+    {
+      "id": "crema_catalana",
+      "text": "Crema catalana",
+      "emoji": "🍮",
+      "responses": ["¡La crema está perfecta!", "¿Oyes cómo cruje el azúcar?", "El postre catalán más famoso"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.5,
+        "expresividad": 0.7,
+        "pasion": 0.7
+      },
+      "context_tags": ["cataluña", "postre", "azúcar_quemado", "dulce"]
+    },
+    {
+      "id": "manchego",
+      "text": "Queso manchego",
+      "emoji": "🧀",
+      "responses": ["¡El manchego está curado!", "¿Prefieres tierno o curado?", "El mejor queso de España"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.4,
+        "expresividad": 0.6,
+        "pasion": 0.8
+      },
+      "context_tags": ["la_mancha", "oveja", "curado", "tradición"]
+    },
+    {
+      "id": "migas",
+      "text": "Migas",
+      "emoji": "🥖",
+      "responses": ["¡Las migas están crujientes!", "¿Con chorizo o con uvas?", "Plato de aprovechamiento perfecto"],
+      "emotion": {
+        "valencia": 0.7,
+        "activacion": 0.5,
+        "expresividad": 0.6,
+        "pasion": 0.7
+      },
+      "context_tags": ["rural", "aprovechamiento", "pan_duro", "tradición"]
+    },
+    {
+      "id": "horchata",
+      "text": "Horchata",
+      "emoji": "🥛",
+      "responses": ["¡Qué fresca la horchata!", "¿Con fartons?", "La horchata valenciana es única"],
+      "emotion": {
+        "valencia": 0.8,
+        "activacion": 0.4,
+        "expresividad": 0.6,
+        "pasion": 0.6
+      },
+      "context_tags": ["valencia", "chufa", "verano", "refrescante"]
+    }
+  ]
+}
