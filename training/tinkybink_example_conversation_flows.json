@@ -1,0 +1,89 @@
+{
+  "pizza_ordering_flow": {
+    "description": "Complete pizza ordering conversation",
+    "steps": [
+      {
+        "user_sees": "What do you want to eat?",
+        "options": [
+          "🍕 Pizza option available",
+          "🍗 Chicken also good",
+          "🍔 Burger sounds tasty",
+          "🌮 Tacos are delicious"
+        ],
+        "user_selects": "🍕 Pizza option available",
+        "next_prompt": "Pizza chosen! What toppings?"
+      },
+      {
+        "user_sees": "Pizza chosen! What toppings?",
+        "options": [
+          "🍄 Mushrooms are tasty",
+          "🥓 Bacon adds flavor",
+          "🧄 Pepperoni is classic",
+          "🧀 Extra cheese please"
+        ],
+        "user_selects": "🍄 Mushrooms are tasty",
+        "next_prompt": "Mushroom pizza! What size?"
+      },
+      {
+        "user_sees": "Mushroom pizza! What size?",
+        "options": [
+          "🍕 Small for one",
+          "🍕🍕 Medium for two",
+          "🍕🍕🍕 Large for family",
+          "🍕🍕🍕🍕 Extra large party"
+        ],
+        "user_selects": "🍕🍕🍕 Large for family",
+        "next_prompt": "Large pizza! Crust type?"
+      },
+      {
+        "user_sees": "Large pizza! Crust type?",
+        "options": [
+          "🥖 Thin crust crispy",
+          "🍞 Thick crust chewy",
+          "🧄 Garlic crust flavored",
+          "🧀 Stuffed crust cheesy"
+        ],
+        "user_selects": "🥖 Thin crust crispy",
+        "result": "Order complete: Large thin crust mushroom pizza for the family!"
+      }
+    ]
+  },
+  "emotion_support_flow": {
+    "description": "Emotional support conversation",
+    "steps": [
+      {
+        "user_sees": "How are you feeling?",
+        "options": [
+          "😊 Happy and cheerful",
+          "😢 Sad and down",
+          "😠 Angry and mad",
+          "😰 Worried and anxious"
+        ],
+        "user_selects": "😢 Sad and down",
+        "next_prompt": "Feeling sad! What helps?"
+      },
+      {
+        "user_sees": "Feeling sad! What helps?",
+        "options": [
+          "🤗 Hugs from family",
+          "😭 Crying releases feelings",
+          "🎵 Music makes better",
+          "📞 Talk to friend"
+        ],
+        "user_selects": "🎵 Music makes better",
+        "next_prompt": "Music helps! What kind?"
+      },
+      {
+        "user_sees": "Music helps! What kind?",
+        "options": [
+          "🎸 Upbeat happy songs",
+          "🎹 Calm peaceful music",
+          "🎤 Sing along favorites",
+          "🎧 My special playlist"
+        ],
+        "user_selects": "🎸 Upbeat happy songs",
+        "result": "Great choice! Upbeat music can help lift your mood."
+      }
+    ]
+  }
+}

@@ -30,7 +30,6 @@ pub fn get_basic_tiles() -> Vec<SuggestionTile> {
             category: TileCategory::Emotion,
             confidence: 1.0,
         },
-        
         // Emotions
         SuggestionTile {
             emoji: "😊".to_string(),
@@ -56,7 +55,6 @@ pub fn get_basic_tiles() -> Vec<SuggestionTile> {
             category: TileCategory::Emotion,
             confidence: 1.0,
         },
-        
         // Responses
         SuggestionTile {
             emoji: "✅".to_string(),
@@ -82,7 +80,6 @@ pub fn get_basic_tiles() -> Vec<SuggestionTile> {
             category: TileCategory::BasicResponse,
             confidence: 1.0,
         },
-        
         // Activities
         SuggestionTile {
             emoji: "🎮".to_string(),
@@ -132,7 +129,7 @@ fn get_smart_emoji(word: &str) -> &'static str {
         "bed" | "bedroom" => "🛏️",
         "bathroom" => "🚽",
         "kitchen" => "🍳",
-        
+
         // Food & Drink
         "eat" | "food" | "hungry" => "🍽️",
         "drink" | "thirsty" => "💧",
@@ -152,7 +149,7 @@ fn get_smart_emoji(word: &str) -> &'static str {
         "candy" => "🍬",
         "fruit" => "🍓",
         "vegetable" | "veggies" => "🥦",
-        
+
         // Activities
         "play" => "🎮",
         "game" | "games" => "🎯",
@@ -171,7 +168,7 @@ fn get_smart_emoji(word: &str) -> &'static str {
         "homework" => "📝",
         "computer" => "💻",
         "tablet" | "ipad" => "📱",
-        
+
         // People
         "mom" | "mommy" | "mother" => "👩",
         "dad" | "daddy" | "father" => "👨",
@@ -182,7 +179,7 @@ fn get_smart_emoji(word: &str) -> &'static str {
         "baby" => "👶",
         "friend" | "friends" => "👫",
         "teacher" => "👩‍🏫",
-        
+
         // Emotions/States
         "happy" => "😊",
         "sad" => "😢",
@@ -194,7 +191,7 @@ fn get_smart_emoji(word: &str) -> &'static str {
         "kiss" => "😘",
         "hot" => "🥵",
         "cold" => "🥶",
-        
+
         // Objects
         "toy" | "toys" => "🧸",
         "ball" => "⚽",
@@ -204,7 +201,7 @@ fn get_smart_emoji(word: &str) -> &'static str {
         "clothes" => "👕",
         "shoes" => "👟",
         "jacket" | "coat" => "🧥",
-        
+
         // Time
         "now" => "⏰",
         "later" => "⏳",
@@ -212,7 +209,7 @@ fn get_smart_emoji(word: &str) -> &'static str {
         "today" => "📆",
         "morning" => "🌅",
         "night" => "🌙",
-        
+
         // Actions
         "go" => "👉",
         "stop" => "🛑",
@@ -221,22 +218,23 @@ fn get_smart_emoji(word: &str) -> &'static str {
         "share" => "🤝",
         "give" => "🤲",
         "take" => "✋",
-        
+
         // Default
-        _ => "💭"
+        _ => "💭",
     }
 }
 
 /// Extract key words from parent input
 fn extract_key_words(text: &str) -> Vec<String> {
-    let stop_words = vec!["the", "a", "an", "to", "do", "you", "want", "would", "like", 
-                          "let's", "can", "we", "i", "me", "my", "your", "our", "go",
-                          "is", "are", "was", "were", "be", "been", "have", "has"];
-    
+    let stop_words = vec![
+        "the", "a", "an", "to", "do", "you", "want", "would", "like", "let's", "can", "we", "i",
+        "me", "my", "your", "our", "go", "is", "are", "was", "were", "be", "been", "have", "has",
+    ];
+
     text.to_lowercase()
         .split_whitespace()
         .map(|w| w.trim_matches(|c: char| !c.is_alphanumeric()))
-        .filter(|w| !w.is_empty() && !stop_words.contains(&w))
+        .filter(|w| !w.is_empty() && !stop_words.contains(w))
         .map(|w| w.to_string())
         .collect()
 }
@@ -245,10 +243,10 @@ fn extract_key_words(text: &str) -> Vec<String> {
 pub fn get_contextual_tiles(parent_input: &str) -> Vec<SuggestionTile> {
     let input_lower = parent_input.to_lowercase();
     let mut tiles = Vec::new();
-    
+
     // Extract key words from parent input
     let key_words = extract_key_words(parent_input);
-    
+
     // Look for specific patterns
     if input_lower.contains(" or ") {
         // Handle "X or Y" choices
@@ -259,7 +257,16 @@ pub fn get_contextual_tiles(parent_input: &str) -> Vec<SuggestionTile> {
                 let emoji = get_smart_emoji(main_word);
                 tiles.push(SuggestionTile {
                     emoji: emoji.to_string(),
-                    text: format!("Yes! {}", main_word.chars().next().unwrap().to_uppercase().collect::<String>() + &main_word[1..]),
+                    text: format!(
+                        "Yes! {}",
+                        main_word
+                            .chars()
+                            .next()
+                            .unwrap()
+                            .to_uppercase()
+                            .collect::<String>()
+                            + &main_word[1..]
+                    ),
                     category: TileCategory::Choice,
                     confidence: 1.0,
                 });
@@ -269,25 +276,34 @@ pub fn get_contextual_tiles(parent_input: &str) -> Vec<SuggestionTile> {
         // For statements/questions, predict child responses based on key words
         let main_topic = key_words.first().unwrap();
         let emoji = get_smart_emoji(main_topic);
-        
+
         // Generate contextual responses
         if input_lower.contains("let's") || input_lower.contains("let us") {
             // Responding to suggestions
             tiles.push(SuggestionTile {
                 emoji: emoji.to_string(),
-                text: format!("Yes! {}", main_topic),
+                text: format!("Yes! {main_topic}"),
                 category: TileCategory::BasicResponse,
                 confidence: 1.0,
             });
             tiles.push(SuggestionTile {
                 emoji: "🚫".to_string(),
-                text: format!("No {}", main_topic),
+                text: format!("No {main_topic}"),
                 category: TileCategory::BasicResponse,
                 confidence: 1.0,
             });
             tiles.push(SuggestionTile {
                 emoji: "⏳".to_string(),
-                text: format!("{} later", main_topic.chars().next().unwrap().to_uppercase().collect::<String>() + &main_topic[1..]),
+                text: format!(
+                    "{} later",
+                    main_topic
+                        .chars()
+                        .next()
+                        .unwrap()
+                        .to_uppercase()
+                        .collect::<String>()
+                        + &main_topic[1..]
+                ),
                 category: TileCategory::BasicResponse,
                 confidence: 0.8,
             });
@@ -308,19 +324,31 @@ pub fn get_contextual_tiles(parent_input: &str) -> Vec<SuggestionTile> {
             if !key_words.is_empty() {
                 tiles.push(SuggestionTile {
                     emoji: emoji.to_string(),
-                    text: format!("I want {}", main_topic),
+                    text: format!("I want {main_topic}"),
                     category: TileCategory::Choice,
                     confidence: 0.9,
                 });
             }
         } else {
             // Statements - predict child's likely responses
-            
+
             // Check all key words for better context
-            let has_bed_context = key_words.iter().any(|w| matches!(w.as_str(), "bed" | "sleep" | "nap" | "tired" | "bedtime"));
-            let has_food_context = key_words.iter().any(|w| matches!(w.as_str(), "eat" | "food" | "hungry" | "lunch" | "dinner" | "breakfast" | "snack"));
-            let has_outside_context = key_words.iter().any(|w| matches!(w.as_str(), "park" | "outside" | "playground" | "walk" | "play"));
-            
+            let has_bed_context = key_words
+                .iter()
+                .any(|w| matches!(w.as_str(), "bed" | "sleep" | "nap" | "tired" | "bedtime"));
+            let has_food_context = key_words.iter().any(|w| {
+                matches!(
+                    w.as_str(),
+                    "eat" | "food" | "hungry" | "lunch" | "dinner" | "breakfast" | "snack"
+                )
+            });
+            let has_outside_context = key_words.iter().any(|w| {
+                matches!(
+                    w.as_str(),
+                    "park" | "outside" | "playground" | "walk" | "play"
+                )
+            });
+
             if has_bed_context {
                 tiles.push(SuggestionTile {
                     emoji: "😴".to_string(),
@@ -388,20 +416,20 @@ pub fn get_contextual_tiles(parent_input: &str) -> Vec<SuggestionTile> {
                 // Generic responses with topic emoji
                 tiles.push(SuggestionTile {
                     emoji: emoji.to_string(),
-                    text: format!("Yes {}", main_topic),
+                    text: format!("Yes {main_topic}"),
                     category: TileCategory::BasicResponse,
                     confidence: 0.9,
                 });
                 tiles.push(SuggestionTile {
                     emoji: "🚫".to_string(),
-                    text: format!("No {}", main_topic),
+                    text: format!("No {main_topic}"),
                     category: TileCategory::BasicResponse,
                     confidence: 0.9,
                 });
             }
         }
     }
-    
+
     // Always add some fallback options
     tiles.push(SuggestionTile {
         emoji: "❓".to_string(),
@@ -409,13 +437,13 @@ pub fn get_contextual_tiles(parent_input: &str) -> Vec<SuggestionTile> {
         category: TileCategory::BasicResponse,
         confidence: 0.7,
     });
-    
+
     tiles.push(SuggestionTile {
         emoji: "💭".to_string(),
         text: "Something else".to_string(),
         category: TileCategory::BasicResponse,
         confidence: 0.6,
     });
-    
+
     tiles
 }

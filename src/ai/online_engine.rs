@@ -1,13 +1,13 @@
 //! 🌐 Online AI Engine - GPT-like responses when internet available
-//! 
+//!
 //! Uses free AI APIs when internet is available
 
-use super::{AiEngine, AiContext, AiResponse, AiEngineInfo, CHILD_AAC_PROMPT};
+use super::{AiContext, AiEngine, AiEngineInfo, AiResponse};
 use anyhow::Result;
 use serde::{Deserialize, Serialize};
 
 #[cfg(feature = "tracing")]
-use tracing::{info, warn, debug};
+use tracing::{debug, info, warn};
 
 /// Online AI client for cloud-based inference
 pub struct OnlineEngine {
@@ -40,14 +40,19 @@ impl OnlineEngine {
         // Using a free API endpoint (you can replace with OpenAI, etc.)
         let api_url = "https://api.together.xyz/inference".to_string();
         let model_name = "togethercomputer/RedPajama-INCITE-Chat-3B-v1".to_string();
-        
+
         #[cfg(feature = "reqwest")]
         let client = reqwest::Client::new();
-        
+
         // Check internet connectivity
         #[cfg(feature = "reqwest")]
         {
-            match client.get("https://www.google.com").timeout(std::time::Duration::from_secs(2)).send().await {
+            match client
+                .get("https://www.google.com")
+                .timeout(std::time::Duration::from_secs(2))
+                .send()
+                .await
+            {
                 Ok(_) => {
                     info!("✅ Internet connection available");
                 }
@@ -57,7 +62,7 @@ impl OnlineEngine {
                 }
             }
         }
-        
+
         Ok(Self {
             api_url,
             model_name,
@@ -65,11 +70,11 @@ impl OnlineEngine {
             client,
         })
     }
-    
+
     /// Generate response using online AI
-    async fn generate_online(&self, input: &str, context: &AiContext) -> Result<Vec<AiResponse>> {
+    async fn generate_online(&self, input: &str, _context: &AiContext) -> Result<Vec<AiResponse>> {
         debug!("🌐 Generating with online AI");
-        
+
         // Build the prompt like your Android app
         let system_prompt = r#"You are a kind assistant helping a nonverbal child communicate.
 The parent asks a question, and you help the child express feelings or choices.
@@ -77,22 +82,20 @@ Give 4 short, expressive replies that are emotionally varied.
 Format: comma-separated list ONLY.
 Examples: Yes please, I don't know, I feel silly, No way"#;
 
-        let contextual_prompt = format!(
-            "{}\n\nParent: \"{}\"\nChild's possible responses:",
-            system_prompt,
-            input
+        let _contextual_prompt = format!(
+            "{system_prompt}\n\nParent: \"{input}\"\nChild's possible responses:"
         );
-        
+
         // For now, simulate GPT-like responses
         // In production, you'd make actual API call here
         let simulated_responses = self.simulate_gpt_response(input);
-        
+
         Ok(simulated_responses)
     }
-    
+
     fn simulate_gpt_response(&self, input: &str) -> Vec<AiResponse> {
         let input_lower = input.to_lowercase();
-        
+
         // Simulate GPT-like contextual responses
         let responses = if input_lower.contains("park") || input_lower.contains("outside") {
             vec![
@@ -130,8 +133,9 @@ Examples: Yes please, I don't know, I feel silly, No way"#;
                 ("What's that?", "❓", "curious"),
             ]
         };
-        
-        responses.into_iter()
+
+        responses
+            .into_iter()
             .map(|(text, emoji, emotion)| AiResponse {
                 text: text.to_string(),
                 emoji: emoji.to_string(),
@@ -147,11 +151,11 @@ impl AiEngine for OnlineEngine {
     async fn generate_response(&self, input: &str, context: &AiContext) -> Result<Vec<AiResponse>> {
         self.generate_online(input, context).await
     }
-    
+
     fn is_ready(&self) -> bool {
         true
     }
-    
+
     fn get_info(&self) -> AiEngineInfo {
         AiEngineInfo {
             name: "Online AI Engine".to_string(),

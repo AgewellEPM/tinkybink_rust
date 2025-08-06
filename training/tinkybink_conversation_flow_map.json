@@ -1,0 +1,315 @@
+{
+  "title": "TinkyBink Conversation Flow Map",
+  "categories": {
+    "request": {
+      "total_nodes": 587,
+      "sample_flows": [
+        {
+          "start": "Would you like to be friends?",
+          "tiles": [
+            "Yes please",
+            "Maybe",
+            "Hi there",
+            "I'm shy"
+          ],
+          "possible_paths": [
+            {
+              "if_selected": "yes please",
+              "next_response": "What do you like to do for fun?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "yes please",
+              "next_response": "Want to play together?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "yes please",
+              "next_response": "Would you like to join our activity?",
+              "strength": 0.6000000000000001
+            }
+          ]
+        }
+      ]
+    },
+    "general": {
+      "total_nodes": 2005,
+      "sample_flows": [
+        {
+          "start": "How was your day with family?",
+          "tiles": [
+            "Really good",
+            "Had fun",
+            "It was okay",
+            "Kind of hard"
+          ],
+          "possible_paths": [
+            {
+              "if_selected": "really good",
+              "next_response": "What did you do together?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "really good",
+              "next_response": "How do you feel in group activities?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "really good",
+              "next_response": "Are you comfortable?",
+              "strength": 0.6000000000000001
+            }
+          ]
+        }
+      ]
+    },
+    "help_seeking": {
+      "total_nodes": 38,
+      "sample_flows": [
+        {
+          "start": "Do you feel supported by family?",
+          "tiles": [
+            "Very much",
+            "Most times",
+            "Sometimes",
+            "Not really"
+          ],
+          "possible_paths": [
+            {
+              "if_selected": "very much",
+              "next_response": "How can we help you participate?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "very much",
+              "next_response": "Is the AAC device helping?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "very much",
+              "next_response": "Is the AAC device helping?",
+              "strength": 0.6000000000000001
+            }
+          ]
+        }
+      ]
+    },
+    "medical": {
+      "total_nodes": 64,
+      "sample_flows": [
+        {
+          "start": "How is your pain level?",
+          "tiles": [
+            "No pain",
+            "Mild pain",
+            "Moderate",
+            "Severe pain"
+          ],
+          "possible_paths": [
+            {
+              "if_selected": "no pain",
+              "next_response": "The doctor is here",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "no pain",
+              "next_response": "The doctor is here",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "no pain",
+              "next_response": "How is your pain level?",
+              "strength": 0.7000000000000001
+            }
+          ]
+        }
+      ]
+    },
+    "negative_emotion": {
+      "total_nodes": 193,
+      "sample_flows": [
+        {
+          "start": "It's okay to be upset",
+          "tiles": [
+            "I know",
+            "So hard",
+            "Want to go home",
+            "Thank you"
+          ],
+          "possible_paths": [
+            {
+              "if_selected": "i know",
+              "next_response": "I'm upset but I know I need to take my medicine",
+              "strength": 0.9000000000000001
+            },
+            {
+              "if_selected": "i know",
+              "next_response": "I think I know what to do",
+              "strength": 0.5
+            },
+            {
+              "if_selected": "i know",
+              "next_response": "How can I know",
+              "strength": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    "basic_needs": {
+      "total_nodes": 67,
+      "sample_flows": [
+        {
+          "start": "I'm having trouble breathing",
+          "tiles": [
+            "Call 911",
+            "Get inhaler",
+            "Sit down",
+            "Help me"
+          ],
+          "possible_paths": [
+            {
+              "if_selected": "call 911",
+              "next_response": "Can you order your food?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "call 911",
+              "next_response": "Are you hungry?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "call 911",
+              "next_response": "Scared to death",
+              "strength": 0.6000000000000001
+            }
+          ]
+        }
+      ]
+    },
+    "positive_emotion": {
+      "total_nodes": 132,
+      "sample_flows": [
+        {
+          "start": "Parent says: 'Are you happy?'",
+          "tiles": [
+            "Love you!",
+            "Very happy!",
+            "I'm silly",
+            "Feel good"
+          ],
+          "possible_paths": [
+            {
+              "if_selected": "love you!",
+              "next_response": "Parent says: 'Are you happy?'",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "love you!",
+              "next_response": "Parent says: 'Are you happy?'",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "love you!",
+              "next_response": "Parent says: 'Are you happy?'",
+              "strength": 0.6000000000000001
+            }
+          ]
+        }
+      ]
+    },
+    "workplace": {
+      "total_nodes": 12,
+      "sample_flows": [
+        {
+          "start": "Tell me about yourself",
+          "tiles": [
+            "Professional experience sharing",
+            "Career goals focused",
+            "Skills highlighting time",
+            "Growth mindset ready"
+          ],
+          "possible_paths": [
+            {
+              "if_selected": "professional experience sharing",
+              "next_response": "Why do you want this job?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "professional experience sharing",
+              "next_response": "What are your strengths?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "professional experience sharing",
+              "next_response": "How's the project going?",
+              "strength": 0.6000000000000001
+            }
+          ]
+        }
+      ]
+    },
+    "transportation": {
+      "total_nodes": 8,
+      "sample_flows": [
+        {
+          "start": "Which way to the bus stop?",
+          "tiles": [
+            "Left down street",
+            "Right at corner",
+            "Bus coming now",
+            "Check maps app"
+          ],
+          "possible_paths": [
+            {
+              "if_selected": "left down street",
+              "next_response": "Is the train on time?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "left down street",
+              "next_response": "Need a ride somewhere?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "left down street",
+              "next_response": "How do you get to work?",
+              "strength": 0.6000000000000001
+            }
+          ]
+        }
+      ]
+    },
+    "technology": {
+      "total_nodes": 8,
+      "sample_flows": [
+        {
+          "start": "Is your phone working?",
+          "tiles": [
+            "Working perfectly fine",
+            "Battery is low",
+            "No signal here",
+            "Having technical issues"
+          ],
+          "possible_paths": [
+            {
+              "if_selected": "working perfectly fine",
+              "next_response": "Can you send me that file?",
+              "strength": 0.6000000000000001
+            },
+            {
+              "if_selected": "working perfectly fine",
+              "next_response": "Internet is down again",
+              "strength": 0.7000000000000001
+            },
+            {
+              "if_selected": "working perfectly fine",
+              "next_response": "New software update available",
+              "strength": 0.6000000000000001
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

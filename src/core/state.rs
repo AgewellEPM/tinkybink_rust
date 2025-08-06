@@ -41,9 +41,9 @@ pub struct ChatMessage {
 /// Type of chat message
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum MessageType {
-    Heard,   // Input from speech recognition
-    Spoken,  // Output from AAC tiles
-    System,  // System messages
+    Heard,  // Input from speech recognition
+    Spoken, // Output from AAC tiles
+    System, // System messages
 }
 
 /// User preferences and settings
@@ -81,9 +81,9 @@ impl Default for UserSettings {
 /// How suggestions are generated
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum SuggestionMode {
-    Static,      // Fixed set of tiles
-    Contextual,  // Context-aware Eliza-like suggestions
-    Learning,    // Adaptive based on usage patterns
+    Static,     // Fixed set of tiles
+    Contextual, // Context-aware Eliza-like suggestions
+    Learning,   // Adaptive based on usage patterns
 }
 
 /// UI theme options

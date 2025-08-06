@@ -21,31 +21,37 @@ struct ResponseTemplate {
     confidence: f32,
 }
 
+impl Default for ElizaEngine {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl ElizaEngine {
     pub fn new() -> Self {
         let mut engine = Self {
             response_patterns: Vec::new(),
         };
-        
+
         engine.initialize_patterns();
         engine
     }
-    
+
     /// Generate contextual response suggestions based on input text
     pub fn generate_response(&self, text: &str) -> Option<Vec<SuggestionTile>> {
         debug!("Generating Eliza response for: '{}'", text);
-        
+
         // Find the highest priority matching pattern
         let mut best_match: Option<&ResponsePattern> = None;
         let mut best_priority = 0;
-        
+
         for pattern in &self.response_patterns {
             if pattern.pattern.is_match(text) && pattern.priority > best_priority {
                 best_match = Some(pattern);
                 best_priority = pattern.priority;
             }
         }
-        
+
         if let Some(pattern) = best_match {
             debug!("Found matching pattern with priority {}", pattern.priority);
             Some(self.create_suggestions_from_pattern(pattern))
@@ -53,18 +59,21 @@ impl ElizaEngine {
             None
         }
     }
-    
+
     fn create_suggestions_from_pattern(&self, pattern: &ResponsePattern) -> Vec<SuggestionTile> {
-        pattern.responses.iter().take(3).map(|template| {
-            SuggestionTile {
+        pattern
+            .responses
+            .iter()
+            .take(3)
+            .map(|template| SuggestionTile {
                 emoji: template.emoji.clone(),
                 text: template.text.clone(),
                 category: pattern.category.clone(),
                 confidence: template.confidence,
-            }
-        }).collect()
+            })
+            .collect()
     }
-    
+
     fn initialize_patterns(&mut self) {
         // YES/NO Questions (highest priority for clear responses)
         self.add_pattern(
@@ -77,7 +86,7 @@ impl ElizaEngine {
             TileCategory::BasicResponse,
             10,
         );
-        
+
         // Feeling Questions
         self.add_pattern(
             r"how\s+(are|do)\s+you|feel(ing)?",
@@ -89,7 +98,7 @@ impl ElizaEngine {
             TileCategory::Emotion,
             9,
         );
-        
+
         // Want/Like Questions
         self.add_pattern(
             r"what.*(want|like|prefer|enjoy)",
@@ -101,7 +110,7 @@ impl ElizaEngine {
             TileCategory::Action,
             8,
         );
-        
+
         // Location Questions
         self.add_pattern(
             r"where",
@@ -113,7 +122,7 @@ impl ElizaEngine {
             TileCategory::Place,
             8,
         );
-        
+
         // Time Questions
         self.add_pattern(
             r"when",
@@ -125,7 +134,7 @@ impl ElizaEngine {
             TileCategory::Time,
             8,
         );
-        
+
         // Food Related
         self.add_pattern(
             r"eat|hungry|food|meal|breakfast|lunch|dinner|snack",
@@ -137,7 +146,7 @@ impl ElizaEngine {
             TileCategory::Food,
             7,
         );
-        
+
         // Drink Related
         self.add_pattern(
             r"drink|thirsty|water|juice|milk",
@@ -149,7 +158,7 @@ impl ElizaEngine {
             TileCategory::Food,
             7,
         );
-        
+
         // Help Requests
         self.add_pattern(
             r"help|assist|support",
@@ -161,7 +170,7 @@ impl ElizaEngine {
             TileCategory::Action,
             7,
         );
-        
+
         // Activity Questions
         self.add_pattern(
             r"play|game|fun|activity|do",
@@ -173,7 +182,7 @@ impl ElizaEngine {
             TileCategory::Action,
             6,
         );
-        
+
         // Pain/Discomfort
         self.add_pattern(
             r"hurt|pain|sick|ow|ouch",
@@ -185,7 +194,7 @@ impl ElizaEngine {
             TileCategory::Emotion,
             9, // High priority for medical concerns
         );
-        
+
         // Bathroom Needs
         self.add_pattern(
             r"bathroom|toilet|potty|pee|restroom",
@@ -197,7 +206,7 @@ impl ElizaEngine {
             TileCategory::Action,
             9, // High priority for urgent needs
         );
-        
+
         // Tired/Sleep
         self.add_pattern(
             r"tired|sleepy|sleep|nap|rest",
@@ -209,7 +218,7 @@ impl ElizaEngine {
             TileCategory::Emotion,
             7,
         );
-        
+
         // Happy/Excited
         self.add_pattern(
             r"happy|excited|great|awesome|wonderful",
@@ -221,7 +230,7 @@ impl ElizaEngine {
             TileCategory::Emotion,
             6,
         );
-        
+
         // Confused/Don't Understand
         self.add_pattern(
             r"confused|understand|know|huh|what",
@@ -233,7 +242,7 @@ impl ElizaEngine {
             TileCategory::Question,
             7,
         );
-        
+
         // Greetings
         self.add_pattern(
             r"hello|hi|hey|good morning|good afternoon|good evening",
@@ -245,7 +254,7 @@ impl ElizaEngine {
             TileCategory::BasicResponse,
             6,
         );
-        
+
         // Goodbye
         self.add_pattern(
             r"bye|goodbye|see you|farewell",
@@ -257,7 +266,7 @@ impl ElizaEngine {
             TileCategory::BasicResponse,
             6,
         );
-        
+
         // Default conversational responses (lowest priority)
         self.add_pattern(
             r".*", // Matches anything
@@ -270,7 +279,7 @@ impl ElizaEngine {
             1, // Lowest priority
         );
     }
-    
+
     fn add_pattern(
         &mut self,
         pattern_str: &str,
@@ -287,7 +296,7 @@ impl ElizaEngine {
                     confidence,
                 })
                 .collect();
-            
+
             self.response_patterns.push(ResponsePattern {
                 pattern: regex,
                 responses: templates,
@@ -301,7 +310,7 @@ impl ElizaEngine {
 #[cfg(test)]
 mod tests {
     use super::*;
-    
+
     #[test]
     fn test_yes_no_questions() {
         let engine = ElizaEngine::new();
@@ -310,7 +319,7 @@ mod tests {
         assert!(suggestions[0].text.contains("Yes"));
         assert!(suggestions[1].text.contains("No"));
     }
-    
+
     #[test]
     fn test_feeling_questions() {
         let engine = ElizaEngine::new();
@@ -318,7 +327,7 @@ mod tests {
         assert_eq!(suggestions.len(), 3);
         assert!(suggestions[0].emoji == "😊");
     }
-    
+
     #[test]
     fn test_food_related() {
         let engine = ElizaEngine::new();
@@ -326,7 +335,7 @@ mod tests {
         assert_eq!(suggestions.len(), 3);
         assert!(suggestions.iter().any(|s| s.text.contains("pizza")));
     }
-    
+
     #[test]
     fn test_priority_matching() {
         let engine = ElizaEngine::new();
@@ -334,7 +343,7 @@ mod tests {
         let suggestions = engine.generate_response("are you hungry").unwrap();
         assert!(suggestions[0].text.contains("Yes"));
     }
-    
+
     #[test]
     fn test_default_response() {
         let engine = ElizaEngine::new();

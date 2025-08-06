@@ -1,0 +1,48 @@
+{
+  "dataset_name": "TinkyBink Ultimate Conversational Master AAC Dataset",
+  "version": "Multi-Layer Drill-Down Navigation System",
+  "creation_date": "2025-01-05",
+  "total_unique_examples": 4436,
+  "total_categories": 167,
+  "specialized_domains": 411,
+  "advanced_learning_patterns": 10,
+  "multi_layer_examples": 74,
+  "drill_down_contexts": 12,
+  "sensitive_content_examples": 12,
+  "average_complexity": 3.85,
+  "duplicates_removed": 0,
+  "output_file": "tinkybink_ultimate_conversational_master.jsonl",
+  "conversation_capabilities": {
+    "single_turn_responses": 4362,
+    "multi_layer_navigation": 74,
+    "contextual_follow_ups": "Intelligent next-step suggestions",
+    "drill_down_depth": "Up to 4 layers deep",
+    "conversation_branching": "Multiple paths from each choice",
+    "context_preservation": "Maintains conversation thread",
+    "adaptive_complexity": "Adjusts based on user ability",
+    "natural_progression": "Logical conversation flow"
+  },
+  "navigation_examples": {
+    "food_ordering": "Pizza → Toppings → Size → Crust",
+    "activity_selection": "Games → Video Games → Racing Games",
+    "medical_appointments": "Doctor Type → Time → Reason",
+    "shopping": "Store → Section → Specific Items",
+    "transportation": "Method → Details → Route Planning",
+    "holiday_celebrations": "Holiday → Activities → Specific Tasks",
+    "weather_clothing": "Weather → Clothing → Accessories",
+    "emotion_coping": "Emotion → Coping Strategy → Specific Action",
+    "home_activities": "Room → Activity → Specific Task",
+    "school_subjects": "Subject → Topic → Difficulty Level",
+    "bedtime_routines": "Preparation → Steps → Details"
+  },
+  "technical_features": {
+    "conversation_layers": "Tracked with layer numbers 1-4",
+    "context_awareness": "Drill-down context preserved",
+    "intelligent_suggestions": "Based on previous choices",
+    "natural_language_flow": "Conversational sentence generation",
+    "emoji_word_tiles": "Visual and text communication",
+    "usage_tracking": "Conversation pattern learning",
+    "accessibility_optimized": "Works for all communication levels",
+    "privacy_maintained": "Local processing only"
+  }
+}

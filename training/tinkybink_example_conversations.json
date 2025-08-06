@@ -1,0 +1,1441 @@
+{
+  "total_examples": 20,
+  "conversations": [
+    {
+      "id": "conv_0",
+      "category": "request",
+      "steps": [
+        {
+          "depth": 1,
+          "input": "What do you like to do for fun?",
+          "output": "🎮 Play games, 📚 Read books, 🎨 Draw pictures, ⚽ Play sports",
+          "tiles": [
+            {
+              "emoji": "🎮",
+              "words": "Play games",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "📚",
+              "words": "Read books",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🎨",
+              "words": "Draw pictures",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "⚽",
+              "words": "Play sports",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "play games",
+              "response": "🎮 Controller calling name, 🎯 Challenge accepted already, 🏆 Victory seeking mode, 🎪 Game circus starting",
+              "node_id": "node_1460"
+            },
+            {
+              "trigger": "play games",
+              "response": "📖 Read book, 📺 Watch TV, 🎮 Play games, 🔄 Do all three",
+              "node_id": "node_3070"
+            },
+            {
+              "trigger": "play sports",
+              "response": "✅ Yes let's play, ❓ What game?, ⏰ Maybe later, 🤗 Sounds fun",
+              "node_id": "node_2"
+            },
+            {
+              "trigger": "play sports",
+              "response": "😊 Yes please, 🤔 Maybe, 👋 Hi there, 😅 I'm shy",
+              "node_id": "node_0"
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "input": "Want to play games",
+          "output": "🎮 Controller calling name, 🎯 Challenge accepted already, 🏆 Victory seeking mode, 🎪 Game circus starting",
+          "tiles": [
+            {
+              "emoji": "🎮",
+              "words": "Controller calling name",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "🎯",
+              "words": "Challenge accepted already",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🏆",
+              "words": "Victory seeking mode",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "🎪",
+              "words": "Game circus starting",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "game circus starting",
+              "response": "😊 Yes please, 🤔 Maybe, 👋 Hi there, 😅 I'm shy",
+              "node_id": "node_0"
+            },
+            {
+              "trigger": "game circus starting",
+              "response": "🎮 Play games, 📚 Read books, 🎨 Draw pictures, ⚽ Play sports",
+              "node_id": "node_1"
+            },
+            {
+              "trigger": "game circus starting",
+              "response": "✅ Yes let's play, ❓ What game?, ⏰ Maybe later, 🤗 Sounds fun",
+              "node_id": "node_2"
+            },
+            {
+              "trigger": "game circus starting",
+              "response": "✅ Yes please, ❓ What activity?, 🤔 Let me think, 👥 Who else coming?",
+              "node_id": "node_7"
+            }
+          ]
+        },
+        {
+          "depth": 3,
+          "input": "Would you like to be friends?",
+          "output": "😊 Yes please, 🤔 Maybe, 👋 Hi there, 😅 I'm shy",
+          "tiles": [
+            {
+              "emoji": "😊",
+              "words": "Yes please",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "🤔",
+              "words": "Maybe",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "👋",
+              "words": "Hi there",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "😅",
+              "words": "I'm shy",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "i'm shy",
+              "response": "🎮 Play games, 📚 Read books, 🎨 Draw pictures, ⚽ Play sports",
+              "node_id": "node_1"
+            },
+            {
+              "trigger": "i'm shy",
+              "response": "✅ Yes let's play, ❓ What game?, ⏰ Maybe later, 🤗 Sounds fun",
+              "node_id": "node_2"
+            },
+            {
+              "trigger": "i'm shy",
+              "response": "✅ Yes please, ❓ What activity?, 🤔 Let me think, 👥 Who else coming?",
+              "node_id": "node_7"
+            },
+            {
+              "trigger": "i'm shy",
+              "response": "Right now., Can wait., Need help., Emergency.",
+              "node_id": "node_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv_1",
+      "category": "general",
+      "steps": [
+        {
+          "depth": 1,
+          "input": "How was your day with family?",
+          "output": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+          "tiles": [
+            {
+              "emoji": "❤️",
+              "words": "Really good",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "😊",
+              "words": "Had fun",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "😐",
+              "words": "It was okay",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "😔",
+              "words": "Kind of hard",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "kind of hard",
+              "response": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+              "node_id": "node_4"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "Thank you, Already took it, What is it?, Not yet",
+              "node_id": "node_14"
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "input": "What did you do together?",
+          "output": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+          "tiles": [
+            {
+              "emoji": "🎮",
+              "words": "Played games",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "📺",
+              "words": "Watched movies",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🗣️",
+              "words": "Just talked",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "🍽️",
+              "words": "Ate together",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "ate together",
+              "response": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+              "node_id": "node_3"
+            },
+            {
+              "trigger": "ate together",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "ate together",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            },
+            {
+              "trigger": "ate together",
+              "response": "Thank you, Already took it, What is it?, Not yet",
+              "node_id": "node_14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv_2",
+      "category": "general",
+      "steps": [
+        {
+          "depth": 1,
+          "input": "What did you do together?",
+          "output": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+          "tiles": [
+            {
+              "emoji": "🎮",
+              "words": "Played games",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "📺",
+              "words": "Watched movies",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🗣️",
+              "words": "Just talked",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "🍽️",
+              "words": "Ate together",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "ate together",
+              "response": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+              "node_id": "node_3"
+            },
+            {
+              "trigger": "ate together",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "ate together",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            },
+            {
+              "trigger": "ate together",
+              "response": "Thank you, Already took it, What is it?, Not yet",
+              "node_id": "node_14"
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "input": "How was your day with family?",
+          "output": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+          "tiles": [
+            {
+              "emoji": "❤️",
+              "words": "Really good",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "😊",
+              "words": "Had fun",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "😐",
+              "words": "It was okay",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "😔",
+              "words": "Kind of hard",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "kind of hard",
+              "response": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+              "node_id": "node_4"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "Thank you, Already took it, What is it?, Not yet",
+              "node_id": "node_14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv_3",
+      "category": "general",
+      "steps": [
+        {
+          "depth": 1,
+          "input": "How do you feel in group activities?",
+          "output": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+          "tiles": [
+            {
+              "emoji": "😊",
+              "words": "I enjoy them",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "😰",
+              "words": "A bit nervous",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🤔",
+              "words": "Depends on group",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "😔",
+              "words": "Prefer alone",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "prefer alone",
+              "response": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+              "node_id": "node_3"
+            },
+            {
+              "trigger": "prefer alone",
+              "response": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+              "node_id": "node_4"
+            },
+            {
+              "trigger": "prefer alone",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            },
+            {
+              "trigger": "prefer alone",
+              "response": "Thank you, Already took it, What is it?, Not yet",
+              "node_id": "node_14"
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "input": "How was your day with family?",
+          "output": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+          "tiles": [
+            {
+              "emoji": "❤️",
+              "words": "Really good",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "😊",
+              "words": "Had fun",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "😐",
+              "words": "It was okay",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "😔",
+              "words": "Kind of hard",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "kind of hard",
+              "response": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+              "node_id": "node_4"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "Thank you, Already took it, What is it?, Not yet",
+              "node_id": "node_14"
+            }
+          ]
+        },
+        {
+          "depth": 3,
+          "input": "What did you do together?",
+          "output": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+          "tiles": [
+            {
+              "emoji": "🎮",
+              "words": "Played games",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "📺",
+              "words": "Watched movies",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🗣️",
+              "words": "Just talked",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "🍽️",
+              "words": "Ate together",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "ate together",
+              "response": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+              "node_id": "node_3"
+            },
+            {
+              "trigger": "ate together",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "ate together",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            },
+            {
+              "trigger": "ate together",
+              "response": "Thank you, Already took it, What is it?, Not yet",
+              "node_id": "node_14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv_4",
+      "category": "help_seeking",
+      "steps": [
+        {
+          "depth": 1,
+          "input": "How can we help you participate?",
+          "output": "🗣️ Speak slower, 📝 Write it down, 🤲 Stay close by, ⏰ Give me time",
+          "tiles": [
+            {
+              "emoji": "🗣️",
+              "words": "Speak slower",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "📝",
+              "words": "Write it down",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🤲",
+              "words": "Stay close by",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "⏰",
+              "words": "Give me time",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "give me time",
+              "response": "❤️ Very much, 👍 Most times, 🤔 Sometimes, 😢 Not really",
+              "node_id": "node_5"
+            },
+            {
+              "trigger": "give me time",
+              "response": "Yes, very much, Still learning, It's okay, Need practice",
+              "node_id": "node_22"
+            },
+            {
+              "trigger": "give me time",
+              "response": "Yes, very much., Still learning., It's okay., Need practice.",
+              "node_id": "node_23"
+            },
+            {
+              "trigger": "give me time",
+              "response": "✅ Yes, 💬 very much, 💬 Still learning, 👍 It's okay, 💬 Need practice",
+              "node_id": "node_142"
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "input": "Do you feel supported by family?",
+          "output": "❤️ Very much, 👍 Most times, 🤔 Sometimes, 😢 Not really",
+          "tiles": [
+            {
+              "emoji": "❤️",
+              "words": "Very much",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "👍",
+              "words": "Most times",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🤔",
+              "words": "Sometimes",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "😢",
+              "words": "Not really",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "not really",
+              "response": "🗣️ Speak slower, 📝 Write it down, 🤲 Stay close by, ⏰ Give me time",
+              "node_id": "node_8"
+            },
+            {
+              "trigger": "not really",
+              "response": "Yes, very much, Still learning, It's okay, Need practice",
+              "node_id": "node_22"
+            },
+            {
+              "trigger": "not really",
+              "response": "Yes, very much., Still learning., It's okay., Need practice.",
+              "node_id": "node_23"
+            },
+            {
+              "trigger": "not really",
+              "response": "✅ Yes, 💬 very much, 💬 Still learning, 👍 It's okay, 💬 Need practice",
+              "node_id": "node_142"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv_5",
+      "category": "request",
+      "steps": [
+        {
+          "depth": 1,
+          "input": "Do you need anything?",
+          "output": "Water please, I'm good, Bathroom, Pain medication",
+          "tiles": [
+            {
+              "emoji": "'",
+              "words": "Im good",
+              "tile_id": "tile_1"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "im good",
+              "response": "😊 Yes please, 🤔 Maybe, 👋 Hi there, 😅 I'm shy",
+              "node_id": "node_0"
+            },
+            {
+              "trigger": "im good",
+              "response": "🎮 Play games, 📚 Read books, 🎨 Draw pictures, ⚽ Play sports",
+              "node_id": "node_1"
+            },
+            {
+              "trigger": "im good",
+              "response": "✅ Yes let's play, ❓ What game?, ⏰ Maybe later, 🤗 Sounds fun",
+              "node_id": "node_2"
+            },
+            {
+              "trigger": "im good",
+              "response": "✅ Yes please, ❓ What activity?, 🤔 Let me think, 👥 Who else coming?",
+              "node_id": "node_7"
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "input": "Would you like to be friends?",
+          "output": "😊 Yes please, 🤔 Maybe, 👋 Hi there, 😅 I'm shy",
+          "tiles": [
+            {
+              "emoji": "😊",
+              "words": "Yes please",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "🤔",
+              "words": "Maybe",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "👋",
+              "words": "Hi there",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "😅",
+              "words": "I'm shy",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "i'm shy",
+              "response": "🎮 Play games, 📚 Read books, 🎨 Draw pictures, ⚽ Play sports",
+              "node_id": "node_1"
+            },
+            {
+              "trigger": "i'm shy",
+              "response": "✅ Yes let's play, ❓ What game?, ⏰ Maybe later, 🤗 Sounds fun",
+              "node_id": "node_2"
+            },
+            {
+              "trigger": "i'm shy",
+              "response": "✅ Yes please, ❓ What activity?, 🤔 Let me think, 👥 Who else coming?",
+              "node_id": "node_7"
+            },
+            {
+              "trigger": "i'm shy",
+              "response": "Right now., Can wait., Need help., Emergency.",
+              "node_id": "node_9"
+            }
+          ]
+        },
+        {
+          "depth": 3,
+          "input": "What do you like to do for fun?",
+          "output": "🎮 Play games, 📚 Read books, 🎨 Draw pictures, ⚽ Play sports",
+          "tiles": [
+            {
+              "emoji": "🎮",
+              "words": "Play games",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "📚",
+              "words": "Read books",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🎨",
+              "words": "Draw pictures",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "⚽",
+              "words": "Play sports",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "play games",
+              "response": "🎮 Controller calling name, 🎯 Challenge accepted already, 🏆 Victory seeking mode, 🎪 Game circus starting",
+              "node_id": "node_1460"
+            },
+            {
+              "trigger": "play games",
+              "response": "📖 Read book, 📺 Watch TV, 🎮 Play games, 🔄 Do all three",
+              "node_id": "node_3070"
+            },
+            {
+              "trigger": "play sports",
+              "response": "✅ Yes let's play, ❓ What game?, ⏰ Maybe later, 🤗 Sounds fun",
+              "node_id": "node_2"
+            },
+            {
+              "trigger": "play sports",
+              "response": "😊 Yes please, 🤔 Maybe, 👋 Hi there, 😅 I'm shy",
+              "node_id": "node_0"
+            }
+          ]
+        },
+        {
+          "depth": 4,
+          "input": "Want to play games",
+          "output": "🎮 Controller calling name, 🎯 Challenge accepted already, 🏆 Victory seeking mode, 🎪 Game circus starting",
+          "tiles": [
+            {
+              "emoji": "🎮",
+              "words": "Controller calling name",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "🎯",
+              "words": "Challenge accepted already",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🏆",
+              "words": "Victory seeking mode",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "🎪",
+              "words": "Game circus starting",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "game circus starting",
+              "response": "😊 Yes please, 🤔 Maybe, 👋 Hi there, 😅 I'm shy",
+              "node_id": "node_0"
+            },
+            {
+              "trigger": "game circus starting",
+              "response": "🎮 Play games, 📚 Read books, 🎨 Draw pictures, ⚽ Play sports",
+              "node_id": "node_1"
+            },
+            {
+              "trigger": "game circus starting",
+              "response": "✅ Yes let's play, ❓ What game?, ⏰ Maybe later, 🤗 Sounds fun",
+              "node_id": "node_2"
+            },
+            {
+              "trigger": "game circus starting",
+              "response": "✅ Yes please, ❓ What activity?, 🤔 Let me think, 👥 Who else coming?",
+              "node_id": "node_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv_6",
+      "category": "request",
+      "steps": [
+        {
+          "depth": 1,
+          "input": "Do you need anything?",
+          "output": "Water please., I'm good., Bathroom., Pain medication.",
+          "tiles": [
+            {
+              "emoji": ".",
+              "words": "Water please",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "'",
+              "words": "Im good.",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": ".",
+              "words": "Bathroom",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": ".",
+              "words": "Pain medication",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "pain medication",
+              "response": "Right now., Can wait., Need help., Emergency.",
+              "node_id": "node_9"
+            },
+            {
+              "trigger": "bathroom",
+              "response": "🚨 Emergency status red, 🏃 Sprint mode activated, ⏰ Countdown timer started, 🚪 Door prize needed",
+              "node_id": "node_1744"
+            },
+            {
+              "trigger": "bathroom",
+              "response": "🚨 Emergency status critical, 🏃 Sprint mode required, ⏰ Countdown timer ticking, 🚪 Door needed immediately",
+              "node_id": "node_2453"
+            },
+            {
+              "trigger": "bathroom",
+              "response": "❌ Right now., ⏰ Can wait., 🆘 Need help., 🚨 Emergency.",
+              "node_id": "node_126"
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "input": "I need to use the bathroom",
+          "output": "Right now., Can wait., Need help., Emergency.",
+          "tiles": [
+            {
+              "emoji": ".",
+              "words": "Right now",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": ".",
+              "words": "Can wait",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": ".",
+              "words": "Need help",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": ".",
+              "words": "Emergency",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "need help",
+              "response": "Call nurse, Can't breathe, Chest pain, Emergency",
+              "node_id": "node_54"
+            },
+            {
+              "trigger": "need help",
+              "response": "📞 Call nurse, 🍽️ Can't breathe, 🤕 Chest pain, 🚨 Emergency",
+              "node_id": "node_184"
+            },
+            {
+              "trigger": "need help",
+              "response": "💬 metadata, 💬 tinkybink_aac_tiles, 💬 tinkybink_adaptive_skills_tiles",
+              "node_id": "node_204"
+            },
+            {
+              "trigger": "need help",
+              "response": "💬 tinkybink_classroom_tiles, 🏫 tinkybink_school_tiles",
+              "node_id": "node_205"
+            }
+          ]
+        },
+        {
+          "depth": 3,
+          "input": "I need help",
+          "output": "Call nurse, Can't breathe, Chest pain, Emergency",
+          "tiles": [
+            {
+              "emoji": "'",
+              "words": "Cant breathe",
+              "tile_id": "tile_1"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "cant breathe",
+              "response": "😊 Yes please, 🤔 Maybe, 👋 Hi there, 😅 I'm shy",
+              "node_id": "node_0"
+            },
+            {
+              "trigger": "cant breathe",
+              "response": "🎮 Play games, 📚 Read books, 🎨 Draw pictures, ⚽ Play sports",
+              "node_id": "node_1"
+            },
+            {
+              "trigger": "cant breathe",
+              "response": "✅ Yes let's play, ❓ What game?, ⏰ Maybe later, 🤗 Sounds fun",
+              "node_id": "node_2"
+            },
+            {
+              "trigger": "cant breathe",
+              "response": "✅ Yes please, ❓ What activity?, 🤔 Let me think, 👥 Who else coming?",
+              "node_id": "node_7"
+            }
+          ]
+        },
+        {
+          "depth": 4,
+          "input": "Would you like to be friends?",
+          "output": "😊 Yes please, 🤔 Maybe, 👋 Hi there, 😅 I'm shy",
+          "tiles": [
+            {
+              "emoji": "😊",
+              "words": "Yes please",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "🤔",
+              "words": "Maybe",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "👋",
+              "words": "Hi there",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "😅",
+              "words": "I'm shy",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "i'm shy",
+              "response": "🎮 Play games, 📚 Read books, 🎨 Draw pictures, ⚽ Play sports",
+              "node_id": "node_1"
+            },
+            {
+              "trigger": "i'm shy",
+              "response": "✅ Yes let's play, ❓ What game?, ⏰ Maybe later, 🤗 Sounds fun",
+              "node_id": "node_2"
+            },
+            {
+              "trigger": "i'm shy",
+              "response": "✅ Yes please, ❓ What activity?, 🤔 Let me think, 👥 Who else coming?",
+              "node_id": "node_7"
+            },
+            {
+              "trigger": "i'm shy",
+              "response": "Right now., Can wait., Need help., Emergency.",
+              "node_id": "node_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv_7",
+      "category": "medical",
+      "steps": [
+        {
+          "depth": 1,
+          "input": "How is your pain level?",
+          "output": "No pain., Mild pain., Moderate., Severe pain.",
+          "tiles": [
+            {
+              "emoji": ".",
+              "words": "No pain",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": ".",
+              "words": "Mild pain",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": ".",
+              "words": "Moderate",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": ".",
+              "words": "Severe pain",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "severe pain",
+              "response": "❌ No pain, 🤕 Mild pain, 💬 Moderate, 🤕 Severe pain",
+              "node_id": "node_131"
+            },
+            {
+              "trigger": "severe pain",
+              "response": "❌ No pain., 🤕 Mild pain., 💬 Moderate., 🤕 Severe pain.",
+              "node_id": "node_132"
+            },
+            {
+              "trigger": "severe pain",
+              "response": "Okay., Not ready., Need family here., What for?",
+              "node_id": "node_16"
+            },
+            {
+              "trigger": "severe pain",
+              "response": "Okay, Not ready, Need family here, What for?",
+              "node_id": "node_17"
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "input": "How is your pain level?",
+          "output": "❌ No pain, 🤕 Mild pain, 💬 Moderate, 🤕 Severe pain",
+          "tiles": [
+            {
+              "emoji": "❌",
+              "words": "No pain",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "🤕",
+              "words": "Mild pain",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "💬",
+              "words": "Moderate",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "🤕",
+              "words": "Severe pain",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "severe pain",
+              "response": "No pain., Mild pain., Moderate., Severe pain.",
+              "node_id": "node_13"
+            },
+            {
+              "trigger": "severe pain",
+              "response": "❌ No pain., 🤕 Mild pain., 💬 Moderate., 🤕 Severe pain.",
+              "node_id": "node_132"
+            },
+            {
+              "trigger": "severe pain",
+              "response": "Okay., Not ready., Need family here., What for?",
+              "node_id": "node_16"
+            },
+            {
+              "trigger": "severe pain",
+              "response": "Okay, Not ready, Need family here, What for?",
+              "node_id": "node_17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv_8",
+      "category": "general",
+      "steps": [
+        {
+          "depth": 1,
+          "input": "Let's practice walking",
+          "output": "I'll try., Need support., Legs hurt., Maybe later.",
+          "tiles": [
+            {
+              "emoji": "'",
+              "words": "Ill try.",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": ".",
+              "words": "Need support",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": ".",
+              "words": "Legs hurt",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": ".",
+              "words": "Maybe later",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "maybe later",
+              "response": "🕐 Future possibility open, 🌙 Moon phase pending, ⏳ Hourglass considering flip, 🎯 Target moving forward",
+              "node_id": "node_1892"
+            },
+            {
+              "trigger": "maybe later",
+              "response": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+              "node_id": "node_3"
+            },
+            {
+              "trigger": "maybe later",
+              "response": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+              "node_id": "node_4"
+            },
+            {
+              "trigger": "maybe later",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "input": "Maybe later",
+          "output": "🕐 Future possibility open, 🌙 Moon phase pending, ⏳ Hourglass considering flip, 🎯 Target moving forward",
+          "tiles": [
+            {
+              "emoji": "🕐",
+              "words": "Future possibility open",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "🌙",
+              "words": "Moon phase pending",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "⏳",
+              "words": "Hourglass considering flip",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "🎯",
+              "words": "Target moving forward",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "target moving forward",
+              "response": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+              "node_id": "node_3"
+            },
+            {
+              "trigger": "target moving forward",
+              "response": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+              "node_id": "node_4"
+            },
+            {
+              "trigger": "target moving forward",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "target moving forward",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            }
+          ]
+        },
+        {
+          "depth": 3,
+          "input": "How was your day with family?",
+          "output": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+          "tiles": [
+            {
+              "emoji": "❤️",
+              "words": "Really good",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "😊",
+              "words": "Had fun",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "😐",
+              "words": "It was okay",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "😔",
+              "words": "Kind of hard",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "kind of hard",
+              "response": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+              "node_id": "node_4"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "Thank you, Already took it, What is it?, Not yet",
+              "node_id": "node_14"
+            }
+          ]
+        },
+        {
+          "depth": 4,
+          "input": "What did you do together?",
+          "output": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+          "tiles": [
+            {
+              "emoji": "🎮",
+              "words": "Played games",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "📺",
+              "words": "Watched movies",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🗣️",
+              "words": "Just talked",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "🍽️",
+              "words": "Ate together",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "ate together",
+              "response": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+              "node_id": "node_3"
+            },
+            {
+              "trigger": "ate together",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "ate together",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            },
+            {
+              "trigger": "ate together",
+              "response": "Thank you, Already took it, What is it?, Not yet",
+              "node_id": "node_14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv_9",
+      "category": "general",
+      "steps": [
+        {
+          "depth": 1,
+          "input": "Let's practice walking",
+          "output": "I'll try, Need support, Legs hurt, Maybe later",
+          "tiles": [
+            {
+              "emoji": "'",
+              "words": "Ill try",
+              "tile_id": "tile_1"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "ill try",
+              "response": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+              "node_id": "node_3"
+            },
+            {
+              "trigger": "ill try",
+              "response": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+              "node_id": "node_4"
+            },
+            {
+              "trigger": "ill try",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "ill try",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "input": "How was your day with family?",
+          "output": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+          "tiles": [
+            {
+              "emoji": "❤️",
+              "words": "Really good",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "😊",
+              "words": "Had fun",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "😐",
+              "words": "It was okay",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "😔",
+              "words": "Kind of hard",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "kind of hard",
+              "response": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+              "node_id": "node_4"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            },
+            {
+              "trigger": "kind of hard",
+              "response": "Thank you, Already took it, What is it?, Not yet",
+              "node_id": "node_14"
+            }
+          ]
+        },
+        {
+          "depth": 3,
+          "input": "What did you do together?",
+          "output": "🎮 Played games, 📺 Watched movies, 🗣️ Just talked, 🍽️ Ate together",
+          "tiles": [
+            {
+              "emoji": "🎮",
+              "words": "Played games",
+              "tile_id": "tile_1"
+            },
+            {
+              "emoji": "📺",
+              "words": "Watched movies",
+              "tile_id": "tile_2"
+            },
+            {
+              "emoji": "🗣️",
+              "words": "Just talked",
+              "tile_id": "tile_3"
+            },
+            {
+              "emoji": "🍽️",
+              "words": "Ate together",
+              "tile_id": "tile_4"
+            }
+          ],
+          "next_options": [
+            {
+              "trigger": "ate together",
+              "response": "❤️ Really good, 😊 Had fun, 😐 It was okay, 😔 Kind of hard",
+              "node_id": "node_3"
+            },
+            {
+              "trigger": "ate together",
+              "response": "😊 I enjoy them, 😰 A bit nervous, 🤔 Depends on group, 😔 Prefer alone",
+              "node_id": "node_6"
+            },
+            {
+              "trigger": "ate together",
+              "response": "I'm fine, Too hot, Too cold, Need to move",
+              "node_id": "node_10"
+            },
+            {
+              "trigger": "ate together",
+              "response": "Thank you, Already took it, What is it?, Not yet",
+              "node_id": "node_14"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

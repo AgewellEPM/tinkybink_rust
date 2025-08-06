@@ -1,0 +1,487 @@
+{
+  "conversation_starters": {
+    "GREETINGS": [
+      "Do you need anything?",
+      "Do you need anything?",
+      "Your thoughts on this?",
+      "Is this working for you?",
+      "Is this working for you?"
+    ],
+    "FOOD_ORDERING": [
+      "What would you like to eat?",
+      "This morning i want to eat breakfast",
+      "I want to eat",
+      "I want to cook food",
+      "This morning i want to eat"
+    ],
+    "EMOTIONS": [
+      "Do you feel supported by family?",
+      "How do you feel in group activities?",
+      "I feel very dizzy and confused",
+      "Feeling dizzy?",
+      "How are you feeling?"
+    ],
+    "ACTIVITIES": [
+      "Want to play together?",
+      "What did you do together?",
+      "Do you feel supported by family?",
+      "How do you feel in group activities?",
+      "Do you need anything?"
+    ],
+    "MEDICAL": [
+      "How is your pain level?",
+      "The doctor is here",
+      "How is your pain level?",
+      "How is your pain level?",
+      "The doctor is here"
+    ],
+    "DAILY_ROUTINES": [
+      "This morning i want to eat breakfast",
+      "This morning i need to take a shower",
+      "This morning i want to watch tv",
+      "This morning i need to go shopping",
+      "This morning i want to call someone"
+    ],
+    "WEATHER_CLOTHING": [
+      "Really i have a cold",
+      "What if it rains",
+      "Hot drink needed",
+      "Hot flash sudden",
+      "Cold sweat breaking"
+    ],
+    "SCHOOL": [
+      "I love my classmate",
+      "I like my classmate",
+      "I miss my classmate",
+      "I need my classmate",
+      "I want to see my classmate"
+    ],
+    "SHOPPING": [
+      "Do you need anything?",
+      "Do you need anything?",
+      "What do you need?",
+      "What do you need?",
+      "I need help"
+    ],
+    "TRANSPORTATION": [
+      "Ready to go?",
+      "Ready to go?",
+      "Let's go to the happy",
+      "Let's go to the therapy",
+      "Ready to go shopping?"
+    ]
+  },
+  "common_paths": {
+    "GREETINGS": [
+      {
+        "start": "I'm having trouble breathing",
+        "options": [
+          "🚨 Call 911, 💊 Get inhaler, 🪑 Sit down, 🤲 Help me"
+        ]
+      },
+      {
+        "start": "I want to talk to my child",
+        "options": [
+          "👶 Talk to child, ❤️ Love them, 🎮 Play together, 📚 Read story"
+        ]
+      },
+      {
+        "start": "Hi there",
+        "options": [
+          "👋 Hello back, 😊 Nice to see you, 💬 How are you, 🌟 Good to meet"
+        ]
+      }
+    ],
+    "FOOD_ORDERING": [
+      {
+        "start": "I'm having trouble breathing",
+        "options": [
+          "🚨 Call 911, 💊 Get inhaler, 🪑 Sit down, 🤲 Help me"
+        ]
+      },
+      {
+        "start": "Can you order your food?",
+        "options": [
+          "✅ I'll try, 📝 Write it down, 🤲 Help me, 👉 Point to menu"
+        ]
+      },
+      {
+        "start": "I want to eat",
+        "options": [
+          "🍽️ Want to eat, 😋 Feeling hungry, 🥪 Make something, 💧 Get water too"
+        ]
+      }
+    ],
+    "EMOTIONS": [
+      {
+        "start": "Feeling dizzy?",
+        "options": [
+          "Very dizzy., A bit., No., When I stand.",
+          "💬 Very dizzy, 💬 A bit, ❌ No, 🧍 When I stand"
+        ]
+      },
+      {
+        "start": "How are you feeling?",
+        "options": [
+          "Frustrated., Hopeful., Scared., Determined.",
+          "💬 Frustrated, 💬 Hopeful, 😨 Scared, 💬 Determined"
+        ]
+      },
+      {
+        "start": "How are you feeling today?",
+        "options": [
+          "✅ Yes, ❌ No, 💬 Hard to say, 🆘 Need help",
+          "Yes dear, No thanks, Perhaps, Can you help me?"
+        ]
+      }
+    ],
+    "ACTIVITIES": [
+      {
+        "start": "What do you like to do for fun?",
+        "options": [
+          "🎮 Play games, 📚 Read books, 🎨 Draw pictures, ⚽ Play sports"
+        ]
+      },
+      {
+        "start": "Would you like to join our activity?",
+        "options": [
+          "✅ Yes please, ❓ What activity?, 🤔 Let me think, 👥 Who else coming?"
+        ]
+      },
+      {
+        "start": "The doctor is here",
+        "options": [
+          "Okay., Not ready., Need family here., What for?",
+          "👍 Okay, ❌ Not ready, 👨‍👩‍👧‍👦 Need family here, 🧢 What for?"
+        ]
+      }
+    ],
+    "MEDICAL": [
+      {
+        "start": "The doctor is here",
+        "options": [
+          "Okay., Not ready., Need family here., What for?",
+          "👍 Okay, ❌ Not ready, 👨‍👩‍👧‍👦 Need family here, 🧢 What for?"
+        ]
+      },
+      {
+        "start": "My chest hurts badly",
+        "options": [
+          "🚨 Emergency, 📞 Call doctor, 💊 Heart medicine, 🛏️ Lie down"
+        ]
+      },
+      {
+        "start": "Let's go to the doctor",
+        "options": [
+          "🧢 What for?, 👍 Okay, ❌ Not ready, 👨‍👩‍👧‍👦 Need family here"
+        ]
+      }
+    ],
+    "DAILY_ROUTINES": [
+      {
+        "start": "It's early morning, just woke up",
+        "options": [
+          "☀️ Good morning, 😴 Still tired, 🥤 Need water, 🚽 Bathroom first"
+        ]
+      }
+    ],
+    "WEATHER_CLOTHING": [],
+    "SCHOOL": [
+      {
+        "start": "I want to talk to my teacher",
+        "options": [
+          "👩‍🏫 Ask teacher, 🙋 Raise hand, 📚 Need help, ⏰ After class"
+        ]
+      }
+    ],
+    "SHOPPING": [
+      {
+        "start": "I need to use the bathroom",
+        "options": [
+          "Right now., Can wait., Need help., Emergency.",
+          "❌ Right now, ⏰ Can wait, 🆘 Need help, 🚨 Emergency"
+        ]
+      },
+      {
+        "start": "I need help",
+        "options": [
+          "📞 Call nurse, 🍽️ Can't breathe, 🤕 Chest pain, 🚨 Emergency"
+        ]
+      },
+      {
+        "start": "What do you need?",
+        "options": [
+          "💧 Water, 🆘 Help, 😴 Rest, ❌ Nothing"
+        ]
+      }
+    ],
+    "TRANSPORTATION": [
+      {
+        "start": "Want to go outside?",
+        "options": [
+          "Yes please, Too cold, Maybe later, Where to?",
+          "Yes please., Too cold., Maybe later., Where to?"
+        ]
+      },
+      {
+        "start": "Ready to go?",
+        "options": [
+          "✅ Yes, ❌ No, ⏰ Wait, 💬 Soon",
+          "✅ Yes, 📖 ready, ❌ Not yet, 💬 Few minutes, 📖 Almost ready"
+        ]
+      },
+      {
+        "start": "Do you want to go outside?",
+        "options": [
+          "✅ Yes, ❌ No, 🤔 Maybe, ❌ Not sure"
+        ]
+      }
+    ]
+  },
+  "drill_down_examples": {
+    "GREETINGS": {
+      "level_1": {
+        "input": "do you need anything?",
+        "output": "Water please, I'm good, Bathroom, Pain medication",
+        "next_level_triggers": [
+          "im good"
+        ]
+      },
+      "level_2": {
+        "input": "fun games! which kind?",
+        "output": "🧩 Puzzle games thinking, 🏃 Active games moving, 🎪 Party games social, 🤔 Brain games smart",
+        "previous_context": null,
+        "next_level_triggers": [
+          "puzzle games thinking",
+          "active games moving",
+          "party games social",
+          "brain games smart"
+        ]
+      },
+      "level_3": {
+        "input": "gaming time! which style?",
+        "output": "🏗️ Building games creative, 🕵️ Mystery games puzzling, 🎨 Creative games artistic, 🌍 Adventure games exploring",
+        "previous_context": null
+      }
+    },
+    "FOOD_ORDERING": {
+      "level_1": {
+        "input": "i'm having trouble breathing",
+        "output": "🚨 Call 911, 💊 Get inhaler, 🪑 Sit down, 🤲 Help me",
+        "next_level_triggers": [
+          "call 911",
+          "get inhaler",
+          "sit down",
+          "help me"
+        ]
+      },
+      "level_2": {
+        "input": "sunny weather! what wearing?",
+        "output": "👕 T-shirt light clothing, 🩳 Shorts for legs, 👟 Sneakers comfortable walking, 🕶️ Sunglasses protect eyes",
+        "previous_context": null,
+        "next_level_triggers": [
+          "t-shirt light clothing",
+          "shorts for legs",
+          "sneakers comfortable walking",
+          "️ sunglasses protect eyes"
+        ]
+      },
+      "level_3": {
+        "input": "deep breathing chosen! how?",
+        "output": "👃 Breathe in slowly, 👄 Hold breath briefly, 💨 Exhale out completely, 🔄 Repeat pattern calmly",
+        "previous_context": "breathing"
+      }
+    },
+    "EMOTIONS": {
+      "level_1": {
+        "input": "do you feel supported by family?",
+        "output": "❤️ Very much, 👍 Most times, 🤔 Sometimes, 😢 Not really",
+        "next_level_triggers": [
+          "very much",
+          "most times",
+          "sometimes",
+          "not really"
+        ]
+      },
+      "level_2": {
+        "input": "feeling sad! what helps?",
+        "output": "🤗 Hugs from family, 😭 Crying releases feelings, 🎵 Music makes better, 📞 Talk to friend",
+        "previous_context": null,
+        "next_level_triggers": [
+          "hugs from family",
+          "crying releases feelings",
+          "music makes better",
+          "talk to friend"
+        ]
+      },
+      "level_3": null
+    },
+    "ACTIVITIES": {
+      "level_1": {
+        "input": "what do you like to do for fun?",
+        "output": "🎮 Play games, 📚 Read books, 🎨 Draw pictures, ⚽ Play sports",
+        "next_level_triggers": [
+          "play games",
+          "read books",
+          "draw pictures",
+          "play sports"
+        ]
+      },
+      "level_2": {
+        "input": "family doctor chosen! when?",
+        "output": "🌅 Morning appointment early, 🌞 Afternoon appointment later, 🌆 Evening appointment after, 📅 Next week appointment",
+        "previous_context": "doctor",
+        "next_level_triggers": [
+          "morning appointment early",
+          "afternoon appointment later",
+          "evening appointment after",
+          "next week appointment"
+        ]
+      },
+      "level_3": null
+    },
+    "MEDICAL": {
+      "level_1": {
+        "input": "how is your pain level?",
+        "output": "No pain., Mild pain., Moderate., Severe pain.",
+        "next_level_triggers": [
+          "no pain",
+          "mild pain",
+          "moderate",
+          "severe pain"
+        ]
+      },
+      "level_2": {
+        "input": "family doctor chosen! when?",
+        "output": "🌅 Morning appointment early, 🌞 Afternoon appointment later, 🌆 Evening appointment after, 📅 Next week appointment",
+        "previous_context": "doctor",
+        "next_level_triggers": [
+          "morning appointment early",
+          "afternoon appointment later",
+          "evening appointment after",
+          "next week appointment"
+        ]
+      },
+      "level_3": null
+    },
+    "DAILY_ROUTINES": {
+      "level_1": {
+        "input": "this morning i want to eat breakfast",
+        "output": "🍳 Make eggs, 🥣 Have cereal, 🍞 Toast bread, ☕ Just coffee",
+        "next_level_triggers": [
+          "make eggs",
+          "have cereal",
+          "toast bread",
+          "just coffee"
+        ]
+      },
+      "level_2": null,
+      "level_3": {
+        "input": "morning appointment! why visiting?",
+        "output": "🤒 Feeling sick lately, 💊 Medication refill needed, 🩺 Regular checkup time, 🤕 Injury needs attention",
+        "previous_context": null
+      }
+    },
+    "WEATHER_CLOTHING": {
+      "level_1": {
+        "input": "really i have a cold",
+        "output": "🤧 Stuffy nose, 🍵 Hot tea, 🧻 Need tissues, 😴 More sleep",
+        "next_level_triggers": [
+          "stuffy nose",
+          "hot tea",
+          "need tissues",
+          "more sleep"
+        ]
+      },
+      "level_2": {
+        "input": "sunny weather! what wearing?",
+        "output": "👕 T-shirt light clothing, 🩳 Shorts for legs, 👟 Sneakers comfortable walking, 🕶️ Sunglasses protect eyes",
+        "previous_context": null,
+        "next_level_triggers": [
+          "t-shirt light clothing",
+          "shorts for legs",
+          "sneakers comfortable walking",
+          "️ sunglasses protect eyes"
+        ]
+      },
+      "level_3": {
+        "input": "raincoat selected! extra protection?",
+        "output": "🧤 Waterproof gloves hands, 🪖 Hood covers head, 👢 Tall boots ankles, 🎒 Dry bag contents",
+        "previous_context": "raincoat"
+      }
+    },
+    "SCHOOL": {
+      "level_1": {
+        "input": "i want to talk to my teacher",
+        "output": "👩‍🏫 Ask teacher, 🙋 Raise hand, 📚 Need help, ⏰ After class",
+        "next_level_triggers": [
+          "ask teacher",
+          "raise hand",
+          "need help",
+          "after class"
+        ]
+      },
+      "level_2": {
+        "input": "math class! what learning?",
+        "output": "📏 Measurement using rulers, 📐 Geometry shapes studying, 💰 Money counting coins, ⏰ Time reading clocks",
+        "previous_context": null,
+        "next_level_triggers": [
+          "measurement using rulers",
+          "geometry shapes studying",
+          "money counting coins",
+          "time reading clocks"
+        ]
+      },
+      "level_3": null
+    },
+    "SHOPPING": {
+      "level_1": {
+        "input": "i need to use the bathroom",
+        "output": "Right now., Can wait., Need help., Emergency.",
+        "next_level_triggers": [
+          "right now",
+          "can wait",
+          "need help",
+          "emergency"
+        ]
+      },
+      "level_2": {
+        "input": "grocery store! what section?",
+        "output": "🥬 Produce section fresh, 🥩 Meat section protein, 🥛 Dairy section milk, 🥫 Canned goods shelf",
+        "previous_context": null,
+        "next_level_triggers": [
+          "produce section fresh",
+          "meat section protein",
+          "dairy section milk",
+          "canned goods shelf"
+        ]
+      },
+      "level_3": {
+        "input": "pepperoni chosen! size needed?",
+        "output": "👤 Personal size perfect, 👥 Medium feeds couple, 👨‍👩‍👧‍👦 Large for family, 🎉 Party size biggest",
+        "previous_context": "pepperoni"
+      }
+    },
+    "TRANSPORTATION": {
+      "level_1": {
+        "input": "want to go outside?",
+        "output": "Yes please, Too cold, Maybe later, Where to?",
+        "next_level_triggers": [
+          "where to"
+        ]
+      },
+      "level_2": {
+        "input": "car chosen! who drives?",
+        "output": "🚗 I drive myself, 👨‍👩‍👧‍👦 Family member drives, 🤝 Friend gives ride, 🚕 Uber driver comes",
+        "previous_context": "car",
+        "next_level_triggers": [
+          "i drive myself",
+          "‍👩‍👧‍👦 family member drives",
+          "friend gives ride",
+          "uber driver comes"
+        ]
+      },
+      "level_3": null
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "dataset_info": {
+    "name": "TinkyBink Ultimate Comprehensive AAC Training Dataset",
+    "version": "1.0",
+    "created": "2025-08-05",
+    "description": "Most advanced AAC training dataset ever created"
+  },
+  "training_categories": {
+    "emotional_responses": "Complete emotional vocabulary with contextual responses",
+    "daily_activities": "Comprehensive daily life scenarios and activities",
+    "medical_scenarios": "Healthcare and medical communication training",
+    "social_interactions": "Social situations and relationship communication",
+    "activity_boards": "Step-by-step activity guides and instructions",
+    "conversation_flows": "Multi-turn dialogue and conversation training",
+    "contextual_responses": "Context-aware situational responses",
+    "time_variations": "Temporal context and time-based scenarios",
+    "intensity_variations": "Emotional intensity and degree modifiers",
+    "question_responses": "Comprehensive question-answer patterns"
+  },
+  "quality_features": {
+    "format": "Exactly 4 responses per input with contextual emojis",
+    "emoji_usage": "Emotionally appropriate emojis for each response",
+    "response_variety": "Multiple options for user choice and expression",
+    "natural_language": "Conversational and accessible language patterns",
+    "practical_application": "Real-world scenarios and situations"
+  },
+  "technical_specs": {
+    "base_model": "llama3.2",
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "format": "JSONL training data",
+    "instruction_tuning": "Specialized AAC instruction following"
+  }
+}

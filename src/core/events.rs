@@ -4,36 +4,23 @@ use serde::{Deserialize, Serialize};
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum SystemEvent {
     /// Speech was recognized from user input
-    SpeechRecognized {
-        text: String,
-        confidence: f32,
-    },
-    
+    SpeechRecognized { text: String, confidence: f32 },
+
     /// TTS started speaking text
-    SpeechStarted {
-        text: String,
-    },
-    
+    SpeechStarted { text: String },
+
     /// TTS finished speaking
-    SpeechFinished {
-        text: String,
-    },
-    
+    SpeechFinished { text: String },
+
     /// User selected a suggestion tile
-    TileSelected {
-        tile: SuggestionTile,
-    },
-    
+    TileSelected { tile: SuggestionTile },
+
     /// Action on the speech buffer
-    SpeechBufferAction {
-        action: SpeechBufferAction,
-    },
-    
+    SpeechBufferAction { action: SpeechBufferAction },
+
     /// UI-related action
-    UIAction {
-        action: UIAction,
-    },
-    
+    UIAction { action: UIAction },
+
     /// System shutdown requested
     Shutdown,
 }
@@ -65,6 +52,7 @@ pub struct SuggestionTile {
 
 /// Categories for suggestion tiles
 #[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
+#[derive(Default)]
 pub enum TileCategory {
     BasicResponse,
     Choice,
@@ -76,11 +64,7 @@ pub enum TileCategory {
     Food,
     Person,
     Question,
+    #[default]
     Default,
 }
 
-impl Default for TileCategory {
-    fn default() -> Self {
-        TileCategory::Default
-    }
-}

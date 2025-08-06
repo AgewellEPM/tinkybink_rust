@@ -12,14 +12,14 @@ pub enum UserType {
     /// Adult user (18+)
     Adult { age: Option<u8> },
     /// Stroke survivor or aphasia patient
-    StrokeSurvivor { 
+    StrokeSurvivor {
         months_since_event: Option<u16>,
-        therapy_stage: TherapyStage 
+        therapy_stage: TherapyStage,
     },
     /// Other medical conditions affecting speech
-    Medical { 
+    Medical {
         condition: String,
-        communication_level: CommunicationLevel 
+        communication_level: CommunicationLevel,
     },
 }
 
@@ -32,9 +32,9 @@ pub enum TherapyStage {
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum CommunicationLevel {
-    Beginner,       // Just starting AAC
-    Intermediate,   // Some AAC experience
-    Advanced,       // Fluent AAC user
+    Beginner,     // Just starting AAC
+    Intermediate, // Some AAC experience
+    Advanced,     // Fluent AAC user
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -70,10 +70,10 @@ pub enum VocabularyLevel {
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum ResponseComplexity {
-    SingleWord,     // "Yes", "No", "Help"
-    ShortPhrase,    // "I want water", "Need help"
-    FullSentence,   // "I would like some water please"
-    Paragraph,      // Complex multi-sentence responses
+    SingleWord,   // "Yes", "No", "Help"
+    ShortPhrase,  // "I want water", "Need help"
+    FullSentence, // "I would like some water please"
+    Paragraph,    // Complex multi-sentence responses
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -107,7 +107,7 @@ impl UserProfile {
             response_style: ResponseStyle::Childlike,
         }
     }
-    
+
     /// Create profile for an adult stroke survivor
     pub fn stroke_survivor(name: String, months_since: Option<u16>) -> Self {
         Self {
@@ -127,7 +127,7 @@ impl UserProfile {
             response_style: ResponseStyle::Therapeutic,
         }
     }
-    
+
     /// Create profile for an adult user
     pub fn adult(name: String, age: Option<u8>) -> Self {
         Self {
@@ -144,7 +144,7 @@ impl UserProfile {
             response_style: ResponseStyle::Casual,
         }
     }
-    
+
     /// Get appropriate greetings based on user type
     pub fn get_greetings(&self) -> Vec<&'static str> {
         match &self.user_type {
@@ -165,11 +165,11 @@ impl UserProfile {
             }
         }
     }
-    
+
     /// Get appropriate responses for common situations
     pub fn get_contextual_responses(&self, context: &str) -> Vec<String> {
         let context_lower = context.to_lowercase();
-        
+
         match &self.user_type {
             UserType::StrokeSurvivor { therapy_stage, .. } => {
                 if context_lower.contains("therapy") || context_lower.contains("exercise") {
@@ -212,7 +212,7 @@ impl UserProfile {
             _ => self.get_default_responses(),
         }
     }
-    
+
     pub fn get_default_responses(&self) -> Vec<String> {
         match self.response_style {
             ResponseStyle::Childlike => vec![

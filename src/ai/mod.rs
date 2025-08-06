@@ -1,33 +1,37 @@
 //! 🧠 Free AI Model Integration for TinkyBink AAC
-//! 
+//!
 //! Supports multiple free, local AI models:
 //! - Llama (via llama.cpp) - Lightweight, fast inference
 //! - TinyLlama - 1.1B parameter model perfect for child responses
 //! - Phi-3 Mini - Microsoft's small but powerful model
 
 use anyhow::Result;
-use std::sync::Arc;
-use tokio::sync::Mutex;
+// use std::sync::Arc;
+// use tokio::sync::Mutex;
 
 #[cfg(feature = "tracing")]
-use tracing::{info, warn, error};
+use tracing::{info, warn};
 
-pub mod online_engine;
+pub mod candle_engine;
+pub mod llama_engine;
 pub mod ollama_engine;
 pub mod ollama_simple;
-pub mod llama_engine;
-pub mod candle_engine;
+pub mod online_engine;
+pub mod gpt_core;
+pub mod nano_gpt;
 
 /// Trait for AI engines that can generate child-like responses
 #[async_trait::async_trait]
 pub trait AiEngine: Send + Sync {
     /// Generate a child-like response to the given input
     async fn generate_response(&self, input: &str, context: &AiContext) -> Result<Vec<AiResponse>>;
-    
+
     /// Check if the AI engine is ready
+    #[allow(dead_code)]
     fn is_ready(&self) -> bool;
-    
+
     /// Get engine information
+    #[allow(dead_code)]
     fn get_info(&self) -> AiEngineInfo;
 }
 
@@ -37,16 +41,19 @@ pub struct AiContext {
     /// Child's current emotional state
     pub emotional_state: EmotionalContext,
     /// Recent conversation history
+    #[allow(dead_code)]
     pub history: Vec<String>,
     /// Preferred response style
     pub style: ResponseStyle,
     /// Maximum response length
+    #[allow(dead_code)]
     pub max_length: usize,
 }
 
 #[derive(Debug, Clone)]
 pub struct EmotionalContext {
     pub happiness: f32,
+    #[allow(dead_code)]
     pub energy: f32,
     pub anxiety: f32,
     pub confidence: f32,
@@ -70,6 +77,7 @@ pub struct AiResponse {
     pub text: String,
     pub emoji: String,
     pub confidence: f32,
+    #[allow(dead_code)]
     pub emotion: String,
 }
 
@@ -93,7 +101,7 @@ impl AiEngineFactory {
             info!("✅ Online AI engine loaded - using cloud AI!");
             return Ok(Box::new(engine));
         }
-        
+
         // Then try Ollama (offline, local)
         info!("🦙 Attempting to load Ollama AI engine...");
         // Try simple Ollama first (no reqwest needed)
@@ -101,14 +109,14 @@ impl AiEngineFactory {
             info!("✅ Simple Ollama AI engine loaded - using local AI!");
             return Ok(Box::new(engine));
         }
-        
+
         // Try full Ollama if reqwest is available
         #[cfg(feature = "reqwest")]
         if let Ok(engine) = ollama_engine::OllamaEngine::new().await {
             info!("✅ Ollama AI engine loaded - using local AI!");
             return Ok(Box::new(engine));
         }
-        
+
         #[cfg(feature = "ai-llama")]
         {
             info!("🦙 Attempting to load Llama AI engine...");
@@ -117,7 +125,7 @@ impl AiEngineFactory {
                 return Ok(Box::new(engine));
             }
         }
-        
+
         #[cfg(feature = "ai-candle")]
         {
             info!("🕯️ Attempting to load Candle AI engine...");
@@ -126,7 +134,7 @@ impl AiEngineFactory {
                 return Ok(Box::new(engine));
             }
         }
-        
+
         warn!("⚠️ No AI engine available, falling back to pattern matching");
         warn!("💡 To enable AI:");
         warn!("   1. Install Ollama: curl -fsSL https://ollama.ai/install.sh | sh");
@@ -134,17 +142,18 @@ impl AiEngineFactory {
         warn!("   3. Pull a model: ollama pull tinyllama");
         Err(anyhow::anyhow!("No AI engine available"))
     }
-    
+
     /// Check which AI engines are available
+    #[allow(dead_code)]
     pub fn available_engines() -> Vec<String> {
-        let mut engines = Vec::new();
-        
+        let engines = Vec::new();
+
         #[cfg(feature = "ai-llama")]
         engines.push("llama-cpp".to_string());
-        
+
         #[cfg(feature = "ai-candle")]
         engines.push("candle".to_string());
-        
+
         engines
     }
 }

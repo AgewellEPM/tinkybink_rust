@@ -1,17 +1,17 @@
 //! 🌐 WASM-specific implementation of TinkyBink AAC
-//! 
+//!
 //! This module provides browser-compatible implementations without tokio dependencies
 
 #[cfg(feature = "wasm")]
 use wasm_bindgen::prelude::*;
 
 #[cfg(feature = "wasm")]
-use web_sys::{console, window, SpeechSynthesis, SpeechSynthesisUtterance};
+use web_sys::{SpeechSynthesis, SpeechSynthesisUtterance, console, window};
 
 #[cfg(feature = "wasm")]
-use crate::suggestions::SuggestionEngine;
-#[cfg(feature = "wasm")]
 use crate::memory::TinkyMemoryCore;
+#[cfg(feature = "wasm")]
+use crate::suggestions::SuggestionEngine;
 
 /// 🧠 WASM-Exposed TinkyBink Engine for browser integration
 #[cfg(feature = "wasm")]
@@ -29,69 +29,75 @@ impl TinkyBinkWasm {
     #[wasm_bindgen(constructor)]
     pub fn new() -> Result<TinkyBinkWasm, JsValue> {
         console::log_1(&"🧠 Initializing TinkyBink AAC Engine...".into());
-        
+
         let engine = SuggestionEngine::new();
         let memory_core = TinkyMemoryCore::new();
-        
+
         // Initialize browser speech synthesis
-        let speech_synthesis = window()
-            .and_then(|w| w.speech_synthesis().ok());
-            
+        let speech_synthesis = window().and_then(|w| w.speech_synthesis().ok());
+
         if speech_synthesis.is_some() {
             console::log_1(&"🔊 Browser speech synthesis available!".into());
         } else {
             console::log_1(&"🔇 Speech synthesis not available in this browser".into());
         }
-        
+
         console::log_1(&"✅ TinkyBink AAC Engine ready for revolutionary communication!".into());
-        
+
         Ok(TinkyBinkWasm {
             engine,
             memory_core,
             speech_synthesis,
         })
     }
-    
+
     /// 🗣️ Speak text using browser speech synthesis
     #[wasm_bindgen]
     pub fn speak(&self, text: &str) -> Result<(), JsValue> {
         if let Some(ref speech_synth) = self.speech_synthesis {
             console::log_1(&format!("🗣️ Speaking: '{}'", text).into());
-            
+
             let utterance = SpeechSynthesisUtterance::new_with_text(text)?;
-            
+
             // Configure for child-like voice
             utterance.set_rate(0.9);
             utterance.set_pitch(1.2);
             utterance.set_volume(1.0);
-            
+
             speech_synth.speak(&utterance);
             Ok(())
         } else {
             Err(JsValue::from_str("Speech synthesis not available"))
         }
     }
-    
+
     /// 🧠 Record interaction for emotional learning
     #[wasm_bindgen]
     pub fn record_interaction(&mut self, question: &str, response: &str, success_rating: f32) {
-        console::log_1(&format!("🧠 Learning from: '{}' → '{}' ({})", question, response, success_rating).into());
-        self.memory_core.learn_from_interaction(question, response, success_rating);
+        console::log_1(
+            &format!(
+                "🧠 Learning from: '{}' → '{}' ({})",
+                question, response, success_rating
+            )
+            .into(),
+        );
+        self.memory_core
+            .learn_from_interaction(question, response, success_rating);
     }
-    
+
     /// 📊 Get emotional intelligence insights as JSON string
     #[wasm_bindgen]
     pub fn get_insights(&self) -> String {
         let insights = self.memory_core.get_emotional_insights();
         serde_json::to_string(&insights).unwrap_or_else(|_| "{}".to_string())
     }
-    
+
     /// 🎯 Check if topic should be avoided
     #[wasm_bindgen]
     pub fn should_avoid_topic(&self, question: &str) -> bool {
         self.memory_core.should_avoid_topic(question)
     }
-    
+
     /// 🔊 Check if speech synthesis is available
     #[wasm_bindgen]
     pub fn can_speak(&self) -> bool {
@@ -104,9 +110,11 @@ impl TinkyBinkWasm {
 #[wasm_bindgen]
 pub fn create_tinky_interface() -> Result<(), JsValue> {
     let window = window().ok_or("No global `window` exists")?;
-    let document = window.document().ok_or("Should have a document on window")?;
+    let document = window
+        .document()
+        .ok_or("Should have a document on window")?;
     let body = document.body().ok_or("Document should have a body")?;
-    
+
     // Create revolutionary TinkyBink interface
     let html = r#"
     <div id="tinky-container" style="
@@ -197,9 +205,9 @@ pub fn create_tinky_interface() -> Result<(), JsValue> {
         </div>
     </div>
     "#;
-    
+
     body.set_inner_html(html);
-    
+
     console::log_1(&"🎨 Revolutionary TinkyBink AAC interface created!".into());
     Ok(())
 }

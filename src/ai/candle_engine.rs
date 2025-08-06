@@ -1,5 +1,5 @@
 //! 🕯️ Candle AI Engine - Pure Rust Neural Network Inference
-//! 
+//!
 //! Uses Candle for running small language models in pure Rust
 
 #[cfg(feature = "ai-candle")]
@@ -7,15 +7,15 @@ use candle_core::{Device, Tensor};
 #[cfg(feature = "ai-candle")]
 use candle_transformers::models::phi3::{Config as PhiConfig, Model as PhiModel};
 #[cfg(feature = "ai-candle")]
-use tokenizers::Tokenizer;
-#[cfg(feature = "ai-candle")]
 use hf_hub::api::tokio::Api;
+#[cfg(feature = "ai-candle")]
+use tokenizers::Tokenizer;
 
-use super::{AiEngine, AiContext, AiResponse, AiEngineInfo, CHILD_AAC_PROMPT};
+use super::{AiContext, AiEngine, AiEngineInfo, AiResponse};
 use anyhow::Result;
 
 #[cfg(feature = "tracing")]
-use tracing::{info, warn, error, debug};
+use tracing::{debug, info};
 
 /// Candle-based AI engine using Phi-3 Mini or similar small models
 pub struct CandleEngine {
@@ -26,20 +26,20 @@ impl CandleEngine {
     /// Create new Candle engine
     pub async fn new() -> Result<Self> {
         info!("🕯️ Initializing Candle AI engine...");
-        
+
         // For now, we'll use a simple implementation
         // Full Phi-3 integration would require downloading ~3GB model
         info!("🕯️ Candle engine initialized (pattern-based mode)");
-        
+
         Ok(Self {
             model_name: "pattern-based".to_string(),
         })
     }
-    
+
     /// Generate responses using pattern matching (fallback when no model)
     fn generate_pattern_based(&self, input: &str, context: &AiContext) -> Vec<AiResponse> {
         let input_lower = input.to_lowercase();
-        
+
         // Enhanced pattern matching with emotional context
         let base_responses = if input_lower.contains("hungry") || input_lower.contains("eat") {
             vec![
@@ -96,12 +96,13 @@ impl CandleEngine {
                 ("❓", "I don't know", "confused"),
             ]
         };
-        
+
         // Convert to AiResponse with confidence based on context
-        base_responses.into_iter()
+        base_responses
+            .into_iter()
             .map(|(emoji, text, emotion)| {
                 let mut confidence: f32 = 0.7;
-                
+
                 // Adjust confidence based on emotional state
                 if context.emotional_state.confidence > 0.7 {
                     confidence += 0.1;
@@ -109,7 +110,7 @@ impl CandleEngine {
                 if context.emotional_state.anxiety > 0.7 {
                     confidence -= 0.1;
                 }
-                
+
                 AiResponse {
                     text: text.to_string(),
                     emoji: emoji.to_string(),
@@ -125,22 +126,22 @@ impl CandleEngine {
 impl AiEngine for CandleEngine {
     async fn generate_response(&self, input: &str, context: &AiContext) -> Result<Vec<AiResponse>> {
         debug!("🕯️ Generating response for: '{}'", input);
-        
+
         // For now, use enhanced pattern matching
         // A full implementation would load and run a Phi-3 or TinyLlama model
         let responses = self.generate_pattern_based(input, context);
-        
+
         if responses.is_empty() {
             Err(anyhow::anyhow!("No responses generated"))
         } else {
             Ok(responses)
         }
     }
-    
+
     fn is_ready(&self) -> bool {
         true // Pattern-based is always ready
     }
-    
+
     fn get_info(&self) -> AiEngineInfo {
         AiEngineInfo {
             name: "Candle Engine".to_string(),
