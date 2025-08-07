@@ -97,5 +97,9 @@ path = "src/bin/gpt_demo_es.rs"
 name = "gpt_demo_zh"
 path = "src/bin/gpt_demo_zh.rs"
 
+[[bin]]
+name = "gpt_demo_ru"
+path = "src/bin/gpt_demo_ru.rs"
+
 [dev-dependencies]
 tempfile = "3.0"
