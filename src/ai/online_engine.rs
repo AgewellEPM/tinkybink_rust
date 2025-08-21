@@ -2,6 +2,8 @@
 //!
 //! Uses free AI APIs when internet is available
 
+#![allow(dead_code)]
+
 use super::{AiContext, AiEngine, AiEngineInfo, AiResponse};
 use anyhow::Result;
 use serde::{Deserialize, Serialize};
@@ -47,12 +49,7 @@ impl OnlineEngine {
         // Check internet connectivity
         #[cfg(feature = "reqwest")]
         {
-            match client
-                .get("https://www.google.com")
-                .timeout(std::time::Duration::from_secs(2))
-                .send()
-                .await
-            {
+            match client.get("https://www.google.com").timeout(std::time::Duration::from_secs(2)).send().await {
                 Ok(_) => {
                     info!("✅ Internet connection available");
                 }
@@ -82,9 +79,7 @@ Give 4 short, expressive replies that are emotionally varied.
 Format: comma-separated list ONLY.
 Examples: Yes please, I don't know, I feel silly, No way"#;
 
-        let _contextual_prompt = format!(
-            "{system_prompt}\n\nParent: \"{input}\"\nChild's possible responses:"
-        );
+        let _contextual_prompt = format!("{system_prompt}\n\nParent: \"{input}\"\nChild's possible responses:");
 
         // For now, simulate GPT-like responses
         // In production, you'd make actual API call here

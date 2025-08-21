@@ -32,20 +32,13 @@ impl ChoiceDetector {
             Regex::new(r"\b(\w+)\s*/\s*(\w+)\b").unwrap(),
         ];
 
-        let choice_indicators = [
-            "which", "what", "prefer", "rather", "want", "like", "choose", "pick", "select",
-            "decide",
-        ]
-        .iter()
-        .map(|s| s.to_string())
-        .collect();
+        let choice_indicators =
+            ["which", "what", "prefer", "rather", "want", "like", "choose", "pick", "select", "decide"]
+                .iter()
+                .map(|s| s.to_string())
+                .collect();
 
-        Self {
-            or_pattern,
-            extended_or_patterns,
-            choice_indicators,
-            emoji_mapper: EmojiMapper::new(),
-        }
+        Self { or_pattern, extended_or_patterns, choice_indicators, emoji_mapper: EmojiMapper::new() }
     }
 
     /// Detect if input contains choice patterns and generate suggestions
@@ -54,10 +47,7 @@ impl ChoiceDetector {
         let has_choice_indicator = self.has_choice_indicator(text);
 
         if !choices.is_empty() || has_choice_indicator {
-            debug!(
-                "Detected choices: {:?}, has indicator: {}",
-                choices, has_choice_indicator
-            );
+            debug!("Detected choices: {:?}, has indicator: {}", choices, has_choice_indicator);
             Some(self.generate_choice_suggestions(choices))
         } else {
             None
@@ -107,11 +97,7 @@ impl ChoiceDetector {
     fn has_choice_indicator(&self, text: &str) -> bool {
         let words: HashSet<String> = text
             .split_whitespace()
-            .map(|w| {
-                w.to_lowercase()
-                    .trim_matches(|c: char| !c.is_alphabetic())
-                    .to_string()
-            })
+            .map(|w| w.to_lowercase().trim_matches(|c: char| !c.is_alphabetic()).to_string())
             .collect();
 
         self.choice_indicators.intersection(&words).next().is_some()
@@ -213,8 +199,7 @@ mod tests {
     #[test]
     fn test_generate_suggestions() {
         let detector = ChoiceDetector::new();
-        let suggestions =
-            detector.generate_choice_suggestions(vec!["pizza".to_string(), "pasta".to_string()]);
+        let suggestions = detector.generate_choice_suggestions(vec!["pizza".to_string(), "pasta".to_string()]);
         assert_eq!(suggestions.len(), 3);
         assert!(suggestions[0].text.contains("pizza"));
         assert!(suggestions[1].text.contains("pasta"));

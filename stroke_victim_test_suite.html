@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinkyBink Stroke Victim Simulation - Complete Test Suite</title>
+    <style>
+        :root {
+            --primary: #7b3ff2;
+            --secondary: #2563eb;
+            --success: #059669;
+            --danger: #dc2626;
+            --warning: #d97706;
+            --dark: #1f2937;
+            --light: #f8fafc;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 20px;
+        }
+        
+        .simulator-panel {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .tiles-panel {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: var(--primary);
+            margin-bottom: 8px;
+            font-size: 1.5rem;
+        }
+        
+        .subtitle {
+            color: #6b7280;
+            margin-bottom: 24px;
+            font-size: 0.9rem;
+        }
+        
+        .scenario-section {
+            margin-bottom: 24px;
+            padding: 16px;
+            background: #f8fafc;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .scenario-title {
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--dark);
+        }
+        
+        .input-group {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        
+        .question-input {
+            flex: 1;
+            padding: 10px 12px;
+            border: 2px solid #e5e7eb;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+        
+        .question-input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        .ask-btn {
+            padding: 10px 20px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .ask-btn:hover {
+            background: #6d28d9;
+            transform: translateY(-1px);
+        }
+        
+        .tiles-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        
+        .tile {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border: 2px solid #bfdbfe;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .tile:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            border-color: var(--primary);
+        }
+        
+        .tile.selected {
+            background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+            border-color: var(--primary);
+            transform: scale(1.05);
+        }
+        
+        .tile-emoji {
+            font-size: 3rem;
+            margin-bottom: 8px;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .tile-word {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--dark);
+            margin-bottom: 4px;
+        }
+        
+        .tile-confidence {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: var(--success);
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+        
+        .spoken-output {
+            background: #fef3c7;
+            border: 2px solid #fbbf24;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 16px;
+            position: relative;
+        }
+        
+        .spoken-label {
+            font-weight: 600;
+            color: var(--warning);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .spoken-text {
+            font-size: 1.1rem;
+            color: var(--dark);
+            line-height: 1.5;
+        }
+        
+        .conversation-history {
+            max-height: 300px;
+            overflow-y: auto;
+            padding: 12px;
+            background: #f8fafc;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+        
+        .conversation-turn {
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .conversation-turn:last-child {
+            border-bottom: none;
+        }
+        
+        .turn-question {
+            color: #6b7280;
+            font-size: 0.85rem;
+            margin-bottom: 4px;
+        }
+        
+        .turn-response {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .turn-tile {
+            background: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            border: 1px solid #e5e7eb;
+        }
+        
+        .visual-story {
+            display: flex;
+            gap: 8px;
+            padding: 12px;
+            background: linear-gradient(90deg, #fef3c7 0%, #fed7aa 100%);
+            border-radius: 8px;
+            margin-top: 16px;
+            overflow-x: auto;
+        }
+        
+        .story-emoji {
+            font-size: 2rem;
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .soul-tracker {
+            background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 16px;
+        }
+        
+        .soul-title {
+            font-weight: 600;
+            color: #be185d;
+            margin-bottom: 12px;
+        }
+        
+        .personality-traits {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        
+        .trait {
+            background: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid #fbcfe8;
+        }
+        
+        .quick-tests {
+            display: grid;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        
+        .test-btn {
+            padding: 8px 12px;
+            background: var(--secondary);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+        
+        .test-btn:hover {
+            background: #1d4ed8;
+            transform: translateX(4px);
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 16px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #e5e7eb;
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .stat-label {
+            font-size: 0.8rem;
+            color: #6b7280;
+            margin-top: 4px;
+        }
+        
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Simulator Controls -->
+        <div class="simulator-panel">
+            <h1>🧠 TinkyBink Speech Prosthetic</h1>
+            <p class="subtitle">Nobel Prize-worthy AAC System</p>
+            
+            <!-- Quick Test Scenarios -->
+            <div class="scenario-section">
+                <div class="scenario-title">⚡ Quick Test Scenarios</div>
+                <div class="quick-tests">
+                    <button class="test-btn" onclick="runScenario('How did you sleep?')">
+                        😴 Morning Check-in
+                    </button>
+                    <button class="test-btn" onclick="runScenario('Do you want eggs or bacon for breakfast?')">
+                        🍳 Breakfast Choice
+                    </button>
+                    <button class="test-btn" onclick="runScenario('Are you in pain?')">
+                        🏥 Medical Check
+                    </button>
+                    <button class="test-btn" onclick="runScenario('Would you like to watch TV or read a book?')">
+                        📺 Activity Choice
+                    </button>
+                    <button class="test-btn" onclick="runScenario('Do you need to use the bathroom?')">
+                        🚽 Basic Needs
+                    </button>
+                    <button class="test-btn" onclick="runScenario('How are you feeling today?')">
+                        😊 Emotional Check
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Custom Question Input -->
+            <div class="scenario-section">
+                <div class="scenario-title">💬 Ask Any Question</div>
+                <div class="input-group">
+                    <input type="text" 
+                           class="question-input" 
+                           id="customQuestion" 
+                           placeholder="Type any question..."
+                           onkeypress="if(event.key === 'Enter') askQuestion()">
+                    <button class="ask-btn" onclick="askQuestion()">Ask</button>
+                </div>
+            </div>
+            
+            <!-- Conversation History -->
+            <div class="scenario-section">
+                <div class="scenario-title">📜 Conversation History</div>
+                <div class="conversation-history" id="conversationHistory">
+                    <p style="color: #9ca3af; text-align: center;">No conversation yet...</p>
+                </div>
+            </div>
+            
+            <!-- Soul Tracker -->
+            <div class="soul-tracker">
+                <div class="soul-title">💜 Digital Soul Profile</div>
+                <div class="personality-traits" id="personalityTraits">
+                    <span class="trait">Friendly</span>
+                    <span class="trait">Morning Person</span>
+                    <span class="trait">Likes Breakfast</span>
+                </div>
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="stat-value" id="interactionCount">0</div>
+                        <div class="stat-label">Interactions</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="vocabularySize">8</div>
+                        <div class="stat-label">Active Tiles</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tiles Display -->
+        <div class="tiles-panel">
+            <h1>🎯 Dynamic Response Tiles</h1>
+            <p class="subtitle">Tap any tile to speak full sentences</p>
+            
+            <!-- Current Tiles -->
+            <div class="tiles-container" id="tilesContainer">
+                <!-- Tiles will be dynamically generated here -->
+            </div>
+            
+            <!-- Spoken Output -->
+            <div class="spoken-output" id="spokenOutput" style="display: none;">
+                <div class="spoken-label">
+                    🔊 Speaking:
+                </div>
+                <div class="spoken-text" id="spokenText"></div>
+            </div>
+            
+            <!-- Visual Story -->
+            <div class="visual-story" id="visualStory" style="display: none;">
+                <!-- Story emojis will appear here -->
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // TinkyBink Speech Prosthetic System
+        class TinkyBinkSystem {
+            constructor() {
+                this.conversationHistory = [];
+                this.personalityProfile = {
+                    preferences: [],
+                    patterns: [],
+                    vocabulary: new Set()
+                };
+                this.interactionCount = 0;
+                this.visualStory = [];
+                this.currentContext = null;
+            }
+            
+            // Process question and generate appropriate tiles
+            processQuestion(question) {
+                this.currentContext = question;
+                const intent = this.analyzeIntent(question);
+                const tiles = this.generateTiles(intent, question);
+                
+                // Track interaction
+                this.interactionCount++;
+                this.updateStats();
+                
+                return tiles;
+            }
+            
+            // Analyze intent using pattern matching (simulating AI)
+            analyzeIntent(question) {
+                const q = question.toLowerCase();
+                
+                if (q.includes(' or ')) {
+                    const options = this.extractOptions(q);
+                    return { type: 'CHOICE', options };
+                }
+                
+                if (q.includes('how') && (q.includes('sleep') || q.includes('night'))) {
+                    return { type: 'SLEEP_QUALITY' };
+                }
+                
+                if (q.includes('feel') || q.includes('emotion') || q.includes('mood')) {
+                    return { type: 'EMOTIONAL' };
+                }
+                
+                if (q.includes('pain') || q.includes('hurt') || q.includes('ache')) {
+                    return { type: 'MEDICAL' };
+                }
+                
+                if (q.includes('bathroom') || q.includes('toilet')) {
+                    return { type: 'BATHROOM' };
+                }
+                
+                if (q.includes('hungry') || q.includes('eat') || q.includes('food')) {
+                    return { type: 'FOOD' };
+                }
+                
+                if (q.includes('need') || q.includes('want')) {
+                    return { type: 'NEED' };
+                }
+                
+                if (q.includes('?')) {
+                    return { type: 'YES_NO' };
+                }
+                
+                return { type: 'GENERAL' };
+            }
+            
+            // Extract options from OR questions
+            extractOptions(question) {
+                const parts = question.split(/\bor\b/i);
+                return parts.map(part => {
+                    // Clean up the option
+                    return part.replace(/[?.,]/g, '')
+                               .replace(/do you want/i, '')
+                               .replace(/would you like/i, '')
+                               .trim();
+                });
+            }
+            
+            // Generate context-aware tiles
+            generateTiles(intent, question) {
+                const tiles = [];
+                
+                switch (intent.type) {
+                    case 'CHOICE':
+                        // Generate tiles for each option
+                        intent.options.forEach(option => {
+                            const emoji = this.getEmojiForWord(option);
+                            const word = this.simplifyWord(option);
+                            tiles.push({
+                                emoji: emoji,
+                                word: word,
+                                fullSentence: `I would like ${option}, please.`,
+                                confidence: 0.95
+                            });
+                        });
+                        // Add "both" and "neither" options
+                        tiles.push({
+                            emoji: '✅',
+                            word: 'Both',
+                            fullSentence: `I'd like both options, please.`,
+                            confidence: 0.85
+                        });
+                        tiles.push({
+                            emoji: '❌',
+                            word: 'Neither',
+                            fullSentence: `I don't want either option right now.`,
+                            confidence: 0.85
+                        });
+                        break;
+                        
+                    case 'SLEEP_QUALITY':
+                        tiles.push(
+                            { emoji: '😊', word: 'Good', fullSentence: 'I slept really well last night, thank you for asking.', confidence: 0.9 },
+                            { emoji: '😐', word: 'Okay', fullSentence: 'I slept okay, not great but not terrible.', confidence: 0.85 },
+                            { emoji: '😔', word: 'Poor', fullSentence: 'I didn\'t sleep well, I kept waking up.', confidence: 0.85 },
+                            { emoji: '😴', word: 'Tired', fullSentence: 'I\'m still feeling tired this morning.', confidence: 0.9 },
+                            { emoji: '🌙', word: 'Dreams', fullSentence: 'I had some interesting dreams last night.', confidence: 0.8 },
+                            { emoji: '⏰', word: 'Early', fullSentence: 'I woke up too early and couldn\'t fall back asleep.', confidence: 0.85 }
+                        );
+                        break;
+                        
+                    case 'EMOTIONAL':
+                        tiles.push(
+                            { emoji: '😊', word: 'Happy', fullSentence: 'I\'m feeling happy and positive today.', confidence: 0.95 },
+                            { emoji: '😢', word: 'Sad', fullSentence: 'I\'m feeling a bit sad right now.', confidence: 0.9 },
+                            { emoji: '😰', word: 'Anxious', fullSentence: 'I\'m feeling anxious and worried.', confidence: 0.9 },
+                            { emoji: '😌', word: 'Calm', fullSentence: 'I\'m feeling calm and peaceful.', confidence: 0.9 },
+                            { emoji: '😤', word: 'Frustrated', fullSentence: 'I\'m feeling frustrated about something.', confidence: 0.85 },
+                            { emoji: '🤗', word: 'Loved', fullSentence: 'I feel loved and supported.', confidence: 0.85 }
+                        );
+                        break;
+                        
+                    case 'MEDICAL':
+                        tiles.push(
+                            { emoji: '✅', word: 'Yes', fullSentence: 'Yes, I am experiencing some pain.', confidence: 0.95 },
+                            { emoji: '❌', word: 'No', fullSentence: 'No, I\'m not in pain right now.', confidence: 0.95 },
+                            { emoji: '🤕', word: 'Head', fullSentence: 'My head hurts.', confidence: 0.9 },
+                            { emoji: '💊', word: 'Medicine', fullSentence: 'I think I need my pain medication.', confidence: 0.9 },
+                            { emoji: '🔥', word: 'Burning', fullSentence: 'It\'s a burning sensation.', confidence: 0.85 },
+                            { emoji: '❄️', word: 'Numb', fullSentence: 'I feel numbness in that area.', confidence: 0.85 }
+                        );
+                        break;
+                        
+                    case 'BATHROOM':
+                        tiles.push(
+                            { emoji: '✅', word: 'Yes', fullSentence: 'Yes, I need to use the bathroom now.', confidence: 0.95 },
+                            { emoji: '❌', word: 'No', fullSentence: 'No, I don\'t need the bathroom right now.', confidence: 0.95 },
+                            { emoji: '🚽', word: 'Now', fullSentence: 'I need to go right now, please help me.', confidence: 0.95 },
+                            { emoji: '⏰', word: 'Soon', fullSentence: 'I\'ll need to go soon, maybe in a few minutes.', confidence: 0.9 },
+                            { emoji: '🚶', word: 'Walk', fullSentence: 'I can walk there myself.', confidence: 0.85 },
+                            { emoji: '♿', word: 'Help', fullSentence: 'I need assistance getting there.', confidence: 0.9 }
+                        );
+                        break;
+                        
+                    case 'FOOD':
+                        tiles.push(
+                            { emoji: '🍔', word: 'Hungry', fullSentence: 'Yes, I\'m hungry and would like something to eat.', confidence: 0.95 },
+                            { emoji: '✅', word: 'Yes', fullSentence: 'Yes, I would like some food please.', confidence: 0.9 },
+                            { emoji: '❌', word: 'No', fullSentence: 'No thank you, I\'m not hungry right now.', confidence: 0.9 },
+                            { emoji: '💧', word: 'Thirsty', fullSentence: 'I\'m thirsty, could I have something to drink?', confidence: 0.9 },
+                            { emoji: '🍎', word: 'Snack', fullSentence: 'Just a light snack would be nice.', confidence: 0.85 },
+                            { emoji: '🍽️', word: 'Meal', fullSentence: 'I\'d like a full meal please.', confidence: 0.85 }
+                        );
+                        break;
+                        
+                    case 'YES_NO':
+                        tiles.push(
+                            { emoji: '✅', word: 'Yes', fullSentence: 'Yes, that\'s correct.', confidence: 0.95 },
+                            { emoji: '❌', word: 'No', fullSentence: 'No, that\'s not right.', confidence: 0.95 },
+                            { emoji: '🤔', word: 'Maybe', fullSentence: 'Maybe, I\'m not sure yet.', confidence: 0.85 },
+                            { emoji: '👍', word: 'Good', fullSentence: 'That sounds good to me.', confidence: 0.9 },
+                            { emoji: '🔄', word: 'Later', fullSentence: 'Let\'s do that later instead.', confidence: 0.85 },
+                            { emoji: '❓', word: 'Explain', fullSentence: 'Could you explain that again?', confidence: 0.8 }
+                        );
+                        break;
+                        
+                    default:
+                        // General tiles
+                        tiles.push(
+                            { emoji: '✅', word: 'Yes', fullSentence: 'Yes', confidence: 0.9 },
+                            { emoji: '❌', word: 'No', fullSentence: 'No', confidence: 0.9 },
+                            { emoji: '💭', word: 'Want', fullSentence: 'I want something', confidence: 0.85 },
+                            { emoji: '🆘', word: 'Help', fullSentence: 'I need help', confidence: 0.85 },
+                            { emoji: '😊', word: 'Good', fullSentence: 'I\'m good', confidence: 0.85 },
+                            { emoji: '🔄', word: 'More', fullSentence: 'Tell me more', confidence: 0.8 }
+                        );
+                }
+                
+                return tiles;
+            }
+            
+            // Get appropriate emoji for a word
+            getEmojiForWord(word) {
+                const emojiMap = {
+                    'eggs': '🥚',
+                    'bacon': '🥓',
+                    'pizza': '🍕',
+                    'burger': '🍔',
+                    'tacos': '🌮',
+                    'tv': '📺',
+                    'television': '📺',
+                    'book': '📚',
+                    'read': '📖',
+                    'water': '💧',
+                    'coffee': '☕',
+                    'tea': '🍵',
+                    'breakfast': '🍳',
+                    'lunch': '🥪',
+                    'dinner': '🍽️',
+                    'sleep': '😴',
+                    'tired': '😴',
+                    'happy': '😊',
+                    'sad': '😢',
+                    'pain': '🤕',
+                    'medicine': '💊',
+                    'bathroom': '🚽',
+                    'home': '🏠',
+                    'car': '🚗',
+                    'walk': '🚶',
+                    'phone': '📱',
+                    'music': '🎵',
+                    'game': '🎮',
+                    'outside': '🌳',
+                    'hot': '🔥',
+                    'cold': '❄️'
+                };
+                
+                const lowerWord = word.toLowerCase();
+                for (const [key, emoji] of Object.entries(emojiMap)) {
+                    if (lowerWord.includes(key)) {
+                        return emoji;
+                    }
+                }
+                
+                return '💬'; // Default emoji
+            }
+            
+            // Simplify word for tile display
+            simplifyWord(phrase) {
+                // Extract the main word from the phrase
+                const words = phrase.split(' ');
+                const importantWords = words.filter(w => 
+                    !['the', 'a', 'an', 'for', 'to', 'of', 'in', 'on'].includes(w.toLowerCase())
+                );
+                
+                if (importantWords.length > 0) {
+                    // Capitalize first letter
+                    const word = importantWords[0];
+                    return word.charAt(0).toUpperCase() + word.slice(1);
+                }
+                
+                return phrase.charAt(0).toUpperCase() + phrase.slice(1);
+            }
+            
+            // Handle tile selection
+            selectTile(tile, tileElement) {
+                // Visual feedback
+                document.querySelectorAll('.tile').forEach(t => t.classList.remove('selected'));
+                tileElement.classList.add('selected');
+                
+                // Show spoken output
+                this.speak(tile.fullSentence);
+                
+                // Add to visual story
+                this.addToVisualStory(tile.emoji);
+                
+                // Update personality profile
+                this.updatePersonality(tile);
+                
+                // Add to conversation history
+                this.addToHistory(this.currentContext, tile);
+                
+                // Track vocabulary
+                this.personalityProfile.vocabulary.add(tile.word);
+                this.updateStats();
+            }
+            
+            // Speak the sentence
+            speak(text) {
+                const outputDiv = document.getElementById('spokenOutput');
+                const textDiv = document.getElementById('spokenText');
+                
+                outputDiv.style.display = 'block';
+                textDiv.textContent = text;
+                
+                // Use Web Speech API if available
+                if ('speechSynthesis' in window) {
+                    const utterance = new SpeechSynthesisUtterance(text);
+                    utterance.rate = 0.9;
+                    utterance.pitch = 1.0;
+                    speechSynthesis.speak(utterance);
+                }
+            }
+            
+            // Add emoji to visual story
+            addToVisualStory(emoji) {
+                this.visualStory.push(emoji);
+                const storyDiv = document.getElementById('visualStory');
+                storyDiv.style.display = 'flex';
+                storyDiv.innerHTML = this.visualStory.map(e => 
+                    `<span class="story-emoji">${e}</span>`
+                ).join('');
+                
+                // Keep only last 10 emojis
+                if (this.visualStory.length > 10) {
+                    this.visualStory.shift();
+                }
+            }
+            
+            // Update personality based on selections
+            updatePersonality(tile) {
+                // Track preferences
+                if (tile.word && !this.personalityProfile.preferences.includes(tile.word)) {
+                    this.personalityProfile.preferences.push(tile.word);
+                    
+                    // Update UI
+                    const traitsDiv = document.getElementById('personalityTraits');
+                    if (this.personalityProfile.preferences.length <= 5) {
+                        traitsDiv.innerHTML = this.personalityProfile.preferences.map(p =>
+                            `<span class="trait">${p}</span>`
+                        ).join('');
+                    }
+                }
+            }
+            
+            // Add to conversation history
+            addToHistory(question, tile) {
+                this.conversationHistory.push({ question, response: tile });
+                
+                const historyDiv = document.getElementById('conversationHistory');
+                const turnHtml = `
+                    <div class="conversation-turn">
+                        <div class="turn-question">Q: ${question}</div>
+                        <div class="turn-response">
+                            <span class="turn-tile">${tile.emoji} ${tile.word}</span>
+                            <span style="color: #6b7280; font-size: 0.85rem;">→ "${tile.fullSentence}"</span>
+                        </div>
+                    </div>
+                `;
+                
+                if (this.conversationHistory.length === 1) {
+                    historyDiv.innerHTML = turnHtml;
+                } else {
+                    historyDiv.innerHTML = turnHtml + historyDiv.innerHTML;
+                }
+                
+                // Keep only last 10 turns
+                if (this.conversationHistory.length > 10) {
+                    this.conversationHistory.shift();
+                }
+            }
+            
+            // Update statistics
+            updateStats() {
+                document.getElementById('interactionCount').textContent = this.interactionCount;
+                document.getElementById('vocabularySize').textContent = this.personalityProfile.vocabulary.size;
+            }
+        }
+        
+        // Initialize system
+        const tinkyBink = new TinkyBinkSystem();
+        
+        // Run a test scenario
+        function runScenario(question) {
+            document.getElementById('customQuestion').value = question;
+            askQuestion();
+        }
+        
+        // Process custom question
+        function askQuestion() {
+            const input = document.getElementById('customQuestion');
+            const question = input.value.trim();
+            
+            if (!question) return;
+            
+            // Process question and get tiles
+            const tiles = tinkyBink.processQuestion(question);
+            
+            // Display tiles
+            const container = document.getElementById('tilesContainer');
+            container.innerHTML = tiles.map((tile, index) => `
+                <div class="tile" onclick="tinkyBink.selectTile(${JSON.stringify(tile).replace(/"/g, '&quot;')}, this)">
+                    <span class="tile-confidence">${Math.round(tile.confidence * 100)}%</span>
+                    <div class="tile-emoji">${tile.emoji}</div>
+                    <div class="tile-word">${tile.word}</div>
+                </div>
+            `).join('');
+            
+            // Clear input for next question
+            input.value = '';
+        }
+        
+        // Initialize with a welcome message
+        window.onload = function() {
+            // Set initial tiles
+            askQuestion.call(null, 'Hello! How are you feeling today?');
+            document.getElementById('customQuestion').value = '';
+        };
+    </script>
+</body>
+</html>

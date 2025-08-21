@@ -1,10 +1,14 @@
+#![allow(clippy::needless_range_loop)]
+#![allow(clippy::uninlined_format_args)]
 //! 🧠💥 GPT-Infused Small Model Core
-//! 
+//!
 //! Give ANY small model GPT-like intelligence through:
 //! - Causal attention flow
 //! - Token prediction
 //! - Context windows
 //! - Emotional mapping
+
+#![allow(dead_code)]
 
 // use anyhow::Result;
 use std::collections::VecDeque;
@@ -44,16 +48,16 @@ impl GPTCore {
     pub fn gpt_like_predict(&mut self, input: &str) -> String {
         // 1. Tokenize input
         let tokens = self.tokenize(input);
-        
+
         // 2. Add positional encoding
         let positioned = self.add_positional_encoding(&tokens);
-        
+
         // 3. Apply multi-head attention (causal mask)
         let attended = self.attention.apply_causal(&positioned);
-        
+
         // 4. Predict next tokens
         let predicted = self.predictor.predict_next(&attended);
-        
+
         // 5. Decode back to text
         self.decode(&predicted)
     }
@@ -63,7 +67,7 @@ impl GPTCore {
         // Add to conversation buffer
         self.conversation_buffer.push_back(format!("User: {user_input}"));
         self.conversation_buffer.push_back(format!("TinkyBink: {bot_response}"));
-        
+
         // Maintain rolling window
         while self.conversation_buffer.len() > self.max_context * 2 {
             self.conversation_buffer.pop_front();
@@ -73,19 +77,19 @@ impl GPTCore {
     /// 🎭 Get context-aware prompt
     pub fn build_gpt_prompt(&self, new_input: &str) -> String {
         let mut prompt = String::new();
-        
+
         // Add conversation history
         for turn in &self.conversation_buffer {
             prompt.push_str(turn);
             prompt.push('\n');
         }
-        
+
         // Add emotional context
         prompt.push_str(&format!("[Emotional State: {}]\n", self.emotional_state));
-        
+
         // Add new input
         prompt.push_str(&format!("User: {new_input}\nTinkyBink:"));
-        
+
         prompt
     }
 
@@ -93,7 +97,7 @@ impl GPTCore {
     pub fn apply_emotional_intelligence(&mut self, input: &str) -> Vec<EmotionalResponse> {
         let emotion = self.detect_emotion(input);
         self.emotional_state = emotion.clone();
-        
+
         match emotion {
             EmotionalState::Sad => vec![
                 EmotionalResponse::new("I'm sorry you're feeling that way 💙", 0.9),
@@ -130,13 +134,12 @@ impl GPTCore {
 
     fn tokenize(&self, text: &str) -> Vec<Token> {
         // Simple word-based tokenization for now
-        text.split_whitespace()
-            .map(|word| Token::new(word.to_string()))
-            .collect()
+        text.split_whitespace().map(|word| Token::new(word.to_string())).collect()
     }
 
     fn add_positional_encoding(&self, tokens: &[Token]) -> Vec<PositionedToken> {
-        tokens.iter()
+        tokens
+            .iter()
             .enumerate()
             .map(|(pos, token)| PositionedToken {
                 token: token.clone(),
@@ -152,15 +155,12 @@ impl GPTCore {
     }
 
     fn decode(&self, tokens: &[Token]) -> String {
-        tokens.iter()
-            .map(|t| t.text.clone())
-            .collect::<Vec<_>>()
-            .join(" ")
+        tokens.iter().map(|t| t.text.clone()).collect::<Vec<_>>().join(" ")
     }
 
     fn detect_emotion(&self, text: &str) -> EmotionalState {
         let lower = text.to_lowercase();
-        
+
         if lower.contains("sad") || lower.contains("cry") || lower.contains("hurt") {
             EmotionalState::Sad
         } else if lower.contains("happy") || lower.contains("joy") || lower.contains("excited") {
@@ -189,27 +189,25 @@ impl MultiHeadAttention {
     pub fn apply_causal(&self, tokens: &[PositionedToken]) -> Vec<Token> {
         // Simplified causal attention (masks future tokens)
         let mut attended = Vec::new();
-        
+
         for i in 0..tokens.len() {
             // Only attend to previous tokens (causal mask)
             let context = &tokens[..=i];
-            
+
             // Compute attention weights (simplified)
             let weights = self.compute_attention_weights(context);
-            
+
             // Apply attention
             let attended_token = self.apply_attention(&tokens[i].token, &weights);
             attended.push(attended_token);
         }
-        
+
         attended
     }
 
     fn compute_attention_weights(&self, context: &[PositionedToken]) -> Vec<f32> {
         // Simplified attention weights
-        context.iter()
-            .map(|_t| 1.0 / context.len() as f32)
-            .collect()
+        context.iter().map(|_t| 1.0 / context.len() as f32).collect()
     }
 
     fn apply_attention(&self, token: &Token, _weights: &[f32]) -> Token {
@@ -252,13 +250,13 @@ impl TokenPredictor {
     pub fn predict_next(&self, context: &[Token]) -> Vec<Token> {
         // Simplified next-token prediction
         // In reality, this would use the model's learned weights
-        
+
         if context.is_empty() {
             return vec![Token::new("hello".to_string())];
         }
 
         let last_token = &context[context.len() - 1];
-        
+
         // Simple pattern matching for demonstration
         match last_token.text.as_str() {
             "are" => vec![Token::new("you".to_string())],
@@ -329,10 +327,7 @@ pub struct EmotionalResponse {
 
 impl EmotionalResponse {
     pub fn new(text: &str, confidence: f32) -> Self {
-        Self {
-            text: text.to_string(),
-            confidence,
-        }
+        Self { text: text.to_string(), confidence }
     }
 }
 
@@ -350,26 +345,23 @@ impl Default for OfflineGPT {
 
 impl OfflineGPT {
     pub fn new() -> Self {
-        Self {
-            core: GPTCore::new(),
-            tile_decoder: TileBasedDecoder::new(),
-        }
+        Self { core: GPTCore::new(), tile_decoder: TileBasedDecoder::new() }
     }
 
     /// Generate GPT-like response for AAC
     pub fn generate_aac_response(&mut self, input: &str) -> Vec<AACTile> {
         // 1. Build GPT-style prompt with context
         let prompt = self.core.build_gpt_prompt(input);
-        
+
         // 2. Apply emotional intelligence
         let emotional_responses = self.core.apply_emotional_intelligence(input);
-        
+
         // 3. Generate prediction
         let prediction = self.core.gpt_like_predict(&prompt);
-        
+
         // 4. Update memory
         self.core.update_memory(input, &prediction);
-        
+
         // 5. Convert to AAC tiles
         self.tile_decoder.decode_to_tiles(&prediction, emotional_responses)
     }
@@ -390,7 +382,8 @@ impl TileBasedDecoder {
     }
 
     pub fn decode_to_tiles(&self, _text: &str, emotions: Vec<EmotionalResponse>) -> Vec<AACTile> {
-        emotions.into_iter()
+        emotions
+            .into_iter()
             .map(|emotion| AACTile {
                 emoji: self.get_emoji_for_text(&emotion.text),
                 text: emotion.text,
@@ -401,7 +394,7 @@ impl TileBasedDecoder {
 
     fn get_emoji_for_text(&self, text: &str) -> String {
         let lower = text.to_lowercase();
-        
+
         if lower.contains("happy") || lower.contains("yay") {
             "😊".to_string()
         } else if lower.contains("sad") || lower.contains("sorry") {
@@ -434,11 +427,11 @@ mod tests {
     #[test]
     fn test_gpt_core() {
         let mut gpt = GPTCore::new();
-        
+
         // Test prediction
         let response = gpt.gpt_like_predict("How are you");
         assert!(!response.is_empty());
-        
+
         // Test memory
         gpt.update_memory("How are you?", "I'm doing well!");
         let prompt = gpt.build_gpt_prompt("What about you?");
@@ -449,7 +442,7 @@ mod tests {
     #[test]
     fn test_emotional_intelligence() {
         let mut gpt = GPTCore::new();
-        
+
         let responses = gpt.apply_emotional_intelligence("I feel so sad today");
         assert!(!responses.is_empty());
         assert!(responses[0].text.contains("sorry") || responses[0].text.contains("hard"));
@@ -458,7 +451,7 @@ mod tests {
     #[test]
     fn test_offline_gpt() {
         let mut offline_gpt = OfflineGPT::new();
-        
+
         let tiles = offline_gpt.generate_aac_response("Are you hungry?");
         assert_eq!(tiles.len(), 4); // Should generate 4 tile options
         assert!(!tiles[0].emoji.is_empty());

@@ -15,10 +15,7 @@ impl Default for EmojiMapper {
 
 impl EmojiMapper {
     pub fn new() -> Self {
-        let mut mapper = Self {
-            direct_mappings: HashMap::new(),
-            category_patterns: Vec::new(),
-        };
+        let mut mapper = Self { direct_mappings: HashMap::new(), category_patterns: Vec::new() };
 
         mapper.initialize_mappings();
         mapper.initialize_patterns();
@@ -357,8 +354,7 @@ impl EmojiMapper {
         ];
 
         for (word, emoji) in mappings {
-            self.direct_mappings
-                .insert(word.to_string(), emoji.to_string());
+            self.direct_mappings.insert(word.to_string(), emoji.to_string());
         }
     }
 

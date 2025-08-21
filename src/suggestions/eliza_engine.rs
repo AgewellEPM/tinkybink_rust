@@ -29,9 +29,7 @@ impl Default for ElizaEngine {
 
 impl ElizaEngine {
     pub fn new() -> Self {
-        let mut engine = Self {
-            response_patterns: Vec::new(),
-        };
+        let mut engine = Self { response_patterns: Vec::new() };
 
         engine.initialize_patterns();
         engine
@@ -78,11 +76,7 @@ impl ElizaEngine {
         // YES/NO Questions (highest priority for clear responses)
         self.add_pattern(
             r"^(do|does|did|are|is|was|were|will|would|could|should|can|may|have|has)\s+you",
-            vec![
-                ("✅", "Yes!", 0.95),
-                ("❌", "No", 0.95),
-                ("🤔", "I'm not sure", 0.8),
-            ],
+            vec![("✅", "Yes!", 0.95), ("❌", "No", 0.95), ("🤔", "I'm not sure", 0.8)],
             TileCategory::BasicResponse,
             10,
         );
@@ -90,11 +84,7 @@ impl ElizaEngine {
         // Feeling Questions
         self.add_pattern(
             r"how\s+(are|do)\s+you|feel(ing)?",
-            vec![
-                ("😊", "I'm doing great!", 0.9),
-                ("🙂", "I'm okay", 0.85),
-                ("😔", "Not so good", 0.7),
-            ],
+            vec![("😊", "I'm doing great!", 0.9), ("🙂", "I'm okay", 0.85), ("😔", "Not so good", 0.7)],
             TileCategory::Emotion,
             9,
         );
@@ -102,11 +92,7 @@ impl ElizaEngine {
         // Want/Like Questions
         self.add_pattern(
             r"what.*(want|like|prefer|enjoy)",
-            vec![
-                ("🍕", "I want food", 0.8),
-                ("💧", "I want water", 0.8),
-                ("🎮", "I want to play", 0.75),
-            ],
+            vec![("🍕", "I want food", 0.8), ("💧", "I want water", 0.8), ("🎮", "I want to play", 0.75)],
             TileCategory::Action,
             8,
         );
@@ -114,11 +100,7 @@ impl ElizaEngine {
         // Location Questions
         self.add_pattern(
             r"where",
-            vec![
-                ("🏠", "At home", 0.85),
-                ("📍", "Right here", 0.8),
-                ("🤷", "I don't know", 0.7),
-            ],
+            vec![("🏠", "At home", 0.85), ("📍", "Right here", 0.8), ("🤷", "I don't know", 0.7)],
             TileCategory::Place,
             8,
         );
@@ -126,11 +108,7 @@ impl ElizaEngine {
         // Time Questions
         self.add_pattern(
             r"when",
-            vec![
-                ("⏰", "Right now", 0.85),
-                ("⏳", "Later", 0.8),
-                ("🌅", "Tomorrow", 0.75),
-            ],
+            vec![("⏰", "Right now", 0.85), ("⏳", "Later", 0.8), ("🌅", "Tomorrow", 0.75)],
             TileCategory::Time,
             8,
         );
@@ -138,11 +116,7 @@ impl ElizaEngine {
         // Food Related
         self.add_pattern(
             r"eat|hungry|food|meal|breakfast|lunch|dinner|snack",
-            vec![
-                ("🍕", "I want pizza", 0.8),
-                ("🥗", "Something healthy", 0.75),
-                ("❌", "I'm not hungry", 0.7),
-            ],
+            vec![("🍕", "I want pizza", 0.8), ("🥗", "Something healthy", 0.75), ("❌", "I'm not hungry", 0.7)],
             TileCategory::Food,
             7,
         );
@@ -150,11 +124,7 @@ impl ElizaEngine {
         // Drink Related
         self.add_pattern(
             r"drink|thirsty|water|juice|milk",
-            vec![
-                ("💧", "I want water", 0.9),
-                ("🧃", "I want juice", 0.8),
-                ("❌", "I'm not thirsty", 0.7),
-            ],
+            vec![("💧", "I want water", 0.9), ("🧃", "I want juice", 0.8), ("❌", "I'm not thirsty", 0.7)],
             TileCategory::Food,
             7,
         );
@@ -174,11 +144,7 @@ impl ElizaEngine {
         // Activity Questions
         self.add_pattern(
             r"play|game|fun|activity|do",
-            vec![
-                ("🎮", "Let's play a game", 0.8),
-                ("📚", "I want to read", 0.75),
-                ("🎵", "I want music", 0.75),
-            ],
+            vec![("🎮", "Let's play a game", 0.8), ("📚", "I want to read", 0.75), ("🎵", "I want music", 0.75)],
             TileCategory::Action,
             6,
         );
@@ -186,11 +152,7 @@ impl ElizaEngine {
         // Pain/Discomfort
         self.add_pattern(
             r"hurt|pain|sick|ow|ouch",
-            vec![
-                ("🤒", "I don't feel well", 0.9),
-                ("🆘", "I need help", 0.85),
-                ("💊", "I need medicine", 0.8),
-            ],
+            vec![("🤒", "I don't feel well", 0.9), ("🆘", "I need help", 0.85), ("💊", "I need medicine", 0.8)],
             TileCategory::Emotion,
             9, // High priority for medical concerns
         );
@@ -198,11 +160,7 @@ impl ElizaEngine {
         // Bathroom Needs
         self.add_pattern(
             r"bathroom|toilet|potty|pee|restroom",
-            vec![
-                ("🚽", "I need the bathroom", 0.95),
-                ("🏃", "It's urgent", 0.9),
-                ("📍", "Where is it?", 0.8),
-            ],
+            vec![("🚽", "I need the bathroom", 0.95), ("🏃", "It's urgent", 0.9), ("📍", "Where is it?", 0.8)],
             TileCategory::Action,
             9, // High priority for urgent needs
         );
@@ -210,11 +168,7 @@ impl ElizaEngine {
         // Tired/Sleep
         self.add_pattern(
             r"tired|sleepy|sleep|nap|rest",
-            vec![
-                ("😴", "I'm tired", 0.9),
-                ("🛏️", "I want to sleep", 0.85),
-                ("⏰", "What time is it?", 0.7),
-            ],
+            vec![("😴", "I'm tired", 0.9), ("🛏️", "I want to sleep", 0.85), ("⏰", "What time is it?", 0.7)],
             TileCategory::Emotion,
             7,
         );
@@ -222,11 +176,7 @@ impl ElizaEngine {
         // Happy/Excited
         self.add_pattern(
             r"happy|excited|great|awesome|wonderful",
-            vec![
-                ("😊", "I'm so happy!", 0.9),
-                ("🎉", "This is great!", 0.85),
-                ("❤️", "I love this", 0.8),
-            ],
+            vec![("😊", "I'm so happy!", 0.9), ("🎉", "This is great!", 0.85), ("❤️", "I love this", 0.8)],
             TileCategory::Emotion,
             6,
         );
@@ -234,11 +184,7 @@ impl ElizaEngine {
         // Confused/Don't Understand
         self.add_pattern(
             r"confused|understand|know|huh|what",
-            vec![
-                ("🤔", "I don't understand", 0.9),
-                ("❓", "Can you explain?", 0.85),
-                ("🔄", "Say that again", 0.8),
-            ],
+            vec![("🤔", "I don't understand", 0.9), ("❓", "Can you explain?", 0.85), ("🔄", "Say that again", 0.8)],
             TileCategory::Question,
             7,
         );
@@ -246,11 +192,7 @@ impl ElizaEngine {
         // Greetings
         self.add_pattern(
             r"hello|hi|hey|good morning|good afternoon|good evening",
-            vec![
-                ("👋", "Hello!", 0.9),
-                ("😊", "Hi there!", 0.85),
-                ("🌅", "Good morning!", 0.8),
-            ],
+            vec![("👋", "Hello!", 0.9), ("😊", "Hi there!", 0.85), ("🌅", "Good morning!", 0.8)],
             TileCategory::BasicResponse,
             6,
         );
@@ -258,11 +200,7 @@ impl ElizaEngine {
         // Goodbye
         self.add_pattern(
             r"bye|goodbye|see you|farewell",
-            vec![
-                ("👋", "Goodbye!", 0.9),
-                ("❤️", "See you later!", 0.85),
-                ("😊", "Have a good day!", 0.8),
-            ],
+            vec![("👋", "Goodbye!", 0.9), ("❤️", "See you later!", 0.85), ("😊", "Have a good day!", 0.8)],
             TileCategory::BasicResponse,
             6,
         );
@@ -270,11 +208,7 @@ impl ElizaEngine {
         // Default conversational responses (lowest priority)
         self.add_pattern(
             r".*", // Matches anything
-            vec![
-                ("💬", "Tell me more", 0.6),
-                ("🤔", "I understand", 0.5),
-                ("👍", "That's interesting", 0.5),
-            ],
+            vec![("💬", "Tell me more", 0.6), ("🤔", "I understand", 0.5), ("👍", "That's interesting", 0.5)],
             TileCategory::Default,
             1, // Lowest priority
         );
@@ -297,12 +231,7 @@ impl ElizaEngine {
                 })
                 .collect();
 
-            self.response_patterns.push(ResponsePattern {
-                pattern: regex,
-                responses: templates,
-                category,
-                priority,
-            });
+            self.response_patterns.push(ResponsePattern { pattern: regex, responses: templates, category, priority });
         }
     }
 }

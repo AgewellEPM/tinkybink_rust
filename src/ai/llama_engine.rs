@@ -53,9 +53,7 @@ impl LlamaEngine {
         );
         warn!("3. Or any small GGUF model from HuggingFace");
 
-        Err(anyhow::anyhow!(
-            "Model not found. Please download TinyLlama or another small GGUF model."
-        ))
+        Err(anyhow::anyhow!("Model not found. Please download TinyLlama or another small GGUF model."))
     }
 
     /// Generate child-like response using pattern matching (Llama not available)
@@ -77,9 +75,8 @@ impl LlamaEngine {
             super::ResponseStyle::Gentle => "Be gentle and calm.",
         };
 
-        let _full_prompt = format!(
-            "{CHILD_AAC_PROMPT}\n\n{emotional_hint}\n{style_hint}\n\nParent: \"{input}\"\nChild:"
-        );
+        let _full_prompt =
+            format!("{CHILD_AAC_PROMPT}\n\n{emotional_hint}\n{style_hint}\n\nParent: \"{input}\"\nChild:");
 
         // Pattern-based generation since Llama is not available
         let response = if input.to_lowercase().contains("hungry") {
@@ -95,10 +92,7 @@ impl LlamaEngine {
 
         // Parse into multiple suggestions if the model generated alternatives
         let suggestions = if response.contains(" or ") {
-            response
-                .split(" or ")
-                .map(|s| s.trim().to_string())
-                .collect()
+            response.split(" or ").map(|s| s.trim().to_string()).collect()
         } else {
             vec![response]
         };

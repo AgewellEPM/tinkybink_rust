@@ -42,8 +42,7 @@ impl SuggestionEngine {
             Ok(_) => {
                 // We're in an async context, can use async
                 match tokio::task::block_in_place(|| {
-                    tokio::runtime::Handle::current()
-                        .block_on(AiEngineFactory::create_best_available())
+                    tokio::runtime::Handle::current().block_on(AiEngineFactory::create_best_available())
                 }) {
                     Ok(engine) => {
                         info!("✅ AI engine loaded successfully!");
@@ -74,19 +73,13 @@ impl SuggestionEngine {
 
     /// Set user profile for adaptive responses
     pub fn set_user_profile(&mut self, profile: UserProfile) {
-        info!(
-            "👤 Setting user profile: {} ({:?})",
-            profile.name, profile.user_type
-        );
+        info!("👤 Setting user profile: {} ({:?})", profile.name, profile.user_type);
         self.user_profile = Some(profile);
     }
 
     /// Generate 4 emotionally intelligent suggestions based on input text and memory
     pub async fn generate_suggestions(&self, text: &str) -> Result<Vec<SuggestionTile>> {
-        info!(
-            "🧠 Generating emotionally intelligent suggestions for: '{}'",
-            text
-        );
+        info!("🧠 Generating emotionally intelligent suggestions for: '{}'", text);
 
         let text_lower = text.to_lowercase();
 
@@ -101,10 +94,7 @@ impl SuggestionEngine {
 
         // Check if we have a user profile for adaptive responses
         if let Some(ref profile) = self.user_profile {
-            debug!(
-                "👤 Using adaptive responses for user type: {:?}",
-                profile.user_type
-            );
+            debug!("👤 Using adaptive responses for user type: {:?}", profile.user_type);
             let contextual_responses = profile.get_contextual_responses(&text_lower);
             if !contextual_responses.is_empty() {
                 let adaptive_suggestions: Vec<SuggestionTile> = contextual_responses
@@ -112,18 +102,10 @@ impl SuggestionEngine {
                     .take(4)
                     .map(|response| {
                         let emoji = self.emoji_mapper.get_emoji(&response);
-                        SuggestionTile {
-                            emoji,
-                            text: response,
-                            category: TileCategory::Default,
-                            confidence: 0.9,
-                        }
+                        SuggestionTile { emoji, text: response, category: TileCategory::Default, confidence: 0.9 }
                     })
                     .collect();
-                info!(
-                    "✅ Generated {} adaptive suggestions for user type",
-                    adaptive_suggestions.len()
-                );
+                info!("✅ Generated {} adaptive suggestions for user type", adaptive_suggestions.len());
                 return Ok(adaptive_suggestions);
             }
         }
@@ -226,10 +208,7 @@ impl SuggestionEngine {
             suggestions.push(self.get_fallback_suggestion(suggestions.len()));
         }
 
-        info!(
-            "🧠 Generated {} emotionally intelligent suggestions",
-            suggestions.len()
-        );
+        info!("🧠 Generated {} emotionally intelligent suggestions", suggestions.len());
         Ok(suggestions)
     }
 
@@ -268,12 +247,7 @@ impl SuggestionEngine {
                 .into_iter()
                 .map(|response| {
                     let emoji = self.emoji_mapper.get_emoji(&response);
-                    SuggestionTile {
-                        emoji,
-                        text: response,
-                        category: TileCategory::BasicResponse,
-                        confidence: 1.0,
-                    }
+                    SuggestionTile { emoji, text: response, category: TileCategory::BasicResponse, confidence: 1.0 }
                 })
                 .collect();
         }
@@ -302,11 +276,7 @@ impl SuggestionEngine {
     }
 
     fn get_fallback_suggestion(&self, index: usize) -> SuggestionTile {
-        let fallbacks = [
-            ("🤔", "I'm thinking"),
-            ("👍", "Okay"),
-            ("❓", "I have a question"),
-        ];
+        let fallbacks = [("🤔", "I'm thinking"), ("👍", "Okay"), ("❓", "I have a question")];
 
         let (emoji, text) = fallbacks.get(index).unwrap_or(&("💭", "..."));
 

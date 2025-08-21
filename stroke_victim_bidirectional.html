@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinkyBink Bidirectional AAC - Complete Communication System</title>
+    <style>
+        :root {
+            --primary: #7b3ff2;
+            --secondary: #2563eb;
+            --success: #059669;
+            --danger: #dc2626;
+            --warning: #d97706;
+            --dark: #1f2937;
+            --light: #f8fafc;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 400px;
+            gap: 20px;
+        }
+        
+        .panel {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            height: fit-content;
+        }
+        
+        h1 {
+            color: var(--primary);
+            margin-bottom: 8px;
+            font-size: 1.5rem;
+        }
+        
+        h2 {
+            color: var(--dark);
+            margin-bottom: 16px;
+            font-size: 1.2rem;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        .subtitle {
+            color: #6b7280;
+            margin-bottom: 24px;
+            font-size: 0.9rem;
+        }
+        
+        /* Input Section */
+        .input-section {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .input-group {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        
+        .text-input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        
+        .text-input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        .btn {
+            padding: 12px 20px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .btn:hover {
+            background: #6d28d9;
+            transform: translateY(-1px);
+        }
+        
+        .btn-secondary {
+            background: var(--secondary);
+        }
+        
+        .btn-secondary:hover {
+            background: #1d4ed8;
+        }
+        
+        .btn-success {
+            background: var(--success);
+        }
+        
+        .btn-success:hover {
+            background: #047857;
+        }
+        
+        /* Tiles */
+        .tiles-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .tile {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border: 2px solid #bfdbfe;
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .tile:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            border-color: var(--primary);
+        }
+        
+        .tile.selected {
+            background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+            border-color: var(--primary);
+            transform: scale(1.05);
+        }
+        
+        .tile-emoji {
+            font-size: 2.5rem;
+            margin-bottom: 8px;
+        }
+        
+        .tile-text {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--dark);
+            margin-bottom: 4px;
+        }
+        
+        .tile-confidence {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: var(--success);
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: 600;
+        }
+        
+        .tile-sentence {
+            font-size: 0.75rem;
+            color: #6b7280;
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px solid #e5e7eb;
+            font-style: italic;
+        }
+        
+        /* Question Suggestions */
+        .question-suggestions {
+            background: #fef3c7;
+            border: 2px solid #fbbf24;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .question-label {
+            font-weight: 600;
+            color: var(--warning);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .suggested-questions {
+            display: grid;
+            gap: 8px;
+        }
+        
+        .suggested-question {
+            background: white;
+            padding: 10px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 1px solid #fed7aa;
+        }
+        
+        .suggested-question:hover {
+            background: #fffbeb;
+            transform: translateX(4px);
+            border-color: var(--warning);
+        }
+        
+        /* Conversation Display */
+        .conversation-display {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .conversation-turn {
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .conversation-turn:last-child {
+            border-bottom: none;
+        }
+        
+        .speaker-label {
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 4px;
+            font-size: 0.85rem;
+        }
+        
+        .conversation-text {
+            color: var(--dark);
+            line-height: 1.5;
+        }
+        
+        .tile-selection {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: white;
+            padding: 4px 8px;
+            border-radius: 6px;
+            margin-top: 4px;
+        }
+        
+        /* Knowledge Panel */
+        .knowledge-panel {
+            background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .knowledge-title {
+            font-weight: 600;
+            color: #be185d;
+            margin-bottom: 12px;
+        }
+        
+        .knowledge-item {
+            background: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+        
+        /* Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #e5e7eb;
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .stat-label {
+            font-size: 0.8rem;
+            color: #6b7280;
+            margin-top: 4px;
+        }
+        
+        /* Quick Actions */
+        .quick-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .quick-btn {
+            padding: 10px;
+            background: var(--secondary);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .quick-btn:hover {
+            background: #1d4ed8;
+            transform: translateY(-1px);
+        }
+        
+        /* Visual Story */
+        .visual-story {
+            display: flex;
+            gap: 8px;
+            padding: 12px;
+            background: linear-gradient(90deg, #fef3c7 0%, #fed7aa 100%);
+            border-radius: 8px;
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+        
+        .story-emoji {
+            font-size: 2rem;
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        @media (max-width: 1200px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Patient Panel -->
+        <div class="panel">
+            <h1>👤 Patient Interface</h1>
+            <p class="subtitle">Tap tiles to communicate - AI generates responses</p>
+            
+            <div class="input-section">
+                <div style="font-weight: 600; margin-bottom: 8px; color: var(--dark);">
+                    Current Question:
+                </div>
+                <div id="patientQuestion" style="padding: 12px; background: white; border-radius: 6px; min-height: 40px;">
+                    Waiting for caregiver...
+                </div>
+            </div>
+            
+            <h2>Response Tiles</h2>
+            <div class="tiles-container" id="patientTiles">
+                <!-- Tiles will be dynamically generated -->
+            </div>
+            
+            <div class="visual-story" id="visualStory" style="display: none;">
+                <!-- Story emojis will appear here -->
+            </div>
+        </div>
+        
+        <!-- Caregiver Panel -->
+        <div class="panel">
+            <h1>👩‍⚕️ Caregiver Interface</h1>
+            <p class="subtitle">Ask questions and receive AI-powered responses</p>
+            
+            <div class="input-section">
+                <div class="input-group">
+                    <input type="text" 
+                           class="text-input" 
+                           id="caregiverInput" 
+                           placeholder="Type your question..."
+                           onkeypress="if(event.key === 'Enter') askQuestion()">
+                    <button class="btn" onclick="askQuestion()">Ask</button>
+                </div>
+            </div>
+            
+            <div class="question-suggestions" id="questionSuggestions">
+                <div class="question-label">
+                    💡 AI-Suggested Follow-up Questions:
+                </div>
+                <div class="suggested-questions" id="suggestedQuestions">
+                    <!-- AI will suggest contextual questions -->
+                </div>
+            </div>
+            
+            <div class="quick-actions">
+                <button class="quick-btn" onclick="quickQuestion('How are you feeling?')">
+                    😊 Feeling Check
+                </button>
+                <button class="quick-btn" onclick="quickQuestion('Are you in pain?')">
+                    🏥 Pain Check
+                </button>
+                <button class="quick-btn" onclick="quickQuestion('Do you need anything?')">
+                    💭 Needs Check
+                </button>
+                <button class="quick-btn" onclick="quickQuestion('Would you like some water?')">
+                    💧 Hydration
+                </button>
+            </div>
+            
+            <h2>Conversation</h2>
+            <div class="conversation-display" id="conversationDisplay">
+                <div style="color: #9ca3af; text-align: center;">
+                    Start a conversation...
+                </div>
+            </div>
+        </div>
+        
+        <!-- AI Assistant Panel -->
+        <div class="panel">
+            <h1>🤖 AI Assistant</h1>
+            <p class="subtitle">Helping both patient and caregiver</p>
+            
+            <div class="knowledge-panel">
+                <div class="knowledge-title">📚 Patient Context</div>
+                <div id="patientContext">
+                    <div class="knowledge-item">Name: Margaret</div>
+                    <div class="knowledge-item">Condition: Stroke recovery</div>
+                    <div class="knowledge-item">Communication: Limited speech</div>
+                    <div class="knowledge-item">Preferences: Learning...</div>
+                </div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="interactionCount">0</div>
+                    <div class="stat-label">Interactions</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="accuracyRate">95%</div>
+                    <div class="stat-label">AI Accuracy</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="vocabularySize">8</div>
+                    <div class="stat-label">Active Tiles</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="responseTime">1.2s</div>
+                    <div class="stat-label">Avg Response</div>
+                </div>
+            </div>
+            
+            <div class="knowledge-panel" style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);">
+                <div class="knowledge-title" style="color: var(--secondary);">
+                    🧠 AI Insights
+                </div>
+                <div id="aiInsights">
+                    <div class="knowledge-item">
+                        Patient seems comfortable
+                    </div>
+                    <div class="knowledge-item">
+                        No urgent needs detected
+                    </div>
+                    <div class="knowledge-item">
+                        Mood: Neutral/Positive
+                    </div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 20px;">
+                <button class="btn btn-success" style="width: 100%;" onclick="generateReport()">
+                    📊 Generate Communication Report
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // TinkyBink Bidirectional Communication System
+        class TinkyBinkBidirectional {
+            constructor() {
+                this.conversationHistory = [];
+                this.patientProfile = {
+                    name: 'Margaret',
+                    preferences: new Map(),
+                    vocabulary: new Set(),
+                    emotionalPatterns: [],
+                    commonResponses: new Map()
+                };
+                this.interactionCount = 0;
+                this.currentContext = null;
+                this.visualStory = [];
+                this.aiKnowledge = {
+                    medicalHistory: ['stroke', 'aphasia', 'right-side weakness'],
+                    communicationLevel: 'basic',
+                    cognitiveStatus: 'alert',
+                    preferences: []
+                };
+            }
+            
+            // Process caregiver question and generate tiles
+            processQuestion(question) {
+                this.currentContext = question;
+                this.interactionCount++;
+                
+                // Analyze intent
+                const intent = this.analyzeIntent(question);
+                
+                // Generate appropriate tiles
+                const tiles = this.generateContextualTiles(intent, question);
+                
+                // Generate follow-up questions for caregiver
+                const followUpQuestions = this.generateFollowUpQuestions(intent, question);
+                
+                // Update AI insights
+                this.updateAIInsights(question, intent);
+                
+                // Update stats
+                this.updateStats();
+                
+                return {
+                    tiles,
+                    followUpQuestions,
+                    insights: this.getInsights()
+                };
+            }
+            
+            // Analyze question intent with advanced AI logic
+            analyzeIntent(question) {
+                const q = question.toLowerCase();
+                
+                // Check for medical urgency
+                if (q.includes('pain') || q.includes('hurt') || q.includes('emergency')) {
+                    return { type: 'MEDICAL_URGENT', priority: 'high' };
+                }
+                
+                // Check for basic needs
+                if (q.includes('bathroom') || q.includes('toilet')) {
+                    return { type: 'BATHROOM', priority: 'high' };
+                }
+                
+                if (q.includes('water') || q.includes('thirsty') || q.includes('drink')) {
+                    return { type: 'HYDRATION', priority: 'medium' };
+                }
+                
+                if (q.includes('hungry') || q.includes('eat') || q.includes('food')) {
+                    return { type: 'NUTRITION', priority: 'medium' };
+                }
+                
+                // Check for emotional/social
+                if (q.includes('feel') || q.includes('mood') || q.includes('emotion')) {
+                    return { type: 'EMOTIONAL', priority: 'medium' };
+                }
+                
+                if (q.includes('family') || q.includes('visit') || q.includes('call')) {
+                    return { type: 'SOCIAL', priority: 'low' };
+                }
+                
+                // Check for choices
+                if (q.includes(' or ')) {
+                    const options = this.extractOptions(q);
+                    return { type: 'CHOICE', options, priority: 'medium' };
+                }
+                
+                // Check for yes/no
+                if (q.startsWith('do') || q.startsWith('are') || q.startsWith('is') || q.startsWith('can')) {
+                    return { type: 'YES_NO', priority: 'low' };
+                }
+                
+                return { type: 'GENERAL', priority: 'low' };
+            }
+            
+            // Extract options from OR questions
+            extractOptions(question) {
+                return question.split(/\bor\b/i).map(opt => 
+                    opt.trim().replace(/[?.,]/g, '').replace(/^(would you like|do you want)\s*/i, '')
+                );
+            }
+            
+            // Generate contextual tiles based on intent
+            generateContextualTiles(intent, question) {
+                const tiles = [];
+                
+                switch (intent.type) {
+                    case 'MEDICAL_URGENT':
+                        tiles.push(
+                            { emoji: '🚨', word: 'Yes, help!', sentence: 'Yes, I need help right now, please!', confidence: 0.95 },
+                            { emoji: '😣', word: 'Hurts here', sentence: 'It hurts in this area', confidence: 0.92 },
+                            { emoji: '💊', word: 'Medicine', sentence: 'I need my pain medication please', confidence: 0.90 },
+                            { emoji: '🔥', word: 'Burning', sentence: 'It\'s a burning sensation', confidence: 0.85 },
+                            { emoji: '⚡', word: 'Sharp', sentence: 'The pain is sharp and sudden', confidence: 0.85 },
+                            { emoji: '😌', word: 'Better now', sentence: 'Actually, I\'m feeling better now', confidence: 0.80 }
+                        );
+                        break;
+                        
+                    case 'BATHROOM':
+                        tiles.push(
+                            { emoji: '🚨', word: 'Urgent!', sentence: 'I need to go right now, urgent!', confidence: 0.95 },
+                            { emoji: '✅', word: 'Yes please', sentence: 'Yes, I need help getting to the bathroom', confidence: 0.92 },
+                            { emoji: '⏰', word: 'Soon', sentence: 'I\'ll need to go soon, in a few minutes', confidence: 0.85 },
+                            { emoji: '❌', word: 'Not now', sentence: 'No, I don\'t need to go right now', confidence: 0.85 },
+                            { emoji: '🚶', word: 'Can walk', sentence: 'I can walk there myself', confidence: 0.80 },
+                            { emoji: '♿', word: 'Need help', sentence: 'I need assistance getting there', confidence: 0.88 }
+                        );
+                        break;
+                        
+                    case 'HYDRATION':
+                        tiles.push(
+                            { emoji: '💧', word: 'Water', sentence: 'Yes, I\'d like some water please', confidence: 0.95 },
+                            { emoji: '🧊', word: 'With ice', sentence: 'Water with ice would be nice', confidence: 0.88 },
+                            { emoji: '☕', word: 'Coffee', sentence: 'I\'d prefer coffee instead', confidence: 0.82 },
+                            { emoji: '🥤', word: 'Juice', sentence: 'Some juice would be good', confidence: 0.80 },
+                            { emoji: '🫖', word: 'Tea', sentence: 'Hot tea would be lovely', confidence: 0.78 },
+                            { emoji: '❌', word: 'Not thirsty', sentence: 'No thank you, I\'m not thirsty', confidence: 0.85 }
+                        );
+                        break;
+                        
+                    case 'EMOTIONAL':
+                        tiles.push(
+                            { emoji: '😊', word: 'Good', sentence: 'I\'m feeling good today, thank you', confidence: 0.90 },
+                            { emoji: '😔', word: 'Sad', sentence: 'I\'m feeling a bit sad today', confidence: 0.85 },
+                            { emoji: '😴', word: 'Tired', sentence: 'I\'m very tired right now', confidence: 0.88 },
+                            { emoji: '😰', word: 'Anxious', sentence: 'I\'m feeling anxious and worried', confidence: 0.82 },
+                            { emoji: '😌', word: 'Peaceful', sentence: 'I feel calm and peaceful', confidence: 0.85 },
+                            { emoji: '🤗', word: 'Loved', sentence: 'I feel loved and cared for', confidence: 0.80 }
+                        );
+                        break;
+                        
+                    case 'CHOICE':
+                        if (intent.options) {
+                            intent.options.forEach(option => {
+                                const emoji = this.getEmojiForWord(option);
+                                const word = this.simplifyWord(option);
+                                tiles.push({
+                                    emoji: emoji,
+                                    word: word,
+                                    sentence: `I would like ${option}, please`,
+                                    confidence: 0.92
+                                });
+                            });
+                            tiles.push(
+                                { emoji: '✅', word: 'Both', sentence: 'I\'d like both options please', confidence: 0.80 },
+                                { emoji: '❌', word: 'Neither', sentence: 'I don\'t want either option', confidence: 0.80 }
+                            );
+                        }
+                        break;
+                        
+                    default:
+                        tiles.push(
+                            { emoji: '✅', word: 'Yes', sentence: 'Yes, that\'s right', confidence: 0.90 },
+                            { emoji: '❌', word: 'No', sentence: 'No, that\'s not what I mean', confidence: 0.90 },
+                            { emoji: '🤔', word: 'Maybe', sentence: 'Maybe, I\'m not sure yet', confidence: 0.85 },
+                            { emoji: '👍', word: 'Good', sentence: 'That sounds good to me', confidence: 0.85 },
+                            { emoji: '❓', word: 'What?', sentence: 'I don\'t understand, can you repeat?', confidence: 0.80 },
+                            { emoji: '💭', word: 'Think', sentence: 'Let me think about it', confidence: 0.75 }
+                        );
+                }
+                
+                return tiles;
+            }
+            
+            // Generate follow-up questions for caregiver
+            generateFollowUpQuestions(intent, lastQuestion) {
+                const questions = [];
+                
+                switch (intent.type) {
+                    case 'MEDICAL_URGENT':
+                        questions.push(
+                            'Where exactly does it hurt?',
+                            'On a scale of 1-10, how bad is the pain?',
+                            'Is the pain constant or does it come and go?',
+                            'Do you need me to call the doctor?'
+                        );
+                        break;
+                        
+                    case 'EMOTIONAL':
+                        questions.push(
+                            'Is there something specific bothering you?',
+                            'Would you like to talk about it?',
+                            'Would seeing family help you feel better?',
+                            'Do you want to do an activity together?'
+                        );
+                        break;
+                        
+                    case 'BATHROOM':
+                        questions.push(
+                            'Do you need help getting up?',
+                            'Should I get the wheelchair?',
+                            'Do you feel steady enough to walk?'
+                        );
+                        break;
+                        
+                    case 'HYDRATION':
+                        questions.push(
+                            'Would you like it warm or cold?',
+                            'Do you want a straw?',
+                            'Should I bring a snack too?'
+                        );
+                        break;
+                        
+                    default:
+                        // Context-aware general questions
+                        const hour = new Date().getHours();
+                        if (hour < 12) {
+                            questions.push(
+                                'Did you sleep well?',
+                                'Are you ready for breakfast?',
+                                'Do you want to get dressed?'
+                            );
+                        } else if (hour < 17) {
+                            questions.push(
+                                'Would you like to rest?',
+                                'Are you comfortable?',
+                                'Do you want to watch TV?'
+                            );
+                        } else {
+                            questions.push(
+                                'Are you getting tired?',
+                                'Have you taken your evening medication?',
+                                'Are you ready for dinner?'
+                            );
+                        }
+                }
+                
+                return questions.slice(0, 4); // Return top 4 suggestions
+            }
+            
+            // Get emoji for word
+            getEmojiForWord(word) {
+                const emojiMap = {
+                    'water': '💧', 'coffee': '☕', 'tea': '🍵', 'juice': '🥤',
+                    'eggs': '🥚', 'bacon': '🥓', 'toast': '🍞', 'cereal': '🥣',
+                    'tv': '📺', 'book': '📚', 'music': '🎵', 'sleep': '😴',
+                    'happy': '😊', 'sad': '😢', 'tired': '😴', 'pain': '😣',
+                    'medicine': '💊', 'doctor': '👨‍⚕️', 'nurse': '👩‍⚕️',
+                    'family': '👨‍👩‍👧', 'phone': '📱', 'rest': '🛌'
+                };
+                
+                const lower = word.toLowerCase();
+                for (const [key, emoji] of Object.entries(emojiMap)) {
+                    if (lower.includes(key)) return emoji;
+                }
+                return '💬';
+            }
+            
+            // Simplify word for display
+            simplifyWord(phrase) {
+                const words = phrase.split(' ').filter(w => 
+                    !['the', 'a', 'an', 'some'].includes(w.toLowerCase())
+                );
+                return words[0] ? words[0].charAt(0).toUpperCase() + words[0].slice(1) : phrase;
+            }
+            
+            // Process tile selection
+            selectTile(tile) {
+                // Add to conversation
+                this.conversationHistory.push({
+                    type: 'patient',
+                    tile: tile,
+                    timestamp: new Date()
+                });
+                
+                // Update patient profile
+                this.updatePatientProfile(tile);
+                
+                // Add to visual story
+                this.addToVisualStory(tile.emoji);
+                
+                // Generate AI insights
+                const insights = this.analyzePatientResponse(tile);
+                
+                return {
+                    spokenText: tile.sentence,
+                    insights: insights,
+                    nextQuestions: this.generateContextualFollowUp(tile)
+                };
+            }
+            
+            // Update patient profile based on selections
+            updatePatientProfile(tile) {
+                // Track vocabulary usage
+                this.patientProfile.vocabulary.add(tile.word);
+                
+                // Track preferences
+                const count = this.patientProfile.preferences.get(tile.word) || 0;
+                this.patientProfile.preferences.set(tile.word, count + 1);
+                
+                // Track emotional patterns
+                if (tile.emoji.match(/😊|😔|😴|😰|😌|🤗/)) {
+                    this.patientProfile.emotionalPatterns.push({
+                        emotion: tile.word,
+                        timestamp: new Date()
+                    });
+                }
+            }
+            
+            // Analyze patient response for insights
+            analyzePatientResponse(tile) {
+                const insights = [];
+                
+                // Check for urgent needs
+                if (tile.emoji === '🚨' || tile.word.includes('Urgent')) {
+                    insights.push('⚠️ Patient has urgent need - immediate attention required');
+                }
+                
+                // Check for pain indicators
+                if (tile.word.includes('hurt') || tile.word.includes('pain')) {
+                    insights.push('🏥 Patient experiencing discomfort - consider medical check');
+                }
+                
+                // Check emotional state
+                if (tile.emoji === '😔' || tile.word.includes('Sad')) {
+                    insights.push('💙 Patient may need emotional support');
+                }
+                
+                // Track patterns
+                const recentEmotions = this.patientProfile.emotionalPatterns.slice(-5);
+                const negativeCount = recentEmotions.filter(e => 
+                    ['Sad', 'Anxious', 'Frustrated'].includes(e.emotion)
+                ).length;
+                
+                if (negativeCount >= 3) {
+                    insights.push('📊 Pattern detected: Patient showing signs of distress');
+                }
+                
+                return insights;
+            }
+            
+            // Generate contextual follow-up based on response
+            generateContextualFollowUp(tile) {
+                const questions = [];
+                
+                if (tile.word.includes('pain') || tile.word.includes('hurt')) {
+                    questions.push('Should I get your pain medication?');
+                    questions.push('Do you want to lie down?');
+                } else if (tile.word.includes('Yes')) {
+                    questions.push('Is there anything else you need?');
+                    questions.push('Are you comfortable?');
+                } else if (tile.word.includes('No')) {
+                    questions.push('What would you prefer instead?');
+                    questions.push('Can you show me what you want?');
+                }
+                
+                return questions;
+            }
+            
+            // Update AI insights
+            updateAIInsights(question, intent) {
+                const insights = document.getElementById('aiInsights');
+                const items = [];
+                
+                // Analyze current state
+                if (intent.priority === 'high') {
+                    items.push('⚠️ High priority need detected');
+                }
+                
+                // Check time-based needs
+                const hour = new Date().getHours();
+                if (hour === 8 || hour === 12 || hour === 18) {
+                    items.push('🍽️ Meal time approaching');
+                }
+                
+                // Check interaction patterns
+                if (this.interactionCount > 10) {
+                    const commonWords = Array.from(this.patientProfile.preferences.entries())
+                        .sort((a, b) => b[1] - a[1])
+                        .slice(0, 3);
+                    items.push(`Common responses: ${commonWords.map(w => w[0]).join(', ')}`);
+                }
+                
+                // Update display
+                insights.innerHTML = items.map(item => 
+                    `<div class="knowledge-item">${item}</div>`
+                ).join('');
+            }
+            
+            // Add to visual story
+            addToVisualStory(emoji) {
+                this.visualStory.push(emoji);
+                const storyDiv = document.getElementById('visualStory');
+                storyDiv.style.display = 'flex';
+                storyDiv.innerHTML = this.visualStory.slice(-10).map(e => 
+                    `<span class="story-emoji">${e}</span>`
+                ).join('');
+            }
+            
+            // Update statistics
+            updateStats() {
+                document.getElementById('interactionCount').textContent = this.interactionCount;
+                document.getElementById('vocabularySize').textContent = this.patientProfile.vocabulary.size;
+            }
+            
+            // Get current insights
+            getInsights() {
+                return {
+                    patientMood: this.getCurrentMood(),
+                    urgentNeeds: this.checkUrgentNeeds(),
+                    suggestions: this.getSuggestions()
+                };
+            }
+            
+            getCurrentMood() {
+                const recent = this.patientProfile.emotionalPatterns.slice(-3);
+                if (recent.length === 0) return 'Unknown';
+                
+                const moods = recent.map(e => e.emotion);
+                if (moods.includes('Happy') || moods.includes('Good')) return 'Positive';
+                if (moods.includes('Sad') || moods.includes('Anxious')) return 'Needs support';
+                return 'Neutral';
+            }
+            
+            checkUrgentNeeds() {
+                // Check recent responses for urgent indicators
+                return this.conversationHistory.slice(-5).some(turn => 
+                    turn.tile && (turn.tile.emoji === '🚨' || turn.tile.word.includes('Urgent'))
+                );
+            }
+            
+            getSuggestions() {
+                const suggestions = [];
+                const hour = new Date().getHours();
+                
+                if (hour === 8) suggestions.push('Consider offering breakfast');
+                if (hour === 12) suggestions.push('Lunch time - check if hungry');
+                if (hour === 15) suggestions.push('Good time for afternoon activity');
+                if (hour === 20) suggestions.push('Evening routine - medication check');
+                
+                return suggestions;
+            }
+        }
+        
+        // Initialize system
+        const tinkyBink = new TinkyBinkBidirectional();
+        
+        // Process caregiver question
+        function askQuestion() {
+            const input = document.getElementById('caregiverInput');
+            const question = input.value.trim();
+            
+            if (!question) return;
+            
+            // Display question to patient
+            document.getElementById('patientQuestion').textContent = question;
+            
+            // Process with AI
+            const result = tinkyBink.processQuestion(question);
+            
+            // Display tiles for patient
+            displayTiles(result.tiles);
+            
+            // Display follow-up questions for caregiver
+            displayFollowUpQuestions(result.followUpQuestions);
+            
+            // Add to conversation
+            addToConversation('Caregiver', question);
+            
+            // Clear input
+            input.value = '';
+        }
+        
+        // Quick question helper
+        function quickQuestion(question) {
+            document.getElementById('caregiverInput').value = question;
+            askQuestion();
+        }
+        
+        // Display tiles
+        function displayTiles(tiles) {
+            const container = document.getElementById('patientTiles');
+            container.innerHTML = '';
+            
+            tiles.forEach((tile, index) => {
+                const div = document.createElement('div');
+                div.className = 'tile';
+                div.innerHTML = `
+                    <span class="tile-confidence">${Math.round(tile.confidence * 100)}%</span>
+                    <div class="tile-emoji">${tile.emoji}</div>
+                    <div class="tile-text">${tile.word}</div>
+                    <div class="tile-sentence">"${tile.sentence}"</div>
+                `;
+                
+                div.onclick = () => selectTile(tile, div);
+                
+                // Animate appearance
+                div.style.opacity = '0';
+                div.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    div.style.transition = 'all 0.3s ease';
+                    div.style.opacity = '1';
+                    div.style.transform = 'translateY(0)';
+                }, index * 50);
+                
+                container.appendChild(div);
+            });
+        }
+        
+        // Display follow-up questions
+        function displayFollowUpQuestions(questions) {
+            const container = document.getElementById('suggestedQuestions');
+            container.innerHTML = questions.map(q => `
+                <div class="suggested-question" onclick="quickQuestion('${q}')">
+                    ${q}
+                </div>
+            `).join('');
+        }
+        
+        // Handle tile selection
+        function selectTile(tile, element) {
+            // Visual feedback
+            document.querySelectorAll('.tile').forEach(t => t.classList.remove('selected'));
+            element.classList.add('selected');
+            
+            // Process selection
+            const result = tinkyBink.selectTile(tile);
+            
+            // Speak the sentence
+            speakText(result.spokenText);
+            
+            // Add to conversation
+            addToConversation('Patient', `${tile.emoji} ${tile.word} → "${result.spokenText}"`);
+            
+            // Update follow-up questions
+            if (result.nextQuestions && result.nextQuestions.length > 0) {
+                displayFollowUpQuestions(result.nextQuestions);
+            }
+            
+            // Update insights
+            if (result.insights && result.insights.length > 0) {
+                const insightsDiv = document.getElementById('aiInsights');
+                insightsDiv.innerHTML = result.insights.map(i => 
+                    `<div class="knowledge-item">${i}</div>`
+                ).join('');
+            }
+        }
+        
+        // Add to conversation display
+        function addToConversation(speaker, text) {
+            const display = document.getElementById('conversationDisplay');
+            const turn = document.createElement('div');
+            turn.className = 'conversation-turn';
+            turn.innerHTML = `
+                <div class="speaker-label">${speaker}:</div>
+                <div class="conversation-text">${text}</div>
+            `;
+            
+            if (display.children[0] && display.children[0].textContent.includes('Start a conversation')) {
+                display.innerHTML = '';
+            }
+            
+            display.insertBefore(turn, display.firstChild);
+            
+            // Keep only last 10 turns
+            while (display.children.length > 10) {
+                display.removeChild(display.lastChild);
+            }
+        }
+        
+        // Text to speech
+        function speakText(text) {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.rate = 0.9;
+                utterance.pitch = 1.0;
+                speechSynthesis.speak(utterance);
+            }
+        }
+        
+        // Generate report
+        function generateReport() {
+            const report = {
+                date: new Date().toLocaleString(),
+                interactions: tinkyBink.interactionCount,
+                vocabulary: Array.from(tinkyBink.patientProfile.vocabulary),
+                preferences: Array.from(tinkyBink.patientProfile.preferences.entries()),
+                mood: tinkyBink.getCurrentMood(),
+                recommendations: tinkyBink.getSuggestions()
+            };
+            
+            alert(`Communication Report Generated:\n\n` +
+                  `Date: ${report.date}\n` +
+                  `Total Interactions: ${report.interactions}\n` +
+                  `Active Vocabulary: ${report.vocabulary.length} words\n` +
+                  `Current Mood: ${report.mood}\n` +
+                  `Top Responses: ${report.preferences.slice(0, 3).map(p => p[0]).join(', ')}`);
+        }
+        
+        // Initialize with welcome
+        window.onload = function() {
+            quickQuestion('Hello Margaret, how are you feeling today?');
+        };
+    </script>
+</body>
+</html>

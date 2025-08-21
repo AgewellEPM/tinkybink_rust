@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Victim AAC - Simple Demo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #2c3e50;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .question-input {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        
+        #question {
+            flex: 1;
+            padding: 15px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        #ask-btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        #ask-btn:hover {
+            background: #2980b9;
+        }
+        
+        .tiles-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .tile {
+            background: #34495e;
+            border: 2px solid #7f8c8d;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .tile:hover {
+            background: #4a5f7f;
+            transform: translateY(-3px);
+        }
+        
+        .tile-emoji {
+            font-size: 40px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .tile-text {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .demo-buttons {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .demo-btn {
+            margin: 5px;
+            padding: 10px 20px;
+            background: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .demo-btn:hover {
+            background: #229954;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stroke Victim AAC Communication</h1>
+        
+        <div class="demo-buttons">
+            <button class="demo-btn" onclick="setQuestion('How did you sleep?')">Ask: Sleep</button>
+            <button class="demo-btn" onclick="setQuestion('How do you feel?')">Ask: Feelings</button>
+            <button class="demo-btn" onclick="setQuestion('Are you hungry?')">Ask: Hungry</button>
+            <button class="demo-btn" onclick="setQuestion('Do you need the bathroom?')">Ask: Bathroom</button>
+            <button class="demo-btn" onclick="setQuestion('Are you in pain?')">Ask: Pain</button>
+            <button class="demo-btn" onclick="setQuestion('Do you want to watch TV or read?')">Ask: Activities</button>
+        </div>
+        
+        <div class="question-input">
+            <input type="text" id="question" placeholder="Ask a question (e.g., 'How did you sleep?')">
+            <button id="ask-btn" onclick="processQuestion()">Ask</button>
+        </div>
+        
+        <div id="tiles-container" class="tiles-container"></div>
+    </div>
+
+    <script>
+        const tileSets = {
+            sleep: [
+                { emoji: '😴', text: 'Good sleep' },
+                { emoji: '😫', text: 'Bad sleep' },
+                { emoji: '🥱', text: 'Tired' },
+                { emoji: '😌', text: 'Rested' },
+                { emoji: '😰', text: 'Nightmares' },
+                { emoji: '🛏️', text: 'Need more sleep' }
+            ],
+            feelings: [
+                { emoji: '😊', text: 'Happy' },
+                { emoji: '😢', text: 'Sad' },
+                { emoji: '😡', text: 'Angry' },
+                { emoji: '😰', text: 'Anxious' },
+                { emoji: '😌', text: 'Calm' },
+                { emoji: '😔', text: 'Frustrated' },
+                { emoji: '🤗', text: 'Loved' },
+                { emoji: '😴', text: 'Tired' }
+            ],
+            hungry: [
+                { emoji: '✅', text: 'Yes' },
+                { emoji: '❌', text: 'No' },
+                { emoji: '🍕', text: 'Pizza' },
+                { emoji: '🥪', text: 'Sandwich' },
+                { emoji: '🍲', text: 'Soup' },
+                { emoji: '🥤', text: 'Just thirsty' }
+            ],
+            bathroom: [
+                { emoji: '🚨', text: 'Urgent!' },
+                { emoji: '✅', text: 'Yes' },
+                { emoji: '❌', text: 'No' },
+                { emoji: '⏰', text: 'Soon' },
+                { emoji: '🚿', text: 'Shower' },
+                { emoji: '🪥', text: 'Brush teeth' }
+            ],
+            pain: [
+                { emoji: '😣', text: 'Yes, pain' },
+                { emoji: '😌', text: 'No pain' },
+                { emoji: '🔥', text: 'Burning' },
+                { emoji: '🔨', text: 'Throbbing' },
+                { emoji: '⚡', text: 'Sharp' },
+                { emoji: '🌊', text: 'Aching' },
+                { emoji: '1️⃣', text: 'Mild' },
+                { emoji: '5️⃣', text: 'Moderate' },
+                { emoji: '🔟', text: 'Severe' }
+            ],
+            activities: [
+                { emoji: '📺', text: 'Watch TV' },
+                { emoji: '📖', text: 'Read' },
+                { emoji: '🎵', text: 'Music' },
+                { emoji: '😴', text: 'Sleep' },
+                { emoji: '🗣️', text: 'Talk' },
+                { emoji: '🚶', text: 'Walk' }
+            ],
+            yesno: [
+                { emoji: '✅', text: 'Yes' },
+                { emoji: '❌', text: 'No' },
+                { emoji: '🤷', text: 'Maybe' },
+                { emoji: '🤔', text: "I don't know" }
+            ]
+        };
+
+        function processQuestion() {
+            const question = document.getElementById('question').value.toLowerCase();
+            let tiles = [];
+
+            if (question.includes('sleep') || question.includes('rest')) {
+                tiles = tileSets.sleep;
+            } else if (question.includes('feel') || question.includes('feeling') || question.includes('emotion')) {
+                tiles = tileSets.feelings;
+            } else if (question.includes('hungry') || question.includes('eat') || question.includes('food')) {
+                tiles = tileSets.hungry;
+            } else if (question.includes('bathroom') || question.includes('toilet')) {
+                tiles = tileSets.bathroom;
+            } else if (question.includes('pain') || question.includes('hurt')) {
+                tiles = tileSets.pain;
+            } else if (question.includes('watch') || question.includes('read') || question.includes('activity') || question.includes('do')) {
+                tiles = tileSets.activities;
+            } else {
+                tiles = tileSets.yesno;
+            }
+
+            displayTiles(tiles);
+        }
+
+        function displayTiles(tiles) {
+            const container = document.getElementById('tiles-container');
+            container.innerHTML = '';
+
+            tiles.forEach(tile => {
+                const div = document.createElement('div');
+                div.className = 'tile';
+                div.innerHTML = `
+                    <span class="tile-emoji">${tile.emoji}</span>
+                    <span class="tile-text">${tile.text}</span>
+                `;
+                div.onclick = () => {
+                    alert(`Patient selected: ${tile.emoji} ${tile.text}`);
+                };
+                container.appendChild(div);
+            });
+        }
+
+        function setQuestion(q) {
+            document.getElementById('question').value = q;
+            processQuestion();
+        }
+
+        // Start with a default question
+        setQuestion('How do you feel?');
+    </script>
+</body>
+</html>

@@ -65,11 +65,7 @@ impl OllamaEngine {
             let model_name = Self::find_best_model(&client, &api_url).await?;
             info!("🦙 Using Ollama model: {}", model_name);
 
-            Ok(Self {
-                model_name,
-                api_url,
-                client,
-            })
+            Ok(Self { model_name, api_url, client })
         }
 
         #[cfg(not(feature = "reqwest"))]
@@ -104,11 +100,7 @@ impl OllamaEngine {
     }
 
     /// Generate response using Ollama
-    async fn generate_with_ollama(
-        &self,
-        input: &str,
-        context: &AiContext,
-    ) -> Result<Vec<AiResponse>> {
+    async fn generate_with_ollama(&self, input: &str, context: &AiContext) -> Result<Vec<AiResponse>> {
         debug!("🦙 Generating with Ollama model: {}", self.model_name);
 
         let emotional_hint = match context.emotional_state.happiness {
@@ -118,32 +110,18 @@ impl OllamaEngine {
             _ => "The child is feeling okay.",
         };
 
-        let prompt = format!(
-            "{CHILD_AAC_PROMPT}\n\n{emotional_hint}\n\nParent: \"{input}\"\nChild:"
-        );
+        let prompt = format!("{CHILD_AAC_PROMPT}\n\n{emotional_hint}\n\nParent: \"{input}\"\nChild:");
 
         let request = OllamaRequest {
             model: self.model_name.clone(),
             prompt,
-            system: Some(
-                "You are a nonverbal child using an AAC device. Respond in 1-10 words max."
-                    .to_string(),
-            ),
+            system: Some("You are a nonverbal child using an AAC device. Respond in 1-10 words max.".to_string()),
             stream: false,
-            options: OllamaOptions {
-                temperature: 0.7,
-                top_p: 0.9,
-                max_tokens: 30,
-            },
+            options: OllamaOptions { temperature: 0.7, top_p: 0.9, max_tokens: 30 },
         };
 
         #[cfg(feature = "reqwest")]
-        let response = self
-            .client
-            .post(format!("{}/api/generate", self.api_url))
-            .json(&request)
-            .send()
-            .await?;
+        let response = self.client.post(format!("{}/api/generate", self.api_url)).json(&request).send().await?;
 
         #[cfg(not(feature = "reqwest"))]
         return Err(anyhow::anyhow!("Ollama requires reqwest feature"));
@@ -164,12 +142,7 @@ impl OllamaEngine {
 
     fn create_response(&self, text: &str, confidence: f32) -> AiResponse {
         let (emoji, emotion) = self.infer_emoji_and_emotion(text);
-        AiResponse {
-            text: text.to_string(),
-            emoji,
-            confidence,
-            emotion,
-        }
+        AiResponse { text: text.to_string(), emoji, confidence, emotion }
     }
 
     fn make_variation(&self, text: &str, style: &str) -> String {

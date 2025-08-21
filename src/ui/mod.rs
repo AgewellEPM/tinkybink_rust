@@ -25,28 +25,19 @@ impl UIManager {
     }
 
     pub async fn update_suggestions(&self, suggestions: Vec<SuggestionTile>) -> Result<()> {
-        info!(
-            "Updating suggestions display with {} suggestions",
-            suggestions.len()
-        );
+        info!("Updating suggestions display with {} suggestions", suggestions.len());
         // TODO: Send suggestions to frontend
         Ok(())
     }
 
     pub async fn update_chat_history(&self, state: &SystemState) -> Result<()> {
-        info!(
-            "Updating chat history with {} messages",
-            state.conversation_history.len()
-        );
+        info!("Updating chat history with {} messages", state.conversation_history.len());
         // TODO: Send chat history to frontend
         Ok(())
     }
 
     pub async fn update_speech_buffer(&self, state: &SystemState) -> Result<()> {
-        info!(
-            "Updating speech buffer with {} items",
-            state.speech_buffer.len()
-        );
+        info!("Updating speech buffer with {} items", state.speech_buffer.len());
         // TODO: Send speech buffer to frontend
         Ok(())
     }

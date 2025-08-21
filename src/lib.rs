@@ -1,12 +1,14 @@
+#![allow(clippy::needless_borrow)]
+#![allow(clippy::needless_range_loop)]
+#![allow(clippy::let_and_return)]
+#![allow(clippy::uninlined_format_args)]
+
 //! 🧠🌐 TinkyBink AAC - Revolutionary WASM-Powered Communication System
 //!
 //! World's first emotionally intelligent AAC system that runs in browsers
 //! with full speech synthesis, recognition, and adaptive learning capabilities.
 
 #![allow(dead_code)]
-
-#[cfg(feature = "wasm")]
-use wasm_bindgen::prelude::*;
 
 pub mod ai;
 pub mod comprehensive_brain_loader;
@@ -46,16 +48,11 @@ impl Default for TinkyBinkAAC {
 impl TinkyBinkAAC {
     /// Create a new TinkyBink AAC system
     pub fn new() -> Self {
-        Self {
-            conversation_system: ConversationLogicSystem::new(),
-        }
+        Self { conversation_system: ConversationLogicSystem::new() }
     }
 
     /// Load training data from JSONL file
-    pub fn load_training_data(
-        &mut self,
-        file_path: &Path,
-    ) -> Result<usize, Box<dyn std::error::Error>> {
+    pub fn load_training_data(&mut self, file_path: &Path) -> Result<usize, Box<dyn std::error::Error>> {
         let loaded = training_loader::load_training_data(&mut self.conversation_system, file_path)?;
 
         // Build connections after loading
@@ -71,37 +68,19 @@ impl TinkyBinkAAC {
             .into_iter()
             .map(|node| ConversationResponse {
                 input: node.input.clone(),
-                tiles: node
-                    .tiles
-                    .iter()
-                    .map(|t| Tile {
-                        emoji: t.emoji.clone(),
-                        words: t.words.clone(),
-                    })
-                    .collect(),
+                tiles: node.tiles.iter().map(|t| Tile { emoji: t.emoji.clone(), words: t.words.clone() }).collect(),
             })
             .collect()
     }
 
     /// Process user selection and get follow-up responses
-    pub fn process_selection(
-        &self,
-        current_node_id: &str,
-        selected_tile: &str,
-    ) -> Vec<ConversationResponse> {
+    pub fn process_selection(&self, current_node_id: &str, selected_tile: &str) -> Vec<ConversationResponse> {
         self.conversation_system
             .get_follow_ups(current_node_id, selected_tile)
             .into_iter()
             .map(|node| ConversationResponse {
                 input: node.input.clone(),
-                tiles: node
-                    .tiles
-                    .iter()
-                    .map(|t| Tile {
-                        emoji: t.emoji.clone(),
-                        words: t.words.clone(),
-                    })
-                    .collect(),
+                tiles: node.tiles.iter().map(|t| Tile { emoji: t.emoji.clone(), words: t.words.clone() }).collect(),
             })
             .collect()
     }

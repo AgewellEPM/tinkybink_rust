@@ -35,9 +35,7 @@ impl SpeechManager {
 
                 // Try to set a friendly voice
                 if let Ok(voices) = tts_engine.voices() {
-                    let preferred_voices = [
-                        "child", "young", "female", "girl", "boy", "alex", "samantha",
-                    ];
+                    let preferred_voices = ["child", "young", "female", "girl", "boy", "alex", "samantha"];
                     for voice in voices {
                         let voice_name = voice.name().to_lowercase();
                         if preferred_voices.iter().any(|pv| voice_name.contains(pv)) {
@@ -62,10 +60,7 @@ impl SpeechManager {
         #[cfg(feature = "whisper-rs")]
         let whisper_context = {
             info!("🎤 Initializing Whisper speech recognition...");
-            match WhisperContext::new_with_params(
-                "models/whisper-base.bin",
-                WhisperContextParameters::default(),
-            ) {
+            match WhisperContext::new_with_params("models/whisper-base.bin", WhisperContextParameters::default()) {
                 Ok(ctx) => {
                     info!("✅ Whisper context initialized successfully!");
                     Some(Arc::new(ctx))
@@ -131,9 +126,7 @@ impl SpeechManager {
             }
 
             // Send event that speech started
-            let event = SystemEvent::SpeechStarted {
-                text: text.to_string(),
-            };
+            let event = SystemEvent::SpeechStarted { text: text.to_string() };
             if let Err(e) = self.event_sender.send(event) {
                 error!("Failed to send speech started event: {}", e);
             }
@@ -199,11 +192,7 @@ impl SpeechManager {
         let cleaned = binding.trim();
 
         // If the cleaned text is empty, return a default phrase
-        if cleaned.is_empty() {
-            "hmm".to_string()
-        } else {
-            cleaned.to_string()
-        }
+        if cleaned.is_empty() { "hmm".to_string() } else { cleaned.to_string() }
     }
 
     /// Check if speech recognition is available
@@ -220,10 +209,7 @@ impl SpeechManager {
         info!("🎤 Simulating speech recognition: '{}'", simulated_text);
 
         // Send simulated speech recognition event
-        let event = SystemEvent::SpeechRecognized {
-            text: simulated_text.to_string(),
-            confidence: 0.95,
-        };
+        let event = SystemEvent::SpeechRecognized { text: simulated_text.to_string(), confidence: 0.95 };
 
         if let Err(e) = self.event_sender.send(event) {
             error!("Failed to send simulated speech event: {}", e);

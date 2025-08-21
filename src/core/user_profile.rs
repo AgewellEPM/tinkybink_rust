@@ -12,15 +12,9 @@ pub enum UserType {
     /// Adult user (18+)
     Adult { age: Option<u8> },
     /// Stroke survivor or aphasia patient
-    StrokeSurvivor {
-        months_since_event: Option<u16>,
-        therapy_stage: TherapyStage,
-    },
+    StrokeSurvivor { months_since_event: Option<u16>, therapy_stage: TherapyStage },
     /// Other medical conditions affecting speech
-    Medical {
-        condition: String,
-        communication_level: CommunicationLevel,
-    },
+    Medical { condition: String, communication_level: CommunicationLevel },
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -215,36 +209,24 @@ impl UserProfile {
 
     pub fn get_default_responses(&self) -> Vec<String> {
         match self.response_style {
-            ResponseStyle::Childlike => vec![
-                "Yes!".to_string(),
-                "No thanks".to_string(),
-                "Maybe".to_string(),
-                "I don't know".to_string(),
-            ],
+            ResponseStyle::Childlike => {
+                vec!["Yes!".to_string(), "No thanks".to_string(), "Maybe".to_string(), "I don't know".to_string()]
+            }
             ResponseStyle::Professional => vec![
                 "I agree".to_string(),
                 "I disagree".to_string(),
                 "Please clarify".to_string(),
                 "I understand".to_string(),
             ],
-            ResponseStyle::Casual => vec![
-                "Sure".to_string(),
-                "Not really".to_string(),
-                "Let me think".to_string(),
-                "Got it".to_string(),
-            ],
-            ResponseStyle::Therapeutic => vec![
-                "Yes".to_string(),
-                "No".to_string(),
-                "Help".to_string(),
-                "Thank you".to_string(),
-            ],
-            ResponseStyle::Adaptive => vec![
-                "Yes".to_string(),
-                "No".to_string(),
-                "Maybe".to_string(),
-                "Help please".to_string(),
-            ],
+            ResponseStyle::Casual => {
+                vec!["Sure".to_string(), "Not really".to_string(), "Let me think".to_string(), "Got it".to_string()]
+            }
+            ResponseStyle::Therapeutic => {
+                vec!["Yes".to_string(), "No".to_string(), "Help".to_string(), "Thank you".to_string()]
+            }
+            ResponseStyle::Adaptive => {
+                vec!["Yes".to_string(), "No".to_string(), "Maybe".to_string(), "Help please".to_string()]
+            }
         }
     }
 }

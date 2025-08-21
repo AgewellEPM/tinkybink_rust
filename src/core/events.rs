@@ -51,8 +51,7 @@ pub struct SuggestionTile {
 }
 
 /// Categories for suggestion tiles
-#[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
-#[derive(Default)]
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Default)]
 pub enum TileCategory {
     BasicResponse,
     Choice,
@@ -67,4 +66,3 @@ pub enum TileCategory {
     #[default]
     Default,
 }
-

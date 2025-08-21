@@ -44,25 +44,14 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         let existing_lines = existing_content.lines().count();
 
         println!("\n📈 Comparison:");
-        println!(
-            "   🔄 Original Conversational Master: {existing_lines} nodes"
-        );
+        println!("   🔄 Original Conversational Master: {existing_lines} nodes");
         println!("   🆕 New Super Brain: {} nodes", all_nodes.len());
-        println!(
-            "   📊 Growth: {}x larger",
-            all_nodes.len() as f64 / existing_lines as f64
-        );
+        println!("   📊 Growth: {}x larger", all_nodes.len() as f64 / existing_lines as f64);
     }
 
     println!("\n🎯 Next Steps:");
-    println!(
-        "   1. Copy to iOS: cp {} path/to/ios/Resources/",
-        output_path.display()
-    );
-    println!(
-        "   2. Copy to Android: cp {} path/to/android/assets/",
-        output_path.display()
-    );
+    println!("   1. Copy to iOS: cp {} path/to/ios/Resources/", output_path.display());
+    println!("   2. Copy to Android: cp {} path/to/android/assets/", output_path.display());
     println!("   3. Use in HTML5: Include in web app bundle");
 
     Ok(())

@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinkyBink AAC - Ultimate Nobel Prize System</title>
+    <style>
+        :root {
+            --primary: #7b3ff2;
+            --secondary: #2563eb;
+            --success: #059669;
+            --danger: #dc2626;
+            --warning: #d97706;
+            --dark: #1f2937;
+            --light: #f8fafc;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 20px;
+        }
+        
+        .left-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .caregiver-panel {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .patient-panel {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: var(--primary);
+            margin-bottom: 8px;
+            font-size: 1.8rem;
+        }
+        
+        .subtitle {
+            color: #6b7280;
+            margin-bottom: 24px;
+            font-size: 0.9rem;
+        }
+        
+        .input-group {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        
+        .question-input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        
+        .question-input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        .ask-btn {
+            padding: 12px 24px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .ask-btn:hover {
+            background: #6d28d9;
+            transform: translateY(-1px);
+        }
+        
+        .core-tiles {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+            padding: 16px;
+            background: #f0f9ff;
+            border-radius: 8px;
+        }
+        
+        .tiles-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        
+        .tile {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border: 2px solid #bfdbfe;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .tile:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            border-color: var(--primary);
+        }
+        
+        .tile.selected {
+            background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+            border-color: var(--primary);
+            transform: scale(1.05);
+        }
+        
+        .tile.core {
+            background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
+            border-color: #fbbf24;
+        }
+        
+        .tile-emoji {
+            font-size: 2.5rem;
+            margin-bottom: 8px;
+        }
+        
+        .tile-word {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        .tile-confidence {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: var(--success);
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+        
+        .spoken-output {
+            background: #fef3c7;
+            border: 2px solid #fbbf24;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 16px;
+        }
+        
+        .spoken-label {
+            font-weight: 600;
+            color: var(--warning);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .spoken-text {
+            font-size: 1.1rem;
+            color: var(--dark);
+            line-height: 1.5;
+        }
+        
+        .conversation-history {
+            max-height: 200px;
+            overflow-y: auto;
+            padding: 12px;
+            background: #f8fafc;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+        
+        .conversation-turn {
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .conversation-turn:last-child {
+            border-bottom: none;
+        }
+        
+        .visual-story {
+            display: flex;
+            gap: 8px;
+            padding: 12px;
+            background: linear-gradient(90deg, #fef3c7 0%, #fed7aa 100%);
+            border-radius: 8px;
+            margin-top: 16px;
+            overflow-x: auto;
+            min-height: 60px;
+            align-items: center;
+        }
+        
+        .story-emoji {
+            font-size: 2rem;
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .soul-tracker {
+            background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 16px;
+        }
+        
+        .soul-title {
+            font-weight: 600;
+            color: #be185d;
+            margin-bottom: 12px;
+        }
+        
+        .personality-traits {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        
+        .trait {
+            background: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid #fbcfe8;
+        }
+        
+        .home-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 20px;
+            background: var(--danger);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            z-index: 1000;
+        }
+        
+        .home-button:hover {
+            background: #b91c1c;
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            
+            .core-tiles {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="home-button" onclick="resetToHome()">🏠 Home</button>
+    
+    <div class="container">
+        <div class="left-panel">
+            <!-- Caregiver Panel -->
+            <div class="caregiver-panel">
+                <h1>👩‍⚕️ Caregiver Interface</h1>
+                <p class="subtitle">Ask ANY question - AI generates tiles</p>
+                
+                <div class="input-group">
+                    <input type="text" 
+                           class="question-input" 
+                           id="questionInput" 
+                           placeholder="Ask any question..."
+                           onkeypress="if(event.key === 'Enter') askQuestion()">
+                    <button class="ask-btn" onclick="askQuestion()">Ask</button>
+                </div>
+                
+                <div class="spoken-output" id="spokenOutput" style="display: none;">
+                    <div class="spoken-label">
+                        🔊 Patient Says:
+                    </div>
+                    <div class="spoken-text" id="spokenText"></div>
+                </div>
+                
+                <div class="conversation-history" id="conversationHistory">
+                    <p style="color: #9ca3af; text-align: center;">No conversation yet...</p>
+                </div>
+            </div>
+            
+            <!-- Soul Tracker -->
+            <div class="soul-tracker">
+                <div class="soul-title">💜 Digital Soul Profile</div>
+                <div class="personality-traits" id="personalityTraits">
+                    <span class="trait">Initializing...</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Patient Panel -->
+        <div class="patient-panel">
+            <h1>🧠 Patient View - TinkyBink AAC</h1>
+            <p class="subtitle">Simple tiles that speak full sentences</p>
+            
+            <!-- Core Vocabulary - Always Visible -->
+            <div class="core-tiles" id="coreTiles">
+                <div class="tile core" onclick="selectCoreTile('Want')">
+                    <div class="tile-emoji">💭</div>
+                    <div class="tile-word">I Want</div>
+                </div>
+                <div class="tile core" onclick="selectCoreTile('Places')">
+                    <div class="tile-emoji">📍</div>
+                    <div class="tile-word">Places</div>
+                </div>
+                <div class="tile core" onclick="selectCoreTile('Help')">
+                    <div class="tile-emoji">🆘</div>
+                    <div class="tile-word">Help</div>
+                </div>
+                <div class="tile core" onclick="selectCoreTile('Food')">
+                    <div class="tile-emoji">🍽️</div>
+                    <div class="tile-word">Food</div>
+                </div>
+                <div class="tile core" onclick="selectCoreTile('People')">
+                    <div class="tile-emoji">👥</div>
+                    <div class="tile-word">People</div>
+                </div>
+                <div class="tile core" onclick="selectCoreTile('Action')">
+                    <div class="tile-emoji">🏃</div>
+                    <div class="tile-word">Action</div>
+                </div>
+                <div class="tile core" onclick="selectCoreTile('Feel')">
+                    <div class="tile-emoji">😊</div>
+                    <div class="tile-word">Feel</div>
+                </div>
+                <div class="tile core" onclick="selectCoreTile('Home')">
+                    <div class="tile-emoji">🏠</div>
+                    <div class="tile-word">Home</div>
+                </div>
+            </div>
+            
+            <!-- Dynamic Tiles Container -->
+            <div class="tiles-container" id="dynamicTiles">
+                <!-- AI-generated tiles appear here -->
+            </div>
+            
+            <!-- Visual Story -->
+            <div class="visual-story" id="visualStory">
+                <span style="color: #9ca3af;">Your story will appear here...</span>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // TinkyBink Ultimate AAC System
+        class TinkyBinkAAC {
+            constructor() {
+                this.currentContext = null;
+                this.conversationHistory = [];
+                this.visualStory = [];
+                this.personalityTraits = new Set();
+                this.expansionTree = [];
+                this.currentExpansionLevel = 0;
+                
+                // Comprehensive vocabulary mappings
+                this.conceptMappings = {
+                    // Food concepts
+                    hungry: ['🍔', '🍕', '🌮', '🍜', '🥗', '🍗'],
+                    thirsty: ['💧', '🥤', '☕', '🍵', '🥛', '🧃'],
+                    breakfast: ['🥞', '🥚', '🥓', '🥣', '🍳', '🧇'],
+                    lunch: ['🥪', '🍔', '🍕', '🥗', '🍲', '🌯'],
+                    dinner: ['🍝', '🍖', '🍗', '🥘', '🍛', '🍜'],
+                    
+                    // Emotions
+                    happy: ['😊', '😄', '🥰', '😁', '🤗', '😃'],
+                    sad: ['😢', '😔', '😞', '😟', '😭', '🥺'],
+                    pain: ['😣', '🤕', '😖', '😫', '💊', '🩹'],
+                    tired: ['😴', '🥱', '😪', '💤', '🛏️', '😩'],
+                    anxious: ['😰', '😟', '😨', '😧', '🫨', '😥'],
+                    
+                    // Activities
+                    tv: ['📺', '🎬', '📽️', '🎭', '🍿', '📻'],
+                    sports: ['⚽', '🏀', '🏈', '⚾', '🎾', '🏐'],
+                    game: ['🎮', '🎯', '🎲', '♟️', '🃏', '🎰'],
+                    read: ['📚', '📖', '📰', '📄', '✍️', '📝'],
+                    music: ['🎵', '🎶', '🎤', '🎧', '🎸', '🎹'],
+                    
+                    // Places
+                    bathroom: ['🚽', '🚿', '🛁', '🪥', '🧻', '🧼'],
+                    bedroom: ['🛏️', '😴', '🛋️', '💤', '🕯️', '🪟'],
+                    outside: ['🌳', '🌞', '🌤️', '🌈', '🏞️', '🚶'],
+                    store: ['🛒', '🏪', '💳', '🛍️', '💰', '🏬'],
+                    
+                    // Medical
+                    medicine: ['💊', '💉', '🩹', '🩺', '🌡️', '🏥'],
+                    doctor: ['👨‍⚕️', '👩‍⚕️', '🏥', '🚑', '🩺', '📋'],
+                    
+                    // People
+                    family: ['👨‍👩‍👧‍👦', '👪', '👨', '👩', '👶', '👴'],
+                    friend: ['👫', '👬', '👭', '🤝', '💑', '👥']
+                };
+                
+                // Weizenbaum expansion patterns
+                this.expansionPatterns = {
+                    yes: {
+                        hungry: ['Chinese', 'American', 'Italian', 'Mexican', 'Japanese', 'Indian'],
+                        pain: ['Head', 'Chest', 'Back', 'Stomach', 'Legs', 'Arms'],
+                        tired: ['Nap now', 'Bed early', 'Rest here', 'Close eyes', 'Lie down', 'Sleep more'],
+                        thirsty: ['Water', 'Juice', 'Coffee', 'Tea', 'Milk', 'Soda'],
+                        bathroom: ['Right now', 'In minute', 'Need help', 'By myself', 'Emergency', 'Can wait']
+                    },
+                    
+                    // Food expansions
+                    chinese: ['Rice', 'Noodles', 'Chicken', 'Beef', 'Vegetables', 'Soup'],
+                    american: ['Burger', 'Pizza', 'Hot dog', 'Fries', 'Sandwich', 'Steak'],
+                    italian: ['Pasta', 'Pizza', 'Lasagna', 'Risotto', 'Salad', 'Bread'],
+                    
+                    // Burger expansions
+                    burger: ['Cheese', 'Lettuce', 'Tomato', 'Onion', 'Bacon', 'Pickles'],
+                    
+                    // Activity expansions
+                    tv: ['News', 'Sports', 'Movies', 'Shows', 'Netflix', 'YouTube'],
+                    sports: ['Football', 'Basketball', 'Baseball', 'Tennis', 'Golf', 'Soccer']
+                };
+            }
+            
+            // Process any question and generate tiles
+            processQuestion(question) {
+                this.currentContext = question;
+                const tiles = this.generateDynamicTiles(question);
+                this.displayTiles(tiles);
+            }
+            
+            // Generate tiles based on question analysis
+            generateDynamicTiles(question) {
+                const tiles = [];
+                const q = question.toLowerCase();
+                
+                // Extract concepts from question
+                const concepts = this.extractConcepts(q);
+                
+                // Check for OR questions
+                if (q.includes(' or ')) {
+                    return this.generateChoiceTiles(q);
+                }
+                
+                // Generate tiles based on concepts found
+                for (const concept of concepts) {
+                    const conceptTiles = this.generateConceptTiles(concept, q);
+                    tiles.push(...conceptTiles);
+                }
+                
+                // Add yes/no if it's a question
+                if (q.includes('?')) {
+                    tiles.unshift(
+                        { emoji: '✅', text: 'Yes', fullSentence: this.generateYesSentence(q), confidence: 0.95 },
+                        { emoji: '❌', text: 'No', fullSentence: this.generateNoSentence(q), confidence: 0.95 }
+                    );
+                }
+                
+                // Add contextual tiles based on question type
+                if (concepts.length === 0) {
+                    tiles.push(...this.generateGeneralTiles(q));
+                }
+                
+                // Limit to 6 tiles and sort by confidence
+                return tiles.sort((a, b) => b.confidence - a.confidence).slice(0, 6);
+            }
+            
+            // Extract concepts from question
+            extractConcepts(question) {
+                const concepts = [];
+                
+                for (const [concept, emojis] of Object.entries(this.conceptMappings)) {
+                    if (question.includes(concept.toLowerCase()) || 
+                        (concept === 'hungry' && question.includes('eat')) ||
+                        (concept === 'thirsty' && question.includes('drink')) ||
+                        (concept === 'tired' && question.includes('sleep')) ||
+                        (concept === 'bathroom' && question.includes('toilet'))) {
+                        concepts.push(concept);
+                    }
+                }
+                
+                return concepts;
+            }
+            
+            // Generate tiles for a concept
+            generateConceptTiles(concept, question) {
+                const tiles = [];
+                const emojis = this.conceptMappings[concept] || ['💬'];
+                
+                // Create diverse response tiles
+                if (concept === 'hungry' || concept === 'thirsty') {
+                    tiles.push(
+                        { emoji: emojis[0], text: 'Very', fullSentence: `Yes, I'm very ${concept}.`, confidence: 0.9 },
+                        { emoji: emojis[1], text: 'Little', fullSentence: `Just a little ${concept}.`, confidence: 0.85 },
+                        { emoji: emojis[2], text: 'Later', fullSentence: `Maybe later, not ${concept} now.`, confidence: 0.8 }
+                    );
+                } else if (concept === 'pain') {
+                    tiles.push(
+                        { emoji: '😣', text: 'Hurts', fullSentence: 'Yes, it hurts right here.', confidence: 0.95 },
+                        { emoji: '💊', text: 'Medicine', fullSentence: 'I need my pain medicine please.', confidence: 0.9 },
+                        { emoji: '🔥', text: 'Burning', fullSentence: 'It\'s a burning sensation.', confidence: 0.85 }
+                    );
+                } else if (concept === 'tired') {
+                    tiles.push(
+                        { emoji: '😴', text: 'Sleep', fullSentence: 'I need to sleep now.', confidence: 0.9 },
+                        { emoji: '🛏️', text: 'Bed', fullSentence: 'I want to go to bed.', confidence: 0.9 },
+                        { emoji: '💤', text: 'Rest', fullSentence: 'I just need to rest for a bit.', confidence: 0.85 }
+                    );
+                }
+                
+                return tiles;
+            }
+            
+            // Generate choice tiles for OR questions
+            generateChoiceTiles(question) {
+                const tiles = [];
+                const parts = question.split(/\bor\b/i);
+                
+                parts.forEach(part => {
+                    const cleaned = part.replace(/[?.,]/g, '')
+                                      .replace(/do you want/i, '')
+                                      .replace(/would you like/i, '')
+                                      .trim();
+                    
+                    if (cleaned) {
+                        const emoji = this.getEmojiForWord(cleaned);
+                        tiles.push({
+                            emoji: emoji,
+                            text: this.simplifyWord(cleaned),
+                            fullSentence: `I would like ${cleaned}, please.`,
+                            confidence: 0.95
+                        });
+                    }
+                });
+                
+                // Add "both" and "neither"
+                tiles.push(
+                    { emoji: '✅', text: 'Both', fullSentence: 'I\'d like both options, please.', confidence: 0.85 },
+                    { emoji: '❌', text: 'Neither', fullSentence: 'I don\'t want either option right now.', confidence: 0.85 }
+                );
+                
+                return tiles;
+            }
+            
+            // Generate general tiles
+            generateGeneralTiles(question) {
+                return [
+                    { emoji: '👍', text: 'Good', fullSentence: 'That sounds good to me.', confidence: 0.85 },
+                    { emoji: '🤔', text: 'Maybe', fullSentence: 'Maybe, I need to think about it.', confidence: 0.8 },
+                    { emoji: '❓', text: 'What?', fullSentence: 'Could you explain that again?', confidence: 0.75 },
+                    { emoji: '🔄', text: 'Later', fullSentence: 'Let\'s do that later.', confidence: 0.8 }
+                ];
+            }
+            
+            // Generate Weizenbaum-style expansion tiles
+            generateExpansionTiles(selectedTile) {
+                const selection = selectedTile.text.toLowerCase();
+                const originalQuestion = this.currentContext ? this.currentContext.toLowerCase() : '';
+                
+                // YES/NO expansions based on original question context
+                if (selection === 'yes' || selection === 'no') {
+                    return this.expandBasedOnOriginalQuestion(selection, originalQuestion);
+                }
+                
+                // Check if we have specific expansion patterns
+                const pattern = this.expansionPatterns[selection];
+                if (pattern) {
+                    return pattern.map(item => ({
+                        emoji: this.getEmojiForWord(item),
+                        text: this.simplifyWord(item),
+                        fullSentence: `I want ${item}.`,
+                        confidence: 0.9
+                    }));
+                }
+                
+                // Otherwise, expand based on the word itself
+                return this.expandBasedOnWord(selection);
+            }
+            
+            // Expand based on original question when Yes/No is selected
+            expandBasedOnOriginalQuestion(selection, originalQuestion) {
+                const tiles = [];
+                
+                if (selection === 'yes') {
+                    // Check what the question was about
+                    if (originalQuestion.includes('hungry') || originalQuestion.includes('eat')) {
+                        // Show food categories
+                        tiles.push(
+                            { emoji: '🥡', text: 'Chinese', fullSentence: 'I\'d like Chinese food.', confidence: 0.95 },
+                            { emoji: '🍔', text: 'American', fullSentence: 'I want American food.', confidence: 0.95 },
+                            { emoji: '🍝', text: 'Italian', fullSentence: 'Italian sounds good.', confidence: 0.95 },
+                            { emoji: '🌮', text: 'Mexican', fullSentence: 'I\'d like Mexican food.', confidence: 0.95 },
+                            { emoji: '🍱', text: 'Japanese', fullSentence: 'Japanese food please.', confidence: 0.95 },
+                            { emoji: '🍛', text: 'Indian', fullSentence: 'Indian food sounds nice.', confidence: 0.95 }
+                        );
+                    } else if (originalQuestion.includes('pain') || originalQuestion.includes('hurt')) {
+                        // Show pain locations
+                        tiles.push(
+                            { emoji: '🤕', text: 'Head', fullSentence: 'My head hurts.', confidence: 0.95 },
+                            { emoji: '💔', text: 'Chest', fullSentence: 'I have chest pain.', confidence: 0.95 },
+                            { emoji: '🔙', text: 'Back', fullSentence: 'My back hurts.', confidence: 0.95 },
+                            { emoji: '🤢', text: 'Stomach', fullSentence: 'My stomach hurts.', confidence: 0.95 },
+                            { emoji: '🦵', text: 'Legs', fullSentence: 'My legs hurt.', confidence: 0.95 },
+                            { emoji: '💪', text: 'Arms', fullSentence: 'My arms hurt.', confidence: 0.95 }
+                        );
+                    } else if (originalQuestion.includes('thirsty') || originalQuestion.includes('drink')) {
+                        // Show drink options
+                        tiles.push(
+                            { emoji: '💧', text: 'Water', fullSentence: 'I want water please.', confidence: 0.95 },
+                            { emoji: '🧃', text: 'Juice', fullSentence: 'I\'d like some juice.', confidence: 0.95 },
+                            { emoji: '☕', text: 'Coffee', fullSentence: 'Coffee would be nice.', confidence: 0.95 },
+                            { emoji: '🍵', text: 'Tea', fullSentence: 'I\'d like some tea.', confidence: 0.95 },
+                            { emoji: '🥛', text: 'Milk', fullSentence: 'I want milk please.', confidence: 0.95 },
+                            { emoji: '🥤', text: 'Soda', fullSentence: 'I\'d like a soda.', confidence: 0.95 }
+                        );
+                    }
+                } else if (selection === 'no') {
+                    // For "No" responses, offer alternatives
+                    tiles.push(
+                        { emoji: '🔄', text: 'Later', fullSentence: 'Maybe later, not now.', confidence: 0.9 },
+                        { emoji: '🤔', text: 'Different', fullSentence: 'I want something different.', confidence: 0.9 },
+                        { emoji: '😴', text: 'Tired', fullSentence: 'I\'m too tired right now.', confidence: 0.85 },
+                        { emoji: '👍', text: 'Fine', fullSentence: 'I\'m fine, thank you.', confidence: 0.85 }
+                    );
+                }
+                
+                return tiles;
+            }
+            
+            // Expand based on selected word
+            expandBasedOnWord(word) {
+                const tiles = [];
+                
+                // Food expansions
+                if (word === 'chinese') {
+                    tiles.push(
+                        { emoji: '🍚', text: 'Rice', fullSentence: 'I want fried rice.', confidence: 0.95 },
+                        { emoji: '🍜', text: 'Noodles', fullSentence: 'I\'d like noodles.', confidence: 0.95 },
+                        { emoji: '🍗', text: 'Chicken', fullSentence: 'Sweet and sour chicken please.', confidence: 0.95 },
+                        { emoji: '🥩', text: 'Beef', fullSentence: 'Beef and broccoli sounds good.', confidence: 0.95 }
+                    );
+                } else if (word === 'american' || word === 'burger') {
+                    tiles.push(
+                        { emoji: '🧀', text: 'Cheese', fullSentence: 'Add cheese please.', confidence: 0.95 },
+                        { emoji: '🥬', text: 'Lettuce', fullSentence: 'With lettuce please.', confidence: 0.95 },
+                        { emoji: '🍅', text: 'Tomato', fullSentence: 'Add tomato please.', confidence: 0.95 },
+                        { emoji: '🧅', text: 'Onion', fullSentence: 'With onions please.', confidence: 0.95 },
+                        { emoji: '🥓', text: 'Bacon', fullSentence: 'Add bacon please.', confidence: 0.95 }
+                    );
+                }
+                
+                return tiles;
+            }
+            
+            // Get emoji for word
+            getEmojiForWord(word) {
+                const emojiMap = {
+                    // Food
+                    chinese: '🥡', american: '🍔', italian: '🍝', mexican: '🌮',
+                    japanese: '🍱', indian: '🍛', burger: '🍔', pizza: '🍕',
+                    rice: '🍚', noodles: '🍜', chicken: '🍗', beef: '🥩',
+                    cheese: '🧀', lettuce: '🥬', tomato: '🍅', onion: '🧅',
+                    bacon: '🥓', pickles: '🥒',
+                    
+                    // Drinks
+                    water: '💧', juice: '🧃', coffee: '☕', tea: '🍵',
+                    milk: '🥛', soda: '🥤',
+                    
+                    // Body parts
+                    head: '🤕', chest: '💔', back: '🔙', stomach: '🤢',
+                    legs: '🦵', arms: '💪',
+                    
+                    // Activities
+                    tv: '📺', sports: '⚽', game: '🎮', read: '📚',
+                    music: '🎵', walk: '🚶', sleep: '😴',
+                    
+                    // General
+                    yes: '✅', no: '❌', good: '👍', bad: '👎',
+                    later: '🔄', different: '🔀', tired: '😴', fine: '👌'
+                };
+                
+                const lower = word.toLowerCase();
+                for (const [key, emoji] of Object.entries(emojiMap)) {
+                    if (lower.includes(key)) return emoji;
+                }
+                
+                return '💬';
+            }
+            
+            // Simplify word for display
+            simplifyWord(phrase) {
+                const words = phrase.split(' ');
+                const important = words.filter(w => 
+                    !['the', 'a', 'an', 'for', 'to', 'of', 'in', 'on', 'with'].includes(w.toLowerCase())
+                );
+                
+                if (important.length > 0) {
+                    const word = important[0];
+                    return word.charAt(0).toUpperCase() + word.slice(1);
+                }
+                
+                return phrase.charAt(0).toUpperCase() + phrase.slice(1);
+            }
+            
+            // Generate contextual Yes sentence
+            generateYesSentence(question) {
+                if (question.includes('hungry')) return 'Yes, I am hungry.';
+                if (question.includes('thirsty')) return 'Yes, I am thirsty.';
+                if (question.includes('pain')) return 'Yes, I am in pain.';
+                if (question.includes('tired')) return 'Yes, I am tired.';
+                if (question.includes('bathroom')) return 'Yes, I need the bathroom.';
+                if (question.includes('help')) return 'Yes, I need help.';
+                return 'Yes, that\'s correct.';
+            }
+            
+            // Generate contextual No sentence
+            generateNoSentence(question) {
+                if (question.includes('hungry')) return 'No, I\'m not hungry right now.';
+                if (question.includes('thirsty')) return 'No, I don\'t need anything to drink.';
+                if (question.includes('pain')) return 'No, I\'m not in pain.';
+                if (question.includes('tired')) return 'No, I\'m not tired.';
+                if (question.includes('bathroom')) return 'No, I don\'t need the bathroom.';
+                if (question.includes('help')) return 'No, I don\'t need help right now.';
+                return 'No, that\'s not right.';
+            }
+            
+            // Display tiles
+            displayTiles(tiles) {
+                const container = document.getElementById('dynamicTiles');
+                container.innerHTML = '';
+                
+                tiles.forEach((tile, index) => {
+                    const div = document.createElement('div');
+                    div.className = 'tile';
+                    div.innerHTML = `
+                        <span class="tile-confidence">${Math.round(tile.confidence * 100)}%</span>
+                        <div class="tile-emoji">${tile.emoji}</div>
+                        <div class="tile-word">${tile.text}</div>
+                    `;
+                    
+                    div.onclick = () => this.selectTile(tile, div);
+                    
+                    // Animate appearance
+                    div.style.opacity = '0';
+                    div.style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        div.style.transition = 'all 0.3s ease';
+                        div.style.opacity = '1';
+                        div.style.transform = 'translateY(0)';
+                    }, index * 50);
+                    
+                    container.appendChild(div);
+                });
+            }
+            
+            // Handle tile selection
+            selectTile(tile, element) {
+                // Visual feedback
+                document.querySelectorAll('.tile').forEach(t => t.classList.remove('selected'));
+                if (element) element.classList.add('selected');
+                
+                // Speak the full sentence
+                this.speak(tile.fullSentence);
+                
+                // Add to visual story
+                this.addToVisualStory(tile.emoji);
+                
+                // Update personality
+                this.updatePersonality(tile.text);
+                
+                // Add to conversation history
+                this.addToHistory(this.currentContext, tile);
+                
+                // Generate expansion tiles (Weizenbaum tree)
+                setTimeout(() => {
+                    const expansionTiles = this.generateExpansionTiles(tile);
+                    if (expansionTiles.length > 0) {
+                        this.displayTiles(expansionTiles);
+                    }
+                }, 500);
+            }
+            
+            // Speak text
+            speak(text) {
+                const outputDiv = document.getElementById('spokenOutput');
+                const textDiv = document.getElementById('spokenText');
+                
+                outputDiv.style.display = 'block';
+                textDiv.textContent = text;
+                
+                if ('speechSynthesis' in window) {
+                    const utterance = new SpeechSynthesisUtterance(text);
+                    utterance.rate = 0.9;
+                    utterance.pitch = 1.0;
+                    speechSynthesis.speak(utterance);
+                }
+            }
+            
+            // Add to visual story
+            addToVisualStory(emoji) {
+                this.visualStory.push(emoji);
+                if (this.visualStory.length > 12) {
+                    this.visualStory.shift();
+                }
+                
+                const storyDiv = document.getElementById('visualStory');
+                storyDiv.innerHTML = this.visualStory.map(e => 
+                    `<span class="story-emoji">${e}</span>`
+                ).join('');
+            }
+            
+            // Update personality profile
+            updatePersonality(trait) {
+                this.personalityTraits.add(trait);
+                const traitsDiv = document.getElementById('personalityTraits');
+                const traits = Array.from(this.personalityTraits).slice(-5);
+                traitsDiv.innerHTML = traits.map(t => 
+                    `<span class="trait">${t}</span>`
+                ).join('');
+            }
+            
+            // Add to conversation history
+            addToHistory(question, tile) {
+                this.conversationHistory.push({ question, tile });
+                
+                const historyDiv = document.getElementById('conversationHistory');
+                const html = `
+                    <div class="conversation-turn">
+                        <div style="color: #6b7280; font-size: 0.85rem;">Q: ${question || 'Core selection'}</div>
+                        <div>${tile.emoji} ${tile.text} → "${tile.fullSentence}"</div>
+                    </div>
+                `;
+                
+                if (this.conversationHistory.length === 1) {
+                    historyDiv.innerHTML = html;
+                } else {
+                    historyDiv.innerHTML = html + historyDiv.innerHTML;
+                }
+            }
+        }
+        
+        // Initialize system
+        const tinkybink = new TinkyBinkAAC();
+        
+        // Core tile handlers
+        function selectCoreTile(category) {
+            const tiles = {
+                Want: [
+                    { emoji: '💧', text: 'Water', fullSentence: 'I want some water please.', confidence: 0.95 },
+                    { emoji: '🍽️', text: 'Food', fullSentence: 'I want something to eat.', confidence: 0.95 },
+                    { emoji: '🚽', text: 'Bathroom', fullSentence: 'I want to use the bathroom.', confidence: 0.95 },
+                    { emoji: '😴', text: 'Sleep', fullSentence: 'I want to sleep.', confidence: 0.95 },
+                    { emoji: '📺', text: 'TV', fullSentence: 'I want to watch TV.', confidence: 0.95 },
+                    { emoji: '🏠', text: 'Home', fullSentence: 'I want to go home.', confidence: 0.95 }
+                ],
+                Places: [
+                    { emoji: '🛏️', text: 'Bedroom', fullSentence: 'I want to go to the bedroom.', confidence: 0.95 },
+                    { emoji: '🚽', text: 'Bathroom', fullSentence: 'I need the bathroom.', confidence: 0.95 },
+                    { emoji: '🍽️', text: 'Kitchen', fullSentence: 'Let\'s go to the kitchen.', confidence: 0.95 },
+                    { emoji: '🛋️', text: 'Living Room', fullSentence: 'I want to go to the living room.', confidence: 0.95 },
+                    { emoji: '🌳', text: 'Outside', fullSentence: 'I want to go outside.', confidence: 0.95 },
+                    { emoji: '🏥', text: 'Hospital', fullSentence: 'I need to go to the hospital.', confidence: 0.95 }
+                ],
+                Help: [
+                    { emoji: '🚶', text: 'Walk', fullSentence: 'Help me walk please.', confidence: 0.95 },
+                    { emoji: '🪑', text: 'Sit', fullSentence: 'Help me sit down.', confidence: 0.95 },
+                    { emoji: '🛏️', text: 'Bed', fullSentence: 'Help me get to bed.', confidence: 0.95 },
+                    { emoji: '👕', text: 'Dress', fullSentence: 'Help me get dressed.', confidence: 0.95 },
+                    { emoji: '💊', text: 'Medicine', fullSentence: 'I need help with my medicine.', confidence: 0.95 },
+                    { emoji: '📱', text: 'Phone', fullSentence: 'Help me with the phone.', confidence: 0.95 }
+                ],
+                Food: [
+                    { emoji: '🍳', text: 'Breakfast', fullSentence: 'I want breakfast.', confidence: 0.95 },
+                    { emoji: '🥪', text: 'Lunch', fullSentence: 'I want lunch.', confidence: 0.95 },
+                    { emoji: '🍽️', text: 'Dinner', fullSentence: 'I want dinner.', confidence: 0.95 },
+                    { emoji: '🍎', text: 'Snack', fullSentence: 'I want a snack.', confidence: 0.95 },
+                    { emoji: '💧', text: 'Drink', fullSentence: 'I want something to drink.', confidence: 0.95 },
+                    { emoji: '🍰', text: 'Dessert', fullSentence: 'I want dessert.', confidence: 0.95 }
+                ],
+                People: [
+                    { emoji: '👨‍⚕️', text: 'Doctor', fullSentence: 'I want to see the doctor.', confidence: 0.95 },
+                    { emoji: '👩‍⚕️', text: 'Nurse', fullSentence: 'I need the nurse.', confidence: 0.95 },
+                    { emoji: '👨‍👩‍👧', text: 'Family', fullSentence: 'I want to see my family.', confidence: 0.95 },
+                    { emoji: '👫', text: 'Friend', fullSentence: 'I want to see my friend.', confidence: 0.95 },
+                    { emoji: '👩', text: 'Wife', fullSentence: 'I want to see my wife.', confidence: 0.95 },
+                    { emoji: '👨', text: 'Husband', fullSentence: 'I want to see my husband.', confidence: 0.95 }
+                ],
+                Action: [
+                    { emoji: '🚶', text: 'Walk', fullSentence: 'I want to walk.', confidence: 0.95 },
+                    { emoji: '🛋️', text: 'Sit', fullSentence: 'I want to sit down.', confidence: 0.95 },
+                    { emoji: '🛏️', text: 'Lie down', fullSentence: 'I want to lie down.', confidence: 0.95 },
+                    { emoji: '📺', text: 'Watch', fullSentence: 'I want to watch something.', confidence: 0.95 },
+                    { emoji: '📖', text: 'Read', fullSentence: 'I want to read.', confidence: 0.95 },
+                    { emoji: '🎵', text: 'Listen', fullSentence: 'I want to listen to music.', confidence: 0.95 }
+                ],
+                Feel: [
+                    { emoji: '😊', text: 'Happy', fullSentence: 'I feel happy.', confidence: 0.95 },
+                    { emoji: '😔', text: 'Sad', fullSentence: 'I feel sad.', confidence: 0.95 },
+                    { emoji: '😴', text: 'Tired', fullSentence: 'I feel tired.', confidence: 0.95 },
+                    { emoji: '😣', text: 'Pain', fullSentence: 'I\'m in pain.', confidence: 0.95 },
+                    { emoji: '😰', text: 'Anxious', fullSentence: 'I feel anxious.', confidence: 0.95 },
+                    { emoji: '🤒', text: 'Sick', fullSentence: 'I feel sick.', confidence: 0.95 }
+                ],
+                Home: [
+                    { emoji: '🏠', text: 'Go home', fullSentence: 'I want to go home.', confidence: 0.95 },
+                    { emoji: '📱', text: 'Call home', fullSentence: 'I want to call home.', confidence: 0.95 },
+                    { emoji: '👨‍👩‍👧', text: 'Family', fullSentence: 'I miss my family.', confidence: 0.95 },
+                    { emoji: '🛏️', text: 'My bed', fullSentence: 'I want my own bed.', confidence: 0.95 },
+                    { emoji: '🐕', text: 'Pet', fullSentence: 'I miss my pet.', confidence: 0.95 },
+                    { emoji: '📸', text: 'Photos', fullSentence: 'I want to see photos from home.', confidence: 0.95 }
+                ]
+            };
+            
+            tinkybink.currentContext = `Core: ${category}`;
+            tinkybink.displayTiles(tiles[category] || []);
+        }
+        
+        // Process question
+        function askQuestion() {
+            const input = document.getElementById('questionInput');
+            const question = input.value.trim();
+            
+            if (!question) return;
+            
+            tinkybink.processQuestion(question);
+            input.value = '';
+        }
+        
+        // Reset to home
+        function resetToHome() {
+            document.getElementById('dynamicTiles').innerHTML = 
+                '<p style="color: #9ca3af; text-align: center; grid-column: 1/-1;">Select a core tile or ask a question...</p>';
+            document.getElementById('spokenOutput').style.display = 'none';
+        }
+        
+        // Initialize
+        window.onload = function() {
+            resetToHome();
+        };
+    </script>
+</body>
+</html>

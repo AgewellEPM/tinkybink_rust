@@ -10,8 +10,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("{}", "=".repeat(70));
 
     let training_dir = Path::new("training");
-    let conversational_master_path =
-        training_dir.join("tinkybink_ultimate_conversational_master.jsonl");
+    let conversational_master_path = training_dir.join("tinkybink_ultimate_conversational_master.jsonl");
     let specialized_brain_path = training_dir.join("tinkybink_super_brain_complete.jsonl");
     let output_path = training_dir.join("tinkybink_ultimate_master_brain.jsonl");
 
@@ -19,10 +18,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("📖 Loading Original Conversational Master...");
     let conversational_content = fs::read_to_string(&conversational_master_path)?;
     let conversational_lines: Vec<&str> = conversational_content.lines().collect();
-    println!(
-        "✅ Loaded {} conversational nodes",
-        conversational_lines.len()
-    );
+    println!("✅ Loaded {} conversational nodes", conversational_lines.len());
 
     // Load specialized categories brain
     println!("📖 Loading Specialized Categories Brain...");
@@ -92,27 +88,16 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let connected_entries = create_drill_down_structure(all_entries)?;
 
     // Save ultimate brain
-    let output_content = connected_entries
-        .iter()
-        .map(serde_json::to_string)
-        .collect::<Result<Vec<_>, _>>()?
-        .join("\n");
+    let output_content = connected_entries.iter().map(serde_json::to_string).collect::<Result<Vec<_>, _>>()?.join("\n");
 
     fs::write(&output_path, output_content)?;
 
     println!("\n🎉 Ultimate Master Brain Creation Complete!");
     println!("📊 Final Statistics:");
-    println!(
-        "   🧠 Original Conversational Master: {conversational_count} nodes"
-    );
-    println!(
-        "   ➕ Specialized Categories Added: {specialized_added} nodes"
-    );
+    println!("   🧠 Original Conversational Master: {conversational_count} nodes");
+    println!("   ➕ Specialized Categories Added: {specialized_added} nodes");
     println!("   🗑️  Duplicates Removed: {duplicates}");
-    println!(
-        "   🎯 Total Ultimate Brain: {} nodes",
-        connected_entries.len()
-    );
+    println!("   🎯 Total Ultimate Brain: {} nodes", connected_entries.len());
     println!("   💾 Output File: {}", output_path.display());
 
     // Calculate growth
@@ -122,26 +107,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("\n📈 Growth Analysis:");
     println!("   📥 Total Input Entries: {total_input}");
     println!("   📤 Final Output Entries: {}", connected_entries.len());
-    println!(
-        "   📊 Growth Factor: {growth_factor:.2}x larger than original"
-    );
-    println!(
-        "   🎪 Estimated Total Tiles: {}",
-        connected_entries.len() * 4
-    );
+    println!("   📊 Growth Factor: {growth_factor:.2}x larger than original");
+    println!("   🎪 Estimated Total Tiles: {}", connected_entries.len() * 4);
 
     // Analyze categories
     analyze_categories(&connected_entries)?;
 
     println!("\n🎯 Next Steps:");
-    println!(
-        "   1. Copy to iOS: cp {} path/to/ios/Resources/conversation_brain.jsonl",
-        output_path.display()
-    );
-    println!(
-        "   2. Copy to Android: cp {} path/to/android/assets/conversation_brain.jsonl",
-        output_path.display()
-    );
+    println!("   1. Copy to iOS: cp {} path/to/ios/Resources/conversation_brain.jsonl", output_path.display());
+    println!("   2. Copy to Android: cp {} path/to/android/assets/conversation_brain.jsonl", output_path.display());
     println!("   3. Use in HTML5: Include in web app bundle");
     println!("   4. Test with conversation_demo: cargo run --bin conversation_demo");
 
@@ -163,11 +137,7 @@ fn enhance_specialized_entry(mut entry: Value) -> Result<Value, Box<dyn std::err
 
                 obj.insert(
                     "instruction".to_string(),
-                    Value::String(format!(
-                        "AAC {}: {}",
-                        category.replace("_", " ").to_uppercase(),
-                        input
-                    )),
+                    Value::String(format!("AAC {}: {}", category.replace("_", " ").to_uppercase(), input)),
                 );
             }
         }
@@ -181,11 +151,7 @@ fn enhance_specialized_entry(mut entry: Value) -> Result<Value, Box<dyn std::err
                         .filter_map(|tile| {
                             let emoji = tile.get("emoji").and_then(|e| e.as_str()).unwrap_or("");
                             let words = tile.get("words").and_then(|w| w.as_str()).unwrap_or("");
-                            if !emoji.is_empty() && !words.is_empty() {
-                                Some(format!("{emoji} {words}"))
-                            } else {
-                                None
-                            }
+                            if !emoji.is_empty() && !words.is_empty() { Some(format!("{emoji} {words}")) } else { None }
                         })
                         .collect::<Vec<_>>()
                         .join(", ");
@@ -199,26 +165,18 @@ fn enhance_specialized_entry(mut entry: Value) -> Result<Value, Box<dyn std::err
     Ok(entry)
 }
 
-fn create_drill_down_structure(
-    mut entries: Vec<Value>,
-) -> Result<Vec<Value>, Box<dyn std::error::Error>> {
+fn create_drill_down_structure(mut entries: Vec<Value>) -> Result<Vec<Value>, Box<dyn std::error::Error>> {
     // Create category-based connections for drill-downs
     let mut category_groups: HashMap<String, Vec<usize>> = HashMap::new();
 
     // Group entries by category
     for (index, entry) in entries.iter().enumerate() {
         if let Some(category) = extract_category(entry) {
-            category_groups
-                .entry(category)
-                .or_default()
-                .push(index);
+            category_groups.entry(category).or_default().push(index);
         }
     }
 
-    println!(
-        "🔗 Creating connections across {} categories",
-        category_groups.len()
-    );
+    println!("🔗 Creating connections across {} categories", category_groups.len());
 
     // Collect drill-down data first to avoid borrowing conflicts
     let mut drill_down_data: Vec<(usize, Vec<String>, String, usize)> = Vec::new();
@@ -254,10 +212,7 @@ fn create_drill_down_structure(
                 Value::Array(follow_ups.into_iter().map(Value::String).collect()),
             );
             entry_obj.insert("category_group".to_string(), Value::String(category));
-            entry_obj.insert(
-                "category_size".to_string(),
-                Value::Number(serde_json::Number::from(category_size)),
-            );
+            entry_obj.insert("category_size".to_string(), Value::Number(serde_json::Number::from(category_size)));
         }
     }
 
@@ -274,18 +229,13 @@ fn extract_category(entry: &Value) -> Option<String> {
         .map(|s| s.to_string())
         .or_else(|| {
             // Extract from instruction
-            entry
-                .get("instruction")
-                .and_then(|i| i.as_str())
-                .and_then(|s| {
-                    if s.starts_with("AAC ") {
-                        s.split(":")
-                            .next()
-                            .map(|part| part.replace("AAC ", "").trim().to_lowercase())
-                    } else {
-                        None
-                    }
-                })
+            entry.get("instruction").and_then(|i| i.as_str()).and_then(|s| {
+                if s.starts_with("AAC ") {
+                    s.split(":").next().map(|part| part.replace("AAC ", "").trim().to_lowercase())
+                } else {
+                    None
+                }
+            })
         })
         .or_else(|| Some("general".to_string()))
 }
@@ -308,16 +258,8 @@ fn analyze_categories(entries: &[Value]) -> Result<(), Box<dyn std::error::Error
     }
 
     if sorted_categories.len() > 15 {
-        let remaining: usize = sorted_categories
-            .iter()
-            .skip(15)
-            .map(|(_, count)| *count)
-            .sum();
-        println!(
-            "   ... and {} more categories with {} nodes",
-            sorted_categories.len() - 15,
-            remaining
-        );
+        let remaining: usize = sorted_categories.iter().skip(15).map(|(_, count)| *count).sum();
+        println!("   ... and {} more categories with {} nodes", sorted_categories.len() - 15, remaining);
     }
 
     Ok(())

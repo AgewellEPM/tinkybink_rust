@@ -64,10 +64,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             if selection > 0 && selection <= current_response.tiles.len() {
                 let selected_tile = &current_response.tiles[selection - 1];
 
-                println!(
-                    "\nYou selected: {} {}\n",
-                    selected_tile.emoji, selected_tile.words
-                );
+                println!("\nYou selected: {} {}\n", selected_tile.emoji, selected_tile.words);
 
                 // Get follow-up responses and clone to own them
                 let follow_ups = aac.process_selection(current_node_id, &selected_tile.words);
@@ -101,41 +98,18 @@ fn demo_without_file() -> Result<(), Box<dyn std::error::Error>> {
 
     // Pizza ordering demo
     let conversations = vec![
-        (
-            "What would you like to eat?",
-            vec![
-                ("🍕", "Pizza"),
-                ("🍔", "Burger"),
-                ("🥗", "Salad"),
-                ("🍝", "Pasta"),
-            ],
-        ),
+        ("What would you like to eat?", vec![("🍕", "Pizza"), ("🍔", "Burger"), ("🥗", "Salad"), ("🍝", "Pasta")]),
         (
             "Pizza chosen! What toppings?",
-            vec![
-                ("🍄", "Mushrooms"),
-                ("🥓", "Bacon"),
-                ("🧄", "Pepperoni"),
-                ("🧀", "Extra cheese"),
-            ],
+            vec![("🍄", "Mushrooms"), ("🥓", "Bacon"), ("🧄", "Pepperoni"), ("🧀", "Extra cheese")],
         ),
         (
             "Mushroom pizza! What size?",
-            vec![
-                ("🍕", "Small"),
-                ("🍕🍕", "Medium"),
-                ("🍕🍕🍕", "Large"),
-                ("🍕🍕🍕🍕", "Extra large"),
-            ],
+            vec![("🍕", "Small"), ("🍕🍕", "Medium"), ("🍕🍕🍕", "Large"), ("🍕🍕🍕🍕", "Extra large")],
         ),
         (
             "Large pizza! Crust type?",
-            vec![
-                ("🥖", "Thin crust"),
-                ("🍞", "Thick crust"),
-                ("🧄", "Garlic crust"),
-                ("🧀", "Stuffed crust"),
-            ],
+            vec![("🥖", "Thin crust"), ("🍞", "Thick crust"), ("🧄", "Garlic crust"), ("🧀", "Stuffed crust")],
         ),
     ];
 

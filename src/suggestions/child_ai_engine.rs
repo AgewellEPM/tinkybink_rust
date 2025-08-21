@@ -26,9 +26,7 @@ impl Default for ChildAiEngine {
 impl ChildAiEngine {
     pub fn new() -> Self {
         info!("Initializing Child AI Engine");
-        Self {
-            conversation_history: Vec::new(),
-        }
+        Self { conversation_history: Vec::new() }
     }
 
     /// Add a question to the conversation history
@@ -70,10 +68,8 @@ impl ChildAiEngine {
         let responses = self.generate_contextual_responses(question, &context_history);
 
         // Convert to suggestion tiles with sentiment analysis
-        let tiles: Vec<SuggestionTile> = responses
-            .into_iter()
-            .map(|response| self.create_suggestion_tile(response))
-            .collect();
+        let tiles: Vec<SuggestionTile> =
+            responses.into_iter().map(|response| self.create_suggestion_tile(response)).collect();
 
         info!("Generated {} child-like suggestion tiles", tiles.len());
         Ok(tiles)
@@ -140,16 +136,7 @@ impl ChildAiEngine {
     }
 
     fn is_food_question(&self, question: &str) -> bool {
-        let food_words = [
-            "eat",
-            "hungry",
-            "food",
-            "meal",
-            "breakfast",
-            "lunch",
-            "dinner",
-            "snack",
-        ];
+        let food_words = ["eat", "hungry", "food", "meal", "breakfast", "lunch", "dinner", "snack"];
         food_words.iter().any(|word| question.contains(word))
     }
 
@@ -254,38 +241,23 @@ impl ChildAiEngine {
             ("💭", TileCategory::Default, 0.6)
         };
 
-        SuggestionTile {
-            emoji: emoji.to_string(),
-            text: response,
-            category,
-            confidence,
-        }
+        SuggestionTile { emoji: emoji.to_string(), text: response, category, confidence }
     }
 
     fn is_negative_sentiment(&self, text: &str) -> bool {
-        let negative_words = [
-            "no", "not", "don't", "stop", "sad", "angry", "boring", "tired", "way",
-        ];
+        let negative_words = ["no", "not", "don't", "stop", "sad", "angry", "boring", "tired", "way"];
         negative_words.iter().any(|word| text.contains(word))
     }
 
     fn is_positive_sentiment(&self, text: &str) -> bool {
         let positive_words = [
-            "yes", "love", "like", "go", "want", "sure", "fun", "happy", "ok", "play", "good",
-            "great", "yay", "please",
+            "yes", "love", "like", "go", "want", "sure", "fun", "happy", "ok", "play", "good", "great", "yay", "please",
         ];
         positive_words.iter().any(|word| text.contains(word))
     }
 
     fn is_thinking_sentiment(&self, text: &str) -> bool {
-        let thinking_words = [
-            "think",
-            "maybe",
-            "not sure",
-            "kinda",
-            "little",
-            "understand",
-        ];
+        let thinking_words = ["think", "maybe", "not sure", "kinda", "little", "understand"];
         thinking_words.iter().any(|word| text.contains(word))
     }
 }

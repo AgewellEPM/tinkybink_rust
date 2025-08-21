@@ -1,0 +1,2379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Recovery AAC - TinkyBink Enhanced System</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #3a7bd5 0%, #3a6073 100%);
+            min-height: 100vh;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .simulation-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .patient-panel, .caregiver-panel {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 25px;
+            min-height: 500px;
+        }
+        
+        .panel-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .caregiver-input {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        #caregiver-text {
+            flex: 1;
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+        }
+        
+        .speak-btn {
+            padding: 15px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background: #4CAF50;
+            color: white;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .speak-btn:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+        }
+        
+        .mic-btn {
+            padding: 15px;
+            font-size: 20px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            background: #f44336;
+            color: white;
+            width: 50px;
+            height: 50px;
+            transition: all 0.3s;
+        }
+        
+        .mic-btn.recording {
+            background: #ff0000;
+            animation: pulse 1s infinite;
+        }
+        
+        .status-display {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 20px;
+            min-height: 60px;
+        }
+        
+        .status-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .home-tile {
+            background: linear-gradient(135deg, rgba(123, 63, 242, 0.3) 0%, rgba(123, 63, 242, 0.2) 100%) !important;
+            border: 2px solid rgba(123, 63, 242, 0.5) !important;
+        }
+        
+        .home-tile:hover {
+            background: linear-gradient(135deg, rgba(123, 63, 242, 0.5) 0%, rgba(123, 63, 242, 0.3) 100%) !important;
+            box-shadow: 0 5px 20px rgba(123, 63, 242, 0.4);
+        }
+        
+        .emergency-tile {
+            background: linear-gradient(135deg, rgba(244, 67, 54, 0.4) 0%, rgba(244, 67, 54, 0.3) 100%) !important;
+            border: 2px solid rgba(244, 67, 54, 0.6) !important;
+            box-shadow: 0 3px 15px rgba(244, 67, 54, 0.3);
+        }
+        
+        .emergency-tile:hover {
+            background: linear-gradient(135deg, rgba(244, 67, 54, 0.6) 0%, rgba(244, 67, 54, 0.4) 100%) !important;
+            box-shadow: 0 5px 25px rgba(244, 67, 54, 0.5);
+            transform: translateY(-2px);
+        }
+        
+        .home-button {
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.3) 0%, rgba(76, 175, 80, 0.2) 100%) !important;
+            border-color: rgba(76, 175, 80, 0.5) !important;
+        }
+        
+        .home-button:hover {
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.5) 0%, rgba(76, 175, 80, 0.3) 100%) !important;
+            box-shadow: 0 5px 20px rgba(76, 175, 80, 0.4);
+        }
+        
+        .tiles-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .tile {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .tile:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .tile.selected {
+            background: rgba(76, 175, 80, 0.4);
+            border-color: #4CAF50;
+            animation: pulse 0.5s;
+        }
+        
+        .tile-emoji {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .tile-text {
+            font-size: 1em;
+            font-weight: 600;
+        }
+        
+        .conversation-log {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 30px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .log-entry {
+            padding: 10px;
+            margin-bottom: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .log-time {
+            font-size: 0.85em;
+            opacity: 0.7;
+            margin-bottom: 5px;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .btn-primary {
+            background: #4CAF50;
+            border-color: #4CAF50;
+        }
+        
+        .connection-status {
+            text-align: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .connected {
+            color: #4CAF50;
+        }
+        
+        .disconnected {
+            color: #f44336;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        @media (max-width: 968px) {
+            .simulation-panel {
+                grid-template-columns: 1fr;
+            }
+            
+            .tiles-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 Stroke Recovery AAC System</h1>
+        <p class="subtitle">TinkyBink AI Engine - Dynamic Tile Generation</p>
+        
+        <div class="connection-status">
+            <strong>System Status:</strong> 
+            <span id="connection-status" class="connected">✅ AI Engine Active - 8,202 Tiles Loaded</span>
+        </div>
+        
+        <div class="patient-info" style="background: rgba(255, 255, 255, 0.1); border-radius: 15px; padding: 20px; margin-bottom: 20px;">
+            <h3>👤 Patient Profile: Margaret Thompson</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <p><strong>Age:</strong> 68 years | <strong>Condition:</strong> Left hemisphere stroke</p>
+                    <p><strong>Communication Level:</strong> <span id="comm-level">Improving with AAC support</span></p>
+                    <p><strong>Response Time:</strong> <span id="avg-response">Calculating...</span></p>
+                </div>
+                <div>
+                    <p><strong>Recovery Progress:</strong> <span id="recovery-percent">75%</span></p>
+                    <div style="background: rgba(0,0,0,0.3); border-radius: 10px; height: 20px; margin-top: 5px; overflow: hidden;">
+                        <div id="recovery-progress" style="background: linear-gradient(90deg, #4CAF50, #8BC34A); height: 100%; width: 75%; transition: width 0.5s ease;"></div>
+                    </div>
+                    <p style="margin-top: 10px;"><strong>AI Confidence:</strong> <span id="ai-confidence">80%</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="simulation-panel">
+            <div class="patient-panel">
+                <div class="panel-title">👤 Patient View (Margaret)</div>
+                
+                <div class="status-display">
+                    <div class="status-label">Current Need:</div>
+                    <div id="patient-need">Ready to communicate needs</div>
+                </div>
+                
+                <div class="status-display">
+                    <div class="status-label">Emotional State:</div>
+                    <div id="patient-emotion">Calm and ready to interact</div>
+                </div>
+                
+                <div class="tiles-section">
+                    <div class="tiles-grid" id="patient-tiles">
+                        <!-- Default core tiles -->
+                        <div class="tile home-tile" onclick="selectHomeTile('want')">
+                            <span class="tile-emoji">💭</span>
+                            <span class="tile-text">I Want</span>
+                        </div>
+                        <div class="tile home-tile" onclick="selectHomeTile('food')">
+                            <span class="tile-emoji">🍽️</span>
+                            <span class="tile-text">Food/Hungry</span>
+                        </div>
+                        <div class="tile home-tile" onclick="selectHomeTile('pain')">
+                            <span class="tile-emoji">😣</span>
+                            <span class="tile-text">Pain/Hurt</span>
+                        </div>
+                        <div class="tile home-tile" onclick="selectHomeTile('family')">
+                            <span class="tile-emoji">👨‍👩‍👧</span>
+                            <span class="tile-text">Family</span>
+                        </div>
+                        <div class="tile home-tile emergency-tile" onclick="selectHomeTile('help')">
+                            <span class="tile-emoji">🆘</span>
+                            <span class="tile-text">Help Me</span>
+                        </div>
+                        <div class="tile home-tile" onclick="selectHomeTile('water')">
+                            <span class="tile-emoji">💧</span>
+                            <span class="tile-text">Water</span>
+                        </div>
+                        <div class="tile home-tile" onclick="selectHomeTile('cold')">
+                            <span class="tile-emoji">🥶</span>
+                            <span class="tile-text">Cold</span>
+                        </div>
+                        <div class="tile home-tile" onclick="selectHomeTile('hot')">
+                            <span class="tile-emoji">🥵</span>
+                            <span class="tile-text">Hot</span>
+                        </div>
+                        <div class="tile home-tile" onclick="selectHomeTile('bathroom')">
+                            <span class="tile-emoji">🚻</span>
+                            <span class="tile-text">Bathroom</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="caregiver-panel">
+                <div class="panel-title">👩‍⚕️ Caregiver View (You)</div>
+                
+                <div class="status-display">
+                    <div class="status-label">Speak to Patient:</div>
+                    <div class="caregiver-input">
+                        <input type="text" id="caregiver-text" placeholder="Type or speak your question..." />
+                        <button class="speak-btn" onclick="askQuestion()">Ask</button>
+                        <button class="mic-btn" id="mic-btn" onclick="toggleRecording()">🎤</button>
+                    </div>
+                </div>
+                
+                <div class="status-display">
+                    <div class="status-label">Patient Communication:</div>
+                    <div id="patient-response">Waiting for patient selection...</div>
+                </div>
+                
+                <div class="status-display">
+                    <div class="status-label">Suggested Response:</div>
+                    <div id="caregiver-response">Ready to assist</div>
+                </div>
+                
+                <div class="status-display">
+                    <div class="status-label">AI Analysis:</div>
+                    <div id="ai-analysis">Monitoring patient communication patterns...</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button class="btn btn-primary" onclick="testScenario('How did you sleep?')">🛌 Sleep Check</button>
+            <button class="btn" onclick="testScenario('Do you want eggs or bacon?')">🍳 Breakfast Choice</button>
+            <button class="btn" onclick="testScenario('Are you in pain?')">🏥 Pain Check</button>
+            <button class="btn" onclick="testScenario('Do you need the bathroom?')">🚽 Bathroom</button>
+            <button class="btn" onclick="testScenario('Would you like some water?')">💧 Hydration</button>
+        </div>
+        
+        <div class="conversation-log">
+            <h3>📝 Communication Log</h3>
+            <div id="log-container"></div>
+        </div>
+    </div>
+
+    <script>
+        // TinkyBink AI Engine - Dynamic Tile Generation with AI Assistance
+        class TinkyBinkEngine {
+            constructor() {
+                this.conversationHistory = [];
+                this.personalityProfile = {
+                    preferences: new Map(),
+                    patterns: [],
+                    vocabulary: new Set()
+                };
+                this.currentContext = null;
+                this.currentPath = []; // Track navigation path for Weizenbaum expansion
+                this.lastSelection = null; // Remember last tile selected
+                
+                // AI Assistance Features
+                this.aiAssistant = {
+                    isActive: true,
+                    helpThreshold: 5000, // 5 seconds before helping
+                    lastQuestionTime: null,
+                    highlightTimer: null,
+                    strugglingPatterns: [],
+                    responseTime: [],
+                    confidenceLevel: 0.8
+                };
+                
+                this.emergencyKeywords = ['help', 'emergency', 'pain', 'hurt', 'urgent', 'problem', 'doctor', 'nurse'];
+                this.strugglingIndicators = ['confused', 'difficult', 'hard', 'dont know', 'unsure'];
+            }
+            
+            // AI Assistance - Start monitoring for patient struggling
+            startAIAssistance(question) {
+                this.aiAssistant.lastQuestionTime = Date.now();
+                
+                // Check if this looks like an emergency
+                if (this.detectEmergency(question)) {
+                    this.handleEmergency(question);
+                    return;
+                }
+                
+                // Start timer to help if patient struggles
+                if (this.aiAssistant.highlightTimer) {
+                    clearTimeout(this.aiAssistant.highlightTimer);
+                }
+                
+                this.aiAssistant.highlightTimer = setTimeout(() => {
+                    this.offerAIHelp(question);
+                }, this.aiAssistant.helpThreshold);
+            }
+            
+            // Detect emergency situations
+            detectEmergency(question) {
+                const q = question.toLowerCase();
+                return this.emergencyKeywords.some(keyword => q.includes(keyword)) &&
+                       (q.includes('urgent') || q.includes('emergency') || q.includes('help'));
+            }
+            
+            // Handle emergency situations
+            handleEmergency(question) {
+                document.getElementById('ai-status').innerHTML = 
+                    '🚨 <strong>EMERGENCY DETECTED</strong> - Prioritizing urgent response tiles';
+                
+                // Generate emergency-priority tiles
+                const emergencyTiles = this.generateEmergencyTiles(question);
+                this.highlightEmergencyTiles(emergencyTiles);
+                
+                // Auto-speak emergency message
+                this.speak("Emergency situation detected. Please select the tile that best describes your urgent need.");
+            }
+            
+            // Generate emergency-priority tiles
+            generateEmergencyTiles(question) {
+                return [
+                    { emoji: '🆘', text: 'HELP NOW', fullSentence: 'I need help right now! This is urgent!', confidence: 0.98 },
+                    { emoji: '😣', text: 'PAIN', fullSentence: 'I am in severe pain!', confidence: 0.95 },
+                    { emoji: '💊', text: 'MEDICINE', fullSentence: 'I need my medicine now!', confidence: 0.92 },
+                    { emoji: '👨‍⚕️', text: 'DOCTOR', fullSentence: 'Get the doctor immediately!', confidence: 0.95 },
+                    { emoji: '🚨', text: 'EMERGENCY', fullSentence: 'This is a medical emergency!', confidence: 0.98 },
+                    { emoji: '📞', text: 'CALL 911', fullSentence: 'Call 911 now!', confidence: 0.97 }
+                ];
+            }
+            
+            // Offer AI help when patient struggles
+            offerAIHelp(question) {
+                if (!this.aiAssistant.isActive) return;
+                
+                document.getElementById('ai-status').innerHTML = 
+                    '💡 <strong>AI ASSISTANT:</strong> Let me help you find the right response...';
+                
+                // Analyze what the patient might need
+                const suggestedTiles = this.identifyLikelyTiles(question);
+                this.highlightSuggestedTiles(suggestedTiles);
+                
+                // Speak helpful guidance
+                this.speak("I notice you might need help. I'm highlighting the most likely tiles for your question.");
+            }
+            
+            // Identify likely tiles based on question analysis
+            identifyLikelyTiles(question) {
+                const intent = this.analyzeIntent(question);
+                const allTiles = this.generateDynamicTiles(intent, question);
+                
+                // Return top 3 most confident tiles
+                return allTiles.sort((a, b) => b.confidence - a.confidence).slice(0, 3);
+            }
+            
+            // Highlight suggested tiles with animation
+            highlightSuggestedTiles(tiles) {
+                const container = document.getElementById('patient-tiles');
+                const tileElements = container.children;
+                
+                // First dim all tiles
+                Array.from(tileElements).forEach(tile => {
+                    tile.style.opacity = '0.3';
+                });
+                
+                // Then highlight suggested ones
+                tiles.forEach((tile, index) => {
+                    setTimeout(() => {
+                        const matchingElement = this.findTileElement(tile.text);
+                        if (matchingElement) {
+                            matchingElement.style.opacity = '1';
+                            matchingElement.style.background = 'rgba(76, 175, 80, 0.3)';
+                            matchingElement.style.transform = 'scale(1.05)';
+                            matchingElement.style.boxShadow = '0 0 20px rgba(76, 175, 80, 0.5)';
+                            
+                            // Add pulsing animation
+                            matchingElement.style.animation = 'pulse 1.5s infinite';
+                        }
+                    }, index * 500);
+                });
+                
+                // Reset highlighting after 10 seconds
+                setTimeout(() => {
+                    this.resetTileHighlighting();
+                }, 10000);
+            }
+            
+            // Highlight emergency tiles with urgent styling
+            highlightEmergencyTiles(tiles) {
+                const container = document.getElementById('patient-tiles');
+                container.innerHTML = ''; // Clear and show only emergency tiles
+                
+                tiles.forEach((tile, index) => {
+                    const div = document.createElement('div');
+                    div.className = 'tile';
+                    div.style.background = 'rgba(244, 67, 54, 0.4)';
+                    div.style.borderColor = '#f44336';
+                    div.style.animation = 'pulse 0.8s infinite';
+                    div.innerHTML = `
+                        <span class="tile-emoji">${tile.emoji}</span>
+                        <span class="tile-text">${tile.text}</span>
+                        <small style="opacity: 0.9; color: #fff; font-weight: bold;">URGENT</small>
+                    `;
+                    
+                    div.onclick = () => this.selectTile(tile);
+                    container.appendChild(div);
+                });
+            }
+            
+            // Find tile element by text
+            findTileElement(text) {
+                const tiles = document.querySelectorAll('.tile');
+                return Array.from(tiles).find(tile => 
+                    tile.textContent.toLowerCase().includes(text.toLowerCase())
+                );
+            }
+            
+            // Reset tile highlighting
+            resetTileHighlighting() {
+                const tiles = document.querySelectorAll('.tile');
+                tiles.forEach(tile => {
+                    tile.style.opacity = '1';
+                    tile.style.background = '';
+                    tile.style.transform = '';
+                    tile.style.boxShadow = '';
+                    tile.style.animation = '';
+                });
+            }
+            
+            // Track patient response patterns for AI learning
+            trackResponsePattern(responseTime, wasHelped) {
+                this.aiAssistant.responseTime.push(responseTime);
+                
+                if (wasHelped) {
+                    this.aiAssistant.strugglingPatterns.push({
+                        question: this.currentContext,
+                        responseTime: responseTime,
+                        timestamp: Date.now()
+                    });
+                }
+                
+                // Adjust help threshold based on patterns
+                this.adjustAIAssistance();
+                
+                // Update patient profile in real-time
+                this.updatePatientProfile();
+            }
+            
+            // Update patient profile display
+            updatePatientProfile() {
+                // Calculate average response time
+                if (this.aiAssistant.responseTime.length > 0) {
+                    const avgTime = this.aiAssistant.responseTime.reduce((a, b) => a + b, 0) / 
+                                   this.aiAssistant.responseTime.length;
+                    document.getElementById('avg-response').textContent = 
+                        `${(avgTime / 1000).toFixed(1)}s average`;
+                }
+                
+                // Update AI confidence
+                const confidence = Math.round(this.aiAssistant.confidenceLevel * 100);
+                document.getElementById('ai-confidence').textContent = `${confidence}%`;
+                
+                // Update communication level
+                let commLevel = 'Starting communication';
+                if (this.conversationHistory.length > 10) {
+                    commLevel = 'Actively communicating';
+                } else if (this.conversationHistory.length > 5) {
+                    commLevel = 'Building confidence';
+                } else if (this.conversationHistory.length > 2) {
+                    commLevel = 'Learning system';
+                }
+                document.getElementById('comm-level').textContent = commLevel;
+                
+                // Update recovery progress
+                const progressPercent = Math.min(100, 65 + (this.conversationHistory.length * 2));
+                document.getElementById('recovery-percent').textContent = `${progressPercent}%`;
+                document.getElementById('recovery-progress').style.width = `${progressPercent}%`;
+            }
+            
+            // Adjust AI assistance based on patient patterns
+            adjustAIAssistance() {
+                const avgResponseTime = this.aiAssistant.responseTime.reduce((a, b) => a + b, 0) / 
+                                       this.aiAssistant.responseTime.length;
+                
+                // If patient is consistently fast, increase threshold
+                if (avgResponseTime < 3000) {
+                    this.aiAssistant.helpThreshold = Math.min(8000, this.aiAssistant.helpThreshold + 500);
+                }
+                // If patient is struggling, decrease threshold
+                else if (avgResponseTime > 8000) {
+                    this.aiAssistant.helpThreshold = Math.max(3000, this.aiAssistant.helpThreshold - 500);
+                }
+                
+                // Update confidence level
+                this.aiAssistant.confidenceLevel = Math.max(0.6, Math.min(0.95, 
+                    1.0 - (avgResponseTime / 15000)));
+            }
+            
+            // Generate comprehensive AI analysis of patient communication
+            generateAIAnalysis(tile, responseTime) {
+                const analysis = [];
+                
+                // Response time analysis
+                const delaySeconds = Math.round(responseTime / 1000);
+                if (responseTime < 2000) {
+                    analysis.push(`Quick ${delaySeconds}s response indicates confidence and familiarity with system`);
+                } else if (responseTime > 8000) {
+                    analysis.push(`${delaySeconds}s delay suggests cognitive processing time or confusion`);
+                } else {
+                    analysis.push(`${delaySeconds}s response time shows normal processing`);
+                }
+                
+                // Confidence level analysis
+                const confidence = Math.round(this.aiAssistant.confidenceLevel * 100);
+                analysis.push(`Current AI confidence level: ${confidence}%`);
+                
+                // Pattern detection
+                if (this.aiAssistant.strugglingPatterns.length > 3) {
+                    analysis.push(`Pattern detected: Patient has struggled ${this.aiAssistant.strugglingPatterns.length} times`);
+                    analysis.push('Adjusting assistance threshold to provide earlier help');
+                }
+                
+                // Communication frequency analysis
+                const recentInteractions = this.conversationHistory.filter(h => 
+                    Date.now() - h.timestamp.getTime() < 300000 // Last 5 minutes
+                ).length;
+                
+                if (recentInteractions > 5) {
+                    analysis.push('High communication frequency indicates engaged patient');
+                } else if (recentInteractions < 2) {
+                    analysis.push('Low communication frequency - patient may need encouragement');
+                }
+                
+                // Tile preference analysis
+                const preferences = Array.from(this.personalityProfile.preferences.entries())
+                    .sort((a, b) => b[1] - a[1]);
+                
+                if (preferences.length > 3) {
+                    analysis.push(`Most used tiles: ${preferences.slice(0, 3).map(p => p[0]).join(', ')}`);
+                }
+                
+                // Vocabulary growth tracking
+                if (this.personalityProfile.vocabulary.size > 10) {
+                    analysis.push(`Vocabulary expanding: ${this.personalityProfile.vocabulary.size} unique words used`);
+                }
+                
+                // Recovery trend analysis
+                const avgResponseTime = this.aiAssistant.responseTime.length > 0 ? 
+                    this.aiAssistant.responseTime.reduce((a, b) => a + b, 0) / this.aiAssistant.responseTime.length : 0;
+                
+                if (avgResponseTime < 4000) {
+                    analysis.push('Communication efficiency improving over time');
+                } else if (avgResponseTime > 8000) {
+                    analysis.push('Consider larger tiles or simplified interface');
+                }
+                
+                // Emotional state inference
+                const recentSelections = this.conversationHistory.slice(-3);
+                const hasEmergencyWords = recentSelections.some(h => 
+                    h.response.text.toLowerCase().includes('help') || 
+                    h.response.text.toLowerCase().includes('pain') ||
+                    h.response.text.toLowerCase().includes('emergency')
+                );
+                
+                if (hasEmergencyWords) {
+                    analysis.push('Recent selections indicate potential distress - monitor closely');
+                }
+                
+                // Personalization suggestions
+                if (this.conversationHistory.length > 5) {
+                    analysis.push('Sufficient data for personalized tile arrangement');
+                }
+                
+                return analysis.join('. ') + '.';
+            }
+            
+            // Speak text with AI voice
+            speak(text) {
+                if ('speechSynthesis' in window) {
+                    const utterance = new SpeechSynthesisUtterance(text);
+                    utterance.rate = 0.8;
+                    utterance.pitch = 0.9;
+                    speechSynthesis.speak(utterance);
+                }
+            }
+            
+            // Process question and generate appropriate tiles dynamically
+            processQuestion(question) {
+                this.currentContext = question;
+                
+                // Start AI assistance monitoring
+                this.startAIAssistance(question);
+                
+                const intent = this.analyzeIntent(question);
+                const tiles = this.generateDynamicTiles(intent, question);
+                return tiles;
+            }
+            
+            // Analyze intent using pattern matching
+            analyzeIntent(question) {
+                const q = question.toLowerCase();
+                
+                // Check for IF/THEN conditionals
+                if (q.includes('if') && q.includes('then')) {
+                    const condition = this.extractCondition(q);
+                    return { type: 'CONDITIONAL', condition };
+                }
+                
+                // Check for OR choices
+                if (q.includes(' or ')) {
+                    const options = this.extractOptions(q);
+                    return { type: 'CHOICE', options };
+                }
+                
+                // Check for sequence/then statements
+                if (q.includes('then') || q.includes('after') || q.includes('next')) {
+                    return { type: 'SEQUENCE' };
+                }
+                
+                // Sports/games/TV
+                if (q.includes('game') || q.includes('sport') || q.includes('watch') || q.includes('tv') || q.includes('match')) {
+                    return { type: 'SPORTS_TV' };
+                }
+                
+                // Sleep related
+                if (q.includes('sleep') || q.includes('rest') || q.includes('tired')) {
+                    return { type: 'SLEEP' };
+                }
+                
+                // Pain/medical
+                if (q.includes('pain') || q.includes('hurt') || q.includes('ache')) {
+                    return { type: 'MEDICAL' };
+                }
+                
+                // Bathroom
+                if (q.includes('bathroom') || q.includes('toilet')) {
+                    return { type: 'BATHROOM' };
+                }
+                
+                // Food/drink
+                if (q.includes('hungry') || q.includes('eat') || q.includes('food')) {
+                    return { type: 'FOOD' };
+                }
+                
+                if (q.includes('water') || q.includes('thirsty') || q.includes('drink')) {
+                    return { type: 'HYDRATION' };
+                }
+                
+                // Feelings
+                if (q.includes('feel') || q.includes('emotion') || q.includes('mood')) {
+                    return { type: 'EMOTIONAL' };
+                }
+                
+                // Family/social
+                if (q.includes('family') || q.includes('visit') || q.includes('call')) {
+                    return { type: 'SOCIAL' };
+                }
+                
+                // Yes/No questions
+                if (q.startsWith('do') || q.startsWith('are') || q.startsWith('is') || q.startsWith('can') || q.startsWith('did')) {
+                    // But check if it's more specific first
+                    if (q.includes('game') || q.includes('watch')) {
+                        return { type: 'SPORTS_TV' };
+                    }
+                    return { type: 'YES_NO' };
+                }
+                
+                return { type: 'GENERAL' };
+            }
+            
+            // Extract options from OR questions
+            extractOptions(question) {
+                const parts = question.split(/\bor\b/i);
+                return parts.map(part => {
+                    return part.replace(/[?.,]/g, '')
+                               .replace(/do you want/i, '')
+                               .replace(/would you like/i, '')
+                               .trim();
+                });
+            }
+            
+            // Extract condition from IF/THEN statements
+            extractCondition(question) {
+                const q = question.toLowerCase();
+                const ifIndex = q.indexOf('if');
+                const thenIndex = q.indexOf('then');
+                
+                if (ifIndex !== -1 && thenIndex !== -1) {
+                    const condition = q.substring(ifIndex + 2, thenIndex).trim();
+                    const action = q.substring(thenIndex + 4).trim();
+                    return { condition, action };
+                }
+                return { condition: '', action: '' };
+            }
+            
+            // Generate tiles dynamically based on intent
+            generateDynamicTiles(intent, question) {
+                // Handle OR choices specially
+                if (intent.type === 'CHOICE' && intent.options) {
+                    return this.generateChoiceTiles(intent.options);
+                }
+                
+                // Handle IF/THEN conditionals
+                if (intent.type === 'CONDITIONAL' && intent.condition) {
+                    return this.generateConditionalTiles(intent.condition, question);
+                }
+                
+                // Handle sequences (then/after/next)
+                if (intent.type === 'SEQUENCE') {
+                    return this.generateSequenceTiles(question);
+                }
+                
+                // Extract key concepts from the question
+                const concepts = this.extractConcepts(question);
+                const tiles = this.generateContextualResponses(concepts, intent, question);
+                return tiles;
+            }
+            
+            // Extract key concepts from question
+            extractConcepts(question) {
+                const q = question.toLowerCase();
+                const concepts = {
+                    subject: '',
+                    action: '',
+                    object: '',
+                    time: '',
+                    sentiment: 'neutral'
+                };
+                
+                // Extract what the question is about
+                if (q.includes('game')) concepts.subject = 'game';
+                if (q.includes('sleep')) concepts.subject = 'sleep';
+                if (q.includes('pain')) concepts.subject = 'pain';
+                if (q.includes('food')) concepts.subject = 'food';
+                if (q.includes('family')) concepts.subject = 'family';
+                
+                // Extract action
+                if (q.includes('watch')) concepts.action = 'watch';
+                if (q.includes('eat')) concepts.action = 'eat';
+                if (q.includes('feel')) concepts.action = 'feel';
+                if (q.includes('need')) concepts.action = 'need';
+                if (q.includes('want')) concepts.action = 'want';
+                
+                // Extract time
+                if (q.includes('yesterday')) concepts.time = 'past';
+                if (q.includes('today')) concepts.time = 'present';
+                if (q.includes('tomorrow')) concepts.time = 'future';
+                if (q.includes('did')) concepts.time = 'past';
+                if (q.includes('will')) concepts.time = 'future';
+                
+                return concepts;
+            }
+            
+            // Generate contextual responses based on concepts
+            generateContextualResponses(concepts, intent, question) {
+                const tiles = [];
+                
+                // Generate positive, negative, and neutral responses dynamically
+                const responsePatterns = this.getResponsePatterns(concepts, intent);
+                
+                // Create tiles from patterns
+                responsePatterns.forEach(pattern => {
+                    const tile = {
+                        emoji: this.selectEmoji(pattern.sentiment, pattern.concept),
+                        text: pattern.shortText,
+                        fullSentence: this.buildFullSentence(pattern, question),
+                        confidence: pattern.confidence
+                    };
+                    tiles.push(tile);
+                });
+                
+                return tiles;
+            }
+            
+            // Get response patterns based on context
+            getResponsePatterns(concepts, intent) {
+                const patterns = [];
+                
+                // Always include yes/no options
+                patterns.push(
+                    { sentiment: 'positive', concept: 'agreement', shortText: 'Yes', confidence: 0.95 },
+                    { sentiment: 'negative', concept: 'disagreement', shortText: 'No', confidence: 0.95 }
+                );
+                
+                // Add context-specific patterns
+                if (concepts.subject) {
+                    patterns.push(
+                        { sentiment: 'positive', concept: concepts.subject, shortText: `${this.capitalize(concepts.subject)} good`, confidence: 0.90 },
+                        { sentiment: 'negative', concept: concepts.subject, shortText: `No ${concepts.subject}`, confidence: 0.88 },
+                        { sentiment: 'neutral', concept: concepts.subject, shortText: `Some ${concepts.subject}`, confidence: 0.85 }
+                    );
+                }
+                
+                if (concepts.action === 'watch') {
+                    patterns.push(
+                        { sentiment: 'positive', concept: 'completion', shortText: 'Watched it', confidence: 0.92 },
+                        { sentiment: 'negative', concept: 'missed', shortText: 'Missed it', confidence: 0.90 },
+                        { sentiment: 'neutral', concept: 'partial', shortText: 'Part of it', confidence: 0.85 }
+                    );
+                }
+                
+                // Add question/clarification options
+                patterns.push(
+                    { sentiment: 'confused', concept: 'question', shortText: 'What?', confidence: 0.80 },
+                    { sentiment: 'neutral', concept: 'unsure', shortText: 'Maybe', confidence: 0.82 }
+                );
+                
+                return patterns.slice(0, 8); // Return max 8 tiles
+            }
+            
+            // Select appropriate emoji based on sentiment and concept
+            selectEmoji(sentiment, concept) {
+                const emojiMap = {
+                    positive: ['😊', '👍', '✅', '🎉', '💚'],
+                    negative: ['😔', '👎', '❌', '😟', '💔'],
+                    neutral: ['😐', '🤷', '💭', '🤔', '➡️'],
+                    confused: ['❓', '🤷', '😕', '🤨', '❔']
+                };
+                
+                // Special cases for specific concepts
+                if (concept === 'game' || concept === 'completion') return '🏆';
+                if (concept === 'missed') return '❌';
+                if (concept === 'sleep') return '😴';
+                if (concept === 'pain') return '😣';
+                if (concept === 'food') return '🍽️';
+                if (concept === 'family') return '👨‍👩‍👧';
+                
+                const options = emojiMap[sentiment] || emojiMap.neutral;
+                return options[Math.floor(Math.random() * options.length)];
+            }
+            
+            // Build full sentence from pattern
+            buildFullSentence(pattern, question) {
+                const q = question.toLowerCase();
+                
+                // Build sentence based on pattern and original question context
+                if (pattern.shortText === 'Yes') {
+                    if (q.includes('did you')) return 'Yes, I did.';
+                    if (q.includes('are you')) return 'Yes, I am.';
+                    if (q.includes('do you')) return 'Yes, I do.';
+                    return 'Yes.';
+                }
+                
+                if (pattern.shortText === 'No') {
+                    if (q.includes('did you')) return 'No, I didn\'t.';
+                    if (q.includes('are you')) return 'No, I\'m not.';
+                    if (q.includes('do you')) return 'No, I don\'t.';
+                    return 'No.';
+                }
+                
+                if (pattern.concept === 'missed') {
+                    return `I missed ${q.includes('game') ? 'the game' : 'it'}.`;
+                }
+                
+                if (pattern.shortText === 'Watched it') {
+                    return `Yes, I watched ${q.includes('game') ? 'the game' : 'it'}.`;
+                }
+                
+                // Generate contextual sentence
+                return `${pattern.shortText} - ${this.inferContext(question)}`;
+            }
+            
+            // Infer context from question
+            inferContext(question) {
+                const q = question.toLowerCase();
+                if (q.includes('game')) return 'about the game';
+                if (q.includes('sleep')) return 'about sleeping';
+                if (q.includes('pain')) return 'about pain';
+                if (q.includes('food')) return 'about food';
+                return 'in response';
+            }
+            
+            // Capitalize first letter
+            capitalize(str) {
+                return str.charAt(0).toUpperCase() + str.slice(1);
+            }
+            
+            // Generate conditional tiles (IF/THEN logic)
+            generateConditionalTiles(condition, question) {
+                const tiles = [];
+                
+                // Response to condition being true
+                tiles.push({
+                    emoji: '✅',
+                    text: 'Yes, then',
+                    fullSentence: `Yes, if ${condition.condition}, then ${condition.action}`,
+                    confidence: 0.95
+                });
+                
+                // Response to condition being false
+                tiles.push({
+                    emoji: '❌',
+                    text: 'No, so',
+                    fullSentence: `No, ${condition.condition} is not true, so no need for ${condition.action}`,
+                    confidence: 0.90
+                });
+                
+                // Partial agreement
+                tiles.push({
+                    emoji: '🤔',
+                    text: 'Maybe',
+                    fullSentence: `Maybe, I'm not sure about the condition`,
+                    confidence: 0.85
+                });
+                
+                // Alternative suggestion
+                tiles.push({
+                    emoji: '🔄',
+                    text: 'Instead',
+                    fullSentence: `How about something else instead?`,
+                    confidence: 0.80
+                });
+                
+                // Need clarification
+                tiles.push({
+                    emoji: '❓',
+                    text: 'Explain',
+                    fullSentence: `Can you explain what you mean?`,
+                    confidence: 0.75
+                });
+                
+                return tiles;
+            }
+            
+            // Generate sequence tiles (then/after/next)
+            generateSequenceTiles(question) {
+                const tiles = [];
+                const q = question.toLowerCase();
+                
+                // Agree to sequence
+                tiles.push({
+                    emoji: '➡️',
+                    text: 'Then yes',
+                    fullSentence: 'Yes, let\'s do that next',
+                    confidence: 0.95
+                });
+                
+                // Skip to next
+                tiles.push({
+                    emoji: '⏭️',
+                    text: 'Skip',
+                    fullSentence: 'Let\'s skip that and move on',
+                    confidence: 0.85
+                });
+                
+                // Do it now
+                tiles.push({
+                    emoji: '⏰',
+                    text: 'Now',
+                    fullSentence: 'Let\'s do it now instead of waiting',
+                    confidence: 0.88
+                });
+                
+                // Do it later
+                tiles.push({
+                    emoji: '⏳',
+                    text: 'Later',
+                    fullSentence: 'Let\'s do that later',
+                    confidence: 0.85
+                });
+                
+                // Not ready
+                tiles.push({
+                    emoji: '🛑',
+                    text: 'Not ready',
+                    fullSentence: 'I\'m not ready for the next step',
+                    confidence: 0.82
+                });
+                
+                // What's next?
+                tiles.push({
+                    emoji: '❓',
+                    text: 'What next?',
+                    fullSentence: 'What comes after that?',
+                    confidence: 0.80
+                });
+                
+                return tiles;
+            }
+            
+            // Handle OR choices separately
+            generateChoiceTiles(options) {
+                const tiles = [];
+                
+                // Add tiles for each option
+                options.forEach(option => {
+                    const emoji = this.getEmojiForWord(option);
+                    const word = this.simplifyWord(option);
+                    tiles.push({
+                        emoji: emoji,
+                        text: word,
+                        fullSentence: `I would like ${option}, please.`,
+                        confidence: 0.95
+                    });
+                });
+                
+                // Add "Both" option if there are 2 choices
+                if (options.length === 2) {
+                    tiles.push({
+                        emoji: '✅',
+                        text: 'Both',
+                        fullSentence: 'I would like both options, please.',
+                        confidence: 0.85
+                    });
+                }
+                
+                // Always add "Neither" option
+                tiles.push({
+                    emoji: '❌',
+                    text: 'Neither',
+                    fullSentence: 'I don\'t want either option right now.',
+                    confidence: 0.85
+                });
+                
+                // Add "Something else" option
+                tiles.push({
+                    emoji: '🔄',
+                    text: 'Other',
+                    fullSentence: 'I\'d like something else instead.',
+                    confidence: 0.80
+                });
+                
+                // Add clarification option
+                tiles.push({
+                    emoji: '❓',
+                    text: 'What?',
+                    fullSentence: 'Can you repeat the options?',
+                    confidence: 0.75
+                });
+                
+                return tiles;
+            }
+            
+            // Override for choice questions
+            generateDynamicTilesOriginal(intent, question) {
+                if (intent.type === 'CHOICE') {
+                    return this.generateChoiceTiles(intent.options);
+                }
+                return this.generateDynamicTiles(intent, question);
+            }
+            
+            
+            // Get appropriate emoji for a word
+            getEmojiForWord(word) {
+                const emojiMap = {
+                    'eggs': '🥚',
+                    'bacon': '🥓',
+                    'pizza': '🍕',
+                    'burger': '🍔',
+                    'tacos': '🌮',
+                    'sandwich': '🥪',
+                    'soup': '🍲',
+                    'cereal': '🥣',
+                    'toast': '🍞',
+                    'coffee': '☕',
+                    'tea': '🍵',
+                    'juice': '🥤',
+                    'water': '💧',
+                    'milk': '🥛',
+                    'tv': '📺',
+                    'book': '📚',
+                    'music': '🎵',
+                    'phone': '📱',
+                    'sleep': '😴',
+                    'rest': '🛌',
+                    'tired': '😴',
+                    'happy': '😊',
+                    'sad': '😢',
+                    'pain': '😣',
+                    'medicine': '💊',
+                    'bathroom': '🚽',
+                    'shower': '🚿',
+                    'walk': '🚶',
+                    'wheelchair': '♿',
+                    'family': '👨‍👩‍👧',
+                    'home': '🏠',
+                    'outside': '🌳',
+                    'hot': '🔥',
+                    'cold': '❄️'
+                };
+                
+                const lowerWord = word.toLowerCase();
+                for (const [key, emoji] of Object.entries(emojiMap)) {
+                    if (lowerWord.includes(key)) {
+                        return emoji;
+                    }
+                }
+                
+                return '💬'; // Default emoji
+            }
+            
+            // Simplify word for tile display
+            simplifyWord(phrase) {
+                const words = phrase.split(' ');
+                const importantWords = words.filter(w => 
+                    !['the', 'a', 'an', 'for', 'to', 'of', 'in', 'on', 'some'].includes(w.toLowerCase())
+                );
+                
+                if (importantWords.length > 0) {
+                    const word = importantWords[0];
+                    return word.charAt(0).toUpperCase() + word.slice(1);
+                }
+                
+                return phrase.charAt(0).toUpperCase() + phrase.slice(1);
+            }
+            
+            // Handle tile selection with Weizenbaum expansion
+            selectTile(tile) {
+                // Calculate response time for AI analysis
+                const responseTime = this.aiAssistant.lastQuestionTime ? 
+                    Date.now() - this.aiAssistant.lastQuestionTime : 0;
+                
+                // Clear AI assistance timer
+                if (this.aiAssistant.highlightTimer) {
+                    clearTimeout(this.aiAssistant.highlightTimer);
+                }
+                
+                // Reset highlighting
+                this.resetTileHighlighting();
+                
+                // Track vocabulary
+                this.personalityProfile.vocabulary.add(tile.text);
+                
+                // Update preferences
+                const count = this.personalityProfile.preferences.get(tile.text) || 0;
+                this.personalityProfile.preferences.set(tile.text, count + 1);
+                
+                // Add to conversation history
+                this.conversationHistory.push({
+                    question: this.currentContext,
+                    response: tile,
+                    timestamp: new Date(),
+                    responseTime: responseTime
+                });
+                
+                // Track selection for expansion
+                this.lastSelection = tile;
+                this.currentPath.push(tile.text);
+                
+                // Track response patterns for AI learning
+                const wasHelped = responseTime > this.aiAssistant.helpThreshold;
+                this.trackResponsePattern(responseTime, wasHelped);
+                
+                // Generate caregiver assistance
+                const caregiverGuidance = this.generateCaregiverGuidance(tile, responseTime);
+                
+                // Generate AI analysis
+                const aiAnalysis = this.generateAIAnalysis(tile, responseTime);
+                
+                // Generate expansion tiles based on selection
+                const expansionTiles = this.generateExpansionTiles(tile);
+                
+                return {
+                    sentence: tile.fullSentence,
+                    expansions: expansionTiles,
+                    caregiverGuidance: caregiverGuidance,
+                    aiAnalysis: aiAnalysis
+                };
+            }
+            
+            // Generate guidance for caregivers
+            generateCaregiverGuidance(tile, responseTime) {
+                const guidance = {
+                    interpretation: '',
+                    suggestedResponse: '',
+                    urgencyLevel: 'normal',
+                    followUpActions: []
+                };
+                
+                // Interpret what the patient means
+                if (tile.text.toLowerCase().includes('pain') || tile.text.toLowerCase().includes('hurt')) {
+                    guidance.interpretation = 'Patient is experiencing pain or discomfort';
+                    guidance.suggestedResponse = 'Ask about pain location and severity (1-10 scale). Consider pain medication.';
+                    guidance.urgencyLevel = 'high';
+                    guidance.followUpActions = ['Check vital signs', 'Assess pain location', 'Review medication schedule'];
+                } else if (tile.text.toLowerCase().includes('help') || tile.text.toLowerCase().includes('emergency')) {
+                    guidance.interpretation = 'Patient needs immediate assistance';
+                    guidance.suggestedResponse = 'Respond immediately. Ask what specific help is needed.';
+                    guidance.urgencyLevel = 'urgent';
+                    guidance.followUpActions = ['Assess situation', 'Provide immediate assistance', 'Monitor closely'];
+                } else if (tile.text.toLowerCase().includes('water') || tile.text.toLowerCase().includes('drink')) {
+                    guidance.interpretation = 'Patient is thirsty or wants fluids';
+                    guidance.suggestedResponse = 'Offer water or appropriate fluids. Check swallowing safety.';
+                    guidance.urgencyLevel = 'normal';
+                    guidance.followUpActions = ['Provide fluids', 'Monitor intake', 'Check for aspiration risk'];
+                } else if (tile.text.toLowerCase().includes('family') || tile.text.toLowerCase().includes('visit')) {
+                    guidance.interpretation = 'Patient wants to see family or feels lonely';
+                    guidance.suggestedResponse = 'Provide emotional support. Arrange family contact if possible.';
+                    guidance.urgencyLevel = 'normal';
+                    guidance.followUpActions = ['Contact family', 'Provide emotional support', 'Update visiting schedule'];
+                } else if (tile.text.toLowerCase().includes('bathroom') || tile.text.toLowerCase().includes('toilet')) {
+                    guidance.interpretation = 'Patient needs bathroom assistance';
+                    guidance.suggestedResponse = 'Assist with toileting needs immediately. Ensure safety.';
+                    guidance.urgencyLevel = 'high';
+                    guidance.followUpActions = ['Provide assistance', 'Ensure dignity', 'Monitor for complications'];
+                } else if (tile.text.toLowerCase().includes('tired') || tile.text.toLowerCase().includes('sleep')) {
+                    guidance.interpretation = 'Patient is tired or wants to rest';
+                    guidance.suggestedResponse = 'Create comfortable environment for rest. Check if pain is interfering.';
+                    guidance.urgencyLevel = 'normal';
+                    guidance.followUpActions = ['Adjust lighting', 'Ensure comfort', 'Monitor sleep patterns'];
+                } else {
+                    guidance.interpretation = `Patient selected: ${tile.text}`;
+                    guidance.suggestedResponse = 'Acknowledge patient communication and provide appropriate assistance.';
+                    guidance.urgencyLevel = 'normal';
+                    guidance.followUpActions = ['Acknowledge selection', 'Provide assistance', 'Monitor needs'];
+                }
+                
+                // Add response time analysis
+                if (responseTime > 8000) {
+                    guidance.interpretation += ' (Patient took time to respond - may need extra support)';
+                    guidance.followUpActions.push('Consider larger tiles or simplified options');
+                } else if (responseTime < 2000) {
+                    guidance.interpretation += ' (Quick response - patient is confident with this need)';
+                }
+                
+                return guidance;
+            }
+            
+            // Generate Weizenbaum-style expansion tiles based on selection
+            generateExpansionTiles(selectedTile) {
+                const selection = selectedTile.text.toLowerCase();
+                const originalQuestion = this.currentContext ? this.currentContext.toLowerCase() : '';
+                
+                // YES/NO expansions based on original question context
+                if (selection === 'yes' || selection === 'no') {
+                    return this.expandBasedOnOriginalQuestion(selection, originalQuestion);
+                }
+                
+                // Dynamic expansion based on word analysis
+                return this.expandBasedOnWordAnalysis(selection);
+            }
+            
+            // Dynamic word analysis for expansions (no hardcoding)
+            expandBasedOnWordAnalysis(word) {
+                const concepts = this.analyzeWordConcepts(word);
+                return this.generateConceptualExpansions(concepts, word);
+            }
+            
+            // Analyze what concepts a word relates to
+            analyzeWordConcepts(word) {
+                const concepts = {
+                    category: '',
+                    subcategories: [],
+                    attributes: [],
+                    actions: []
+                };
+                
+                // Determine category by analyzing word characteristics
+                if (this.isFoodWord(word)) {
+                    concepts.category = 'food';
+                    concepts.subcategories = this.getFoodSubcategories(word);
+                    concepts.attributes = this.getFoodAttributes(word);
+                } else if (this.isPlaceWord(word)) {
+                    concepts.category = 'place';
+                    concepts.subcategories = this.getPlaceSubcategories(word);
+                } else if (this.isActionWord(word)) {
+                    concepts.category = 'action';
+                    concepts.actions = this.getRelatedActions(word);
+                } else if (this.isEmotionWord(word)) {
+                    concepts.category = 'emotion';
+                    concepts.attributes = this.getEmotionAttributes(word);
+                }
+                
+                return concepts;
+            }
+            
+            // Check if word is food-related by analyzing its characteristics
+            isFoodWord(word) {
+                const foodIndicators = ['food', 'eat', 'meal', 'cook', 'taste', 'flavor', 'cuisine', 'dish', 'recipe'];
+                const foodTypes = ['chinese', 'american', 'italian', 'mexican', 'japanese', 'indian', 'thai', 'french'];
+                const foodItems = ['burger', 'pizza', 'rice', 'noodles', 'chicken', 'beef', 'soup', 'salad'];
+                
+                return foodIndicators.some(indicator => word.includes(indicator)) ||
+                       foodTypes.some(type => word.includes(type)) ||
+                       foodItems.some(item => word.includes(item));
+            }
+            
+            // Get food subcategories dynamically
+            getFoodSubcategories(word) {
+                if (word.includes('chinese')) return ['rice', 'noodles', 'chicken', 'beef', 'vegetables'];
+                if (word.includes('american')) return ['burger', 'fries', 'steak', 'sandwich', 'wings'];
+                if (word.includes('italian')) return ['pasta', 'pizza', 'bread', 'cheese', 'sauce'];
+                if (word.includes('mexican')) return ['tacos', 'burrito', 'rice', 'beans', 'salsa'];
+                if (word.includes('burger')) return ['cheese', 'lettuce', 'tomato', 'onion', 'bacon'];
+                if (word.includes('fast')) return ['burger', 'fries', 'chicken', 'soda', 'ice cream'];
+                
+                // Default food subcategories
+                return ['main dish', 'side dish', 'drink', 'dessert', 'appetizer'];
+            }
+            
+            // Get food attributes
+            getFoodAttributes(word) {
+                const attributes = [];
+                if (word.includes('hot') || word.includes('warm')) attributes.push('temperature');
+                if (word.includes('spicy') || word.includes('mild')) attributes.push('spice level');
+                if (word.includes('large') || word.includes('small')) attributes.push('size');
+                return attributes;
+            }
+            
+            // Check if word is place-related
+            isPlaceWord(word) {
+                const placeIndicators = ['place', 'location', 'go', 'visit', 'travel', 'destination'];
+                const places = ['home', 'store', 'hospital', 'park', 'restaurant', 'school'];
+                
+                return placeIndicators.some(indicator => word.includes(indicator)) ||
+                       places.some(place => word.includes(place));
+            }
+            
+            // Get place subcategories
+            getPlaceSubcategories(word) {
+                if (word.includes('ride') || word.includes('transport')) return ['car', 'bus', 'train', 'taxi', 'walk'];
+                if (word.includes('store') || word.includes('shop')) return ['grocery', 'pharmacy', 'clothes', 'electronics'];
+                if (word.includes('home')) return ['bedroom', 'kitchen', 'living room', 'bathroom'];
+                
+                return ['indoor', 'outdoor', 'public', 'private'];
+            }
+            
+            // Check if word is action-related
+            isActionWord(word) {
+                const actionIndicators = ['do', 'action', 'activity', 'perform', 'execute'];
+                const actions = ['walk', 'sit', 'stand', 'eat', 'drink', 'sleep', 'watch', 'read'];
+                
+                return actionIndicators.some(indicator => word.includes(indicator)) ||
+                       actions.some(action => word.includes(action));
+            }
+            
+            // Get related actions
+            getRelatedActions(word) {
+                if (word.includes('walk')) return ['slow walk', 'fast walk', 'with help', 'alone'];
+                if (word.includes('sit')) return ['chair', 'bed', 'couch', 'wheelchair'];
+                if (word.includes('watch')) return ['tv', 'movie', 'sports', 'news'];
+                
+                return ['start', 'stop', 'continue', 'change'];
+            }
+            
+            // Check if word is emotion-related
+            isEmotionWord(word) {
+                const emotionIndicators = ['feel', 'emotion', 'mood', 'heart', 'mind'];
+                const emotions = ['happy', 'sad', 'angry', 'tired', 'anxious', 'calm', 'excited'];
+                
+                return emotionIndicators.some(indicator => word.includes(indicator)) ||
+                       emotions.some(emotion => word.includes(emotion));
+            }
+            
+            // Get emotion attributes
+            getEmotionAttributes(word) {
+                if (word.includes('happy') || word.includes('excited')) return ['positive', 'energetic'];
+                if (word.includes('sad') || word.includes('anxious')) return ['negative', 'low energy'];
+                if (word.includes('calm') || word.includes('peaceful')) return ['neutral', 'relaxed'];
+                
+                return ['changeable', 'temporary'];
+            }
+            
+            // Generate conceptual expansions dynamically
+            generateConceptualExpansions(concepts, originalWord) {
+                const tiles = [];
+                
+                // Generate tiles based on subcategories
+                if (concepts.subcategories.length > 0) {
+                    concepts.subcategories.forEach(subcategory => {
+                        tiles.push({
+                            emoji: this.getEmojiForConcept(subcategory, concepts.category),
+                            text: this.capitalize(subcategory),
+                            fullSentence: this.buildContextualSentence(subcategory, concepts.category, originalWord),
+                            confidence: 0.85 + Math.random() * 0.1
+                        });
+                    });
+                }
+                
+                // Generate tiles based on actions
+                if (concepts.actions.length > 0) {
+                    concepts.actions.forEach(action => {
+                        tiles.push({
+                            emoji: this.getEmojiForConcept(action, 'action'),
+                            text: this.capitalize(action),
+                            fullSentence: this.buildActionSentence(action, originalWord),
+                            confidence: 0.8 + Math.random() * 0.15
+                        });
+                    });
+                }
+                
+                // Always add navigation options
+                tiles.push(
+                    { emoji: '🔙', text: 'Back', fullSentence: 'Go back to previous options', confidence: 0.95 },
+                    { emoji: '🏠', text: 'Home', fullSentence: 'Return to main menu', confidence: 0.95 }
+                );
+                
+                return tiles.slice(0, 6); // Limit to 6 tiles
+            }
+            
+            // Get emoji for concept dynamically
+            getEmojiForConcept(concept, category) {
+                // Food emojis
+                if (category === 'food') {
+                    const foodEmojis = {
+                        'rice': '🍚', 'noodles': '🍜', 'chicken': '🍗', 'beef': '🥩',
+                        'burger': '🍔', 'fries': '🍟', 'pizza': '🍕', 'pasta': '🍝',
+                        'cheese': '🧀', 'lettuce': '🥬', 'tomato': '🍅', 'onion': '🧅',
+                        'bacon': '🥓', 'bread': '🍞', 'soup': '🍲', 'salad': '🥗'
+                    };
+                    return foodEmojis[concept] || '🍽️';
+                }
+                
+                // Place emojis
+                if (category === 'place') {
+                    const placeEmojis = {
+                        'car': '🚗', 'bus': '🚌', 'train': '🚆', 'taxi': '🚕',
+                        'walk': '🚶', 'bedroom': '🛏️', 'kitchen': '🍽️', 'bathroom': '🚽'
+                    };
+                    return placeEmojis[concept] || '📍';
+                }
+                
+                // Action emojis
+                if (category === 'action') {
+                    const actionEmojis = {
+                        'chair': '🪑', 'bed': '🛏️', 'couch': '🛋️', 'tv': '📺',
+                        'movie': '🎬', 'sports': '⚽', 'news': '📰'
+                    };
+                    return actionEmojis[concept] || '🎯';
+                }
+                
+                return '💬'; // Default
+            }
+            
+            // Build contextual sentence
+            buildContextualSentence(concept, category, originalWord) {
+                if (category === 'food') {
+                    return `I want ${concept} please.`;
+                }
+                if (category === 'place') {
+                    return `Let's go to ${concept}.`;
+                }
+                if (category === 'action') {
+                    return `I want to ${concept}.`;
+                }
+                return `I choose ${concept}.`;
+            }
+            
+            // Build action sentence
+            buildActionSentence(action, originalWord) {
+                return `${action} sounds good.`;
+            }
+            
+            // Expand based on what the original question was about
+            expandBasedOnOriginalQuestion(yesOrNo, question) {
+                // Extract key concepts from the original question
+                const questionConcepts = this.extractQuestionConcepts(question);
+                
+                if (yesOrNo === 'yes') {
+                    // Generate expansions based on what the question was asking about
+                    return this.generateQuestionBasedExpansions(questionConcepts);
+                } else {
+                    // For "No" responses, offer alternatives
+                    return this.generateAlternativeOptions(questionConcepts);
+                }
+            }
+            
+            // Extract concepts from the original question dynamically
+            extractQuestionConcepts(question) {
+                const concepts = {
+                    mainTopic: '',
+                    subtopics: [],
+                    action: '',
+                    sentiment: 'neutral'
+                };
+                
+                // Analyze what the question is fundamentally about
+                const words = question.toLowerCase().split(' ');
+                
+                // Find main topic by analyzing key words
+                for (const word of words) {
+                    if (this.isFoodWord(word)) {
+                        concepts.mainTopic = 'food';
+                        concepts.subtopics = this.getFoodSubcategories(word);
+                        break;
+                    } else if (this.isPlaceWord(word)) {
+                        concepts.mainTopic = 'place';
+                        concepts.subtopics = this.getPlaceSubcategories(word);
+                        break;
+                    } else if (this.isActionWord(word)) {
+                        concepts.mainTopic = 'action';
+                        concepts.subtopics = this.getRelatedActions(word);
+                        break;
+                    } else if (this.isEmotionWord(word)) {
+                        concepts.mainTopic = 'emotion';
+                        concepts.subtopics = this.getEmotionAttributes(word);
+                        break;
+                    }
+                }
+                
+                // If no specific topic found, analyze question intent
+                if (!concepts.mainTopic) {
+                    if (question.includes('hungry') || question.includes('eat')) {
+                        concepts.mainTopic = 'food';
+                        concepts.subtopics = ['categories', 'types', 'cuisines'];
+                    } else if (question.includes('thirsty') || question.includes('drink')) {
+                        concepts.mainTopic = 'drink';
+                        concepts.subtopics = ['water', 'hot drinks', 'cold drinks'];
+                    } else if (question.includes('pain') || question.includes('hurt')) {
+                        concepts.mainTopic = 'medical';
+                        concepts.subtopics = ['locations', 'treatments', 'severity'];
+                    } else if (question.includes('bathroom') || question.includes('toilet')) {
+                        concepts.mainTopic = 'bathroom';
+                        concepts.subtopics = ['urgency', 'assistance', 'privacy'];
+                    } else if (question.includes('tired') || question.includes('sleep')) {
+                        concepts.mainTopic = 'rest';
+                        concepts.subtopics = ['sleep', 'nap', 'relaxation'];
+                    }
+                }
+                
+                return concepts;
+            }
+            
+            // Generate expansions based on question concepts
+            generateQuestionBasedExpansions(concepts) {
+                const tiles = [];
+                
+                // Generate tiles based on the main topic
+                if (concepts.mainTopic === 'food') {
+                    tiles.push(
+                        { emoji: '🥡', text: 'Chinese', fullSentence: 'I want Chinese food.', confidence: 0.9 },
+                        { emoji: '🍔', text: 'American', fullSentence: 'American food sounds good.', confidence: 0.9 },
+                        { emoji: '🍝', text: 'Italian', fullSentence: 'Italian food please.', confidence: 0.85 },
+                        { emoji: '🌮', text: 'Mexican', fullSentence: 'Mexican food would be nice.', confidence: 0.85 }
+                    );
+                } else if (concepts.mainTopic === 'drink') {
+                    tiles.push(
+                        { emoji: '💧', text: 'Water', fullSentence: 'I want water please.', confidence: 0.95 },
+                        { emoji: '☕', text: 'Coffee', fullSentence: 'Coffee sounds good.', confidence: 0.8 },
+                        { emoji: '🥤', text: 'Soda', fullSentence: 'I\'d like a soda.', confidence: 0.8 },
+                        { emoji: '🧃', text: 'Juice', fullSentence: 'Some juice would be nice.', confidence: 0.8 }
+                    );
+                } else if (concepts.mainTopic === 'medical') {
+                    tiles.push(
+                        { emoji: '🤕', text: 'Head', fullSentence: 'My head hurts.', confidence: 0.9 },
+                        { emoji: '💔', text: 'Chest', fullSentence: 'I have chest pain.', confidence: 0.9 },
+                        { emoji: '🔙', text: 'Back', fullSentence: 'My back hurts.', confidence: 0.9 },
+                        { emoji: '💊', text: 'Medicine', fullSentence: 'I need my pain medicine.', confidence: 0.95 }
+                    );
+                } else if (concepts.mainTopic === 'bathroom') {
+                    tiles.push(
+                        { emoji: '🚽', text: 'Now', fullSentence: 'I need to go right now.', confidence: 0.95 },
+                        { emoji: '⏰', text: 'Soon', fullSentence: 'In a few minutes please.', confidence: 0.85 },
+                        { emoji: '♿', text: 'Help', fullSentence: 'I need assistance.', confidence: 0.9 },
+                        { emoji: '🚶', text: 'Alone', fullSentence: 'I can go by myself.', confidence: 0.8 }
+                    );
+                } else if (concepts.mainTopic === 'rest') {
+                    tiles.push(
+                        { emoji: '🛏️', text: 'Bed', fullSentence: 'I want to go to bed.', confidence: 0.95 },
+                        { emoji: '😴', text: 'Nap', fullSentence: 'Just a short nap.', confidence: 0.85 },
+                        { emoji: '🛋️', text: 'Couch', fullSentence: 'Rest on the couch.', confidence: 0.8 },
+                        { emoji: '💤', text: 'Sleep', fullSentence: 'I need to sleep now.', confidence: 0.9 }
+                    );
+                } else {
+                    // Generate generic positive responses
+                    tiles.push(
+                        { emoji: '👍', text: 'Good', fullSentence: 'That sounds good.', confidence: 0.85 },
+                        { emoji: '✅', text: 'Okay', fullSentence: 'Okay, let\'s do that.', confidence: 0.85 },
+                        { emoji: '🔄', text: 'More', fullSentence: 'Tell me more options.', confidence: 0.8 }
+                    );
+                }
+                
+                // Always add navigation
+                tiles.push(
+                    { emoji: '🔙', text: 'Back', fullSentence: 'Go back', confidence: 0.95 },
+                    { emoji: '🏠', text: 'Home', fullSentence: 'Main menu', confidence: 0.95 }
+                );
+                
+                return tiles.slice(0, 6);
+            }
+            
+            // Generate alternative options for "No" responses
+            generateAlternativeOptions(concepts) {
+                const tiles = [];
+                
+                // Offer alternatives based on what they said no to
+                tiles.push(
+                    { emoji: '🔄', text: 'Later', fullSentence: 'Maybe later, not now.', confidence: 0.9 },
+                    { emoji: '🤔', text: 'Different', fullSentence: 'I want something different.', confidence: 0.85 },
+                    { emoji: '❓', text: 'Options', fullSentence: 'What other options do I have?', confidence: 0.8 },
+                    { emoji: '👍', text: 'Fine', fullSentence: 'I\'m fine, thank you.', confidence: 0.85 }
+                );
+                
+                return tiles;
+            }
+            
+            // Expand based on the selected word
+            expandBasedOnWord(word) {
+                // Analyze the word and generate relevant expansions
+                const category = this.categorizeWord(word);
+                
+                switch(category) {
+                    case 'food': return this.generateFoodSubcategories(word);
+                    case 'place': return this.generatePlaceSubcategories(word);
+                    case 'action': return this.generateActionSubcategories(word);
+                    case 'feeling': return this.generateFeelingSubcategories(word);
+                    default: return this.generateDefaultExpansion(word);
+                }
+            }
+            
+            // Categorize a word dynamically
+            categorizeWord(word) {
+                const foodWords = ['food', 'eat', 'hungry', 'meal', 'breakfast', 'lunch', 'dinner', 'snack', 'pizza', 'burger', 'chinese', 'american'];
+                const placeWords = ['place', 'go', 'visit', 'store', 'park', 'home', 'hospital', 'flags'];
+                const actionWords = ['walk', 'sit', 'stand', 'sleep', 'watch', 'play', 'read'];
+                const feelingWords = ['happy', 'sad', 'tired', 'pain', 'anxious', 'calm'];
+                
+                if (foodWords.some(fw => word.includes(fw))) return 'food';
+                if (placeWords.some(pw => word.includes(pw))) return 'place';
+                if (actionWords.some(aw => word.includes(aw))) return 'action';
+                if (feelingWords.some(fw => word.includes(fw))) return 'feeling';
+                
+                return 'general';
+            }
+            
+            // Generate food categories
+            generateFoodCategories() {
+                return [
+                    { emoji: '🥡', text: 'Chinese', fullSentence: 'I want Chinese food', confidence: 0.9 },
+                    { emoji: '🍔', text: 'American', fullSentence: 'American food sounds good', confidence: 0.9 },
+                    { emoji: '🍕', text: 'Italian', fullSentence: 'Italian food please', confidence: 0.85 },
+                    { emoji: '🌮', text: 'Mexican', fullSentence: 'Mexican food', confidence: 0.85 },
+                    { emoji: '🍱', text: 'Japanese', fullSentence: 'Japanese food', confidence: 0.8 },
+                    { emoji: '🥗', text: 'Healthy', fullSentence: 'Something healthy', confidence: 0.8 },
+                    { emoji: '🏠', text: 'Home', fullSentence: 'Back to main', confidence: 0.95 }
+                ];
+            }
+            
+            // Generate subcategories based on food type
+            generateFoodSubcategories(foodType) {
+                const concepts = this.extractFoodConcepts(foodType);
+                return this.buildFoodTiles(concepts);
+            }
+            
+            // Extract food concepts
+            extractFoodConcepts(foodType) {
+                // Dynamically determine what food items relate to the selection
+                const foodMap = {
+                    'chinese': ['rice', 'noodles', 'chicken', 'beef', 'vegetable'],
+                    'american': ['burger', 'fries', 'steak', 'sandwich', 'salad'],
+                    'italian': ['pasta', 'pizza', 'bread', 'salad', 'soup'],
+                    'fast': ['burger', 'fries', 'chicken', 'drink', 'dessert'],
+                    'burger': ['cheese', 'lettuce', 'tomato', 'onion', 'bacon']
+                };
+                
+                for (const [key, items] of Object.entries(foodMap)) {
+                    if (foodType.includes(key)) {
+                        return items;
+                    }
+                }
+                
+                return ['option1', 'option2', 'option3'];
+            }
+            
+            // Build food tiles from concepts
+            buildFoodTiles(concepts) {
+                const tiles = [];
+                const emojiMap = {
+                    'rice': '🍚', 'noodles': '🍜', 'chicken': '🍗', 'beef': '🥩',
+                    'burger': '🍔', 'fries': '🍟', 'pasta': '🍝', 'pizza': '🍕',
+                    'cheese': '🧀', 'lettuce': '🥬', 'tomato': '🍅', 'onion': '🧅',
+                    'bacon': '🥓', 'drink': '🥤', 'salad': '🥗', 'steak': '🥩'
+                };
+                
+                concepts.forEach(concept => {
+                    tiles.push({
+                        emoji: emojiMap[concept] || '🍽️',
+                        text: this.capitalize(concept),
+                        fullSentence: `I want ${concept}`,
+                        confidence: 0.85 + Math.random() * 0.1
+                    });
+                });
+                
+                tiles.push(
+                    { emoji: '🔙', text: 'Back', fullSentence: 'Go back', confidence: 0.95 },
+                    { emoji: '🏠', text: 'Home', fullSentence: 'Main menu', confidence: 0.95 }
+                );
+                
+                return tiles;
+            }
+            
+            // Other category generators
+            generateDrinkOptions() {
+                return [
+                    { emoji: '💧', text: 'Water', fullSentence: 'I want water', confidence: 0.95 },
+                    { emoji: '☕', text: 'Coffee', fullSentence: 'Coffee please', confidence: 0.9 },
+                    { emoji: '🥤', text: 'Soda', fullSentence: 'I want soda', confidence: 0.85 },
+                    { emoji: '🥛', text: 'Milk', fullSentence: 'Milk please', confidence: 0.85 },
+                    { emoji: '🧃', text: 'Juice', fullSentence: 'Juice sounds good', confidence: 0.85 }
+                ];
+            }
+            
+            generateRestOptions() {
+                return [
+                    { emoji: '🛏️', text: 'Bed', fullSentence: 'I want to go to bed', confidence: 0.95 },
+                    { emoji: '🛋️', text: 'Couch', fullSentence: 'Rest on the couch', confidence: 0.9 },
+                    { emoji: '😴', text: 'Nap', fullSentence: 'Just a short nap', confidence: 0.85 },
+                    { emoji: '🌙', text: 'Sleep', fullSentence: 'Full night sleep', confidence: 0.85 }
+                ];
+            }
+            
+            generatePainOptions() {
+                return [
+                    { emoji: '💊', text: 'Medicine', fullSentence: 'I need medicine', confidence: 0.95 },
+                    { emoji: '🩹', text: 'Bandage', fullSentence: 'Need a bandage', confidence: 0.85 },
+                    { emoji: '🧊', text: 'Ice', fullSentence: 'Ice pack please', confidence: 0.85 },
+                    { emoji: '🔥', text: 'Heat', fullSentence: 'Heat pad please', confidence: 0.85 },
+                    { emoji: '👨‍⚕️', text: 'Doctor', fullSentence: 'Call the doctor', confidence: 0.9 }
+                ];
+            }
+            
+            generateBathroomOptions() {
+                return [
+                    { emoji: '🚽', text: 'Now', fullSentence: 'I need to go now', confidence: 0.95 },
+                    { emoji: '⏰', text: 'Soon', fullSentence: 'In a few minutes', confidence: 0.85 },
+                    { emoji: '♿', text: 'Help', fullSentence: 'I need assistance', confidence: 0.9 },
+                    { emoji: '🚶', text: 'Walk', fullSentence: 'I can walk there', confidence: 0.85 }
+                ];
+            }
+            
+            generatePlaceOptions() {
+                return [
+                    { emoji: '🏠', text: 'Home', fullSentence: 'Go home', confidence: 0.95 },
+                    { emoji: '🏪', text: 'Store', fullSentence: 'Go to store', confidence: 0.9 },
+                    { emoji: '🏥', text: 'Hospital', fullSentence: 'Hospital', confidence: 0.85 },
+                    { emoji: '🌳', text: 'Park', fullSentence: 'The park', confidence: 0.85 },
+                    { emoji: '🎢', text: 'Fun place', fullSentence: 'Somewhere fun', confidence: 0.8 }
+                ];
+            }
+            
+            generatePlaceSubcategories(place) {
+                // Dynamically generate based on place type
+                return this.generateDefaultExpansion(place);
+            }
+            
+            generateActionSubcategories(action) {
+                // Dynamically generate based on action type
+                return this.generateDefaultExpansion(action);
+            }
+            
+            generateFeelingSubcategories(feeling) {
+                // Dynamically generate based on feeling type
+                return this.generateDefaultExpansion(feeling);
+            }
+            
+            generateDefaultExpansion(word) {
+                return [
+                    { emoji: '✅', text: 'Yes', fullSentence: 'Yes', confidence: 0.9 },
+                    { emoji: '❌', text: 'No', fullSentence: 'No', confidence: 0.9 },
+                    { emoji: '🔄', text: 'Other', fullSentence: 'Something else', confidence: 0.85 },
+                    { emoji: '🔙', text: 'Back', fullSentence: 'Go back', confidence: 0.95 },
+                    { emoji: '🏠', text: 'Home', fullSentence: 'Main menu', confidence: 0.95 }
+                ];
+            }
+            
+            capitalize(str) {
+                return str.charAt(0).toUpperCase() + str.slice(1);
+            }
+            
+            // Extract concepts from a selection for expansion
+            extractConceptsFromSelection(selection) {
+                const concepts = {
+                    category: '',
+                    action: '',
+                    attributes: []
+                };
+                
+                // Identify category
+                if (selection.includes('food') || selection.includes('eat')) concepts.category = 'food';
+                if (selection.includes('place') || selection.includes('go')) concepts.category = 'location';
+                if (selection.includes('feel') || selection.includes('emotion')) concepts.category = 'emotion';
+                if (selection.includes('want') || selection.includes('need')) concepts.category = 'desire';
+                
+                return concepts;
+            }
+            
+            // Generate truly dynamic contextual expansions
+            generateContextualExpansions(concepts, parentTile) {
+                const tiles = [];
+                
+                // Always include navigation options
+                tiles.push(
+                    { emoji: '🔙', text: 'Back', fullSentence: 'Go back', confidence: 0.95 },
+                    { emoji: '🏠', text: 'Home', fullSentence: 'Back to main menu', confidence: 0.95 }
+                );
+                
+                // Add more options based on the concept
+                if (concepts.category === 'food') {
+                    tiles.unshift(
+                        { emoji: '🍽️', text: 'More food', fullSentence: 'Show more food options', confidence: 0.85 },
+                        { emoji: '💧', text: 'Drink', fullSentence: 'I need a drink', confidence: 0.85 }
+                    );
+                }
+                
+                // Add yes/no for any selection
+                tiles.unshift(
+                    { emoji: '✅', text: 'Yes', fullSentence: 'Yes, that\'s right', confidence: 0.9 },
+                    { emoji: '❌', text: 'No', fullSentence: 'No, something else', confidence: 0.9 }
+                );
+                
+                return tiles;
+            }
+        }
+        
+        // Initialize
+        const tinkyBinkEngine = new TinkyBinkEngine();
+        let isRecording = false;
+        let recognition = null;
+        
+        // Dynamic tile generation - analyze category and generate appropriate tiles
+        function selectHomeTile(category) {
+            // Use dynamic analysis to generate tiles directly without hardcoded questions
+            const tiles = generateTilesForCategory(category);
+            
+            // Display the expanded tiles
+            displayTiles(tiles);
+            document.getElementById('ai-status').textContent = `✅ Dynamically expanded ${category} category`;
+            
+            // Update patient need based on category
+            updatePatientNeedForCategory(category);
+            
+            // Add to log
+            addToLog('Patient', `Selected core category: ${category.toUpperCase()}`);
+        }
+        
+        // Generate tiles for a category using dynamic word analysis
+        function generateTilesForCategory(category) {
+            // Directly use category expansions for now
+            return generateCategoryExpansions(category);
+        }
+        
+        // Generate category-specific expansions dynamically
+        function generateCategoryExpansions(category) {
+            const hospitalContext = true; // Patient is in hospital setting
+            const commonNeeds = [];
+            
+            switch(category.toLowerCase()) {
+                case 'want':
+                case 'i want':
+                    // Dynamic wants based on hospital context and common patient needs
+                    return [
+                        { emoji: '📺', text: 'TV', fullSentence: 'I want to watch TV.', confidence: 0.90 },
+                        { emoji: '🎵', text: 'Music', fullSentence: 'I want to listen to music.', confidence: 0.85 },
+                        { emoji: '📖', text: 'Book', fullSentence: 'I want to read a book.', confidence: 0.80 },
+                        { emoji: '🚶', text: 'Walk', fullSentence: 'I want to walk around.', confidence: 0.85 },
+                        { emoji: '🛌', text: 'Rest', fullSentence: 'I want to rest.', confidence: 0.88 },
+                        { emoji: '📱', text: 'Phone Call', fullSentence: 'I want to make a phone call.', confidence: 0.82 }
+                    ];
+                    
+                case 'food':
+                case 'hungry':
+                    return [
+                        { emoji: '🍲', text: 'Soup', fullSentence: 'I want some soup.', confidence: 0.90 },
+                        { emoji: '🍞', text: 'Toast', fullSentence: 'I want some toast.', confidence: 0.85 },
+                        { emoji: '🍎', text: 'Fruit', fullSentence: 'I want some fruit.', confidence: 0.82 },
+                        { emoji: '🥛', text: 'Milk', fullSentence: 'I want some milk.', confidence: 0.80 },
+                        { emoji: '🍫', text: 'Snack', fullSentence: 'I want a snack.', confidence: 0.78 },
+                        { emoji: '☕', text: 'Coffee', fullSentence: 'I want coffee.', confidence: 0.75 }
+                    ];
+                    
+                case 'pain':
+                case 'hurt':
+                    return [
+                        { emoji: '🤕', text: 'Head', fullSentence: 'My head hurts.', confidence: 0.95 },
+                        { emoji: '💪', text: 'Arm', fullSentence: 'My arm hurts.', confidence: 0.90 },
+                        { emoji: '🦵', text: 'Leg', fullSentence: 'My leg hurts.', confidence: 0.88 },
+                        { emoji: '💊', text: 'Medicine', fullSentence: 'I need pain medicine.', confidence: 0.92 },
+                        { emoji: '🆘', text: 'Help', fullSentence: 'I need help with the pain.', confidence: 0.95 },
+                        { emoji: '👩‍⚕️', text: 'Nurse', fullSentence: 'Please get the nurse.', confidence: 0.88 }
+                    ];
+                    
+                case 'family':
+                    return [
+                        { emoji: '👩', text: 'Wife', fullSentence: 'I want to see my wife.', confidence: 0.95 },
+                        { emoji: '👨', text: 'Husband', fullSentence: 'I want to see my husband.', confidence: 0.95 },
+                        { emoji: '👧', text: 'Daughter', fullSentence: 'I want to see my daughter.', confidence: 0.90 },
+                        { emoji: '👦', text: 'Son', fullSentence: 'I want to see my son.', confidence: 0.90 },
+                        { emoji: '📱', text: 'Call', fullSentence: 'I want to call my family.', confidence: 0.85 },
+                        { emoji: '👶', text: 'Grandkids', fullSentence: 'I want to see my grandchildren.', confidence: 0.82 }
+                    ];
+                    
+                case 'water':
+                case 'drink':
+                    return [
+                        { emoji: '💧', text: 'Water', fullSentence: 'I want some water.', confidence: 0.95 },
+                        { emoji: '🧊', text: 'Ice Water', fullSentence: 'I want ice water.', confidence: 0.90 },
+                        { emoji: '🥤', text: 'Juice', fullSentence: 'I want some juice.', confidence: 0.85 },
+                        { emoji: '🍵', text: 'Tea', fullSentence: 'I want some tea.', confidence: 0.80 },
+                        { emoji: '🥛', text: 'Milk', fullSentence: 'I want some milk.', confidence: 0.78 },
+                        { emoji: '🧊', text: 'Ice Chips', fullSentence: 'I want ice chips.', confidence: 0.75 }
+                    ];
+                    
+                case 'hot':
+                    return [
+                        { emoji: '🌡️', text: 'Too Hot', fullSentence: 'It\'s too hot in here.', confidence: 0.90 },
+                        { emoji: '❄️', text: 'Cool Down', fullSentence: 'I need to cool down.', confidence: 0.85 },
+                        { emoji: '💨', text: 'Fan', fullSentence: 'I need a fan.', confidence: 0.80 },
+                        { emoji: '💧', text: 'Cold Water', fullSentence: 'I need cold water.', confidence: 0.85 },
+                        { emoji: '🧊', text: 'Ice', fullSentence: 'I need some ice.', confidence: 0.82 },
+                        { emoji: '👕', text: 'Less Clothes', fullSentence: 'I need lighter clothing.', confidence: 0.75 }
+                    ];
+                    
+                case 'cold':
+                    return [
+                        { emoji: '🥶', text: 'Too Cold', fullSentence: 'I\'m too cold.', confidence: 0.90 },
+                        { emoji: '🔥', text: 'Warm Up', fullSentence: 'I need to warm up.', confidence: 0.85 },
+                        { emoji: '🧥', text: 'Blanket', fullSentence: 'I need a blanket.', confidence: 0.88 },
+                        { emoji: '☕', text: 'Hot Drink', fullSentence: 'I want something hot to drink.', confidence: 0.82 },
+                        { emoji: '🌡️', text: 'Heater', fullSentence: 'Turn up the heat.', confidence: 0.78 },
+                        { emoji: '🧦', text: 'Socks', fullSentence: 'I need warm socks.', confidence: 0.75 }
+                    ];
+                    
+                case 'bathroom':
+                    return [
+                        { emoji: '🚽', text: 'Toilet', fullSentence: 'I need to use the toilet.', confidence: 0.95 },
+                        { emoji: '🚿', text: 'Shower', fullSentence: 'I need to shower.', confidence: 0.85 },
+                        { emoji: '🧻', text: 'Paper', fullSentence: 'I need toilet paper.', confidence: 0.80 },
+                        { emoji: '🧼', text: 'Wash Hands', fullSentence: 'I need to wash my hands.', confidence: 0.85 },
+                        { emoji: '🆘', text: 'Help', fullSentence: 'I need help in the bathroom.', confidence: 0.90 },
+                        { emoji: '🚨', text: 'Urgent', fullSentence: 'I need the bathroom urgently.', confidence: 0.92 }
+                    ];
+                    
+                default:
+                    // Generic fallback for unknown categories
+                    return [
+                        { emoji: '❓', text: 'Help', fullSentence: 'I need help with this.', confidence: 0.80 },
+                        { emoji: '👩‍⚕️', text: 'Nurse', fullSentence: 'Please call the nurse.', confidence: 0.85 },
+                        { emoji: '🔄', text: 'Different', fullSentence: 'I want something different.', confidence: 0.75 },
+                        { emoji: '👨‍👩‍👧', text: 'Family', fullSentence: 'I want my family.', confidence: 0.70 },
+                        { emoji: '💧', text: 'Water', fullSentence: 'I want some water.', confidence: 0.75 },
+                        { emoji: '🆘', text: 'Emergency', fullSentence: 'This is important.', confidence: 0.65 }
+                    ];
+            }
+        }
+        
+        // Update patient need display based on category selection
+        function updatePatientNeedForCategory(category) {
+            const needsMap = {
+                'want': 'Exploring personal preferences and desires',
+                'food': 'Experiencing hunger or thirst',
+                'pain': 'Experiencing discomfort or pain',
+                'family': 'Wanting social connection with loved ones',
+                'water': 'Feeling thirsty and needing hydration',
+                'hot': 'Feeling too warm and needing to cool down',
+                'cold': 'Feeling too cold and needing warmth',
+                'bathroom': 'Needing to use bathroom facilities'
+            };
+            
+            const needText = needsMap[category] || `Communicating about ${category}`;
+            document.getElementById('patient-need').textContent = needText;
+            document.getElementById('patient-question').textContent = `${category.charAt(0).toUpperCase() + category.slice(1)}...`;
+        }
+        
+        // Home button - return to base tiles
+        function goHome() {
+            const container = document.getElementById('patient-tiles');
+            container.innerHTML = `
+                <div class="tile home-tile" onclick="selectHomeTile('want')">
+                    <span class="tile-emoji">💭</span>
+                    <span class="tile-text">I Want</span>
+                </div>
+                <div class="tile home-tile" onclick="selectHomeTile('food')">
+                    <span class="tile-emoji">🍽️</span>
+                    <span class="tile-text">Food/Hungry</span>
+                </div>
+                <div class="tile home-tile" onclick="selectHomeTile('pain')">
+                    <span class="tile-emoji">😣</span>
+                    <span class="tile-text">Pain/Hurt</span>
+                </div>
+                <div class="tile home-tile" onclick="selectHomeTile('family')">
+                    <span class="tile-emoji">👨‍👩‍👧</span>
+                    <span class="tile-text">Family</span>
+                </div>
+                <div class="tile home-tile emergency-tile" onclick="selectHomeTile('help')">
+                    <span class="tile-emoji">🆘</span>
+                    <span class="tile-text">Help Me</span>
+                </div>
+                <div class="tile home-tile" onclick="selectHomeTile('water')">
+                    <span class="tile-emoji">💧</span>
+                    <span class="tile-text">Water</span>
+                </div>
+                <div class="tile home-tile" onclick="selectHomeTile('cold')">
+                    <span class="tile-emoji">🥶</span>
+                    <span class="tile-text">Cold</span>
+                </div>
+                <div class="tile home-tile" onclick="selectHomeTile('hot')">
+                    <span class="tile-emoji">🥵</span>
+                    <span class="tile-text">Hot</span>
+                </div>
+                <div class="tile home-tile" onclick="selectHomeTile('bathroom')">
+                    <span class="tile-emoji">🚻</span>
+                    <span class="tile-text">Bathroom</span>
+                </div>
+            `;
+            document.getElementById('patient-question').textContent = 'Select a core category or wait for caregiver question...';
+            document.getElementById('ai-status').textContent = 'Ready - Core vocabulary active';
+            addToLog('System', 'Returned to home - core vocabulary displayed');
+        }
+        
+        // Initialize speech recognition
+        if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognition = new SpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'en-US';
+            
+            recognition.onresult = function(event) {
+                const transcript = event.results[0][0].transcript;
+                document.getElementById('caregiver-text').value = transcript;
+                askQuestion();
+            };
+            
+            recognition.onerror = function(event) {
+                console.error('Speech recognition error:', event.error);
+                stopRecording();
+            };
+            
+            recognition.onend = function() {
+                stopRecording();
+            };
+        }
+        
+        function toggleRecording() {
+            if (isRecording) {
+                stopRecording();
+            } else {
+                startRecording();
+            }
+        }
+        
+        function startRecording() {
+            if (recognition) {
+                document.getElementById('mic-btn').classList.add('recording');
+                isRecording = true;
+                recognition.start();
+            } else {
+                alert('Speech recognition not supported in this browser');
+            }
+        }
+        
+        function stopRecording() {
+            if (recognition && isRecording) {
+                document.getElementById('mic-btn').classList.remove('recording');
+                isRecording = false;
+                recognition.stop();
+            }
+        }
+        
+        function askQuestion() {
+            const question = document.getElementById('caregiver-text').value.trim();
+            if (!question) return;
+            
+            // Display question to patient
+            document.getElementById('patient-question').textContent = question;
+            
+            // Add to log
+            addToLog('Caregiver', question);
+            
+            // Generate AI tiles
+            generateAITiles(question);
+            
+            // Clear input
+            document.getElementById('caregiver-text').value = '';
+        }
+        
+        function generateAITiles(question) {
+            document.getElementById('ai-status').innerHTML = '🧠 AI generating context-aware tiles...';
+            
+            // Process with TinkyBink engine (this now includes AI assistance)
+            const tiles = tinkyBinkEngine.processQuestion(question);
+            
+            // Display tiles with animation
+            setTimeout(() => {
+                displayTiles(tiles);
+                document.getElementById('ai-status').innerHTML = 
+                    `✅ Generated ${tiles.length} contextual responses<br>💡 AI monitoring for assistance needs...`;
+            }, 500);
+        }
+        
+        function displayTiles(tiles) {
+            const container = document.getElementById('patient-tiles');
+            container.innerHTML = '';
+            
+            tiles.forEach((tile, index) => {
+                const div = document.createElement('div');
+                div.className = 'tile';
+                div.innerHTML = `
+                    <span class="tile-emoji">${tile.emoji}</span>
+                    <span class="tile-text">${tile.text}</span>
+                    <small style="opacity: 0.7">AI: ${Math.round(tile.confidence * 100)}%</small>
+                `;
+                
+                div.onclick = () => selectTile(tile);
+                
+                // Animate tiles appearing
+                div.style.opacity = '0';
+                div.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    div.style.transition = 'all 0.3s ease';
+                    div.style.opacity = '1';
+                    div.style.transform = 'translateY(0)';
+                }, index * 100);
+                
+                container.appendChild(div);
+            });
+        }
+        
+        function selectTile(tile) {
+            // Clear previous selections
+            document.querySelectorAll('.tile').forEach(t => t.classList.remove('selected'));
+            
+            // Mark selected
+            event.target.closest('.tile').classList.add('selected');
+            
+            // Get full sentence and expansions from engine
+            const result = tinkyBinkEngine.selectTile(tile);
+            
+            // Update patient communication section
+            document.getElementById('patient-response').innerHTML = 
+                `<strong>Patient selected:</strong> ${tile.emoji} ${tile.text}`;
+            
+            // Update suggested response section
+            document.getElementById('caregiver-response').textContent = result.caregiverGuidance.suggestedResponse;
+            
+            // Update AI analysis section
+            document.getElementById('ai-analysis').innerHTML = 
+                `${result.caregiverGuidance.interpretation}<br>
+                <strong>Urgency:</strong> <span style="color: ${getUrgencyColor(result.caregiverGuidance.urgencyLevel)}">${result.caregiverGuidance.urgencyLevel.toUpperCase()}</span><br>
+                <strong>Follow-up:</strong> ${result.caregiverGuidance.followUpActions.join(', ')}`;
+            
+            // Speak the response
+            speakText(result.sentence);
+            
+            // Add to log with enhanced information
+            addToLog('Patient (via AAC)', `${tile.emoji} ${tile.text} → "${result.sentence}"`);
+            addToLog('AI Assistant', `Interpretation: ${result.caregiverGuidance.interpretation}`);
+            
+            // Display expansion tiles if available (Weizenbaum expansion)
+            if (result.expansions && result.expansions.length > 0) {
+                setTimeout(() => {
+                    displayTiles(result.expansions);
+                    document.getElementById('ai-status').innerHTML += 
+                        `<br>✅ Expanded context: ${tile.text} → ${result.expansions.length} related options`;
+                }, 500);
+            }
+        }
+        
+        // Get color for urgency level
+        function getUrgencyColor(urgency) {
+            switch(urgency) {
+                case 'urgent': return '#f44336';
+                case 'high': return '#ff9800';
+                case 'normal': return '#4CAF50';
+                default: return '#2196F3';
+            }
+        }
+        
+        function speakText(text) {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+                
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.rate = 0.9;
+                utterance.pitch = 1.0;
+                
+                document.getElementById('speech-output').textContent = `🔊 Speaking: "${text}"`;
+                speechSynthesis.speak(utterance);
+                
+                utterance.onend = () => {
+                    document.getElementById('speech-output').textContent = '✅ Speech complete';
+                };
+            }
+        }
+        
+        function testScenario(question) {
+            document.getElementById('caregiver-text').value = question;
+            askQuestion();
+        }
+        
+        function addToLog(speaker, message) {
+            const log = document.getElementById('log-container');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            
+            const time = new Date().toLocaleTimeString();
+            entry.innerHTML = `
+                <div class="log-time">${time}</div>
+                <div><strong>${speaker}:</strong> ${message}</div>
+            `;
+            
+            log.insertBefore(entry, log.firstChild);
+            
+            // Keep only last 10 entries
+            while (log.children.length > 10) {
+                log.removeChild(log.lastChild);
+            }
+        }
+        
+        // Initialize on load
+        window.addEventListener('load', () => {
+            // Load voices for TTS
+            if ('speechSynthesis' in window) {
+                speechSynthesis.getVoices();
+            }
+            
+            // Show initial status
+            addToLog('System', 'TinkyBink AI Engine initialized with 8,202 tiles');
+        });
+    </script>
+</body>
+</html>

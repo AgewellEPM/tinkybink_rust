@@ -27,10 +27,7 @@ impl StorageManager {
         // Ensure data directory exists
         fs::create_dir_all(&data_dir).await?;
 
-        info!(
-            "Storage manager initialized with data directory: {:?}",
-            data_dir
-        );
+        info!("Storage manager initialized with data directory: {:?}", data_dir);
 
         Ok(Self { data_dir })
     }
@@ -95,11 +92,7 @@ impl StorageManager {
         Ok(phrases)
     }
 
-    pub async fn export_conversation_history(
-        &self,
-        state: &SystemState,
-        format: ExportFormat,
-    ) -> Result<String> {
+    pub async fn export_conversation_history(&self, state: &SystemState, format: ExportFormat) -> Result<String> {
         let timestamp = Utc::now().format("%Y%m%d_%H%M%S");
         let filename = match format {
             ExportFormat::Json => format!("conversation_history_{timestamp}.json"),

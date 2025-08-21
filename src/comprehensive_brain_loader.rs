@@ -17,10 +17,7 @@ impl Default for ComprehensiveBrainLoader {
 
 impl ComprehensiveBrainLoader {
     pub fn new() -> Self {
-        Self {
-            total_tiles: 0,
-            categories_loaded: Vec::new(),
-        }
+        Self { total_tiles: 0, categories_loaded: Vec::new() }
     }
 
     pub fn load_all_tile_categories(
@@ -91,10 +88,7 @@ impl ComprehensiveBrainLoader {
         ];
 
         println!("🧠 Loading Comprehensive TinkyBink Brain...");
-        println!(
-            "📁 Processing {} specialized tile categories",
-            tile_files.len()
-        );
+        println!("📁 Processing {} specialized tile categories", tile_files.len());
 
         for tile_file in tile_files {
             let file_path = training_dir.join(tile_file);
@@ -118,9 +112,7 @@ impl ComprehensiveBrainLoader {
                         all_nodes.extend(nodes);
                         self.categories_loaded.push(category_name.clone());
 
-                        println!(
-                            "✅ Loaded {category_name} - {node_count} conversation nodes"
-                        );
+                        println!("✅ Loaded {category_name} - {node_count} conversation nodes");
                     }
                     Err(e) => {
                         println!("⚠️  Failed to load {tile_file}: {e}");
@@ -139,10 +131,7 @@ impl ComprehensiveBrainLoader {
         Ok(all_nodes)
     }
 
-    fn load_tile_category(
-        &mut self,
-        file_path: &Path,
-    ) -> Result<Vec<ConversationNode>, Box<dyn std::error::Error>> {
+    fn load_tile_category(&mut self, file_path: &Path) -> Result<Vec<ConversationNode>, Box<dyn std::error::Error>> {
         let content = fs::read_to_string(file_path)?;
         let json: Value = serde_json::from_str(&content)?;
 
@@ -219,10 +208,7 @@ impl ComprehensiveBrainLoader {
         Ok(nodes)
     }
 
-    fn parse_tile(
-        &self,
-        tile_value: &Value,
-    ) -> Result<Option<AACTile>, Box<dyn std::error::Error>> {
+    fn parse_tile(&self, tile_value: &Value) -> Result<Option<AACTile>, Box<dyn std::error::Error>> {
         let tile = match tile_value {
             Value::Object(obj) => {
                 let words = obj
@@ -241,17 +227,9 @@ impl ComprehensiveBrainLoader {
                     .unwrap_or("🔘");
 
                 let default_id = format!("tile_{}", self.total_tiles);
-                let id = obj
-                    .get("id")
-                    .or_else(|| obj.get("tile_id"))
-                    .and_then(|v| v.as_str())
-                    .unwrap_or(&default_id);
+                let id = obj.get("id").or_else(|| obj.get("tile_id")).and_then(|v| v.as_str()).unwrap_or(&default_id);
 
-                Some(AACTile {
-                    emoji: emoji.to_string(),
-                    words: words.to_string(),
-                    tile_id: id.to_string(),
-                })
+                Some(AACTile { emoji: emoji.to_string(), words: words.to_string(), tile_id: id.to_string() })
             }
             Value::String(s) => {
                 // Simple string tile
@@ -267,10 +245,7 @@ impl ComprehensiveBrainLoader {
         Ok(tile)
     }
 
-    fn convert_object_to_node(
-        &mut self,
-        _obj: Value,
-    ) -> Result<ConversationNode, Box<dyn std::error::Error>> {
+    fn convert_object_to_node(&mut self, _obj: Value) -> Result<ConversationNode, Box<dyn std::error::Error>> {
         // Convert single object to node (fallback)
         let default_tiles = vec![
             AACTile {
@@ -337,12 +312,8 @@ impl ComprehensiveBrainLoader {
         let mut jsonl_lines = Vec::new();
 
         for node in nodes {
-            let spoken_sentence = node
-                .tiles
-                .iter()
-                .map(|t| format!("{} {}", t.emoji, t.words))
-                .collect::<Vec<_>>()
-                .join(", ");
+            let spoken_sentence =
+                node.tiles.iter().map(|t| format!("{} {}", t.emoji, t.words)).collect::<Vec<_>>().join(", ");
 
             let json_node = serde_json::json!({
                 "instruction": format!("AAC {}: {}",

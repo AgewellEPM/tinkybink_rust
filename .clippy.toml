@@ -1,0 +1,3 @@
+# Allow certain clippy lints that are too pedantic
+too-many-arguments-threshold = 10
+cognitive-complexity-threshold = 30

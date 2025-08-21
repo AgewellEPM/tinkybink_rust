@@ -89,12 +89,7 @@ impl TinkyMemoryCore {
     }
 
     /// 🎯 Learn from each interaction to improve future responses
-    pub fn learn_from_interaction(
-        &mut self,
-        question: &str,
-        selected_response: &str,
-        success_rating: f32,
-    ) {
+    pub fn learn_from_interaction(&mut self, question: &str, selected_response: &str, success_rating: f32) {
         debug!(
             "🧠 Learning from interaction: '{}' → '{}' (success: {:.2})",
             question, selected_response, success_rating
@@ -127,17 +122,11 @@ impl TinkyMemoryCore {
             self.interaction_history.remove(0);
         }
 
-        info!(
-            "🧠 Learned new interaction pattern. Total memories: {}",
-            self.interaction_history.len()
-        );
+        info!("🧠 Learned new interaction pattern. Total memories: {}", self.interaction_history.len());
     }
 
     /// 🎭 Adapt responses based on current emotional context
-    pub fn adapt_responses_to_mood(
-        &self,
-        base_responses: Vec<SuggestionTile>,
-    ) -> Vec<SuggestionTile> {
+    pub fn adapt_responses_to_mood(&self, base_responses: Vec<SuggestionTile>) -> Vec<SuggestionTile> {
         let mood = &self.emotional_profile.current_mood;
 
         debug!(
@@ -175,9 +164,7 @@ impl TinkyMemoryCore {
     /// 🚫 Filter out topics the child consistently avoids
     pub fn should_avoid_topic(&self, question: &str) -> bool {
         let question_lower = question.to_lowercase();
-        self.avoidance_topics
-            .iter()
-            .any(|topic| question_lower.contains(topic))
+        self.avoidance_topics.iter().any(|topic| question_lower.contains(topic))
     }
 
     /// 📊 Get current emotional intelligence insights
@@ -214,9 +201,7 @@ impl TinkyMemoryCore {
         }
 
         // Store mood history
-        self.emotional_profile
-            .recent_moods
-            .push((Utc::now(), mood.clone()));
+        self.emotional_profile.recent_moods.push((Utc::now(), mood.clone()));
         if self.emotional_profile.recent_moods.len() > 10 {
             self.emotional_profile.recent_moods.remove(0);
         }
@@ -249,43 +234,32 @@ impl TinkyMemoryCore {
     fn detect_mood_patterns(&mut self, memory: &InteractionMemory) {
         let topic = &memory.topic_category;
 
-        let pattern = self
-            .mood_patterns
-            .entry(topic.clone())
-            .or_insert(MoodPattern {
-                triggers: Vec::new(),
-                typical_responses: Vec::new(),
-                frequency: 0,
-                last_seen: Utc::now(),
-            });
+        let pattern = self.mood_patterns.entry(topic.clone()).or_insert(MoodPattern {
+            triggers: Vec::new(),
+            typical_responses: Vec::new(),
+            frequency: 0,
+            last_seen: Utc::now(),
+        });
 
         pattern.frequency += 1;
         pattern.last_seen = Utc::now();
 
         if !pattern.typical_responses.contains(&memory.child_response) {
-            pattern
-                .typical_responses
-                .push(memory.child_response.clone());
+            pattern.typical_responses.push(memory.child_response.clone());
         }
     }
 
     fn categorize_topic(&self, question: &str) -> String {
         let question_lower = question.to_lowercase();
 
-        if question_lower.contains("hungry")
-            || question_lower.contains("eat")
-            || question_lower.contains("food")
-        {
+        if question_lower.contains("hungry") || question_lower.contains("eat") || question_lower.contains("food") {
             "food".to_string()
         } else if question_lower.contains("feel")
             || question_lower.contains("mood")
             || question_lower.contains("emotion")
         {
             "emotions".to_string()
-        } else if question_lower.contains("play")
-            || question_lower.contains("game")
-            || question_lower.contains("fun")
-        {
+        } else if question_lower.contains("play") || question_lower.contains("game") || question_lower.contains("fun") {
             "play".to_string()
         } else if question_lower.contains("help") || question_lower.contains("need") {
             "help".to_string()
@@ -365,9 +339,7 @@ impl TinkyMemoryCore {
 
         for interaction in &self.interaction_history {
             if interaction.success_rating > 0.7 {
-                let entry = topic_scores
-                    .entry(interaction.topic_category.clone())
-                    .or_insert(0.0);
+                let entry = topic_scores.entry(interaction.topic_category.clone()).or_insert(0.0);
                 *entry += interaction.success_rating;
             }
         }
@@ -382,13 +354,7 @@ impl TinkyMemoryCore {
 impl Default for EmotionalProfile {
     fn default() -> Self {
         Self {
-            current_mood: EmotionalState {
-                happiness: 0.6,
-                energy: 0.5,
-                anxiety: 0.3,
-                confidence: 0.5,
-                curiosity: 0.7,
-            },
+            current_mood: EmotionalState { happiness: 0.6, energy: 0.5, anxiety: 0.3, confidence: 0.5, curiosity: 0.7 },
             baseline_mood: EmotionalState {
                 happiness: 0.6,
                 energy: 0.5,

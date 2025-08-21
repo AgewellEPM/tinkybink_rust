@@ -10,10 +10,7 @@ pub fn current_timestamp() -> DateTime<Utc> {
 
 /// Get current timestamp as Unix timestamp
 pub fn current_unix_timestamp() -> u64 {
-    SystemTime::now()
-        .duration_since(UNIX_EPOCH)
-        .unwrap_or_default()
-        .as_secs()
+    SystemTime::now().duration_since(UNIX_EPOCH).unwrap_or_default().as_secs()
 }
 
 /// Format duration in a human-readable way
@@ -30,9 +27,7 @@ pub fn format_duration(seconds: u64) -> String {
 /// Sanitize text for safe display and storage
 pub fn sanitize_text(text: &str) -> String {
     text.chars()
-        .filter(|c| {
-            c.is_alphabetic() || c.is_numeric() || c.is_whitespace() || ".,!?-".contains(*c)
-        })
+        .filter(|c| c.is_alphabetic() || c.is_numeric() || c.is_whitespace() || ".,!?-".contains(*c))
         .collect::<String>()
         .trim()
         .to_string()

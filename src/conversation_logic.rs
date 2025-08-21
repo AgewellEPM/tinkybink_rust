@@ -65,18 +65,12 @@ impl ConversationLogicSystem {
     /// Add a conversation node
     pub fn add_node(&mut self, node: ConversationNode) {
         // Index by category
-        self.categories
-            .entry(node.category.clone())
-            .or_default()
-            .push(node.id.clone());
+        self.categories.entry(node.category.clone()).or_default().push(node.id.clone());
 
         // Index by tile words for quick lookup
         for tile in &node.tiles {
             let tile_word = tile.words.to_lowercase();
-            self.tile_connections
-                .entry(tile_word)
-                .or_default()
-                .push(node.id.clone());
+            self.tile_connections.entry(tile_word).or_default().push(node.id.clone());
         }
 
         // Store the node
@@ -90,20 +84,12 @@ impl ConversationLogicSystem {
                 .categories
                 .get(cat)
                 .map(|node_ids| {
-                    node_ids
-                        .iter()
-                        .filter_map(|id| self.nodes.get(id))
-                        .filter(|n| n.conversation_layer == 1)
-                        .collect()
+                    node_ids.iter().filter_map(|id| self.nodes.get(id)).filter(|n| n.conversation_layer == 1).collect()
                 })
                 .unwrap_or_default(),
             None => {
                 // Return starters from all categories
-                self.nodes
-                    .values()
-                    .filter(|n| n.conversation_layer == 1)
-                    .take(20)
-                    .collect()
+                self.nodes.values().filter(|n| n.conversation_layer == 1).take(20).collect()
             }
         }
     }
@@ -112,10 +98,7 @@ impl ConversationLogicSystem {
     pub fn get_follow_ups(&self, node_id: &str, tile_word: &str) -> Vec<&ConversationNode> {
         if let Some(node) = self.nodes.get(node_id) {
             if let Some(follow_up_ids) = node.follow_ups.get(tile_word) {
-                return follow_up_ids
-                    .iter()
-                    .filter_map(|id| self.nodes.get(id))
-                    .collect();
+                return follow_up_ids.iter().filter_map(|id| self.nodes.get(id)).collect();
             }
         }
 
@@ -124,11 +107,7 @@ impl ConversationLogicSystem {
     }
 
     /// Find contextually relevant responses
-    fn find_contextual_responses(
-        &self,
-        tile_word: &str,
-        current_node_id: &str,
-    ) -> Vec<&ConversationNode> {
+    fn find_contextual_responses(&self, tile_word: &str, current_node_id: &str) -> Vec<&ConversationNode> {
         let current_node = match self.nodes.get(current_node_id) {
             Some(node) => node,
             None => return Vec::new(),
@@ -172,19 +151,11 @@ impl ConversationLogicSystem {
 
         // Sort by relevance and return top matches
         candidates.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap());
-        candidates
-            .into_iter()
-            .take(4)
-            .map(|(node, _)| node)
-            .collect()
+        candidates.into_iter().take(4).map(|(node, _)| node).collect()
     }
 
     /// Generate a complete conversation path
-    pub fn generate_conversation_path(
-        &self,
-        start_node_id: &str,
-        max_depth: usize,
-    ) -> ConversationPath {
+    pub fn generate_conversation_path(&self, start_node_id: &str, max_depth: usize) -> ConversationPath {
         let mut path = ConversationPath {
             path_id: format!("path_{}", uuid::Uuid::new_v4()),
             nodes: vec![start_node_id.to_string()],
@@ -205,12 +176,9 @@ impl ConversationLogicSystem {
                     let follow_ups = self.get_follow_ups(current_id, tile_word);
 
                     // Pick the best follow-up that hasn't been visited
-                    if let Some(next_node) =
-                        follow_ups.iter().find(|n| !visited.contains(n.id.as_str()))
-                    {
+                    if let Some(next_node) = follow_ups.iter().find(|n| !visited.contains(n.id.as_str())) {
                         path.nodes.push(next_node.id.clone());
-                        path.context
-                            .insert(format!("depth_{depth}_selection"), tile_word.clone());
+                        path.context.insert(format!("depth_{depth}_selection"), tile_word.clone());
 
                         visited.insert(&next_node.id);
                         current_id = &next_node.id;
@@ -241,10 +209,7 @@ impl ConversationLogicSystem {
     /// Add a connection between nodes
     pub fn add_connection(&mut self, from_node: &str, tile_word: &str, to_node: &str) {
         if let Some(node) = self.nodes.get_mut(from_node) {
-            node.follow_ups
-                .entry(tile_word.to_string())
-                .or_insert_with(Vec::new)
-                .push(to_node.to_string());
+            node.follow_ups.entry(tile_word.to_string()).or_insert_with(Vec::new).push(to_node.to_string());
         }
     }
 }
@@ -299,11 +264,7 @@ impl ConversationNodeBuilder {
     }
 
     pub fn add_follow_up(mut self, tile_word: &str, node_id: &str) -> Self {
-        self.node
-            .follow_ups
-            .entry(tile_word.to_string())
-            .or_default()
-            .push(node_id.to_string());
+        self.node.follow_ups.entry(tile_word.to_string()).or_default().push(node_id.to_string());
         self
     }
 

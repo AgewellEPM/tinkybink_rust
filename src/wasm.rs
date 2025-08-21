@@ -44,11 +44,7 @@ impl TinkyBinkWasm {
 
         console::log_1(&"✅ TinkyBink AAC Engine ready for revolutionary communication!".into());
 
-        Ok(TinkyBinkWasm {
-            engine,
-            memory_core,
-            speech_synthesis,
-        })
+        Ok(TinkyBinkWasm { engine, memory_core, speech_synthesis })
     }
 
     /// 🗣️ Speak text using browser speech synthesis
@@ -74,15 +70,8 @@ impl TinkyBinkWasm {
     /// 🧠 Record interaction for emotional learning
     #[wasm_bindgen]
     pub fn record_interaction(&mut self, question: &str, response: &str, success_rating: f32) {
-        console::log_1(
-            &format!(
-                "🧠 Learning from: '{}' → '{}' ({})",
-                question, response, success_rating
-            )
-            .into(),
-        );
-        self.memory_core
-            .learn_from_interaction(question, response, success_rating);
+        console::log_1(&format!("🧠 Learning from: '{}' → '{}' ({})", question, response, success_rating).into());
+        self.memory_core.learn_from_interaction(question, response, success_rating);
     }
 
     /// 📊 Get emotional intelligence insights as JSON string
@@ -110,9 +99,7 @@ impl TinkyBinkWasm {
 #[wasm_bindgen]
 pub fn create_tinky_interface() -> Result<(), JsValue> {
     let window = window().ok_or("No global `window` exists")?;
-    let document = window
-        .document()
-        .ok_or("Should have a document on window")?;
+    let document = window.document().ok_or("Should have a document on window")?;
     let body = document.body().ok_or("Document should have a body")?;
 
     // Create revolutionary TinkyBink interface

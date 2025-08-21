@@ -1,10 +1,12 @@
 //! 🧬 NanoGPT - Tiny GPT Implementation for TinkyBink
-//! 
+//!
 //! A lightweight GPT architecture that runs on ANY device
 //! Perfect for AAC with emotional intelligence
 
-use super::{AiEngine, AiContext, AiResponse, AiEngineInfo};
-use super::gpt_core::{OfflineGPT, GPTCore};
+#![allow(dead_code)]
+
+use super::gpt_core::{GPTCore, OfflineGPT};
+use super::{AiContext, AiEngine, AiEngineInfo, AiResponse};
 use anyhow::Result;
 use std::sync::{Arc, Mutex};
 
@@ -18,10 +20,10 @@ pub struct NanoGPT {
 
 #[derive(Clone)]
 pub enum ModelSize {
-    Nano,    // 1M parameters
-    Micro,   // 10M parameters  
-    Mini,    // 100M parameters
-    Small,   // 350M parameters
+    Nano,  // 1M parameters
+    Micro, // 10M parameters
+    Mini,  // 100M parameters
+    Small, // 350M parameters
 }
 
 impl NanoGPT {
@@ -64,32 +66,32 @@ impl NanoGPT {
     /// GPT-style generation with our conversation patterns
     fn generate_with_patterns(&self, input: &str, context: &AiContext) -> Vec<AiResponse> {
         let input_lower = input.to_lowercase();
-        
+
         // 1. Find matching patterns (attention mechanism)
         let matches = self.find_pattern_matches(&input_lower);
-        
+
         // 2. Apply GPT-style ranking
         let ranked = self.rank_by_context(matches, context);
-        
+
         // 3. Generate variations
         self.generate_variations(ranked, context)
     }
 
     fn find_pattern_matches(&self, input: &str) -> Vec<&ConversationPattern> {
         let mut matches = Vec::new();
-        
+
         for pattern in &self.conversation_patterns {
             let similarity = self.calculate_similarity(input, &pattern.input);
             if similarity > 0.5 {
                 matches.push(pattern);
             }
         }
-        
+
         // If no good matches, use defaults
         if matches.is_empty() {
             matches.push(&self.conversation_patterns[0]);
         }
-        
+
         matches
     }
 
@@ -97,31 +99,35 @@ impl NanoGPT {
         // Simple word overlap similarity
         let a_words: Vec<&str> = a.split_whitespace().collect();
         let b_words: Vec<&str> = b.split_whitespace().collect();
-        
+
         let mut matches = 0;
         for word in &a_words {
             if b_words.contains(word) {
                 matches += 1;
             }
         }
-        
+
         if a_words.is_empty() || b_words.is_empty() {
             return 0.0;
         }
-        
+
         matches as f32 / a_words.len().max(b_words.len()) as f32
     }
 
-    fn rank_by_context<'a>(&self, patterns: Vec<&'a ConversationPattern>, context: &AiContext) -> Vec<&'a ConversationPattern> {
+    fn rank_by_context<'a>(
+        &self,
+        patterns: Vec<&'a ConversationPattern>,
+        context: &AiContext,
+    ) -> Vec<&'a ConversationPattern> {
         let mut ranked = patterns;
-        
+
         // Sort by emotional relevance
         ranked.sort_by(|a, b| {
             let a_score = self.emotional_score(&a.emotion, context);
             let b_score = self.emotional_score(&b.emotion, context);
             b_score.partial_cmp(&a_score).unwrap()
         });
-        
+
         ranked
     }
 
@@ -137,15 +143,15 @@ impl NanoGPT {
 
     fn generate_variations(&self, patterns: Vec<&ConversationPattern>, context: &AiContext) -> Vec<AiResponse> {
         let mut responses = Vec::new();
-        
+
         // Take best pattern
         if let Some(best) = patterns.first() {
             for (i, response_text) in best.responses.iter().enumerate() {
                 let confidence = 0.9 - (i as f32 * 0.1);
-                
+
                 // Apply emotional modulation
                 let modulated = self.modulate_response(response_text, context);
-                
+
                 responses.push(AiResponse {
                     text: modulated.clone(),
                     emoji: self.extract_emoji(&modulated),
@@ -154,7 +160,7 @@ impl NanoGPT {
                 });
             }
         }
-        
+
         // Ensure we have 4 responses
         while responses.len() < 4 {
             responses.push(AiResponse {
@@ -164,7 +170,7 @@ impl NanoGPT {
                 emotion: "uncertain".to_string(),
             });
         }
-        
+
         responses.truncate(4);
         responses
     }
@@ -187,7 +193,7 @@ impl NanoGPT {
                 return char.to_string();
             }
         }
-        
+
         // Default emoji based on content
         if text.contains("yes") || text.contains("Yes") {
             "✅".to_string()
@@ -205,7 +211,8 @@ impl AiEngine for NanoGPT {
         // Use our GPT core with conversation patterns
         let mut responses = if let Ok(mut gpt) = self.offline_gpt.lock() {
             let tiles = gpt.generate_aac_response(input);
-            tiles.into_iter()
+            tiles
+                .into_iter()
                 .map(|tile| AiResponse {
                     text: tile.text,
                     emoji: tile.emoji,
@@ -217,7 +224,7 @@ impl AiEngine for NanoGPT {
             // Fallback to pattern matching
             self.generate_with_patterns(input, context)
         };
-        
+
         // Ensure we always have responses
         if responses.is_empty() {
             responses = vec![
@@ -247,7 +254,7 @@ impl AiEngine for NanoGPT {
                 },
             ];
         }
-        
+
         Ok(responses)
     }
 
@@ -262,7 +269,7 @@ impl AiEngine for NanoGPT {
             ModelSize::Mini => "100M params",
             ModelSize::Small => "350M params",
         };
-        
+
         AiEngineInfo {
             name: "NanoGPT Engine".to_string(),
             model: format!("TinkyBink NanoGPT ({size_str})"),
@@ -305,20 +312,20 @@ impl TinkyGPT {
     pub async fn generate(&mut self, input: &str) -> Result<Vec<AACResponse>> {
         // 1. Build GPT context with conversation memory
         let prompt = self.gpt_core.build_gpt_prompt(input);
-        
+
         // 2. Get emotional responses
         let _emotional = self.gpt_core.apply_emotional_intelligence(input);
-        
+
         // 3. Generate with NanoGPT
         let context = AiContext::default();
         let ai_responses = self.nano_gpt.generate_response(&prompt, &context).await?;
-        
+
         // 4. Combine with conversation brain patterns
         let brain_responses = self.conversation_brain.find_responses(input);
-        
+
         // 5. Merge and rank all responses
         let mut all_responses = Vec::new();
-        
+
         // Add AI responses
         for (i, resp) in ai_responses.into_iter().enumerate() {
             all_responses.push(AACResponse {
@@ -329,7 +336,7 @@ impl TinkyGPT {
                 rank: i,
             });
         }
-        
+
         // Add brain responses
         for (i, resp) in brain_responses.into_iter().take(2).enumerate() {
             all_responses.push(AACResponse {
@@ -340,18 +347,18 @@ impl TinkyGPT {
                 rank: i + 4,
             });
         }
-        
+
         // Sort by confidence
         all_responses.sort_by(|a, b| b.confidence.partial_cmp(&a.confidence).unwrap());
-        
+
         // Return top 4
         all_responses.truncate(4);
-        
+
         // Update memory
         if let Some(first) = all_responses.first() {
             self.gpt_core.update_memory(input, &first.text);
         }
-        
+
         Ok(all_responses)
     }
 }
@@ -366,27 +373,17 @@ impl ConversationBrain {
         Self {
             patterns: vec![
                 BrainPattern {
-                    input: "hungry".to_string(),
-                    text: "I want pizza".to_string(),
-                    emoji: "🍕".to_string(),
+                    input: "hungry".to_string(), text: "I want pizza".to_string(), emoji: "🍕".to_string()
                 },
-                BrainPattern {
-                    input: "tired".to_string(),
-                    text: "Need sleep".to_string(),
-                    emoji: "😴".to_string(),
-                },
+                BrainPattern { input: "tired".to_string(), text: "Need sleep".to_string(), emoji: "😴".to_string() },
             ],
         }
     }
 
     pub fn find_responses(&self, input: &str) -> Vec<BrainPattern> {
         let input_lower = input.to_lowercase();
-        
-        self.patterns.iter()
-            .filter(|p| input_lower.contains(&p.input))
-            .take(4)
-            .cloned()
-            .collect()
+
+        self.patterns.iter().filter(|p| input_lower.contains(&p.input)).take(4).cloned().collect()
     }
 }
 
@@ -427,7 +424,7 @@ mod tests {
     async fn test_tinky_gpt() {
         let mut tinky = TinkyGPT::new();
         let responses = tinky.generate("Are you hungry?").await.unwrap();
-        
+
         assert_eq!(responses.len(), 4);
         assert!(!responses[0].emoji.is_empty());
     }

@@ -40,19 +40,13 @@ impl SimpleOllamaEngine {
                 Ok(Self { model_name })
             }
             Err(_) => {
-                warn!(
-                    "Ollama not found. Install with: curl -fsSL https://ollama.ai/install.sh | sh"
-                );
+                warn!("Ollama not found. Install with: curl -fsSL https://ollama.ai/install.sh | sh");
                 Err(anyhow::anyhow!("Ollama not installed"))
             }
         }
     }
 
-    async fn generate_with_ollama(
-        &self,
-        input: &str,
-        _context: &AiContext,
-    ) -> Result<Vec<AiResponse>> {
+    async fn generate_with_ollama(&self, input: &str, _context: &AiContext) -> Result<Vec<AiResponse>> {
         let prompt = if self.model_name == "tinkybink" {
             // Our custom model expects this format
             input.to_string()
@@ -64,11 +58,7 @@ impl SimpleOllamaEngine {
         };
 
         // Run ollama command
-        let output = Command::new("ollama")
-            .arg("run")
-            .arg(&self.model_name)
-            .arg(&prompt)
-            .output()?;
+        let output = Command::new("ollama").arg("run").arg(&self.model_name).arg(&prompt).output()?;
 
         let response = String::from_utf8_lossy(&output.stdout);
         debug!("Ollama response: {}", response);
@@ -83,12 +73,7 @@ impl SimpleOllamaEngine {
                 }
 
                 let (emoji, emotion) = self.infer_emoji_and_emotion(text);
-                Some(AiResponse {
-                    text: text.to_string(),
-                    emoji,
-                    confidence: 0.9,
-                    emotion,
-                })
+                Some(AiResponse { text: text.to_string(), emoji, confidence: 0.9, emotion })
             })
             .take(4)
             .collect();
@@ -165,22 +150,12 @@ impl SimpleOllamaEngine {
         let text_lower = text.to_lowercase();
 
         match text_lower {
-            s if s.contains("yes") || s.contains("okay") => {
-                ("✅".to_string(), "positive".to_string())
-            }
-            s if s.contains("no") || s.contains("don't") => {
-                ("❌".to_string(), "negative".to_string())
-            }
-            s if s.contains("happy") || s.contains("yay") => {
-                ("😊".to_string(), "happy".to_string())
-            }
+            s if s.contains("yes") || s.contains("okay") => ("✅".to_string(), "positive".to_string()),
+            s if s.contains("no") || s.contains("don't") => ("❌".to_string(), "negative".to_string()),
+            s if s.contains("happy") || s.contains("yay") => ("😊".to_string(), "happy".to_string()),
             s if s.contains("sad") => ("😢".to_string(), "sad".to_string()),
-            s if s.contains("hungry") || s.contains("eat") => {
-                ("🍽️".to_string(), "hungry".to_string())
-            }
-            s if s.contains("tired") || s.contains("sleep") => {
-                ("😴".to_string(), "tired".to_string())
-            }
+            s if s.contains("hungry") || s.contains("eat") => ("🍽️".to_string(), "hungry".to_string()),
+            s if s.contains("tired") || s.contains("sleep") => ("😴".to_string(), "tired".to_string()),
             s if s.contains("play") => ("🎮".to_string(), "playful".to_string()),
             s if s.contains("love") => ("❤️".to_string(), "loving".to_string()),
             _ => ("💭".to_string(), "neutral".to_string()),

@@ -90,9 +90,8 @@ fn convert_to_conversation_node(
         }
 
         // Set category and emotion
-        builder = builder
-            .category(&aac_response.usage_data.category)
-            .emotion_level(&aac_response.usage_data.emotion_level);
+        builder =
+            builder.category(&aac_response.usage_data.category).emotion_level(&aac_response.usage_data.emotion_level);
 
         // Set conversation layer if available
         if let Some(layer) = aac_response.usage_data.conversation_layer {
@@ -188,11 +187,7 @@ pub fn build_conversation_connections(system: &mut ConversationLogicSystem) {
                     if let Some(other_node) = system.get_node(other_id) {
                         // Check if the other node's input relates to this tile
                         if other_node.input.to_lowercase().contains(&tile_word) {
-                            connections_to_add.push((
-                                current_id.clone(),
-                                tile.words.clone(),
-                                other_id.clone(),
-                            ));
+                            connections_to_add.push((current_id.clone(), tile.words.clone(), other_id.clone()));
                         }
                     }
                 }
@@ -214,8 +209,7 @@ mod tests {
 
     #[test]
     fn test_parse_tiles_from_output() {
-        let output =
-            "🍕 Pizza is great, 🍔 Burger tasty too, 🌮 Tacos are spicy, 🥗 Salad is healthy";
+        let output = "🍕 Pizza is great, 🍔 Burger tasty too, 🌮 Tacos are spicy, 🥗 Salad is healthy";
         let tiles = parse_tiles_from_output(output);
 
         assert_eq!(tiles.len(), 4);
@@ -232,7 +226,8 @@ mod tests {
         writeln!(
             temp_file,
             r#"{{"instruction":"Test","input":"Hello","output":"😊 Happy, 😢 Sad, 😴 Tired, 🤔 Confused"}}"#
-        ).unwrap();
+        )
+        .unwrap();
 
         let loaded = load_training_data(&mut system, temp_file.path()).unwrap();
         assert_eq!(loaded, 1);

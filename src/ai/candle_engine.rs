@@ -2,12 +2,16 @@
 //!
 //! Uses Candle for running small language models in pure Rust
 
+#[allow(unused_imports)]
 #[cfg(feature = "ai-candle")]
 use candle_core::{Device, Tensor};
+#[allow(unused_imports)]
 #[cfg(feature = "ai-candle")]
 use candle_transformers::models::phi3::{Config as PhiConfig, Model as PhiModel};
+#[allow(unused_imports)]
 #[cfg(feature = "ai-candle")]
 use hf_hub::api::tokio::Api;
+#[allow(unused_imports)]
 #[cfg(feature = "ai-candle")]
 use tokenizers::Tokenizer;
 
@@ -31,9 +35,7 @@ impl CandleEngine {
         // Full Phi-3 integration would require downloading ~3GB model
         info!("🕯️ Candle engine initialized (pattern-based mode)");
 
-        Ok(Self {
-            model_name: "pattern-based".to_string(),
-        })
+        Ok(Self { model_name: "pattern-based".to_string() })
     }
 
     /// Generate responses using pattern matching (fallback when no model)
@@ -131,11 +133,7 @@ impl AiEngine for CandleEngine {
         // A full implementation would load and run a Phi-3 or TinyLlama model
         let responses = self.generate_pattern_based(input, context);
 
-        if responses.is_empty() {
-            Err(anyhow::anyhow!("No responses generated"))
-        } else {
-            Ok(responses)
-        }
+        if responses.is_empty() { Err(anyhow::anyhow!("No responses generated")) } else { Ok(responses) }
     }
 
     fn is_ready(&self) -> bool {

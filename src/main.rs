@@ -187,11 +187,7 @@ async fn interactive_demo() -> Result<()> {
 
     println!(
         "\n{:?} asks questions → {:?} taps to respond",
-        if matches!(user_profile.user_type, UserType::Child { .. }) {
-            "Parent"
-        } else {
-            "Caregiver"
-        },
+        if matches!(user_profile.user_type, UserType::Child { .. }) { "Parent" } else { "Caregiver" },
         user_profile.name
     );
 
@@ -252,17 +248,11 @@ async fn interactive_demo() -> Result<()> {
                     tokio::runtime::Handle::current().block_on(engine.generate_suggestions(input))
                 }) {
                     Ok(ai_tiles) if !ai_tiles.is_empty() => {
-                        println!(
-                            "🤖 Using adaptive AI suggestions for {:?}",
-                            user_profile.user_type
-                        );
+                        println!("🤖 Using adaptive AI suggestions for {:?}", user_profile.user_type);
                         ai_tiles
                     }
                     _ => {
-                        println!(
-                            "📝 Using default responses for {:?}",
-                            user_profile.user_type
-                        );
+                        println!("📝 Using default responses for {:?}", user_profile.user_type);
                         user_profile
                             .get_contextual_responses(input)
                             .into_iter()
@@ -292,11 +282,7 @@ async fn interactive_demo() -> Result<()> {
                     println!("   {}. {} {}", i + 1, tile.emoji, tile.text);
                 }
 
-                println!(
-                    "\n💬 {} taps number (1-{}) to speak:",
-                    user_profile.name,
-                    tiles.len()
-                );
+                println!("\n💬 {} taps number (1-{}) to speak:", user_profile.name, tiles.len());
 
                 // Let user select a response to build conversation history
                 print!("👆 Your choice (or new question): ");
@@ -323,8 +309,7 @@ async fn interactive_demo() -> Result<()> {
                                     }
                                 }
                             }
-                        } else if !choice_input.is_empty() && choice_input.to_lowercase() != "quit"
-                        {
+                        } else if !choice_input.is_empty() && choice_input.to_lowercase() != "quit" {
                             // New parent question - continue loop
                             continue;
                         }

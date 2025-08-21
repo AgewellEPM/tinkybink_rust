@@ -42,15 +42,7 @@ impl TinkyBinkSystem {
 
         info!("All subsystems initialized successfully");
 
-        Ok(Self {
-            state,
-            speech_manager,
-            suggestion_engine,
-            ui_manager,
-            storage_manager,
-            event_tx,
-            event_rx,
-        })
+        Ok(Self { state, speech_manager, suggestion_engine, ui_manager, storage_manager, event_tx, event_rx })
     }
 
     pub async fn run(&mut self, headless: bool) -> Result<()> {
@@ -109,11 +101,7 @@ impl TinkyBinkSystem {
             }
 
             // Save state periodically
-            if let Err(e) = self
-                .storage_manager
-                .save_state(&*self.state.read().await)
-                .await
-            {
+            if let Err(e) = self.storage_manager.save_state(&*self.state.read().await).await {
                 warn!("Failed to save state: {}", e);
             }
         }
@@ -122,10 +110,7 @@ impl TinkyBinkSystem {
     }
 
     async fn handle_speech_input(&mut self, text: String, confidence: f32) -> Result<()> {
-        info!(
-            "Processing speech input: '{}' (confidence: {:.2})",
-            text, confidence
-        );
+        info!("Processing speech input: '{}' (confidence: {:.2})", text, confidence);
 
         // Add to conversation history
         {
@@ -175,12 +160,8 @@ impl TinkyBinkSystem {
         self.speech_manager.speak(&tile.text).await?;
 
         // Update UI
-        self.ui_manager
-            .update_chat_history(&*self.state.read().await)
-            .await?;
-        self.ui_manager
-            .update_speech_buffer(&*self.state.read().await)
-            .await?;
+        self.ui_manager.update_chat_history(&*self.state.read().await).await?;
+        self.ui_manager.update_speech_buffer(&*self.state.read().await).await?;
 
         Ok(())
     }
@@ -207,9 +188,7 @@ impl TinkyBinkSystem {
             }
         }
 
-        self.ui_manager
-            .update_speech_buffer(&*self.state.read().await)
-            .await?;
+        self.ui_manager.update_speech_buffer(&*self.state.read().await).await?;
         Ok(())
     }
 

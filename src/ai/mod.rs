@@ -13,18 +13,20 @@ use anyhow::Result;
 use tracing::{info, warn};
 
 pub mod candle_engine;
+pub mod gpt_core;
+pub mod gpt_core_es;
+pub mod gpt_core_hi;
+pub mod gpt_core_ru;
+pub mod gpt_core_zh;
 pub mod llama_engine;
+pub mod nano_gpt;
 pub mod ollama_engine;
 pub mod ollama_simple;
 pub mod online_engine;
-pub mod gpt_core;
-pub mod nano_gpt;
-pub mod gpt_core_es;
-pub mod gpt_core_zh;
-pub mod gpt_core_ru;
 
 /// Trait for AI engines that can generate child-like responses
 #[async_trait::async_trait]
+#[allow(dead_code)]
 pub trait AiEngine: Send + Sync {
     /// Generate a child-like response to the given input
     async fn generate_response(&self, input: &str, context: &AiContext) -> Result<Vec<AiResponse>>;
@@ -54,6 +56,7 @@ pub struct AiContext {
 }
 
 #[derive(Debug, Clone)]
+#[allow(dead_code)]
 pub struct EmotionalContext {
     pub happiness: f32,
     #[allow(dead_code)]
@@ -63,6 +66,7 @@ pub struct EmotionalContext {
 }
 
 #[derive(Debug, Clone)]
+#[allow(dead_code)]
 pub enum ResponseStyle {
     /// Simple yes/no responses
     Simple,
@@ -85,6 +89,7 @@ pub struct AiResponse {
 }
 
 #[derive(Debug, Clone)]
+#[allow(dead_code)]
 pub struct AiEngineInfo {
     pub name: String,
     pub model: String,
@@ -148,8 +153,9 @@ impl AiEngineFactory {
 
     /// Check which AI engines are available
     #[allow(dead_code)]
+    #[allow(unused_mut)]
     pub fn available_engines() -> Vec<String> {
-        let engines = Vec::new();
+        let mut engines = Vec::new();
 
         #[cfg(feature = "ai-llama")]
         engines.push("llama-cpp".to_string());
@@ -164,12 +170,7 @@ impl AiEngineFactory {
 impl Default for AiContext {
     fn default() -> Self {
         Self {
-            emotional_state: EmotionalContext {
-                happiness: 0.6,
-                energy: 0.5,
-                anxiety: 0.3,
-                confidence: 0.5,
-            },
+            emotional_state: EmotionalContext { happiness: 0.6, energy: 0.5, anxiety: 0.3, confidence: 0.5 },
             history: Vec::new(),
             style: ResponseStyle::Expressive,
             max_length: 50,

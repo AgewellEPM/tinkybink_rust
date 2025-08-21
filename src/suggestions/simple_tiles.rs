@@ -227,8 +227,8 @@ fn get_smart_emoji(word: &str) -> &'static str {
 /// Extract key words from parent input
 fn extract_key_words(text: &str) -> Vec<String> {
     let stop_words = vec![
-        "the", "a", "an", "to", "do", "you", "want", "would", "like", "let's", "can", "we", "i",
-        "me", "my", "your", "our", "go", "is", "are", "was", "were", "be", "been", "have", "has",
+        "the", "a", "an", "to", "do", "you", "want", "would", "like", "let's", "can", "we", "i", "me", "my", "your",
+        "our", "go", "is", "are", "was", "were", "be", "been", "have", "has",
     ];
 
     text.to_lowercase()
@@ -259,13 +259,7 @@ pub fn get_contextual_tiles(parent_input: &str) -> Vec<SuggestionTile> {
                     emoji: emoji.to_string(),
                     text: format!(
                         "Yes! {}",
-                        main_word
-                            .chars()
-                            .next()
-                            .unwrap()
-                            .to_uppercase()
-                            .collect::<String>()
-                            + &main_word[1..]
+                        main_word.chars().next().unwrap().to_uppercase().collect::<String>() + &main_word[1..]
                     ),
                     category: TileCategory::Choice,
                     confidence: 1.0,
@@ -296,13 +290,7 @@ pub fn get_contextual_tiles(parent_input: &str) -> Vec<SuggestionTile> {
                 emoji: "⏳".to_string(),
                 text: format!(
                     "{} later",
-                    main_topic
-                        .chars()
-                        .next()
-                        .unwrap()
-                        .to_uppercase()
-                        .collect::<String>()
-                        + &main_topic[1..]
+                    main_topic.chars().next().unwrap().to_uppercase().collect::<String>() + &main_topic[1..]
                 ),
                 category: TileCategory::BasicResponse,
                 confidence: 0.8,
@@ -333,21 +321,13 @@ pub fn get_contextual_tiles(parent_input: &str) -> Vec<SuggestionTile> {
             // Statements - predict child's likely responses
 
             // Check all key words for better context
-            let has_bed_context = key_words
+            let has_bed_context =
+                key_words.iter().any(|w| matches!(w.as_str(), "bed" | "sleep" | "nap" | "tired" | "bedtime"));
+            let has_food_context = key_words
                 .iter()
-                .any(|w| matches!(w.as_str(), "bed" | "sleep" | "nap" | "tired" | "bedtime"));
-            let has_food_context = key_words.iter().any(|w| {
-                matches!(
-                    w.as_str(),
-                    "eat" | "food" | "hungry" | "lunch" | "dinner" | "breakfast" | "snack"
-                )
-            });
-            let has_outside_context = key_words.iter().any(|w| {
-                matches!(
-                    w.as_str(),
-                    "park" | "outside" | "playground" | "walk" | "play"
-                )
-            });
+                .any(|w| matches!(w.as_str(), "eat" | "food" | "hungry" | "lunch" | "dinner" | "breakfast" | "snack"));
+            let has_outside_context =
+                key_words.iter().any(|w| matches!(w.as_str(), "park" | "outside" | "playground" | "walk" | "play"));
 
             if has_bed_context {
                 tiles.push(SuggestionTile {

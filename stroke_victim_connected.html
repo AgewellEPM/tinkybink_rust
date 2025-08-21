@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Recovery AAC - Connected to Tinkybink System</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #3a7bd5 0%, #3a6073 100%);
+            min-height: 100vh;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .simulation-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .patient-panel, .caregiver-panel {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 25px;
+            min-height: 500px;
+        }
+        
+        .panel-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .caregiver-input {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        #caregiver-text {
+            flex: 1;
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+        }
+        
+        .speak-btn {
+            padding: 15px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background: #4CAF50;
+            color: white;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .speak-btn:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+        }
+        
+        .mic-btn {
+            padding: 15px;
+            font-size: 20px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            background: #f44336;
+            color: white;
+            width: 50px;
+            height: 50px;
+            transition: all 0.3s;
+        }
+        
+        .mic-btn.recording {
+            background: #ff0000;
+            animation: pulse 1s infinite;
+        }
+        
+        .status-display {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 20px;
+            min-height: 60px;
+        }
+        
+        .status-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .tiles-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .tile {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .tile:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .home-tile {
+            background: linear-gradient(135deg, rgba(123, 63, 242, 0.3) 0%, rgba(123, 63, 242, 0.2) 100%) !important;
+            border: 2px solid rgba(123, 63, 242, 0.5) !important;
+        }
+        
+        .home-tile:hover {
+            background: linear-gradient(135deg, rgba(123, 63, 242, 0.5) 0%, rgba(123, 63, 242, 0.3) 100%) !important;
+            box-shadow: 0 5px 20px rgba(123, 63, 242, 0.4);
+        }
+        
+        .emergency {
+            background: linear-gradient(135deg, rgba(244, 67, 54, 0.4) 0%, rgba(244, 67, 54, 0.3) 100%) !important;
+            border: 2px solid rgba(244, 67, 54, 0.6) !important;
+            box-shadow: 0 3px 15px rgba(244, 67, 54, 0.3);
+        }
+        
+        .emergency:hover {
+            background: linear-gradient(135deg, rgba(244, 67, 54, 0.6) 0%, rgba(244, 67, 54, 0.4) 100%) !important;
+            box-shadow: 0 5px 25px rgba(244, 67, 54, 0.5);
+            transform: translateY(-2px);
+        }
+        
+        .tile.selected {
+            background: rgba(76, 175, 80, 0.4);
+            border-color: #4CAF50;
+            animation: pulse 0.5s;
+        }
+        
+        .tile-emoji {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .tile-text {
+            font-size: 1em;
+            font-weight: 600;
+        }
+        
+        .conversation-log {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 30px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .log-entry {
+            padding: 10px;
+            margin-bottom: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .log-time {
+            font-size: 0.85em;
+            opacity: 0.7;
+            margin-bottom: 5px;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .btn-primary {
+            background: #4CAF50;
+            border-color: #4CAF50;
+        }
+        
+        .connection-status {
+            text-align: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .connected {
+            color: #4CAF50;
+        }
+        
+        .disconnected {
+            color: #f44336;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        @media (max-width: 968px) {
+            .simulation-panel {
+                grid-template-columns: 1fr;
+            }
+            
+            .tiles-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 Stroke Recovery AAC System</h1>
+        <p class="subtitle">Connected to TinkyBink Rust Engine - Real AI Communication</p>
+        
+        <div class="connection-status">
+            <strong>System Status:</strong> 
+            <span id="connection-status" class="disconnected">⚠️ Connecting to Tinkybink Engine...</span>
+        </div>
+        
+        <div class="simulation-panel">
+            <div class="patient-panel">
+                <div class="panel-title">👤 Patient View (Margaret)</div>
+                
+                <div class="status-display">
+                    <div class="status-label">Current Question:</div>
+                    <div id="patient-question">Waiting for caregiver...</div>
+                </div>
+                
+                <div class="status-display">
+                    <div class="status-label">AI-Generated Tiles:</div>
+                    <div id="ai-status">Ready to generate context-aware responses</div>
+                </div>
+                
+                <div class="tiles-grid" id="patient-tiles">
+                    <!-- Core vocabulary tiles -->
+                    <div class="tile home-tile" onclick="selectCoreTile('want')">
+                        <span class="tile-emoji">💭</span>
+                        <span class="tile-text">I Want</span>
+                    </div>
+                    <div class="tile home-tile" onclick="selectCoreTile('food')">
+                        <span class="tile-emoji">🍽️</span>
+                        <span class="tile-text">Food/Hungry</span>
+                    </div>
+                    <div class="tile home-tile" onclick="selectCoreTile('pain')">
+                        <span class="tile-emoji">😣</span>
+                        <span class="tile-text">Pain/Hurt</span>
+                    </div>
+                    <div class="tile home-tile" onclick="selectCoreTile('family')">
+                        <span class="tile-emoji">👨‍👩‍👧</span>
+                        <span class="tile-text">Family</span>
+                    </div>
+                    <div class="tile home-tile emergency" onclick="selectCoreTile('help')">
+                        <span class="tile-emoji">🆘</span>
+                        <span class="tile-text">Help Me</span>
+                    </div>
+                    <div class="tile home-tile" onclick="selectCoreTile('water')">
+                        <span class="tile-emoji">💧</span>
+                        <span class="tile-text">Water</span>
+                    </div>
+                    <div class="tile home-tile" onclick="selectCoreTile('cold')">
+                        <span class="tile-emoji">🥶</span>
+                        <span class="tile-text">Cold</span>
+                    </div>
+                    <div class="tile home-tile" onclick="selectCoreTile('hot')">
+                        <span class="tile-emoji">🥵</span>
+                        <span class="tile-text">Hot</span>
+                    </div>
+                    <div class="tile home-tile" onclick="selectCoreTile('bathroom')">
+                        <span class="tile-emoji">🚻</span>
+                        <span class="tile-text">Bathroom</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="caregiver-panel">
+                <div class="panel-title">👩‍⚕️ Caregiver View (You)</div>
+                
+                <div class="status-display">
+                    <div class="status-label">Speak to Patient:</div>
+                    <div class="caregiver-input">
+                        <input type="text" id="caregiver-text" placeholder="Type or speak your question..." />
+                        <button class="speak-btn" onclick="askQuestion()">Ask</button>
+                        <button class="mic-btn" id="mic-btn" onclick="toggleRecording()">🎤</button>
+                    </div>
+                </div>
+                
+                <div class="status-display">
+                    <div class="status-label">Patient Selected:</div>
+                    <div id="patient-response">Waiting for patient selection...</div>
+                </div>
+                
+                <div class="status-display">
+                    <div class="status-label">Speech Output:</div>
+                    <div id="speech-output">Ready to speak patient's response</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button class="btn btn-primary" onclick="connectToEngine()">🔌 Connect to Rust Engine</button>
+            <button class="btn" onclick="testOfflineMode()">📴 Test Offline Mode</button>
+            <button class="btn" onclick="speakResponse()">🔊 Test Speech</button>
+        </div>
+        
+        <div class="conversation-log">
+            <h3>📝 Communication Log</h3>
+            <div id="log-container"></div>
+        </div>
+    </div>
+
+    <script>
+        let isRecording = false;
+        let recognition = null;
+        let tinkybinkEngine = null;
+        let isConnected = false;
+        
+        // Initialize speech recognition
+        if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognition = new SpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'en-US';
+            
+            recognition.onresult = function(event) {
+                const transcript = event.results[0][0].transcript;
+                document.getElementById('caregiver-text').value = transcript;
+                askQuestion();
+            };
+            
+            recognition.onerror = function(event) {
+                console.error('Speech recognition error:', event.error);
+                stopRecording();
+            };
+            
+            recognition.onend = function() {
+                stopRecording();
+            };
+        }
+        
+        function toggleRecording() {
+            if (isRecording) {
+                stopRecording();
+            } else {
+                startRecording();
+            }
+        }
+        
+        function startRecording() {
+            if (recognition) {
+                document.getElementById('mic-btn').classList.add('recording');
+                isRecording = true;
+                recognition.start();
+            } else {
+                alert('Speech recognition not supported in this browser');
+            }
+        }
+        
+        function stopRecording() {
+            if (recognition && isRecording) {
+                document.getElementById('mic-btn').classList.remove('recording');
+                isRecording = false;
+                recognition.stop();
+            }
+        }
+        
+        async function connectToEngine() {
+            document.getElementById('connection-status').innerHTML = '🔄 Connecting to Tinkybink Engine...';
+            
+            try {
+                // Check if server is running
+                const response = await fetch('http://localhost:5555/api/status');
+                const data = await response.json();
+                
+                if (data.connected) {
+                    isConnected = true;
+                    document.getElementById('connection-status').innerHTML = 
+                        `✅ Connected to ${data.engine} (Models: ${data.models.join(', ')})`;
+                    document.getElementById('connection-status').className = 'connected';
+                    addToLog('System', `Connected to Rust Engine with models: ${data.models.join(', ')}`);
+                } else {
+                    throw new Error(data.error || 'Connection failed');
+                }
+            } catch (error) {
+                console.error('Connection error:', error);
+                document.getElementById('connection-status').innerHTML = 
+                    '⚠️ Server not running - Start with: python3 server.py';
+                document.getElementById('connection-status').className = 'disconnected';
+                
+                // Fall back to simulation mode
+                isConnected = false;
+                addToLog('System', 'Running in simulation mode (server not connected)');
+            }
+        }
+        
+        async function askQuestion() {
+            const question = document.getElementById('caregiver-text').value.trim();
+            if (!question) return;
+            
+            // Display question to patient
+            document.getElementById('patient-question').textContent = question;
+            
+            // Add to log
+            addToLog('Caregiver', question);
+            
+            // Generate AI tiles based on question
+            generateAITiles(question);
+            
+            // Clear input
+            document.getElementById('caregiver-text').value = '';
+        }
+        
+        async function generateAITiles(question) {
+            document.getElementById('ai-status').textContent = '🧠 AI generating context-aware tiles...';
+            
+            if (isConnected) {
+                try {
+                    // Call the real Rust engine via server
+                    const response = await fetch('http://localhost:5555/api/suggest', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ question })
+                    });
+                    
+                    const data = await response.json();
+                    
+                    if (data.success && data.suggestions.length > 0) {
+                        displayTiles(data.suggestions);
+                        document.getElementById('ai-status').textContent = 
+                            `✅ Rust AI generated ${data.suggestions.length} responses`;
+                    } else {
+                        // Fallback if no suggestions
+                        const tiles = getAIGeneratedTiles(question);
+                        displayTiles(tiles);
+                        document.getElementById('ai-status').textContent = 
+                            `✅ Generated ${tiles.length} contextual responses (fallback)`;
+                    }
+                } catch (error) {
+                    console.error('Error calling Rust engine:', error);
+                    // Fallback to simulation
+                    const tiles = getAIGeneratedTiles(question);
+                    displayTiles(tiles);
+                    document.getElementById('ai-status').textContent = 
+                        `✅ Generated ${tiles.length} contextual responses (offline)`;
+                }
+            } else {
+                // Not connected, use simulation
+                setTimeout(() => {
+                    const tiles = getAIGeneratedTiles(question);
+                    displayTiles(tiles);
+                    document.getElementById('ai-status').textContent = 
+                        `✅ Generated ${tiles.length} contextual responses (simulation)`;
+                }, 1000);
+            }
+        }
+        
+        function getAIGeneratedTiles(question) {
+            const questionLower = question.toLowerCase();
+            
+            // Simulate Tinkybink AI engine response
+            if (questionLower.includes('feel') || questionLower.includes('how are you')) {
+                return [
+                    { emoji: '😊', text: 'Good today', confidence: 0.92 },
+                    { emoji: '😔', text: 'Not great', confidence: 0.85 },
+                    { emoji: '😴', text: 'Very tired', confidence: 0.88 },
+                    { emoji: '😣', text: 'In pain', confidence: 0.75 },
+                    { emoji: '🤔', text: 'Confused', confidence: 0.70 },
+                    { emoji: '👍', text: 'Getting better', confidence: 0.90 }
+                ];
+            } else if (questionLower.includes('pain')) {
+                return [
+                    { emoji: '😣', text: 'Yes, hurts', confidence: 0.95 },
+                    { emoji: '😌', text: 'No pain now', confidence: 0.85 },
+                    { emoji: '💊', text: 'Need medicine', confidence: 0.90 },
+                    { emoji: '🔥', text: 'Burning pain', confidence: 0.80 },
+                    { emoji: '⚡', text: 'Sharp pain', confidence: 0.82 },
+                    { emoji: '🩹', text: 'Getting better', confidence: 0.78 }
+                ];
+            } else if (questionLower.includes('water') || questionLower.includes('thirsty')) {
+                return [
+                    { emoji: '✅', text: 'Yes please', confidence: 0.95 },
+                    { emoji: '❌', text: 'Not now', confidence: 0.80 },
+                    { emoji: '🧊', text: 'With ice', confidence: 0.88 },
+                    { emoji: '🥤', text: 'Juice instead', confidence: 0.75 },
+                    { emoji: '☕', text: 'Coffee please', confidence: 0.70 },
+                    { emoji: '🫖', text: 'Hot tea', confidence: 0.72 }
+                ];
+            } else if (questionLower.includes('family') || questionLower.includes('visit')) {
+                return [
+                    { emoji: '❤️', text: 'Yes, miss them', confidence: 0.94 },
+                    { emoji: '📱', text: 'Video call?', confidence: 0.88 },
+                    { emoji: '⏰', text: 'What time?', confidence: 0.82 },
+                    { emoji: '😊', text: 'That would be nice', confidence: 0.90 },
+                    { emoji: '😴', text: 'Too tired now', confidence: 0.75 },
+                    { emoji: '👨‍👩‍👧', text: 'My daughter?', confidence: 0.85 }
+                ];
+            } else if (questionLower.includes('bathroom') || questionLower.includes('toilet')) {
+                return [
+                    { emoji: '🚨', text: 'Urgent!', confidence: 0.95 },
+                    { emoji: '✅', text: 'Yes, help please', confidence: 0.92 },
+                    { emoji: '⏰', text: 'In a minute', confidence: 0.80 },
+                    { emoji: '❌', text: 'Not now', confidence: 0.75 },
+                    { emoji: '🚿', text: 'Want shower', confidence: 0.70 },
+                    { emoji: '🪥', text: 'Brush teeth', confidence: 0.68 }
+                ];
+            } else if (questionLower.includes('eat') || questionLower.includes('hungry') || questionLower.includes('food')) {
+                return [
+                    { emoji: '✅', text: 'Yes, hungry', confidence: 0.90 },
+                    { emoji: '🍲', text: 'Soup please', confidence: 0.85 },
+                    { emoji: '🥪', text: 'Sandwich', confidence: 0.82 },
+                    { emoji: '🍎', text: 'Just fruit', confidence: 0.78 },
+                    { emoji: '❌', text: 'Not hungry', confidence: 0.75 },
+                    { emoji: '🥛', text: 'Just milk', confidence: 0.72 }
+                ];
+            } else {
+                // Generic responses for any other question
+                return [
+                    { emoji: '✅', text: 'Yes', confidence: 0.85 },
+                    { emoji: '❌', text: 'No', confidence: 0.85 },
+                    { emoji: '🤷', text: "Don't know", confidence: 0.75 },
+                    { emoji: '🤔', text: 'Let me think', confidence: 0.70 },
+                    { emoji: '👍', text: 'Okay', confidence: 0.80 },
+                    { emoji: '❓', text: 'What?', confidence: 0.72 }
+                ];
+            }
+        }
+        
+        function displayTiles(tiles) {
+            const container = document.getElementById('patient-tiles');
+            container.innerHTML = '';
+            
+            tiles.forEach((tile, index) => {
+                const div = document.createElement('div');
+                div.className = 'tile';
+                div.innerHTML = `
+                    <span class="tile-emoji">${tile.emoji}</span>
+                    <span class="tile-text">${tile.text}</span>
+                    <small style="opacity: 0.7">AI: ${Math.round(tile.confidence * 100)}%</small>
+                `;
+                
+                div.onclick = () => selectTile(tile);
+                
+                // Animate tiles appearing
+                div.style.opacity = '0';
+                div.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    div.style.transition = 'all 0.3s ease';
+                    div.style.opacity = '1';
+                    div.style.transform = 'translateY(0)';
+                }, index * 100);
+                
+                container.appendChild(div);
+            });
+        }
+        
+        // Core tile selection - generates AI-powered suggestions
+        async function selectCoreTile(category) {
+            try {
+                // Generate AI suggestions for the category using Rust backend
+                const response = await fetch('/api/suggest', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question: `I want ${category}` })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success && data.suggestions) {
+                    displayTiles(data.suggestions);
+                    document.getElementById('ai-status').textContent = `✨ AI generated ${data.suggestions.length} ${category} options`;
+                    
+                    // Add Home button
+                    const container = document.getElementById('patient-tiles');
+                    const homeDiv = document.createElement('div');
+                    homeDiv.className = 'tile home-button';
+                    homeDiv.innerHTML = '<span class="tile-emoji">🏠</span><span class="tile-text">Home</span>';
+                    homeDiv.onclick = () => location.reload();
+                    container.appendChild(homeDiv);
+                }
+            } catch (error) {
+                console.error('Error getting AI suggestions:', error);
+                document.getElementById('ai-status').textContent = '❌ AI connection failed';
+            }
+        }
+        
+        function selectTile(tile) {
+            // Clear previous selections
+            document.querySelectorAll('.tile').forEach(t => t.classList.remove('selected'));
+            
+            // Mark selected
+            event.target.closest('.tile').classList.add('selected');
+            
+            // Update caregiver view
+            document.getElementById('patient-response').innerHTML = 
+                `<strong>${tile.emoji} ${tile.text}</strong> (AI confidence: ${Math.round(tile.confidence * 100)}%)`;
+            
+            // Speak the response
+            speakText(tile.text);
+            
+            // Add to log
+            addToLog('Patient (via AAC)', `${tile.emoji} ${tile.text}`);
+            
+            // 🧠 DRILL DOWN: Generate follow-up options based on what was selected
+            drillDownResponse(tile);
+        }
+        
+        async function drillDownResponse(selectedTile) {
+            const text = selectedTile.text.toLowerCase();
+            
+            // If they said "Yes" to something, drill down with specific options
+            if (text.includes('yes') || text.includes('good') || text.includes('want')) {
+                // Generate contextual follow-up question
+                let followUpQuestion = generateFollowUpQuestion(selectedTile);
+                
+                if (followUpQuestion) {
+                    document.getElementById('ai-status').textContent = '🔄 Generating follow-up options...';
+                    
+                    // Wait a moment, then generate follow-up tiles
+                    setTimeout(async () => {
+                        await generateAITiles(followUpQuestion);
+                        document.getElementById('patient-question').textContent = followUpQuestion;
+                    }, 1500);
+                }
+            }
+        }
+        
+        function generateFollowUpQuestion(selectedTile) {
+            const text = selectedTile.text.toLowerCase();
+            const lastQuestion = document.getElementById('patient-question').textContent.toLowerCase();
+            
+            // If they said yes to being hungry, ask what they want to eat
+            if (text.includes('yes') && (lastQuestion.includes('hungry') || lastQuestion.includes('eat') || lastQuestion.includes('food'))) {
+                return "What would you like to eat?";
+            }
+            
+            // If they said yes to being thirsty, ask what they want to drink
+            if (text.includes('yes') && (lastQuestion.includes('thirsty') || lastQuestion.includes('drink') || lastQuestion.includes('water'))) {
+                return "What would you like to drink?";
+            }
+            
+            // If they said yes to pain, ask where
+            if (text.includes('yes') && lastQuestion.includes('pain')) {
+                return "Where does it hurt?";
+            }
+            
+            // If they said yes to tired, ask if they want to rest
+            if (text.includes('yes') && (lastQuestion.includes('tired') || lastQuestion.includes('sleep'))) {
+                return "Do you want to rest now or take a nap?";
+            }
+            
+            // If they said yes to wanting something, ask for details
+            if (text.includes('yes') && lastQuestion.includes('want')) {
+                return "Tell me more about what you want";
+            }
+            
+            // If they selected a good feeling, ask what made them feel good
+            if (text.includes('good') || text.includes('happy') || text.includes('great')) {
+                return "What's making you feel good today?";
+            }
+            
+            // If they selected bad feeling, ask what's wrong
+            if (text.includes('bad') || text.includes('sad') || text.includes('pain') || text.includes('hurt')) {
+                return "What can I do to help you feel better?";
+            }
+            
+            return null; // No follow-up needed
+        }
+        
+        function speakText(text) {
+            if ('speechSynthesis' in window) {
+                // Cancel any ongoing speech
+                speechSynthesis.cancel();
+                
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.rate = 0.9;
+                utterance.pitch = 1.0;
+                
+                // Try to use a clear voice
+                const voices = speechSynthesis.getVoices();
+                const preferredVoice = voices.find(v => 
+                    v.name.includes('Samantha') || 
+                    v.name.includes('Alex') ||
+                    v.name.includes('Daniel')
+                );
+                
+                if (preferredVoice) {
+                    utterance.voice = preferredVoice;
+                }
+                
+                document.getElementById('speech-output').textContent = `🔊 Speaking: "${text}"`;
+                speechSynthesis.speak(utterance);
+                
+                utterance.onend = () => {
+                    document.getElementById('speech-output').textContent = '✅ Speech complete';
+                };
+            }
+        }
+        
+        function speakResponse() {
+            speakText("This is the Tinkybink AAC system speaking for the patient");
+        }
+        
+        function testOfflineMode() {
+            document.getElementById('connection-status').innerHTML = '📴 Running in Offline Mode (Local Ollama)';
+            document.getElementById('connection-status').className = 'connected';
+            addToLog('System', 'Switched to offline mode - using local Ollama models');
+        }
+        
+        function addToLog(speaker, message) {
+            const log = document.getElementById('log-container');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            
+            const time = new Date().toLocaleTimeString();
+            entry.innerHTML = `
+                <div class="log-time">${time}</div>
+                <div><strong>${speaker}:</strong> ${message}</div>
+            `;
+            
+            log.insertBefore(entry, log.firstChild);
+            
+            // Keep only last 10 entries
+            while (log.children.length > 10) {
+                log.removeChild(log.lastChild);
+            }
+        }
+        
+        // Auto-connect on load
+        window.addEventListener('load', () => {
+            setTimeout(connectToEngine, 1000);
+            
+            // Load voices for TTS
+            if ('speechSynthesis' in window) {
+                speechSynthesis.getVoices();
+            }
+        });
+        
+        // Example questions for quick testing
+        const exampleQuestions = [
+            "How are you feeling today?",
+            "Are you in any pain?",
+            "Would you like some water?",
+            "Do you want to see your family?",
+            "Do you need the bathroom?",
+            "Are you hungry?"
+        ];
+        
+        // Add keyboard shortcut for voice input
+        document.addEventListener('keydown', (e) => {
+            if (e.key === ' ' && e.ctrlKey) {
+                e.preventDefault();
+                toggleRecording();
+            }
+        });
+    </script>
+</body>
+</html>

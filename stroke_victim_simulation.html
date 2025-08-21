@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Recovery Communication Simulation - TinkyBink AAC</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #3a7bd5 0%, #3a6073 100%);
+            min-height: 100vh;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .simulation-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .patient-panel, .caregiver-panel {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 25px;
+            min-height: 400px;
+        }
+        
+        .panel-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .status-display {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 20px;
+            min-height: 60px;
+        }
+        
+        .status-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .tiles-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .tile {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .tile:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .tile.selected {
+            background: rgba(76, 175, 80, 0.4);
+            border-color: #4CAF50;
+            animation: pulse 0.5s;
+        }
+        
+        .tile.emergency {
+            background: rgba(244, 67, 54, 0.3);
+            border-color: #f44336;
+        }
+        
+        .tile-emoji {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .tile-text {
+            font-size: 1em;
+            font-weight: 600;
+        }
+        
+        .conversation-log {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 30px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .log-entry {
+            padding: 10px;
+            margin-bottom: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .log-time {
+            font-size: 0.85em;
+            opacity: 0.7;
+            margin-bottom: 5px;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .btn-primary {
+            background: #4CAF50;
+            border-color: #4CAF50;
+        }
+        
+        .btn-emergency {
+            background: #f44336;
+            border-color: #f44336;
+        }
+        
+        .patient-info {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .progress-bar {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            height: 20px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            background: linear-gradient(90deg, #4CAF50, #8BC34A);
+            height: 100%;
+            width: 0;
+            transition: width 0.5s ease;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .simulation-state {
+            text-align: center;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 968px) {
+            .simulation-panel {
+                grid-template-columns: 1fr;
+            }
+            
+            .tiles-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 Stroke Recovery Communication Simulation</h1>
+        <p class="subtitle">TinkyBink AAC System - Helping Stroke Survivors Communicate</p>
+        
+        <div class="simulation-state">
+            <strong>Simulation Status:</strong> <span id="sim-status">Ready to Start</span> | 
+            <strong>Time Elapsed:</strong> <span id="sim-time">0:00</span>
+        </div>
+        
+        <div class="patient-info">
+            <h3>👤 Patient Profile: Margaret Thompson</h3>
+            <p><strong>Age:</strong> 68 years | <strong>Condition:</strong> Left hemisphere stroke (3 weeks post-onset)</p>
+            <p><strong>Symptoms:</strong> Expressive aphasia, right-side weakness, limited verbal output</p>
+            <p><strong>Communication Ability:</strong> Can understand most speech, struggles with word finding and speaking</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="recovery-progress"></div>
+            </div>
+            <small>Recovery Progress: <span id="recovery-percent">15%</span></small>
+        </div>
+        
+        <div class="simulation-panel">
+            <div class="patient-panel">
+                <div class="panel-title">👤 Patient View (Margaret)</div>
+                
+                <div class="status-display">
+                    <div class="status-label">Current Need:</div>
+                    <div id="patient-need">Feeling thirsty and needs water</div>
+                </div>
+                
+                <div class="status-display">
+                    <div class="status-label">Emotional State:</div>
+                    <div id="patient-emotion">Frustrated but determined</div>
+                </div>
+                
+                <div class="tiles-grid" id="patient-tiles">
+                    <!-- Tiles will be generated here -->
+                </div>
+            </div>
+            
+            <div class="caregiver-panel">
+                <div class="panel-title">👩‍⚕️ Caregiver View (Nurse Sarah)</div>
+                
+                <div class="status-display">
+                    <div class="status-label">Patient Communication:</div>
+                    <div id="caregiver-message">Waiting for patient input...</div>
+                </div>
+                
+                <div class="status-display">
+                    <div class="status-label">Suggested Response:</div>
+                    <div id="caregiver-response">Ready to assist</div>
+                </div>
+                
+                <div class="status-display">
+                    <div class="status-label">AI Analysis:</div>
+                    <div id="ai-analysis">Monitoring patient communication patterns...</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button class="btn btn-primary" id="start-btn">🎬 Start Simulation</button>
+            <button class="btn" id="pause-btn">⏸️ Pause</button>
+            <button class="btn" id="reset-btn">🔄 Reset</button>
+            <button class="btn btn-emergency" id="emergency-btn">🚨 Simulate Emergency</button>
+        </div>
+        
+        <div class="conversation-log">
+            <h3>📝 Communication Log</h3>
+            <div id="log-container"></div>
+        </div>
+    </div>
+
+    <script>
+        class StrokeSimulation {
+            constructor() {
+                this.isRunning = false;
+                this.timeElapsed = 0;
+                this.currentScenario = 0;
+                this.recoveryProgress = 15;
+                
+                this.scenarios = [
+                    {
+                        need: "Feeling thirsty and needs water",
+                        emotion: "Frustrated but determined",
+                        correctTile: "water",
+                        urgency: "normal"
+                    },
+                    {
+                        need: "Experiencing pain in right arm",
+                        emotion: "Anxious and uncomfortable",
+                        correctTile: "pain",
+                        urgency: "high"
+                    },
+                    {
+                        need: "Wants to see family members",
+                        emotion: "Lonely and sad",
+                        correctTile: "family",
+                        urgency: "normal"
+                    },
+                    {
+                        need: "Needs to use the bathroom",
+                        emotion: "Urgent and worried",
+                        correctTile: "bathroom",
+                        urgency: "high"
+                    },
+                    {
+                        need: "Feeling cold, needs a blanket",
+                        emotion: "Uncomfortable",
+                        correctTile: "cold",
+                        urgency: "normal"
+                    },
+                    {
+                        need: "Wants to know the time",
+                        emotion: "Confused about time of day",
+                        correctTile: "time",
+                        urgency: "low"
+                    }
+                ];
+                
+                this.tiles = [
+                    { id: 'water', emoji: '💧', text: 'Water/Drink', category: 'basic' },
+                    { id: 'food', emoji: '🍽️', text: 'Food/Hungry', category: 'basic' },
+                    { id: 'pain', emoji: '😣', text: 'Pain/Hurt', category: 'medical' },
+                    { id: 'bathroom', emoji: '🚻', text: 'Bathroom', category: 'basic' },
+                    { id: 'help', emoji: '🆘', text: 'Help Me', category: 'emergency' },
+                    { id: 'family', emoji: '👨‍👩‍👧', text: 'Family', category: 'social' },
+                    { id: 'cold', emoji: '🥶', text: 'Cold', category: 'comfort' },
+                    { id: 'hot', emoji: '🥵', text: 'Hot', category: 'comfort' },
+                    { id: 'time', emoji: '🕐', text: 'What Time?', category: 'info' }
+                ];
+                
+                this.initializeUI();
+                this.setupEventListeners();
+            }
+            
+            initializeUI() {
+                this.renderTiles();
+                this.updateStatus();
+            }
+            
+            renderTiles() {
+                const container = document.getElementById('patient-tiles');
+                container.innerHTML = '';
+                
+                this.tiles.forEach(tile => {
+                    const div = document.createElement('div');
+                    div.className = 'tile';
+                    if (tile.category === 'emergency') {
+                        div.className += ' emergency';
+                    }
+                    div.innerHTML = `
+                        <span class="tile-emoji">${tile.emoji}</span>
+                        <span class="tile-text">${tile.text}</span>
+                    `;
+                    div.dataset.tileId = tile.id;
+                    
+                    div.addEventListener('click', () => this.selectTile(tile));
+                    
+                    container.appendChild(div);
+                });
+            }
+            
+            setupEventListeners() {
+                document.getElementById('start-btn').addEventListener('click', () => this.start());
+                document.getElementById('pause-btn').addEventListener('click', () => this.pause());
+                document.getElementById('reset-btn').addEventListener('click', () => this.reset());
+                document.getElementById('emergency-btn').addEventListener('click', () => this.simulateEmergency());
+            }
+            
+            start() {
+                if (!this.isRunning) {
+                    this.isRunning = true;
+                    document.getElementById('sim-status').textContent = 'Running';
+                    document.getElementById('start-btn').textContent = '⏸️ Pause';
+                    this.startTimer();
+                    this.runScenario();
+                }
+            }
+            
+            pause() {
+                this.isRunning = false;
+                document.getElementById('sim-status').textContent = 'Paused';
+                document.getElementById('start-btn').textContent = '▶️ Resume';
+            }
+            
+            reset() {
+                this.isRunning = false;
+                this.timeElapsed = 0;
+                this.currentScenario = 0;
+                this.recoveryProgress = 15;
+                this.updateStatus();
+                document.getElementById('sim-status').textContent = 'Ready to Start';
+                document.getElementById('start-btn').textContent = '🎬 Start Simulation';
+                document.getElementById('log-container').innerHTML = '';
+                this.clearSelectedTiles();
+            }
+            
+            startTimer() {
+                setInterval(() => {
+                    if (this.isRunning) {
+                        this.timeElapsed++;
+                        const minutes = Math.floor(this.timeElapsed / 60);
+                        const seconds = this.timeElapsed % 60;
+                        document.getElementById('sim-time').textContent = 
+                            `${minutes}:${seconds.toString().padStart(2, '0')}`;
+                    }
+                }, 1000);
+            }
+            
+            runScenario() {
+                if (!this.isRunning) return;
+                
+                const scenario = this.scenarios[this.currentScenario];
+                document.getElementById('patient-need').textContent = scenario.need;
+                document.getElementById('patient-emotion').textContent = scenario.emotion;
+                
+                // Simulate patient attempting to communicate
+                setTimeout(() => {
+                    if (this.isRunning) {
+                        this.simulatePatientAttempt(scenario);
+                    }
+                }, 3000);
+            }
+            
+            simulatePatientAttempt(scenario) {
+                // Simulate patient struggling to find the right tile
+                const tiles = document.querySelectorAll('.tile');
+                let attempts = 0;
+                
+                const attemptInterval = setInterval(() => {
+                    if (!this.isRunning || attempts >= 2) {
+                        clearInterval(attemptInterval);
+                        if (this.isRunning) {
+                            // Finally select the correct tile
+                            const correctTile = this.tiles.find(t => t.id === scenario.correctTile);
+                            this.selectTile(correctTile, true);
+                        }
+                        return;
+                    }
+                    
+                    // Highlight random tile briefly (showing confusion)
+                    const randomTile = tiles[Math.floor(Math.random() * tiles.length)];
+                    randomTile.style.background = 'rgba(255, 255, 255, 0.3)';
+                    setTimeout(() => {
+                        randomTile.style.background = '';
+                    }, 500);
+                    
+                    attempts++;
+                }, 1500);
+            }
+            
+            selectTile(tile, isAutomatic = false) {
+                this.clearSelectedTiles();
+                
+                const tileElement = document.querySelector(`[data-tile-id="${tile.id}"]`);
+                tileElement.classList.add('selected');
+                
+                // Update caregiver view
+                document.getElementById('caregiver-message').innerHTML = 
+                    `<strong>Patient selected:</strong> ${tile.emoji} ${tile.text}`;
+                
+                // Generate appropriate response
+                const response = this.generateCaregiverResponse(tile);
+                document.getElementById('caregiver-response').textContent = response;
+                
+                // AI Analysis
+                const analysis = this.generateAIAnalysis(tile, isAutomatic);
+                document.getElementById('ai-analysis').textContent = analysis;
+                
+                // Add to log
+                this.addToLog(tile, response, isAutomatic);
+                
+                // Update recovery progress
+                if (isAutomatic) {
+                    this.updateRecoveryProgress();
+                }
+                
+                // Move to next scenario after delay
+                if (isAutomatic) {
+                    setTimeout(() => {
+                        if (this.isRunning) {
+                            this.nextScenario();
+                        }
+                    }, 5000);
+                }
+            }
+            
+            clearSelectedTiles() {
+                document.querySelectorAll('.tile').forEach(tile => {
+                    tile.classList.remove('selected');
+                });
+            }
+            
+            generateCaregiverResponse(tile) {
+                const responses = {
+                    'water': "I'll get you some water right away. Would you like ice?",
+                    'food': "I'll check what meals are available. Any preferences?",
+                    'pain': "I'll notify the doctor immediately. Can you point to where it hurts?",
+                    'bathroom': "I'll help you right away. Let me get assistance.",
+                    'help': "I'm here to help. What do you need?",
+                    'family': "I'll contact your family. They visited this morning.",
+                    'cold': "I'll get you a warm blanket right away.",
+                    'hot': "I'll adjust the temperature and get you some cool water.",
+                    'time': "It's currently 2:30 PM. You had lunch an hour ago."
+                };
+                
+                return responses[tile.id] || "I understand. Let me help you with that.";
+            }
+            
+            generateAIAnalysis(tile, isAutomatic) {
+                if (isAutomatic) {
+                    return `Pattern detected: Patient shows ${Math.floor(Math.random() * 3) + 2} second delay in selection. Confidence level: ${Math.floor(Math.random() * 20) + 70}%. Suggesting larger tile size for frequently used items.`;
+                } else {
+                    return `Quick selection indicates familiarity with system. Response time improving. Consider adding personalized tiles for common needs.`;
+                }
+            }
+            
+            addToLog(tile, response, isAutomatic) {
+                const log = document.getElementById('log-container');
+                const entry = document.createElement('div');
+                entry.className = 'log-entry';
+                
+                const time = new Date().toLocaleTimeString();
+                entry.innerHTML = `
+                    <div class="log-time">${time} ${isAutomatic ? '(Simulated)' : '(Manual)'}</div>
+                    <div><strong>Patient:</strong> ${tile.emoji} ${tile.text}</div>
+                    <div><strong>Caregiver:</strong> ${response}</div>
+                `;
+                
+                log.insertBefore(entry, log.firstChild);
+                
+                // Keep only last 10 entries
+                while (log.children.length > 10) {
+                    log.removeChild(log.lastChild);
+                }
+            }
+            
+            updateRecoveryProgress() {
+                this.recoveryProgress = Math.min(100, this.recoveryProgress + 5);
+                document.getElementById('recovery-progress').style.width = this.recoveryProgress + '%';
+                document.getElementById('recovery-percent').textContent = this.recoveryProgress + '%';
+            }
+            
+            nextScenario() {
+                this.currentScenario = (this.currentScenario + 1) % this.scenarios.length;
+                this.clearSelectedTiles();
+                document.getElementById('caregiver-message').textContent = 'Waiting for patient input...';
+                document.getElementById('caregiver-response').textContent = 'Ready to assist';
+                this.runScenario();
+            }
+            
+            simulateEmergency() {
+                this.isRunning = true;
+                document.getElementById('sim-status').textContent = '🚨 EMERGENCY';
+                document.getElementById('patient-need').textContent = 'SEVERE CHEST PAIN - EMERGENCY';
+                document.getElementById('patient-emotion').textContent = 'Panicked and in severe distress';
+                
+                // Auto-select help tile
+                setTimeout(() => {
+                    const helpTile = this.tiles.find(t => t.id === 'help');
+                    this.selectTile(helpTile, true);
+                    
+                    document.getElementById('caregiver-response').textContent = 
+                        '🚨 CODE BLUE ACTIVATED - Medical team responding immediately!';
+                    document.getElementById('ai-analysis').textContent = 
+                        'EMERGENCY DETECTED: Vital signs irregular. Response team ETA: 30 seconds. Patient history indicates cardiac risk.';
+                }, 1000);
+            }
+            
+            updateStatus() {
+                document.getElementById('sim-time').textContent = '0:00';
+                document.getElementById('recovery-progress').style.width = this.recoveryProgress + '%';
+                document.getElementById('recovery-percent').textContent = this.recoveryProgress + '%';
+            }
+        }
+        
+        // Initialize simulation when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            new StrokeSimulation();
+        });
+    </script>
+</body>
+</html>
